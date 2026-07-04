@@ -30,11 +30,14 @@ def _mailto(signal: str, title: str, tags: list) -> str:
     to = os.environ.get("GMAIL_ADDRESS") or os.environ.get("DIGEST_TO", "")
     tagstr = " ".join(f"#{t}" for t in (tags or []))
     verb = "More like this" if signal == "up" else "Less like this"
-    q = urllib.parse.urlencode(
-        {"subject": "[taste] " + ("👍" if signal == "up" else "👎"),
-         "body": f'{verb}: "{title}" {tagstr}'.strip()}
-    )
-    return f"mailto:{to}?{q}"
+    subject = "[taste] " + ("👍" if signal == "up" else "👎")
+    body = f'{verb}: "{title}" {tagstr}'.strip()
+    # Gmail web-compose, not mailto: a mailto link opens whatever the device's
+    # default mail app happens to be (which may not even be signed in), while
+    # this always opens Gmail directly — in-app on mobile, in-browser elsewhere.
+    q = urllib.parse.urlencode({"view": "cm", "fs": "1", "to": to,
+                                "su": subject, "body": body})
+    return f"https://mail.google.com/mail/?{q}"
 
 
 # ── the daily page ────────────────────────────────────────────────────
@@ -199,9 +202,10 @@ def _trial_note(trial: list | None) -> str:
 def _more_mailto() -> str:
     to = os.environ.get("GMAIL_ADDRESS") or os.environ.get("DIGEST_TO", "")
     q = urllib.parse.urlencode(
-        {"subject": "[more]", "body": "Send me another edition."}
+        {"view": "cm", "fs": "1", "to": to, "su": "[more]",
+         "body": "Send me another edition."}
     )
-    return f"mailto:{to}?{q}"
+    return f"https://mail.google.com/mail/?{q}"
 
 
 # ── the teaser email ─────────────────────────────────────────────────
