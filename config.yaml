@@ -24,6 +24,16 @@ interests:
   - health, longevity, peptides, stem cells, diabetes (research & credible reporting)
   - 3D printing, digital fabrication, and modern creation tools
   - making physical things
+  - cultural transmission and youth identity (memes, slang, aesthetics as language)
+  - social software history — why some communication tools reshape culture
+  - taste formation — how taste emerges and spreads
+  - small-group community design and engineered belonging
+  - non-verbal / visual emotional expression systems
+  - mythmaking and lore creation (belief systems people want to join)
+  - the aesthetics of technology — how tech feels and changes behavior
+  - alternative institutions and internet-native organizations
+  - peak performance ecosystems (physiology + psychology + long-term capability)
+  - status, prestige, and how cultural capital moves
 
 # RSS/Atom sources. Grouped only for your reference; the curator sees them flat.
 feeds:
@@ -76,6 +86,7 @@ youtube_channels:
   "Applied Science": UCivA7_KLKWo43tFcCkFvydw
   "Great Art Explained": UCePDFpCr78_qmVtpoB1Axaw
   "CNC Kitchen": UCiczXOhGpvoQGhOL16EZiTg
+  "Tom Sachs Studio": "@tomsachsstudio"
 
 # ── Experts: individual humans worth following directly (any RSS works here)
 experts:
@@ -85,6 +96,12 @@ experts:
   - https://waitbutwhy.com/feed                # Tim Urban
   - https://simonwillison.net/atom/everything/ # Simon Willison — AI/tools
   - https://berthub.eu/articles/index.xml      # Bert Hubert — deep tech essays
+  - https://www.robinsloan.com/feed.xml        # Robin Sloan — tech, culture, craft
+  - https://sentiers.media/feed/               # Sentiers — culture/tech/cities patterns
+  - https://www.ribbonfarm.com/feed/           # Ribbonfarm — systems + internet culture
+  - https://nadia.xyz/feed.xml                 # Nadia Asparouhova — communities, institutions
+  - https://www.dwarkesh.com/feed              # Dwarkesh Patel — long-form frontier interviews
+  - https://thecreativeindependent.com/feed.xml # artists on creative lives
 
 # ── Source scout: weekly, Claude hunts for NEW sources matching your taste
 scout:
@@ -100,12 +117,18 @@ deep_read:
 
 # ── Serendipity: surface what you'd love but don't know to ask for
 interestingness: >
-  What actually hooks him, independent of topic: obsessive craft and process;
-  hidden systems that quietly run the world; people who went unreasonably deep
-  on one narrow thing; the edge where physical and digital meet; beautiful
-  explanations of hard ideas; deep time and long-term thinking; the strange
-  history behind ordinary objects; perception and how brains construct reality.
-  A great pick can be about ANYTHING if it has these qualities.
+  The core hook is the intersection of beauty, systems, and human behavior —
+  things that reveal the invisible forces shaping people: incentives, rituals,
+  symbols, status, identity, feedback loops. Expressive, playful surfaces with
+  deep structure underneath. Obsessive craft and people who went unreasonably
+  deep on one narrow thing. The edge where physical and digital meet. Frontier
+  environments (early internet cultures, scenes, art movements, emerging youth
+  culture) where social systems are visible before they harden into institutions.
+  Category-blurring: art that functions as community, software as self-expression,
+  mythology as product design, technology as culture. Hidden systems that quietly
+  run the world; deep time; how brains construct reality; the strange history of
+  ordinary objects. Technical novelty alone rarely hooks him — it lands when it
+  changes how people feel, relate, create, or organize.
 
 serendipity:
   wildcards_per_day: 1     # items deliberately OUTSIDE stated interests
@@ -128,3 +151,26 @@ serendipity:
     - robotics, actuators, and haptics
     - archaeology and experimental history
     - mycology and weird biology
+    - the Situationist International and psychogeography
+    - nightclub architecture and social choreography of spaces
+    - religion as a system — ritual, symbol, and cohesion
+    - Japanese Metabolist architecture
+    - media archaeology — dead networks that predicted the future
+    - luxury branding history — how objects become symbols
+    - ethology — signaling, hierarchy, and play in animals
+    - experimental education movements
+    - Renaissance courts and patronage systems
+    - second-order cybernetics and self-organizing systems
+    - temporary autonomous zones, festivals, pop-up communities
+    - fashion anthropology — clothing as identity technology
+    - new religious movements and how shared meaning forms
+    - environmental psychology — how spaces alter behavior unnoticed
+    - amateur naturalism — obsessive attention to the physical world
+
+# ── Anti-interests: hard negative signal — never spend a slot on these
+anti_interests:
+  - generic productivity content or optimization theater
+  - mainstream business media collapsing into quarterly metrics and career advice
+  - pure technical deep-dives with no human/cultural consequence
+  - generic self-help and motivational content
+  - celebrity news, franchise discourse, algorithmic pop-culture commentary

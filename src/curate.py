@@ -42,6 +42,9 @@ TRIAGE_PROMPT = """## The reader
 ## Learned taste (from their feedback — weight heavily)
 {taste}
 
+## Anti-interests — NEVER spend a slot on these
+{anti}
+
 ## Today's exploration topic (rotates daily — hunt here too)
 {explore}
 
@@ -73,6 +76,9 @@ DEEP_PROMPT = """## The reader
 ## Learned taste
 {taste}
 
+## Anti-interests — NEVER include these
+{anti}
+
 ## Shortlisted pieces — with ACTUAL EXCERPTS you fetched and can now judge
 {excerpts}
 
@@ -102,6 +108,11 @@ Return ONLY JSON:
   "facts": [{{"fact": "one surprising, verifiable sentence", "url": "string"}}],
   "make_something": null OR {{"prompt": "string (2-4 sentences, tied to today's themes)"}}}}"""
 
+
+
+def _anti(config: dict) -> str:
+    items = config.get("anti_interests") or []
+    return "\n".join(f"- {a}" for a in items) or "(none)"
 
 def _make_clause(allow: bool) -> str:
     if allow:
@@ -181,6 +192,7 @@ def curate(config: dict, candidates: list[dict], taste: str = "") -> dict:
         interests="\n".join(f"- {i}" for i in config["interests"]),
         interestingness=(config.get("interestingness") or "").strip() or "(none)",
         taste=taste.strip() or "(none yet)",
+        anti=_anti(config),
         explore=explore,
         candidates=_cand_lines(candidates),
         queries="\n".join(f"- {q}" for q in config.get("search_queries", [])),
@@ -213,6 +225,7 @@ def curate(config: dict, candidates: list[dict], taste: str = "") -> dict:
     deep_prompt = DEEP_PROMPT.format(
         persona=config["persona"].strip(),
         taste=taste.strip() or "(none yet)",
+        anti=_anti(config),
         excerpts=excerpt_block,
         n=config.get("target_item_count", 7),
         make_clause=_make_clause(allow_make),

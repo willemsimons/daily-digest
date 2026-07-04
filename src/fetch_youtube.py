@@ -13,12 +13,31 @@ import requests
 UA = "Mozilla/5.0 (compatible; DailyDigest/1.0)"
 
 
+def _resolve_handle(handle: str) -> str | None:
+    """Resolve a @handle to a channel_id by fetching the channel page."""
+    import re
+    try:
+        r = requests.get(f"https://www.youtube.com/{handle}",
+                         headers={"User-Agent": UA}, timeout=15)
+        r.raise_for_status()
+        m = re.search(r'"channelId":"(UC[\w-]{22})"', r.text)
+        return m.group(1) if m else None
+    except Exception as e:
+        print(f"  ! handle resolve failed: {handle} ({e})")
+        return None
+
+
 def fetch_youtube(channels: dict, lookback_hours: int) -> list[dict]:
     if not channels:
         return []
     cutoff = datetime.now(timezone.utc) - timedelta(hours=max(lookback_hours, 96))
     out: list[dict] = []
     for name, cid in channels.items():
+        if str(cid).startswith("@"):
+            resolved = _resolve_handle(cid)
+            if not resolved:
+                continue
+            cid = resolved
         url = f"https://www.youtube.com/feeds/videos.xml?channel_id={cid}"
         try:
             resp = requests.get(url, headers={"User-Agent": UA}, timeout=15)
