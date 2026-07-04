@@ -9,12 +9,12 @@ import os
 import urllib.parse
 from datetime import datetime, timezone
 
-INK = "#1c1c1e"
-MUTE = "#8a8a8e"
-LINE = "#e4e4e6"
-BG = "#f4f4f5"
+INK = "#1c1c1c"
+MUTE = "#8a8a8a"
+LINE = "#e4e4e4"
+BG = "#f4f4f4"
 CARD = "#ffffff"
-ACCENT = "#1c1c1e"   # minimal: accent is just strong ink, not a color pop
+ACCENT = "#1c1c1c"   # minimal: accent is just strong ink, not a color pop
 
 
 def _esc(s: str) -> str:
@@ -57,8 +57,8 @@ def _page_item(it: dict) -> str:
       {thumb}
       <p class="b">{blurb}</p>
       <div class="fb">
-        <a href="{_esc(_mailto('up', raw, tags))}">👍 more</a> ·
-        <a href="{_esc(_mailto('down', raw, tags))}">👎 less</a>
+        <a href="{_esc(_mailto('up', raw, tags))}">&#9650; more</a> &nbsp;&middot;&nbsp;
+        <a href="{_esc(_mailto('down', raw, tags))}">&#9660; less</a>
       </div>
     </article>"""
 
@@ -145,7 +145,7 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
   header {{ margin-bottom: 36px; }}
   h1 {{ font-size: 22px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }}
   .date {{ color:{MUTE}; font-size: 13px; margin-top: 4px; font-weight: 500; }}
-  .intro {{ font-size: 16px; line-height: 1.55; color:#4a4a4e; margin-top: 16px; font-weight: 400; }}
+  .intro {{ font-size: 16px; line-height: 1.55; color:#4a4a4a; margin-top: 16px; font-weight: 400; }}
   h2 {{ color:{MUTE}; font-size: 12px; font-weight: 600; letter-spacing: .08em;
         text-transform: uppercase; margin: 0 0 14px; }}
   section {{ margin-bottom: 36px; }}
@@ -155,7 +155,7 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
         display: block; }}
   .t:hover {{ opacity: 0.7; }}
   .src {{ color:{MUTE}; font-size: 11.5px; font-weight: 500; letter-spacing: .02em; margin: 5px 0 8px; }}
-  .b {{ font-size: 14.5px; line-height: 1.55; margin: 0 0 10px; color:#3a3a3e; font-weight: 400; }}
+  .b {{ font-size: 14.5px; line-height: 1.55; margin: 0 0 10px; color:#3a3a3a; font-weight: 400; }}
   .fb, .fb a {{ font-size: 12px; color:{MUTE}; text-decoration: none; font-weight: 500; }}
   .fb a:hover {{ color:{INK}; }}
   .facts ul {{ list-style: none; padding: 0; margin: 0; }}
@@ -164,7 +164,7 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
   .facts a {{ color:{MUTE}; text-decoration: none; font-weight: 600; }}
   .make {{ background:{CARD}; border: 1px solid {LINE}; border-radius: 14px; padding: 20px 22px; margin-top: 40px; }}
   .make h2 {{ margin-top: 0; }}
-  .make p {{ font-size: 14.5px; line-height: 1.55; margin: 0; color:#3a3a3e; }}
+  .make p {{ font-size: 14.5px; line-height: 1.55; margin: 0; color:#3a3a3a; }}
   footer {{ margin-top: 44px; padding-top: 16px; border-top: 1px solid {LINE};
             color:{MUTE}; font-size: 12px; line-height: 1.6; }}
   footer a {{ color:{MUTE}; }}
@@ -181,7 +181,7 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
   {events_html}
   {make_html}
   {_trial_note(trial_sources)}
-  <footer>Tap 👍/👎 on anything, or reply to the email — “go deeper on surrealism”,
+  <footer>Tap the arrows on anything, or reply to the email — “go deeper on surrealism”,
   “drop crypto”, “shorter” — and tomorrow adjusts. <a href="index.html">Latest</a></footer>
 </div></body></html>"""
 
