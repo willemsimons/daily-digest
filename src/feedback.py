@@ -49,6 +49,8 @@ def _strip_quoted(text: str) -> str:
 def check_more_request() -> bool:
     """Check for a '[more]' request email (from the 'Send me more' button).
     Marks it read so it only fires once. Returns True if one was found."""
+    if os.environ.get("FORCE_MORE"):
+        return True
     gmail = os.environ.get("GMAIL_ADDRESS")
     app_pw = os.environ.get("GMAIL_APP_PASSWORD")
     if not gmail or not app_pw:
