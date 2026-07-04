@@ -91,3 +91,40 @@ scout:
   enabled: true
   day: Sunday        # runs before that day's digest
   max_new_sources: 3 # added to a trial list; your thumbs keep or kill them
+
+# ── Deep read: fetch & skim shortlisted articles before final ranking
+deep_read:
+  enabled: true
+  shortlist_size: 18     # triage pass narrows ~200 candidates to this
+  excerpt_chars: 1600    # how much of each article the final judge reads
+
+# ── Serendipity: surface what you'd love but don't know to ask for
+interestingness: >
+  What actually hooks him, independent of topic: obsessive craft and process;
+  hidden systems that quietly run the world; people who went unreasonably deep
+  on one narrow thing; the edge where physical and digital meet; beautiful
+  explanations of hard ideas; deep time and long-term thinking; the strange
+  history behind ordinary objects; perception and how brains construct reality.
+  A great pick can be about ANYTHING if it has these qualities.
+
+serendipity:
+  wildcards_per_day: 1     # items deliberately OUTSIDE stated interests
+  explore_topics:          # rotating pool; one is injected into each day's hunt
+    - materials science and metamaterials
+    - neuroscience of perception and illusion
+    - animal cognition and communication
+    - computational design and generative architecture
+    - the history of labyrinths, mazes, and wayfinding
+    - optics, light art, and how vision works
+    - sound design, synthesis, and psychoacoustics
+    - infrastructure and how cities actually work
+    - deep sea and space imaging
+    - the economics of craft and manufacturing
+    - cartography and the history of maps
+    - biomimicry and natural engineering
+    - horology and precision mechanics
+    - typography and the history of letterforms
+    - fermentation, food science, and metabolic health
+    - robotics, actuators, and haptics
+    - archaeology and experimental history
+    - mycology and weird biology
