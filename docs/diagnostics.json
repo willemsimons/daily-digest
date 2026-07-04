@@ -1,5 +1,5 @@
 {
-  "feeds": 80,
+  "feeds": 57,
   "mined": 45,
   "videos": 8,
   "video_titles": [
@@ -10,19 +10,20 @@
     "The disappearing ink that isn\u2019t ink",
     "The Anti Trampoline Effect",
     "Atomic Force Microscope high-speed video, selective stainless steel etching, bacteria, and more",
-    "Is This Laser the 3D Printing Solution We Needed?"
+    "REMAKE: Vincent Van Gogh's The Starry Night: Great Art Explained"
   ],
-  "supplemental": false,
-  "final_items": 7,
+  "supplemental": true,
+  "final_items": 8,
   "final_sources": [
-    "Applied Science / YouTube",
-    "Ars Technica",
-    "Cell Stem Cell / Mount Sinai",
-    "Mass General Brigham / The Lancet",
-    "Ubuntu / Canonical",
-    "University of Exeter / Science",
-    "marijnhaverbeke.nl"
+    "Amanecia Health",
+    "Anna's Archive",
+    "Euronews",
+    "Mike Bowler's blog",
+    "Quanta Magazine",
+    "ScienceDaily / Cell Stem Cell",
+    "Veritasium",
+    "javoriuski.com"
   ],
   "had_video": true,
-  "run_at": "2026-07-04T04:05:19.167491+00:00"
+  "run_at": "2026-07-04T21:24:22.754904+00:00"
 }
