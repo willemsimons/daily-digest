@@ -60,6 +60,30 @@ def _page_item(it: dict) -> str:
     </article>"""
 
 
+def _art_pick(p: dict) -> str:
+    medium = _esc((p.get("medium") or "").upper())
+    title, creator = _esc(p.get("title", "")), _esc(p.get("creator", ""))
+    why, url = _esc(p.get("why", "")), _esc(p.get("url", "#"))
+    return f"""
+    <article>
+      <div class="src">{medium}</div>
+      <a class="t" href="{url}" target="_blank" rel="noopener">{title}</a>
+      <div class="src" style="margin-top:2px;text-transform:none;letter-spacing:0;">{creator}</div>
+      <p class="b" style="margin-top:8px;">{why}</p>
+    </article>"""
+
+
+def _event(e: dict) -> str:
+    name, venue = _esc(e.get("name", "")), _esc(e.get("venue", ""))
+    date, why, url = _esc(e.get("date", "")), _esc(e.get("why", "")), _esc(e.get("url", "#"))
+    return f"""
+    <article>
+      <a class="t" href="{url}" target="_blank" rel="noopener">{name}</a>
+      <div class="src">{venue} &middot; {date}</div>
+      <p class="b" style="margin-top:8px;">{why}</p>
+    </article>"""
+
+
 def render_page(digest: dict, trial_sources: list | None = None) -> str:
     intro = _esc(digest.get("intro", ""))
     sections = "".join(
@@ -79,6 +103,18 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
             for f in facts
         )
         facts_html = f'<section class="facts"><h2>Facts of the day</h2><ul>{lis}</ul></section>'
+
+    art_picks = digest.get("art_picks") or []
+    art_html = ""
+    if art_picks:
+        art_html = (f'<section><h2>For you</h2>'
+                    f'{"".join(_art_pick(p) for p in art_picks)}</section>')
+
+    events = digest.get("events") or []
+    events_html = ""
+    if events:
+        events_html = (f'<section><h2>Happening in New York</h2>'
+                       f'{"".join(_event(e) for e in events)}</section>')
 
     make = digest.get("make_something")
     make_html = (
@@ -138,6 +174,8 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
   </header>
   {sections}
   {facts_html}
+  {art_html}
+  {events_html}
   {make_html}
   {_trial_note(trial_sources)}
   <footer>Tap 👍/👎 on anything, or reply to the email — “go deeper on surrealism”,
@@ -196,6 +234,17 @@ def render_email(digest: dict, page_url: str, supplemental: bool = False) -> str
             f'{_esc(facts[0].get("fact",""))}</div>'
         )
 
+    extras = []
+    if digest.get("art_picks"):
+        extras.append(f"{len(digest['art_picks'])} things to watch/see/hear")
+    if digest.get("events"):
+        extras.append(f"{len(digest['events'])} NYC picks")
+    extras_html = (
+        f'<div style="margin-top:12px;color:{MUTE};font-size:13px;">Also on the page: '
+        + " &middot; ".join(extras) + "</div>"
+        if extras else ""
+    )
+
     heading = "More for today" if supplemental else "The Daily"
     more_url = _esc(_more_mailto())
 
@@ -208,6 +257,7 @@ def render_email(digest: dict, page_url: str, supplemental: bool = False) -> str
        margin-bottom:22px;">{intro}</div>
     {''.join(rows)}
     {hook}
+    {extras_html}
     <div style="margin:28px 0 0;">
       <a href="{url}" style="display:inline-block;background:{INK};color:{BG};
          text-decoration:none;font-size:15px;font-weight:600;padding:13px 26px;

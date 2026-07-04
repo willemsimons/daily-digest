@@ -174,3 +174,15 @@ anti_interests:
   - pure technical deep-dives with no human/cultural consequence
   - generic self-help and motivational content
   - celebrity news, franchise discourse, algorithmic pop-culture commentary
+
+# ── Taste picks: art the curator thinks you'd love, tied to your signature
+taste_picks:
+  enabled: true
+  count: 3   # roughly one film/show, one visual-art piece, one song — mix varies by day
+
+# ── NYC events: concerts, museum shows, pop-ups matching your taste
+events:
+  enabled: true
+  city: New York City
+  count: 5
+  lookahead_days: 14

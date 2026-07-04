@@ -10,7 +10,7 @@ import sys
 
 import yaml
 
-from src import fetch_feeds, fetch_links, fetch_youtube, scout, curate, render, send, state, feedback, taste
+from src import fetch_feeds, fetch_links, fetch_youtube, scout, curate, picks, render, send, state, feedback, taste
 
 
 def load_config() -> dict:
@@ -59,6 +59,11 @@ def main(dry_run: bool = False, supplemental: bool = False) -> None:
 
     print("· curating")
     digest = curate.curate(cfg, candidates, taste_profile)
+
+    if not supplemental:  # taste picks + events run once a day, not on supplements
+        extra = picks.get_picks(cfg, taste_profile)
+        digest["art_picks"] = extra.get("art_picks", [])
+        digest["events"] = extra.get("events", [])
 
     n = sum(len(s.get("items", [])) for s in digest.get("sections", []))
     print(f"· curated {n} items, {len(digest.get('facts', []))} facts")
