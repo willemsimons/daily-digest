@@ -60,7 +60,10 @@ Triage. Return the {shortlist} MOST promising URLs for a deep-read pass:
 - Include 1-2 from the exploration topic if you find something great.
 - Include 2-3 WILDCARDS: pieces OUTSIDE their stated interests that strongly
   match the interestingness signature. Surprise them well.
-- Keep at most 2 [VIDEO] items, only if genuinely worth watch time.
+- VIDEOS: include the 1 best [VIDEO] candidate if any are worth the watch time
+  (2 only on an exceptional video day). Videos have no text excerpt for the next
+  stage, so if you shortlist a video you are vouching for it — judge it here on
+  title + channel + your knowledge of that creator.
 - Prefer primary/deep sources over news-about-news. Citation candidates
   (linked by commenters) are often the gold — favor them when strong.
 
@@ -87,6 +90,10 @@ You've now READ these. Build today's briefing from the genuinely best ~{n}
 (fewer if the day is thin — excerpts reveal duds; cut anything that under-delivers
 on its title, and say nothing about it).
 - Group under 1-4 short natural section headings shaped by what you chose.
+- Any [VIDEO] in the shortlist was already vetted at triage and has no excerpt
+  by design — do NOT cut it for lacking one. If a video is present, include it
+  (carry its thumbnail through) unless it truly clashes with the day; write its
+  blurb from the title, channel, and what that creator reliably delivers.
 - Include the best wildcard as its own item — place it in a fitting section or
   a section of its own (e.g. "Off the map"). Never label it "wildcard" in text;
   let it simply be surprising.
