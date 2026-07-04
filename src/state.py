@@ -42,3 +42,14 @@ def publish(html: str) -> str:
         with open(os.path.join(DOCS_DIR, name), "w") as f:
             f.write(html)
     return day
+
+
+def write_diagnostics(diag: dict) -> None:
+    """Write a per-run diagnostics file into docs/ so we can inspect source
+    counts without needing the GitHub Actions logs."""
+    import json
+    from datetime import datetime, timezone
+    diag["run_at"] = datetime.now(timezone.utc).isoformat()
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    with open(os.path.join(DOCS_DIR, "diagnostics.json"), "w") as f:
+        json.dump(diag, f, indent=2)

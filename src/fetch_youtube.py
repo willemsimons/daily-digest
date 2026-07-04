@@ -30,7 +30,7 @@ def _resolve_handle(handle: str) -> str | None:
 def fetch_youtube(channels: dict, lookback_hours: int) -> list[dict]:
     if not channels:
         return []
-    cutoff = datetime.now(timezone.utc) - timedelta(hours=max(lookback_hours, 96))
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=max(lookback_hours, 336))
     out: list[dict] = []
     for name, cid in channels.items():
         if str(cid).startswith("@"):

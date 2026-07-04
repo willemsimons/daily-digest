@@ -43,10 +43,13 @@ def main(dry_run: bool = False) -> None:
     feeds = dict(cfg["feeds"])
     if cfg.get("experts"):
         feeds["experts"] = cfg["experts"]
-    candidates = fetch_feeds.fetch_feeds(feeds, cfg.get("lookback_hours", 48))
-    candidates += fetch_links.mine_links(cfg)
-    candidates += fetch_youtube.fetch_youtube(cfg.get("youtube_channels") or {},
-                                              cfg.get("lookback_hours", 48))
+    feed_items = fetch_feeds.fetch_feeds(feeds, cfg.get("lookback_hours", 48))
+    mined = fetch_links.mine_links(cfg)
+    videos = fetch_youtube.fetch_youtube(cfg.get("youtube_channels") or {},
+                                         cfg.get("lookback_hours", 48))
+    candidates = feed_items + mined + videos
+    diag = {"feeds": len(feed_items), "mined": len(mined), "videos": len(videos),
+            "video_titles": [v["title"] for v in videos]}
 
     seen = state.load_seen()
     candidates = state.drop_seen(candidates, seen)
@@ -57,6 +60,12 @@ def main(dry_run: bool = False) -> None:
 
     n = sum(len(s.get("items", [])) for s in digest.get("sections", []))
     print(f"· curated {n} items, {len(digest.get('facts', []))} facts")
+    diag["final_items"] = n
+    diag["final_sources"] = sorted({it.get("source","") for s in digest.get("sections", [])
+                                    for it in s.get("items", [])})
+    diag["had_video"] = any(it.get("thumbnail") for s in digest.get("sections", [])
+                            for it in s.get("items", []))
+    state.write_diagnostics(diag)
 
     page = render.render_page(digest, trial_sources)
     slug = state.publish(page)
