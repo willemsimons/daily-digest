@@ -88,13 +88,32 @@ def _make_clause(allow: bool) -> str:
 
 
 def _extract_json(resp) -> dict:
-    text = "".join(b.text for b in resp.content if b.type == "text").strip()
-    if text.startswith("```"):
-        text = text.split("```", 2)[1]
-        if text.startswith("json"):
-            text = text[4:]
-        text = text.strip("` \n")
-    return json.loads(text)
+    # With web search enabled, the response interleaves commentary text blocks
+    # with search results; the JSON we want is normally in the LAST text block.
+    texts = [b.text for b in resp.content if b.type == "text" and b.text.strip()]
+    candidates = [t.strip() for t in reversed(texts)]
+    if len(texts) > 1:
+        candidates.append("\n".join(texts).strip())
+    for text in candidates:
+        if text.startswith("```"):
+            text = text.split("```", 2)[1]
+            if text.startswith("json"):
+                text = text[4:]
+            text = text.strip("` \n")
+        try:
+            return json.loads(text)
+        except json.JSONDecodeError:
+            start, end = text.find("{"), text.rfind("}")
+            if start != -1 and end > start:
+                try:
+                    return json.loads(text[start : end + 1])
+                except json.JSONDecodeError:
+                    pass
+    raise ValueError(
+        "model response contained no parseable JSON "
+        f"(stop_reason={resp.stop_reason}); text blocks were:\n"
+        + "\n---\n".join(texts)[:2000]
+    )
 
 
 def curate(config: dict, candidates: list[dict], taste: str = "") -> dict:
@@ -116,11 +135,27 @@ def curate(config: dict, candidates: list[dict], taste: str = "") -> dict:
         make_clause=_make_clause(allow_make),
     )
 
+    model = config.get("model", "claude-sonnet-4-6")
+    tools = [{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}]
+    messages = [{"role": "user", "content": prompt}]
+
     resp = client.messages.create(
-        model=config.get("model", "claude-sonnet-4-6"),
-        max_tokens=4000,
+        model=model,
+        max_tokens=8000,
         system=SYSTEM,
-        messages=[{"role": "user", "content": prompt}],
-        tools=[{"type": "web_search_20250305", "name": "web_search", "max_uses": 8}],
+        messages=messages,
+        tools=tools,
     )
+    # Server-side web search can pause mid-turn; re-send to let it continue.
+    for _ in range(5):
+        if resp.stop_reason != "pause_turn":
+            break
+        messages = messages + [{"role": "assistant", "content": resp.content}]
+        resp = client.messages.create(
+            model=model,
+            max_tokens=8000,
+            system=SYSTEM,
+            messages=messages,
+            tools=tools,
+        )
     return _extract_json(resp)
