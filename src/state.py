@@ -48,6 +48,25 @@ def publish(html: str, suffix: str | None = None) -> str:
     return slug
 
 
+def save_last_digest(digest: dict, trial_sources: list | None = None) -> None:
+    """Persist the raw curated digest so a pure styling change can be
+    re-rendered later without paying for a full re-curation."""
+    import json
+    os.makedirs(STATE_DIR, exist_ok=True)
+    with open(os.path.join(STATE_DIR, "last_digest.json"), "w") as f:
+        json.dump({"digest": digest, "trial_sources": trial_sources or []}, f, indent=2)
+
+
+def load_last_digest() -> tuple[dict, list] | None:
+    import json
+    try:
+        with open(os.path.join(STATE_DIR, "last_digest.json")) as f:
+            d = json.load(f)
+        return d["digest"], d.get("trial_sources", [])
+    except (FileNotFoundError, json.JSONDecodeError, KeyError):
+        return None
+
+
 def write_diagnostics(diag: dict) -> None:
     """Write a per-run diagnostics file into docs/ so we can inspect source
     counts without needing the GitHub Actions logs."""

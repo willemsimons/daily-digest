@@ -64,7 +64,6 @@ def main(dry_run: bool = False, supplemental: bool = False) -> None:
         extra = picks.get_picks(cfg, taste_profile)
         digest["art_picks"] = extra.get("art_picks", [])
         digest["events"] = extra.get("events", [])
-
     n = sum(len(s.get("items", [])) for s in digest.get("sections", []))
     print(f"· curated {n} items, {len(digest.get('facts', []))} facts")
     diag["final_items"] = n
@@ -73,6 +72,8 @@ def main(dry_run: bool = False, supplemental: bool = False) -> None:
     diag["had_video"] = any(it.get("thumbnail") for s in digest.get("sections", [])
                             for it in s.get("items", []))
     state.write_diagnostics(diag)
+    if not supplemental:
+        state.save_last_digest(digest, trial_sources)
 
     page = render.render_page(digest, trial_sources)
     slug = state.publish(page, suffix="-more" if supplemental else None)
