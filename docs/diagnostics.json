@@ -1,0 +1,28 @@
+{
+  "feeds": 80,
+  "mined": 46,
+  "videos": 8,
+  "video_titles": [
+    "AD - Why do I get this spark when I unplug my hair dryer?",
+    "Why do these metronomes sync up?",
+    "We've Been Using The Wrong Science In Court For 50 years",
+    "Why clouds and foam are white",
+    "The disappearing ink that isn\u2019t ink",
+    "The Anti Trampoline Effect",
+    "Atomic Force Microscope high-speed video, selective stainless steel etching, bacteria, and more",
+    "Is This Laser the 3D Printing Solution We Needed?"
+  ],
+  "final_items": 8,
+  "final_sources": [
+    "Ars Technica",
+    "Epoch AI",
+    "Hackaday",
+    "Organised Sound / Cambridge University Press",
+    "Phenomenal World",
+    "ScienceDaily / Mount Sinai / Cell Stem Cell",
+    "Surfing Complexity",
+    "katamari64.se"
+  ],
+  "had_video": false,
+  "run_at": "2026-07-04T03:50:20.514804+00:00"
+}
