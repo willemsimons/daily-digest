@@ -41,10 +41,16 @@ def _page_item(it: dict) -> str:
     t, u = _esc(it.get("title", "")), _esc(it.get("url", "#"))
     src, blurb = _esc(it.get("source", "")), _esc(it.get("blurb", ""))
     raw, tags = it.get("title", ""), it.get("tags", [])
+    thumb = ""
+    if it.get("thumbnail"):
+        thumb = (f'<a href="{u}" target="_blank" rel="noopener">'
+                 f'<img src="{_esc(it["thumbnail"])}" alt="" loading="lazy" '
+                 f'style="width:100%;border-radius:10px;margin:10px 0 4px;display:block;"></a>')
     return f"""
     <article>
       <a class="t" href="{u}" target="_blank" rel="noopener">{t}</a>
       <div class="src">{src}</div>
+      {thumb}
       <p class="b">{blurb}</p>
       <div class="fb">
         <a href="{_esc(_mailto('up', raw, tags))}">👍 more</a> ·
@@ -53,7 +59,7 @@ def _page_item(it: dict) -> str:
     </article>"""
 
 
-def render_page(digest: dict) -> str:
+def render_page(digest: dict, trial_sources: list | None = None) -> str:
     intro = _esc(digest.get("intro", ""))
     sections = "".join(
         f"""<section>
@@ -123,9 +129,23 @@ def render_page(digest: dict) -> str:
   {sections}
   {facts_html}
   {make_html}
+  {_trial_note(trial_sources)}
   <footer>Tap 👍/👎 on anything, or reply to the email — “go deeper on surrealism”,
   “drop crypto”, “shorter” — and tomorrow adjusts. <a href="index.html">Latest</a></footer>
 </div></body></html>"""
+
+
+def _trial_note(trial: list | None) -> str:
+    if not trial:
+        return ""
+    rows = "".join(
+        f'<li><b>{_esc(s.get("name",""))}</b> — {_esc(s.get("why",""))}</li>'
+        for s in trial
+    )
+    return (f'<section class="make" style="margin-top:32px;"><h2>New sources on trial</h2>'
+            f'<p style="margin:0 0 10px;">The scout added these this week — thumbs on their '
+            f'items decide if they stay:</p><ul style="margin:0;padding-left:20px;'
+            f'font-size:15px;line-height:1.6;">{rows}</ul></section>')
 
 
 # ── the teaser email ─────────────────────────────────────────────────

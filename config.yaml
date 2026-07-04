@@ -56,3 +56,38 @@ search_queries:
   - diabetes research news this week
   - peptide therapy research (credible / scientific sources)
   - new 3D printing and digital fabrication tools this week
+
+# ── Citation mining: harvest what smart communities LINK TO, not what they post
+link_mining:
+  enabled: true
+  hn_min_points: 80          # front-page-ish stories
+  hn_stories_to_mine: 6      # walk comments of top N stories for cited links
+  reddit_comment_subs:       # mine top-post comment threads for outbound links
+    - TrueFilm
+    - AskHistorians
+    - 3Dprinting
+    - psychology
+
+# ── YouTube channels (free RSS, no API). name: channel_id
+youtube_channels:
+  Veritasium: UCHnyfMqiRRG1u-2MsSQLbXA
+  "Stuff Made Here": UCj1VqrHhDte54oLgPG4xpuQ
+  "Steve Mould": UCEIwxahdLz7bap-VDs9h35A
+  "Applied Science": UCivA7_KLKWo43tFcCkFvydw
+  "Great Art Explained": UCePDFpCr78_qmVtpoB1Axaw
+  "CNC Kitchen": UCiczXOhGpvoQGhOL16EZiTg
+
+# ── Experts: individual humans worth following directly (any RSS works here)
+experts:
+  - https://worksinprogress.co/feed/          # progress studies essays
+  - https://www.construction-physics.com/feed  # Brian Potter — how things get built
+  - https://astralcodexten.substack.com/feed   # Scott Alexander
+  - https://waitbutwhy.com/feed                # Tim Urban
+  - https://simonwillison.net/atom/everything/ # Simon Willison — AI/tools
+  - https://berthub.eu/articles/index.xml      # Bert Hubert — deep tech essays
+
+# ── Source scout: weekly, Claude hunts for NEW sources matching your taste
+scout:
+  enabled: true
+  day: Sunday        # runs before that day's digest
+  max_new_sources: 3 # added to a trial list; your thumbs keep or kill them

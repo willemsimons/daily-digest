@@ -10,7 +10,7 @@ import sys
 
 import yaml
 
-from src import fetch_feeds, curate, render, send, state, feedback, taste
+from src import fetch_feeds, fetch_links, fetch_youtube, scout, curate, render, send, state, feedback, taste
 
 
 def load_config() -> dict:
@@ -35,8 +35,18 @@ def main(dry_run: bool = False) -> None:
     notes = feedback.fetch_feedback()
     taste_profile = taste.update_taste(cfg, notes)
 
+    trial_sources = scout.run_scout(cfg, taste_profile)
+    if trial_sources:
+        cfg = load_config()  # reload: scout may have added trial feeds
+
     print("· fetching feeds")
-    candidates = fetch_feeds.fetch_feeds(cfg["feeds"], cfg.get("lookback_hours", 48))
+    feeds = dict(cfg["feeds"])
+    if cfg.get("experts"):
+        feeds["experts"] = cfg["experts"]
+    candidates = fetch_feeds.fetch_feeds(feeds, cfg.get("lookback_hours", 48))
+    candidates += fetch_links.mine_links(cfg)
+    candidates += fetch_youtube.fetch_youtube(cfg.get("youtube_channels") or {},
+                                              cfg.get("lookback_hours", 48))
 
     seen = state.load_seen()
     candidates = state.drop_seen(candidates, seen)
@@ -48,7 +58,7 @@ def main(dry_run: bool = False) -> None:
     n = sum(len(s.get("items", [])) for s in digest.get("sections", []))
     print(f"· curated {n} items, {len(digest.get('facts', []))} facts")
 
-    page = render.render_page(digest)
+    page = render.render_page(digest, trial_sources)
     slug = state.publish(page)
     base = os.environ.get("SITE_BASE_URL", "").rstrip("/")
     page_url = f"{base}/{slug}.html" if base else f"{slug}.html"

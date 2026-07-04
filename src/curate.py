@@ -56,6 +56,11 @@ Build today's briefing.
   drawn from today's items or your searches. Each one sentence, each the kind of
   thing that makes someone say "wait, really?". Include a source URL for each.
 - Write one short intro line (<= 18 words) framing the day.
+- Candidates marked [VIDEO] are YouTube videos: include at most 1-2, and only
+  when genuinely worth the watch time; copy their thumbnail URL through.
+- Candidates marked as "citations" were LINKED BY commenters in smart communities
+  — these are often the deepest sources. When you pick one, give it a real title
+  (fetch/infer from the URL and context) instead of the placeholder.
 - Every item and fact MUST have a real, working URL (from the candidates or your search).
 {make_clause}
 
@@ -67,7 +72,8 @@ Return ONLY valid JSON, no prose, no markdown fences:
     {{"heading": "string",
       "items": [
         {{"title": "string", "source": "string", "url": "string", "blurb": "string",
-          "tags": ["1-3 short lowercase topic tags, e.g. surrealism, geopolitics"]}}
+          "tags": ["1-3 short lowercase topic tags, e.g. surrealism, geopolitics"],
+          "thumbnail": "url string, ONLY for video items, else omit"}}
       ]}}
   ],
   "facts": [
@@ -121,8 +127,10 @@ def curate(config: dict, candidates: list[dict], taste: str = "") -> dict:
 
     allow_make = random.random() < float(config.get("make_something_chance", 0.35))
     cand_lines = "\n".join(
-        f"- [{c['source']}] {c['title']} — {c['url']}\n    {c.get('summary', '')[:200]}"
-        for c in candidates[:120]
+        f"- {'[VIDEO] ' if c.get('is_video') else ''}[{c['source']}] {c['title']} — {c['url']}"
+        + (f"\n    thumbnail: {c['thumbnail']}" if c.get('thumbnail') else "")
+        + f"\n    {c.get('summary', '')[:200]}"
+        for c in candidates[:150]
     ) or "(no feed candidates today — rely on search)"
 
     prompt = PROMPT.format(
