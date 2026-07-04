@@ -1,0 +1,58 @@
+# ── Daily Digest config ──────────────────────────────────────────────
+# Everything the curator needs to know about you lives here.
+
+model: claude-sonnet-4-6      # curation model. swap to claude-opus-4-8 for richer days
+target_item_count: 7          # how many things to surface (curator picks the best)
+make_something_chance: 0.35   # ~1 in 3 days it appends a "make something" prompt
+lookback_hours: 48            # ignore feed items older than this
+
+# One paragraph in your own voice. This steers taste more than anything else.
+persona: >
+  Willem — founder, artist, and builder in New York. Works across physical/digital
+  art, interactive WebGL, hardware, and generative 3D. Loves rabbit-hole essays and
+  things that make him want to go make something. Curious, technical, allergic to
+  listicles, hype, and engagement-bait. Wants signal, not a feed.
+
+interests:
+  - current events (the few things that actually matter today, not the churn)
+  - geopolitics
+  - innovations in tech and science
+  - cultural moments worth knowing about
+  - psychology
+  - art, surrealism, film
+  - history
+  - health, longevity, peptides, stem cells, diabetes (research & credible reporting)
+  - 3D printing, digital fabrication, and modern creation tools
+  - making physical things
+
+# RSS/Atom sources. Grouped only for your reference; the curator sees them flat.
+feeds:
+  tech_science:
+    - https://hnrss.org/frontpage
+    - https://feeds.arstechnica.com/arstechnica/index
+    - https://www.technologyreview.com/feed/
+  essays_ideas:
+    - https://aeon.co/feed.rss
+    - https://nautil.us/feed/
+    - https://publicdomainreview.org/rss.xml
+  art_making:
+    - https://www.thisiscolossal.com/feed/
+    - https://hackaday.com/feed/
+  reddit:
+    - https://www.reddit.com/r/Art/top/.rss?t=day
+    - https://www.reddit.com/r/surrealism/top/.rss?t=week
+    - https://www.reddit.com/r/TrueFilm/top/.rss?t=week
+    - https://www.reddit.com/r/3Dprinting/top/.rss?t=week
+    - https://www.reddit.com/r/functionalprint/top/.rss?t=week
+    - https://www.reddit.com/r/psychology/top/.rss?t=week
+    - https://www.reddit.com/r/history/top/.rss?t=week
+
+# Fast-moving / research-y topics do better as fresh searches than static feeds.
+# The curator runs these with web search and prefers credible, primary sources.
+search_queries:
+  - most important world news today
+  - notable geopolitics analysis this week
+  - recent stem cell research breakthrough
+  - diabetes research news this week
+  - peptide therapy research (credible / scientific sources)
+  - new 3D printing and digital fabrication tools this week
