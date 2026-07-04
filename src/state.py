@@ -32,16 +32,20 @@ def drop_seen(items: list[dict], seen: set[str]) -> list[dict]:
     return [it for it in items if it.get("url") not in seen]
 
 
-def publish(html: str) -> str:
+def publish(html: str, suffix: str | None = None) -> str:
     """Write today's page into docs/ (served by GitHub Pages).
     docs/YYYY-MM-DD.html is the permanent URL; docs/index.html is always latest.
-    Returns the day slug, e.g. '2026-07-01'."""
+    A suffix (e.g. '-more') publishes a distinct dated page without touching
+    index.html, so a supplemental edition doesn't overwrite the day's main one.
+    Returns the day slug, e.g. '2026-07-01' or '2026-07-01-more'."""
     os.makedirs(DOCS_DIR, exist_ok=True)
     day = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    for name in (f"{day}.html", "index.html"):
+    slug = f"{day}{suffix}" if suffix else day
+    names = [f"{slug}.html"] if suffix else [f"{slug}.html", "index.html"]
+    for name in names:
         with open(os.path.join(DOCS_DIR, name), "w") as f:
             f.write(html)
-    return day
+    return slug
 
 
 def write_diagnostics(diag: dict) -> None:

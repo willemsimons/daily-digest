@@ -46,6 +46,35 @@ def _strip_quoted(text: str) -> str:
     return "\n".join(out).strip()
 
 
+def check_more_request() -> bool:
+    """Check for a '[more]' request email (from the 'Send me more' button).
+    Marks it read so it only fires once. Returns True if one was found."""
+    gmail = os.environ.get("GMAIL_ADDRESS")
+    app_pw = os.environ.get("GMAIL_APP_PASSWORD")
+    if not gmail or not app_pw:
+        return False
+    allowed = {gmail.lower(), os.environ.get("DIGEST_TO", gmail).lower()}
+    try:
+        M = imaplib.IMAP4_SSL("imap.gmail.com")
+        M.login(gmail, app_pw)
+        M.select("INBOX")
+        typ, data = M.search(None, '(UNSEEN SUBJECT "[more]")')
+        ids = data[0].split() if typ == "OK" and data and data[0] else []
+        found = False
+        for mid in ids:
+            _, d = M.fetch(mid, "(RFC822)")
+            msg = email.message_from_bytes(d[0][1])
+            sender = email.utils.parseaddr(msg.get("From", ""))[1].lower()
+            if sender in allowed:
+                found = True
+            M.store(mid, "+FLAGS", "\\Seen")
+        M.logout()
+        return found
+    except Exception as e:
+        print(f"  ! more-check failed ({e})")
+        return False
+
+
 def fetch_feedback() -> list[str]:
     gmail = os.environ.get("GMAIL_ADDRESS")
     app_pw = os.environ.get("GMAIL_APP_PASSWORD")

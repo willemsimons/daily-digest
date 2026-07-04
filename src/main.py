@@ -28,16 +28,18 @@ def collect_urls(digest: dict) -> list[str]:
     ]
 
 
-def main(dry_run: bool = False) -> None:
+def main(dry_run: bool = False, supplemental: bool = False) -> None:
     cfg = load_config()
 
     print("· reading feedback")
     notes = feedback.fetch_feedback()
     taste_profile = taste.update_taste(cfg, notes)
 
-    trial_sources = scout.run_scout(cfg, taste_profile)
-    if trial_sources:
-        cfg = load_config()  # reload: scout may have added trial feeds
+    trial_sources = []
+    if not supplemental:  # scout only runs on the normal daily cadence
+        trial_sources = scout.run_scout(cfg, taste_profile)
+        if trial_sources:
+            cfg = load_config()  # reload: scout may have added trial feeds
 
     print("· fetching feeds")
     feeds = dict(cfg["feeds"])
@@ -49,7 +51,7 @@ def main(dry_run: bool = False) -> None:
                                          cfg.get("lookback_hours", 48))
     candidates = feed_items + mined + videos
     diag = {"feeds": len(feed_items), "mined": len(mined), "videos": len(videos),
-            "video_titles": [v["title"] for v in videos]}
+            "video_titles": [v["title"] for v in videos], "supplemental": supplemental}
 
     seen = state.load_seen()
     candidates = state.drop_seen(candidates, seen)
@@ -68,7 +70,7 @@ def main(dry_run: bool = False) -> None:
     state.write_diagnostics(diag)
 
     page = render.render_page(digest, trial_sources)
-    slug = state.publish(page)
+    slug = state.publish(page, suffix="-more" if supplemental else None)
     base = os.environ.get("SITE_BASE_URL", "").rstrip("/")
     page_url = f"{base}/{slug}.html" if base else f"{slug}.html"
     print(f"· published -> docs/{slug}.html")
@@ -76,7 +78,7 @@ def main(dry_run: bool = False) -> None:
     if dry_run:
         print("· dry run — not sending")
     else:
-        send.send(render.render_email(digest, page_url))
+        send.send(render.render_email(digest, page_url, supplemental=supplemental))
 
     seen.update(collect_urls(digest))
     state.save_seen(seen)
@@ -84,4 +86,4 @@ def main(dry_run: bool = False) -> None:
 
 
 if __name__ == "__main__":
-    main(dry_run="--dry-run" in sys.argv)
+    main(dry_run="--dry-run" in sys.argv, supplemental="--more" in sys.argv)

@@ -9,11 +9,12 @@ import os
 import urllib.parse
 from datetime import datetime, timezone
 
-INK = "#1a1a1a"
-MUTE = "#6b6b6b"
-LINE = "#e6e3dd"
-BG = "#faf8f4"
-ACCENT = "#b3541e"
+INK = "#1c1c1e"
+MUTE = "#8a8a8e"
+LINE = "#e4e4e6"
+BG = "#f4f4f5"
+CARD = "#ffffff"
+ACCENT = "#1c1c1e"   # minimal: accent is just strong ink, not a color pop
 
 
 def _esc(s: str) -> str:
@@ -92,32 +93,41 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex">
 <title>The Daily — {_day()}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root {{ color-scheme: light; }}
+  * {{ box-sizing: border-box; }}
   body {{ margin:0; background:{BG}; color:{INK};
-         font-family: Georgia, 'Iowan Old Style', 'Times New Roman', serif; }}
-  .wrap {{ max-width: 640px; margin: 0 auto; padding: 56px 24px 80px; }}
-  header {{ border-bottom: 1px solid {LINE}; padding-bottom: 22px; margin-bottom: 40px; }}
-  h1 {{ font-size: 30px; margin: 0; letter-spacing: -0.01em; }}
-  .date {{ color:{MUTE}; font-size: 14px; margin-top: 6px; }}
-  .intro {{ font-style: italic; font-size: 18px; line-height: 1.55; color:#3a3a3a; margin-top: 18px; }}
-  h2 {{ color:{ACCENT}; font-size: 13px; font-weight: 700; letter-spacing: .1em;
-        text-transform: uppercase; margin: 44px 0 20px; }}
-  article {{ margin-bottom: 34px; }}
-  .t {{ color:{INK}; text-decoration: none; font-size: 21px; font-weight: 600; line-height: 1.3; }}
-  .t:hover {{ color:{ACCENT}; }}
-  .src {{ color:{MUTE}; font-size: 12px; letter-spacing: .04em; text-transform: uppercase; margin: 6px 0 8px; }}
-  .b {{ font-size: 16.5px; line-height: 1.62; margin: 0 0 8px; color:#2c2c2c; }}
-  .fb, .fb a {{ font-size: 12.5px; color:{MUTE}; text-decoration: none; }}
-  .fb a:hover {{ color:{ACCENT}; }}
-  .facts ul {{ padding-left: 20px; margin: 0; }}
-  .facts li {{ font-size: 16px; line-height: 1.6; margin-bottom: 12px; }}
-  .facts a {{ color:{ACCENT}; text-decoration: none; }}
-  .make {{ background:#fff; border: 1px solid {LINE}; border-radius: 12px; padding: 24px 26px; margin-top: 48px; }}
+         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+         -webkit-font-smoothing: antialiased; }}
+  .wrap {{ max-width: 600px; margin: 0 auto; padding: 48px 20px 72px; }}
+  header {{ margin-bottom: 36px; }}
+  h1 {{ font-size: 22px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }}
+  .date {{ color:{MUTE}; font-size: 13px; margin-top: 4px; font-weight: 500; }}
+  .intro {{ font-size: 16px; line-height: 1.55; color:#4a4a4e; margin-top: 16px; font-weight: 400; }}
+  h2 {{ color:{MUTE}; font-size: 12px; font-weight: 600; letter-spacing: .08em;
+        text-transform: uppercase; margin: 0 0 14px; }}
+  section {{ margin-bottom: 36px; }}
+  article {{ background:{CARD}; border-radius: 14px; padding: 18px 20px; margin-bottom: 10px;
+             border: 1px solid {LINE}; }}
+  .t {{ color:{INK}; text-decoration: none; font-size: 16.5px; font-weight: 600; line-height: 1.35;
+        display: block; }}
+  .t:hover {{ opacity: 0.7; }}
+  .src {{ color:{MUTE}; font-size: 11.5px; font-weight: 500; letter-spacing: .02em; margin: 5px 0 8px; }}
+  .b {{ font-size: 14.5px; line-height: 1.55; margin: 0 0 10px; color:#3a3a3e; font-weight: 400; }}
+  .fb, .fb a {{ font-size: 12px; color:{MUTE}; text-decoration: none; font-weight: 500; }}
+  .fb a:hover {{ color:{INK}; }}
+  .facts ul {{ list-style: none; padding: 0; margin: 0; }}
+  .facts li {{ background:{CARD}; border: 1px solid {LINE}; border-radius: 14px;
+               padding: 14px 18px; margin-bottom: 10px; font-size: 14.5px; line-height: 1.55; }}
+  .facts a {{ color:{MUTE}; text-decoration: none; font-weight: 600; }}
+  .make {{ background:{CARD}; border: 1px solid {LINE}; border-radius: 14px; padding: 20px 22px; margin-top: 40px; }}
   .make h2 {{ margin-top: 0; }}
-  .make p {{ font-size: 16px; line-height: 1.6; margin: 0; }}
-  footer {{ border-top: 1px solid {LINE}; margin-top: 56px; padding-top: 18px;
-            color:{MUTE}; font-size: 13px; line-height: 1.6; }}
+  .make p {{ font-size: 14.5px; line-height: 1.55; margin: 0; color:#3a3a3e; }}
+  footer {{ margin-top: 44px; padding-top: 16px; border-top: 1px solid {LINE};
+            color:{MUTE}; font-size: 12px; line-height: 1.6; }}
   footer a {{ color:{MUTE}; }}
 </style></head>
 <body><div class="wrap">
@@ -148,8 +158,16 @@ def _trial_note(trial: list | None) -> str:
             f'font-size:15px;line-height:1.6;">{rows}</ul></section>')
 
 
+def _more_mailto() -> str:
+    to = os.environ.get("GMAIL_ADDRESS") or os.environ.get("DIGEST_TO", "")
+    q = urllib.parse.urlencode(
+        {"subject": "[more]", "body": "Send me another edition."}
+    )
+    return f"mailto:{to}?{q}"
+
+
 # ── the teaser email ─────────────────────────────────────────────────
-def render_email(digest: dict, page_url: str) -> str:
+def render_email(digest: dict, page_url: str, supplemental: bool = False) -> str:
     intro = _esc(digest.get("intro", ""))
     url = _esc(page_url)
 
@@ -178,10 +196,13 @@ def render_email(digest: dict, page_url: str) -> str:
             f'{_esc(facts[0].get("fact",""))}</div>'
         )
 
+    heading = "More for today" if supplemental else "The Daily"
+    more_url = _esc(_more_mailto())
+
     return f"""<!doctype html><html><body style="margin:0;padding:0;background:{BG};">
   <div style="max-width:560px;margin:0 auto;padding:36px 24px 48px;
-     font-family:Georgia,'Iowan Old Style',serif;">
-    <div style="font-size:24px;font-weight:700;color:{INK};">The Daily</div>
+     font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;">
+    <div style="font-size:24px;font-weight:700;color:{INK};">{heading}</div>
     <div style="color:{MUTE};font-size:13px;margin:3px 0 16px;">{_day()}</div>
     <div style="font-style:italic;font-size:16px;line-height:1.5;color:#3a3a3a;
        margin-bottom:22px;">{intro}</div>
@@ -190,10 +211,15 @@ def render_email(digest: dict, page_url: str) -> str:
     <div style="margin:28px 0 0;">
       <a href="{url}" style="display:inline-block;background:{INK};color:{BG};
          text-decoration:none;font-size:15px;font-weight:600;padding:13px 26px;
-         border-radius:8px;">Read today’s page &rarr;</a>
+         border-radius:8px;margin-right:10px;">Read today’s page &rarr;</a>
+      <a href="{more_url}" style="display:inline-block;background:transparent;
+         color:{INK};text-decoration:none;font-size:15px;font-weight:600;
+         padding:12px 24px;border-radius:8px;border:1px solid {LINE};">
+         Send me more</a>
     </div>
     <div style="border-top:1px solid {LINE};margin-top:32px;padding-top:14px;
        color:{MUTE};font-size:12px;line-height:1.5;">
-       Reply to steer tomorrow’s picks.</div>
+       Reply to steer tomorrow’s picks. “Send me more” builds a fresh
+       supplemental edition within ~15 minutes.</div>
   </div>
 </body></html>"""
