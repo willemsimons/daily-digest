@@ -1,0 +1,161 @@
+{
+  "digest": {
+    "sections": [
+      {
+        "heading": "The craft of making software",
+        "items": [
+          {
+            "url": "https://marijnhaverbeke.nl/blog/wordgard-0.1.html",
+            "title": "Wordgard 0.1 \u2014 Marijn Haverbeke starts over, again",
+            "source": "marijnhaverbeke.nl",
+            "blurb": "The person who built ProseMirror and CodeMirror \u2014 the substrate under almost every serious browser editor in existence \u2014 has shipped his sixth non-trivial editor, not as a patch on what came before but as a clean break with a new name. He's candid that ProseMirror has parts that make him wince, and that grafting fixes onto it backward-compatibly would produce something 'win32-style.' What's interesting here isn't the software but the posture: someone at the top of a niche choosing to restart rather than calcify.",
+            "tags": []
+          },
+          {
+            "url": "https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected",
+            "title": "Hunting a 16-year-old SQLite bug with TLA+",
+            "source": "Ubuntu / Canonical",
+            "blurb": "A write-ahead log bug sat undetected in SQLite \u2014 one of the most audited pieces of software on earth \u2014 from 2010 until 2026, then was finally cornered using TLA+ formal verification as a detective tool rather than a proof tool. The Canonical team used it to model the exact sequence of states that produce database corruption, then built a second model of how their own dqlite layer uses SQLite to check whether the corruption path is reachable from above. It's a case study in how formal methods become useful not for guaranteeing correctness but for making failure legible.",
+            "tags": []
+          }
+        ]
+      },
+      {
+        "heading": "Bodies, cells, and the pipeline",
+        "items": [
+          {
+            "url": "https://www.sciencedaily.com/releases/2026/05/260511213204.htm",
+            "title": "Making old blood stem cells young again \u2014 the lysosome angle",
+            "source": "Cell Stem Cell / Mount Sinai",
+            "blurb": "Mount Sinai researchers identified overactive, damaged lysosomes \u2014 the cell's internal recycling centers \u2014 as a primary driver of blood stem cell aging in mice, not a downstream symptom but a causal mechanism. By calming lysosomal overactivity, they restored the stem cells' ability to regenerate balanced blood and immune cells at youthful levels. This is early-stage mouse work, but the mechanistic specificity is what makes it notable: it points to a defined intervention target rather than a vague 'aging pathway.'",
+            "tags": []
+          },
+          {
+            "url": "https://www.sciencedaily.com/releases/2026/06/260614011850.htm",
+            "title": "Elecoglipron \u2014 the oral GLP-1 pill that actually worked in Phase 2b",
+            "source": "Mass General Brigham / The Lancet",
+            "blurb": "The SOLSTICE trial, published simultaneously in The Lancet and presented at ADA Scientific Sessions, showed that elecoglipron \u2014 an oral GLP-1 receptor agonist \u2014 significantly lowered blood glucose and reduced body weight in people with type 2 diabetes. Oral delivery is the key unlock: the injectable GLP-1 market is massive, but needle-aversion and cold-chain logistics lock out a large share of potential patients. A pill that delivers comparable results changes the access geometry of the entire drug class.",
+            "tags": []
+          }
+        ]
+      },
+      {
+        "heading": "Making as politics, resistance as aesthetic",
+        "items": [
+          {
+            "url": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
+            "title": "Summer of Ludd \u2014 Gen Z's anti-tech festival is happening in Tompkins Square Park right now",
+            "source": "Ars Technica",
+            "blurb": "A weeklong festival in the East Village \u2014 papier-m\u00e2ch\u00e9 puppets, a small orchestra in Pride regalia, zines on getting off Spotify and surveillance in schools, workshops on flirting offline \u2014 is staging the actual Luddite history (artisans resisting industrial displacement, met with state violence) as a live organizing frame for 2026. The interesting part isn't the phone-free posturing; it's that the original Luddites weren't anti-technology, they were anti-the-specific-use-of-technology-to-destroy-their-livelihoods, and this crowd seems to know that. A scene forming in real time, a few blocks from you.",
+            "tags": []
+          },
+          {
+            "url": "https://www.youtube.com/watch?v=DyIQkqBXhS0",
+            "title": "Ben Krasnow: AFM high-speed video, selective stainless steel etching, diffraction gratings",
+            "source": "Applied Science / YouTube",
+            "blurb": "Ben Krasnow went unreasonably deep on two things at once: high-speed atomic force microscope video (imaging at the nanoscale fast enough to watch dynamic processes) and selective chemical etching of stainless steel to fabricate diffraction gratings. Applied Science is the benchmark for 'one person, one problem, no shortcuts' \u2014 the channel where craft and physics meet with no audience-building concessions.",
+            "tags": [],
+            "thumbnail": "https://i1.ytimg.com/vi/DyIQkqBXhS0/hqdefault.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Off the map",
+        "items": [
+          {
+            "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/",
+            "title": "The world's tallest tropical trees have no hydraulic ceiling \u2014 the assumption was wrong",
+            "source": "University of Exeter / Science",
+            "blurb": "For decades the working model was that as trees grow taller, gravity and vessel length create a hydraulic ceiling that limits water transport, photosynthesis, and growth \u2014 an elegant constraint that explained why trees don't just keep getting taller. A new study in Science, led by Exeter and Cardiff, found that giant Dipterocarp trees (some exceeding 80 meters) have evolved vessel architectures that fully compensate for height, leaving them no more drought-vulnerable than short trees of the same species. The infrastructure was there, quietly working, and we'd been modeling it wrong the whole time.",
+            "tags": []
+          }
+        ]
+      }
+    ],
+    "facts": [
+      {
+        "fact": "SQLite's write-ahead log bug that was just fixed had been present in the codebase since 2010 \u2014 16 years \u2014 in one of the most widely deployed and audited pieces of software in existence.",
+        "url": "https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected"
+      },
+      {
+        "fact": "Meduza journalist Galina Timchenko's iPhone was infected with Pegasus spyware while she was in Berlin \u2014 making her the first documented case of a Pegasus infection of a Russian journalist \u2014 exactly two weeks after Russia declared Meduza an 'undesirable organization.'",
+        "url": "https://www.accessnow.org/publication/hacking-meduza-pegasus-spyware-used-to-target-putins-critic/"
+      },
+      {
+        "fact": "Giant Dipterocarp trees exceeding 80 meters showed no height-related loss in growth during a severe drought compared to smaller trees of the same species, overturning a widely accepted hydraulic limit theory.",
+        "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/"
+      },
+      {
+        "fact": "Marijn Haverbeke has now built six non-trivial text editors, including ProseMirror and CodeMirror, and chose to release his latest as a completely new project rather than a ProseMirror 2.0 to avoid ambiguity in the ecosystem.",
+        "url": "https://marijnhaverbeke.nl/blog/wordgard-0.1.html"
+      },
+      {
+        "fact": "The FDA's Pharmacy Compounding Advisory Committee will review BPC-157, TB-500, MOTS-C, Semax, and several other peptides at its July 23\u201324, 2026 meeting \u2014 a regulatory moment that will shape the legal compounding landscape for the entire peptide field.",
+        "url": "https://amaneciahealth.com/fda-peptide-reclassification-2026-amanecia-health/"
+      }
+    ],
+    "art_picks": [
+      {
+        "medium": "film",
+        "title": "Koyaanisqatsi",
+        "url": "https://letterboxd.com/film/koyaanisqatsi/",
+        "creator": "Godfrey Reggio",
+        "why": "A film with no characters and no plot \u2014 just systems made visible: industry, sprawl, time, speed, and the feedback loops between humans and infrastructure. Glass's score turns it into pure frequency; it will rewire how you see a city block."
+      },
+      {
+        "medium": "art",
+        "title": "Vera Moln\u00e1r \u2014 Works",
+        "url": "https://www.veramolnar.com/",
+        "creator": "Vera Moln\u00e1r",
+        "why": "The mother of generative art, working with algorithms and plotters from the 1960s before most people had seen a computer. Her whole practice is the question you live in: what does expressive mean when the author is a rule? The obsessive variation series are direct ancestors of any generative 3D work you make."
+      },
+      {
+        "medium": "music",
+        "title": "Big Science",
+        "url": "https://www.laurieanderson.com/",
+        "creator": "Laurie Anderson",
+        "why": "The 1982 album that turned technology, mythology, and American cultural anxiety into a single strange voice-processed object. Anderson was doing performance-as-systems-art before the vocabulary existed \u2014 it still sounds like a transmission from just slightly outside now."
+      }
+    ],
+    "events": [
+      {
+        "name": "Greater New York 2026",
+        "url": "https://www.momaps1.org/en/programs",
+        "venue": "MoMA PS1, 22-25 Jackson Avenue, Queens",
+        "date": "Apr 24 \u2013 Sep 30",
+        "why": "PS1's sixth-edition survey of 50+ NYC-area artists in the formative years of their careers \u2014 the closest thing New York has to a live map of where practice is actually forming right now, before it hardens into market positions."
+      },
+      {
+        "name": "Yves Saint Laurent and Photography",
+        "url": "https://www.icp.org/exhibitions/yves-saint-laurent-and-photography",
+        "venue": "International Center of Photography (ICP), 84 Ludlow Street, New York",
+        "date": "Jun 11 \u2013 Sep 28",
+        "why": "~300 objects tracing how photography became the actual engine of a fashion mythology \u2014 not documentation but identity construction, with Avedon, Newton, Penn, Warhol as co-authors of a brand-as-cultural-symbol."
+      },
+      {
+        "name": "EGEV\u00c6RK: Forms of Belonging",
+        "url": "https://hb381gallery.com/",
+        "venue": "HB381 (Hostler Burrows), 381 Broadway, New York",
+        "date": "Jun 26 \u2013 Aug 14",
+        "why": "A collaborative exhibition and live residency by Danish designers Mette Bentzen and Lasse Kristensen \u2014 hand-carved furniture as landscape meditation; obsessive craft with deep material intelligence at the physical/sculptural edge."
+      },
+      {
+        "name": "Gabriel Orozco: Public Nature",
+        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
+        "venue": "JCDecaux Bus Shelters, New York City (citywide)",
+        "date": "Jul 8 \u2013 Sep 6",
+        "why": "Orozco's first commissioned photographic series \u2014 10 new site-specific images of urban life embedded into the city's own infrastructure, blurring the line between art, object, and found environment."
+      },
+      {
+        "name": "Celebrate Brooklyn! \u2014 Royel Otis (Benefit Concert)",
+        "url": "https://www.bricartsmedia.org/celebrate-brooklyn",
+        "venue": "Lena Horne Bandshell, Prospect Park, Brooklyn",
+        "date": "Sat, Jul 18",
+        "why": "The 47th season of Celebrate Brooklyn runs under a 'Radical Joy' theme \u2014 Royel Otis brings their wry, textured indie pop to one of the city's best outdoor stages on a warm July night."
+      }
+    ],
+    "make_something": null,
+    "intro": "Things built by hand, things broken by time, things that quietly rewired themselves."
+  },
+  "trial_sources": []
+}
