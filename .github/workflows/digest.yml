@@ -28,7 +28,7 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}
-          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          SITE_BASE_URL: https://willemsimons.github.io/daily-digest
         run: python -m src.main
 
       - name: Commit state + archive

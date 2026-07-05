@@ -31,7 +31,7 @@ jobs:
           GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           DIGEST_TO: ${{ secrets.DIGEST_TO }}
-          SITE_BASE_URL: ${{ secrets.SITE_BASE_URL }}
+          SITE_BASE_URL: https://willemsimons.github.io/daily-digest
           FORCE_MORE: ${{ github.event.inputs.force }}
         run: python -m src.check_more
 
