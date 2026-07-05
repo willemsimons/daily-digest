@@ -1,6 +1,6 @@
 {
-  "feeds": 57,
-  "mined": 45,
+  "feeds": 52,
+  "mined": 41,
   "videos": 8,
   "video_titles": [
     "AD - Why do I get this spark when I unplug my hair dryer?",
@@ -10,20 +10,19 @@
     "The disappearing ink that isn\u2019t ink",
     "The Anti Trampoline Effect",
     "Atomic Force Microscope high-speed video, selective stainless steel etching, bacteria, and more",
-    "REMAKE: Vincent Van Gogh's The Starry Night: Great Art Explained"
+    "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained"
   ],
-  "supplemental": true,
+  "supplemental": false,
   "final_items": 8,
   "final_sources": [
-    "Amanecia Health",
-    "Anna's Archive",
-    "Euronews",
-    "Mike Bowler's blog",
-    "Quanta Magazine",
-    "ScienceDaily / Cell Stem Cell",
-    "Veritasium",
-    "javoriuski.com"
+    "Ars Technica",
+    "Heise Online",
+    "It's FOSS",
+    "Simon Willison's Weblog",
+    "Tom's Hardware",
+    "Wikipedia",
+    "popcar.bearblog.dev"
   ],
-  "had_video": true,
-  "run_at": "2026-07-04T21:24:22.754904+00:00"
+  "had_video": false,
+  "run_at": "2026-07-05T20:22:05.483502+00:00"
 }

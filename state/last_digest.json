@@ -1,61 +1,96 @@
 {
   "digest": {
+    "intro": "Maps, forks, fabs, and the slow death of owning things.",
     "sections": [
       {
-        "heading": "The craft of making software",
+        "heading": "Making things at the edge",
         "items": [
           {
-            "url": "https://marijnhaverbeke.nl/blog/wordgard-0.1.html",
-            "title": "Wordgard 0.1 \u2014 Marijn Haverbeke starts over, again",
-            "source": "marijnhaverbeke.nl",
-            "blurb": "The person who built ProseMirror and CodeMirror \u2014 the substrate under almost every serious browser editor in existence \u2014 has shipped his sixth non-trivial editor, not as a patch on what came before but as a clean break with a new name. He's candid that ProseMirror has parts that make him wince, and that grafting fixes onto it backward-compatibly would produce something 'win32-style.' What's interesting here isn't the software but the posture: someone at the top of a niche choosing to restart rather than calcify.",
-            "tags": []
+            "title": "Fab2: Mass-Producing the Factory Itself",
+            "source": "Tom's Hardware",
+            "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas",
+            "blurb": "Jim Keller's Atomic Semi has rebranded as Fab2 and shifted its entire premise: instead of making chips, it makes fabs \u2014 small, software-defined semiconductor factories designed to be manufactured in quantity. Sam Zeloof proved the concept by fabricating lithographic chips down to ~300nm in his parents' garage as a teenager. If a fab becomes a product you order rather than a cathedral you build, the geopolitics of who can make things physically starts to look very different.",
+            "tags": [
+              "hardware",
+              "fabrication",
+              "geopolitics"
+            ]
           },
           {
-            "url": "https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected",
-            "title": "Hunting a 16-year-old SQLite bug with TLA+",
-            "source": "Ubuntu / Canonical",
-            "blurb": "A write-ahead log bug sat undetected in SQLite \u2014 one of the most audited pieces of software on earth \u2014 from 2010 until 2026, then was finally cornered using TLA+ formal verification as a detective tool rather than a proof tool. The Canonical team used it to model the exact sequence of states that produce database corruption, then built a second model of how their own dqlite layer uses SQLite to check whether the corruption path is reachable from above. It's a case study in how formal methods become useful not for guaranteeing correctness but for making failure legible.",
-            "tags": []
+            "title": "A World Map in 445 Bytes",
+            "source": "Simon Willison's Weblog",
+            "url": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/",
+            "blurb": "Iwo Kadziela compressed a recognizable ASCII world map into 445 bytes of deflate-raw data, decoded entirely in the browser using a fetch() call against a data: URI piped through the native DecompressionStream API \u2014 a trick most JavaScript developers didn't know was possible. It's constraint art that doubles as a cartography toy: the entire planet as a lookup table smaller than a tweet. The kind of thing that makes you want to open a canvas and start counting.",
+            "tags": [
+              "webgl",
+              "generative",
+              "constraint"
+            ]
           }
         ]
       },
       {
-        "heading": "Bodies, cells, and the pipeline",
+        "heading": "Ownership, forks, and what communities do when they're lied to",
         "items": [
           {
-            "url": "https://www.sciencedaily.com/releases/2026/05/260511213204.htm",
-            "title": "Making old blood stem cells young again \u2014 the lysosome angle",
-            "source": "Cell Stem Cell / Mount Sinai",
-            "blurb": "Mount Sinai researchers identified overactive, damaged lysosomes \u2014 the cell's internal recycling centers \u2014 as a primary driver of blood stem cell aging in mice, not a downstream symptom but a causal mechanism. By calming lysosomal overactivity, they restored the stem cells' ability to regenerate balanced blood and immune cells at youthful levels. This is early-stage mouse work, but the mechanistic specificity is what makes it notable: it points to a defined intervention target rather than a vague 'aging pathway.'",
-            "tags": []
+            "title": "The CoMaps Fork: When 'Community-Driven' Wasn't",
+            "source": "It's FOSS",
+            "url": "https://itsfoss.com/news/organic-maps-fork-comaps/",
+            "blurb": "Organic Maps \u2014 the beloved open-source, offline-first Google Maps alternative \u2014 turned out to have a small shareholder group making financial decisions without contributor input, including using donation funds for personal expenses and quietly adding Kayak affiliate links. Contributors forked it as CoMaps, immediately voted on a new name, stripped the affiliate links, and started replacing Google service dependencies. It's a clean case study in how the word 'open' can be a brand rather than a structure.",
+            "tags": [
+              "open source",
+              "governance",
+              "maps"
+            ]
           },
           {
-            "url": "https://www.sciencedaily.com/releases/2026/06/260614011850.htm",
-            "title": "Elecoglipron \u2014 the oral GLP-1 pill that actually worked in Phase 2b",
-            "source": "Mass General Brigham / The Lancet",
-            "blurb": "The SOLSTICE trial, published simultaneously in The Lancet and presented at ADA Scientific Sessions, showed that elecoglipron \u2014 an oral GLP-1 receptor agonist \u2014 significantly lowered blood glucose and reduced body weight in people with type 2 diabetes. Oral delivery is the key unlock: the injectable GLP-1 market is massive, but needle-aversion and cold-chain logistics lock out a large share of potential patients. A pill that delivers comparable results changes the access geometry of the entire drug class.",
-            "tags": []
+            "title": "It's Not About Discs. It's About Sony Killing Ownership.",
+            "source": "popcar.bearblog.dev",
+            "url": "https://popcar.bearblog.dev/its-about-ownership/",
+            "blurb": "PlayStation's 2028 disc death isn't a format change \u2014 it's the completion of a decade-long project to eliminate the legal concept of owning a game: no trading, no resale, no lending to a friend, no library copy surviving a server shutdown. The essay draws a sharp line between PC going diskless (you still own the file, sort of) and console going diskless (you own a revocable license). The used-game market wasn't a bug; it was what ownership looked like.",
+            "tags": [
+              "ownership",
+              "platform control",
+              "digital rights"
+            ]
+          },
+          {
+            "title": "Chat Control 1.0 Forced Through the EU's Side Door",
+            "source": "Heise Online",
+            "url": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html",
+            "blurb": "After Chat Control 2.0 (mandatory suspicionless scanning of encrypted messages) stalled in the EU Parliament, the Council of Ministers used a procedural maneuver to reactivate the expired transitional regulation \u2014 the one that let tech companies 'voluntarily' scan private chats using AI and hash matching \u2014 via written procedure just before summer recess, catching Parliament off guard. The underlying legal gap opened April 3 when the old exemption from the E-Privacy Directive expired. This is the infrastructure story of the week: not a new law, but an old permission quietly reinstated.",
+            "tags": [
+              "surveillance",
+              "encryption",
+              "EU policy"
+            ]
           }
         ]
       },
       {
-        "heading": "Making as politics, resistance as aesthetic",
+        "heading": "Deep time and the senses",
         "items": [
           {
-            "url": "https://arstechnica.com/culture/2026/07/inside-the-luddite-festival-harnessing-gen-zs-rage-against-big-tech/",
-            "title": "Summer of Ludd \u2014 Gen Z's anti-tech festival is happening in Tompkins Square Park right now",
+            "title": "The Missing 500 Million Years: Asteroid Impacts Built the Continents",
             "source": "Ars Technica",
-            "blurb": "A weeklong festival in the East Village \u2014 papier-m\u00e2ch\u00e9 puppets, a small orchestra in Pride regalia, zines on getting off Spotify and surveillance in schools, workshops on flirting offline \u2014 is staging the actual Luddite history (artisans resisting industrial displacement, met with state violence) as a live organizing frame for 2026. The interesting part isn't the phone-free posturing; it's that the original Luddites weren't anti-technology, they were anti-the-specific-use-of-technology-to-destroy-their-livelihoods, and this crowd seems to know that. A scene forming in real time, a few blocks from you.",
-            "tags": []
+            "url": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/",
+            "blurb": "Earth is the only planet we know of with buoyant, silica-rich continents \u2014 and geologists still don't fully agree how they formed. A new argument from Curtin University: sustained asteroid bombardment during the Hadean kept the early crust hot and thin enough that the right chemistry for buoyant continental rock could take hold, starting around 4 billion years ago. The oldest continental rocks we have are 4.03 billion years old; the half-billion years before that is almost entirely unreadable. The land you're standing on may exist because of ancient bombardment.",
+            "tags": [
+              "geology",
+              "deep time",
+              "planetary science"
+            ]
           },
           {
-            "url": "https://www.youtube.com/watch?v=DyIQkqBXhS0",
-            "title": "Ben Krasnow: AFM high-speed video, selective stainless steel etching, diffraction gratings",
-            "source": "Applied Science / YouTube",
-            "blurb": "Ben Krasnow went unreasonably deep on two things at once: high-speed atomic force microscope video (imaging at the nanoscale fast enough to watch dynamic processes) and selective chemical etching of stainless steel to fabricate diffraction gratings. Applied Science is the benchmark for 'one person, one problem, no shortcuts' \u2014 the channel where craft and physics meet with no audience-building concessions.",
-            "tags": [],
-            "thumbnail": "https://i1.ytimg.com/vi/DyIQkqBXhS0/hqdefault.jpg"
+            "title": "When the Ability to Smell Goes Away",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/07/when-the-ability-to-smell-goes-away/",
+            "blurb": "Up to 22% of the population lives with some form of smell impairment \u2014 hyposmia, anosmia, phantosmia, or parosmia (where coffee starts smelling like sewage) \u2014 yet the conditions have been chronically underdiagnosed and minimized by clinicians until COVID forced the research. The deeper thread: smell loss is emerging as an early marker for neurodegeneration, which makes the olfactory system one of the stranger frontiers in brain health. A 2023 survey found 60% of COVID patients experienced some smell loss.",
+            "tags": [
+              "neuroscience",
+              "longevity",
+              "senses"
+            ]
           }
         ]
       },
@@ -63,99 +98,135 @@
         "heading": "Off the map",
         "items": [
           {
-            "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/",
-            "title": "The world's tallest tropical trees have no hydraulic ceiling \u2014 the assumption was wrong",
-            "source": "University of Exeter / Science",
-            "blurb": "For decades the working model was that as trees grow taller, gravity and vessel length create a hydraulic ceiling that limits water transport, photosynthesis, and growth \u2014 an elegant constraint that explained why trees don't just keep getting taller. A new study in Science, led by Exeter and Cardiff, found that giant Dipterocarp trees (some exceeding 80 meters) have evolved vessel architectures that fully compensate for height, leaving them no more drought-vulnerable than short trees of the same species. The infrastructure was there, quietly working, and we'd been modeling it wrong the whole time.",
-            "tags": []
+            "title": "The Small Penis Rule",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Small_penis_rule",
+            "blurb": "There's a real informal legal doctrine used by authors to make roman-\u00e0-clef characters legally unchallenged: give them a small penis, and no real-world man will come forward to claim the portrait. Michael Crichton allegedly used it against journalist Michael Crowley after an unflattering review \u2014 inserting a character named 'Mick Crowley' who is a child rapist with a small penis. A Nebraska Law Review analysis argues the rule's actual power isn't legal but psychological: the humiliation cost of suing exceeds the reputational damage of the book.",
+            "tags": [
+              "law",
+              "writing",
+              "strange systems"
+            ]
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "SQLite's write-ahead log bug that was just fixed had been present in the codebase since 2010 \u2014 16 years \u2014 in one of the most widely deployed and audited pieces of software in existence.",
-        "url": "https://ubuntu.com/blog/hunting-a-16-year-old-sqlite-bug-with-tla-is-dqlite-affected"
+        "fact": "Sam Zeloof fabricated lithographic chips down to roughly 300nm features as a teenager in his parents' garage \u2014 before co-founding a company with chip architect Jim Keller to mass-produce small fabs.",
+        "url": "https://www.tomshardware.com/tech-industry/atomic-semi-rebrands-as-fab2-and-shifts-operations-to-texas"
       },
       {
-        "fact": "Meduza journalist Galina Timchenko's iPhone was infected with Pegasus spyware while she was in Berlin \u2014 making her the first documented case of a Pegasus infection of a Russian journalist \u2014 exactly two weeks after Russia declared Meduza an 'undesirable organization.'",
-        "url": "https://www.accessnow.org/publication/hacking-meduza-pegasus-spyware-used-to-target-putins-critic/"
+        "fact": "A complete, recognizable ASCII map of the entire world can be stored in 445 bytes of deflate-compressed data and decoded live in a browser using only a fetch() call against a data: URI.",
+        "url": "https://simonwillison.net/2026/Jul/4/building-a-world-map-with-only-500-bytes/"
       },
       {
-        "fact": "Giant Dipterocarp trees exceeding 80 meters showed no height-related loss in growth during a severe drought compared to smaller trees of the same species, overturning a widely accepted hydraulic limit theory.",
-        "url": "https://news.exeter.ac.uk/faculty-of-environment-science-and-economy/giant-trees-have-no-trouble-pumping-water-to-top-branches/"
+        "fact": "The EU's Chat Control 1.0 was reactivated not through new legislation but by the Council of Ministers using a written procedure \u2014 a maneuver timed to catch Parliament off guard before summer recess.",
+        "url": "https://www.heise.de/en/news/Chat-Control-1-0-EU-Council-forces-messenger-scans-via-fast-track-11353659.html"
       },
       {
-        "fact": "Marijn Haverbeke has now built six non-trivial text editors, including ProseMirror and CodeMirror, and chose to release his latest as a completely new project rather than a ProseMirror 2.0 to avoid ambiguity in the ecosystem.",
-        "url": "https://marijnhaverbeke.nl/blog/wordgard-0.1.html"
+        "fact": "The oldest continental-type rocks on Earth are only 4.03 billion years old, leaving the first ~500 million years of the planet's crust almost entirely archaeologically unreadable.",
+        "url": "https://arstechnica.com/science/2026/07/the-missing-500-million-cosmic-bombardment-melted-earths-first-crust/"
       },
       {
-        "fact": "The FDA's Pharmacy Compounding Advisory Committee will review BPC-157, TB-500, MOTS-C, Semax, and several other peptides at its July 23\u201324, 2026 meeting \u2014 a regulatory moment that will shape the legal compounding landscape for the entire peptide field.",
-        "url": "https://amaneciahealth.com/fda-peptide-reclassification-2026-amanecia-health/"
+        "fact": "Organic Maps contributors forked the project as CoMaps after discovering that donation funds had reportedly been used for personal expenses including holiday trips by a small shareholder group.",
+        "url": "https://itsfoss.com/news/organic-maps-fork-comaps/"
       }
     ],
+    "make_something": {
+      "prompt": "Take the 445-byte world map idea and push the constraint further: pick a single country, coastline, or city grid and see how few bytes you need to make it recognizable as ASCII or SVG. Use deflate or any lossless compression you want. Then invert it \u2014 what's the minimum data that produces something that looks like a map but isn't any real place? Make a fake territory."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Koyaanisqatsi",
-        "url": "https://letterboxd.com/film/koyaanisqatsi/",
-        "creator": "Godfrey Reggio",
-        "why": "A film with no characters and no plot \u2014 just systems made visible: industry, sprawl, time, speed, and the feedback loops between humans and infrastructure. Glass's score turns it into pure frequency; it will rewire how you see a city block."
-      },
-      {
-        "medium": "art",
-        "title": "Vera Moln\u00e1r \u2014 Works",
-        "url": "https://www.veramolnar.com/",
-        "creator": "Vera Moln\u00e1r",
-        "why": "The mother of generative art, working with algorithms and plotters from the 1960s before most people had seen a computer. Her whole practice is the question you live in: what does expressive mean when the author is a rule? The obsessive variation series are direct ancestors of any generative 3D work you make."
+        "title": "Leviathan",
+        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel (Sensory Ethnography Lab, 2012)",
+        "why": "Shot entirely on GoPros lashed to fishing nets, hooks, and the bodies of crewmen, it dissolves the boundary between camera and environment so completely that watching it feels like being inside a system rather than observing one \u2014 the ocean as infrastructure, the trawler as organism. No narration, no thesis; just the hidden mechanics of industrial harvesting rendered almost abstract and terrifying.",
+        "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "music",
-        "title": "Big Science",
-        "url": "https://www.laurieanderson.com/",
-        "creator": "Laurie Anderson",
-        "why": "The 1982 album that turned technology, mythology, and American cultural anxiety into a single strange voice-processed object. Anderson was doing performance-as-systems-art before the vocabulary existed \u2014 it still sounds like a transmission from just slightly outside now."
+        "title": "Replica",
+        "creator": "Oneohtrix Point Never",
+        "why": "Daniel Lopatin built this record by slicing up infomercial samples into loops until they lost all meaning and became pure texture \u2014 consumer mythology collapsed into ambient drift. It sits at the exact edge where software obsession becomes emotional landscape, and the process is as interesting as the sound.",
+        "url": "https://www.youtube.com/watch?v=9Y3KWkDp55s"
+      },
+      {
+        "medium": "art",
+        "title": "Vera Moln\u00e1r \u2014 retrospective works (online archive via the artist's estate)",
+        "creator": "Vera Moln\u00e1r",
+        "why": "One of the first artists to use a computer as a drawing instrument (1968), Moln\u00e1r spent 50 years writing her own algorithms and then deliberately introducing errors \u2014 'perturbations' \u2014 to study where order tips into feeling. Her grids are not cold; they are documents of a mind in conversation with a system, which is exactly the kind of obsessive narrow depth that rewards slow looking.",
+        "url": "https://www.veramolnar.com/"
       }
     ],
     "events": [
       {
-        "name": "Greater New York 2026",
-        "url": "https://www.momaps1.org/en/programs",
-        "venue": "MoMA PS1, 22-25 Jackson Avenue, Queens",
-        "date": "Apr 24 \u2013 Sep 30",
-        "why": "PS1's sixth-edition survey of 50+ NYC-area artists in the formative years of their careers \u2014 the closest thing New York has to a live map of where practice is actually forming right now, before it hardens into market positions."
+        "name": "Gothic by Design: The Dawn of Architectural Draftsmanship",
+        "venue": "The Metropolitan Museum of Art, 1000 Fifth Ave",
+        "date_start": "2026-04-16",
+        "date_end": "2026-07-19",
+        "category": "museum",
+        "why": "Last chance before it closes July 19 \u2014 an exhibition about the moment medieval builders began translating spatial imagination into drawn notation, essentially the origin story of architecture as a system of marks that describe things that don't yet exist.",
+        "url": "https://www.metmuseum.org/exhibitions",
+        "date": "Apr 16 \u2013 Jul 19"
       },
       {
-        "name": "Yves Saint Laurent and Photography",
-        "url": "https://www.icp.org/exhibitions/yves-saint-laurent-and-photography",
-        "venue": "International Center of Photography (ICP), 84 Ludlow Street, New York",
-        "date": "Jun 11 \u2013 Sep 28",
-        "why": "~300 objects tracing how photography became the actual engine of a fashion mythology \u2014 not documentation but identity construction, with Avedon, Newton, Penn, Warhol as co-authors of a brand-as-cultural-symbol."
-      },
-      {
-        "name": "EGEV\u00c6RK: Forms of Belonging",
-        "url": "https://hb381gallery.com/",
-        "venue": "HB381 (Hostler Burrows), 381 Broadway, New York",
-        "date": "Jun 26 \u2013 Aug 14",
-        "why": "A collaborative exhibition and live residency by Danish designers Mette Bentzen and Lasse Kristensen \u2014 hand-carved furniture as landscape meditation; obsessive craft with deep material intelligence at the physical/sculptural edge."
+        "name": "Nicola Vassell Gallery: Follow Through",
+        "venue": "Nicola Vassell Gallery, 138 Tenth Ave, Chelsea",
+        "date_start": "2026-06-25",
+        "date_end": "2026-08-07",
+        "category": "museum",
+        "why": "A tight group show (Alvaro Barrington, Julia Chiang, Uman, Ming Smith, George Rouy, and others) at one of Chelsea's sharpest galleries \u2014 the kind of curated conversation across generations and mediums that rewards slower looking than a single-artist show.",
+        "url": "https://www.nicolavassell.com/",
+        "date": "Jun 25 \u2013 Aug 7"
       },
       {
         "name": "Gabriel Orozco: Public Nature",
+        "venue": "JCDecaux Bus Shelters, NYC (citywide)",
+        "date_start": "2026-07-08",
+        "date_end": "2026-09-06",
+        "category": "popup",
+        "why": "Orozco's first commissioned photographic series \u2014 10 new images installed as trompe l'oeil interventions on 300 bus shelters, designed so that a tree photographed through a concrete wall appears to extend roots into the actual sidewalk below, turning the city's infrastructure into sculptural material.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
-        "venue": "JCDecaux Bus Shelters, New York City (citywide)",
-        "date": "Jul 8 \u2013 Sep 6",
-        "why": "Orozco's first commissioned photographic series \u2014 10 new site-specific images of urban life embedded into the city's own infrastructure, blurring the line between art, object, and found environment."
+        "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "Celebrate Brooklyn! \u2014 Royel Otis (Benefit Concert)",
-        "url": "https://www.bricartsmedia.org/celebrate-brooklyn",
-        "venue": "Lena Horne Bandshell, Prospect Park, Brooklyn",
-        "date": "Sat, Jul 18",
-        "why": "The 47th season of Celebrate Brooklyn runs under a 'Radical Joy' theme \u2014 Royel Otis brings their wry, textured indie pop to one of the city's best outdoor stages on a warm July night."
+        "name": "Summercon 2026",
+        "venue": "Gowanus venues (walkable cluster), Brooklyn",
+        "date_start": "2026-07-10",
+        "date_end": "2026-07-11",
+        "category": "popup",
+        "why": "The long-running hacker conference transforms a cluster of Gowanus spaces into a village of talks, workshops, and parties \u2014 the rare tech gathering built around irreverence and intimacy rather than scale, where the social rituals of early internet culture are still visible before they harden.",
+        "url": "https://www.summercon.org/",
+        "date": "Jul 10\u201311"
+      },
+      {
+        "name": "Balloon Museum: DAYDREAM \u2014 Air Becomes Art",
+        "venue": "The Tin Building, 96 South Street, Seaport District",
+        "date_start": "2026-07-15",
+        "date_end": "2026-12-31",
+        "category": "museum",
+        "why": "The inaugural show at Balloon Museum's first permanent US flagship features site-specific commissions where air, light, and sound become architecture \u2014 including Marina Abramovi\u0107's first inflatable work, Martin Creed filling a greenhouse with blue balloons, and Boris Acket's kinetic mirror piece that merges your reflection into a single mechanical wing.",
+        "url": "https://www.nyctourism.com/attractions-tours/balloon-museum/",
+        "date": "Jul 15 \u2013 Dec 31"
       }
-    ],
-    "make_something": null,
-    "intro": "Things built by hand, things broken by time, things that quietly rewired themselves."
+    ]
   },
-  "trial_sources": []
+  "trial_sources": [
+    {
+      "name": "Chartbook \u2013 Adam Tooze",
+      "feed_url": "https://adamtooze.substack.com/feed",
+      "why": "Tooze is the go-to historian-economist for making sense of geopolitical power shifts, financial systems, and China's rise \u2014 cited constantly by serious writers, bridging history, current events, and the deep structure of global order."
+    },
+    {
+      "name": "The Niche \u2013 Paul Knoepfler (UC Davis)",
+      "feed_url": "https://ipscell.com/feed/",
+      "why": "The only authoritative stem cell and regenerative medicine blog written by a working professor \u2014 Knoepfler covers peptides, stem cell policy, longevity research, and FDA developments with rare rigor and an insider's skepticism."
+    },
+    {
+      "name": "DIY Perks (YouTube)",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCUQo7UkK6DVtg6oB-M1QvIA",
+      "why": "Matthew Perks builds technology objects of genuine aesthetic beauty \u2014 custom monitors, speakers, gadgets \u2014 from raw materials, sitting at the exact intersection of fabrication craft, technology aesthetics, and the thrill of making physical things."
+    }
+  ]
 }
