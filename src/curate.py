@@ -15,6 +15,7 @@ from __future__ import annotations
 
 import json
 import random
+import time
 
 import anthropic
 
@@ -167,7 +168,7 @@ def _cand_lines(candidates: list[dict]) -> str:
     ) or "(no feed candidates today — rely on search)"
 
 
-def _call(client, config, prompt, max_tokens, use_search=True):
+def _call(client, config, prompt, max_tokens, use_search=True, max_retries=3):
     kwargs = dict(
         model=config.get("model", "claude-sonnet-4-6"),
         max_tokens=max_tokens,
@@ -177,16 +178,63 @@ def _call(client, config, prompt, max_tokens, use_search=True):
     if use_search:
         kwargs["tools"] = [{"type": "web_search_20250305", "name": "web_search",
                             "max_uses": 8}]
-    resp = client.messages.create(**kwargs)
-    # pause_turn: the model paused mid-search; continue the turn
-    while getattr(resp, "stop_reason", None) == "pause_turn":
-        kwargs["messages"] = kwargs["messages"] + [
-            {"role": "assistant", "content": resp.content}]
-        resp = client.messages.create(**kwargs)
-    return resp
+
+    last_err = None
+    for attempt in range(max_retries):
+        try:
+            resp = client.messages.create(**kwargs)
+            # pause_turn: the model paused mid-search; continue the turn
+            while getattr(resp, "stop_reason", None) == "pause_turn":
+                kwargs["messages"] = kwargs["messages"] + [
+                    {"role": "assistant", "content": resp.content}]
+                resp = client.messages.create(**kwargs)
+            return resp
+        except (anthropic.RateLimitError, anthropic.APIStatusError,
+                anthropic.APIConnectionError) as e:
+            last_err = e
+            wait = 5 * (2 ** attempt)  # 5s, 10s, 20s
+            print(f"  ! API call failed (attempt {attempt+1}/{max_retries}): {e} "
+                  f"— retrying in {wait}s")
+            time.sleep(wait)
+    raise last_err
 
 
 def curate(config: dict, candidates: list[dict], taste: str = "") -> dict:
+    try:
+        return _curate_full(config, candidates, taste)
+    except Exception as e:
+        print(f"  ! full curation pipeline failed after retries ({e})")
+        print("  falling back to a simplified pass so today still ships")
+        return _curate_fallback(config, candidates, taste)
+
+
+def _curate_fallback(config: dict, candidates: list[dict], taste: str) -> dict:
+    """No triage, no fetch-and-read, no web search — just rank what we already
+    have from feeds/mining/video. Lower quality than the full pipeline, but a
+    thinner edition beats silence."""
+    client = anthropic.Anthropic()
+    prompt = (
+        f"## The reader\n{config['persona'].strip()}\n\n"
+        f"## Interests\n" + "\n".join(f"- {i}" for i in config['interests']) + "\n\n"
+        f"## Learned taste\n{taste.strip() or '(none yet)'}\n\n"
+        f"## Anti-interests — never include\n{_anti(config)}\n\n"
+        f"## Candidates\n{_cand_lines(candidates)}\n\n"
+        "The normal curation pipeline hit an error, so this is a simplified pass: "
+        "no fetched excerpts, no search — just pick the best "
+        f"{config.get('target_item_count', 7)} of the candidates above, grouped "
+        "into short natural sections, with a 1-2 sentence blurb from the title/summary "
+        "you have. Include 2-3 facts only if you can respect them confidently from "
+        "candidate summaries — otherwise return an empty facts list, don't invent facts.\n\n"
+        "Return ONLY JSON: {\"intro\": \"string\", \"sections\": [{\"heading\": \"string\", "
+        "\"items\": [{\"title\": \"string\", \"source\": \"string\", \"url\": \"string\", "
+        "\"blurb\": \"string\", \"tags\": [\"string\"]}]}], \"facts\": [], "
+        "\"make_something\": null}"
+    )
+    resp = _call(client, config, prompt, max_tokens=3000, use_search=False)
+    return _extract_json(resp)
+
+
+def _curate_full(config: dict, candidates: list[dict], taste: str = "") -> dict:
     client = anthropic.Anthropic()
     dr = config.get("deep_read") or {}
     ser = config.get("serendipity") or {}
