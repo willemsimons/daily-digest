@@ -188,10 +188,18 @@ def _call(client, config, prompt, max_tokens, use_search=True, max_retries=3):
                 kwargs["messages"] = kwargs["messages"] + [
                     {"role": "assistant", "content": resp.content}]
                 resp = client.messages.create(**kwargs)
+            if resp.stop_reason == "max_tokens":
+                print(f"  ! response hit max_tokens ({max_tokens}) and was truncated "
+                      f"mid-output — raising so it retries with more room")
+                raise ValueError(f"truncated at max_tokens={max_tokens}")
             return resp
         except (anthropic.RateLimitError, anthropic.APIStatusError,
-                anthropic.APIConnectionError) as e:
+                anthropic.APIConnectionError, ValueError) as e:
             last_err = e
+            if "truncated at max_tokens" in str(e):
+                kwargs["max_tokens"] = int(kwargs["max_tokens"] * 1.5)
+                print(f"  ! retrying with max_tokens={kwargs['max_tokens']}")
+                continue
             wait = 5 * (2 ** attempt)  # 5s, 10s, 20s
             print(f"  ! API call failed (attempt {attempt+1}/{max_retries}): {e} "
                   f"— retrying in {wait}s")
@@ -230,7 +238,7 @@ def _curate_fallback(config: dict, candidates: list[dict], taste: str) -> dict:
         "\"blurb\": \"string\", \"tags\": [\"string\"]}]}], \"facts\": [], "
         "\"make_something\": null}"
     )
-    resp = _call(client, config, prompt, max_tokens=3000, use_search=False)
+    resp = _call(client, config, prompt, max_tokens=4000, use_search=False)
     return _extract_json(resp)
 
 
@@ -253,7 +261,7 @@ def _curate_full(config: dict, candidates: list[dict], taste: str = "") -> dict:
         queries="\n".join(f"- {q}" for q in config.get("search_queries", [])),
         shortlist=dr.get("shortlist_size", 18),
     )
-    resp = _call(client, config, triage_prompt, max_tokens=4000)
+    resp = _call(client, config, triage_prompt, max_tokens=5000)
     shortlist = _extract_json(resp).get("shortlist", [])
     print(f"  triage shortlisted {len(shortlist)} "
           f"({sum(1 for s in shortlist if s.get('wildcard'))} wildcards)")
@@ -285,5 +293,5 @@ def _curate_full(config: dict, candidates: list[dict], taste: str = "") -> dict:
         n=config.get("target_item_count", 7),
         make_clause=_make_clause(allow_make),
     )
-    resp = _call(client, config, deep_prompt, max_tokens=5000, use_search=False)
+    resp = _call(client, config, deep_prompt, max_tokens=8000, use_search=False)
     return _extract_json(resp)

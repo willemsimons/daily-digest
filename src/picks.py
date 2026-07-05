@@ -150,6 +150,8 @@ def get_picks(config: dict, taste: str) -> dict:
     events = _validate_events(events_raw, today, window_end)
     for e in events:
         e["date"] = _format_date(e)  # human-readable, derived only from validated dates
+        e.pop("_start", None)  # internal date objects — not JSON-serializable,
+        e.pop("_end", None)    # must not leak into the digest that gets saved/rendered
 
     print(f"  {len(picks)} taste picks, {len(events)}/{len(events_raw)} events passed date validation")
     return {"art_picks": picks, "events": events}
