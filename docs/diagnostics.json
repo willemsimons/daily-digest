@@ -1,8 +1,9 @@
 {
-  "feeds": 56,
-  "mined": 42,
-  "videos": 7,
+  "feeds": 77,
+  "mined": 48,
+  "videos": 8,
   "video_titles": [
+    "AD - Why are plants colder than their surroundings?",
     "AD - Why do I get this spark when I unplug my hair dryer?",
     "Why do these metronomes sync up?",
     "Why clouds and foam are white",
@@ -12,18 +13,16 @@
     "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
-    "Aeon Video",
-    "Andon Labs",
+    "Anthropic Research",
     "Ars Technica",
+    "Cell Stem Cell / Mount Sinai",
+    "GitHub / Hacker News",
     "Hackaday",
-    "MIT News",
-    "Organised Sound, Cambridge University Press",
-    "Wikipedia",
-    "iamwillwang.com",
-    "rruxandra.github.io"
+    "PR Newswire / Parivas",
+    "bradleywoolf.com / Hacker News"
   ],
-  "had_video": true,
-  "run_at": "2026-07-06T14:46:17.033280+00:00"
+  "had_video": false,
+  "run_at": "2026-07-07T13:38:13.924958+00:00"
 }
