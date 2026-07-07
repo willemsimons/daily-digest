@@ -25,7 +25,30 @@ def collect_urls(digest: dict) -> list[str]:
         for sec in digest.get("sections", [])
         for it in sec.get("items", [])
         if it.get("url")
-    ]
+    ] + [f.get("url") for f in digest.get("facts", []) if f.get("url")]
+
+
+def drop_repeats(digest: dict, seen: set) -> dict:
+    """Hard backstop: the model is told not to repeat already-covered URLs,
+    but web search can surface the same link days apart regardless — never
+    trust that instruction alone. Strip anything already in `seen` here,
+    in code, after the fact."""
+    dropped = 0
+    new_sections = []
+    for sec in digest.get("sections", []):
+        items = [it for it in sec.get("items", []) if it.get("url") not in seen]
+        dropped += len(sec.get("items", [])) - len(items)
+        if items:  # drop the section entirely if everything in it was a repeat
+            new_sections.append({**sec, "items": items})
+    digest["sections"] = new_sections
+
+    facts = [f for f in digest.get("facts", []) if f.get("url") not in seen]
+    dropped += len(digest.get("facts", [])) - len(facts)
+    digest["facts"] = facts
+
+    if dropped:
+        print(f"  ! dropped {dropped} repeat item(s) already covered in a past edition")
+    return digest
 
 
 def main(dry_run: bool = False, supplemental: bool = False) -> None:
@@ -58,7 +81,8 @@ def main(dry_run: bool = False, supplemental: bool = False) -> None:
     print(f"· {len(candidates)} candidates after dedup")
 
     print("· curating")
-    digest = curate.curate(cfg, candidates, taste_profile)
+    digest = curate.curate(cfg, candidates, taste_profile, already_covered=list(seen))
+    digest = drop_repeats(digest, seen)
 
     if not supplemental:  # taste picks + events run once a day, not on supplements
         extra = picks.get_picks(cfg, taste_profile)

@@ -46,6 +46,9 @@ TRIAGE_PROMPT = """## The reader
 ## Anti-interests — NEVER spend a slot on these
 {anti}
 
+## Already covered in past editions — do NOT repeat any of these
+{already_covered}
+
 ## Today's exploration topic (rotates daily — hunt here too)
 {explore}
 
@@ -57,6 +60,10 @@ TRIAGE_PROMPT = """## The reader
 
 ## Task
 Triage. Return the {shortlist} MOST promising URLs for a deep-read pass:
+- MANDATORY: shortlist 2-4 genuinely important global/world news or geopolitics
+  items from today's searches — this happens every day regardless of theme,
+  even on a quiet day for other topics. Prefer the few things that actually
+  matter over volume; skip pure churn.
 - Mostly from candidates + your searches on their interests.
 - Include 1-2 from the exploration topic if you find something great.
 - Include 2-3 WILDCARDS: pieces OUTSIDE their stated interests that strongly
@@ -91,6 +98,11 @@ You've now READ these. Build today's briefing from the genuinely best ~{n}
 (fewer if the day is thin — excerpts reveal duds; cut anything that under-delivers
 on its title, and say nothing about it).
 - Group under 1-4 short natural section headings shaped by what you chose.
+- MANDATORY: one section covering today's most important global/world news or
+  geopolitics (2-4 items) — this section appears every single day, though its
+  exact heading wording can vary ("World", "Global briefing", "This week abroad").
+  If the day is genuinely thin on world news, keep it short rather than padding,
+  but do not omit the section entirely.
 - Any [VIDEO] in the shortlist was already vetted at triage and has no excerpt
   by design — do NOT cut it for lacking one. If a video is present, include it
   (carry its thumbnail through) unless it truly clashes with the day; write its
@@ -207,9 +219,9 @@ def _call(client, config, prompt, max_tokens, use_search=True, max_retries=3):
     raise last_err
 
 
-def curate(config: dict, candidates: list[dict], taste: str = "") -> dict:
+def curate(config: dict, candidates: list[dict], taste: str = "", already_covered: list | None = None) -> dict:
     try:
-        return _curate_full(config, candidates, taste)
+        return _curate_full(config, candidates, taste, already_covered)
     except Exception as e:
         print(f"  ! full curation pipeline failed after retries ({e})")
         print("  falling back to a simplified pass so today still ships")
@@ -219,7 +231,9 @@ def curate(config: dict, candidates: list[dict], taste: str = "") -> dict:
 def _curate_fallback(config: dict, candidates: list[dict], taste: str) -> dict:
     """No triage, no fetch-and-read, no web search — just rank what we already
     have from feeds/mining/video. Lower quality than the full pipeline, but a
-    thinner edition beats silence."""
+    thinner edition beats silence. (Feeds/mining are already deduped upstream,
+    and main.py runs a hard post-filter against `seen` regardless, so this path
+    doesn't need its own already_covered handling.)"""
     client = anthropic.Anthropic()
     prompt = (
         f"## The reader\n{config['persona'].strip()}\n\n"
@@ -242,12 +256,16 @@ def _curate_fallback(config: dict, candidates: list[dict], taste: str) -> dict:
     return _extract_json(resp)
 
 
-def _curate_full(config: dict, candidates: list[dict], taste: str = "") -> dict:
+def _curate_full(config: dict, candidates: list[dict], taste: str = "", already_covered: list | None = None) -> dict:
     client = anthropic.Anthropic()
     dr = config.get("deep_read") or {}
     ser = config.get("serendipity") or {}
     explore = random.choice(ser.get("explore_topics") or ["(none)"])
     print(f"  exploration topic today: {explore}")
+
+    covered = already_covered or []
+    covered_block = ("\n".join(f"- {u}" for u in covered[-300:])
+                      if covered else "(none yet)")
 
     # ── stage 1: triage ──
     triage_prompt = TRIAGE_PROMPT.format(
@@ -256,6 +274,7 @@ def _curate_full(config: dict, candidates: list[dict], taste: str = "") -> dict:
         interestingness=(config.get("interestingness") or "").strip() or "(none)",
         taste=taste.strip() or "(none yet)",
         anti=_anti(config),
+        already_covered=covered_block,
         explore=explore,
         candidates=_cand_lines(candidates),
         queries="\n".join(f"- {q}" for q in config.get("search_queries", [])),
