@@ -25,6 +25,10 @@ def _day() -> str:
     return datetime.now(timezone.utc).strftime("%A, %B %-d, %Y")
 
 
+def _iso_day() -> str:
+    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+
 # ── feedback links (mailto, reused on page and email) ────────────────
 def _mailto(signal: str, title: str, tags: list) -> str:
     to = os.environ.get("GMAIL_ADDRESS") or os.environ.get("DIGEST_TO", "")
@@ -144,7 +148,12 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
   .wrap {{ max-width: 600px; margin: 0 auto; padding: 48px 20px 72px; }}
   header {{ margin-bottom: 36px; }}
   h1 {{ font-size: 22px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }}
-  .date {{ color:{MUTE}; font-size: 13px; margin-top: 4px; font-weight: 500; }}
+  .date {{ color:{MUTE}; font-size: 13px; margin-top: 4px; font-weight: 500;
+           display: flex; align-items: center; gap: 10px; }}
+  .navlink {{ color:{MUTE}; text-decoration: none; font-size: 17px; font-weight: 700;
+              visibility: hidden; line-height: 1; }}
+  .navlink.show {{ visibility: visible; }}
+  .navlink:hover {{ color:{INK}; }}
   .intro {{ font-size: 16px; line-height: 1.55; color:#4a4a4a; margin-top: 16px; font-weight: 400; }}
   h2 {{ color:{MUTE}; font-size: 12px; font-weight: 600; letter-spacing: .08em;
         text-transform: uppercase; margin: 0 0 14px; }}
@@ -172,7 +181,11 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
 <body><div class="wrap">
   <header>
     <h1>The Daily</h1>
-    <div class="date">{_day()}</div>
+    <div class="date">
+      <a id="prevDay" class="navlink" aria-label="Previous day">&#8249;</a>
+      <span>{_day()}</span>
+      <a id="nextDay" class="navlink" aria-label="Next day">&#8250;</a>
+    </div>
     <div class="intro">{intro}</div>
   </header>
   {sections}
@@ -181,8 +194,27 @@ def render_page(digest: dict, trial_sources: list | None = None) -> str:
   {events_html}
   {make_html}
   {_trial_note(trial_sources)}
-  <footer>Tap the arrows on anything, or reply to the email — “go deeper on surrealism”,
+  <footer>Tap ▲ more / ▼ less on any item, or reply to the email — “go deeper on surrealism”,
   “drop crypto”, “shorter” — and tomorrow adjusts. <a href="index.html">Latest</a></footer>
+  <script>
+  (function() {{
+    var current = "{_iso_day()}";
+    fetch('manifest.json').then(function(r) {{ return r.json(); }}).then(function(dates) {{
+      var i = dates.indexOf(current);
+      if (i < 0) return;
+      if (i > 0) {{
+        var p = document.getElementById('prevDay');
+        p.href = dates[i - 1] + '.html';
+        p.classList.add('show');
+      }}
+      if (i < dates.length - 1) {{
+        var n = document.getElementById('nextDay');
+        n.href = dates[i + 1] + '.html';
+        n.classList.add('show');
+      }}
+    }}).catch(function() {{}});
+  }})();
+  </script>
 </div></body></html>"""
 
 

@@ -32,6 +32,27 @@ def drop_seen(items: list[dict], seen: set[str]) -> list[dict]:
     return [it for it in items if it.get("url") not in seen]
 
 
+MANIFEST_PATH = os.path.join(DOCS_DIR, "manifest.json")
+
+
+def update_manifest(slug: str) -> None:
+    """Track published main-edition dates (not '-more' supplements) so any
+    page can fetch this list client-side and compute its prev/next neighbor
+    without needing every other page rewritten each time a new day publishes."""
+    import json
+    os.makedirs(DOCS_DIR, exist_ok=True)
+    try:
+        with open(MANIFEST_PATH) as f:
+            dates = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        dates = []
+    if slug not in dates:
+        dates.append(slug)
+    dates.sort()
+    with open(MANIFEST_PATH, "w") as f:
+        json.dump(dates, f)
+
+
 def publish(html: str, suffix: str | None = None) -> str:
     """Write today's page into docs/ (served by GitHub Pages).
     docs/YYYY-MM-DD.html is the permanent URL; docs/index.html is always latest.

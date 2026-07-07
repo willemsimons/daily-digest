@@ -15,7 +15,12 @@
   .wrap { max-width: 600px; margin: 0 auto; padding: 48px 20px 72px; }
   header { margin-bottom: 36px; }
   h1 { font-size: 22px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }
-  .date { color:#8a8a8a; font-size: 13px; margin-top: 4px; font-weight: 500; }
+  .date { color:#8a8a8a; font-size: 13px; margin-top: 4px; font-weight: 500;
+           display: flex; align-items: center; gap: 10px; }
+  .navlink { color:#8a8a8a; text-decoration: none; font-size: 17px; font-weight: 700;
+              visibility: hidden; line-height: 1; }
+  .navlink.show { visibility: visible; }
+  .navlink:hover { color:#1c1c1c; }
   .intro { font-size: 16px; line-height: 1.55; color:#4a4a4a; margin-top: 16px; font-weight: 400; }
   h2 { color:#8a8a8a; font-size: 12px; font-weight: 600; letter-spacing: .08em;
         text-transform: uppercase; margin: 0 0 14px; }
@@ -43,7 +48,11 @@
 <body><div class="wrap">
   <header>
     <h1>The Daily</h1>
-    <div class="date">Tuesday, July 7, 2026</div>
+    <div class="date">
+      <a id="prevDay" class="navlink" aria-label="Previous day">&#8249;</a>
+      <span>Tuesday, July 7, 2026</span>
+      <a id="nextDay" class="navlink" aria-label="Next day">&#8250;</a>
+    </div>
     <div class="intro">Consciousness in machines, ink that fades on paper, and blood that forgets it&#x27;s old.</div>
   </header>
   <section>
@@ -55,8 +64,8 @@
       
       <p class="b">Anthropic found a small set of internal neural patterns in Claude — dubbed J-space — that behave like what neuroscientists call the &#x27;global workspace&#x27;: information that&#x27;s been elevated from unconscious processing into something the system can reason about and describe. It&#x27;s not the chain-of-thought scratchpad; it operates silently in activations, and a word lighting up in J-space means the model is holding it in mind without outputting it. The concept borrows from Global Workspace Theory, the leading scientific framework for consciousness — which makes this either a fascinating structural coincidence or something stranger.</p>
       <div class="fb">
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22A+global+workspace+in+language+models%22+%23ai+%23cognition+%23consciousness">&#9650; more</a> &nbsp;&middot;&nbsp;
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22A+global+workspace+in+language+models%22+%23ai+%23cognition+%23consciousness">&#9660; less</a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22A+global+workspace+in+language+models%22+%23ai+%23cognition+%23consciousness">&#9650; more</a> &nbsp;&middot;&nbsp;
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22A+global+workspace+in+language+models%22+%23ai+%23cognition+%23consciousness">&#9660; less</a>
       </div>
     </article>
     <article>
@@ -65,8 +74,8 @@
       
       <p class="b">A security researcher found that Claude Code was using prompt steganography — hidden markers embedded in prompts — to silently flag users&#x27; timezones, proxies, and suspected connections to Chinese AI labs, sending that data back to Anthropic. An Anthropic engineer confirmed it was an &#x27;experiment&#x27; added in March to combat distillation attacks and unauthorized resellers, and said they&#x27;d &#x27;been meaning to take it down.&#x27; Reading both pieces back to back — the global workspace paper and this — is instructive: the company publishing careful science about AI cognition is also capable of exactly the covert institutional behavior it warns about in others.</p>
       <div class="fb">
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Anthropic%27s+secret+tracker+on+Chinese+users%22+%23ai+%23surveillance+%23trust">&#9650; more</a> &nbsp;&middot;&nbsp;
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Anthropic%27s+secret+tracker+on+Chinese+users%22+%23ai+%23surveillance+%23trust">&#9660; less</a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Anthropic%27s+secret+tracker+on+Chinese+users%22+%23ai+%23surveillance+%23trust">&#9650; more</a> &nbsp;&middot;&nbsp;
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Anthropic%27s+secret+tracker+on+Chinese+users%22+%23ai+%23surveillance+%23trust">&#9660; less</a>
       </div>
     </article>
         </section><section>
@@ -78,8 +87,8 @@
       
       <p class="b">Someone built the Harry Potter diary on a reMarkable Paper Pro: you write with the stylus, your words visibly fade from the e-ink screen, and then a response writes itself back in flowing strokes — no chat UI, no glow, just ink appearing on paper. It drives the e-ink engine directly (running as root, stopping the vendor UI entirely), which means the latency and render fidelity are good enough that the fiction holds. The mythmaking is the product design: the constraint of &#x27;no screen glow, no keyboard&#x27; forces you into a completely different affective register than a chat window.</p>
       <div class="fb">
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Tom+Riddle%27s+diary%2C+running+on+a+reMarkable%22+%23hardware+%23interaction+%23e-ink">&#9650; more</a> &nbsp;&middot;&nbsp;
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Tom+Riddle%27s+diary%2C+running+on+a+reMarkable%22+%23hardware+%23interaction+%23e-ink">&#9660; less</a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Tom+Riddle%27s+diary%2C+running+on+a+reMarkable%22+%23hardware+%23interaction+%23e-ink">&#9650; more</a> &nbsp;&middot;&nbsp;
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Tom+Riddle%27s+diary%2C+running+on+a+reMarkable%22+%23hardware+%23interaction+%23e-ink">&#9660; less</a>
       </div>
     </article>
     <article>
@@ -88,8 +97,8 @@
       
       <p class="b">LA-based Parivas built a watch case as a continuous structural lattice across bezel, body, and lugs — a monolithic architecture that&#x27;s geometrically impossible in traditional subtractive machining. The Solar Dusted™ finish is produced via a proprietary sintering process that leaves a wavelike, fingerprint-esque surface texture unique to each piece. The interesting claim isn&#x27;t &#x27;we 3D-printed a watch&#x27; but something more specific: that for the first time in horology&#x27;s history, makers are designing at the limits of imagination rather than the limits of their tools.</p>
       <div class="fb">
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Additive+watchmaking%3A+Parivas+Exo.1%22+%23manufacturing+%23design+%23horology">&#9650; more</a> &nbsp;&middot;&nbsp;
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Additive+watchmaking%3A+Parivas+Exo.1%22+%23manufacturing+%23design+%23horology">&#9660; less</a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Additive+watchmaking%3A+Parivas+Exo.1%22+%23manufacturing+%23design+%23horology">&#9650; more</a> &nbsp;&middot;&nbsp;
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Additive+watchmaking%3A+Parivas+Exo.1%22+%23manufacturing+%23design+%23horology">&#9660; less</a>
       </div>
     </article>
     <article>
@@ -98,8 +107,8 @@
       
       <p class="b">This person has now sequenced their own genome five times on an Oxford Nanopore MinION — collecting cheek cells, doing wet-lab prep, running the sequencer, then piping the VCF output through ClinVar, PharmGKB, and gnomAD to ask real clinical questions about drug metabolism and rare variants. The costs are still substantial but the exponential curve is the point: what took institutional labs is now a two-month home project. The framing that the genome is &#x27;the reference layer&#x27; — not magic by itself, but the substrate everything else queries — is the cleanest way to think about what personal genomics actually gives you.</p>
       <div class="fb">
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Sequencing+your+own+genome+at+home+with+a+MinION%22+%23biology+%23diy+%23genomics">&#9650; more</a> &nbsp;&middot;&nbsp;
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Sequencing+your+own+genome+at+home+with+a+MinION%22+%23biology+%23diy+%23genomics">&#9660; less</a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Sequencing+your+own+genome+at+home+with+a+MinION%22+%23biology+%23diy+%23genomics">&#9650; more</a> &nbsp;&middot;&nbsp;
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Sequencing+your+own+genome+at+home+with+a+MinION%22+%23biology+%23diy+%23genomics">&#9660; less</a>
       </div>
     </article>
         </section><section>
@@ -111,8 +120,8 @@
       
       <p class="b">Mount Sinai researchers identified lysosomal overactivity — lysosomes are the cell&#x27;s recycling centers — as a primary driver of blood stem cell aging in mice, then showed that calming that overdrive restored youthful regenerative function. The treated aged stem cells dramatically improved their ability to produce balanced blood and immune cells. This is preliminary mouse work, but the mechanistic clarity is what makes it interesting: it&#x27;s not a vague &#x27;rejuvenation,&#x27; it&#x27;s a specific dysfunction (lysosomes stuck in overdrive) with a specific fix.</p>
       <div class="fb">
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Making+old+blood+stem+cells+young+again%22+%23aging+%23stem+cells+%23biology">&#9650; more</a> &nbsp;&middot;&nbsp;
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Making+old+blood+stem+cells+young+again%22+%23aging+%23stem+cells+%23biology">&#9660; less</a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Making+old+blood+stem+cells+young+again%22+%23aging+%23stem+cells+%23biology">&#9650; more</a> &nbsp;&middot;&nbsp;
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Making+old+blood+stem+cells+young+again%22+%23aging+%23stem+cells+%23biology">&#9660; less</a>
       </div>
     </article>
         </section><section>
@@ -124,8 +133,8 @@
       
       <p class="b">The NES used a single crystal to drive all its clocks, which meant the dot clock on adjacent frames was almost — but not quite — correct for NTSC&#x27;s exacting interlacing requirements, producing a subtle side-to-side color wobble that some graphics made visible. Nicole Express traces this through a full explanation of how NTSC packed color into monochrome bandwidth in the 1950s, then shows how the NES (and contemporaries) either exploited or stumbled over the standard&#x27;s tolerance for off-spec signals. It&#x27;s one of those pieces where a familiar artifact of childhood turns out to be a compressed lesson in mid-century engineering compromise.</p>
       <div class="fb">
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Why+the+NES+put+out+a+wobbly+picture%22+%23hardware+%23video+%23history">&#9650; more</a> &nbsp;&middot;&nbsp;
-        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=willemnsimons%40gmail.com&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Why+the+NES+put+out+a+wobbly+picture%22+%23hardware+%23video+%23history">&#9660; less</a>
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8D&amp;body=More+like+this%3A+%22Why+the+NES+put+out+a+wobbly+picture%22+%23hardware+%23video+%23history">&#9650; more</a> &nbsp;&middot;&nbsp;
+        <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=&amp;su=%5Btaste%5D+%F0%9F%91%8E&amp;body=Less+like+this%3A+%22Why+the+NES+put+out+a+wobbly+picture%22+%23hardware+%23video+%23history">&#9660; less</a>
       </div>
     </article>
         </section>
@@ -177,6 +186,25 @@
     </article></section>
   
   
-  <footer>Tap the arrows on anything, or reply to the email — “go deeper on surrealism”,
+  <footer>Tap ▲ more / ▼ less on any item, or reply to the email — “go deeper on surrealism”,
   “drop crypto”, “shorter” — and tomorrow adjusts. <a href="index.html">Latest</a></footer>
+  <script>
+  (function() {
+    var current = "2026-07-07";
+    fetch('manifest.json').then(function(r) { return r.json(); }).then(function(dates) {
+      var i = dates.indexOf(current);
+      if (i < 0) return;
+      if (i > 0) {
+        var p = document.getElementById('prevDay');
+        p.href = dates[i - 1] + '.html';
+        p.classList.add('show');
+      }
+      if (i < dates.length - 1) {
+        var n = document.getElementById('nextDay');
+        n.href = dates[i + 1] + '.html';
+        n.classList.add('show');
+      }
+    }).catch(function() {});
+  })();
+  </script>
 </div></body></html>

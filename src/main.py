@@ -101,6 +101,8 @@ def main(dry_run: bool = False, supplemental: bool = False) -> None:
 
     page = render.render_page(digest, trial_sources)
     slug = state.publish(page, suffix="-more" if supplemental else None)
+    if not supplemental:
+        state.update_manifest(slug)
     base = os.environ.get("SITE_BASE_URL", "").rstrip("/")
     page_url = f"{base}/{slug}.html" if base else f"{slug}.html"
     print(f"· published -> docs/{slug}.html")
