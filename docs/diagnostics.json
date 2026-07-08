@@ -1,6 +1,6 @@
 {
-  "feeds": 77,
-  "mined": 48,
+  "feeds": 89,
+  "mined": 78,
   "videos": 8,
   "video_titles": [
     "AD - Why are plants colder than their surroundings?",
@@ -13,16 +13,16 @@
     "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "Anthropic Research",
     "Ars Technica",
-    "Cell Stem Cell / Mount Sinai",
-    "GitHub / Hacker News",
-    "Hackaday",
-    "PR Newswire / Parivas",
-    "bradleywoolf.com / Hacker News"
+    "Ars Technica / Unit 42",
+    "NPR World",
+    "Noma Security",
+    "The Public Domain Review",
+    "Tris Sherliker",
+    "YouTube \u2014 Steve Mould"
   ],
-  "had_video": false,
-  "run_at": "2026-07-07T13:38:13.924958+00:00"
+  "had_video": true,
+  "run_at": "2026-07-08T13:10:09.424043+00:00"
 }
