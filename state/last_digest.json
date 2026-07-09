@@ -1,97 +1,86 @@
 {
   "digest": {
-    "intro": "Code on clothes, dragonfly dogfights, and agents leaking your repos.",
+    "intro": "War, venom, dead stars, and the machine that ate your students' brains.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "U.S. Strikes Iran as Hormuz Shipping Attacks Escalate",
-            "source": "NPR World",
-            "url": "https://www.npr.org/sections/world/",
-            "blurb": "The most kinetic moment of the Iran conflict in weeks: U.S. military strikes landed hours after three merchant ships were hit in the Strait of Hormuz, the chokepoint for roughly 20% of global oil. This is happening simultaneously with the NATO summit in Ankara \u2014 two pressure points on the same day, each feeding the other's urgency.",
-            "tags": [
-              "geopolitics",
-              "iran",
-              "oil"
-            ]
-          },
-          {
-            "title": "NATO in Ankara: What the Alliance Actually Means When Its Anchor Power Is Transactional",
-            "source": "NPR World",
-            "url": "https://www.npr.org/sections/world/",
-            "blurb": "Trump is at the Ankara summit enforcing spending pledges while Ukraine's future security arrangements hang in the balance \u2014 the year's hinge moment for European order. The question being answered in real time is whether NATO is a mutual-defense pact or a protection racket with a sliding fee.",
+            "title": "NATO Ankara: Ukraine Gets Patriot Manufacturing Rights; Greenland Pressure Resurfaces",
+            "source": "NPR",
+            "url": "https://www.npr.org/sections/news",
+            "blurb": "Two genuinely consequential moves came out of the Ankara summit in one afternoon: Ukraine received licensing rights to manufacture Patriot air defense systems \u2014 a significant shift from aid-dependency toward sovereign production capacity \u2014 and Trump publicly leaned on Denmark over Greenland again, turning what seemed like a 2025 provocation into something that looks more like a sustained negotiating posture. The alliance is being reshaped by both moves simultaneously.",
             "tags": [
               "nato",
-              "ukraine",
-              "geopolitics"
-            ]
-          },
-          {
-            "title": "Le Pen Convicted, Electronic Monitor On, Declares 2027 Run Anyway",
-            "source": "NPR World",
-            "url": "https://www.npr.org/sections/world/",
-            "blurb": "France's leading democratic institutions have fitted their most popular presidential candidate with an ankle monitor \u2014 and she's running anyway. This is a live stress test of whether courts can actually disqualify a candidate without making her a martyr, with every European populist movement watching closely.",
-            "tags": [
-              "france",
-              "populism",
-              "democracy"
+              "geopolitics",
+              "defense"
             ]
           }
         ]
       },
       {
-        "heading": "The agentic attack surface opens up",
+        "heading": "Make and break",
         "items": [
           {
-            "title": "HalluSquatting: Attackers Pre-Register the Domains AI Will Hallucinate",
-            "source": "Ars Technica / Unit 42",
-            "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/",
-            "blurb": "Palo Alto's Unit 42 mapped 250,000 phantom domains \u2014 URLs that popular LLMs confidently hallucinate as real package sources or dependencies \u2014 and found attackers are registering them in advance to intercept whatever the AI fetches. The structural insight is the disturbing part: LLM failure modes are now *predictable enough to be pre-exploited* at scale, enabling the first pull-based prompt injection botnets.",
+            "title": "Die Casting Comes Home",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/07/09/die-casting-comes-home/",
+            "blurb": "A desktop CNC-milled graphite die, a hydraulic cylinder, and a pair of old trampoline springs: that's the entire injection system this builder used to produce die-cast aluminum parts at home. The same graphite serves as both the mold and the injector piston \u2014 he tested the process with molten wax first, then moved to aluminum. The detail and dimensional consistency of the output is industrial-grade, and the whole thing makes pressurized-molten-metal casting feel almost casual.",
             "tags": [
-              "ai security",
-              "llm",
-              "botnets"
+              "fabrication",
+              "making",
+              "hardware"
             ]
           },
           {
-            "title": "GitLost: A Public GitHub Issue That Exfiltrates Your Private Repos",
-            "source": "Noma Security",
-            "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/",
-            "blurb": "Noma Labs found that GitHub's new Agentic Workflows \u2014 where an AI agent reads issues and calls tools autonomously \u2014 could be hijacked by posting a crafted issue in *any public repo belonging to the same org* as your private ones. The agent reads the malicious instructions, trusts them, and silently ships private data out; no authentication required from the attacker.",
+            "title": "John Deere's Right-to-Repair Settlement \u2014 and Why It Might Not Break Anything",
+            "source": "AP News / Fight to Repair",
+            "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
+            "blurb": "The FTC and five state AGs just secured a settlement requiring Deere to open its diagnostic tools to farmers and independent shops \u2014 a genuine policy landmark after years of software-locked tractors. But the more pointed read, circulating in the HN thread via Fight to Repair, argues the settlement is structured in ways that preserve the platform monopoly even while appearing to open it: Deere controls what gets released, on what timeline, and at what price. Worth tracking which version proves right.",
             "tags": [
-              "ai security",
-              "github",
-              "prompt injection"
+              "right-to-repair",
+              "policy",
+              "infrastructure"
             ]
           }
         ]
       },
       {
-        "heading": "How things move",
+        "heading": "Mind and image",
         "items": [
           {
-            "title": "Dragonfly Dogfights Run on Surprisingly Simple Vision Rules",
+            "title": "Brown University: In-Person Final, Scores Dropped 50%",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/",
-            "blurb": "Researchers set up a stereo-camera rig at a pond and reconstructed 102 paired male-on-male dragonfly flight trajectories, finding the aerial dogfighting behavior emerges from one simple goal: maintain a tactical position relative to the opponent, mirroring human fighter-pilot doctrine. The implication for drone guidance is that you don't need complex computation to produce stunning, adaptive maneuvers \u2014 just the right minimal rule applied fast.",
+            "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+            "blurb": "Economics professor Roberto Serrano switched to take-home exams after a campus shooting shook him \u2014 enrollment in his notoriously hard course immediately spiked. When he required an in-person final, scores fell by half. This isn't an AI story in the narrow sense; it's a story about what happens when a shortcut becomes load-bearing infrastructure for an entire cohort's academic performance, and what 'knowing something' even means anymore in a high-stakes environment full of people who are smart enough to have avoided having to learn things.",
             "tags": [
-              "bio-inspiration",
-              "robotics",
-              "vision"
+              "ai",
+              "education",
+              "cognition"
             ]
           },
           {
-            "title": "The Anti-Trampoline Effect",
-            "source": "YouTube \u2014 Steve Mould",
-            "url": "https://www.youtube.com/watch?v=EP1mYq8hLIY",
-            "blurb": "Steve Mould reliably finds the physical phenomenon that breaks your naive model and then explains exactly why \u2014 here, a bouncy ball on a bouncy surface produces the opposite of what you'd expect. Worth 10 minutes for the kinetic intuition it rewires.",
+            "title": "Phlegm: Copper Engraving, D\u00fcrer, and Murals Built Like Riddles",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/07/phlegm-murals-engravings-street-art-printmaking/",
+            "blurb": "Phlegm spent the last two years in near-monastic study of Albrecht D\u00fcrer's 'Knight, Death, and the Devil' \u2014 collecting old prints, examining them under a microscope, reverse-engineering the line technique \u2014 before engraving his own version where every element is replaced with his own iconography while preserving D\u00fcrer's exact compositional logic and mark-making approach. He describes his work as floating in a 'grey area' where meaning can't fully cross the barrier between people, which is precisely what makes the images function as mythology rather than illustration.",
+            "tags": [
+              "art",
+              "printmaking",
+              "iconography"
+            ]
+          },
+          {
+            "title": "How Light 'Knows' the Shortest Path",
+            "source": "Veritasium",
+            "url": "https://www.youtube.com/shorts/h1YeIE0vEIs",
+            "thumbnail": "https://i1.ytimg.com/vi/h1YeIE0vEIs/hqdefault.jpg",
+            "blurb": "Fermat's principle says light always takes the path of least time \u2014 but how does it 'know' in advance which path that is? Veritasium uses this as a door into Feynman's path integral formulation: light doesn't pick one path, it takes all of them simultaneously, and the non-extremal paths cancel each other out through interference. The question sounds like philosophy and lands squarely in the foundations of quantum mechanics.",
             "tags": [
               "physics",
-              "counterintuitive",
-              "video"
-            ],
-            "thumbnail": "https://i2.ytimg.com/vi/EP1mYq8hLIY/hqdefault.jpg"
+              "optics",
+              "quantum"
+            ]
           }
         ]
       },
@@ -99,25 +88,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The Akamai Anti-Bot Script Printed on a Uniqlo T-Shirt",
-            "source": "Tris Sherliker",
-            "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/",
-            "blurb": "A Uniqlo t-shirt sold in high-street stores has a shebang line and a base64-encoded, self-evaluating bash script printed on the back \u2014 an Akamai easter egg hidden in a mass-market garment, structured exactly like malware delivery. The author had to do careful OCR to decode it because base64 has no error correction, and one wrong character breaks the whole thing. As an object it's genuinely strange: corporate infrastructure obfuscation made wearable and sold to civilians.",
+            "title": "Hunting a Novel Psychedelic in the Mushroom Behind Lilliputian Hallucinations",
+            "source": "Nautilus",
+            "url": "https://nautil.us/hunting-for-a-new-hallucinogen-in-the-lilliputian-psychedelic-1282565/",
+            "blurb": "Mushrooms from the genus Lanmaoa are the only known biological trigger for Lilliputian hallucinations \u2014 the experience of watching hordes of tiny, vivid, friendly miniature people moving around your actual furniture. Researchers at the University of Utah just built the first family tree for the genus and found it contains none of the genes for psilocybin or ibotenic acid, the two known psychedelic compounds in fungi. Whatever is causing these visions is chemically novel, and hasn't been identified yet \u2014 meaning there's an entirely unknown psychedelic out there, encoded in a mushroom, doing something to the brain that nothing else does.",
             "tags": [
-              "art object",
-              "code",
-              "infrastructure"
-            ]
-          },
-          {
-            "title": "Amauta Magazine Covers, 1926\u201330: A Visual Language for Indigenous Modernism",
-            "source": "The Public Domain Review",
-            "url": "https://publicdomainreview.org/collection/amauta",
-            "blurb": "Jos\u00e9 Carlos Mari\u00e1tegui's Lima magazine \u2014 100 years old this year \u2014 ran 32 issues and published Freud translations, C\u00e9sar Vallejo poetry, Diego Rivera art, and Rosa Luxemburg reportage while inventing a visual identity that fused Andean indigenous iconography with European avant-garde design. The covers are the artifact: a case study in how an aesthetic system can carry political identity and create a movement that outlasts the magazine itself.",
-            "tags": [
-              "design history",
-              "visual identity",
-              "latin america"
+              "mycology",
+              "neuroscience",
+              "chemistry"
             ]
           }
         ]
@@ -125,100 +103,102 @@
     ],
     "facts": [
       {
-        "fact": "Palo Alto Networks' Unit 42 mapped 250,000 phantom domains that AI tools hallucinate as real \u2014 attackers are pre-registering them to intercept whatever the model fetches.",
-        "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets/"
+        "fact": "A builder die-cast aluminum parts at home using a mold carved from graphite and a spring-loaded injector made from a modified hydraulic cylinder and old trampoline parts.",
+        "url": "https://hackaday.com/2026/07/09/die-casting-comes-home/"
       },
       {
-        "fact": "Male dragonflies engage in aerial dogfights using the same tactical positioning doctrine as human fighter pilots \u2014 and researchers reconstructed 102 such flight trajectories from a portable stereo-camera rig at a pond.",
-        "url": "https://arstechnica.com/science/2026/07/dragonflies-maneuver-like-fighter-pilots/"
+        "fact": "Participants who took the highest dose of retatrutide \u2014 a drug targeting three hormone receptors simultaneously \u2014 lost over 30% of their body weight over roughly two years, a figure experts are comparing to bariatric surgery outcomes.",
+        "url": "https://diatribe.org/diabetes-research/top-diabetes-news-ada-2026"
       },
       {
-        "fact": "A Uniqlo t-shirt designed by Akamai contains a working, obfuscated bash script on the back \u2014 structured identically to how malware is typically delivered \u2014 that decodes to a benign Easter egg message.",
-        "url": "https://tris.sherliker.net/blog/obfuscated-self-evaluating-bash-script-by-cdn-akamai-being-supplied-to-consumers-via-retail-stores/"
+        "fact": "A French team monitoring a mid-ocean rift between the Australian and Antarctic plates found that most of the tectonic spreading occurred in a short burst \u2014 and some major events happened with no seismic signal at all.",
+        "url": "https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread/"
       },
       {
-        "fact": "At \u00dc\u00e7a\u011f\u0131zl\u0131 II Cave in Turkey, Neanderthals and modern humans occupied the same site across different periods separated by millennia, yet left behind nearly identical stone tools and hunted the same animals \u2014 the species transition is only detectable by examining teeth.",
-        "url": "https://nautil.us/modern-humans-and-neanderthals-may-have-shared-a-cave-dwelling-culture-1282537/"
+        "fact": "Lilliputian hallucinations \u2014 visions of friendly miniature people climbing your furniture \u2014 can be triggered by a specific mushroom genus (Lanmaoa) that contains none of the genes for any known psychedelic compound.",
+        "url": "https://nautil.us/hunting-for-a-new-hallucinogen-in-the-lilliputian-psychedelic-1282565/"
       },
       {
-        "fact": "GitHub's Agentic Workflows can be hijacked by posting a malicious issue in a *public* repository \u2014 no authentication needed \u2014 causing the AI agent to silently exfiltrate data from private repositories in the same organization.",
-        "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos/"
+        "fact": "When Brown University economics professor Roberto Serrano required an in-person final exam for a course that had seen an unusual enrollment surge, scores dropped by 50% compared to the take-home midterm.",
+        "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a small WebGL sketch where light rays pathfind across a scene \u2014 not by tracing the correct path, but by visibly simulating many paths simultaneously and letting the 'wrong' ones fade out through destructive interference. The Veritasium piece frames this as the actual physics: light takes all paths and cancels itself except at the extremum. Make the cancellation visible. Even a 2D grid of wave amplitudes summing and colliding would do it \u2014 the goal is to see Fermat's principle emerge from chaos rather than be stated."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "The Host and the Cloud",
-        "creator": "Pierre Huyghe",
-        "why": "A 2009\u20132010 film shot inside a deserted Paris ethnography museum on three holiday nights, where Huyghe staged ritualized scenes with paid participants \u2014 art as anthropology experiment, feedback loop as medium. It's the clearest window into his obsession with systems that blur fiction, institution, and human behavior before you see UUmwelt upstairs at MoMA.",
-        "url": "https://www.mariangoodman.com/artists/46-pierre-huyghe/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "The film that invented the essay-film as a form: a meditation on memory, ritual, and how different cultures construct meaning from images \u2014 Tokyo, Guinea-Bissau, Iceland \u2014 threaded by a single invisible narrator. Every frame is a systems-thinker asking what images actually do to the humans who make and receive them. If you haven't seen it, stop everything.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Lothar Baumgarten: Unfinished Map",
-        "creator": "Lothar Baumgarten",
-        "why": "Baumgarten spent years embedded with Yanomami communities in Venezuela, then made work from that encounter \u2014 language as landscape, cartography as violence, the museum as colonial instrument made visible. Obsessive, narrow, unreasonably deep, and formally beautiful. His permanent installation at the Guggenheim (the 'America Invention' floor text) turns the rotunda into a monument to erasure.",
-        "url": "https://www.guggenheim.org/artwork/artist/lothar-baumgarten"
+        "title": "Haegue Yang \u2014 Selected Works",
+        "creator": "Haegue Yang",
+        "why": "Yang builds sculptures from Venetian blinds, bells, light, and scent that function simultaneously as kinetic objects, cultural symbols, and social rituals \u2014 the physical system IS the meaning. Her work is a rare case where formal obsession and anthropological depth are completely inseparable.",
+        "url": "https://www.hauserwirth.com/artists/2817-haegue-yang/"
       },
       {
         "medium": "music",
-        "title": "Anima",
-        "creator": "Thom Yorke",
-        "why": "Released with a Paul Thomas Anderson one-reeler meant to be watched as a single unit \u2014 the record is a system, not a playlist: score-like electronic textures that render anxiety and urban drift as physical sensation. The physical/digital edge lives right here.",
-        "url": "https://www.youtube.com/watch?v=G0e5a9AQTGA"
+        "title": "Dragging a Dead Deer Up a Hill",
+        "creator": "Grouper",
+        "why": "Liz Harris went unreasonably deep into a narrow zone \u2014 tape hiss, reverb, and folk melody dissolved until they become something closer to architecture than song. It's one of those records that changes the room. The system underneath is grief and texture; the surface is almost unbearably beautiful.",
+        "url": "https://grouper.bandcamp.com/album/dragging-a-dead-deer-up-a-hill"
       }
     ],
     "events": [
       {
+        "name": "Yves Saint Laurent and Photography",
+        "venue": "International Center of Photography, 84 Ludlow St, Manhattan",
+        "date_start": "2026-06-11",
+        "date_end": "2026-09-28",
+        "category": "museum",
+        "why": "Nearly 300 photographs and archival objects tracing how YSL used photography not just for promotion but as a system for constructing identity, myth, and cultural authority \u2014 with work by Avedon, Newton, Penn, Warhol, and Guy Bourdin alongside contact sheets and campaign materials that show the machinery behind the legend.",
+        "url": "https://www.icp.org/exhibitions/yves-saint-laurent-and-photography",
+        "date": "Jun 11 \u2013 Sep 28"
+      },
+      {
         "name": "Pierre Huyghe: UUmwelt",
-        "venue": "Museum of Modern Art (Abby Aldrich Rockefeller Sculpture Garden), Midtown Manhattan",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
         "date_start": "2026-07-01",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Huyghe collaborated with Kyoto neuroscientists to feed fMRI brain-scan data into a neural network that then generates hallucinatory visual interpretations of human thought \u2014 displayed on freestanding screens in MoMA's sculpture garden, it dissolves the boundary between human and machine cognition in one of the most consequential shows in New York this year.",
-        "url": "https://www.moma.org/calendar/exhibitions/5912",
+        "why": "Huyghe placed freestanding screens in MoMA's Sculpture Garden running a machine-learning system trained on fMRI scans of a person imagining images \u2014 the work activates in real time from visitor gazes and cancer-cell mutation data, making the boundary between human and machine cognition the actual medium; it's as close to a living artwork as a museum has shown.",
+        "url": "https://press.moma.org/film-media/uumwelt/",
         "date": "Jul 1 \u2013 Nov 29"
       },
       {
         "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters across New York City (citywide)",
+        "venue": "JCDecaux Bus Shelters across New York City (Public Art Fund commission)",
         "date_start": "2026-07-08",
         "date_end": "2026-09-06",
         "category": "museum",
-        "why": "Orozco's first-ever commissioned photographic series \u2014 12 images across 300 bus shelters, each a trompe l'oeil designed so the photograph bleeds into its surroundings: a tree growing through a concrete wall appears to extend into the actual sidewalk below, turning the whole city into a perceptual loop.",
+        "why": "Orozco's first commissioned photographic series \u2014 10 new site-specific images of urban life distributed across the city's bus shelter network \u2014 turns the infrastructure of waiting into a gallery and asks what it means to really see the fabric of a city you move through every day.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "Spoon / Ratboys / BODEGA",
-        "venue": "SummerStage, Rumsey Playfield, Central Park",
-        "date_start": "2026-07-08",
-        "date_end": "2026-07-08",
-        "category": "concert",
-        "why": "Free, outdoors, tonight \u2014 Spoon headlining with Brooklyn post-punk anti-consumerists BODEGA opening; three bands with actual ideas about craft and social texture, not just a crowd-filler.",
-        "url": "https://cityparksfoundation.org/events/spoon-ratboys-bodega/",
-        "date": "Wed, Jul 8"
+        "name": "SVA MFA Art Practice: \"In Plain Sight\"",
+        "venue": "SVA Flatiron Gallery, 133 W 21st St, Manhattan",
+        "date_start": "2026-07-09",
+        "date_end": "2026-07-25",
+        "category": "museum",
+        "why": "Opening-night show from SVA's MFA Art Practice graduates, curated by faculty member Jacquelyn Strycker \u2014 small graduate shows are where you find artists at their most unguarded and formally adventurous, before the work gets institutionalized; the reception is tonight (July 9, 6\u20138pm).",
+        "url": "https://sva.edu/features/july-2026-exhibitions-and-events-at-sva",
+        "date": "Jul 9\u201325"
       },
       {
-        "name": "Mavis Staples / Brother Wallace",
-        "venue": "SummerStage, Rumsey Playfield, Central Park (presented with The Apollo Theater)",
-        "date_start": "2026-07-16",
-        "date_end": "2026-07-16",
+        "name": "Lincoln Center Summer for the City: Ruidosa Fest",
+        "venue": "Lincoln Center, Josie Robertson Plaza, Upper West Side",
+        "date_start": "2026-07-12",
+        "date_end": "2026-07-12",
         "category": "concert",
-        "why": "At 86, Mavis Staples is a living feedback loop between gospel, civil rights, and American myth \u2014 she's collaborated with everyone from Bob Dylan to Prince \u2014 and this is a free outdoor performance with the Apollo Theater's institutional weight behind it; a rare convergence of deep time and living presence.",
-        "url": "https://www.apollotheater.org/event/mavis-staples-with-brother-wallace",
-        "date": "Thu, Jul 16"
-      },
-      {
-        "name": "Complexions Contemporary Ballet / Paul Taylor Dance Company / LaTasha Barnes' The Jazz Continuum",
-        "venue": "SummerStage, Rumsey Playfield, Central Park (presented with the Joyce Theater)",
-        "date_start": "2026-07-22",
-        "date_end": "2026-07-22",
-        "category": "concert",
-        "why": "Three companies in one free evening: Complexions pushes ballet into hip-hop and contemporary hybrid territory, Paul Taylor's postmodern American canon, and LaTasha Barnes reframing jazz vernacular as choreographic philosophy \u2014 a single night that maps the entire argument about what bodies and social forms can do together.",
-        "url": "https://cityparksfoundation.org/summerstage/",
-        "date": "Wed, Jul 22"
+        "why": "A free outdoor festival focused on Latinx women and non-binary artists in music \u2014 part of Lincoln Center's broader Summer for the City series that runs nightly free and pay-what-you-wish events all summer, making the campus itself a kind of rotating public commons.",
+        "url": "https://www.lincolncenter.org/series/summer-for-the-city",
+        "date": "Sun, Jul 12"
       }
     ]
   },

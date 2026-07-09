@@ -1,11 +1,11 @@
 {
-  "feeds": 89,
-  "mined": 78,
+  "feeds": 86,
+  "mined": 51,
   "videos": 8,
   "video_titles": [
+    "How does light 'know' the shortest path?",
     "AD - Why are plants colder than their surroundings?",
     "AD - Why do I get this spark when I unplug my hair dryer?",
-    "Why do these metronomes sync up?",
     "Why clouds and foam are white",
     "The disappearing ink that isn\u2019t ink",
     "The Anti Trampoline Effect",
@@ -13,16 +13,16 @@
     "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
+    "AP News / Fight to Repair",
     "Ars Technica",
-    "Ars Technica / Unit 42",
-    "NPR World",
-    "Noma Security",
-    "The Public Domain Review",
-    "Tris Sherliker",
-    "YouTube \u2014 Steve Mould"
+    "Colossal",
+    "Hackaday",
+    "NPR",
+    "Nautilus",
+    "Veritasium"
   ],
   "had_video": true,
-  "run_at": "2026-07-08T13:10:09.424043+00:00"
+  "run_at": "2026-07-09T13:36:14.822129+00:00"
 }
