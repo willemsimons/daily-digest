@@ -1,86 +1,92 @@
 {
   "digest": {
-    "intro": "War, venom, dead stars, and the machine that ate your students' brains.",
+    "intro": "War, infrastructure, and the art of building things meant to be lost.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "NATO Ankara: Ukraine Gets Patriot Manufacturing Rights; Greenland Pressure Resurfaces",
-            "source": "NPR",
-            "url": "https://www.npr.org/sections/news",
-            "blurb": "Two genuinely consequential moves came out of the Ankara summit in one afternoon: Ukraine received licensing rights to manufacture Patriot air defense systems \u2014 a significant shift from aid-dependency toward sovereign production capacity \u2014 and Trump publicly leaned on Denmark over Greenland again, turning what seemed like a 2025 provocation into something that looks more like a sustained negotiating posture. The alliance is being reshaped by both moves simultaneously.",
+            "title": "After Losing 24 Reapers, the Pentagon Bets on Drones Built to Be Shot Down",
+            "source": "TechTimes / Defense Innovation Unit",
+            "url": "https://www.techtimes.com/articles/319973/20260709/after-iran-downed-24-reapers-pentagon-bets-drones-built-shot-down.htm",
+            "blurb": "The DIU's Massed Modular Aircraft solicitation is a doctrine-level inversion: instead of making platforms survivable, make them cheap enough that losing them is a tactical footnote. Twenty-four MQ-9 Reapers were destroyed in six weeks over Iran \u2014 at up to $50M each, that's $700M+ gone and the Air Force dropped below its own operational minimum. The MMA's government-owned open-architecture payload spec means no contractor lock-in, and the July 23 deadline suggests urgency bordering on panic.",
             "tags": [
-              "nato",
-              "geopolitics",
-              "defense"
+              "defense",
+              "drones",
+              "doctrine"
+            ]
+          },
+          {
+            "title": "The Glass Backbone: Why the Army's Logistics Will Break in the Next War",
+            "source": "Modern War Institute at West Point",
+            "url": "https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/",
+            "blurb": "Two decades of optimizing for uncontested supply lines, contractor support, and static FOBs has left the US Army with a sustainment tail that's essentially a liability in any contested environment. West Point's war studies journal draws the through-line from Barbarossa \u2014 the Wehrmacht shattered Soviet lines then literally ran out of fuel and winter clothing because their logistics assumed a short campaign \u2014 to the current NDS pivot toward large-scale combat operations. The argument: a lethal maneuver force without a survivable logistics backbone is just a stationary target waiting to culminate.",
+            "tags": [
+              "military",
+              "logistics",
+              "strategy"
+            ]
+          },
+          {
+            "title": "Syria's Solar Boom: Infrastructure from Catastrophe",
+            "source": "The National",
+            "url": "https://www.thenationalnews.com/business/energy/2026/07/06/syrias-solar-boom-is-redefining-middle-easts-energy-model/",
+            "blurb": "Damascus is now the most solar-dense city in the Middle East \u2014 not by policy but because the grid delivers four hours of electricity a day and cheap Chinese panels filled the void. Syria's off-grid solar capacity went from 249MW in 2022 to 2,060MW last year, with a quarter of households running some form of solar, outpacing every regional neighbor except Lebanon and Jordan. It's a live case study in what bottom-up infrastructure looks like when the state simply stops providing: not planned resilience but accumulated desperation that accidentally becomes a model.",
+            "tags": [
+              "energy",
+              "infrastructure",
+              "middle east"
+            ]
+          },
+          {
+            "title": "EU Chat Control 1.0 Passes \u2014 Against the Majority's Wishes",
+            "source": "Patrick Breyer MEP",
+            "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
+            "blurb": "In a procedural maneuver that will sting for years, the EU Parliament let suspicionless mass scanning of private messages become law even though 314 MEPs voted against it and only 276 for \u2014 because a rejection required an absolute majority of 361, not a simple majority. Encrypted communications got a symbolic carve-out that means nothing in practice. This mandates client-side or server-side scanning across EU messenger platforms through 2028 and sets the baseline for the upcoming permanent regulation negotiation.",
+            "tags": [
+              "surveillance",
+              "EU",
+              "privacy"
             ]
           }
         ]
       },
       {
-        "heading": "Make and break",
+        "heading": "Making things / craft obsession",
         "items": [
           {
-            "title": "Die Casting Comes Home",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/07/09/die-casting-comes-home/",
-            "blurb": "A desktop CNC-milled graphite die, a hydraulic cylinder, and a pair of old trampoline springs: that's the entire injection system this builder used to produce die-cast aluminum parts at home. The same graphite serves as both the mold and the injector piston \u2014 he tested the process with molten wax first, then moved to aluminum. The detail and dimensional consistency of the output is industrial-grade, and the whole thing makes pressurized-molten-metal casting feel almost casual.",
+            "title": "Bun Rewrites Itself in Rust",
+            "source": "Bun.sh",
+            "url": "https://bun.com/blog/bun-in-rust",
+            "blurb": "Jarred Sumner built the original Bun \u2014 JavaScript runtime, bundler, package manager, test runner, and more \u2014 alone in a year in Zig, pre-LLM, in a cramped Oakland apartment. Now, post-Anthropic acquisition, the team is rewriting it in Rust, using Claude Fable 5 to do a significant chunk of the translation. The interesting tension: Zig made the first impossible sprint possible by offering low-level control with minimal friction, but at 22 million monthly downloads and real production bets from Claude Code and Vercel, the stability cost of Zig's immaturity became too high.",
             "tags": [
-              "fabrication",
-              "making",
-              "hardware"
+              "systems",
+              "craft",
+              "programming languages"
             ]
           },
           {
-            "title": "John Deere's Right-to-Repair Settlement \u2014 and Why It Might Not Break Anything",
-            "source": "AP News / Fight to Repair",
-            "url": "https://apnews.com/article/john-deere-right-to-repair-agriculture-equipment-cb7514ffedb95c130a976af661f2bc02",
-            "blurb": "The FTC and five state AGs just secured a settlement requiring Deere to open its diagnostic tools to farmers and independent shops \u2014 a genuine policy landmark after years of software-locked tractors. But the more pointed read, circulating in the HN thread via Fight to Repair, argues the settlement is structured in ways that preserve the platform monopoly even while appearing to open it: Deere controls what gets released, on what timeline, and at what price. Worth tracking which version proves right.",
-            "tags": [
-              "right-to-repair",
-              "policy",
-              "infrastructure"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Mind and image",
-        "items": [
-          {
-            "title": "Brown University: In-Person Final, Scores Dropped 50%",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
-            "blurb": "Economics professor Roberto Serrano switched to take-home exams after a campus shooting shook him \u2014 enrollment in his notoriously hard course immediately spiked. When he required an in-person final, scores fell by half. This isn't an AI story in the narrow sense; it's a story about what happens when a shortcut becomes load-bearing infrastructure for an entire cohort's academic performance, and what 'knowing something' even means anymore in a high-stakes environment full of people who are smart enough to have avoided having to learn things.",
-            "tags": [
-              "ai",
-              "education",
-              "cognition"
-            ]
-          },
-          {
-            "title": "Phlegm: Copper Engraving, D\u00fcrer, and Murals Built Like Riddles",
+            "title": "Amelia Cross's Sewn Paintings: Where Trompe-L'\u0153il Meets Bespoke Tailoring",
             "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/07/phlegm-murals-engravings-street-art-printmaking/",
-            "blurb": "Phlegm spent the last two years in near-monastic study of Albrecht D\u00fcrer's 'Knight, Death, and the Devil' \u2014 collecting old prints, examining them under a microscope, reverse-engineering the line technique \u2014 before engraving his own version where every element is replaced with his own iconography while preserving D\u00fcrer's exact compositional logic and mark-making approach. He describes his work as floating in a 'grey area' where meaning can't fully cross the barrier between people, which is precisely what makes the images function as mythology rather than illustration.",
+            "url": "https://www.thisiscolossal.com/2026/07/amelia-cross-sewn-paintings/",
+            "blurb": "Cross trained in bespoke tailoring at London College of Fashion before a painting MFA at the Royal College of Art, and the combination produced something genuinely strange: canvases where actual sewn pockets, structured collars, and fabric sit alongside painted trompe-l'\u0153il shadows of the same, and you cannot immediately tell which is real. She thinks of the stretcher bars as a body she's dressing \u2014 the wooden armature as skeleton \u2014 which reframes the whole history of canvas support as secretly a garment problem. The perceptual confusion is the point: clothing already conceals and signals simultaneously.",
             "tags": [
               "art",
-              "printmaking",
-              "iconography"
+              "craft",
+              "painting"
             ]
           },
           {
-            "title": "How Light 'Knows' the Shortest Path",
-            "source": "Veritasium",
-            "url": "https://www.youtube.com/shorts/h1YeIE0vEIs",
-            "thumbnail": "https://i1.ytimg.com/vi/h1YeIE0vEIs/hqdefault.jpg",
-            "blurb": "Fermat's principle says light always takes the path of least time \u2014 but how does it 'know' in advance which path that is? Veritasium uses this as a door into Feynman's path integral formulation: light doesn't pick one path, it takes all of them simultaneously, and the non-extremal paths cancel each other out through interference. The question sounds like philosophy and lands squarely in the foundations of quantum mechanics.",
+            "title": "Lalibela: Monumental Architecture Carved Downward from Solid Rock",
+            "source": "Aeon Video",
+            "url": "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth",
+            "blurb": "Ethiopia's medieval Lalibela churches invert every assumption about how buildings are made: instead of stacking material upward, 12th-century builders removed stone downward from a single living rock mass, leaving fully formed churches with windows, columns, and courtyards that were never assembled \u2014 only revealed. It's subtractive architecture at monumental scale, the logic of sculpture applied to cathedral-building, and it still isn't fully understood how they pulled it off.",
             "tags": [
-              "physics",
-              "optics",
-              "quantum"
-            ]
+              "architecture",
+              "history",
+              "making"
+            ],
+            "thumbnail": "https://aeon.co/img/social/video-lalibela.jpg"
           }
         ]
       },
@@ -88,14 +94,25 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Hunting a Novel Psychedelic in the Mushroom Behind Lilliputian Hallucinations",
-            "source": "Nautilus",
-            "url": "https://nautil.us/hunting-for-a-new-hallucinogen-in-the-lilliputian-psychedelic-1282565/",
-            "blurb": "Mushrooms from the genus Lanmaoa are the only known biological trigger for Lilliputian hallucinations \u2014 the experience of watching hordes of tiny, vivid, friendly miniature people moving around your actual furniture. Researchers at the University of Utah just built the first family tree for the genus and found it contains none of the genes for psilocybin or ibotenic acid, the two known psychedelic compounds in fungi. Whatever is causing these visions is chemically novel, and hasn't been identified yet \u2014 meaning there's an entirely unknown psychedelic out there, encoded in a mushroom, doing something to the brain that nothing else does.",
+            "title": "Yamanote.fun \u2014 A Complete Soundscape for Tokyo's Loop Line",
+            "source": "Show HN",
+            "url": "https://www.yamanote.fun/",
+            "blurb": "Someone built a complete ambient audio environment that maps every station melody, door chime, announcement, and train sound on the Yamanote Line \u2014 Tokyo's most-ridden commuter loop \u2014 playable in both clockwise and counterclockwise directions because each has its own distinct set of melodies. It runs at twice real-world speed so you can complete the full loop in 30 minutes. The entire thing is obsessive completionism in service of a single quiet idea: that a city's transit system has a sound identity as legible and emotional as its visual one.",
             "tags": [
-              "mycology",
-              "neuroscience",
-              "chemistry"
+              "sound",
+              "place",
+              "obsessive craft"
+            ]
+          },
+          {
+            "title": "'Worthless Idiot, Donkey Head': The Renaissance Pedant as Cultural Antibody",
+            "source": "The Public Domain Review",
+            "url": "https://publicdomainreview.org/essay/parodies-of-pedantry",
+            "blurb": "The Pedant was a stock figure on the Italian Renaissance stage \u2014 not just a bore but a threat, someone whose display of learning was understood as a bid for social dominance that needed to be ritually humiliated. Arnoud Visser's essay tracks how the character encoded anxieties about humanist credentialism: the pedant didn't know too much, he knew in the wrong way, performing erudition as status rather than deploying it as understanding. Montaigne, surrounded by quotations from Greek and Latin, was acutely aware he was one misread gesture away from becoming the joke.",
+            "tags": [
+              "history",
+              "culture",
+              "essay"
             ]
           }
         ]
@@ -103,102 +120,102 @@
     ],
     "facts": [
       {
-        "fact": "A builder die-cast aluminum parts at home using a mold carved from graphite and a spring-loaded injector made from a modified hydraulic cylinder and old trampoline parts.",
-        "url": "https://hackaday.com/2026/07/09/die-casting-comes-home/"
+        "fact": "The US Air Force lost 24 MQ-9 Reaper drones in six weeks over Iran, dropping its fleet to 135 \u2014 54 below its own stated operational minimum of 189 aircraft.",
+        "url": "https://www.techtimes.com/articles/319973/20260709/after-iran-downed-24-reapers-pentagon-bets-drones-built-shot-down.htm"
       },
       {
-        "fact": "Participants who took the highest dose of retatrutide \u2014 a drug targeting three hormone receptors simultaneously \u2014 lost over 30% of their body weight over roughly two years, a figure experts are comparing to bariatric surgery outcomes.",
-        "url": "https://diatribe.org/diabetes-research/top-diabetes-news-ada-2026"
+        "fact": "Syria's off-grid solar capacity grew from 249 megawatts in 2022 to 2,060 megawatts in 2025 \u2014 driven not by policy but by a grid that delivers roughly four hours of electricity per day.",
+        "url": "https://www.thenationalnews.com/business/energy/2026/07/06/syrias-solar-boom-is-redefining-middle-easts-energy-model/"
       },
       {
-        "fact": "A French team monitoring a mid-ocean rift between the Australian and Antarctic plates found that most of the tectonic spreading occurred in a short burst \u2014 and some major events happened with no seismic signal at all.",
-        "url": "https://arstechnica.com/science/2026/07/newly-installed-monitoring-system-watched-the-seafloor-spread/"
+        "fact": "EU Chat Control 1.0 passed even though a majority of voting MEPs (314\u2013276) opposed it, because rejection required an absolute majority of 361 votes \u2014 a structural threshold that functionally inverts democratic intent.",
+        "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/"
       },
       {
-        "fact": "Lilliputian hallucinations \u2014 visions of friendly miniature people climbing your furniture \u2014 can be triggered by a specific mushroom genus (Lanmaoa) that contains none of the genes for any known psychedelic compound.",
-        "url": "https://nautil.us/hunting-for-a-new-hallucinogen-in-the-lilliputian-psychedelic-1282565/"
+        "fact": "A study of 143 natural puncture tools across 133 species found that scorpion stingers, dracula ant mandibles, and mantis shrimp appendages are among the only structures in nature that are elite performers in both sharpness and breakage resistance simultaneously.",
+        "url": "https://nautil.us/the-surprising-evolutionary-trade-offs-between-fangs-stingers-and-claws-1282561/"
       },
       {
-        "fact": "When Brown University economics professor Roberto Serrano required an in-person final exam for a course that had seen an unusual enrollment surge, scores dropped by 50% compared to the take-home midterm.",
-        "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/"
+        "fact": "Jarred Sumner wrote the original version of Bun \u2014 a full JavaScript runtime, bundler, package manager, and test runner \u2014 alone, in one year, in Zig, before LLM coding tools existed.",
+        "url": "https://bun.com/blog/bun-in-rust"
       }
     ],
     "make_something": {
-      "prompt": "Build a small WebGL sketch where light rays pathfind across a scene \u2014 not by tracing the correct path, but by visibly simulating many paths simultaneously and letting the 'wrong' ones fade out through destructive interference. The Veritasium piece frames this as the actual physics: light takes all paths and cancels itself except at the extremum. Make the cancellation visible. Even a 2D grid of wave amplitudes summing and colliding would do it \u2014 the goal is to see Fermat's principle emerge from chaos rather than be stated."
+      "prompt": "Build a minimal browser-based 'transit soundscape' for a place you know well \u2014 not Tokyo, but your own subway line, neighborhood loop, or commute. Map one ambient audio layer (field recording, tone, or generated texture) to each stop or landmark, and let it crossfade as a simulated position advances. The constraint: no music, only environmental sound and UI tones. The Yamanote project works because the sounds are already there \u2014 your version is an act of listening before building."
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "The film that invented the essay-film as a form: a meditation on memory, ritual, and how different cultures construct meaning from images \u2014 Tokyo, Guinea-Bissau, Iceland \u2014 threaded by a single invisible narrator. Every frame is a systems-thinker asking what images actually do to the humans who make and receive them. If you haven't seen it, stop everything.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
-      },
-      {
-        "medium": "art",
-        "title": "Haegue Yang \u2014 Selected Works",
-        "creator": "Haegue Yang",
-        "why": "Yang builds sculptures from Venetian blinds, bells, light, and scent that function simultaneously as kinetic objects, cultural symbols, and social rituals \u2014 the physical system IS the meaning. Her work is a rare case where formal obsession and anthropological depth are completely inseparable.",
-        "url": "https://www.hauserwirth.com/artists/2817-haegue-yang/"
+        "title": "La R\u00e9gion Centrale",
+        "creator": "Michael Snow",
+        "why": "A camera mounted on a custom-built mechanical armature sweeps, spins, and inverts across a barren Quebec landscape for three hours \u2014 the machine's choreography is the film. It's a generative 3D system made before the language existed, and staring at it long enough collapses the boundary between sculpture, code, and landscape.",
+        "url": "https://letterboxd.com/film/la-region-centrale/"
       },
       {
         "medium": "music",
-        "title": "Dragging a Dead Deer Up a Hill",
-        "creator": "Grouper",
-        "why": "Liz Harris went unreasonably deep into a narrow zone \u2014 tape hiss, reverb, and folk melody dissolved until they become something closer to architecture than song. It's one of those records that changes the room. The system underneath is grief and texture; the surface is almost unbearably beautiful.",
-        "url": "https://grouper.bandcamp.com/album/dragging-a-dead-deer-up-a-hill"
+        "title": "I Am Sitting in a Room",
+        "creator": "Alvin Lucier",
+        "why": "Lucier records his voice, plays it back into the room, records that, repeats \u2014 until the room's resonant frequencies consume the speech entirely. A feedback loop that makes acoustics visible through time. The room becomes the instrument, and the process is the composition.",
+        "url": "https://www.youtube.com/watch?v=fAxHlLK3Oyk"
+      },
+      {
+        "medium": "art",
+        "title": "Vera Moln\u00e1r \u2014 Works",
+        "creator": "Vera Moln\u00e1r",
+        "why": "The founding mother of generative art, Moln\u00e1r spent decades writing algorithms to systematically disorder geometric grids \u2014 exploring how small deviations from rule produce feeling. Her work sits exactly at the edge of code-as-self-expression: obsessive, rigorous, and quietly beautiful.",
+        "url": "https://www.veramolnar.com/"
       }
     ],
     "events": [
       {
-        "name": "Yves Saint Laurent and Photography",
-        "venue": "International Center of Photography, 84 Ludlow St, Manhattan",
-        "date_start": "2026-06-11",
-        "date_end": "2026-09-28",
+        "name": "Greater New York 2026",
+        "venue": "MoMA PS1, 22-25 Jackson Avenue, Long Island City, Queens",
+        "date_start": "2026-04-16",
+        "date_end": "2026-08-17",
         "category": "museum",
-        "why": "Nearly 300 photographs and archival objects tracing how YSL used photography not just for promotion but as a system for constructing identity, myth, and cultural authority \u2014 with work by Avedon, Newton, Penn, Warhol, and Guy Bourdin alongside contact sheets and campaign materials that show the machinery behind the legend.",
-        "url": "https://www.icp.org/exhibitions/yves-saint-laurent-and-photography",
-        "date": "Jun 11 \u2013 Sep 28"
+        "why": "PS1's quinquennial snapshot of 53 NYC-based early- and mid-career artists, organized for the first time by the full curatorial team \u2014 sprawling, free, and structured around the invisible infrastructures (surveillance, gig labor, shifting tech) that pressurize city life right now.",
+        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
+        "date": "Apr 16 \u2013 Aug 17"
       },
       {
         "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd St, Manhattan",
         "date_start": "2026-07-01",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Huyghe placed freestanding screens in MoMA's Sculpture Garden running a machine-learning system trained on fMRI scans of a person imagining images \u2014 the work activates in real time from visitor gazes and cancer-cell mutation data, making the boundary between human and machine cognition the actual medium; it's as close to a living artwork as a museum has shown.",
-        "url": "https://press.moma.org/film-media/uumwelt/",
+        "why": "Screens seeded throughout MoMA's sculpture garden display images reconstructed by a neural network from fMRI recordings of a human brain \u2014 activated in real time by visitor gaze and cancer cell mutation data; it's a living system that asks what seeing looks like when the mind isn't human.",
+        "url": "https://www.crousel.com/en/news/pierre-huyghe-uumwelt-2026-07-01/",
         "date": "Jul 1 \u2013 Nov 29"
       },
       {
         "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters across New York City (Public Art Fund commission)",
+        "venue": "JCDecaux Bus Shelters across NYC (all five boroughs)",
         "date_start": "2026-07-08",
         "date_end": "2026-09-06",
-        "category": "museum",
-        "why": "Orozco's first commissioned photographic series \u2014 10 new site-specific images of urban life distributed across the city's bus shelter network \u2014 turns the infrastructure of waiting into a gallery and asks what it means to really see the fabric of a city you move through every day.",
+        "category": "popup",
+        "why": "300 bus shelters citywide become trompe l'oeil interventions \u2014 Orozco's photographs of vines threading pipes and trees growing through concrete walls are installed so their edges bleed into the actual sidewalk and street, turning the city's infrastructure into a perceptual feedback loop.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "SVA MFA Art Practice: \"In Plain Sight\"",
-        "venue": "SVA Flatiron Gallery, 133 W 21st St, Manhattan",
+        "name": "\"In Plain Sight\" \u2014 SVA MFA Art Practice Exhibition (Opening)",
+        "venue": "SVA Flatiron Gallery, New York",
         "date_start": "2026-07-09",
         "date_end": "2026-07-25",
         "category": "museum",
-        "why": "Opening-night show from SVA's MFA Art Practice graduates, curated by faculty member Jacquelyn Strycker \u2014 small graduate shows are where you find artists at their most unguarded and formally adventurous, before the work gets institutionalized; the reception is tonight (July 9, 6\u20138pm).",
+        "why": "Opening reception tonight (July 9, 6\u20138pm) for new work by MFA Art Practice graduates \u2014 a good temperature read on what's incubating at the school level, curated by program faculty Jacquelyn Strycker.",
         "url": "https://sva.edu/features/july-2026-exhibitions-and-events-at-sva",
         "date": "Jul 9\u201325"
       },
       {
-        "name": "Lincoln Center Summer for the City: Ruidosa Fest",
-        "venue": "Lincoln Center, Josie Robertson Plaza, Upper West Side",
-        "date_start": "2026-07-12",
-        "date_end": "2026-07-12",
+        "name": "River & Blues \u2014 Rebirth Brass Band",
+        "venue": "Wagner Park, Battery Park City, Manhattan",
+        "date_start": "2026-07-09",
+        "date_end": "2026-07-09",
         "category": "concert",
-        "why": "A free outdoor festival focused on Latinx women and non-binary artists in music \u2014 part of Lincoln Center's broader Summer for the City series that runs nightly free and pay-what-you-wish events all summer, making the campus itself a kind of rotating public commons.",
-        "url": "https://www.lincolncenter.org/series/summer-for-the-city",
-        "date": "Sun, Jul 12"
+        "why": "Free outdoor sunset concert series returns to the Hudson waterfront tonight with Grammy-winning New Orleans institution Rebirth Brass Band \u2014 one of the last unreconstructed second-line brass bands still working at full power, and exactly the right setting for it.",
+        "url": "https://www.timeout.com/newyork/events-calendar/july-events-calendar",
+        "date": "Thu, Jul 9"
       }
     ]
   },

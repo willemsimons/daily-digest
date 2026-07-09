@@ -1,6 +1,6 @@
 {
-  "feeds": 86,
-  "mined": 51,
+  "feeds": 85,
+  "mined": 49,
   "videos": 8,
   "video_titles": [
     "How does light 'know' the shortest path?",
@@ -13,16 +13,18 @@
     "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "AP News / Fight to Repair",
-    "Ars Technica",
+    "Aeon Video",
+    "Bun.sh",
     "Colossal",
-    "Hackaday",
-    "NPR",
-    "Nautilus",
-    "Veritasium"
+    "Modern War Institute at West Point",
+    "Patrick Breyer MEP",
+    "Show HN",
+    "TechTimes / Defense Innovation Unit",
+    "The National",
+    "The Public Domain Review"
   ],
   "had_video": true,
-  "run_at": "2026-07-09T13:36:14.822129+00:00"
+  "run_at": "2026-07-09T14:09:32.363835+00:00"
 }
