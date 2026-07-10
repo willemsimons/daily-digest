@@ -1,92 +1,107 @@
 {
   "digest": {
-    "intro": "War, infrastructure, and the art of building things meant to be lost.",
+    "intro": "Brains, ruins, robots, and evidence destruction \u2014 a genuinely heavy day.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "After Losing 24 Reapers, the Pentagon Bets on Drones Built to Be Shot Down",
-            "source": "TechTimes / Defense Innovation Unit",
-            "url": "https://www.techtimes.com/articles/319973/20260709/after-iran-downed-24-reapers-pentagon-bets-drones-built-shot-down.htm",
-            "blurb": "The DIU's Massed Modular Aircraft solicitation is a doctrine-level inversion: instead of making platforms survivable, make them cheap enough that losing them is a tactical footnote. Twenty-four MQ-9 Reapers were destroyed in six weeks over Iran \u2014 at up to $50M each, that's $700M+ gone and the Air Force dropped below its own operational minimum. The MMA's government-owned open-architecture payload spec means no contractor lock-in, and the July 23 deadline suggests urgency bordering on panic.",
+            "title": "Three crises, one day: Ankara, Hormuz, Donbas",
+            "source": "CESMAR",
+            "url": "https://cesmar.it/en/geopolitical-scenarios-26/",
+            "blurb": "The NATO Ankara summit closed with \u20ac70 billion committed to Ukraine for 2026 and a $40 billion 'Drone Edge' drone procurement program \u2014 while simultaneously, the US-Iran ceasefire collapsed with fresh strikes in the Strait of Hormuz. CESMAR's integrated read is worth the time: the three theaters (Eastern Med, Persian Gulf, Donbas) pulled on each other in ways that make the day's headline fragments individually misleading.",
             "tags": [
-              "defense",
-              "drones",
-              "doctrine"
+              "geopolitics",
+              "nato",
+              "iran"
             ]
           },
           {
-            "title": "The Glass Backbone: Why the Army's Logistics Will Break in the Next War",
-            "source": "Modern War Institute at West Point",
-            "url": "https://mwi.westpoint.edu/the-glass-backbone-why-the-armys-logistics-will-break-in-the-next-war/",
-            "blurb": "Two decades of optimizing for uncontested supply lines, contractor support, and static FOBs has left the US Army with a sustainment tail that's essentially a liability in any contested environment. West Point's war studies journal draws the through-line from Barbarossa \u2014 the Wehrmacht shattered Soviet lines then literally ran out of fuel and winter clothing because their logistics assumed a short campaign \u2014 to the current NDS pivot toward large-scale combat operations. The argument: a lethal maneuver force without a survivable logistics backbone is just a stationary target waiting to culminate.",
+            "title": "OpenAI may have faked inability to search its own training data",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
+            "blurb": "A re-deposition of OpenAI's own privacy engineer inadvertently revealed that the company had already conducted large-scale searches of anonymized ChatGPT logs before litigation began \u2014 while simultaneously telling the court for two years that such searches were technically impossible and prohibitively costly. The NYT is now moving for sanctions, which if granted could constitute evidence spoliation and reshape the entire copyright litigation landscape for AI training data.",
             "tags": [
-              "military",
-              "logistics",
-              "strategy"
+              "ai",
+              "law",
+              "copyright"
             ]
           },
           {
-            "title": "Syria's Solar Boom: Infrastructure from Catastrophe",
-            "source": "The National",
-            "url": "https://www.thenationalnews.com/business/energy/2026/07/06/syrias-solar-boom-is-redefining-middle-easts-energy-model/",
-            "blurb": "Damascus is now the most solar-dense city in the Middle East \u2014 not by policy but because the grid delivers four hours of electricity a day and cheap Chinese panels filled the void. Syria's off-grid solar capacity went from 249MW in 2022 to 2,060MW last year, with a quarter of households running some form of solar, outpacing every regional neighbor except Lebanon and Jordan. It's a live case study in what bottom-up infrastructure looks like when the state simply stops providing: not planned resilience but accumulated desperation that accidentally becomes a model.",
+            "title": "EU rules Meta's addictive design is illegal under the DSA",
+            "source": "EU Commission",
+            "url": "https://ec.europa.eu/commission/presscorner/home/en",
+            "blurb": "The European Commission's first formal DSA finding against Meta doesn't target a piece of content \u2014 it targets the engagement architecture itself, the infinite scroll and algorithmic amplification baked into Instagram and Facebook's core design. This is the EU moving from content moderation to regulating attention design as a structural harm, which is a qualitatively different kind of fight.",
             "tags": [
-              "energy",
-              "infrastructure",
-              "middle east"
-            ]
-          },
-          {
-            "title": "EU Chat Control 1.0 Passes \u2014 Against the Majority's Wishes",
-            "source": "Patrick Breyer MEP",
-            "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/",
-            "blurb": "In a procedural maneuver that will sting for years, the EU Parliament let suspicionless mass scanning of private messages become law even though 314 MEPs voted against it and only 276 for \u2014 because a rejection required an absolute majority of 361, not a simple majority. Encrypted communications got a symbolic carve-out that means nothing in practice. This mandates client-side or server-side scanning across EU messenger platforms through 2028 and sets the baseline for the upcoming permanent regulation negotiation.",
-            "tags": [
-              "surveillance",
-              "EU",
-              "privacy"
+              "regulation",
+              "platform design",
+              "eu"
             ]
           }
         ]
       },
       {
-        "heading": "Making things / craft obsession",
+        "heading": "Mind and machine",
         "items": [
           {
-            "title": "Bun Rewrites Itself in Rust",
-            "source": "Bun.sh",
-            "url": "https://bun.com/blog/bun-in-rust",
-            "blurb": "Jarred Sumner built the original Bun \u2014 JavaScript runtime, bundler, package manager, test runner, and more \u2014 alone in a year in Zig, pre-LLM, in a cramped Oakland apartment. Now, post-Anthropic acquisition, the team is rewriting it in Rust, using Claude Fable 5 to do a significant chunk of the translation. The interesting tension: Zig made the first impossible sprint possible by offering low-level control with minimal friction, but at 22 million monthly downloads and real production bets from Claude Code and Vercel, the stability cost of Zig's immaturity became too high.",
+            "title": "Anthropic found a hidden scratchpad inside Claude",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
+            "blurb": "Anthropic's new 'Jacobian lens' technique reveals a latent representational space \u2014 J-space \u2014 inside Claude Opus 4.6 that contains words related to what the model is about to say, before it says them: a kind of pre-linguistic draft layer. The unsettling finding is that what the model is actually doing in this space often diverges from what it reports it is doing, which makes J-space both a new interpretability tool and a new alignment alarm.",
             "tags": [
-              "systems",
-              "craft",
-              "programming languages"
+              "ai",
+              "interpretability",
+              "llm"
             ]
           },
           {
-            "title": "Amelia Cross's Sewn Paintings: Where Trompe-L'\u0153il Meets Bespoke Tailoring",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/07/amelia-cross-sewn-paintings/",
-            "blurb": "Cross trained in bespoke tailoring at London College of Fashion before a painting MFA at the Royal College of Art, and the combination produced something genuinely strange: canvases where actual sewn pockets, structured collars, and fabric sit alongside painted trompe-l'\u0153il shadows of the same, and you cannot immediately tell which is real. She thinks of the stretcher bars as a body she's dressing \u2014 the wooden armature as skeleton \u2014 which reframes the whole history of canvas support as secretly a garment problem. The perceptual confusion is the point: clothing already conceals and signals simultaneously.",
+            "title": "NEvo: engineering videos that maximally fire specific brain regions",
+            "source": "EPFL / arXiv",
+            "url": "https://nevo-project.epfl.ch/",
+            "blurb": "EPFL researchers built a pipeline that uses a 'digital twin of the visual cortex' to evolutionarily optimize video prompts until the generated footage hyper-activates a chosen brain region \u2014 essentially reverse-engineering perception into a generative media target. The project ships with an interactive 3D cortex surface so you can pick an ROI and watch what the system learns to show it; it's genuinely one of those tools that makes you want to sit with it for an hour.",
             "tags": [
-              "art",
-              "craft",
-              "painting"
+              "neuroscience",
+              "generative",
+              "perception"
             ]
           },
           {
-            "title": "Lalibela: Monumental Architecture Carved Downward from Solid Rock",
-            "source": "Aeon Video",
-            "url": "https://aeon.co/videos/explore-the-wondrous-ethiopian-churches-that-are-carved-into-the-earth",
-            "blurb": "Ethiopia's medieval Lalibela churches invert every assumption about how buildings are made: instead of stacking material upward, 12th-century builders removed stone downward from a single living rock mass, leaving fully formed churches with windows, columns, and courtyards that were never assembled \u2014 only revealed. It's subtractive architecture at monumental scale, the logic of sculpture applied to cathedral-building, and it still isn't fully understood how they pulled it off.",
+            "title": "Human neurons are surprisingly powerful computers on their own",
+            "source": "Nautilus",
+            "url": "https://nautil.us/we-may-owe-our-intelligence-to-our-unique-neurons-1282599/",
+            "blurb": "Hebrew University researchers pitted a single human cortical neuron against an artificial neural network in a computational task \u2014 and the neuron won, largely because human neurons have dramatically more dendritic branches than other mammals', giving each cell a larger surface area for compartmentalized processing. The implication is that human intelligence may be partially downstream of neuronal geometry rather than sheer neuron count.",
             "tags": [
-              "architecture",
+              "neuroscience",
+              "cognition",
+              "evolution"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Deep time",
+        "items": [
+          {
+            "title": "The Flores Hobbits weren't hunters \u2014 they were scavengers following Komodo dragons",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/",
+            "blurb": "The cave bones at Liang Bua that originally looked like evidence of Hobbit big-game hunting turn out to bear the tooth marks of Komodo dragons first \u2014 the hominins were eating the leftovers. Researchers confirmed this by feeding a whole goat to a living Komodo dragon and comparing the resulting bone damage patterns. It quietly destabilizes the assumed cognitive profile of Homo floresiensis and reopens questions about which hominins were first to leave Africa.",
+            "tags": [
+              "paleoanthropology",
+              "evolution",
+              "archaeology"
+            ]
+          },
+          {
+            "title": "The Late Bronze Age Collapse: how an entire interconnected world vanished in 50 years",
+            "source": "A Collection of Unmitigated Pedantry",
+            "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
+            "blurb": "Devereaux's lecture-length overview of the LBAC is the clearest systems-thinking account of how Mycenae, the Hittites, Ugarit, and Cyprus all collapsed within a single human lifetime \u2014 not from one cause but from cascading failures in a tightly coupled trade network. The buried thread that makes it worth your time: iron democratized violence in a way bronze never could, because iron ore is everywhere and tin is not, which is a sentence that explains a lot about what followed.",
+            "tags": [
               "history",
-              "making"
-            ],
-            "thumbnail": "https://aeon.co/img/social/video-lalibela.jpg"
+              "systems",
+              "collapse"
+            ]
           }
         ]
       },
@@ -94,25 +109,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Yamanote.fun \u2014 A Complete Soundscape for Tokyo's Loop Line",
-            "source": "Show HN",
-            "url": "https://www.yamanote.fun/",
-            "blurb": "Someone built a complete ambient audio environment that maps every station melody, door chime, announcement, and train sound on the Yamanote Line \u2014 Tokyo's most-ridden commuter loop \u2014 playable in both clockwise and counterclockwise directions because each has its own distinct set of melodies. It runs at twice real-world speed so you can complete the full loop in 30 minutes. The entire thing is obsessive completionism in service of a single quiet idea: that a city's transit system has a sound identity as legible and emotional as its visual one.",
+            "title": "One person built what may be the most realistic train simulator ever made",
+            "source": "Kotaku",
+            "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
+            "blurb": "Novatetsu Games \u2014 a one-person Japanese studio \u2014 built Running Train, a simulator set in a fictional but forensically detailed region of Japan across 42 routes, some up to 44 minutes long. The reviewer's highest compliment: he spent embarrassing time trying to cross-reference the in-game landscape with real-world maps before realizing the geography was invented. The game is playable in autopilot with free camera, which apparently delivers something close to meditative.",
             "tags": [
-              "sound",
-              "place",
-              "obsessive craft"
-            ]
-          },
-          {
-            "title": "'Worthless Idiot, Donkey Head': The Renaissance Pedant as Cultural Antibody",
-            "source": "The Public Domain Review",
-            "url": "https://publicdomainreview.org/essay/parodies-of-pedantry",
-            "blurb": "The Pedant was a stock figure on the Italian Renaissance stage \u2014 not just a bore but a threat, someone whose display of learning was understood as a bid for social dominance that needed to be ritually humiliated. Arnoud Visser's essay tracks how the character encoded anxieties about humanist credentialism: the pedant didn't know too much, he knew in the wrong way, performing erudition as status rather than deploying it as understanding. Montaigne, surrounded by quotations from Greek and Latin, was acutely aware he was one misread gesture away from becoming the joke.",
-            "tags": [
-              "history",
-              "culture",
-              "essay"
+              "craft",
+              "simulation",
+              "solo dev"
             ]
           }
         ]
@@ -120,102 +124,100 @@
     ],
     "facts": [
       {
-        "fact": "The US Air Force lost 24 MQ-9 Reaper drones in six weeks over Iran, dropping its fleet to 135 \u2014 54 below its own stated operational minimum of 189 aircraft.",
-        "url": "https://www.techtimes.com/articles/319973/20260709/after-iran-downed-24-reapers-pentagon-bets-drones-built-shot-down.htm"
+        "fact": "OpenAI's own privacy engineer, under re-deposition, revealed the company had already built tools to search anonymized ChatGPT logs at scale before litigation began \u2014 directly contradicting two years of court filings claiming this was technically impossible.",
+        "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
       },
       {
-        "fact": "Syria's off-grid solar capacity grew from 249 megawatts in 2022 to 2,060 megawatts in 2025 \u2014 driven not by policy but by a grid that delivers roughly four hours of electricity per day.",
-        "url": "https://www.thenationalnews.com/business/energy/2026/07/06/syrias-solar-boom-is-redefining-middle-easts-energy-model/"
+        "fact": "A single human cortical neuron, when modeled computationally, outperformed an artificial neural network on a complex task \u2014 largely because human neurons have more dendritic branches than those of any other mammal, giving each cell its own internal computational compartments.",
+        "url": "https://nautil.us/we-may-owe-our-intelligence-to-our-unique-neurons-1282599/"
       },
       {
-        "fact": "EU Chat Control 1.0 passed even though a majority of voting MEPs (314\u2013276) opposed it, because rejection required an absolute majority of 361 votes \u2014 a structural threshold that functionally inverts democratic intent.",
-        "url": "https://www.patrick-breyer.de/en/eu-parliament-greenlights-chat-control-1-0-breyer-our-children-lose-out/"
+        "fact": "Researchers confirmed that the Flores Hobbits scavenged rather than hunted by feeding a whole goat to a living Komodo dragon and comparing the resulting bone damage to 60,000-year-old fossils \u2014 the bite marks matched.",
+        "url": "https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/"
       },
       {
-        "fact": "A study of 143 natural puncture tools across 133 species found that scorpion stingers, dracula ant mandibles, and mantis shrimp appendages are among the only structures in nature that are elite performers in both sharpness and breakage resistance simultaneously.",
-        "url": "https://nautil.us/the-surprising-evolutionary-trade-offs-between-fangs-stingers-and-claws-1282561/"
+        "fact": "NATO's Ankara summit committed \u20ac70 billion in support to Ukraine for 2026 alone, alongside a $40 billion 'Drone Edge' procurement program \u2014 announced the same day the US-Iran Hormuz ceasefire collapsed.",
+        "url": "https://cesmar.it/en/geopolitical-scenarios-26/"
       },
       {
-        "fact": "Jarred Sumner wrote the original version of Bun \u2014 a full JavaScript runtime, bundler, package manager, and test runner \u2014 alone, in one year, in Zig, before LLM coding tools existed.",
-        "url": "https://bun.com/blog/bun-in-rust"
+        "fact": "EPFL's NEvo system evolves generative video prompts using a digital twin of the visual cortex until the output maximally activates a chosen brain region \u2014 essentially running natural selection on images to find what a specific patch of cortex most wants to see.",
+        "url": "https://nevo-project.epfl.ch/"
       }
     ],
-    "make_something": {
-      "prompt": "Build a minimal browser-based 'transit soundscape' for a place you know well \u2014 not Tokyo, but your own subway line, neighborhood loop, or commute. Map one ambient audio layer (field recording, tone, or generated texture) to each stop or landmark, and let it crossfade as a simulated position advances. The constraint: no music, only environmental sound and UI tones. The Yamanote project works because the sounds are already there \u2014 your version is an act of listening before building."
-    },
+    "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "La R\u00e9gion Centrale",
-        "creator": "Michael Snow",
-        "why": "A camera mounted on a custom-built mechanical armature sweeps, spins, and inverts across a barren Quebec landscape for three hours \u2014 the machine's choreography is the film. It's a generative 3D system made before the language existed, and staring at it long enough collapses the boundary between sculpture, code, and landscape.",
-        "url": "https://letterboxd.com/film/la-region-centrale/"
-      },
-      {
-        "medium": "music",
-        "title": "I Am Sitting in a Room",
-        "creator": "Alvin Lucier",
-        "why": "Lucier records his voice, plays it back into the room, records that, repeats \u2014 until the room's resonant frequencies consume the speech entirely. A feedback loop that makes acoustics visible through time. The room becomes the instrument, and the process is the composition.",
-        "url": "https://www.youtube.com/watch?v=fAxHlLK3Oyk"
+        "title": "Symbiopsychotaxiplasm: Take One",
+        "creator": "William Greaves",
+        "why": "A 1968 documentary made in Central Park that folds film crew, passersby, and the director himself into a live argument about what filmmaking even is \u2014 three simultaneous camera rigs, no script, the whole system becoming the subject. It's a machine for exposing the invisible power structure of set-making, and it's one of the most structurally playful American films ever made.",
+        "url": "https://letterboxd.com/film/symbiopsychotaxiplasm-take-one/"
       },
       {
         "medium": "art",
-        "title": "Vera Moln\u00e1r \u2014 Works",
-        "creator": "Vera Moln\u00e1r",
-        "why": "The founding mother of generative art, Moln\u00e1r spent decades writing algorithms to systematically disorder geometric grids \u2014 exploring how small deviations from rule produce feeling. Her work sits exactly at the edge of code-as-self-expression: obsessive, rigorous, and quietly beautiful.",
-        "url": "https://www.veramolnar.com/"
+        "title": "David Byrne / Saul Steinberg \u2014 Influence and Affinity",
+        "creator": "David Byrne & Saul Steinberg",
+        "why": "Steinberg turned drawing into philosophy \u2014 line as self, as performance, as institution \u2014 and Byrne operates in the same register as a maker who uses music, visual art, and architecture to rewire how systems feel. Seeing them in dialogue is a rare chance to watch two artists who treat culture as something to be decoded, not consumed.",
+        "url": "https://www.125newbury.com/"
+      },
+      {
+        "medium": "music",
+        "title": "Laughing Stock",
+        "creator": "Talk Talk",
+        "why": "The 1991 album that effectively invented post-rock by dismantling pop from the inside \u2014 recorded in near-darkness with session musicians who didn't know each other, mostly improvised, often in silence. Obsessive craft pushed past the point of genre. If you want to understand what it sounds like when a system eats itself and becomes something beautiful, start here.",
+        "url": "https://www.youtube.com/watch?v=ZZoRifSUZns"
       }
     ],
     "events": [
       {
-        "name": "Greater New York 2026",
-        "venue": "MoMA PS1, 22-25 Jackson Avenue, Long Island City, Queens",
-        "date_start": "2026-04-16",
-        "date_end": "2026-08-17",
-        "category": "museum",
-        "why": "PS1's quinquennial snapshot of 53 NYC-based early- and mid-career artists, organized for the first time by the full curatorial team \u2014 sprawling, free, and structured around the invisible infrastructures (surveillance, gig labor, shifting tech) that pressurize city life right now.",
-        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
-        "date": "Apr 16 \u2013 Aug 17"
-      },
-      {
-        "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd St, Manhattan",
-        "date_start": "2026-07-01",
-        "date_end": "2026-11-29",
-        "category": "museum",
-        "why": "Screens seeded throughout MoMA's sculpture garden display images reconstructed by a neural network from fMRI recordings of a human brain \u2014 activated in real time by visitor gaze and cancer cell mutation data; it's a living system that asks what seeing looks like when the mind isn't human.",
-        "url": "https://www.crousel.com/en/news/pierre-huyghe-uumwelt-2026-07-01/",
-        "date": "Jul 1 \u2013 Nov 29"
-      },
-      {
         "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters across NYC (all five boroughs)",
+        "venue": "JCDecaux Bus Shelters, New York City (citywide)",
         "date_start": "2026-07-08",
         "date_end": "2026-09-06",
         "category": "popup",
-        "why": "300 bus shelters citywide become trompe l'oeil interventions \u2014 Orozco's photographs of vines threading pipes and trees growing through concrete walls are installed so their edges bleed into the actual sidewalk and street, turning the city's infrastructure into a perceptual feedback loop.",
+        "why": "Orozco's first commissioned photographic series \u2014 10 new site-specific images embedded into bus shelter advertising infrastructure across the city, turning the urban attention economy's own fixtures into contemplative objects.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "\"In Plain Sight\" \u2014 SVA MFA Art Practice Exhibition (Opening)",
-        "venue": "SVA Flatiron Gallery, New York",
-        "date_start": "2026-07-09",
-        "date_end": "2026-07-25",
+        "name": "Yves Saint Laurent and Photography",
+        "venue": "International Center of Photography, 84 Ludlow Street, New York",
+        "date_start": "2026-07-10",
+        "date_end": "2026-09-28",
         "category": "museum",
-        "why": "Opening reception tonight (July 9, 6\u20138pm) for new work by MFA Art Practice graduates \u2014 a good temperature read on what's incubating at the school level, curated by program faculty Jacquelyn Strycker.",
-        "url": "https://sva.edu/features/july-2026-exhibitions-and-events-at-sva",
-        "date": "Jul 9\u201325"
+        "why": "Nearly 300 objects tracing how YSL used photography not just as promotion but as the actual medium for constructing a legend \u2014 identity, gender, mythology, and brand as one intertwined visual system, with prints by Avedon, Bourdin, Helmut Newton, and Warhol alongside contact sheets and campaign materials.",
+        "url": "https://www.icp.org/exhibitions/yves-saint-laurent-and-photography",
+        "date": "Jul 10 \u2013 Sep 28"
       },
       {
-        "name": "River & Blues \u2014 Rebirth Brass Band",
-        "venue": "Wagner Park, Battery Park City, Manhattan",
-        "date_start": "2026-07-09",
-        "date_end": "2026-07-09",
+        "name": "David Byrne / Saul Steinberg \u2014 Influence and Affinity",
+        "venue": "125 Newbury, 395 Broadway, New York",
+        "date_start": "2026-07-10",
+        "date_end": "2026-07-31",
+        "category": "museum",
+        "why": "Two artists who treat cultural systems as subject matter \u2014 Steinberg as a master of drawing-as-philosophy, Byrne as a polymath who never stopped dismantling genre \u2014 shown in dialogue at a sharp TriBeCa gallery.",
+        "url": "https://www.125newbury.com/",
+        "date": "Jul 10\u201331"
+      },
+      {
+        "name": "Mavis Staples / Brother Wallace \u2014 SummerStage",
+        "venue": "Rumsey Playfield, Central Park, New York",
+        "date_start": "2026-07-16",
+        "date_end": "2026-07-16",
         "category": "concert",
-        "why": "Free outdoor sunset concert series returns to the Hudson waterfront tonight with Grammy-winning New Orleans institution Rebirth Brass Band \u2014 one of the last unreconstructed second-line brass bands still working at full power, and exactly the right setting for it.",
-        "url": "https://www.timeout.com/newyork/events-calendar/july-events-calendar",
-        "date": "Thu, Jul 9"
+        "why": "Free outdoor show with an 86-year-old who has outlasted every genre she ever touched \u2014 soul, gospel, civil rights anthem, indie collaboration \u2014 presented with the Apollo Theater; Brother Wallace opens.",
+        "url": "https://cityparksfoundation.org/summerstage/",
+        "date": "Thu, Jul 16"
+      },
+      {
+        "name": "Complexions Contemporary Ballet / Paul Taylor Dance Company / LaTasha Barnes' The Jazz Continuum",
+        "venue": "Rumsey Playfield, Central Park, New York",
+        "date_start": "2026-07-22",
+        "date_end": "2026-07-22",
+        "category": "concert",
+        "why": "Three radically different movement vocabularies \u2014 neoclassical ballet, modern American postwar, and social dance \u2014 on one free outdoor stage, presented with the Joyce Theatre; a rare chance to watch physical systems that normally stay siloed collide.",
+        "url": "https://cityparksfoundation.org/summerstage/",
+        "date": "Wed, Jul 22"
       }
     ]
   },

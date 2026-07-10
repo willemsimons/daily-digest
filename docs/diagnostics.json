@@ -1,30 +1,28 @@
 {
   "feeds": 85,
-  "mined": 49,
-  "videos": 8,
+  "mined": 51,
+  "videos": 7,
   "video_titles": [
     "How does light 'know' the shortest path?",
     "AD - Why are plants colder than their surroundings?",
     "AD - Why do I get this spark when I unplug my hair dryer?",
+    "The Arm Spin That Stops a Fall",
     "Why clouds and foam are white",
-    "The disappearing ink that isn\u2019t ink",
-    "The Anti Trampoline Effect",
     "Atomic Force Microscope high-speed video, selective stainless steel etching, bacteria, and more",
     "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained"
   ],
   "supplemental": false,
   "final_items": 9,
   "final_sources": [
-    "Aeon Video",
-    "Bun.sh",
-    "Colossal",
-    "Modern War Institute at West Point",
-    "Patrick Breyer MEP",
-    "Show HN",
-    "TechTimes / Defense Innovation Unit",
-    "The National",
-    "The Public Domain Review"
+    "A Collection of Unmitigated Pedantry",
+    "Ars Technica",
+    "CESMAR",
+    "EPFL / arXiv",
+    "EU Commission",
+    "Kotaku",
+    "MIT Technology Review",
+    "Nautilus"
   ],
-  "had_video": true,
-  "run_at": "2026-07-09T14:09:32.363835+00:00"
+  "had_video": false,
+  "run_at": "2026-07-10T13:30:58.451514+00:00"
 }
