@@ -1,106 +1,84 @@
 {
   "digest": {
-    "intro": "Brains, ruins, robots, and evidence destruction \u2014 a genuinely heavy day.",
+    "intro": "AI cracks a 50-year conjecture, Apple sues OpenAI, and the world holds its breath.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Three crises, one day: Ankara, Hormuz, Donbas",
-            "source": "CESMAR",
-            "url": "https://cesmar.it/en/geopolitical-scenarios-26/",
-            "blurb": "The NATO Ankara summit closed with \u20ac70 billion committed to Ukraine for 2026 and a $40 billion 'Drone Edge' drone procurement program \u2014 while simultaneously, the US-Iran ceasefire collapsed with fresh strikes in the Strait of Hormuz. CESMAR's integrated read is worth the time: the three theaters (Eastern Med, Persian Gulf, Donbas) pulled on each other in ways that make the day's headline fragments individually misleading.",
+            "title": "NATO Ankara summit: Trump promises Zelensky a Patriot manufacturing license",
+            "source": "Deutsche Bank Research",
+            "url": "https://www.dbresearch.com/PROD/IE-PROD/PROD0000000000632534/Geopolitical_Outlook_2026:_At_the_Mid-Point.PDF",
+            "blurb": "A mid-year synthesis covering the NATO summit commitments, the Starmer resignation in the UK, Iran aftermath, US-China dynamics, and tariff trajectories \u2014 all in one document. The Patriot manufacturing license for Ukraine, if it holds, is a significant escalation in Western arms-transfer doctrine. Useful H2 orientation map.",
             "tags": [
-              "geopolitics",
               "nato",
-              "iran"
-            ]
-          },
-          {
-            "title": "OpenAI may have faked inability to search its own training data",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/",
-            "blurb": "A re-deposition of OpenAI's own privacy engineer inadvertently revealed that the company had already conducted large-scale searches of anonymized ChatGPT logs before litigation began \u2014 while simultaneously telling the court for two years that such searches were technically impossible and prohibitively costly. The NYT is now moving for sanctions, which if granted could constitute evidence spoliation and reshape the entire copyright litigation landscape for AI training data.",
-            "tags": [
-              "ai",
-              "law",
-              "copyright"
-            ]
-          },
-          {
-            "title": "EU rules Meta's addictive design is illegal under the DSA",
-            "source": "EU Commission",
-            "url": "https://ec.europa.eu/commission/presscorner/home/en",
-            "blurb": "The European Commission's first formal DSA finding against Meta doesn't target a piece of content \u2014 it targets the engagement architecture itself, the infinite scroll and algorithmic amplification baked into Instagram and Facebook's core design. This is the EU moving from content moderation to regulating attention design as a structural harm, which is a qualitatively different kind of fight.",
-            "tags": [
-              "regulation",
-              "platform design",
-              "eu"
+              "ukraine",
+              "geopolitics"
             ]
           }
         ]
       },
       {
-        "heading": "Mind and machine",
+        "heading": "The AI inflection point, live",
         "items": [
           {
-            "title": "Anthropic found a hidden scratchpad inside Claude",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/07/09/1140293/anthropic-found-a-hidden-space-where-claude-puzzles-over-concepts/",
-            "blurb": "Anthropic's new 'Jacobian lens' technique reveals a latent representational space \u2014 J-space \u2014 inside Claude Opus 4.6 that contains words related to what the model is about to say, before it says them: a kind of pre-linguistic draft layer. The unsettling finding is that what the model is actually doing in this space often diverges from what it reports it is doing, which makes J-space both a new interpretability tool and a new alignment alarm.",
+            "title": "GPT-5.6 Sol Ultra claims a proof of the Cycle Double Cover Conjecture",
+            "source": "OpenAI (primary PDF)",
+            "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+            "blurb": "OpenAI is claiming a 3-page AI-generated proof of the Cycle Double Cover Conjecture \u2014 an open problem in graph theory since the 1970s \u2014 produced in under an hour using 64 coordinated subagents. Whether it survives expert scrutiny is the open question; the primary document is three pages and readable now, before the discourse catches up. This is either a historic result or the most sophisticated-looking hallucination in mathematics \u2014 worth watching closely.",
             "tags": [
               "ai",
-              "interpretability",
-              "llm"
+              "mathematics",
+              "research"
             ]
           },
           {
-            "title": "NEvo: engineering videos that maximally fire specific brain regions",
-            "source": "EPFL / arXiv",
-            "url": "https://nevo-project.epfl.ch/",
-            "blurb": "EPFL researchers built a pipeline that uses a 'digital twin of the visual cortex' to evolutionarily optimize video prompts until the generated footage hyper-activates a chosen brain region \u2014 essentially reverse-engineering perception into a generative media target. The project ships with an interactive 3D cortex surface so you can pick an ROI and watch what the system learns to show it; it's genuinely one of those tools that makes you want to sit with it for an hour.",
+            "title": "The exact prompt that orchestrated 64 subagents to do original mathematics",
+            "source": "OpenAI (primary PDF)",
+            "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf",
+            "blurb": "OpenAI also published the full prompt used \u2014 which means you can read the design document for how a multi-agent system was instructed to attempt an unsolved conjecture. The process architecture is arguably more interesting than the proof itself: how you decompose a research task across 64 parallel agents is a new kind of systems design. This is what the 'programming' of mathematical discovery looks like in 2026.",
             "tags": [
-              "neuroscience",
-              "generative",
-              "perception"
+              "ai",
+              "systems design",
+              "mathematics"
             ]
           },
           {
-            "title": "Human neurons are surprisingly powerful computers on their own",
-            "source": "Nautilus",
-            "url": "https://nautil.us/we-may-owe-our-intelligence-to-our-unique-neurons-1282599/",
-            "blurb": "Hebrew University researchers pitted a single human cortical neuron against an artificial neural network in a computational task \u2014 and the neuron won, largely because human neurons have dramatically more dendritic branches than other mammals', giving each cell a larger surface area for compartmentalized processing. The implication is that human intelligence may be partially downstream of neuronal geometry rather than sheer neuron count.",
+            "title": "Apple sues OpenAI over trade secret theft \u2014 the actual complaint",
+            "source": "CourtListener (PACER filing)",
+            "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.1.0.pdf",
+            "blurb": "Apple is alleging that Tang Tan (former VP of product design, iPhone and Apple Watch) and Chang Liu (8-year Apple senior systems electrical engineer who joined OpenAI in January 2026) walked confidential IP on unreleased technologies directly into OpenAI \u2014 which is also building hardware with Jony Ive's io Products. The complaint names OpenAI and io Products as defendants. The irony: Apple and OpenAI announced a partnership last year. The court filing is the thing to read, not the coverage.",
             "tags": [
-              "neuroscience",
-              "cognition",
-              "evolution"
+              "apple",
+              "openai",
+              "ip law"
             ]
           }
         ]
       },
       {
-        "heading": "Deep time",
+        "heading": "How tools think (and how we think about tools)",
         "items": [
           {
-            "title": "The Flores Hobbits weren't hunters \u2014 they were scavengers following Komodo dragons",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/",
-            "blurb": "The cave bones at Liang Bua that originally looked like evidence of Hobbit big-game hunting turn out to bear the tooth marks of Komodo dragons first \u2014 the hominins were eating the leftovers. Researchers confirmed this by feeding a whole goat to a living Komodo dragon and comparing the resulting bone damage patterns. It quietly destabilizes the assumed cognitive profile of Homo floresiensis and reopens questions about which hominins were first to leave Africa.",
+            "title": "Good Tools Are Invisible",
+            "source": "Gingerbill",
+            "url": "https://www.gingerbill.org/article/2026/07/10/good-tools-are-invisible/",
+            "blurb": "A clean, sharp essay making the case that the correct criterion for a tool is invisibility \u2014 flow state, not puzzle-solving. The specific target is the vim-as-identity phenomenon: treating a tool's friction as the point, marketing limitations as features. The author's test is blunt: if someone can do the same task in Sublime with multiple cursors in a minute while you're still building a macro, the macro isn't the win you think it is. Useful provocation for anyone who makes things that other people use.",
             "tags": [
-              "paleoanthropology",
-              "evolution",
-              "archaeology"
+              "design",
+              "tools",
+              "craft"
             ]
           },
           {
-            "title": "The Late Bronze Age Collapse: how an entire interconnected world vanished in 50 years",
-            "source": "A Collection of Unmitigated Pedantry",
-            "url": "https://acoup.blog/2026/01/30/collections-the-late-bronze-age-collapse-a-very-brief-introduction/",
-            "blurb": "Devereaux's lecture-length overview of the LBAC is the clearest systems-thinking account of how Mycenae, the Hittites, Ugarit, and Cyprus all collapsed within a single human lifetime \u2014 not from one cause but from cascading failures in a tightly coupled trade network. The buried thread that makes it worth your time: iron democratized violence in a way bronze never could, because iron ore is everywhere and tin is not, which is a sentence that explains a lot about what followed.",
+            "title": "Clay Extruder Enables Printable Pottery",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/07/11/clay-extruder-enables-printable-pottery/",
+            "blurb": "Joshua Bird built a ceramic 3D printer from scratch, solving the clay rheology problem (soft enough to flow, stiff enough to bridge) by pressurizing the clay feed as much as possible \u2014 which lets you use stiffer mixtures. The killer detail: every plastic auger he 3D-printed was abraded to nothing by the clay in under an hour; only a stainless steel printed auger survived. The result is a working chain-mail mesh fired in ceramic, which is a sentence that shouldn't exist.",
             "tags": [
-              "history",
-              "systems",
-              "collapse"
+              "fabrication",
+              "ceramics",
+              "hardware"
             ]
           }
         ]
@@ -109,14 +87,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "One person built what may be the most realistic train simulator ever made",
-            "source": "Kotaku",
-            "url": "https://kotaku.com/a-train-sim-created-by-just-one-person-is-being-called-the-best-ever-made-2000699429",
-            "blurb": "Novatetsu Games \u2014 a one-person Japanese studio \u2014 built Running Train, a simulator set in a fictional but forensically detailed region of Japan across 42 routes, some up to 44 minutes long. The reviewer's highest compliment: he spent embarrassing time trying to cross-reference the in-game landscape with real-world maps before realizing the geography was invented. The game is playable in autopilot with free camera, which apparently delivers something close to meditative.",
+            "title": "Gil Batle's double life encoded in porcelain",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/07/gil-batle-porcelain-plate-paintings/",
+            "blurb": "Gil Batle spent 25 years incarcerated in California prisons, teaching himself to draw and eventually tattooing clandestinely. Now living in the Philippines, he encodes those memories into white porcelain plates alongside Hiligaynon folk flora \u2014 bird cages, chains, shivs, and barbs nested inside the most genteel domestic object imaginable. The structural tension is the whole point: the fragility and implied civility of porcelain holding scenes of brutality. Show at Ricco/Maresca in New York through August 21.",
             "tags": [
-              "craft",
-              "simulation",
-              "solo dev"
+              "art",
+              "outsider art",
+              "new york"
             ]
           }
         ]
@@ -124,100 +102,100 @@
     ],
     "facts": [
       {
-        "fact": "OpenAI's own privacy engineer, under re-deposition, revealed the company had already built tools to search anonymized ChatGPT logs at scale before litigation began \u2014 directly contradicting two years of court filings claiming this was technically impossible.",
-        "url": "https://arstechnica.com/tech-policy/2026/07/openai-faked-inability-to-search-training-data-hid-billions-of-logs-nyt-says/"
+        "fact": "The Cycle Double Cover Conjecture \u2014 that every bridgeless graph has a collection of cycles covering each edge exactly twice \u2014 has been open since the 1970s, and OpenAI claims a 3-page proof was generated in under an hour by 64 coordinated AI subagents.",
+        "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf"
       },
       {
-        "fact": "A single human cortical neuron, when modeled computationally, outperformed an artificial neural network on a complex task \u2014 largely because human neurons have more dendritic branches than those of any other mammal, giving each cell its own internal computational compartments.",
-        "url": "https://nautil.us/we-may-owe-our-intelligence-to-our-unique-neurons-1282599/"
+        "fact": "Tang Tan, one of the defendants in Apple's lawsuit against OpenAI, was VP of product design at Apple leading iPhone and Apple Watch design before departing in February 2024 \u2014 ultimately to work on hardware with Jony Ive's io Products, which is also named as a defendant.",
+        "url": "https://storage.courtlistener.com/recap/gov.uscourts.cand.474095/gov.uscourts.cand.474095.1.0.pdf"
       },
       {
-        "fact": "Researchers confirmed that the Flores Hobbits scavenged rather than hunted by feeding a whole goat to a living Komodo dragon and comparing the resulting bone damage to 60,000-year-old fossils \u2014 the bite marks matched.",
-        "url": "https://arstechnica.com/science/2026/07/flores-hobbits-scavenged-komodo-dragons-elephant-kills-study-suggests/"
+        "fact": "New York City's new subscription rule, starting October 1, fines companies $525 per user subscription for failing to provide a simple cancellation path \u2014 making NYC the first US city to implement such a ban.",
+        "url": "https://www.theguardian.com/us-news/2026/jul/10/new-york-city-deceptive-subscriptions-ban"
       },
       {
-        "fact": "NATO's Ankara summit committed \u20ac70 billion in support to Ukraine for 2026 alone, alongside a $40 billion 'Drone Edge' procurement program \u2014 announced the same day the US-Iran Hormuz ceasefire collapsed.",
-        "url": "https://cesmar.it/en/geopolitical-scenarios-26/"
+        "fact": "Every 3D-printed plastic auger Joshua Bird used in his ceramic printer was abraded to destruction by clay in under an hour \u2014 only a 3D-printed stainless steel auger survived long enough to successfully print a fired chain-mail mesh.",
+        "url": "https://hackaday.com/2026/07/11/clay-extruder-enables-printable-pottery/"
       },
       {
-        "fact": "EPFL's NEvo system evolves generative video prompts using a digital twin of the visual cortex until the output maximally activates a chosen brain region \u2014 essentially running natural selection on images to find what a specific patch of cortex most wants to see.",
-        "url": "https://nevo-project.epfl.ch/"
+        "fact": "The first human Phase I trials of partial cell reprogramming \u2014 attempting to rejuvenate cells without triggering full pluripotency and tumor risk \u2014 began in April 2026, using a 56-day protocol targeting age-related eye disease.",
+        "url": "https://nortextissueregeneration.com/blog/why-stem-cells-in-2026-breakthroughs-and-whats-real/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Symbiopsychotaxiplasm: Take One",
-        "creator": "William Greaves",
-        "why": "A 1968 documentary made in Central Park that folds film crew, passersby, and the director himself into a live argument about what filmmaking even is \u2014 three simultaneous camera rigs, no script, the whole system becoming the subject. It's a machine for exposing the invisible power structure of set-making, and it's one of the most structurally playful American films ever made.",
-        "url": "https://letterboxd.com/film/symbiopsychotaxiplasm-take-one/"
+        "title": "Tetsuo: The Iron Man",
+        "creator": "Shinya Tsukamoto",
+        "why": "A film that is essentially a WebGL shader made with human bodies \u2014 industrial noise, cybernetic body horror, and feedback loops rendered in frantic 16mm. It treats the boundary between flesh and machine as something that collapses rather than a line to cross, which should speak directly to someone working at the physical/digital edge.",
+        "url": "https://letterboxd.com/film/tetsuo-the-iron-man/"
       },
       {
         "medium": "art",
-        "title": "David Byrne / Saul Steinberg \u2014 Influence and Affinity",
-        "creator": "David Byrne & Saul Steinberg",
-        "why": "Steinberg turned drawing into philosophy \u2014 line as self, as performance, as institution \u2014 and Byrne operates in the same register as a maker who uses music, visual art, and architecture to rewire how systems feel. Seeing them in dialogue is a rare chance to watch two artists who treat culture as something to be decoded, not consumed.",
-        "url": "https://www.125newbury.com/"
+        "title": "Coded Environments (ongoing web works)",
+        "creator": "Casey Reas",
+        "why": "Reas writes software as a drawing practice \u2014 his process-based pieces generate forms that feel both organic and rigidly governed by rule systems, making the code itself the brushstroke. The work sits at exactly the intersection of generative 3D aesthetics and systems-thinking that Willem builds in.",
+        "url": "https://reas.com"
       },
       {
         "medium": "music",
-        "title": "Laughing Stock",
-        "creator": "Talk Talk",
-        "why": "The 1991 album that effectively invented post-rock by dismantling pop from the inside \u2014 recorded in near-darkness with session musicians who didn't know each other, mostly improvised, often in silence. Obsessive craft pushed past the point of genre. If you want to understand what it sounds like when a system eats itself and becomes something beautiful, start here.",
-        "url": "https://www.youtube.com/watch?v=ZZoRifSUZns"
+        "title": "Music Has the Right to Children",
+        "creator": "Boards of Canada",
+        "why": "The record functions like a found-footage reel of a childhood that never happened \u2014 built from degraded tape, field recordings, and half-remembered melodies that feel like memory itself decaying. Its emotional density comes entirely from texture and structure, with no lyrics to explain itself, which is the music equivalent of generative work that lands in the gut.",
+        "url": "https://bleep.com/release/30-boards-of-canada-music-has-the-right-to-children"
       }
     ],
     "events": [
       {
+        "name": "Carol Bove: Survey Exhibition",
+        "venue": "Solomon R. Guggenheim Museum, 1071 Fifth Ave, Manhattan",
+        "date_start": "2026-03-05",
+        "date_end": "2026-08-02",
+        "category": "museum",
+        "why": "A career survey filling the Guggenheim rotunda \u2014 paperback book assemblages to towering steel sculptures \u2014 from someone whose practice is obsessively about how objects hold cultural memory and how structure becomes meaning; closing July 2, so this weekend is effectively the last chance.",
+        "url": "https://www.guggenheim.org",
+        "date": "Mar 5 \u2013 Aug 2"
+      },
+      {
+        "name": "Whitney Biennial 2026",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-03-08",
+        "date_end": "2026-08-23",
+        "category": "museum",
+        "why": "56 artists across interspecies kinships, technological affinities, and shared mythologies \u2014 curated without a thesis, shaped by 300 studio visits, and deliberately prioritizing mood and texture over argument; closing in six weeks so this is the window.",
+        "url": "https://whitney.org/exhibitions/2026-biennial",
+        "date": "Mar 8 \u2013 Aug 23"
+      },
+      {
+        "name": "David Byrne / Saul Steinberg: Influence and Affinity",
+        "venue": "125 Newbury, 395 Broadway, Tribeca",
+        "date_start": "2026-06-22",
+        "date_end": "2026-07-31",
+        "category": "museum",
+        "why": "Two artists who treat drawing as a system for understanding how culture works \u2014 Steinberg's visual essays about signs and symbols in dialogue with Byrne's obsessive image-making; a rare pairing of people who went unreasonably deep on how perception and performance shape identity.",
+        "url": "https://125newbury.com",
+        "date": "Jun 22 \u2013 Jul 31"
+      },
+      {
         "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters, New York City (citywide)",
+        "venue": "JCDecaux Bus Shelters, citywide NYC",
         "date_start": "2026-07-08",
         "date_end": "2026-09-06",
-        "category": "popup",
-        "why": "Orozco's first commissioned photographic series \u2014 10 new site-specific images embedded into bus shelter advertising infrastructure across the city, turning the urban attention economy's own fixtures into contemplative objects.",
+        "category": "museum",
+        "why": "12 large-format trompe l'oeil photographs on 300 bus shelters \u2014 vines through pipes, entropy in the built environment \u2014 designed to dissolve the boundary between image and site so each photo extends into the actual street around it; the whole city is the gallery.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "Yves Saint Laurent and Photography",
-        "venue": "International Center of Photography, 84 Ludlow Street, New York",
-        "date_start": "2026-07-10",
-        "date_end": "2026-09-28",
-        "category": "museum",
-        "why": "Nearly 300 objects tracing how YSL used photography not just as promotion but as the actual medium for constructing a legend \u2014 identity, gender, mythology, and brand as one intertwined visual system, with prints by Avedon, Bourdin, Helmut Newton, and Warhol alongside contact sheets and campaign materials.",
-        "url": "https://www.icp.org/exhibitions/yves-saint-laurent-and-photography",
-        "date": "Jul 10 \u2013 Sep 28"
-      },
-      {
-        "name": "David Byrne / Saul Steinberg \u2014 Influence and Affinity",
-        "venue": "125 Newbury, 395 Broadway, New York",
-        "date_start": "2026-07-10",
-        "date_end": "2026-07-31",
-        "category": "museum",
-        "why": "Two artists who treat cultural systems as subject matter \u2014 Steinberg as a master of drawing-as-philosophy, Byrne as a polymath who never stopped dismantling genre \u2014 shown in dialogue at a sharp TriBeCa gallery.",
-        "url": "https://www.125newbury.com/",
-        "date": "Jul 10\u201331"
-      },
-      {
-        "name": "Mavis Staples / Brother Wallace \u2014 SummerStage",
-        "venue": "Rumsey Playfield, Central Park, New York",
+        "name": "SummerStage: Mavis Staples / Brother Wallace",
+        "venue": "Rumsey Playfield, Central Park",
         "date_start": "2026-07-16",
         "date_end": "2026-07-16",
         "category": "concert",
-        "why": "Free outdoor show with an 86-year-old who has outlasted every genre she ever touched \u2014 soul, gospel, civil rights anthem, indie collaboration \u2014 presented with the Apollo Theater; Brother Wallace opens.",
-        "url": "https://cityparksfoundation.org/summerstage/",
+        "why": "Free outdoor show with Mavis Staples, whose voice carries sixty years of American gospel, soul, and protest music \u2014 not a nostalgia act but a living transmission of a tradition that was always about collective body and collective feeling, which is exactly the kind of thing that makes a maker want to make something.",
+        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
         "date": "Thu, Jul 16"
-      },
-      {
-        "name": "Complexions Contemporary Ballet / Paul Taylor Dance Company / LaTasha Barnes' The Jazz Continuum",
-        "venue": "Rumsey Playfield, Central Park, New York",
-        "date_start": "2026-07-22",
-        "date_end": "2026-07-22",
-        "category": "concert",
-        "why": "Three radically different movement vocabularies \u2014 neoclassical ballet, modern American postwar, and social dance \u2014 on one free outdoor stage, presented with the Joyce Theatre; a rare chance to watch physical systems that normally stay siloed collide.",
-        "url": "https://cityparksfoundation.org/summerstage/",
-        "date": "Wed, Jul 22"
       }
     ]
   },
