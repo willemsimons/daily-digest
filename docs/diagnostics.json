@@ -1,7 +1,7 @@
 {
-  "feeds": 80,
-  "mined": 54,
-  "videos": 7,
+  "feeds": 65,
+  "mined": 43,
+  "videos": 8,
   "video_titles": [
     "How does light 'know' the shortest path?",
     "AD - Why are plants colder than their surroundings?",
@@ -9,18 +9,21 @@
     "The Arm Spin That Stops a Fall",
     "Why clouds and foam are white",
     "Atomic Force Microscope high-speed video, selective stainless steel etching, bacteria, and more",
-    "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained"
+    "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained",
+    "Half a Million Views Later\u2026 BumpMesh Is Way Better"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 11,
   "final_sources": [
-    "Colossal",
-    "CourtListener (PACER filing)",
-    "Deutsche Bank Research",
-    "Gingerbill",
+    "Al Jazeera",
+    "Ars Technica",
+    "Euronews",
     "Hackaday",
-    "OpenAI (primary PDF)"
+    "Nautilus",
+    "Sentiers",
+    "Terry Tao's Blog",
+    "arXiv"
   ],
   "had_video": false,
-  "run_at": "2026-07-11T12:32:19.714109+00:00"
+  "run_at": "2026-07-12T12:32:11.135096+00:00"
 }
