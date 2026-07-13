@@ -1,129 +1,119 @@
 {
   "digest": {
-    "intro": "History compresses into a single day \u2014 and the deep world keeps revealing itself.",
+    "intro": "The ceasefire is dead, the ocean is cooking, and Adobe finally lost one.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Iran Strikes Qatar, UAE, Bahrain, Kuwait \u2014 Gulf in Open Conflict",
-            "source": "Euronews",
-            "url": "https://www.euronews.com/next/2026/07/12/iran-launches-major-attacks-on-gulf-states",
-            "blurb": "Following US airstrikes in the Strait of Hormuz and the collapse of a ceasefire in the post-Khamenei vacuum, Iran has launched multi-country strikes across the Gulf \u2014 the most significant regional escalation in decades. The sequence \u2014 Khamenei buried, Trump issues ultimatum, US strikes, Iran retaliates across four neighbors \u2014 has compressed an entire geopolitical era into roughly a week.",
+            "title": "Hormuz at 28% \u2014 The MOU That Became a Tripwire",
+            "source": "Iran SITREP",
+            "url": "https://www.iransitrep.com/",
+            "blurb": "The April ceasefire is functionally over: Hormuz tanker traffic has collapsed to 28% of pre-war baseline (15.6 ships/day), the US and Iran are both publicly claiming control of the Strait while conducting fresh strikes, and the interim MOU's Paragraph 5 \u2014 meant to guarantee safe passage \u2014 has instead become the legal pretext each side uses to justify the next escalation. Iran detained Ahmadinejad on Mossad-recruitment charges, which signals serious internal fracture; Israel's cyber ops are still running despite the ceasefire. Neither side has an exit that doesn't cost them politically, so they're both performing resolve while the shipping lanes empty out.",
             "tags": [
               "geopolitics",
               "iran",
-              "gulf"
+              "hormuz"
             ]
           },
           {
-            "title": "Sheikh Hamad Dies on the Day Iran Bombs Doha",
-            "source": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/7/12/former-emir-of-qatar-sheikh-hamad-bin-khalifa-al-thani-dies-at-74",
-            "blurb": "The man who built modern Qatar \u2014 Al Jazeera in 1996, LNG supremacy, the 2022 World Cup, a sovereign wealth fund that became a global instrument \u2014 died at 74 on the same morning Iran struck Doha. Sheikh Hamad ruled from 1995 to 2013 and essentially invented Qatar's outsized role in world affairs; his death on this particular day is the kind of historical coincidence that future historians will be forced to treat as a chapter break.",
+            "title": "Graham Gone, War Powers Filed \u2014 The Senate Math Just Shifted",
+            "source": "Boston Globe",
+            "url": "https://www.bostonglobe.com/2026/07/13/nation/trump-presidency-live-updates/",
+            "blurb": "Lindsey Graham, who built the Senate coalition supporting the Iran strikes, died suddenly of an aortic tear at 71 \u2014 and Schiff immediately filed a War Powers Resolution, sensing the arithmetic changed. Trump told Fox News 'we're taking over the Strait of Hormuz' the same morning Iran's supreme leader adviser said retreat 'has no place in the mind of any friend of Iran,' which tells you how far apart the two sides actually are despite Trump's claim that 'everything was agreed to' in an 11-hour Sunday meeting.",
             "tags": [
-              "qatar",
               "geopolitics",
-              "obituary"
+              "us politics",
+              "iran"
             ]
-          }
-        ]
-      },
-      {
-        "heading": "Deep time, deep space, deep sea",
-        "items": [
+          },
           {
-            "title": "Why Polynesians Stopped Sailing for 1,700 Years \u2014 Then Suddenly Didn't",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/",
-            "blurb": "The Lapita people reached Samoa and Tonga around 3,000 years ago, then barely moved east for 1,700 years \u2014 then between 900 and 1100 AD they exploded across the Pacific to Hawaii, New Zealand, and Easter Island within a century or so. New climate evidence is filling in what changed: the long pause wasn't timidity, it was conditions, and the sudden burst of voyaging tracks a specific climate window opening. The sweet potato evidence suggests they also made continental Americas contact \u2014 an entire chapter of human mobility hiding in a tuber.",
+            "title": "The Graph That Should Be Front-Page News",
+            "source": "Lyrebird Dreaming",
+            "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
+            "blurb": "The Ni\u00f1o 3.4 sea-surface temperature record isn't just setting a new high \u2014 it has departed entirely from the observed range since 1982, meaning this year's line sits outside every single prior year's envelope on the chart. This is direct satellite and buoy measurement, not a model or forecast. Goldman is pricing a 15.8% food commodity surge on top of the energy shock already running through Hormuz, and 10,650 Europeans have already died in the June heatwave \u2014 the two crises are now compounding each other in real time.",
             "tags": [
-              "archaeology",
               "climate",
-              "migration"
-            ]
-          },
-          {
-            "title": "Shackleton's Last Ship, Now a Living Reef",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/07/expedition-captures-first-images-of-shackletons-last-ship/",
-            "blurb": "The Quest \u2014 the wooden Norwegian whaler Shackleton died aboard in 1922, which itself sank in 1962 \u2014 has finally been imaged in full for the first time, more than 60 years on the seafloor. The wreck is more deteriorated than hoped but has become a thriving artificial reef, the ship's wooden bones now a living ecosystem. It's the same uncanny doubling as the Endurance: monument and organism simultaneously.",
-            "tags": [
-              "exploration",
-              "ocean",
-              "history"
-            ]
-          },
-          {
-            "title": "China Caught Its Rocket in a Net \u2014 and That's Genuinely Different",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it/",
-            "blurb": "CASC's Long March 10B didn't land on legs \u2014 it descended into a grid of tensioned cables stretched over an offshore ship, leaving the booster hanging in midair after engine cutoff. That makes CASC only the third organization to recover an orbital-class booster, after SpaceX and RocketLab, but using a mechanically distinct method. Reusable launch is now legitimately multi-polar, and the variant approaches are starting to diverge.",
-            "tags": [
-              "space",
-              "china",
-              "rocketry"
-            ]
-          },
-          {
-            "title": "A Disco Ball Measured How Earth Drags Spacetime \u2014 to 0.2% Precision",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/07/an-orbiting-disco-ball-gave-einsteins-theory-its-most-precise-test-yet/",
-            "blurb": "LARES-2 is a 295-kg solid sphere of nickel-chromium alloy covered in 303 retroreflectors, with no thrusters, no panels, no electronics \u2014 just mass and reflectivity, giving it the lowest area-to-mass ratio of any satellite ever launched. By bouncing lasers off it continuously, researchers measured Earth's Lense-Thirring frame-dragging (the way a rotating mass pulls spacetime with it) to 0.2% uncertainty, down from several percent. Einstein proposed this effect; it took a glorified mirror ball to actually nail it.",
-            "tags": [
-              "physics",
-              "general relativity",
-              "space"
+              "el ni\u00f1o",
+              "food prices"
             ]
           }
         ]
       },
       {
-        "heading": "Mind, culture, making",
+        "heading": "Tools, trust, and the AI credibility war",
         "items": [
           {
-            "title": "2.6 Billion Sketches Reveal What Language Hides About How We Think",
-            "source": "arXiv",
-            "url": "https://arxiv.org/abs/2607.07267",
-            "blurb": "Researchers analyzed 2.6 billion Quick Draw sketches from 236 countries to ask whether visual imagination reveals conceptual structure that language compresses away \u2014 and it does, substantially. Visual representations align 45% more closely with established cultural distances than text-based measures do, and the variation is strongest for concepts involving touch and physical interaction, suggesting that visual imagery encodes embodied experience rather than shared convention. Language, in other words, is a lossy codec; sketching is closer to the raw file.",
-            "tags": [
-              "cognition",
-              "culture",
-              "visual"
-            ]
-          },
-          {
-            "title": "Octopus Intelligence Breaks the Theory That Sociality Builds Big Brains",
-            "source": "Nautilus",
-            "url": "https://nautil.us/how-the-rule-breaking-octopus-is-rewriting-the-evolution-of-intelligence-1282633/",
-            "blurb": "The dominant framework \u2014 the social brain hypothesis \u2014 says large brains co-evolved with the demands of navigating complex group dynamics, which is why primate brain size correlates with social group size. Octopuses are solitary, territorial, cannibalistic, and don't parent their young \u2014 and yet they're extraordinarily intelligent, use tools, and play. A new paper in iScience proposes the asocial learning pathway as a parallel route to intelligence, which doesn't just complicate the theory; it suggests that brains solving hard environmental problems alone can generate the same cognitive complexity as brains solving hard social problems together.",
-            "tags": [
-              "cognition",
-              "evolution",
-              "biology"
-            ]
-          },
-          {
-            "title": "The Funguy Project: Using Lasers to Print with Living Fungi",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/07/12/printing-fungal-art-with-laser-control/",
-            "blurb": "Kexin Wang trained a temporal convolutional neural network on time-lapse growth images of three fungal species, coupled it with a cellular automaton where each cell runs a small neural network learning local growth rules, and used that model to direct a 405nm laser diode \u2014 exploiting fungi's photophobia to steer growth into arbitrary shapes on agar. The model also predicts nutrient depletion zones so the laser skips areas where fungi won't spread anyway. It's a generative system where the substrate is alive and the 'renderer' is a biological organism responding to light.",
-            "tags": [
-              "bioart",
-              "fabrication",
-              "generative"
-            ]
-          },
-          {
-            "title": "Terry Tao Let an AI Agent Port Two Dozen Applets \u2014 Here's the Honest Account",
-            "source": "Terry Tao's Blog",
-            "url": "https://terrytao.wordpress.com/2026/07/11/old-and-new-apps-via-modern-coding-agents/",
-            "blurb": "Tao has been building math visualization applets since 1999 in Java 1.0 \u2014 including a honeycomb applet he wrote with Allen Knutson that became inaccessible when browsers dropped Java support. In a few hours, a coding agent ported roughly two dozen of them to JavaScript, found two bugs in Tao's original code he didn't know were there, introduced only one minor new bug, and added colorization to the Besicovitch set applet as an unrequested upgrade. The reliability rate from someone this exacting is itself the data point.",
+            "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
+            "source": "Ray Myers",
+            "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
+            "blurb": "Andrew Kelley publicly named Anthropic as an unreliable narrator whose '$1 trillion IPO valuation depends on selling hypothetical future impact' \u2014 the essay frames Anthropic's 'coding is going away' narrative not as prediction but as investor storytelling with real downstream damage: architecture and staffing decisions made from fear rather than evidence. 720 points on HN means this landed; the piece is really about how credibility moves in technical communities when a major lab needs a story more than it needs to be right.",
             "tags": [
               "ai",
-              "mathematics",
-              "tools"
+              "anthropic",
+              "credibility"
             ]
+          },
+          {
+            "title": "Robin Sloan at the March to Stop the AI Race",
+            "source": "Robin Sloan",
+            "url": "https://www.robinsloan.com/lab/stop-ai-march/",
+            "blurb": "Sloan walked from OpenAI's office to Anthropic's HQ in San Francisco and explains exactly why this particular protest earned his presence: the demand is unusually concrete \u2014 every major AI lab CEO must publicly commit to pausing frontier development if every other major lab credibly does the same. What makes it worth reading isn't the politics but Sloan's observation that the weird thing about the AI debate is that no one, not even accelerationists, actually disputes the basic fact pattern \u2014 powerful technology, unknown mechanisms, profound economic effects, no planning horizon \u2014 they just draw opposite conclusions from it.",
+            "tags": [
+              "ai",
+              "protest",
+              "culture"
+            ]
+          },
+          {
+            "title": "I.J. Good's 1964 Paper on the First Ultraintelligent Machine",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/07/12/musing-on-ai-from-1964/",
+            "blurb": "Good's thesis \u2014 'the survival of man depends on the early construction of an ultraintelligent machine' \u2014 was written at Oxford before integrated circuits were common, and his core chain (a smart machine designs a smarter machine, recursively) is exactly the argument being re-litigated right now. He also noted in 1964 that we'd need to understand the human brain to make a real breakthrough, and we still don't \u2014 which either means LLMs are something else entirely or we're pattern-matching our way toward something we can't fully see. Reading present-day fears through 60-year-old speculation has a clarifying effect.",
+            "tags": [
+              "ai",
+              "history",
+              "intelligence explosion"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Letters, marks, and the physical act of making",
+        "items": [
+          {
+            "title": "From Bull's Head to 'A' \u2014 How an Ox Became the Alphabet",
+            "source": "MyFonts",
+            "url": "https://www.myfonts.com/blogs/typography-culture/letter-a-origins-writing-systems-typography",
+            "blurb": "The Latin 'A' is a stylized ox head rotated 90 degrees: aleph, drawn by Bronze Age traders in the Sinai, had two horns and a triangular face \u2014 tip it over, add a crossbar to hold the diagonals apart, and you have the skeleton of every 'A' you've ever typed. The rotation wasn't aesthetic; it followed the shift from carving into stone (where vertical strokes dominate) to writing on papyrus (where horizontal motion is faster). What's quietly remarkable is the chain: Phoenician abjad \u2192 Greek vowel reassignment (a cognitive leap the essay calls 'ergonomic') \u2192 Etruscan \u2192 Roman stonecutters rationalizing the form for chisels.",
+            "tags": [
+              "typography",
+              "history",
+              "language"
+            ]
+          },
+          {
+            "title": "Backtrack-Free Cursive \u2014 Engineering the One-Stroke Word",
+            "source": "mmapped.blog",
+            "url": "https://mmapped.blog/posts/52-backtrack-free-cursive",
+            "blurb": "The author noticed that English cursive requires backtracking \u2014 lifting or reversing to dot i's and cross t's \u2014 in 51% of words, averaging 0.68 backtracks per word, while Russian needs it in only 6.4% of words (0.066 per word), a difference he quantified by running Crime and Punishment through both languages. The essay is ostensibly about designing a pen-path algorithm for a backtrack-free cursive system, but it's really forcing you to think about how letterforms encode sequence and connection \u2014 the hidden temporal logic inside a static visual form.",
+            "tags": [
+              "typography",
+              "algorithms",
+              "writing"
+            ]
+          },
+          {
+            "title": "BumpMesh Is Way Better \u2014 Physical Texture on 3D Prints",
+            "source": "CNC Kitchen",
+            "url": "https://www.youtube.com/watch?v=Y_vkCFwDIBY",
+            "blurb": "CNC Kitchen doesn't hype tools without reason, and half a million views on a single feature video is a genuine signal. BumpMesh applies physical surface textures to 3D prints \u2014 generative surface aesthetics that live at the physical/digital boundary \u2014 and it's free, which means the barrier between seeing it and using it on your next print is basically zero.",
+            "tags": [
+              "3d printing",
+              "generative",
+              "tools"
+            ],
+            "thumbnail": "https://i2.ytimg.com/vi/Y_vkCFwDIBY/hqdefault.jpg"
           }
         ]
       },
@@ -131,14 +121,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Leonardo da Vinci Might Have Slowed Technology Down",
-            "source": "Sentiers",
-            "url": "https://sentiers.media/ordinary-engineers-not-heroic-inventors-umyazu-no-411/",
-            "blurb": "Tim O'Reilly, building on Jeff Ding's framework, argues that technological progress is driven by the accumulation of ordinary engineering applications rather than heroic individual invention \u2014 and the Sentiers piece takes this further with the provocative corollary: the genius myth may actively retard progress by concentrating attribution and attention in ways that obscure the distributed, incremental systems doing the actual work. The case against Leonardo isn't that he wasn't brilliant; it's that the narrative of his brilliance is bad epistemology that we keep repeating.",
+            "title": "SFPD Drone Footage Leak \u2014 What a City Looks Like When the Watchers Aren't Watching Themselves",
+            "source": "Wired",
+            "url": "https://www.wired.com/story/sfpd-drone-video-leak-surveillance/",
+            "blurb": "Leaked footage from SFPD's Skydio X10 program shows four separate drones coordinating to follow a single suspect across San Francisco over the course of one hour \u2014 tracking his license plate, following passengers who got out of his car, and filming his takedown from two simultaneous angles \u2014 all triggered by an alleged theft of car parts. The perceptual shift here is the key thing: at 200 feet with a locked thermal-optical zoom, the city becomes a continuous graph of movement with no ambient cover, and the surveillance was only revealed because someone leaked the video rather than through any disclosure process.",
             "tags": [
-              "history",
-              "invention",
-              "epistemology"
+              "surveillance",
+              "cities",
+              "technology"
             ]
           }
         ]
@@ -146,118 +136,102 @@
     ],
     "facts": [
       {
-        "fact": "LARES-2, the satellite used to make the most precise measurement of Earth's frame-dragging of spacetime, has no electronics, no thrusters, and no solar panels whatsoever \u2014 it is simply a 295-kg metal ball covered in reflectors.",
-        "url": "https://arstechnica.com/science/2026/07/an-orbiting-disco-ball-gave-einsteins-theory-its-most-precise-test-yet/"
+        "fact": "Hormuz tanker traffic has fallen to 15.6 ships per day \u2014 28% of its pre-war baseline \u2014 approaching what analysts describe as 'closure-level' traffic.",
+        "url": "https://www.iransitrep.com/"
       },
       {
-        "fact": "China's Long March 10B booster was caught not by robotic arms or landing legs but by a grid of tensioned cables stretched over a ship, leaving the rocket hanging in midair after engine shutdown.",
-        "url": "https://arstechnica.com/space/2026/07/china-recovered-its-first-reusable-rocket-and-showed-a-new-way-to-do-it/"
+        "fact": "The Latin letter 'A' is a Bronze Age ox head (aleph) rotated 90 degrees \u2014 the rotation followed a shift in writing tools, not aesthetic preference.",
+        "url": "https://www.myfonts.com/blogs/typography-culture/letter-a-origins-writing-systems-typography"
       },
       {
-        "fact": "Cross-cultural sketch data from 2.6 billion drawings across 236 countries aligns with established cultural distance measures 45% more accurately than text-based language models do.",
-        "url": "https://arxiv.org/abs/2607.07267"
+        "fact": "Writing Crime and Punishment in English cursive would require backtracking in 51% of words; in Russian, only 6.4% \u2014 because Russian has almost no letters requiring secondary strokes.",
+        "url": "https://mmapped.blog/posts/52-backtrack-free-cursive"
       },
       {
-        "fact": "Polynesian ancestors reached Tonga and Samoa roughly 3,000 years ago, then made virtually no eastward progress for 1,700 years before suddenly settling Hawaii, New Zealand, and Easter Island within about a century.",
-        "url": "https://arstechnica.com/culture/2026/07/the-real-mystery-behind-moana-after-1700-years-why-did-polynesians-suddenly-sail-east/"
+        "fact": "I.J. Good published his 'intelligence explosion' thesis \u2014 that a sufficiently smart machine would design a smarter machine, recursively \u2014 in 1964, before integrated circuits were commercially common.",
+        "url": "https://hackaday.com/2026/07/12/musing-on-ai-from-1964/"
       },
       {
-        "fact": "An autopsy study of long Covid patients found replicating SARS-CoV-2 \u2014 detected via reverse strand, a marker of active viral replication, not just remnant RNA \u2014 in the cardiac tissue of 11 out of 74 decedents examined at least 60 days after initial infection.",
-        "url": "https://my.uscap.org/uscap/program/S0tc675/index.cfm?pgid=5167&sid=14770&abid=51228"
+        "fact": "Four separate SFPD drones coordinated to follow a single suspect across San Francisco in under an hour \u2014 the operation was triggered by a suspected car-parts theft.",
+        "url": "https://www.wired.com/story/sfpd-drone-video-leak-surveillance/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Mauvais Sang (Bad Blood)",
-        "creator": "Leos Carax",
-        "why": "Carax builds an entire film around the texture of a scene \u2014 youth, longing, and doomed systems coexisting in a Paris that feels like a frontier civilization right before it hardens. The famous Alex-running-to-Bowie sequence is one of cinema's great moments of expressive systems (body, city, sound) collapsing into pure feeling.",
-        "url": "https://letterboxd.com/film/bad-blood-1986/"
-      },
-      {
-        "medium": "art",
-        "title": "UUmwelt",
-        "creator": "Pierre Huyghe",
-        "why": "A machine-learning system reconstructs mental images from recorded brain activity, then responds in real time to the gazes of visitors \u2014 the screens change based on who's looking. It's not 'AI art' as spectacle; it's a live ecosystem of two kinds of intelligence co-producing imagination, and one of the sharpest current examples of art as an open-ended, self-regulating system rather than an object.",
-        "url": "https://www.moma.org/calendar/exhibitions/5987"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film that operates as a feedback loop between memory, image, and meaning \u2014 Marker wanders Tokyo and Guinea-Bissau asking how cultures construct time and ritual from the same raw material of living. The essay-film form is itself a generative system; watching it makes you want to make something immediately.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "music",
-        "title": "Soused",
-        "creator": "Scott Walker & Sunn O)))",
-        "why": "Two obsessives \u2014 Scott Walker's grandiose orchestral dread and Sunn O)))'s drone-metal ritual \u2014 merged into something that shouldn't cohere but does, completely. The result is a hidden-system album: drone and theater operating as one organism, beauty arriving through pure extremity of craft.",
-        "url": "https://www.youtube.com/watch?v=HXDp2q6VPXY"
+        "title": "Mutant / Arca",
+        "creator": "Arca",
+        "why": "Arca's music sits exactly at the edge where the body and machine become indistinguishable \u2014 sculpted, broken, tactile sound that reads like generative 3D rendered as grief and desire. The physical-digital boundary doesn't just blur here; it becomes the subject.",
+        "url": "https://arca1000000.com"
+      },
+      {
+        "medium": "art",
+        "title": "Today series (1966\u20132013)",
+        "creator": "On Kawara",
+        "why": "Every day for nearly five decades, Kawara painted the date he was alive in the local language \u2014 nothing else. It's unreasonably deep craft in service of a brutal feedback loop between existence, ritual, and systems of measurement, the kind of obsessive constraint that should make any builder stop and reconsider what they're actually making.",
+        "url": "https://www.davidzwirner.com/artists/on-kawara"
       }
     ],
     "events": [
       {
-        "name": "Pierre Huyghe: UUmwelt at MoMA Sculpture Garden",
-        "venue": "MoMA, Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd St, Manhattan",
-        "date_start": "2026-07-01",
-        "date_end": "2026-11-29",
+        "name": "Nicola Vassell Gallery: Follow Through (Group Show)",
+        "venue": "Nicola Vassell Gallery, 138 Tenth Ave, Chelsea",
+        "date_start": "2026-06-25",
+        "date_end": "2026-08-07",
         "category": "museum",
-        "why": "The work responds in real time to visitor gazes via sensor, with imagery also driven by simulated cancer cell data \u2014 it literalizes the idea of an art encounter as an unstable, co-produced ecosystem between human and machine cognition, and it's living in MoMA's outdoor sculpture garden all summer.",
-        "url": "https://www.moma.org/calendar/exhibitions/5987",
-        "date": "Jul 1 \u2013 Nov 29"
+        "why": "A tight group show including Alteronce Gumby, Ming Smith, Alberta Whittle, and Uman \u2014 artists working across painting, photography, and installation whose practices center identity as system and material simultaneously.",
+        "url": "https://www.nicolavassell.com",
+        "date": "Jun 25 \u2013 Aug 7"
       },
       {
         "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters across New York City (Public Art Fund)",
+        "venue": "JCDecaux Bus Shelters, citywide NYC",
         "date_start": "2026-07-08",
         "date_end": "2026-09-06",
         "category": "museum",
-        "why": "Ten new site-specific photographs embedded into the city's bus shelter infrastructure \u2014 Orozco's first commissioned photographic series, treating the urban fabric itself as a gallery and the daily commuter gaze as the curatorial lens.",
+        "why": "Orozco's first large-scale US public art commission \u2014 12 trompe l'oeil photographs on 300 bus shelters exploring how nature and infrastructure quietly reshape each other; free, ambient, you walk into it.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "Made in America: The Industrial Photography of Christopher Payne",
-        "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 East 91st St, Manhattan",
-        "date_start": "2026-07-12",
-        "date_end": "2026-09-27",
-        "category": "museum",
-        "why": "Payne spent years photographing American factories at an obsessive documentary depth \u2014 the kind of unreasonably narrow focus on a single thing that reveals everything about systems, labor, material culture, and the strange beauty of industrial process.",
-        "url": "https://www.cooperhewitt.org",
-        "date": "Jul 12 \u2013 Sep 27"
+        "name": "SummerStage: Mavis Staples / Brother Wallace",
+        "venue": "Rumsey Playfield, Central Park",
+        "date_start": "2026-07-16",
+        "date_end": "2026-07-16",
+        "category": "concert",
+        "why": "Free outdoor show with Mavis Staples \u2014 one of the last living links to both the civil rights movement and the deep architecture of American gospel-soul; the kind of performance that makes genre feel like a weak word.",
+        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
+        "date": "Thu, Jul 16"
       },
       {
-        "name": "MoMA PS1 Warm Up 2026 \u2014 Opening Night",
-        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Queens",
+        "name": "SummerStage: Anjunadeep Open Air NYC",
+        "venue": "Rumsey Playfield, Central Park",
+        "date_start": "2026-07-18",
+        "date_end": "2026-07-18",
+        "category": "concert",
+        "why": "A benefit concert bringing Anjunadeep's deep/melodic electronic programming outdoors into Central Park \u2014 James Grant & Jody Wisternoff headline, with a full slate including Marsh and Durante; atmospheric music in an improbable green context.",
+        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
+        "date": "Sat, Jul 18"
+      },
+      {
+        "name": "MoMA PS1 Warm Up 2026 \u2014 Opening Night (Carlos Souffront, Wackies Showcase with Lloyd Barnes & Mark Ernestus, TELESONIQ)",
+        "venue": "MoMA PS1, 22-25 Jackson Avenue, Long Island City, Queens",
         "date_start": "2026-07-24",
         "date_end": "2026-07-24",
         "category": "concert",
-        "why": "The opening night features Carlos Souffront (The Bunker NY), a Wackies dub showcase with Lloyd 'Bullwackie' Barnes and Mark Ernestus of Basic Channel \u2014 a program that maps the actual genealogy of underground electronic music while being held inside an art institution celebrating its 50th year.",
+        "why": "The opening night pairs The Bunker NY's Carlos Souffront with a rare Wackies reggae showcase and Basic Channel's Mark Ernestus \u2014 a lineage-tracing set that maps dub, Detroit, and underground NYC into a single courtyard.",
         "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
         "date": "Fri, Jul 24"
-      },
-      {
-        "name": "SummerStage: Afro-Latinas \u2014 Susana Baca, Luedji Luna ft. Liniker",
-        "venue": "Rumsey Playfield, Central Park (East 71st St & East Drive)",
-        "date_start": "2026-07-26",
-        "date_end": "2026-07-26",
-        "category": "concert",
-        "why": "Free outdoor show anchored by Susana Baca (the Peruvian singer who excavates the African roots of coastal Peruvian music) alongside Luedji Luna and Liniker \u2014 a rare programming move that treats diaspora sound as a living system, not a genre box.",
-        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
-        "date": "Sun, Jul 26"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Chartbook \u2014 Adam Tooze",
-      "feed_url": "https://adamtooze.substack.com/feed",
-      "why": "Historian-economist who weaves geopolitics, power, and economic history into single essays \u2014 the closest thing to a real-time grand-narrative update, cited approvingly by serious writers across the political spectrum."
-    },
-    {
-      "name": "Ivan Miranda \u2014 YouTube",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCF3cDM_hQMtIEJvEW1BZugg",
-      "why": "Solo Spanish maker who builds giant 3D printers, 3D-printed CNC machines, and unusual instruments from scratch \u2014 high-craft digital fabrication storytelling that sits at the exact intersection of making, engineering aesthetics, and 'one person doing the impossible.'"
-    },
-    {
-      "name": "The Convivial Society \u2014 L.M. Sacasas",
-      "feed_url": "https://theconvivialsociety.substack.com/feed",
-      "why": "Thoughtful independent writer on the phenomenology of technology \u2014 how tools reshape perception, behavior, and belonging \u2014 a precise match for the reader's interests in 'aesthetics of technology' and 'social software history.'"
-    }
-  ]
+  "trial_sources": []
 }

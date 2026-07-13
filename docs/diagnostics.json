@@ -1,6 +1,6 @@
 {
-  "feeds": 65,
-  "mined": 43,
+  "feeds": 50,
+  "mined": 52,
   "videos": 8,
   "video_titles": [
     "How does light 'know' the shortest path?",
@@ -13,17 +13,19 @@
     "Half a Million Views Later\u2026 BumpMesh Is Way Better"
   ],
   "supplemental": false,
-  "final_items": 11,
+  "final_items": 10,
   "final_sources": [
-    "Al Jazeera",
-    "Ars Technica",
-    "Euronews",
+    "Boston Globe",
+    "CNC Kitchen",
     "Hackaday",
-    "Nautilus",
-    "Sentiers",
-    "Terry Tao's Blog",
-    "arXiv"
+    "Iran SITREP",
+    "Lyrebird Dreaming",
+    "MyFonts",
+    "Ray Myers",
+    "Robin Sloan",
+    "Wired",
+    "mmapped.blog"
   ],
-  "had_video": false,
-  "run_at": "2026-07-12T12:32:11.135096+00:00"
+  "had_video": true,
+  "run_at": "2026-07-13T13:40:08.807380+00:00"
 }
