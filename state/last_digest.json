@@ -1,119 +1,107 @@
 {
   "digest": {
-    "intro": "The ceasefire is dead, the ocean is cooking, and Adobe finally lost one.",
+    "intro": "Two maritime corridors close in one week; AI agents find things nobody meant to show.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Hormuz at 28% \u2014 The MOU That Became a Tripwire",
-            "source": "Iran SITREP",
-            "url": "https://www.iransitrep.com/",
-            "blurb": "The April ceasefire is functionally over: Hormuz tanker traffic has collapsed to 28% of pre-war baseline (15.6 ships/day), the US and Iran are both publicly claiming control of the Strait while conducting fresh strikes, and the interim MOU's Paragraph 5 \u2014 meant to guarantee safe passage \u2014 has instead become the legal pretext each side uses to justify the next escalation. Iran detained Ahmadinejad on Mossad-recruitment charges, which signals serious internal fracture; Israel's cyber ops are still running despite the ceasefire. Neither side has an exit that doesn't cost them politically, so they're both performing resolve while the shipping lanes empty out.",
+            "title": "The Strait of Hormuz Becomes a Toll Road",
+            "source": "WORLD Radio",
+            "url": "https://wng.org/podcasts/tuesday-morning-news-july-14-2026-1783979658",
+            "blurb": "Traffic through the Strait of Hormuz \u2014 normally ~130 ships per day carrying a fifth of global oil \u2014 collapsed to 14 ships on Sunday after Trump ordered the US military to destroy Iranian air defenses, radar, and small-boat capacity. He then announced a 20% fee on cargo from any country that wants US protection through the strait: a straight-faced attempt to convert international waters into a protection racket. Iran says it manages the strait; the UAE says Iran just attacked two tankers anyway, killing one person.",
             "tags": [
               "geopolitics",
-              "iran",
-              "hormuz"
-            ]
-          },
-          {
-            "title": "Graham Gone, War Powers Filed \u2014 The Senate Math Just Shifted",
-            "source": "Boston Globe",
-            "url": "https://www.bostonglobe.com/2026/07/13/nation/trump-presidency-live-updates/",
-            "blurb": "Lindsey Graham, who built the Senate coalition supporting the Iran strikes, died suddenly of an aortic tear at 71 \u2014 and Schiff immediately filed a War Powers Resolution, sensing the arithmetic changed. Trump told Fox News 'we're taking over the Strait of Hormuz' the same morning Iran's supreme leader adviser said retreat 'has no place in the mind of any friend of Iran,' which tells you how far apart the two sides actually are despite Trump's claim that 'everything was agreed to' in an 11-hour Sunday meeting.",
-            "tags": [
-              "geopolitics",
-              "us politics",
+              "energy",
               "iran"
             ]
           },
           {
-            "title": "The Graph That Should Be Front-Page News",
-            "source": "Lyrebird Dreaming",
-            "url": "https://www.lyrebirddreaming.com/post/the-graph-that-should-be-front-page-news",
-            "blurb": "The Ni\u00f1o 3.4 sea-surface temperature record isn't just setting a new high \u2014 it has departed entirely from the observed range since 1982, meaning this year's line sits outside every single prior year's envelope on the chart. This is direct satellite and buoy measurement, not a model or forecast. Goldman is pricing a 15.8% food commodity surge on top of the energy shock already running through Hormuz, and 10,650 Europeans have already died in the June heatwave \u2014 the two crises are now compounding each other in real time.",
+            "title": "Ukraine's Drones Closed the Sea of Azov in Under a Week",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/",
+            "blurb": "Ukraine's Unmanned Systems Forces struck more than 100 Russian tankers and ships per night from July 6\u201313, forcing a complete shutdown of the Don River\u2013Azov corridor and halting all Kerch Strait transits \u2014 effectively re-isolating Crimea from seaborne fuel resupply. About a quarter of Russia's grain exports move through that corridor, and wheat prices have started rising. It's the clearest proof yet that cheap one-way drones can do what a conventional navy would take years and billions to accomplish.",
             "tags": [
-              "climate",
-              "el ni\u00f1o",
-              "food prices"
+              "ukraine",
+              "drones",
+              "naval warfare"
+            ]
+          },
+          {
+            "title": "Germany Is Quietly Gutting Its Freedom of Information Law",
+            "source": "Deutsche Welle",
+            "url": "https://www.dw.com/en/germany-freedom-of-information-act/a-77939695",
+            "blurb": "Buried at item 34 of a 34-point reform package pushed through just before parliament's summer recess, Germany's ruling CDU/CSU-SPD coalition is moving to effectively abolish the IFG \u2014 the 2006 law that lets journalists, NGOs, and citizens demand government data freely and quickly. The stated justification is cybersecurity and the sensitivity of government data in an era of global cyberwarfare, but critics say that rationale could swallow the entire transparency regime. Germany is a democratic bellwether; if this passes without serious pushback, expect the template to travel.",
+            "tags": [
+              "democracy",
+              "transparency",
+              "europe"
             ]
           }
         ]
       },
       {
-        "heading": "Tools, trust, and the AI credibility war",
+        "heading": "Machines doing unexpected things",
         "items": [
           {
-            "title": "Zig Creator Calls Spade a Spade, Anthropic Blows Smoke",
-            "source": "Ray Myers",
-            "url": "https://raymyers.org/post/zed-creator-calls-spade-a-spade/",
-            "blurb": "Andrew Kelley publicly named Anthropic as an unreliable narrator whose '$1 trillion IPO valuation depends on selling hypothetical future impact' \u2014 the essay frames Anthropic's 'coding is going away' narrative not as prediction but as investor storytelling with real downstream damage: architecture and staffing decisions made from fear rather than evidence. 720 points on HN means this landed; the piece is really about how credibility moves in technical communities when a major lab needs a story more than it needs to be right.",
+            "title": "An AI Agent Accidentally Leaked the Fields Medal Winners",
+            "source": "HN / Phemex",
+            "url": "https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948",
+            "blurb": "Someone ran a Codex-generated curl command against the ICM 2026 schedule and found four lecture slots marked \"HIDDEN\" in the front-end code \u2014 inside: Yu Deng, John Pardon, Jacob Tsimerman, and Hong Wang, apparently the Fields Medal class of 2026. If confirmed on July 23, Hong Wang would be only the third woman in the medal's history to receive it, and this would be the first time two Chinese mathematicians won in the same cycle. The parable: AI agents are very good at finding things you forgot to actually hide.",
             "tags": [
               "ai",
-              "anthropic",
-              "credibility"
+              "mathematics",
+              "leaks"
             ]
           },
           {
-            "title": "Robin Sloan at the March to Stop the AI Race",
-            "source": "Robin Sloan",
-            "url": "https://www.robinsloan.com/lab/stop-ai-march/",
-            "blurb": "Sloan walked from OpenAI's office to Anthropic's HQ in San Francisco and explains exactly why this particular protest earned his presence: the demand is unusually concrete \u2014 every major AI lab CEO must publicly commit to pausing frontier development if every other major lab credibly does the same. What makes it worth reading isn't the politics but Sloan's observation that the weird thing about the AI debate is that no one, not even accelerationists, actually disputes the basic fact pattern \u2014 powerful technology, unknown mechanisms, profound economic effects, no planning horizon \u2014 they just draw opposite conclusions from it.",
+            "title": "OpenAI's Codex Encrypted Its Own Sub-Agent Prompts \u2014 Now Nobody Can Audit Them",
+            "source": "GitHub / OpenAI Codex",
+            "url": "https://github.com/openai/codex/issues/28058",
+            "blurb": "A merged PR (#26210) made Codex's MultiAgentV2 inter-agent messages opaque: the content field is now left empty and only an encrypted payload is stored, meaning even the parent agent can't read what instructions were sent to its children. The practical problem: you can no longer answer basic questions like \"what task did this spawn_agent call give the child?\" or \"why did this subagent thread exist?\" The deeper problem: AI opacity is no longer a philosophical concern \u2014 it's now a design choice being shipped in version numbers.",
             "tags": [
               "ai",
-              "protest",
-              "culture"
+              "transparency",
+              "infrastructure"
             ]
           },
           {
-            "title": "I.J. Good's 1964 Paper on the First Ultraintelligent Machine",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/07/12/musing-on-ai-from-1964/",
-            "blurb": "Good's thesis \u2014 'the survival of man depends on the early construction of an ultraintelligent machine' \u2014 was written at Oxford before integrated circuits were common, and his core chain (a smart machine designs a smarter machine, recursively) is exactly the argument being re-litigated right now. He also noted in 1964 that we'd need to understand the human brain to make a real breakthrough, and we still don't \u2014 which either means LLMs are something else entirely or we're pattern-matching our way toward something we can't fully see. Reading present-day fears through 60-year-old speculation has a clarifying effect.",
+            "title": "DOOMQL: SQLite as the Actual Game Engine",
+            "source": "Simon Willison",
+            "url": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
+            "blurb": "Peter Gostev built a Doom-like game where SQLite is not the save file but the full engine: SQL queries handle movement, collision detection, enemy logic, combat, and every RGB pixel on screen via a ray tracer implemented as a recursive CTE. You can run Datasette against the live game database while playing and watch the frame_pixels view update in real time, then ask Claude to add a minimap. It started as a deliberately unreasonable question and ended up being weirdly complete.",
             "tags": [
-              "ai",
-              "history",
-              "intelligence explosion"
+              "creative coding",
+              "databases",
+              "games"
             ]
           }
         ]
       },
       {
-        "heading": "Letters, marks, and the physical act of making",
+        "heading": "Physical things",
         "items": [
           {
-            "title": "From Bull's Head to 'A' \u2014 How an Ox Became the Alphabet",
-            "source": "MyFonts",
-            "url": "https://www.myfonts.com/blogs/typography-culture/letter-a-origins-writing-systems-typography",
-            "blurb": "The Latin 'A' is a stylized ox head rotated 90 degrees: aleph, drawn by Bronze Age traders in the Sinai, had two horns and a triangular face \u2014 tip it over, add a crossbar to hold the diagonals apart, and you have the skeleton of every 'A' you've ever typed. The rotation wasn't aesthetic; it followed the shift from carving into stone (where vertical strokes dominate) to writing on papyrus (where horizontal motion is faster). What's quietly remarkable is the chain: Phoenician abjad \u2192 Greek vowel reassignment (a cognitive leap the essay calls 'ergonomic') \u2192 Etruscan \u2192 Roman stonecutters rationalizing the form for chisels.",
+            "title": "The Most Detailed 3D Atlas of the Human Brainstem",
+            "source": "BBC",
+            "url": "https://www.bbc.com/news/articles/cg53l737v1qo",
+            "blurb": "Scientists at IIT Madras stitched together 500+ tissue sections from foetal, childhood, and adult brains into ANCHOR \u2014 a cellular-resolution 3D atlas of the brainstem that lets you zoom from a whole-brain MRI down to individual nerve cells without leaving the model. It maps 200+ cell clusters and pathways using eight chemical markers, all from high-resolution microscopy rather than expensive molecular techniques. The brainstem is a sliver of tissue that keeps you breathing and conscious; until now, pathologists diagnosing disorders there were still working from scattered 2D slices.",
             "tags": [
-              "typography",
-              "history",
-              "language"
+              "neuroscience",
+              "anatomy",
+              "imaging"
             ]
           },
           {
-            "title": "Backtrack-Free Cursive \u2014 Engineering the One-Stroke Word",
-            "source": "mmapped.blog",
-            "url": "https://mmapped.blog/posts/52-backtrack-free-cursive",
-            "blurb": "The author noticed that English cursive requires backtracking \u2014 lifting or reversing to dot i's and cross t's \u2014 in 51% of words, averaging 0.68 backtracks per word, while Russian needs it in only 6.4% of words (0.066 per word), a difference he quantified by running Crime and Punishment through both languages. The essay is ostensibly about designing a pen-path algorithm for a backtrack-free cursive system, but it's really forcing you to think about how letterforms encode sequence and connection \u2014 the hidden temporal logic inside a static visual form.",
+            "title": "The Arm Spin That Stops a Fall",
+            "source": "Steve Mould (YouTube)",
+            "url": "https://www.youtube.com/watch?v=1EyN9_QO4_A",
+            "blurb": "Steve Mould takes the reflex everyone has felt \u2014 windmilling your arms when you start to slip \u2014 and traces it back to conservation of angular momentum as an embodied human control system. Mould is reliably good at making abstract physics feel like something you can feel in your body. Short, and you will immediately want to spin your arms.",
             "tags": [
-              "typography",
-              "algorithms",
-              "writing"
-            ]
-          },
-          {
-            "title": "BumpMesh Is Way Better \u2014 Physical Texture on 3D Prints",
-            "source": "CNC Kitchen",
-            "url": "https://www.youtube.com/watch?v=Y_vkCFwDIBY",
-            "blurb": "CNC Kitchen doesn't hype tools without reason, and half a million views on a single feature video is a genuine signal. BumpMesh applies physical surface textures to 3D prints \u2014 generative surface aesthetics that live at the physical/digital boundary \u2014 and it's free, which means the barrier between seeing it and using it on your next print is basically zero.",
-            "tags": [
-              "3d printing",
-              "generative",
-              "tools"
+              "physics",
+              "biomechanics"
             ],
-            "thumbnail": "https://i2.ytimg.com/vi/Y_vkCFwDIBY/hqdefault.jpg"
+            "thumbnail": "https://i2.ytimg.com/vi/1EyN9_QO4_A/hqdefault.jpg"
           }
         ]
       },
@@ -121,14 +109,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "SFPD Drone Footage Leak \u2014 What a City Looks Like When the Watchers Aren't Watching Themselves",
-            "source": "Wired",
-            "url": "https://www.wired.com/story/sfpd-drone-video-leak-surveillance/",
-            "blurb": "Leaked footage from SFPD's Skydio X10 program shows four separate drones coordinating to follow a single suspect across San Francisco over the course of one hour \u2014 tracking his license plate, following passengers who got out of his car, and filming his takedown from two simultaneous angles \u2014 all triggered by an alleged theft of car parts. The perceptual shift here is the key thing: at 200 feet with a locked thermal-optical zoom, the city becomes a continuous graph of movement with no ambient cover, and the surveillance was only revealed because someone leaked the video rather than through any disclosure process.",
+            "title": "Sketching India Before the Camera Arrived",
+            "source": "BBC",
+            "url": "https://www.bbc.com/news/articles/cm2drrv6q54o",
+            "blurb": "In the late 1830s, Emily Eden traveled across northern India with her brother the governor-general and drew everyone: princes, fakirs, servants, Akali warriors, hill communities, Afghan nobles \u2014 a visual record that would otherwise simply not exist, since photography hadn't arrived yet. Her 1844 publication, Portraits of the Princes and People of India, is now the centerpiece of an exhibition in Delhi, reassembled as a complete series of hand-colored lithographs. What makes it strange is the breadth of her gaze: imperial-adjacent but not imperial in subject, a document of the overlooked made by someone with full access to the celebrated.",
             "tags": [
-              "surveillance",
-              "cities",
-              "technology"
+              "art history",
+              "india",
+              "visual archive"
             ]
           }
         ]
@@ -136,24 +124,24 @@
     ],
     "facts": [
       {
-        "fact": "Hormuz tanker traffic has fallen to 15.6 ships per day \u2014 28% of its pre-war baseline \u2014 approaching what analysts describe as 'closure-level' traffic.",
-        "url": "https://www.iransitrep.com/"
+        "fact": "Before this week's conflict, roughly 130 ships per day transited the Strait of Hormuz; on Sunday that number was 14.",
+        "url": "https://wng.org/podcasts/tuesday-morning-news-july-14-2026-1783979658"
       },
       {
-        "fact": "The Latin letter 'A' is a Bronze Age ox head (aleph) rotated 90 degrees \u2014 the rotation followed a shift in writing tools, not aesthetic preference.",
-        "url": "https://www.myfonts.com/blogs/typography-culture/letter-a-origins-writing-systems-typography"
+        "fact": "Ukraine's drone campaign struck over 100 Russian ships per night for seven consecutive nights and shut down an entire maritime corridor \u2014 something no traditional naval blockade had achieved in the conflict.",
+        "url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/"
       },
       {
-        "fact": "Writing Crime and Punishment in English cursive would require backtracking in 51% of words; in Russian, only 6.4% \u2014 because Russian has almost no letters requiring secondary strokes.",
-        "url": "https://mmapped.blog/posts/52-backtrack-free-cursive"
+        "fact": "If Hong Wang is confirmed as a 2026 Fields Medal recipient, she will be only the third woman in the award's history \u2014 which began in 1936 \u2014 to receive it.",
+        "url": "https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948"
       },
       {
-        "fact": "I.J. Good published his 'intelligence explosion' thesis \u2014 that a sufficiently smart machine would design a smarter machine, recursively \u2014 in 1964, before integrated circuits were commercially common.",
-        "url": "https://hackaday.com/2026/07/12/musing-on-ai-from-1964/"
+        "fact": "Germany's IFG transparency law, in effect since 2006, is being targeted for abolition via item 34 of a 34-point reform package slipped through just before parliamentary summer recess.",
+        "url": "https://www.dw.com/en/germany-freedom-of-information-act/a-77939695"
       },
       {
-        "fact": "Four separate SFPD drones coordinated to follow a single suspect across San Francisco in under an hour \u2014 the operation was triggered by a suspected car-parts theft.",
-        "url": "https://www.wired.com/story/sfpd-drone-video-leak-surveillance/"
+        "fact": "ANCHOR, the new 3D brainstem atlas from IIT Madras, was built from over 500 tissue sections spanning foetal through adult brains and identifies more than 200 distinct clusters of cells \u2014 all using standard microscopy rather than expensive molecular techniques.",
+        "url": "https://www.bbc.com/news/articles/cg53l737v1qo"
       }
     ],
     "make_something": null,
@@ -162,72 +150,72 @@
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film that operates as a feedback loop between memory, image, and meaning \u2014 Marker wanders Tokyo and Guinea-Bissau asking how cultures construct time and ritual from the same raw material of living. The essay-film form is itself a generative system; watching it makes you want to make something immediately.",
+        "why": "A film that functions as a philosophy of memory and image-making \u2014 Marker wanders Tokyo, Guinea-Bissau, and Iceland asking how cultures encode time and ritual into everyday surfaces. It's the essay-film as operating system, and it will rewire how you look at cities.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
-        "medium": "music",
-        "title": "Mutant / Arca",
-        "creator": "Arca",
-        "why": "Arca's music sits exactly at the edge where the body and machine become indistinguishable \u2014 sculpted, broken, tactile sound that reads like generative 3D rendered as grief and desire. The physical-digital boundary doesn't just blur here; it becomes the subject.",
-        "url": "https://arca1000000.com"
+        "medium": "art",
+        "title": "Untitled (Your body is a battleground)",
+        "creator": "Barbara Kruger",
+        "why": "Kruger fuses the grammar of advertising with the logic of power \u2014 text as weapon, image as territory. If you care about systems that quietly shape identity and desire, her work is the place where graphic design becomes political philosophy at full volume.",
+        "url": "https://www.moma.org/artists/3302"
       },
       {
-        "medium": "art",
-        "title": "Today series (1966\u20132013)",
-        "creator": "On Kawara",
-        "why": "Every day for nearly five decades, Kawara painted the date he was alive in the local language \u2014 nothing else. It's unreasonably deep craft in service of a brutal feedback loop between existence, ritual, and systems of measurement, the kind of obsessive constraint that should make any builder stop and reconsider what they're actually making.",
-        "url": "https://www.davidzwirner.com/artists/on-kawara"
+        "medium": "music",
+        "title": "Souvlaki",
+        "creator": "Slowdive",
+        "why": "The record that proves texture is structure \u2014 every wash of reverb and delay is load-bearing. For someone who thinks about physical and digital space, it's a masterclass in building immersive environments out of nothing but layered signal.",
+        "url": "https://www.youtube.com/watch?v=OFNLsVBPDkY"
       }
     ],
     "events": [
       {
-        "name": "Nicola Vassell Gallery: Follow Through (Group Show)",
+        "name": "Nicola Vassell Gallery: \"Follow Through\"",
         "venue": "Nicola Vassell Gallery, 138 Tenth Ave, Chelsea",
         "date_start": "2026-06-25",
         "date_end": "2026-08-07",
         "category": "museum",
-        "why": "A tight group show including Alteronce Gumby, Ming Smith, Alberta Whittle, and Uman \u2014 artists working across painting, photography, and installation whose practices center identity as system and material simultaneously.",
+        "why": "A tight group show with Alvaro Barrington, Na Kim, Ming Smith, and Uman among others \u2014 artists whose practices blur identity, community, and image-making; strong signal-to-noise ratio for a Chelsea summer.",
         "url": "https://www.nicolavassell.com",
         "date": "Jun 25 \u2013 Aug 7"
       },
       {
         "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters, citywide NYC",
+        "venue": "JCDecaux Bus Shelters across New York City",
         "date_start": "2026-07-08",
         "date_end": "2026-09-06",
-        "category": "museum",
-        "why": "Orozco's first large-scale US public art commission \u2014 12 trompe l'oeil photographs on 300 bus shelters exploring how nature and infrastructure quietly reshape each other; free, ambient, you walk into it.",
+        "category": "popup",
+        "why": "Orozco's first commissioned photographic series \u2014 10 new site-specific images about urban fabric distributed across bus shelters, turning the city's own infrastructure into gallery walls; the work finds you rather than the reverse.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "SummerStage: Mavis Staples / Brother Wallace",
-        "venue": "Rumsey Playfield, Central Park",
-        "date_start": "2026-07-16",
-        "date_end": "2026-07-16",
-        "category": "concert",
-        "why": "Free outdoor show with Mavis Staples \u2014 one of the last living links to both the civil rights movement and the deep architecture of American gospel-soul; the kind of performance that makes genre feel like a weak word.",
-        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
-        "date": "Thu, Jul 16"
+        "name": "Pierre Huyghe: UUmwelt",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
+        "date_start": "2026-07-14",
+        "date_end": "2026-11-29",
+        "category": "museum",
+        "why": "An AI trained on fMRI brain-scan data generates hallucinatory imagery in real time, activated by your own gaze \u2014 the piece literally changes based on who's looking at it, dissolving the boundary between human and machine cognition in a public garden.",
+        "url": "https://www.moma.org/calendar/exhibitions/5912",
+        "date": "Jul 14 \u2013 Nov 29"
       },
       {
-        "name": "SummerStage: Anjunadeep Open Air NYC",
-        "venue": "Rumsey Playfield, Central Park",
-        "date_start": "2026-07-18",
-        "date_end": "2026-07-18",
-        "category": "concert",
-        "why": "A benefit concert bringing Anjunadeep's deep/melodic electronic programming outdoors into Central Park \u2014 James Grant & Jody Wisternoff headline, with a full slate including Marsh and Durante; atmospheric music in an improbable green context.",
-        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
-        "date": "Sat, Jul 18"
+        "name": "David Byrne / Saul Steinberg: Influence and Affinity",
+        "venue": "125 Newbury (at 395 Broadway, Tribeca)",
+        "date_start": "2026-07-14",
+        "date_end": "2026-07-31",
+        "category": "museum",
+        "why": "A pairing of two obsessives who turned everyday observation into full-blown cosmologies \u2014 Steinberg's graphic systems meet Byrne's cultural promiscuity; exactly the kind of category-blurring dialogue that rewards close looking.",
+        "url": "https://125newbury.com",
+        "date": "Jul 14\u201331"
       },
       {
-        "name": "MoMA PS1 Warm Up 2026 \u2014 Opening Night (Carlos Souffront, Wackies Showcase with Lloyd Barnes & Mark Ernestus, TELESONIQ)",
-        "venue": "MoMA PS1, 22-25 Jackson Avenue, Long Island City, Queens",
+        "name": "MoMA PS1 Warm Up 2026 \u2014 Opening Night",
+        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
         "date_start": "2026-07-24",
         "date_end": "2026-07-24",
         "category": "concert",
-        "why": "The opening night pairs The Bunker NY's Carlos Souffront with a rare Wackies reggae showcase and Basic Channel's Mark Ernestus \u2014 a lineage-tracing set that maps dub, Detroit, and underground NYC into a single courtyard.",
+        "why": "The 28th season opens with Carlos Souffront, a Wackies Showcase pairing Bronx reggae label founder Lloyd Barnes with Basic Channel's Mark Ernestus \u2014 dub-techno genealogy performed live in a museum courtyard at dusk; the lineup this year is unusually deep on subculture lineage.",
         "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
         "date": "Fri, Jul 24"
       }
