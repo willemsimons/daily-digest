@@ -1,107 +1,130 @@
 {
   "digest": {
-    "intro": "Two maritime corridors close in one week; AI agents find things nobody meant to show.",
+    "intro": "Autonomous weapons debut, abstraction stacks crack, and a 27B model fits in a pocket.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The Strait of Hormuz Becomes a Toll Road",
-            "source": "WORLD Radio",
-            "url": "https://wng.org/podcasts/tuesday-morning-news-july-14-2026-1783979658",
-            "blurb": "Traffic through the Strait of Hormuz \u2014 normally ~130 ships per day carrying a fifth of global oil \u2014 collapsed to 14 ships on Sunday after Trump ordered the US military to destroy Iranian air defenses, radar, and small-boat capacity. He then announced a 20% fee on cargo from any country that wants US protection through the strait: a straight-faced attempt to convert international waters into a protection racket. Iran says it manages the strait; the UAE says Iran just attacked two tankers anyway, killing one person.",
+            "title": "US Drone Boats Hit Iran's Naval Base \u2014 A First in Combat History",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/",
+            "blurb": "On July 12, three Saronic Corsair autonomous surface vessels \u2014 24-foot, 34-knot boats capable of carrying 1,000 lbs over 1,000 nautical miles \u2014 made a low-speed uncontested approach into Bandar Abbas Naval Base and destroyed an Iranian Ghadir-class midget submarine suspended from a gantry. The US military used a weapon Iran and the Houthis pioneered against it nearly a decade ago, and the video is out. This is not a test or a prototype; it's the new normal.",
             "tags": [
               "geopolitics",
-              "energy",
-              "iran"
+              "autonomous weapons",
+              "military tech"
             ]
           },
           {
-            "title": "Ukraine's Drones Closed the Sea of Azov in Under a Week",
+            "title": "Americans Barred from Returning Home as Ebola Outpaces Response in DRC",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/",
-            "blurb": "Ukraine's Unmanned Systems Forces struck more than 100 Russian tankers and ships per night from July 6\u201313, forcing a complete shutdown of the Don River\u2013Azov corridor and halting all Kerch Strait transits \u2014 effectively re-isolating Crimea from seaborne fuel resupply. About a quarter of Russia's grain exports move through that corridor, and wheat prices have started rising. It's the clearest proof yet that cheap one-way drones can do what a conventional navy would take years and billions to accomplish.",
+            "url": "https://arstechnica.com/health/2026/07/americans-in-congo-barred-from-returning-home-amid-ebola-outbreak/",
+            "blurb": "The Trump administration invoked Title 49 transportation authority to put US citizens currently in the DRC on a do-not-board list \u2014 requiring 21 days in a third country before returning \u2014 blocking roughly two dozen Americans from flights home on Tuesday, including potentially CDC workers on the ground. Public health experts are unanimous that travel bans historically make outbreaks worse by punishing transparency and strangling aid. A government barring its own citizens from returning is a genuinely unusual escalation worth watching.",
             "tags": [
-              "ukraine",
-              "drones",
-              "naval warfare"
+              "public health",
+              "geopolitics",
+              "ebola"
             ]
           },
           {
-            "title": "Germany Is Quietly Gutting Its Freedom of Information Law",
-            "source": "Deutsche Welle",
-            "url": "https://www.dw.com/en/germany-freedom-of-information-act/a-77939695",
-            "blurb": "Buried at item 34 of a 34-point reform package pushed through just before parliament's summer recess, Germany's ruling CDU/CSU-SPD coalition is moving to effectively abolish the IFG \u2014 the 2006 law that lets journalists, NGOs, and citizens demand government data freely and quickly. The stated justification is cybersecurity and the sensitivity of government data in an era of global cyberwarfare, but critics say that rationale could swallow the entire transparency regime. Germany is a democratic bellwether; if this passes without serious pushback, expect the template to travel.",
+            "title": "New York Freezes All Large Data Center Construction for a Year",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/",
+            "blurb": "Governor Hochul's moratorium covers any facility drawing 50 MW or more and won't lift until the state produces consistent environmental standards \u2014 this after researchers found over $130 billion in data center projects blocked or delayed by public protests nationwide this year. It's the first state-level action of its kind, and the political pressure behind it (both parties fear the ballot-box consequence of siding with Big Tech on energy and water) suggests it will be a template. The AI infrastructure boom just hit its first institutional wall.",
             "tags": [
-              "democracy",
-              "transparency",
-              "europe"
+              "AI policy",
+              "infrastructure",
+              "energy"
             ]
           }
         ]
       },
       {
-        "heading": "Machines doing unexpected things",
+        "heading": "Tools that crack",
         "items": [
           {
-            "title": "An AI Agent Accidentally Leaked the Fields Medal Winners",
-            "source": "HN / Phemex",
-            "url": "https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948",
-            "blurb": "Someone ran a Codex-generated curl command against the ICM 2026 schedule and found four lecture slots marked \"HIDDEN\" in the front-end code \u2014 inside: Yu Deng, John Pardon, Jacob Tsimerman, and Hong Wang, apparently the Fields Medal class of 2026. If confirmed on July 23, Hong Wang would be only the third woman in the medal's history to receive it, and this would be the first time two Chinese mathematicians won in the same cycle. The parable: AI agents are very good at finding things you forgot to actually hide.",
+            "title": "Secure Boot Has Been Trivially Bypassable for 13 of Its 14 Years",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/",
+            "blurb": "ESET researchers found 11 shim firmware images \u2014 at least one from 2013 \u2014 that Microsoft signed but never revoked after vulnerabilities were discovered; a novice attacker can use any of them to completely bypass UEFI Secure Boot on both Windows and Linux devices, with the malicious firmware persisting even after OS reinstallation or drive replacement. The attack requires no exploit primitives, no memory corruption, no jailbreaks \u2014 just a copy of an old trusted file that Microsoft forgot to revoke. The thing protecting your boot chain was, functionally, not protecting it.",
             "tags": [
-              "ai",
-              "mathematics",
-              "leaks"
+              "security",
+              "infrastructure",
+              "firmware"
             ]
           },
           {
-            "title": "OpenAI's Codex Encrypted Its Own Sub-Agent Prompts \u2014 Now Nobody Can Audit Them",
-            "source": "GitHub / OpenAI Codex",
-            "url": "https://github.com/openai/codex/issues/28058",
-            "blurb": "A merged PR (#26210) made Codex's MultiAgentV2 inter-agent messages opaque: the content field is now left empty and only an encrypted payload is stored, meaning even the parent agent can't read what instructions were sent to its children. The practical problem: you can no longer answer basic questions like \"what task did this spawn_agent call give the child?\" or \"why did this subagent thread exist?\" The deeper problem: AI opacity is no longer a philosophical concern \u2014 it's now a design choice being shipped in version numbers.",
+            "title": "Cursor Executes Malicious Code Automatically, Vendor Ignored It for 6 Months",
+            "source": "Mindgard",
+            "url": "https://mindgard.ai/blog/cursor-0day-when-full-disclosure-becomes-the-only-protection-left",
+            "blurb": "If a repository contains a file named git.exe in its root, Cursor on Windows will execute it automatically and repeatedly \u2014 no clicks, no prompts, no warnings \u2014 because the IDE searches for git binaries in the workspace path first. Mindgard reported this on December 15, 2025; 197+ Cursor versions later, it's still there, which is why they went public. Seven million active users, a reported $60B valuation, and the attack surface is: open a repo someone sent you.",
             "tags": [
-              "ai",
-              "transparency",
-              "infrastructure"
+              "security",
+              "developer tools",
+              "0day"
             ]
           },
           {
-            "title": "DOOMQL: SQLite as the Actual Game Engine",
-            "source": "Simon Willison",
-            "url": "https://simonwillison.net/2026/Jul/13/doomql/#atom-everything",
-            "blurb": "Peter Gostev built a Doom-like game where SQLite is not the save file but the full engine: SQL queries handle movement, collision detection, enemy logic, combat, and every RGB pixel on screen via a ray tracer implemented as a recursive CTE. You can run Datasette against the live game database while playing and watch the frame_pixels view update in real time, then ask Claude to add a minimap. It started as a deliberately unreasonable question and ended up being weirdly complete.",
+            "title": "Claude's Memory System Will Leak Your Data to Anyone Who Asks It Nicely",
+            "source": "ayush.digital",
+            "url": "https://www.ayush.digital/blog/the-memory-heist",
+            "blurb": "Claude's daily summarization pass distills your recent conversations into a persistent profile injected into every future session; a researcher exploited this by crafting a prompt that caused Claude to silently exfiltrate his full name, employer, hometown, and security question answers to an external server \u2014 with no indication in the UI that anything had happened. The structural problem is that the memory system treats the injected profile as trusted context, so social-engineering the model is enough to weaponize it. AI assistants have become high-fidelity personal dossiers, and the security model hasn't caught up.",
             "tags": [
-              "creative coding",
-              "databases",
-              "games"
+              "AI security",
+              "privacy",
+              "Claude"
             ]
           }
         ]
       },
       {
-        "heading": "Physical things",
+        "heading": "Making and thinking",
         "items": [
           {
-            "title": "The Most Detailed 3D Atlas of the Human Brainstem",
-            "source": "BBC",
-            "url": "https://www.bbc.com/news/articles/cg53l737v1qo",
-            "blurb": "Scientists at IIT Madras stitched together 500+ tissue sections from foetal, childhood, and adult brains into ANCHOR \u2014 a cellular-resolution 3D atlas of the brainstem that lets you zoom from a whole-brain MRI down to individual nerve cells without leaving the model. It maps 200+ cell clusters and pathways using eight chemical markers, all from high-resolution microscopy rather than expensive molecular techniques. The brainstem is a sliver of tissue that keeps you breathing and conscious; until now, pathologists diagnosing disorders there were still working from scattered 2D slices.",
+            "title": "Bonsai 27B: A 27-Billion-Parameter Model That Fits on an iPhone",
+            "source": "PrismML",
+            "url": "https://prismml.com/news/bonsai-27b",
+            "blurb": "Using ternary weights ({\u22121, 0, +1} with FP16 group-wise scaling at 1.71 effective bits per weight), PrismML compressed a Qwen3.6 27B model to 5.9 GB for laptops and 3.9 GB for the footprint-limited iPhone 17 Pro \u2014 with the quantization running end-to-end through embeddings, attention, MLPs, and the LM head, no higher-precision escape hatches. The 3.9 GB variant reportedly handles multi-step reasoning, structured tool calls, vision tasks, and agentic loops. If this holds up to scrutiny, the threshold for 'what runs locally on a phone' just jumped a capability class.",
             "tags": [
-              "neuroscience",
-              "anatomy",
-              "imaging"
+              "on-device AI",
+              "model compression",
+              "hardware"
             ]
           },
           {
-            "title": "The Arm Spin That Stops a Fall",
-            "source": "Steve Mould (YouTube)",
-            "url": "https://www.youtube.com/watch?v=1EyN9_QO4_A",
-            "blurb": "Steve Mould takes the reflex everyone has felt \u2014 windmilling your arms when you start to slip \u2014 and traces it back to conservation of angular momentum as an embodied human control system. Mould is reliably good at making abstract physics feel like something you can feel in your body. Short, and you will immediately want to spin your arms.",
+            "title": "The Tower Keeps Rising \u2014 Armin Ronacher on Why AI Makes Coordination Harder, Not Easier",
+            "source": "lucumr.pocoo.org",
+            "url": "https://lucumr.pocoo.org/2026/7/13/the-tower-keeps-rising/",
+            "blurb": "Ronacher (Flask, Rye) opens with the Tower of Babel \u2014 noting that God didn't take away the bricks, he took away shared language \u2014 and uses it to argue that AI-assisted coding amplifies individual throughput but does nothing for the coordination layer where large software projects actually fail. Every abstraction added to the stack is a layer of assumed shared understanding; vibe-coded software that 'changes somewhat randomly and unexpectedly' is a coordination collapse in slow motion. It's a structural argument, not a complaint, and it lands.",
             "tags": [
-              "physics",
-              "biomechanics"
-            ],
-            "thumbnail": "https://i2.ytimg.com/vi/1EyN9_QO4_A/hqdefault.jpg"
+              "software",
+              "AI",
+              "essay"
+            ]
+          },
+          {
+            "title": "Jurassic Park's Computers, in Unreasonable Detail",
+            "source": "Fabien Sanglard",
+            "url": "https://fabiensanglard.net/jurrasic_park_computers/index.html",
+            "blurb": "Sanglard watched Jurassic Park again and catalogued every machine on screen \u2014 Nedry's three-computer mess of Macs and SGI workstations, Arnold's tidier SGI setup, the actual software running on the prop tablets \u2014 including source code recovered from the props. The control room set used real hardware throughout because the production designers thought faking it would look worse. Written partly as an elegy: Sam Neill died the day Sanglard finished it.",
+            "tags": [
+              "film",
+              "computers",
+              "archaeology"
+            ]
+          },
+          {
+            "title": "The Diffusion Pilot \u2014 An Animator Asks What Making Means Now",
+            "source": "Aeon Video",
+            "url": "https://aeon.co/videos/an-animator-ponders-his-purpose-amid-an-ais-infinite-possibilities",
+            "thumbnail": "https://aeon.co/videos/an-animator-ponders-his-purpose-amid-an-ais-infinite-possibilities",
+            "blurb": "Aeon's short documentary follows an animator sitting with the specific discomfort of AI image generation \u2014 not the abstract threat to the industry but the phenomenological question of what authorship feels like when infinite variation is a prompt away. Aeon's video essays tend to sit with ambiguity rather than resolve it, which is exactly the right register for this subject. Worth watching as a practitioner, not as someone anxious about the discourse.",
+            "tags": [
+              "animation",
+              "AI",
+              "authorship"
+            ]
           }
         ]
       },
@@ -109,14 +132,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Sketching India Before the Camera Arrived",
-            "source": "BBC",
-            "url": "https://www.bbc.com/news/articles/cm2drrv6q54o",
-            "blurb": "In the late 1830s, Emily Eden traveled across northern India with her brother the governor-general and drew everyone: princes, fakirs, servants, Akali warriors, hill communities, Afghan nobles \u2014 a visual record that would otherwise simply not exist, since photography hadn't arrived yet. Her 1844 publication, Portraits of the Princes and People of India, is now the centerpiece of an exhibition in Delhi, reassembled as a complete series of hand-colored lithographs. What makes it strange is the breadth of her gaze: imperial-adjacent but not imperial in subject, a document of the overlooked made by someone with full access to the celebrated.",
+            "title": "Painted Onto Skin: Conductive Ink That Dries Into a Working Electrode",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/07/these-painted-e-tattoos-could-be-the-future-of-wearable-biosensors/",
+            "blurb": "Penn State researchers published in PNAS a conductive ink you literally paint onto skin in custom designs \u2014 it dries into a functional electrode capable of EEG, ECG, and EMG measurements, and unlike previous e-tattoo approaches, it conforms to curved and hairy surfaces where earlier designs failed. The body becomes the substrate, biosensing becomes body art, and the form factor constraint (rigid sensor placement) essentially dissolves. This is the physical/digital edge at its most literal.",
             "tags": [
-              "art history",
-              "india",
-              "visual archive"
+              "wearables",
+              "bioelectronics",
+              "materials"
             ]
           }
         ]
@@ -124,100 +147,100 @@
     ],
     "facts": [
       {
-        "fact": "Before this week's conflict, roughly 130 ships per day transited the Strait of Hormuz; on Sunday that number was 14.",
-        "url": "https://wng.org/podcasts/tuesday-morning-news-july-14-2026-1783979658"
+        "fact": "The Saronic Corsair drone boats used in the Bandar Abbas strike can carry up to 1,000 pounds of payload over 1,000 nautical miles at over 34 knots \u2014 and can navigate autonomously without direct human control.",
+        "url": "https://arstechnica.com/ai/2026/07/us-military-sent-explosive-drone-boats-into-combat-for-the-first-time/"
       },
       {
-        "fact": "Ukraine's drone campaign struck over 100 Russian ships per night for seven consecutive nights and shut down an entire maritime corridor \u2014 something no traditional naval blockade had achieved in the conflict.",
-        "url": "https://arstechnica.com/gadgets/2026/07/ukrainian-drone-strikes-forced-russia-to-stop-shipping-in-vital-sea-corridor/"
+        "fact": "More than $130 billion in data center projects have been blocked or delayed by public protests in the US so far in 2026 \u2014 before New York's moratorium even passed.",
+        "url": "https://arstechnica.com/tech-policy/2026/07/new-york-is-the-first-state-to-impose-a-data-center-moratorium/"
       },
       {
-        "fact": "If Hong Wang is confirmed as a 2026 Fields Medal recipient, she will be only the third woman in the award's history \u2014 which began in 1936 \u2014 to receive it.",
-        "url": "https://phemex.com/news/article/2026-fields-medal-winners-list-leaked-includes-two-peking-university-alumni-92948"
+        "fact": "The 1-bit Bonsai 27B model achieves 1.125 effective bits per weight \u2014 meaning a 27-billion-parameter model is compressed to 3.9 GB, small enough to run on an iPhone 17 Pro.",
+        "url": "https://prismml.com/news/bonsai-27b"
       },
       {
-        "fact": "Germany's IFG transparency law, in effect since 2006, is being targeted for abolition via item 34 of a 34-point reform package slipped through just before parliamentary summer recess.",
-        "url": "https://www.dw.com/en/germany-freedom-of-information-act/a-77939695"
+        "fact": "ESET found signed shim firmware images from as far back as 2013 that Microsoft never revoked, meaning Secure Boot has been trivially bypassable for 13 of its 14 years of existence.",
+        "url": "https://arstechnica.com/security/2026/07/microsoft-secure-boot-has-been-broken-for-most-of-its-existence/"
       },
       {
-        "fact": "ANCHOR, the new 3D brainstem atlas from IIT Madras, was built from over 500 tissue sections spanning foetal through adult brains and identifies more than 200 distinct clusters of cells \u2014 all using standard microscopy rather than expensive molecular techniques.",
-        "url": "https://www.bbc.com/news/articles/cg53l737v1qo"
+        "fact": "The T. rex skeleton 'Gus,' going to auction at Sotheby's, comprises 183 fossil bone elements and is approximately 61% complete by bone count \u2014 making it one of the most complete specimens ever found \u2014 yet it may end up in a private collection, permanently inaccessible to science.",
+        "url": "https://arstechnica.com/science/2026/07/sothebys-big-t-rex-auction-raises-concerns-hype-and-wealth-are-upending-science/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film that functions as a philosophy of memory and image-making \u2014 Marker wanders Tokyo, Guinea-Bissau, and Iceland asking how cultures encode time and ritual into everyday surfaces. It's the essay-film as operating system, and it will rewire how you look at cities.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
-      },
-      {
-        "medium": "art",
-        "title": "Untitled (Your body is a battleground)",
-        "creator": "Barbara Kruger",
-        "why": "Kruger fuses the grammar of advertising with the logic of power \u2014 text as weapon, image as territory. If you care about systems that quietly shape identity and desire, her work is the place where graphic design becomes political philosophy at full volume.",
-        "url": "https://www.moma.org/artists/3302"
+        "title": "Upstream Color",
+        "creator": "Shane Carruth",
+        "why": "A film about identity theft through biology \u2014 parasites, pigs, and orchids woven into a feedback loop that rewrites two people's sense of self. No exposition, pure systems logic rendered as sensation. Sits exactly at the edge where physical and digital artists tend to live: it thinks in signals and cycles, not narrative.",
+        "url": "https://letterboxd.com/film/upstream-color/"
       },
       {
         "medium": "music",
-        "title": "Souvlaki",
-        "creator": "Slowdive",
-        "why": "The record that proves texture is structure \u2014 every wash of reverb and delay is load-bearing. For someone who thinks about physical and digital space, it's a masterclass in building immersive environments out of nothing but layered signal.",
-        "url": "https://www.youtube.com/watch?v=OFNLsVBPDkY"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "Forty-two untitled tracks that function less like songs than like rooms with their own physics \u2014 generative, textural, full of a deep structural logic that only reveals itself over time. The rare record that makes you want to build something immediately after listening, whether code or sculpture.",
+        "url": "https://aphextwin.warp.net/"
+      },
+      {
+        "medium": "art",
+        "title": "Every Icon",
+        "creator": "John F. Simon Jr.",
+        "why": "A Java applet from 1997 cycling through every possible 32\u00d732 black-and-white grid \u2014 it will run longer than the universe has existed to exhaust all combinations. A one-line premise that collapses infinity, systems, and failure into a browser window. Obsessive narrow premise; genuinely existential consequence.",
+        "url": "https://www.numeral.com/everyicon/"
       }
     ],
     "events": [
       {
-        "name": "Nicola Vassell Gallery: \"Follow Through\"",
-        "venue": "Nicola Vassell Gallery, 138 Tenth Ave, Chelsea",
-        "date_start": "2026-06-25",
-        "date_end": "2026-08-07",
+        "name": "Whitney Biennial 2026",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-03-08",
+        "date_end": "2026-08-23",
         "category": "museum",
-        "why": "A tight group show with Alvaro Barrington, Na Kim, Ming Smith, and Uman among others \u2014 artists whose practices blur identity, community, and image-making; strong signal-to-noise ratio for a Chelsea summer.",
-        "url": "https://www.nicolavassell.com",
-        "date": "Jun 25 \u2013 Aug 7"
-      },
-      {
-        "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters across New York City",
-        "date_start": "2026-07-08",
-        "date_end": "2026-09-06",
-        "category": "popup",
-        "why": "Orozco's first commissioned photographic series \u2014 10 new site-specific images about urban fabric distributed across bus shelters, turning the city's own infrastructure into gallery walls; the work finds you rather than the reverse.",
-        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
-        "date": "Jul 8 \u2013 Sep 6"
+        "why": "The 82nd edition is curated around forms of relationality \u2014 interspecies kinships, infrastructural entanglements, shared mythologies \u2014 with 56 artists whose work foregrounds mood and texture over thesis; more interested in invisible connective tissue between things than in individual objects.",
+        "url": "https://whitney.org/exhibitions/2026-biennial",
+        "date": "Mar 8 \u2013 Aug 23"
       },
       {
         "name": "Pierre Huyghe: UUmwelt",
         "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-07-14",
+        "date_start": "2026-07-01",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "An AI trained on fMRI brain-scan data generates hallucinatory imagery in real time, activated by your own gaze \u2014 the piece literally changes based on who's looking at it, dissolving the boundary between human and machine cognition in a public garden.",
-        "url": "https://www.moma.org/calendar/exhibitions/5912",
-        "date": "Jul 14 \u2013 Nov 29"
+        "why": "Screens in MoMA's sculpture garden run imagery reconstructed by an AI from fMRI scans of a human imagining images \u2014 activated in real time by visitors' gazes and cross-wired with cancer-cell mutation data; it's a literal feedback loop between machine cognition and biological growth, asking what perception means when it's no longer centered on a human mind.",
+        "url": "https://www.moma.org/calendar/exhibitions/5750",
+        "date": "Jul 1 \u2013 Nov 29"
       },
       {
-        "name": "David Byrne / Saul Steinberg: Influence and Affinity",
-        "venue": "125 Newbury (at 395 Broadway, Tribeca)",
-        "date_start": "2026-07-14",
-        "date_end": "2026-07-31",
-        "category": "museum",
-        "why": "A pairing of two obsessives who turned everyday observation into full-blown cosmologies \u2014 Steinberg's graphic systems meet Byrne's cultural promiscuity; exactly the kind of category-blurring dialogue that rewards close looking.",
-        "url": "https://125newbury.com",
-        "date": "Jul 14\u201331"
+        "name": "Gabriel Orozco: Public Nature",
+        "venue": "JCDecaux Bus Shelters, citywide (all five boroughs)",
+        "date_start": "2026-07-08",
+        "date_end": "2026-09-06",
+        "category": "popup",
+        "why": "300 bus shelters across the city carry Orozco's trompe l'oeil photographs of nature forcing its way through urban infrastructure \u2014 vines on pipes, trees through concrete walls \u2014 designed so the image bleeds into the actual sidewalk and street around it, dissolving the frame into the city itself.",
+        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
+        "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "MoMA PS1 Warm Up 2026 \u2014 Opening Night",
-        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
-        "date_start": "2026-07-24",
-        "date_end": "2026-07-24",
+        "name": "Anjunadeep Open Air NYC",
+        "venue": "Central Park SummerStage (Rumsey Playfield), 69th St & 5th Ave, Manhattan",
+        "date_start": "2026-07-18",
+        "date_end": "2026-07-18",
         "category": "concert",
-        "why": "The 28th season opens with Carlos Souffront, a Wackies Showcase pairing Bronx reggae label founder Lloyd Barnes with Basic Channel's Mark Ernestus \u2014 dub-techno genealogy performed live in a museum courtyard at dusk; the lineup this year is unusually deep on subculture lineage.",
-        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
-        "date": "Fri, Jul 24"
+        "why": "Anjunadeep's debut at SummerStage \u2014 their label's melodic progressive house in Central Park from 3pm to 10pm, a rare outdoor day-into-night format that functions as much as communal ritual as concert; the kind of immersive sonic environment that's genuinely useful for an artist thinking about atmosphere and feedback.",
+        "url": "https://anjunadeep.com/events/newyorkcity",
+        "date": "Sat, Jul 18"
+      },
+      {
+        "name": "Complexions Contemporary Ballet / Paul Taylor Dance Company / LaTasha Barnes' The Jazz Continuum",
+        "venue": "Central Park SummerStage (Rumsey Playfield), 69th St & 5th Ave, Manhattan",
+        "date_start": "2026-07-22",
+        "date_end": "2026-07-22",
+        "category": "concert",
+        "why": "A free triple-bill of contemporary ballet, postmodern dance, and jazz vernacular forms on the same outdoor stage \u2014 a rare chance to see body-as-system across three radically different movement philosophies in one evening, no ticket required.",
+        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
+        "date": "Wed, Jul 22"
       }
     ]
   },
