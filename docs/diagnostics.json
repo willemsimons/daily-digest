@@ -1,28 +1,30 @@
 {
-  "feeds": 84,
-  "mined": 47,
-  "videos": 8,
+  "feeds": 85,
+  "mined": 55,
+  "videos": 9,
   "video_titles": [
     "The Scariest Chart In Electrical Engineering",
     "The Google Interview Question Everyone Gets Wrong",
     "How does light 'know' the shortest path?",
     "The Arm Spin That Stops a Fall",
     "Why clouds and foam are white",
+    "Cross sectioning insects in an electron microscope with a femtosecond laser",
     "Atomic Force Microscope high-speed video, selective stainless steel etching, bacteria, and more",
     "UPDATED VERSION: Vincent Van Gogh's The Starry Night: Great Art Explained",
     "Half a Million Views Later\u2026 BumpMesh Is Way Better"
   ],
   "supplemental": false,
-  "final_items": 11,
+  "final_items": 9,
   "final_sources": [
-    "Aeon Video",
     "Ars Technica",
-    "Fabien Sanglard",
-    "Mindgard",
-    "PrismML",
-    "ayush.digital",
-    "lucumr.pocoo.org"
+    "Breakthrough T1D / NEJM",
+    "Frontiers in Aging",
+    "GoLocal / wire aggregation",
+    "Pigeons & Planes",
+    "Public Domain Review",
+    "Reuters",
+    "YouTube \u2014 Applied Science"
   ],
   "had_video": true,
-  "run_at": "2026-07-15T12:55:46.755364+00:00"
+  "run_at": "2026-07-16T13:03:47.685744+00:00"
 }
