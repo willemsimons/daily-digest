@@ -1,95 +1,95 @@
 {
   "digest": {
-    "intro": "War widens, concrete self-heals, and a font defeats AI classifiers.",
+    "intro": "A first atmosphere, a drowned computer, and compression as art medium.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "US-Iran War, Day 6: Hormuz, Bridges, and a Widening Regional Fire",
-            "source": "CNN Live Updates",
-            "url": "https://www.cnn.com/2026/07/17/world/live-news/iran-war-trump",
-            "blurb": "US strikes are now targeting bridges on routes into Bandar Abbas \u2014 the port city that controls Hormuz access \u2014 while Iran has fired on Qatar, Kuwait, Jordan, and US positions in Bahrain, Oman, and Syria in its largest retaliatory wave since talks collapsed. The strikes are concentrated on Iran's poorest, most ethnically non-Persian regions: one man told CNN his cousin's wife died in Ahvaz, and the city was hit again the following night. The geography of what's being destroyed is not accidental \u2014 it's a map of leverage over the strait through which a fifth of the world's oil moves.",
+            "title": "The Iran war is reshaping everything \u2014 here's the clearest map of it",
+            "source": "CSIS",
+            "url": "https://www.csis.org/programs/latest-analysis-war-iran",
+            "blurb": "Hormuz shipping down ~50%, IRGC striking US bases in Kuwait, Bahrain, and Jordan, and war costs now accounting for a third of an $87.6B supplemental funding request \u2014 this is not a contained regional flare-up. CSIS's rolling hub aggregates the military, diplomatic, and economic analysis without the churn; the piece on what the war is costing Gulf-US AI ambitions is the sharpest lens on second-order effects right now.",
             "tags": [
               "geopolitics",
-              "war",
-              "energy"
+              "iran",
+              "middle east"
             ]
           },
           {
-            "title": "Keir Starmer Out, Andy Burnham In \u2014 UK Gets Its Seventh Leader in a Decade",
-            "source": "CNN World",
-            "url": "https://www.cnn.com/world",
-            "blurb": "Starmer's resignation makes him another entry in what is becoming a running joke about British political durability \u2014 seven prime ministers in ten years. Burnham, former Mayor of Greater Manchester, steps into a government already battered by the economic drag of the Iran conflict and oil spike. Meanwhile Ukraine fired Mykhailo Fedorov, the minister who built its entire drone warfare and digital resistance apparatus, adding a third political earthquake to a day that already included a Trump-aligned far-right candidate winning Colombia's presidential runoff.",
+            "title": "The American Diabetes Association tried to ambush its own scientists",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/07/troubling-new-details-emerge-on-diabetes-ouster-controversy/",
+            "blurb": "At the ADA's June annual meeting, five scientists were ejected for handing out copies of a published editorial criticizing Trump-era attacks on research \u2014 and new details suggest ADA leadership pre-arranged the venue security and police response as a deliberate ambush. The deputy editors of the ADA's own journal then tried to publish seven follow-up pieces; the ADA refused. They're now on a preprint server, which is a remarkable thing to do to your own editorial board.",
             "tags": [
-              "politics",
-              "europe",
-              "ukraine"
+              "science institutions",
+              "censorship",
+              "diabetes"
             ]
           }
         ]
       },
       {
-        "heading": "Biology of attention",
+        "heading": "Signal from space and from deep time",
         "items": [
           {
-            "title": "Your Brain Briefly Listens to Two Conversations at Once \u2014 and EEG Can See It",
-            "source": "PLOS Biology",
-            "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876",
-            "blurb": "When you shift attention between two simultaneous speakers, your auditory cortex doesn't simply switch \u2014 it runs both streams in parallel for a measurable overlap window, engaging the new target before releasing the old one. The EEG signature of this moment is a drop in alpha power, a known index of cognitive load, and the researchers used LLMs to model four different lexical-prediction strategies to figure out how the brain resets its language context mid-switch. The implication: selective attention is less like a toggle and more like a brief chord before the hand moves to a new key.",
+            "title": "First confirmed atmosphere on a rocky, habitable-zone exoplanet",
+            "source": "BBC Science",
+            "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo",
+            "blurb": "JWST spectroscopy detected helium in the atmosphere of LHS 1140 b \u2014 a rocky planet 48 light-years away orbiting in the Goldilocks zone of a red dwarf. Helium alone doesn't support life, but its presence means the planet has held onto *something* against stellar radiation long enough to matter, and other gases may follow in subsequent observations. Of 6,000+ known exoplanets, this is the first time anyone has confirmed an atmosphere on a rocky world in a habitable zone.",
             "tags": [
-              "neuroscience",
-              "attention",
-              "perception"
+              "astronomy",
+              "exoplanets",
+              "jwst"
             ]
           },
           {
-            "title": "Some People Are Better Eavesdroppers \u2014 What's Different in Their Brains",
-            "source": "Nautilus",
-            "url": "https://nautil.us/some-people-are-better-at-eavesdropping-than-others-1282751/",
-            "blurb": "The readable companion to the PLOS Biology paper above: individual differences in this dual-stream encoding ability are measurable, consistent, and reflect something structural about how people's auditory cortices handle competing signals. The study framing \u2014 participants wore EEG harnesses listening to two simultaneous TED Talks amid background noise \u2014 is elegant in its mundanity. Worth reading back-to-back with the primary paper; together they make a clean argument for attention as a spectrum rather than a switch.",
+            "title": "The computer at the bottom of a canal \u2014 and why it was right about everything",
+            "source": "Negroni Venture Studios",
+            "url": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/",
+            "blurb": "In 1988, Linn Products \u2014 the Glasgow hi-fi company that made the Sondek LP12 turntable \u2014 built custom silicon that checked memory bounds in hardware, garbage-collected its own heap in silicon, and treated memory and disk as a single persistent object store. The chip ended up in the Forth and Clyde Canal; the ideas it embodied are now shipping in production ARM silicon in 2026. A perfect object-with-a-life essay about being right in the wrong decade.",
             "tags": [
-              "neuroscience",
-              "perception",
-              "cognition"
+              "hardware",
+              "computing history",
+              "engineering"
             ]
           }
         ]
       },
       {
-        "heading": "Making and unmaking representation",
+        "heading": "Making and seeing",
         "items": [
           {
-            "title": "Microsoft Comic Chat Is Open Source \u2014 and It's Weirder Than You Remember",
-            "source": "Microsoft Open Source Blog",
-            "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/",
-            "blurb": "The 1996 IRC client that turned live text conversations into auto-generated comic panels \u2014 choosing poses, expressions, and panel layouts in real time via an expert system \u2014 is now fully on GitHub. It's also, incidentally, the software that gave Comic Sans its first real home: Vincent Connare designed the font specifically because speech bubbles needed something that read as spoken rather than typed. What's genuinely interesting isn't the nostalgia but the underlying design question it was answering: how do you add emotional valence and non-verbal signal to text-only communication without video? That question is still open.",
+            "title": "Regressive JPEGs: iterative compression as a generative medium",
+            "source": "maurycyz.com",
+            "url": "https://maurycyz.com/projects/bad_jpeg/",
+            "blurb": "Progressive JPEG stores image data in multiple scan passes \u2014 DC coefficients first, then successively finer frequency bins \u2014 and this project runs that process in reverse and iteratively, using each compression artifact as the input to the next pass. The result is a controlled descent into Fourier-space hallucination, where the image structure slowly dissolves into its own low-frequency ghost. It's compression as erosion, and the outputs look like nothing else.",
+            "tags": [
+              "generative",
+              "image processing",
+              "algorithmic art"
+            ]
+          },
+          {
+            "title": "Cross-sectioning crickets inside a scanning electron microscope with a femtosecond laser",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/07/18/cross-sectioning-crickets-with-a-femtosecond-laser/",
+            "blurb": "Femtosecond lasers ablate material without heating it \u2014 the pulses are so short the energy has no time to conduct \u2014 which lets Ben Krasnow cut clean cross-sections of chemically fixed, solvent-exchanged, argon-charred crickets while they sit inside a live SEM. One unexpected problem: the paint on his shutter was getting coated with charged carbon, forming a capacitor that flooded the electron image with noise. The resulting insect cross-sections are stunning and deeply strange.",
+            "tags": [
+              "fabrication",
+              "biology",
+              "imaging"
+            ]
+          },
+          {
+            "title": "Why every AI company logo looks like an aperture \u2014 or a butthole",
+            "source": "velvetshark.com",
+            "url": "https://velvetshark.com/ai-company-logos-that-look-like-buttholes",
+            "blurb": "The radial symmetry, central void, and soft gradient that define OpenAI, Gemini, Anthropic, and a dozen others aren't accidents \u2014 they're the visual language of 'intelligence' as an industry has decided to signal it. The essay traces the convergence through corporate design-speak (OpenAI's official explanation calls their logo 'the dynamic intersection between humanity and technology') and lands on a real point: when every company is reaching for the same metaphor of aperture-as-mind, the whole category becomes illegible.",
             "tags": [
               "design",
-              "software history",
-              "communication"
-            ]
-          },
-          {
-            "title": "Decoy Font: A Typeface That Reads One Thing to Humans, Another to AI",
-            "source": "Mixfont Experiments",
-            "url": "https://www.mixfont.com/experiments/decoy-font",
-            "blurb": "Built on spatial frequency separation \u2014 thin high-frequency outlines carry the decoy text that AI reads when analyzing pixels up close, while a blurred low-frequency mass spells the real message, legible when you step back or squint \u2014 the font exploits the fact that most LLM vision pipelines process images at close zoom. It's a TTF you can actually install and type with, and it reliably fools GPT and Gemini. Less a privacy tool than a working proof that the gap between human and machine perception is still wide enough to drive a typeface through.",
-            "tags": [
-              "typography",
-              "AI",
-              "adversarial design"
-            ]
-          },
-          {
-            "title": "Marc Padeu: Cocoa Plantations as the Stage for Divine Events",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/07/marc-padeu-memento-vivere-acrylic-paintings/",
-            "blurb": "Cameroon-born painter Marc Padeu sets Renaissance-structured religious compositions \u2014 Adoration of the Magi iconography, gift-bearers, luminous central figures \u2014 inside West African cocoa plantation landscapes, colliding the postcolonial agricultural everyday with the weight of devotional art history. The show is titled Memento Vivere, the inverse of memento mori: remember to live rather than remember you'll die. The paintings land because the tension isn't ironic \u2014 the settings feel genuinely sacred, not appropriated.",
-            "tags": [
-              "painting",
-              "postcolonial",
-              "art"
+              "branding",
+              "visual culture"
             ]
           }
         ]
@@ -98,14 +98,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "A 1,900-Year-Old Roman Latrine Reveals Concrete That Heals Its Own Cracks",
-            "source": "Smithsonian Magazine",
-            "url": "https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/",
-            "blurb": "Researchers went to Hadrian's Villa specifically to study the communal toilets \u2014 unrestored, untouched, analytically pristine \u2014 and found that Roman concrete's millennium-scale durability isn't just pozzolanic chemistry (volcanic ash + lime + water) but also carbonation: CO\u2082 diffusing into cracks reacts with calcium to form calcite, physically sealing the damage over decades. Modern concrete typically fails within a century; Roman infrastructure is still load-bearing after two thousand years, and the latrine turns out to be the cleanest laboratory for understanding why. Published in Science Advances July 8.",
+            "title": "V\u0101gdhenu: a TTS engine built for Vedic Sanskrit chanting, meter and all",
+            "source": "prathosh.in",
+            "url": "https://prathosh.in/vagdhenu/",
+            "blurb": "Standard TTS destroys Sanskrit chanting because it ignores svara (tonal accent) and v\u1e5btta (meter) \u2014 the prosodic rules that distinguish a recitation from a reading. This system, built at IISc Bengaluru, auto-detects meter from any Indian script input and renders a meter-aware chanted output, trained on a purpose-recorded single-speaker corpus with a fine-tuned neural vocoder. It now powers the complete 12-skandha \u015ar\u012bmad Bh\u0101gavatam app with synced karaoke highlighting \u2014 software as oral tradition preservation.",
             "tags": [
-              "materials science",
-              "history",
-              "architecture"
+              "audio",
+              "language",
+              "cultural preservation"
             ]
           }
         ]
@@ -113,102 +113,102 @@
     ],
     "facts": [
       {
-        "fact": "The US strikes on Iran are concentrated on Bandar Abbas \u2014 specifically the bridges connecting to it \u2014 because the city sits on the Strait of Hormuz, through which roughly one-fifth of global oil supply passes.",
-        "url": "https://www.cnn.com/2026/07/17/world/live-news/iran-war-trump"
+        "fact": "The US-Iran war has pushed Hormuz shipping volume down roughly 50%, and war costs now account for one-third of an $87.6 billion supplemental funding request to Congress.",
+        "url": "https://www.csis.org/programs/latest-analysis-war-iran"
       },
       {
-        "fact": "Comic Sans was designed by Microsoft typographer Vincent Connare specifically for Comic Chat's speech bubbles in 1994, making a latrine-level IRC client the unlikely birthplace of the world's most derided font.",
-        "url": "https://opensource.microsoft.com/blog/2026/07/16/microsoft-comic-chat-is-now-open-source/"
+        "fact": "LHS 1140 b is the first rocky exoplanet in a star's habitable zone ever confirmed to have an atmosphere \u2014 detected by JWST spectroscopy \u2014 out of more than 6,000 known exoplanets.",
+        "url": "https://www.bbc.com/news/articles/cy4kdd1e0ejo"
       },
       {
-        "fact": "During an auditory attention switch, the brain's EEG shows a drop in alpha power at the exact moment it briefly encodes two competing speech streams simultaneously \u2014 the new target comes online before the old one drops off.",
-        "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003876"
+        "fact": "Linn Products, best known for the Sondek LP12 turntable, designed a processor in 1988 that garbage-collected its own heap in hardware and treated RAM and disk as a single persistent object store \u2014 ideas now implemented in production ARM silicon nearly 40 years later.",
+        "url": "https://negroniventurestudios.com/2026/07/18/the-computer-at-the-bottom-of-a-canal/"
       },
       {
-        "fact": "Decoy Font uses separate spatial frequencies in a single letterform: AI classifiers reading pixels close-up see the decoy letter, while humans viewing the same character from normal reading distance see the real message.",
-        "url": "https://www.mixfont.com/experiments/decoy-font"
+        "fact": "Painting both sides of railroad rail white drops rail surface temperature by roughly 20\u00b0F, enough to meaningfully reduce the risk of thermal misalignment \u2014 and Union Pacific says no other US railroad is currently doing it.",
+        "url": "https://www.up.com/news/safety/Tracking-Rail-Heat-260608"
       },
       {
-        "fact": "Roman concrete's self-healing mechanism works via carbonation \u2014 CO\u2082 slowly diffuses into hairline cracks and reacts with calcium to deposit calcite, a process researchers confirmed by studying unrestored communal latrines at Hadrian's Villa.",
-        "url": "https://www.smithsonianmag.com/smart-news/how-has-roman-concrete-lasted-for-millennia-a-1900-year-old-latrine-offers-new-clues-about-the-materials-impressive-durability-180989115/"
+        "fact": "To prepare crickets for femtosecond laser cross-sectioning inside an SEM, they must be soaked in glutaraldehyde to cross-link proteins, solvent-exchanged to remove water, and then charred under argon to make them electrically conductive.",
+        "url": "https://hackaday.com/2026/07/18/cross-sectioning-crickets-with-a-femtosecond-laser/"
       }
     ],
     "make_something": {
-      "prompt": "Build a small spatial-frequency compositor: take any short sentence, render it twice \u2014 once as sharp high-frequency outlines (the decoy), once as a soft low-frequency blur (the real message) \u2014 and overlay them into a single image. Test whether a human reading at arm's length sees the blurred layer while a screenshot fed to an LLM reads the outline layer. You don't need the font; you can fake the effect in a canvas shader or even Photoshop blend modes. The interesting question is how far you can push the legibility gap before both layers collapse into noise."
+      "prompt": "Take a single image \u2014 a photo you took, anything \u2014 and write a script that saves it as a progressive JPEG, then re-loads and re-saves it 30\u201350 times in a loop, each time reducing quality by one notch. Export every 5th iteration as a frame and assemble them into a short video or flipbook. You're not degrading the image; you're watching it fall back through its own frequency decomposition. Pay attention to which structures survive longest."
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Zidane, a 21st Century Portrait",
-        "creator": "Douglas Gordon & Philippe Parreno",
-        "why": "Seventeen synchronized cameras locked on a single player for ninety minutes \u2014 never following the ball \u2014 making celebrity, obsession, and the structure of attention the real subject. It's Warhol's real-time portrait films crossed with the grammar of sports media, and it holds up as one of the most formally rigorous moving-image works of the 2000s.",
-        "url": "https://www.guggenheim.org/exhibition/collection-in-focus-zidane-a-21st-century-portrait"
-      },
-      {
-        "medium": "music",
-        "title": "Fetch the Bolt Cutters",
-        "creator": "Fiona Apple",
-        "why": "An album built entirely around the acoustics of her house \u2014 objects, floors, dogs, bodies \u2014 where the recording environment becomes the instrument and the system becomes the statement. The obsessive, years-long construction of a world with its own physics; it sounds like nothing else because it refuses every external reference point.",
-        "url": "https://www.youtube.com/watch?v=YoFzLQb_4jQ"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film that operates as a meditation on memory, ritual, and how images construct reality \u2014 Marker drifts between Tokyo, Guinea-Bissau, and Iceland, building a theory of time and forgetting through essayistic montage. Structurally strange, obsessively crafted, impossible to shake. Exactly the kind of deep-systems-meets-expressive-surface work that earns repeat viewings.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Untitled (Perfect Lovers)",
-        "creator": "F\u00e9lix Gonz\u00e1lez-Torres",
-        "why": "Two identical clocks running in sync until entropy slowly desynchronizes them \u2014 a piece about love, mortality, and systems decay that lives entirely in the gap between concept and feeling. It's the rare work where the idea and the experience are inseparable, and where the 'object' is mostly duration.",
-        "url": "https://www.moma.org/collection/works/81074"
+        "title": "UUmwelt",
+        "creator": "Pierre Huyghe",
+        "why": "Machine learning trained on recorded brain activity reconstructs imagined images in real time on freestanding screens in MoMA's Sculpture Garden \u2014 and the gazes of visitors actively alter the output. It's a living feedback loop between human cognition and nonhuman intelligence, a system that runs on attention itself. Huyghe's framing \u2014 'a collective production of imagination between two kinds of intelligences' \u2014 is the kind of proposition that makes you want to go make something.",
+        "url": "https://www.moma.org/calendar/exhibitions/5865"
+      },
+      {
+        "medium": "music",
+        "title": "Selections from 'Vespertine'",
+        "creator": "Bj\u00f6rk",
+        "why": "An album built like a miniature architecture \u2014 microbeats, music boxes, harps, choirs, and found domestic sounds (ice cracking, cutlery) layered into something that feels simultaneously ancient and digital. The physical/digital edge made into music: intimate systems at maximum resolution. If you haven't listened with headphones in a quiet room in a while, now is the time.",
+        "url": "https://bjork.com/music/"
       }
     ],
     "events": [
       {
-        "name": "In a Free State \u2014 curated by Salman Toor & Doron Langberg",
-        "venue": "Luhring Augustine Tribeca, 17 White Street, Manhattan",
-        "date_start": "2026-06-27",
-        "date_end": "2026-07-31",
+        "name": "Yves Saint Laurent and Photography",
+        "venue": "International Center of Photography, 84 Ludlow St, Lower East Side",
+        "date_start": "2026-06-11",
+        "date_end": "2026-09-28",
         "category": "museum",
-        "why": "Twenty-two artists across painting, sculpture, and moving image, assembled by two artists who drew from close circles and distant admirers to visualize a moment when 'the structures of trust have collapsed' \u2014 the kind of artist-curated group show where the premise actually earns its ambition.",
-        "url": "https://www.luhringaugustine.com/exhibitions/in-a-free-state2",
-        "date": "Jun 27 \u2013 Jul 31"
+        "why": "Nearly 300 works showing how photography was the actual technology of myth-making for YSL \u2014 contact sheets, Avedon, Newton, Klein, Warhol portraits \u2014 a case study in how image systems construct cultural identity.",
+        "url": "https://www.icp.org/exhibitions/yves-saint-laurent-and-photography",
+        "date": "Jun 11 \u2013 Sep 28"
       },
       {
-        "name": "Zidane, a 21st Century Portrait \u2014 Last Days",
-        "venue": "Solomon R. Guggenheim Museum, 1071 Fifth Ave., Manhattan",
-        "date_start": "2026-07-17",
-        "date_end": "2026-07-19",
+        "name": "Pierre Huyghe: UUmwelt",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd St, Manhattan",
+        "date_start": "2026-07-01",
+        "date_end": "2026-11-29",
         "category": "museum",
-        "why": "The Gordon/Parreno film installation \u2014 17 cameras fixed on one man, never the ball \u2014 closes Sunday; it's a meditation on spectatorship and celebrity running on loop in the Guggenheim's theater, and this is the final weekend.",
-        "url": "https://www.guggenheim.org/exhibition/collection-in-focus-zidane-a-21st-century-portrait",
-        "date": "Jul 17\u201319"
+        "why": "A generative AI installation activated in real time by visitors' gazes and cancer-cell mutation data \u2014 art as living ecosystem, running outdoors in MoMA's garden all summer.",
+        "url": "https://www.moma.org/calendar/exhibitions/5865",
+        "date": "Jul 1 \u2013 Nov 29"
+      },
+      {
+        "name": "Anjunadeep Open Air New York City",
+        "venue": "Central Park SummerStage, Rumsey Playfield, 69th St & 5th Ave",
+        "date_start": "2026-07-18",
+        "date_end": "2026-07-18",
+        "category": "concert",
+        "why": "Seven hours of melodic progressive house in Central Park \u2014 James Grant & Jody Wisternoff, Marsh, Durante, Because of Art \u2014 a rare label showcase that treats the outdoor setting as part of the aesthetic rather than just a venue.",
+        "url": "https://anjunadeep.com/events/newyorkcity",
+        "date": "Sat, Jul 18"
       },
       {
         "name": "MoMA PS1 Warm Up 2026 \u2014 Opening Night",
-        "venue": "MoMA PS1, 22-25 Jackson Ave., Long Island City, Queens",
+        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
         "date_start": "2026-07-24",
         "date_end": "2026-07-24",
         "category": "concert",
-        "why": "Opening night with Carlos Souffront, a Wackies Showcase pairing Lloyd 'Bullwackie' Barnes with Basic Channel's Mark Ernestus (Bronx reggae dub meeting Berlin dub techno), and TELESONIQ \u2014 the most musically serious DJ party in New York, held in an art museum courtyard, in its 28th season.",
+        "why": "Opening night of PS1's 28th-season outdoor series features Carlos Souffront, a Wackies dub showcase with Bronx reggae founder Lloyd Barnes b2b Basic Channel's Mark Ernestus, and TELESONIQ \u2014 diasporic club histories colliding in a courtyard surrounded by Greater New York 2026 and Precious Okoyomon's living forest installation.",
         "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
         "date": "Fri, Jul 24"
       },
       {
-        "name": "SummerStage: UBB 40th Anniversary \u2014 BreakBeat Lou, Lord Finesse, Diamond D, Grand Puba & more",
-        "venue": "Rumsey Playfield, Central Park",
+        "name": "UBB 40th Anniversary Celebration (SummerStage)",
+        "venue": "Central Park SummerStage, Rumsey Playfield",
         "date_start": "2026-07-30",
         "date_end": "2026-07-30",
         "category": "concert",
-        "why": "A free celebration of the 40th anniversary of the Ultimate Breaks & Beats series \u2014 the original sample-clearance-free vinyl that seeded hip-hop's entire sonic DNA \u2014 with the actual architects in the room; the kind of event where the history is the performance.",
+        "why": "A free reunion of foundational hip-hop: BreakBeat Lou & Lord Finesse, Diamond D, Grand Puba, Sadat X, Nice & Smooth \u2014 a living document of a scene before it hardened into an institution, free and in the park.",
         "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
         "date": "Thu, Jul 30"
-      },
-      {
-        "name": "MoMA PS1 Warm Up 2026 \u2014 July 31",
-        "venue": "MoMA PS1, 22-25 Jackson Ave., Long Island City, Queens",
-        "date_start": "2026-07-31",
-        "date_end": "2026-07-31",
-        "category": "concert",
-        "why": "BAE BAE b2b Crystallmess, Gabber Eleganza, Cortisa Star, and SCRAAATCH (paying tribute to the late Yasunao Tone's Solo for Wounded CD with a noisy experimental set) \u2014 the most experimentally adventurous night of the summer series.",
-        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
-        "date": "Fri, Jul 31"
       }
     ]
   },
