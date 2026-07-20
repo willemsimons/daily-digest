@@ -1,96 +1,111 @@
 {
   "digest": {
-    "intro": "War over a waterway, open-source AI from China, and audience capture cracking.",
+    "intro": "Perception is constructed, rockets are privatizing, and data is the new passport.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The War Is Now Explicitly About the Strait of Hormuz",
-            "source": "Anadolu Agency",
-            "url": "https://www.aa.com.tr/en/world/morning-briefing-july-19-2026/4002572",
-            "blurb": "US forces launched a second wave of strikes Saturday after Iranian ballistic missiles and drones killed American service members in Jordan; Iran responded by suspending the Islamabad MoU, declaring the US in violation. The EU, Gulf bloc, and others have already rejected US sovereignty claims over the strait \u2014 meaning Washington is now fighting for a waterway that the rest of the world refuses to concede.",
+            "title": "NATO Survives Ankara; Iran War Narrows to a Hormuz Chokepoint",
+            "source": "Geopolitical Monitor",
+            "url": "https://www.geopoliticalmonitor.com/",
+            "blurb": "The Iran conflict has stopped being a broad air campaign and is concentrating into a strategic contest over the Strait of Hormuz \u2014 the passage through which roughly 20% of global oil flows. NATO held together at the Ankara summit despite Turkey's pressure, but the seams are visible and the Hormuz question is now the one that could drag in every major navy.",
             "tags": [
               "geopolitics",
-              "us-iran",
-              "energy"
+              "iran",
+              "nato"
             ]
           },
           {
-            "title": "Libya Joins China's Payment System \u2014 Quietly",
-            "source": "Anadolu Agency",
-            "url": "https://www.aa.com.tr/en/world/morning-briefing-july-19-2026/4002572",
-            "blurb": "While the US fights to control Hormuz traffic, Libya connecting to China's settlement infrastructure is the slower, structural story running in parallel \u2014 the financial rewiring of the Middle East and Africa proceeds regardless of who controls the shipping lanes. Dollar erosion isn't a dramatic event; it's this kind of incremental replumbing.",
+            "title": "The EU Is Quietly Trading Biometric Data for Visa-Free Travel",
+            "source": "EDRi",
+            "url": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/",
+            "blurb": "Since 2022 the US has made access to member states' biometric databases a condition of keeping visa-free travel \u2014 and leaked draft text of the EU's 'Enhanced Border Security Partnership' framework shows the Commission caved substantially to US demands for automated, unfettered data exchange. This is how surveillance infrastructure normalizes: not through a surveillance law, but through a travel-convenience deal no one wants to blow up.",
             "tags": [
-              "geopolitics",
-              "finance",
-              "china"
+              "surveillance",
+              "eu",
+              "policy"
             ]
           }
         ]
       },
       {
-        "heading": "The machine room",
+        "heading": "Science & space",
         "items": [
           {
-            "title": "Kimi K3: China Drops a 2.8 Trillion Parameter Open Model",
-            "source": "Moonshot AI",
-            "url": "https://www.kimi.com/blog/kimi-k3",
-            "blurb": "Moonshot AI's Kimi K3 is the first open-weight model at the 3T-class scale \u2014 built on two new architectural ideas, Kimi Delta Attention and Attention Residuals, with a 1-million-token context window. It trails Claude Fable 5 and GPT 5.6 Sol overall but benchmarks at frontier level on coding, and full weights drop July 27. Timed directly before Xi's WAIC speech, this is as much a geopolitical statement as a research release.",
+            "title": "India's First Private Rocket Reaches Orbit",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/",
+            "blurb": "Skyroot Aerospace's Vikram-1 \u2014 solid-fueled first three stages, liquid fourth \u2014 put a payload into a 280-mile orbit on its debut flight from Sriharikota. It's modestly sized (22 meters, 350 kg to LEO, slightly larger than Rocket Lab's Electron) but the milestone is structural: a second independent commercial launch ecosystem has arrived in Asia, with India's liberalized space policy as the policy layer underneath it.",
             "tags": [
-              "ai",
-              "open-source",
-              "china"
+              "space",
+              "india",
+              "hardware"
             ]
           },
           {
-            "title": "AI Mania Is Eviscerating Organizational Judgment",
-            "source": "Ludic Blog",
-            "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/",
-            "blurb": "After 300+ conversations with professionals from frontline workers to Fortune 500 executives, Nik Suresh describes a specific mass dysfunction: people in charge either have no plan or see no path except keeping their heads down while 'frothing excitement' captures institutions. The piece is sharp because it names the social mechanics \u2014 the saner people are silent not because they're wrong, but because their wellbeing depends on not saying so.",
+            "title": "The Specific Neurons That Make You See Edges That Aren't There",
+            "source": "Neuroscience News / Allen Institute",
+            "url": "https://neurosciencenews.com/visual-illusion-perception-neurons-29686/",
+            "blurb": "Berkeley and the Allen Institute identified 'IC-encoder' neurons in the primary visual cortex (V1) that fire when mice perceive illusory contours like the Kanizsa triangle \u2014 and when researchers activated those neurons directly with holographic optogenetics, the brain produced the same activity as actually seeing the illusion. The finding confirms that vision is top-down generative, not bottom-up passive: higher areas send instructions down to V1, which then fills in contours that the eye never received.",
             "tags": [
-              "ai",
-              "institutions",
-              "culture"
+              "neuroscience",
+              "perception",
+              "vision"
             ]
           },
           {
-            "title": "The Looting of Science Fiction",
-            "source": "Sentiers No. 412",
-            "url": "https://sentiers.media/the-looting-of-science-fiction-weve-been-here-before-no-412/",
-            "blurb": "Ali R\u0131za Ta\u015fkale's piece (surfaced via Sentiers) maps how Silicon Valley founders systematically borrow SF's imagery while discarding its warnings: Musk invokes Star Trek, Zuckerberg renamed his company after Snow Crash's dystopia, Palantir takes its name from Tolkien's all-seeing surveillance stone. The Torment Nexus pattern isn't accidental \u2014 the caution is read as a product brief. Sentiers pairs it with a short history of techno-negativity and a sharp take on LLMs at work before going on summer break until August 23.",
+            "title": "Gene-Edited Islet Transplant: 14+ Months of Insulin Independence, No Immunosuppression",
+            "source": "Breakthrough T1D / NEJM",
+            "url": "https://www.breakthroughs1d.org/news-and-updates/",
+            "blurb": "A Type 1 diabetes patient who received Sana Biotechnology's gene-edited islet cells \u2014 engineered to evade immune detection \u2014 has remained insulin-independent for over 14 months without any chronic immunosuppression. The holy grail of islet transplantation has always been solving the rejection problem without condemning patients to lifelong immunosuppressants; this result, published in NEJM, is early but it's the first credible signal that gene editing can do that job.",
             "tags": [
-              "culture",
-              "ai",
-              "myth"
+              "diabetes",
+              "biotech",
+              "stem cells"
             ]
           }
         ]
       },
       {
-        "heading": "Making things",
+        "heading": "How systems actually work",
         "items": [
           {
-            "title": "What I Learned Selling 2,500 MIDI Recorders",
-            "source": "Chip Weinberger",
-            "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard",
-            "blurb": "Weinberger's core finding after taking Jamcorder from idea to 2,500 units: the hardware wasn't the hard part \u2014 200,000 lines of firmware, app, and manufacturing tooling across three years (pre-LLM) was. He argues hardware's reputation for difficulty is systematically overstated, and that the saying 'hardware is hard' functions more as a social filter than an accurate description. The kind of obsessive single-thing account that recalibrates how you think about what's actually blocking you.",
+            "title": "I Replaced a $120k Bowling Center System with $1,600 in ESP32s",
+            "source": "Hacker News",
+            "url": "https://news.ycombinator.com/item?id=48968606",
+            "blurb": "An SRE who bought an abandoned 8-lane bowling center in rural midwest discovered the proprietary scoring system \u2014 camera-based pin detection, ball speed calculation, pinsetter relay control \u2014 would cost $80\u2013120k to replace, with every customization a separate line item. He reverse-engineered the whole thing and rebuilt it on ESP32 microcontrollers for under $1,600. What makes it sing is the realization that the 'advanced' system is ultimately actuating a single relay on 70-year-old bowling machines.",
             "tags": [
               "hardware",
-              "making",
-              "craft"
+              "reverse engineering",
+              "maker"
             ]
           },
           {
-            "title": "The Scariest Chart in Electrical Engineering",
-            "source": "Veritasium",
-            "url": "https://www.youtube.com/watch?v=GK2pZ_oVU1o",
-            "thumbnail": "https://i4.ytimg.com/vi/GK2pZ_oVU1o/hqdefault.jpg",
-            "blurb": "Veritasium does what he does best: takes a deeply counterintuitive visual artifact \u2014 the Smith Chart, which compresses complex RF impedance math onto a single circle \u2014 and reveals why engineers use it constantly without fully understanding what it's actually representing geometrically. Worth watching just for the moment the circular mapping clicks.",
+            "title": "Why Chinese AI Labs Went Open \u2014 and Won't Stop",
+            "source": "Try.works",
+            "url": "https://try.works/why-chinese-ai-labs-went-open-and-will-remain-open",
+            "blurb": "The argument isn't ideological or government-mandated: it's that Chinese labs have almost no brand recognition in Western markets (an Alibaba AI conference video barely hit 50 views in 24 hours vs. hundreds of thousands for OpenAI), and open-sourcing is the only viable go-to-market strategy for a lab that can't win on name alone. The analogy is DJI and Insta360 \u2014 the only Chinese consumer tech unicorns, and both won by becoming the undisputed technical category leader rather than trying to out-market incumbents.",
             "tags": [
-              "engineering",
-              "visualization",
-              "math"
+              "ai",
+              "china",
+              "open source"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Off the map",
+        "items": [
+          {
+            "title": "11,700 Free Photos from John Margolies' Archive of Roadside America",
+            "source": "Open Culture / Library of Congress",
+            "url": "https://www.openculture.com/2026/07/free-photos-from-john-margolies-archive-of-americana-architecture.html",
+            "blurb": "Margolies spent four decades on America's blue highways photographing gas stations shaped like teapots, fish-shaped restaurants, theme motels, and gnome's-castle service stations before they disappeared \u2014 with a Guggenheim grant and Philip Johnson's money as his backing. He bristled at 'kitsch': his argument was that vernacular commercial architecture is where a culture's actual mythology lives, not in monuments. The full archive is now freely accessible via the Library of Congress.",
+            "tags": [
+              "architecture",
+              "americana",
+              "photography"
             ]
           }
         ]
@@ -98,118 +113,102 @@
     ],
     "facts": [
       {
-        "fact": "For nine of the past twelve months, Kimi models have held the record for largest open-weight model size \u2014 making Moonshot AI the sustained leader at the open-source scaling frontier, not a one-time entrant.",
-        "url": "https://www.kimi.com/blog/kimi-k3"
+        "fact": "When researchers used holographic optogenetics to directly activate IC-encoder neurons in mice \u2014 with no visual input at all \u2014 the brain generated the same activity patterns as when the mice were actually viewing a Kanizsa-triangle illusion.",
+        "url": "https://neurosciencenews.com/visual-illusion-perception-neurons-29686/"
       },
       {
-        "fact": "Medieval France's pointy shoe fad (poulaines) got so extreme that King Charles V passed a law banning their fabrication and use in Paris \u2014 an early recorded instance of legislating status symbols out of existence.",
-        "url": "https://www.threemagazine.com/status-symbols-are-changing-so-are-the-ways-we-show-them-off/"
+        "fact": "Skyroot's Vikram-1 uses solid fuel for its first three stages and only switches to a liquid-fueled fourth stage to reach orbital velocity of ~17,000 mph \u2014 a staging architecture that made it cheaper to build but meant the spent third stage briefly loitered near the fourth stage after separation.",
+        "url": "https://arstechnica.com/space/2026/07/indias-first-privately-developed-rocket-reaches-orbit-on-dramatic-debut-launch/"
       },
       {
-        "fact": "Palantir named itself after the all-seeing surveillance stones in Tolkien \u2014 a fact that reads less like a brand choice and more like a confession once you know what palant\u00edri actually do in the books.",
-        "url": "https://sentiers.media/the-looting-of-science-fiction-weve-been-here-before-no-412/"
+        "fact": "The US began requiring access to biometric databases as a condition of visa-free travel back in 2022 \u2014 four years before the EU's leaked 'Enhanced Border Security Partnership' draft surfaced showing how much Brussels conceded.",
+        "url": "https://edri.org/our-work/the-eu-is-about-to-sell-our-most-sensitive-data-to-the-us-for-visa-free-travel/"
       },
       {
-        "fact": "Chip Weinberger's MIDI recorder required over 200,000 lines of code across firmware, app, and manufacturing tooling \u2014 written largely before LLMs \u2014 versus hardware that went to 2,500 units with no scrapped production runs.",
-        "url": "https://chipweinberger.com/articles/20260719-hardware-is-not-so-hard"
+        "fact": "The entire bowling center \u2014 with 8 lanes of pin detection, ball tracking, fouling sensors, and pinsetter control \u2014 was rebuilt for $1,600 in ESP32 hardware; a factory replacement for the same system runs $80,000\u2013$120,000.",
+        "url": "https://news.ycombinator.com/item?id=48968606"
       },
       {
-        "fact": "The EU and the Gulf bloc have both formally rejected US claims of sovereignty over the Strait of Hormuz \u2014 meaning Washington is now in military conflict over a waterway the international community refuses to recognize as under American jurisdiction.",
-        "url": "https://www.aa.com.tr/en/world/morning-briefing-july-19-2026/4002572"
+        "fact": "Xiaomi's Robotics-1 was pre-trained on 100,000 hours of 'embodiment-free' trajectories across 1,700 scenarios before any real robot data was introduced \u2014 the bet being that scaling laws can work in robotics if you divorce pre-training from physical embodiment.",
+        "url": "https://robotics.xiaomi.com/xiaomi-robotics-1.html"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "The film that basically invented the essay-film as a form \u2014 Marker drifts between Tokyo, Guinea-Bissau, and Iceland narrating memory, ritual, and how images construct reality rather than record it. The passage on vertigo and false memory alone will make you want to build something. Pure rabbit hole.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Pontypool",
+        "creator": "Bruce McDonald",
+        "why": "A language virus tears apart a small Canadian town \u2014 the horror is entirely structural, transmitted through the act of understanding itself. It's a film about meaning as contagion, symbols as infrastructure, and how feedback loops in communication systems become catastrophic. Tight, obsessive, and genuinely strange in the way it makes visible the invisible architecture of how words work.",
+        "url": "https://letterboxd.com/film/pontypool/"
       },
       {
         "medium": "art",
-        "title": "Cybernetic Serendipity: The Computer and the Arts (1968)",
-        "creator": "Jasia Reichardt / ICA London",
-        "why": "The exhibition that first showed the world generative, algorithmic, and computer-made art as a legitimate art scene \u2014 before the vocabulary existed. Studying the original catalog is less art history and more a blueprint for exactly the intersection of expressive systems and playful surfaces Willem works in. The ICA documentation is the closest living record.",
-        "url": "https://www.ica.art/learning/cybernetic-serendipity-the-computer-and-the-arts"
+        "title": "Untitled (Perfect Lovers)",
+        "creator": "Felix Gonzalez-Torres",
+        "why": "Two identical wall clocks, synchronized at install and left to drift apart as their batteries die at different rates \u2014 it's a systems piece about entropy, love, and loss that hits harder than almost anything in contemporary art. Expressive surface (pure minimalism) with total emotional depth underneath. The kind of work that makes you want to go make something immediately.",
+        "url": "https://www.moma.org/collection/works/81809"
       },
       {
         "medium": "music",
-        "title": "Hecker / Roden \u2014 Sand [2000, 2015 remaster]",
-        "creator": "Florian Hecker & Steve Roden",
-        "why": "Two artists who went unreasonably deep on a narrow thing: Hecker on psychoacoustic synthesis, Roden on found-sound and 'small sound' composition. The collaboration sounds like watching something geological happen in accelerated time \u2014 deep structure made audible, beautiful and strange. Perfect for a long making session.",
-        "url": "https://www.youtube.com/watch?v=8Y3HXrH0oFg"
+        "title": "Vespertine",
+        "creator": "Bj\u00f6rk",
+        "why": "A world built entirely from interior sound \u2014 microbeats made from cutlery, chest-cavity acoustics, snow crunching \u2014 it's one of the most obsessive acts of world-building in recorded music. Bj\u00f6rk went unreasonably deep on the question of what an album feels like from inside a body in winter, and the result is a complete system with its own physics.",
+        "url": "https://bjork.com/"
       }
     ],
     "events": [
       {
-        "name": "Whitney Biennial 2026",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Meatpacking District",
-        "date_start": "2026-03-08",
-        "date_end": "2026-08-23",
+        "name": "Certainly an Act: Works on Paper by Pope.L",
+        "venue": "The Drawing Center, 35 Wooster St, SoHo",
+        "date_start": "2026-06-26",
+        "date_end": "2026-09-27",
         "category": "museum",
-        "why": "This edition \u2014 organized around 'relationality' with 56 artists, heavy on millennials and interspecies/technological entanglements \u2014 is closing in five weeks; the kind of show that maps the actual current psychic terrain of American contemporary art before it hardens into retrospective.",
-        "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Mar 8 \u2013 Aug 23"
+        "why": "Over 200 rarely-seen drawings from the late Pope.L \u2014 Failure Drawings, Skin Sets, audio drawings \u2014 treating drawing as a testing ground for absurdist critique of race, language, and American identity; the kind of practice where the medium is genuinely generative rather than decorative.",
+        "url": "https://drawingcenter.org/exhibitions/certainly-an-act-pope-l",
+        "date": "Jun 26 \u2013 Sep 27"
+      },
+      {
+        "name": "EGEV\u00c6RK: Forms of Belonging",
+        "venue": "Hostler Burrows (HB381), 381 Broadway, Manhattan",
+        "date_start": "2026-06-26",
+        "date_end": "2026-08-14",
+        "category": "popup",
+        "why": "Danish designers Mette Bentzen and Lasse Kristensen following a residency at the Wendell Castle Workshop, presenting hand-carved furniture drawn from Scandinavian natural forms \u2014 obsessive craft, physical/material thinking, and the edge where design practice bleeds into art object.",
+        "url": "https://www.galleriesnow.net/exhibitions/new-york/",
+        "date": "Jun 26 \u2013 Aug 14"
       },
       {
         "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd St, Manhattan",
+        "venue": "MoMA, Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
         "date_start": "2026-07-01",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Freestanding screens in MoMA's sculpture garden where AI trained on brain scans generates imagery activated in real time by visitor gaze \u2014 the literal edge where human cognition, machine cognition, and public space collapse into one another.",
-        "url": "https://www.moma.org/calendar/exhibitions/uumwelt",
+        "why": "Huyghe worked with Kyoto neuroscientists to fMRI-scan a human imagining images, fed the brain data to a neural network, and the resulting hallucinatory reconstructions play on freestanding screens in MoMA's sculpture garden \u2014 activated in real time by visitor gaze and cancer-cell mutation data, it's exactly the kind of piece where the system IS the art.",
+        "url": "https://www.moma.org/calendar/exhibitions/5912",
         "date": "Jul 1 \u2013 Nov 29"
       },
       {
-        "name": "MoMA PS1 Warm Up 2026 \u2014 Opening Night: Carlos Souffront + Wackies Showcase",
+        "name": "SummerStage: Complexions Contemporary Ballet / Paul Taylor Dance Company / LaTasha Barnes' The Jazz Continuum",
+        "venue": "Rumsey Playfield, Central Park",
+        "date_start": "2026-07-22",
+        "date_end": "2026-07-22",
+        "category": "concert",
+        "why": "Three bodies of live movement work in the open air \u2014 including LaTasha Barnes' Jazz Continuum, which treats jazz not as genre but as a living social system expressed through the body \u2014 free, and the kind of event where the city and the art collapse into the same thing.",
+        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
+        "date": "Wed, Jul 22"
+      },
+      {
+        "name": "Warm Up 2026 \u2014 Opening Night (Carlos Souffront / Wackies Showcase / TELESONIQ)",
         "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
         "date_start": "2026-07-24",
         "date_end": "2026-07-24",
         "category": "concert",
-        "why": "Season opener features Lloyd 'Bullwackie' Barnes (founder of the Bronx's legendary reggae label Wackies) and Basic Channel's Mark Ernestus in a rare live collaboration \u2014 a set about dub's deep lineage \u2014 in the same courtyard that's hosted underground and avant-garde music since 1998.",
+        "why": "PS1's 28th season opens with a set that's basically a living archaeology of diasporic club history: Lloyd 'Bullwackie' Barnes (Bronx reggae label founder) and Mark Ernestus (Basic Channel co-founder) collaborating on a hybrid dub-techno set \u2014 underground subculture made visible as a scene before it becomes institution, exactly the dynamic that makes Warm Up the best music event NYC does every summer.",
         "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
         "date": "Fri, Jul 24"
-      },
-      {
-        "name": "MoMA PS1 Warm Up 2026 \u2014 July 31: BAE BAE b2b Crystallmess + Gabber Eleganza",
-        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
-        "date_start": "2026-07-31",
-        "date_end": "2026-07-31",
-        "category": "concert",
-        "why": "Gabber Eleganza has built an entire subculture-as-mythology project around Italian rave history and queer club identity \u2014 exactly the kind of frontier scene made visible before it institutionalizes; the second Warm Up date has the most interesting cultural layer underneath it.",
-        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
-        "date": "Fri, Jul 31"
-      },
-      {
-        "name": "Greater New York 2026 + Precious Okoyomon Courtyard Commission",
-        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City, Queens",
-        "date_start": "2026-07-31",
-        "date_end": "2026-12-31",
-        "category": "museum",
-        "why": "PS1's survey of 50+ NYC-based artists in the early stages of their careers \u2014 the show that historically maps the emerging scene before it scatters \u2014 opens alongside Okoyomon's inaugural courtyard commission transforming the museum's outdoor space.",
-        "url": "https://www.momaps1.org/en/calendar",
-        "date": "Jul 31 \u2013 Dec 31"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "The Honest Broker \u2014 Ted Gioia",
-      "feed_url": "https://www.honest-broker.com/feed",
-      "why": "A prolific, deeply opinionated culture critic (Stanford, 12 books) who maps taste formation, cultural transmission, and the aesthetics of media with the same rigor the reader brings to geopolitics \u2014 widely cited by other good writers as the sharpest cultural signal-reader on Substack."
-    },
-    {
-      "name": "The Convivial Society \u2014 L. M. Sacasas",
-      "feed_url": "https://theconvivialsociety.substack.com/feed",
-      "why": "Called 'the public philosopher of technology' and recommended by Ezra Klein, Sacasas writes slow, precise essays on how communication tools reshape behavior, identity, and moral life \u2014 a direct match for the reader's interest in the aesthetics of technology and social software history."
-    },
-    {
-      "name": "Scott Carney's Substack",
-      "feed_url": "https://sgcarney.substack.com/feed",
-      "why": "An investigative journalist exposing the line between credible regenerative medicine and grift \u2014 covering stem cells, peptides, and exosomes with scientific rigor and named sources, including interviews with leading biogerontologists like Matt Kaeberlein."
-    }
-  ]
+  "trial_sources": []
 }
