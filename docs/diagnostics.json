@@ -1,6 +1,6 @@
 {
-  "feeds": 51,
-  "mined": 54,
+  "feeds": 72,
+  "mined": 50,
   "videos": 7,
   "video_titles": [
     "Why Waves Travel Faster At The Top",
@@ -12,17 +12,16 @@
     "Half a Million Views Later\u2026 BumpMesh Is Way Better"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
-    "Ars Technica",
-    "Breakthrough T1D / NEJM",
-    "EDRi",
-    "Geopolitical Monitor",
     "Hacker News",
-    "Neuroscience News / Allen Institute",
-    "Open Culture / Library of Congress",
-    "Try.works"
+    "MIT Technology Review",
+    "Risky Biz",
+    "Simon Willison's Weblog",
+    "Stratechery",
+    "Vincent Woo",
+    "Xena Project"
   ],
   "had_video": false,
-  "run_at": "2026-07-20T13:30:25.469608+00:00"
+  "run_at": "2026-07-21T12:57:52.600015+00:00"
 }
