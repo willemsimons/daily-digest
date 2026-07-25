@@ -1,96 +1,106 @@
 {
   "digest": {
-    "intro": "Week two of a widening war, a new image model, and a beam engine.",
+    "intro": "War reshapes information space; biology rewrites what bodies can do.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "13 consecutive nights of strikes, and Trump signals 'massive attack'",
-            "source": "NPR",
-            "url": "https://www.npr.org/2026/07/24/g-s1-135417/us-iran-war-updates",
-            "blurb": "The US-Iran conflict has entered its 13th consecutive night of American airstrikes focused on degrading Iran's ability to threaten the Strait of Hormuz, while Iran launched retaliatory drone strikes into Bahrain, Kuwait, and Jordan. Oil briefly crossed $100 a barrel \u2014 its highest since May \u2014 and the UN Secretary-General told the Security Council the region was 'teetering on the edge of the unimaginable.' Trump told Axios he is 'close to making a decision' on a strike he described as 'massive \u2014 bigger than ever before.'",
+            "title": "Europe Blacks Out Satellite Imagery of the Strait of Hormuz at US Request",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/",
+            "blurb": "The EU has imposed a 24-hour delay on all Sentinel-1 and Sentinel-2 imagery covering the Gulf of Oman \u2014 a break from Copernicus's foundational open-data principle, triggered by a US request made May 26 during a ceasefire that has since collapsed. Iran, lacking access to Western commercial imagery, has turned to Chinese satellites to track US military bases. The information blackout is now a theater of war as real as the strikes.",
+            "tags": [
+              "geopolitics",
+              "space",
+              "iran war"
+            ]
+          },
+          {
+            "title": "Iran Rejects US Ceasefire Proposal as Escalation Signals Mount",
+            "source": "Stratfor",
+            "url": "https://worldview.stratfor.com/",
+            "blurb": "Stratfor's July 25 weekly assessment flags Iran's rejection of the latest US ceasefire proposal and notes the US military resumed broader strikes on July 8 after a shaky pause. Two parallel tracks dominate this week: the Iran escalation and Zelensky in Washington, with the fall of Kostiantynivka potentially shifting Ukraine's eastern front simultaneously. Both threads are moving faster than diplomatic bandwidth can absorb.",
             "tags": [
               "geopolitics",
               "iran",
-              "energy"
-            ]
-          },
-          {
-            "title": "The IRGC targeted an AWS data center \u2014 and that targeting logic is the real story",
-            "source": "House of Saud",
-            "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/",
-            "blurb": "The IRGC claims it struck Amazon's Bahrain data center with cruise missiles as part of Wave 24 of Operation Nasr-2, bundling it alongside hits on a Patriot battery and US radar \u2014 treating commercial cloud infrastructure as operationally equivalent to air-defense systems. The claim is unconfirmed by Amazon or CENTCOM, but the targeting logic it establishes is the consequential part: every US-branded digital facility in the Gulf, from Aramco's cloud-integrated OT to NEOM's planned data campus, now sits inside the same conceptual target set the IRGC has publicly articulated. This is the first time cruise missiles have been used against commercial cloud infrastructure in an active conflict.",
-            "tags": [
-              "iran",
-              "infrastructure",
-              "cloud"
+              "ukraine"
             ]
           }
         ]
       },
       {
-        "heading": "Making and models",
+        "heading": "Biology at the edge",
         "items": [
           {
-            "title": "FLUX 3: one model for images, video, audio \u2014 and now running robots at Audi",
-            "source": "Black Forest Labs",
-            "url": "https://bfl.ai/blog/flux-3",
-            "blurb": "Black Forest Labs dropped FLUX 3 in early access today: a unified multimodal foundation model jointly trained on images, video, and audio from scratch, on the premise that each modality is a different sensor projection of the same underlying reality. The companion release (FLUX 3 x mimic) is already running on robots deployed at Audi \u2014 the argument being that if a model can render convincing video, it has necessarily learned contact, mass, and cause-and-effect, which is exactly what robot control requires. Video training accounts for over 95% of the total compute cost, which is a useful signal about where the real modeling difficulty actually lives.",
+            "title": "First-in-Human Trial: Immune-Engineered Insulin Cells Without Immunosuppression",
+            "source": "News-Medical / ISSCR 2026",
+            "url": "https://www.news-medical.net/news/20260711/New-stem-cell-approach-targets-functional-cure-for-diabetes.aspx",
+            "blurb": "Presented at ISSCR 2026, Sonja Schrepfer's Cedars-Sinai team is asking in actual humans whether hypoimmune-engineered allogeneic insulin-producing cells can survive without the chronic immunosuppression that has always been the deal-breaker for islet transplantation. The engineering trick is making the cells effectively invisible to the immune system \u2014 no suppression, no rejection cascade. Still early, but this is the question that has blocked a T1D functional cure for decades, now being tested in people.",
             "tags": [
-              "generative ai",
-              "multimodal",
-              "robotics"
+              "stem cells",
+              "diabetes",
+              "immunology"
             ]
           },
           {
-            "title": "The Beam Engine \u2014 an interactive explainer worth an hour of your Friday",
-            "source": "HN",
-            "url": "https://glinscott.github.io/beam-engine/",
-            "blurb": "Someone built a beautifully crafted, draggable/zoomable 3D interactive walkthrough of how a steam beam engine works \u2014 built up from first principles, starting with a pot of boiling water and arriving at the full mechanism. The detail that earns it: one cup of water becomes roughly 400 liters of steam (a 1,700\u00d7 expansion), and the entire engine's logic follows from harnessing that pressure difference across a snugly fitted piston. 435 HN points; the kind of obsessive narrow-topic craftsmanship that makes you want to go build your own explainer of something you love.",
-            "tags": [
-              "interactive",
-              "history",
-              "making"
-            ]
-          },
-          {
-            "title": "Color 3D printing's dirty secret \u2014 and a cleaner workaround",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/07/23/new-method-accelerates-color-3d-printing/",
-            "blurb": "Based on 2018 research, a new slicing approach cycles through filament colors each layer and controls color prominence by adjusting extrusion volume or edge displacement rather than doing discrete tool changes \u2014 smoother gradients, less filament waste, faster prints. The tradeoff is honest: a 3-color print at 0.2mm layer height will visually read as 0.6mm layers, and steep walls break the illusion. Worth knowing the ceiling before you commit to a multi-color print job.",
-            "tags": [
-              "3d printing",
-              "making",
-              "color"
-            ]
-          },
-          {
-            "title": "Automating pressure advance calibration with the sensor already on your printer",
-            "source": "CNC Kitchen",
-            "url": "https://www.youtube.com/watch?v=sHLGrTBLxLg",
-            "blurb": "CNC Kitchen is the most methodologically rigorous 3D printing channel running \u2014 peer-review energy applied to filament and firmware. This one uses the bed-leveling sensor already present on most printers to automate pressure advance tuning, a calibration step that currently requires printing test patterns and eyeballing results by hand. If it holds up, it removes one of the more tedious recurring friction points for anyone printing at volume.",
-            "tags": [
-              "3d printing",
-              "calibration",
-              "automation"
-            ],
-            "thumbnail": "https://i4.ytimg.com/vi/sHLGrTBLxLg/hqdefault.jpg"
-          }
-        ]
-      },
-      {
-        "heading": "Biology moving fast",
-        "items": [
-          {
-            "title": "Supercooled kidneys \u2014 days of preservation, then successfully transplanted into pigs",
+            "title": "Supercooled Pig Kidneys Survived Days at \u22124\u00b0C and Were Successfully Reimplanted",
             "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
-            "blurb": "A Texas A&M team has preserved pig kidneys at -4\u00b0C in pressure-controlled containers \u2014 below freezing, without ice crystal formation \u2014 for days, then successfully transplanted them with better outcomes than standard ice storage. The organ shortage crisis is partly a logistics problem: 17 people die every day in the US waiting for a kidney, and the current window between procurement and transplant is hours. Cracking multi-day preservation doesn't just buy time; it reshapes which hospitals can receive organs and potentially enables global distribution.",
+            "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/",
+            "blurb": "The organ preservation field is having a genuinely productive moment: pig kidneys \u2014 similar in size to human kidneys \u2014 were supercooled to \u22124\u00b0C without forming ice, stored for days, and then reimplanted successfully. The fundamental problem is that ice crystals destroy cells, and the challenge of scaling cryopreservation from eggs and embryos (routine) to whole organs (still unsolved) is essentially a materials and perfusion engineering problem. The dream of organ banks \u2014 stored, matchable, transportable \u2014 is getting less dreamlike.",
             "tags": [
-              "medicine",
               "transplant",
-              "preservation"
+              "biology",
+              "organ preservation"
+            ]
+          },
+          {
+            "title": "AlphaFold Helped Redesign Gene-Editing Proteins to Eliminate Off-Target Cuts",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/07/team-uses-alphafold-ai-to-redesign-gene-editing-proteins-to-make-them-safer/",
+            "blurb": "Off-target editing \u2014 CRISPR cutting the wrong sequence \u2014 is low-probability per cell but becomes statistically inevitable when you're editing millions of cells in a therapy. Researchers modified AlphaFold to identify the specific structural regions of Cas proteins responsible for that promiscuity, then redesigned those regions to eliminate it. Published in Nature, this is AI-as-protein-engineer working on a real therapeutic bottleneck, not a benchmark.",
+            "tags": [
+              "gene editing",
+              "AI",
+              "CRISPR"
+            ]
+          },
+          {
+            "title": "The Peptide Deregulation Decision Has No Human Safety Data Behind It",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/health/2026/07/rfk-jr-s-hand-picked-committee-approves-manufacture-of-peptides-he-uses/",
+            "blurb": "An FDA advisory panel \u2014 assembled under RFK Jr., who personally uses several of the peptides in question \u2014 voted to lift manufacturing restrictions on four peptides despite no adequate human safety or efficacy trials. The mechanism here is institutional: change the committee composition, change the vote, change the policy, skip the science. Worth understanding as context for the entire current peptide access moment \u2014 this is the regulatory structure behind it.",
+            "tags": [
+              "peptides",
+              "FDA",
+              "regulatory"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Machines in the world",
+        "items": [
+          {
+            "title": "CMU Snake Robots Had Their First Real Humanitarian Deployment in Venezuela",
+            "source": "Carnegie Mellon University",
+            "url": "https://www.cmu.edu/news/stories/archives/2026/july/snake-robots-support-earthquake-search-and-rescue-in-venezuela",
+            "blurb": "After two earthquakes killed 5,000+ people in Venezuela on June 24, Howie Choset's Biorobotics Lab sent their 4-foot modular snake robots into the rubble \u2014 20 years of iteration meeting its first live humanitarian test. The robots are human-directed via game controller but use autonomous gait algorithms to coordinate body segments through the specific geometry of collapsed concrete. What struck the CMU nurse-responder on the ground wasn't skepticism from rescue teams: it was the opposite \u2014 first responders were hungry for tools that solve real problems without adding complexity.",
+            "tags": [
+              "robotics",
+              "search and rescue",
+              "actuators"
+            ]
+          },
+          {
+            "title": "The Most Advanced Robotic Servicing Satellite \u2014 That We Know About",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/",
+            "blurb": "Northrop Grumman's Mission Robotic Vehicle launched this week on a Falcon 9 \u2014 two flexible robotic arms, a decade-long mission in geosynchronous orbit, and three companion propulsion pods that function as standalone spacecraft for satellite life-extension. The 'that we know about' qualifier is doing real work: China launched a satellite with a robotic arm into GEO in 2016, and its 2021 Shijian-21 grabbed a defunct navigation satellite and moved it to a graveyard orbit. Dexterous manipulation in the hardest possible environment, with obvious dual-use implications nobody is quite saying aloud.",
+            "tags": [
+              "space",
+              "robotics",
+              "orbital"
             ]
           }
         ]
@@ -99,14 +109,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "600,000 horses drawn by strangers \u2014 and what they actually drew",
-            "source": "rybakov.com",
-            "url": "https://rybakov.com/blog/what_else_do_people_draw_on_gradient-copy.horse/",
-            "blurb": "gradient.horse launched in January 2026 as a shared canvas for drawing horses with gradients; six months later it has more horses on it than exist in the wild. The creator trained an image classifier to filter vandalism, which inadvertently hid a trove of what people actually make when given a simple constrained tool: seahorses, centipedes, crabs in implausible numbers, philosophical texts, trampolines, and a recurring absurdist meme. It's a small sociology study disguised as a toy \u2014 what people reach for when the prompt is almost nothing.",
+            "title": "Psychedelics Probably Didn't Evolve for Humans \u2014 or Even for Consciousness",
+            "source": "Nautilus",
+            "url": "https://nautil.us/psychedelics-might-not-have-evolved-to-get-humans-high-1283013/",
+            "blurb": "A new PNAS study argues that psilocybin, mescaline, DMT, and related compounds evolved as ecological tools \u2014 predator deterrents, symbiosis managers \u2014 and that human hallucination is simply a side effect of shared serotonin receptor chemistry with snails, sea urchins, and sponges. The entire edifice of co-evolution mythology (psychedelic plants 'meant' for human spiritual use) deflates into a much stranger story: the molecules are ancient, promiscuous, and indifferent to our visions. The therapeutic value survives this explanation intact \u2014 it just stops being cosmic.",
             "tags": [
-              "creative tools",
-              "collective behavior",
-              "web"
+              "evolution",
+              "psychedelics",
+              "neuroscience"
             ]
           }
         ]
@@ -114,24 +124,24 @@
     ],
     "facts": [
       {
-        "fact": "One cup of water expands into roughly 400 liters of steam \u2014 a 1,700\u00d7 volume increase \u2014 which is the physical fact the entire beam engine is built to exploit.",
-        "url": "https://glinscott.github.io/beam-engine/"
+        "fact": "Iran has been sourcing satellite imagery of US military bases from China after being cut off from Western commercial imagery providers during the ongoing conflict.",
+        "url": "https://arstechnica.com/space/2026/07/european-union-grants-us-request-to-restrict-satellite-images-of-iran-war-region/"
       },
       {
-        "fact": "The IRGC publicly grouped Amazon's Bahrain data center alongside a Patriot battery and US air-defense radar in the same strike package, treating commercial cloud infrastructure as a military target category.",
-        "url": "https://houseofsaud.com/irgc-claims-destroyed-amazon-bahrain-data-center/"
+        "fact": "CMU's snake robots are modular \u2014 individual body segments can be swapped in the field \u2014 and a single operator controls the whole system with a standard video game controller.",
+        "url": "https://www.cmu.edu/news/stories/archives/2026/july/snake-robots-support-earthquake-search-and-rescue-in-venezuela"
       },
       {
-        "fact": "Video training accounts for over 95% of FLUX 3's total compute cost \u2014 the model's image and audio capabilities are essentially a byproduct of learning to predict realistic video.",
-        "url": "https://bfl.ai/blog/flux-3-mimic"
+        "fact": "Tiny amounts of DMT are naturally produced in human brains, but a new PNAS study argues this is an evolutionary accident of shared receptor chemistry rather than evidence of a special visionary function.",
+        "url": "https://nautil.us/psychedelics-might-not-have-evolved-to-get-humans-high-1283013/"
       },
       {
-        "fact": "gradient.horse now hosts more horse drawings than the estimated number of horses living in the wild, six months after launch.",
-        "url": "https://rybakov.com/blog/what_else_do_people_draw_on_gradient-copy.horse/"
+        "fact": "Pig kidneys supercooled to \u22124\u00b0C survived for days without ice crystal formation and were successfully reimplanted \u2014 a barrier that has blocked whole-organ preservation for transplantation for decades.",
+        "url": "https://www.technologyreview.com/2026/07/24/1140790/the-quest-to-keep-organs-alive-outside-the-body/"
       },
       {
-        "fact": "17 people die every day in the US while waiting for a kidney transplant \u2014 a shortage that is partly a logistics problem solvable by longer organ preservation windows.",
-        "url": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/"
+        "fact": "China's Shijian-21 spacecraft grappled a defunct Chinese navigation satellite in orbit and moved it to a higher disposal orbit before returning \u2014 the same dexterous capability the new Northrop Grumman servicing satellite is designed to offer commercially.",
+        "url": "https://arstechnica.com/space/2026/07/this-is-the-worlds-most-advanced-robotic-servicing-satellite-that-we-know-about/"
       }
     ],
     "make_something": null,
@@ -140,74 +150,74 @@
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "An essay-film that operates as a meditation on memory, ritual, and how images construct reality \u2014 it moves between Japan, Guinea-Bissau, and Iceland tracing the invisible systems (animism, consumer ritual, political mythology) underneath everyday life. Marker's voice-over doesn't explain; it thinks out loud. The closest cinema has come to a philosophical notebook that makes you want to go make something.",
+        "why": "A film built entirely from the gap between image and memory \u2014 Marker uses found footage, letters, and a narrator to construct a meditation on how cultures encode time, ritual, and identity. It moves like a notebook from someone who went unreasonably deep on the invisible systems underneath ordinary life; exactly the kind of rabbit-hole essay Willem craves.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Telematic Dreaming",
-        "creator": "Paul Sermon",
-        "why": "A 1992 telepresence installation where two people in different cities share a projected bed in real time \u2014 presence, touch, and intimacy mediated through hardware before the internet was domestic. Sits exactly at the physical/digital edge, and the social behavior it provoked (strangers becoming intimate with a projection) is a perfect early specimen of how networked systems reshape human relating.",
-        "url": "https://paulsermon.org/telematic-dreaming/"
+        "title": "The Unilever Series: Olafur Eliasson \u2014 The Weather Project",
+        "creator": "Olafur Eliasson",
+        "why": "A sun made of mono-frequency lamps and a mirrored ceiling that turned Tate Modern's Turbine Hall into a collective ritual \u2014 strangers lying on the floor staring at themselves and a fake sun. The piece is about how a shared physical environment manufactures collective experience; art functioning as community infrastructure, which is exactly the edge Willem works near.",
+        "url": "https://www.tate.org.uk/whats-on/tate-modern/olafur-eliasson"
       },
       {
         "medium": "music",
-        "title": "Replica",
-        "creator": "Oneohtrix Point Never",
-        "why": "Lopatin built this record entirely from TV commercial samples \u2014 deconstructed into alien textures, loop-based systems that feel like both archaeology and generative sculpture. It's an album about how advertising encodes desire and memory into sound, which reveals the feedback loop between consumer culture and inner life. The craft is unreasonably deep for what started as found material.",
-        "url": "https://www.youtube.com/watch?v=vQHxSTRFPb0"
+        "title": "Vespertine",
+        "creator": "Bj\u00f6rk",
+        "why": "A completely self-consistent micro-world built from music boxes, harps, choir, and beats so intimate they sound biological \u2014 Bj\u00f6rk went unreasonably deep on one emotional register (interiority, domestic tenderness) and built a whole sonic system around it. The physical/digital boundary doesn't exist here; everything sounds both handmade and machine-processed at once.",
+        "url": "https://bjork.com"
       }
     ],
     "events": [
       {
         "name": "Whitney Biennial 2026",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "venue": "Whitney Museum of American Art, Manhattan",
         "date_start": "2026-03-08",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "The 82nd edition foregrounds mood and texture over thesis \u2014 56 artists exploring interspecies kinship, technological affinities, and shared mythologies across media, with a curatorial posture that resists easy framing; last weeks to catch it.",
+        "why": "Still on through August 23 and currently coinciding with both Greater New York and the upcoming New Museum Triennial \u2014 a rare triple convergence that won't happen again for years; worth going now while the city's curatorial conversation is at full volume.",
         "url": "https://whitney.org/exhibitions/2026-biennial",
         "date": "Mar 8 \u2013 Aug 23"
       },
       {
-        "name": "See You Tomorrow Under Other Skies",
-        "venue": "Andrew Kreps Gallery, 22 Cortlandt Alley & 394 Broadway, Manhattan",
-        "date_start": "2026-06-26",
-        "date_end": "2026-08-07",
+        "name": "Greater New York 2026",
+        "venue": "MoMA PS1, Long Island City, Queens",
+        "date_start": "2026-04-16",
+        "date_end": "2026-08-17",
         "category": "museum",
-        "why": "A group show spread across two Tribeca spaces with a title taken from a Julien Creuzet poem \u2014 includes Eleanor Antin, Andy Goldsworthy, Cecilia Vicu\u00f1a, and Binta Diaw; strange and poetic, the kind of group show with actual editorial vision.",
-        "url": "https://www.andrewkreps.com/exhibitions/see-you-tomorrow-under-other-skies",
-        "date": "Jun 26 \u2013 Aug 7"
+        "why": "The quinquennial snapshot of what artists actually living in NYC are making right now \u2014 53 artists, 150+ works spanning painting to animation to scenography, organized around surveillance, economic precarity, and shifting technology, all while free to attend; a rare chance to see the city's creative nervous system mid-fire.",
+        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
+        "date": "Apr 16 \u2013 Aug 17"
       },
       {
-        "name": "In a Free State \u2014 curated by Salman Toor & Doron Langberg",
-        "venue": "Luhring Augustine Tribeca, 17 White Street, Manhattan",
-        "date_start": "2026-06-27",
-        "date_end": "2026-07-31",
-        "category": "museum",
-        "why": "Two painters \u2014 Toor and Langberg, both obsessed with intimacy and queer interiority \u2014 curated 22 artists working across painting, objects, and moving image, drawn from their personal network; the result reads more like a community portrait than a gallery show, and closes this week.",
-        "url": "https://www.luhringaugustine.com/exhibitions/in-a-free-state2",
-        "date": "Jun 27 \u2013 Jul 31"
+        "name": "Gabriel Orozco: Public Nature",
+        "venue": "JCDecaux Bus Shelters across New York City",
+        "date_start": "2026-07-08",
+        "date_end": "2026-09-06",
+        "category": "popup",
+        "why": "Orozco's first major public art show in NYC is also his first commissioned photographic series \u2014 10 new site-specific images about urban fabric appearing in bus shelters across the city, turning the most anonymous infrastructure of daily life into a gallery; art distributed through the city's invisible logistics system is precisely Willem's territory.",
+        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
+        "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "Made in America: The Industrial Photography of Christopher Payne",
-        "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 East 91st St, Manhattan",
-        "date_start": "2026-07-01",
-        "date_end": "2026-09-27",
-        "category": "museum",
-        "why": "70+ large-format photographs from a decade-long obsessive documentation of American factories and artisanal making \u2014 the kind of unreasonably deep single-subject project that reveals the hidden aesthetics and systems of industrial craft.",
-        "url": "https://www.cooperhewitt.org",
-        "date": "Jul 1 \u2013 Sep 27"
-      },
-      {
-        "name": "SVA MFA Art Practice: 'In Plain Sight'",
-        "venue": "SVA Flatiron Gallery, 133 West 21st Street, Manhattan",
-        "date_start": "2026-07-09",
+        "name": "Man Man + Death Valley Girls",
+        "venue": "Music Hall of Williamsburg, Brooklyn",
+        "date_start": "2026-07-25",
         "date_end": "2026-07-25",
-        "category": "museum",
-        "why": "Graduate thesis work curated by Jacquelyn Strycker \u2014 the kind of raw, uncategorizable show that catches emerging practices before they harden; last day is tomorrow, worth a final-day visit.",
-        "url": "https://sva.edu/features/july-2026-exhibitions-and-events-at-sva",
-        "date": "Jul 9\u201325"
+        "category": "concert",
+        "why": "Man Man are maximalist, theatrical, and impossible to categorize \u2014 they treat performance as ritual and noise as craft; tonight's pairing with Death Valley Girls is a genuine double bill of bands who treat weirdness as a system, not a pose.",
+        "url": "https://www.musichallofwilliamsburg.com/shows/detail/1389117-man-man",
+        "date": "Sat, Jul 25"
+      },
+      {
+        "name": "Andrew Bird + Wordless Music Orchestra \u2014 20th Anniversary of The Mysterious Production of Eggs",
+        "venue": "SummerStage, Rumsey Playfield, Central Park",
+        "date_start": "2026-08-06",
+        "date_end": "2026-08-06",
+        "category": "concert",
+        "why": "Bird performing the full album live for the first time ever, with a full orchestra \u2014 a record built on loops, multi-tracked violin, and elaborate systems that was ahead of its time; hearing it realized at orchestral scale in a park at night is the kind of thing you don't get twice, and it's free.",
+        "url": "https://cityparksfoundation.org/events/andrew-bird/",
+        "date": "Thu, Aug 6"
       }
     ]
   },

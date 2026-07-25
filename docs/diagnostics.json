@@ -1,6 +1,6 @@
 {
-  "feeds": 88,
-  "mined": 42,
+  "feeds": 76,
+  "mined": 51,
   "videos": 6,
   "video_titles": [
     "The Most Controversial Thought Experiment In Physics",
@@ -11,17 +11,15 @@
     "Half a Million Views Later\u2026 BumpMesh Is Way Better"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
-    "Black Forest Labs",
-    "CNC Kitchen",
-    "HN",
-    "Hackaday",
-    "House of Saud",
+    "Ars Technica",
+    "Carnegie Mellon University",
     "MIT Technology Review",
-    "NPR",
-    "rybakov.com"
+    "Nautilus",
+    "News-Medical / ISSCR 2026",
+    "Stratfor"
   ],
-  "had_video": true,
-  "run_at": "2026-07-24T13:02:16.967799+00:00"
+  "had_video": false,
+  "run_at": "2026-07-25T12:34:53.666709+00:00"
 }
