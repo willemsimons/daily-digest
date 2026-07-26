@@ -1,25 +1,25 @@
 {
-  "feeds": 76,
-  "mined": 51,
-  "videos": 6,
+  "feeds": 66,
+  "mined": 49,
+  "videos": 5,
   "video_titles": [
+    "Why does every mammal get 1 billion heartbeats in their life?",
     "The Most Controversial Thought Experiment In Physics",
     "Why Waves Travel Faster At The Top",
-    "The Scariest Chart in Electrical Engineering",
     "See inside insects with an electron microscope and a femtosecond laser",
-    "I Automated Pressure Advance Using a Bed-Leveling Sensor",
-    "Half a Million Views Later\u2026 BumpMesh Is Way Better"
+    "I Automated Pressure Advance Using a Bed-Leveling Sensor"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
-    "Ars Technica",
-    "Carnegie Mellon University",
-    "MIT Technology Review",
+    "ArchDaily",
+    "GitHub / Hacker News",
+    "Hello China Tech",
+    "JetZero",
+    "LessWrong",
     "Nautilus",
-    "News-Medical / ISSCR 2026",
-    "Stratfor"
+    "YouTube / Veritasium"
   ],
-  "had_video": false,
-  "run_at": "2026-07-25T12:34:53.666709+00:00"
+  "had_video": true,
+  "run_at": "2026-07-26T12:42:54.775348+00:00"
 }
