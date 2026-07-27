@@ -1,6 +1,6 @@
 {
-  "feeds": 66,
-  "mined": 49,
+  "feeds": 54,
+  "mined": 46,
   "videos": 5,
   "video_titles": [
     "Why does every mammal get 1 billion heartbeats in their life?",
@@ -10,16 +10,17 @@
     "I Automated Pressure Advance Using a Bed-Leveling Sensor"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 8,
   "final_sources": [
-    "ArchDaily",
-    "GitHub / Hacker News",
-    "Hello China Tech",
-    "JetZero",
-    "LessWrong",
-    "Nautilus",
-    "YouTube / Veritasium"
+    "Beyond Loom",
+    "Futurism / 404 Media",
+    "Geopolitical Monitor",
+    "Hackaday",
+    "Show HN",
+    "Simon Willison / Matt Lenhard",
+    "TechSpot / EFF",
+    "The American Legion / Zelenskyy"
   ],
-  "had_video": true,
-  "run_at": "2026-07-26T12:42:54.775348+00:00"
+  "had_video": false,
+  "run_at": "2026-07-27T13:57:58.062746+00:00"
 }
