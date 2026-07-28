@@ -1,95 +1,95 @@
 {
   "digest": {
-    "intro": "Books shredded for training data, phones wiped at borders, war paused for talks.",
+    "intro": "Geopolitics pivots, enzymes de-age tissue, and one underscore destroyed a life.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The Iran War Widens on Two Fronts",
-            "source": "Geopolitical Monitor",
-            "url": "https://www.geopoliticalmonitor.com/the-iran-war-widens-on-two-fronts-geopolitics-weekly/",
-            "blurb": "A two-week US-Iran escalation \u2014 triggered by Iran targeting Strait of Hormuz shipping \u2014 has now paused for a second straight day as Trump signals room for talks. Meanwhile the week's underreported storyline: a US-Saudi bilateral nuclear deal that effectively mirrors the NPT but in a bilateral frame, creating an enrichment carve-out that Iran, still nominally an NPT signatory, cannot get. That's a structural crack in non-proliferation logic, not just a deal.",
+            "title": "Iran-US ceasefire holding; Qatar and Pakistan carrying messages between Washington and Tehran",
+            "source": "WORLD Radio / July 28 2026",
+            "url": "https://wng.org/podcasts/tuesday-morning-news-july-28-2026-1785181632",
+            "blurb": "The ceasefire that's been threading through recent briefings has reached a pivot: mediators report genuine progress, a Saudi nuclear deal was announced alongside it, and the Strait of Hormuz negotiations remain the fragile hinge. Qatar and Pakistan as simultaneous back-channels is the unusual diplomatic architecture worth watching.",
             "tags": [
               "geopolitics",
               "iran",
-              "nuclear"
+              "diplomacy"
             ]
           },
           {
-            "title": "North Korea Prepares Another 30,000 Troops for Russia",
-            "source": "The American Legion / Zelenskyy",
-            "url": "https://www.legion.org/information-center/news/security/2026/july/five-things-to-know-july-27-2026",
-            "blurb": "Zelenskyy says Russia has been staging the Voronezh region \u2014 289 miles south of Moscow \u2014 since June to receive an additional 30,000 DPRK troops, more than double what's currently deployed. Pyongyang is also sending more ballistic missile launchers. Zelenskyy's real warning isn't just about Ukraine: Russia is giving North Korea live-fire combat experience and weapons refinement at scale, which it will carry home.",
+            "title": "Zelenskyy meets new UK PM Burnham on aircraft carrier \u2014 UK transfers drone jamming system designs to Ukraine",
+            "source": "WORLD Radio / July 28 2026",
+            "url": "https://wng.org/podcasts/the-world-and-everything-in-it-july-28-2026-1785181631",
+            "blurb": "Andy Burnham's first foreign meeting as Prime Minister was with Zelenskyy aboard an aircraft carrier \u2014 already a statement \u2014 but the substantive news is the transfer of actual drone jamming system schematics, not hardware. Handing over design files rather than finished weapons is a quiet escalation in how deeply the UK is now embedding itself in Ukraine's defense architecture.",
             "tags": [
               "ukraine",
-              "north korea",
-              "russia"
+              "uk",
+              "defense"
+            ]
+          },
+          {
+            "title": "7.1 earthquake in Japan",
+            "source": "Japan Meteorological Agency",
+            "url": "https://www.data.jma.go.jp/multi/quake/quake_detail.html?eventID=20260728163528&lang=en",
+            "blurb": "A significant 7.1 struck today \u2014 the JMA primary data is the cleanest place to track it, bypassing the noise of breaking-news amplification. Worth a check if you have any presence or connections in Japan.",
+            "tags": [
+              "japan",
+              "earthquake",
+              "natural disaster"
             ]
           }
         ]
       },
       {
-        "heading": "Systems breaking in public",
+        "heading": "Systems and their failures",
         "items": [
           {
-            "title": "AI Companies Are Buying Antique Books, Ingesting Their Contents, and Then Destroying Them at Incredible Scale",
-            "source": "Futurism / 404 Media",
-            "url": "https://futurism.com/artificial-intelligence/ai-companies-destroying-rare-books",
-            "blurb": "Anthropic ran a hydraulic cutting machine to strip pages from used books, scanned them with industrial imagers, then pulped them \u2014 exploiting first-sale doctrine so no copyright permission was needed. A judge ruled this \"transformative\" fair use. Now ISBNdb, which calls itself the world's largest book database, is marketing itself as an AI training data supplier, turning the rare-book market into a pipeline for ingestion-at-scale before the cultural record gets too contaminated with AI-generated text to be useful.",
+            "title": "One missing underscore sent an innocent man to prison for 18 months",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/",
+            "blurb": "Police were hunting a Kik user named \"fus__ro_dah\" (two underscores) and accidentally pulled records for \"fus_ro_dah\" (one underscore) \u2014 a different person entirely. Brandon Klayme was arrested in 2020, convicted in 2023, sentenced in 2024, served the full 18 months, and only had his conviction overturned this week when the typo surfaced during appeal prep. No evidence of the crime was ever found on his devices; the system just kept moving.",
             "tags": [
-              "ai",
-              "copyright",
-              "culture"
+              "systems failure",
+              "criminal justice",
+              "databases"
             ]
           },
           {
-            "title": "US Citizen Charged After GrapheneOS Phone Wipes During Airport Search",
-            "source": "TechSpot / EFF",
-            "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html",
-            "blurb": "Sam Tunick returned from the Dominican Republic and was pulled into secondary screening; his GrapheneOS duress PIN triggered, wiping the device. The DOJ is now charging him under 18 USC \u00a72232 \u2014 destruction of property to prevent seizure \u2014 and the EFF says they've never seen this statute aimed at an operating system feature before. The implication is stark: if your phone is designed to protect you from compelled disclosure, running it may itself become criminal evidence of intent.",
+            "title": "Anthropic's formal position on open-weights models",
+            "source": "Anthropic",
+            "url": "https://www.anthropic.com/news/position-open-weights-models",
+            "blurb": "Dario Amodei uses this post to explicitly reject calls for banning Chinese open-weights models while making a more precise argument: his two actual nightmare scenarios are authoritarian-built models achieving military superiority, and AI-enabled deep repression \u2014 neither of which a ban on model weights addresses. The document is most useful as a forcing function for reading his earlier \"Adolescence of Technology\" essay, which laid these positions out six months ago and is still the cleaner piece.",
             "tags": [
-              "privacy",
-              "surveillance",
-              "legal"
+              "ai policy",
+              "open source",
+              "national security"
             ]
           },
           {
-            "title": "An Inside Look at the Relay Market Powering LLM Token Resellers and Fraud",
-            "source": "Simon Willison / Matt Lenhard",
-            "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything",
-            "blurb": "A shadow market \u2014 concentrated in China \u2014 has grown up around pooling API keys from abused free trials, hijacked support bots, and stolen credit cards, then reselling LLM access at a discount through open-source proxies like one-api. Buyers get cheap tokens, geo-restriction bypasses, and in some cases training data via distillation. Willison's practical note: there's now a whole ecosystem that profits from finding unprotected endpoints, and LLM vendors still don't offer hard dollar caps on API keys.",
+            "title": "$500 RL fine-tune of a 9B model beating frontier models on a narrow task",
+            "source": "FermiSense",
+            "url": "https://fermisense.com/when-machines-take-the-wheel/",
+            "blurb": "The playbook is now legible: take an open-weights model, label your proprietary workflow, run reinforcement learning against a scored version of the task. Bridgewater got 30% fewer errors than GPT-4-class on document relevance filtering; Harvey got a legal agent that outperforms GPT-5.5 on due diligence rubrics. The architecture insight is that frontier generality is actively a liability for tasks where \"good\" means \"matches our internal judgment\" \u2014 and RL on domain labels is the cheapest path to encoding that judgment.",
             "tags": [
               "ai",
-              "infrastructure",
-              "fraud"
+              "fine-tuning",
+              "ml engineering"
             ]
           }
         ]
       },
       {
-        "heading": "Things worth building with",
+        "heading": "Biology at the edge",
         "items": [
           {
-            "title": "Physically Accurate Black Hole You Can Put in Your Room (WebGL/AR)",
-            "source": "Show HN",
-            "url": "https://blackhole.plav.in",
-            "blurb": "Real-time relativistic raymarching running entirely in the browser \u2014 gravitational lensing, photon spheres, accretion disk \u2014 placed into your actual room via AR. Not a simulation of vibes; the math is the rendering. Worth pulling apart for anyone working at the physical/digital edge in WebGL.",
+            "title": "Enzyme engineered to clear AGEs from the extracellular matrix \u2014 early longevity mechanism, not a supplement",
+            "source": "Hackaday / Revel Pharmaceuticals",
+            "url": "https://hackaday.com/2026/07/27/de-aging-human-tissue-using-special-enzyme-to-remove-ages/",
+            "blurb": "Advanced glycation end-products accumulate in connective tissue over time, jamming collagen crosslinking and triggering chronic inflammation \u2014 they're implicated in diabetes, kidney disease, and general tissue aging. Researchers at Revel Pharmaceuticals used genetic selection in modified E. coli to evolve CMLase, an enzyme that breaks down a specific AGE called N(6)-Carboxymethyllysine. Testing is currently in model proteins, not humans \u2014 early-stage, but the mechanism is real and the approach (engineering enzymes via directed evolution) is serious.",
             "tags": [
-              "webgl",
-              "ar",
-              "physics"
-            ]
-          },
-          {
-            "title": "Decker: A Platform That Builds on the Legacy of HyperCard",
-            "source": "Beyond Loom",
-            "url": "https://beyondloom.com/decker/",
-            "blurb": "Decker is a serious rethinking of HyperCard's card-stack model: 1-bit ditherpunk aesthetic, deep undo, touchscreen support, and a scripting language called Lil that combines Lua's embeddability with APL-family implicit vector arithmetic and a built-in SQL-like query layer. The philosophy is calm computing \u2014 software as self-expression, not platform. If you've ever wanted a tool that feels like it was made for you, this is worth an afternoon.",
-            "tags": [
-              "creative tools",
-              "hypercard",
-              "scripting"
+              "longevity",
+              "biochemistry",
+              "aging"
             ]
           }
         ]
@@ -98,14 +98,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "CABLE 82: Neighborhood Bulletin Boards, circa 1982",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/07/27/neighborhood-bulletin-boards-circa-1982/",
-            "blurb": "Before Nextdoor, before the internet, local cable access channels ran slow-scrolling text bulletin boards with elevator music \u2014 hyperlocal community software at its most embryonic, and arguably its most humane. Hans's CABLE 82 project recreates this on a Raspberry Pi with composite output for period-appropriate CRTs, all open-source. It's a clean artifact of what community software looks like when there's no engagement metric, no algorithm, and no one trying to monetize your attention.",
+            "title": "Ars Astronomica \u2014 first English translations of medieval Hebrew and Latin astronomy manuscripts",
+            "source": "Ars Astronomica / Hacker News",
+            "url": "https://arsastronomica.com/",
+            "blurb": "A small scholarly imprint is doing the work: translating texts that span centuries of cosmological argument \u2014 including Gersonides' 136-chapter mathematical astronomy, which was never printed and survives only in manuscript \u2014 so that Hebrew and Latin sources can finally be read side by side in one language. The detail that stops you: the 1613 author David Gans wrote his Hebrew astronomy textbook having personally visited Tycho Brahe in Denmark. Someone is doing this obsessively, outside any institution, because no one else will.",
             "tags": [
-              "community",
-              "media history",
-              "hardware"
+              "history of science",
+              "translation",
+              "medieval"
             ]
           }
         ]
@@ -113,92 +113,102 @@
     ],
     "facts": [
       {
-        "fact": "Anthropic used a hydraulic cutting machine to physically remove pages from books before scanning them, and a federal judge ruled this 'transformative' fair use \u2014 meaning no payment to authors was required.",
-        "url": "https://futurism.com/artificial-intelligence/ai-companies-destroying-rare-books"
+        "fact": "Brandon Klayme's wrongful conviction for child sex abuse charges was triggered by a single missing underscore character in a Kik username \u2014 no evidence of the crime was ever found on his devices, yet he served the full 18-month sentence before the typo was discovered during appeal prep.",
+        "url": "https://arstechnica.com/tech-policy/2026/07/police-missed-one-underscore-and-sent-the-wrong-man-to-prison/"
       },
       {
-        "fact": "The US is charging a citizen under a statute normally used for physical evidence destruction \u2014 18 USC \u00a72232 \u2014 because a phone feature (the GrapheneOS duress wipe) triggered automatically at a border crossing.",
-        "url": "https://www.techspot.com/news/113236-us-prosecutors-charge-atlanta-man-after-grapheneos-phone.html"
+        "fact": "Revel Pharmaceuticals used directed evolution in genetically modified E. coli to engineer CMLase, an enzyme that breaks down a specific advanced glycation end-product (AGE) that accumulates in the extracellular matrix and inhibits collagen crosslinking \u2014 no such enzyme existed before this work.",
+        "url": "https://hackaday.com/2026/07/27/de-aging-human-tissue-using-special-enzyme-to-remove-ages/"
       },
       {
-        "fact": "Zelenskyy says Russia has been preparing the Voronezh region \u2014 289 miles south of Moscow \u2014 since June specifically to receive 30,000 additional North Korean troops, more than doubling DPRK forces currently in theater.",
-        "url": "https://www.legion.org/information-center/news/security/2026/july/five-things-to-know-july-27-2026"
+        "fact": "A Harvey legal AI agent built via reinforcement learning on an open-weight model now outperforms both GPT-5.5 and Claude Opus 4.8 on the firm's own due-diligence rubrics \u2014 at a fraction of frontier inference costs.",
+        "url": "https://fermisense.com/when-machines-take-the-wheel/"
       },
       {
-        "fact": "The LLM token resale market runs on two legitimate open-source API proxy projects \u2014 one-api and new-api \u2014 repurposed to pool stolen or abused credentials and sell discounted AI access, primarily out of China.",
-        "url": "https://simonwillison.net/2026/Jul/26/relay-market/#atom-everything"
+        "fact": "Gersonides' 136-chapter mathematical astronomy \u2014 one of the medieval period's most significant astronomical works \u2014 was never printed and survives only in manuscript; Ars Astronomica is producing its first-ever English translation.",
+        "url": "https://arsastronomica.com/"
       },
       {
-        "fact": "The proposed US-Saudi nuclear deal would grant Saudi Arabia domestic uranium enrichment rights \u2014 something even Iran, still an NPT signatory, is not supposed to have \u2014 through a bilateral framework rather than the universal treaty.",
-        "url": "https://www.geopoliticalmonitor.com/the-iran-war-widens-on-two-fronts-geopolitics-weekly/"
+        "fact": "The 1613 Hebrew astronomer David Gans personally visited Tycho Brahe in Denmark and then wrote a Hebrew textbook weaving cutting-edge European astronomy together with medieval Jewish cosmological tradition \u2014 a direct link between the Tychonic and Jewish intellectual worlds.",
+        "url": "https://arsastronomica.com/"
       }
     ],
     "make_something": {
-      "prompt": "Build a CABLE 82-style bulletin board for a single city block, neighborhood, or friend group \u2014 but make it run in a browser, not on TV. Constraint: no accounts, no likes, no replies. Just scrolling text, a timestamp, and one optional image per post. Use the GrapheneOS story as a design principle: what does software look like when it's built to leave no residue? Pair it with Decker's Lil scripting to handle the post queue and you have something worth shipping in a weekend."
+      "prompt": "Take a piece of text you wrote \u2014 an email, a note, anything \u2014 and render it as a 3D object whose geometry encodes meaning: word length as height, sentence structure as branching, punctuation as vertices. The AGE enzyme story and the underscore prison story both hinge on the idea that small syntax errors in data structures carry catastrophic weight. What does your own writing look like when its structure is the surface?"
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Koyaanisqatsi",
-        "creator": "Godfrey Reggio",
-        "why": "No dialogue, no plot \u2014 just Philip Glass's locked grooves under time-lapse footage of systems in motion: infrastructure, bodies, cities breathing. It's less a film than a feedback loop made visible, and it has a way of making you feel the machine you're inside.",
-        "url": "https://letterboxd.com/film/koyaanisqatsi/"
-      },
-      {
-        "medium": "music",
-        "title": "Dragging a Dead Deer Up a Hill",
-        "creator": "Grouper",
-        "why": "Liz Harris buries melody under tape hiss and reverb until the texture becomes the content \u2014 music that behaves more like a fog system than a song. Every element is doing structural work while pretending to just be atmosphere.",
-        "url": "https://grouper.bandcamp.com/album/dragging-a-dead-deer-up-a-hill"
+        "title": "Leviathan",
+        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
+        "why": "A sensory assault shot almost entirely with GoPros lashed to fishing nets, hooks, and the bodies of workers \u2014 it dissolves the line between documentary and pure texture, turning industrial labor at sea into something hallucinatory and abstract. No narration, no explanation; just the system laid bare as an overwhelming physical experience.",
+        "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "art",
-        "title": "Skyspace installations (series)",
-        "creator": "James Turrell",
-        "why": "Turrell's Skyspaces are rooms where the ceiling opens to sky, but the aperture \u2014 lit from below \u2014 makes real sky look painted, artificial, wrong. It's a precision instrument for interrogating how the brain constructs color and depth from nothing, which hits differently if you spend time thinking about rendering.",
-        "url": "https://jamesturrell.com/work/type/skyspace/"
+        "title": "Paul Thek: Dream of Vanishing",
+        "creator": "Paul Thek",
+        "why": "Pace Gallery's current show surfaces Thek's rarely seen late works \u2014 newspaper paintings, canvas pieces, quilted flags \u2014 from an artist who spent his career building elaborate ritual environments that collapsed the sacred and the abject, the handmade and the mythological. The kind of obsessive, category-destroying practice that makes you want to throw out your rules.",
+        "url": "https://www.pacegallery.com/exhibitions/"
+      },
+      {
+        "medium": "music",
+        "title": "Rejoicing in the Hands",
+        "creator": "Devendra Banhart",
+        "why": "A deeply personal 2004 record where folk, nonsense language, and hand-drawn cosmology fuse into something that feels like a private ritual made public \u2014 each song a small handmade system with its own internal logic. Expressive surface, weird structure underneath; the kind of thing that sounds like someone went unreasonably deep on a narrow obsession.",
+        "url": "https://www.devendrabanhart.com/"
       }
     ],
     "events": [
       {
-        "name": "Firelei B\u00e1ez: feet squelching on wet grass, nourished by uncertainty",
-        "venue": "Hauser & Wirth, 542 West 22nd Street, Chelsea",
-        "date_start": "2026-07-27",
-        "date_end": "2026-07-31",
+        "name": "Whitney Biennial 2026",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-03-08",
+        "date_end": "2026-08-23",
         "category": "museum",
-        "why": "Last week of B\u00e1ez's first New York show with Hauser & Wirth \u2014 a flood of new paintings and bronze ciguapa sculptures where Caribbean folklore, scientific diagrams, and poured paint dissolve into each other; the eight-panel 'View of Nature' alone is worth the trip.",
-        "url": "https://www.hauserwirth.com/hauser-wirth-exhibitions/firelei-baez/",
-        "date": "Jul 27\u201331"
+        "why": "The 82nd edition threads together infrastructure, interspecies kinship, and what 'American' even means now \u2014 with standout works like AI sculptures synthesizing dead artists' social-media trails and a large-scale piece made from US military night-vision goggles; it's a biennial with actual conceptual teeth, closing soon.",
+        "url": "https://whitney.org/exhibitions/2026-biennial",
+        "date": "Mar 8 \u2013 Aug 23"
       },
       {
-        "name": "Made in America: The Industrial Photography of Christopher Payne",
-        "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 East 91st Street, Manhattan",
-        "date_start": "2026-07-27",
-        "date_end": "2026-08-10",
+        "name": "Gabriel Orozco: Public Nature",
+        "venue": "JCDecaux Bus Shelters across New York City",
+        "date_start": "2026-07-08",
+        "date_end": "2026-09-06",
         "category": "museum",
-        "why": "Seventy-plus large-format photographs of American factories \u2014 Eames chairs being born at Herman Miller, flags on rotary screen printers, a room dedicated to tracing raw wool to finished hat \u2014 obsessive craft documentation that turns the production floor into something close to sacred geometry.",
-        "url": "https://www.cooperhewitt.org/channel/made-in-america/",
-        "date": "Jul 27 \u2013 Aug 10"
+        "why": "Orozco's first major NYC public commission places 10 new site-specific photographs \u2014 capturing found objects and ephemeral urban interventions \u2014 inside bus shelters citywide, turning the city's own infrastructure into a gallery and the daily commute into an act of noticing.",
+        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
+        "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "MoMA PS1 Warm Up \u2014 July 31: Gabber Eleganza, BAE BAE b2b Crystallmess, Cortisa Star, SCRAAATCH",
+        "name": "UBB 40th Anniversary: BreakBeat Lou, Lord Finesse, Diamond D, Grand Puba & more",
+        "venue": "Rumsey Playfield, Central Park SummerStage",
+        "date_start": "2026-07-30",
+        "date_end": "2026-07-30",
+        "category": "concert",
+        "why": "A free celebration of Ultimate Breaks and Beats \u2014 the 1986 series that quietly became the most-sampled record collection in hip-hop history \u2014 with the original architects performing live; a rare chance to see the invisible infrastructure of modern music made audible and present.",
+        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
+        "date": "Thu, Jul 30"
+      },
+      {
+        "name": "MoMA PS1 Warm Up 2026",
         "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
         "date_start": "2026-07-31",
         "date_end": "2026-07-31",
         "category": "concert",
-        "why": "The July 31 bill \u2014 Gabber Eleganza (Italian hardware-heavy post-club), BAE BAE b2b Crystallmess (Afro-diasporic jungle-house), and Baltimore's Cortisa Star \u2014 is the most genre-colliding night of the series, and admission includes access to PS1's galleries and Precious Okoyomon's living-forest courtyard installation.",
+        "why": "The 28th season of PS1's outdoor electronic series runs Fridays through August, with a 2026 lineup pulling from dub, gabber, house, hyperpop, and avant-garde improvisation \u2014 the July 31 edition falls squarely in the window, and the museum galleries (including Precious Okoyomon's living forest installation) stay open late.",
         "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
         "date": "Fri, Jul 31"
       },
       {
-        "name": "MoMA PS1 Warm Up \u2014 August 7: BADSISTA, Toxe, nguyendowsXP",
-        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
-        "date_start": "2026-08-07",
-        "date_end": "2026-08-07",
+        "name": "Andrew Bird with the Wordless Music Orchestra: 20th Anniversary of 'The Mysterious Production of Eggs'",
+        "venue": "Rumsey Playfield, Central Park SummerStage",
+        "date_start": "2026-08-06",
+        "date_end": "2026-08-06",
         "category": "concert",
-        "why": "S\u00e3o Paulo's BADSISTA and New York/Hanoi's nguyendowsXP make this the most globally-networked night of the run \u2014 electronic music built from diasporic fragments and internet-era subcultures, exactly the kind of scene that's still legible as a scene before it hardens into genre.",
-        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
-        "date": "Fri, Aug 7"
+        "why": "Bird performs his 2005 baroque-folk-loop record in full for the first time ever, backed by a full orchestra \u2014 a singular, unrepeatable event for an album built on elaborate multi-tracked violin loops and handcrafted avant-pop systems; free admission.",
+        "url": "https://cityparksfoundation.org/events/andrew-bird/",
+        "date": "Thu, Aug 6"
       }
     ]
   },

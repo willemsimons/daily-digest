@@ -1,6 +1,6 @@
 {
-  "feeds": 54,
-  "mined": 46,
+  "feeds": 78,
+  "mined": 40,
   "videos": 5,
   "video_titles": [
     "Why does every mammal get 1 billion heartbeats in their life?",
@@ -12,15 +12,14 @@
   "supplemental": false,
   "final_items": 8,
   "final_sources": [
-    "Beyond Loom",
-    "Futurism / 404 Media",
-    "Geopolitical Monitor",
-    "Hackaday",
-    "Show HN",
-    "Simon Willison / Matt Lenhard",
-    "TechSpot / EFF",
-    "The American Legion / Zelenskyy"
+    "Anthropic",
+    "Ars Astronomica / Hacker News",
+    "Ars Technica",
+    "FermiSense",
+    "Hackaday / Revel Pharmaceuticals",
+    "Japan Meteorological Agency",
+    "WORLD Radio / July 28 2026"
   ],
   "had_video": false,
-  "run_at": "2026-07-27T13:57:58.062746+00:00"
+  "run_at": "2026-07-28T13:13:39.201530+00:00"
 }
