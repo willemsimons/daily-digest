@@ -1,5 +1,5 @@
 {
-  "feeds": 78,
+  "feeds": 85,
   "mined": 40,
   "videos": 5,
   "video_titles": [
@@ -12,14 +12,13 @@
   "supplemental": false,
   "final_items": 8,
   "final_sources": [
-    "Anthropic",
-    "Ars Astronomica / Hacker News",
-    "Ars Technica",
-    "FermiSense",
-    "Hackaday / Revel Pharmaceuticals",
-    "Japan Meteorological Agency",
-    "WORLD Radio / July 28 2026"
+    "Geopolitical Daily",
+    "Hackaday",
+    "ISSCR",
+    "Simon Willison's Weblog",
+    "datagubbe.se",
+    "enklypesalt.com"
   ],
   "had_video": false,
-  "run_at": "2026-07-28T13:13:39.201530+00:00"
+  "run_at": "2026-07-29T13:19:12.176620+00:00"
 }
