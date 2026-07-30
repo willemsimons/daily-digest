@@ -1,24 +1,25 @@
 {
-  "feeds": 85,
-  "mined": 40,
-  "videos": 5,
+  "feeds": 92,
+  "mined": 47,
+  "videos": 4,
   "video_titles": [
     "Why does every mammal get 1 billion heartbeats in their life?",
     "The Most Controversial Thought Experiment In Physics",
     "Why Waves Travel Faster At The Top",
-    "See inside insects with an electron microscope and a femtosecond laser",
     "I Automated Pressure Advance Using a Bed-Leveling Sensor"
   ],
   "supplemental": false,
   "final_items": 8,
   "final_sources": [
-    "Geopolitical Daily",
-    "Hackaday",
-    "ISSCR",
-    "Simon Willison's Weblog",
-    "datagubbe.se",
-    "enklypesalt.com"
+    "Ars Technica",
+    "CNBC",
+    "CNN",
+    "Christian Selig",
+    "GitHub / Hacker News",
+    "Hugging Face",
+    "MIT Technology Review",
+    "The Public Domain Review"
   ],
   "had_video": false,
-  "run_at": "2026-07-29T13:19:12.176620+00:00"
+  "run_at": "2026-07-30T13:10:12.535703+00:00"
 }
