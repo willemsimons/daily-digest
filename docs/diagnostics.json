@@ -1,25 +1,24 @@
 {
-  "feeds": 92,
-  "mined": 47,
+  "feeds": 93,
+  "mined": 51,
   "videos": 4,
   "video_titles": [
+    "The World's Heaviest Weight",
     "Why does every mammal get 1 billion heartbeats in their life?",
     "The Most Controversial Thought Experiment In Physics",
-    "Why Waves Travel Faster At The Top",
     "I Automated Pressure Advance Using a Bed-Leveling Sensor"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 7,
   "final_sources": [
-    "Ars Technica",
-    "CNBC",
-    "CNN",
-    "Christian Selig",
-    "GitHub / Hacker News",
-    "Hugging Face",
+    "Atalayar",
+    "Colossal",
+    "Earendil",
+    "Google DeepMind",
+    "MENAFN",
     "MIT Technology Review",
-    "The Public Domain Review"
+    "The Guardian"
   ],
   "had_video": false,
-  "run_at": "2026-07-30T13:10:12.535703+00:00"
+  "run_at": "2026-07-31T13:18:29.567909+00:00"
 }
