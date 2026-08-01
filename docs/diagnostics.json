@@ -1,6 +1,6 @@
 {
-  "feeds": 93,
-  "mined": 51,
+  "feeds": 88,
+  "mined": 42,
   "videos": 4,
   "video_titles": [
     "The World's Heaviest Weight",
@@ -11,14 +11,13 @@
   "supplemental": false,
   "final_items": 7,
   "final_sources": [
-    "Atalayar",
-    "Colossal",
-    "Earendil",
-    "Google DeepMind",
-    "MENAFN",
-    "MIT Technology Review",
-    "The Guardian"
+    "Ars Technica",
+    "Nautilus",
+    "OpenAI",
+    "Simon Willison's Weblog",
+    "ajwaxman.com",
+    "john.fun"
   ],
   "had_video": false,
-  "run_at": "2026-07-31T13:18:29.567909+00:00"
+  "run_at": "2026-08-01T12:37:04.126525+00:00"
 }

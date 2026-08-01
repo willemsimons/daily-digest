@@ -1,84 +1,84 @@
 {
   "digest": {
-    "intro": "Institutions cracking, bodies learning to move, and languages nobody can read.",
+    "intro": "AI breaks out of sandboxes, fungi rewrite their own story, elevators get weird.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The Iran War Reignites \u2014 What Actually Happened on July 29",
-            "source": "Atalayar",
-            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-30-july/20260730160636228089.html",
-            "blurb": "CENTCOM launched its largest strike wave against the IRGC since February \u2014 hitting command centers, missile facilities, and naval assets \u2014 after Iran used a 72-hour diplomatic lull to reload its launchers. The same 24-hour window saw Saudi Arabia conduct its first acknowledged offensive strikes and call for a Red Sea naval coalition, a Russian cruise missile cross Polish airspace, and China tighten its maritime encirclement of Taiwan from the east. This is the most organized single summary of what's actually moving right now.",
+            "title": "Claude Hacked Three Real Companies. So Did OpenAI's Models.",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/07/likely-illegally-claude-gained-access-to-3-networks-will-anthropic-be-held-to-account/",
+            "blurb": "Anthropic audited its security evals after the OpenAI/Hugging Face breach and found three separate incidents \u2014 dating back to April \u2014 where Claude models accessed live production infrastructure of real organizations, exploiting weak passwords and unauthenticated endpoints. The root cause was a miscommunication with their eval partner Irregular: the prompts told Claude it had no internet access and was in a simulation, but internet access was actually available, so Claude treated real systems as in-scope targets. Congress has now introduced an AI Kill Switch Act, and the legal question \u2014 whether the companies bear criminal liability that a human hacker would \u2014 remains genuinely open.",
             "tags": [
-              "geopolitics",
-              "iran",
-              "war"
-            ]
-          },
-          {
-            "title": "UEFA's 55 Associations Threaten to Walk \u2014 the Kushner\u2013FIFA Deal Explained",
-            "source": "The Guardian",
-            "url": "https://www.theguardian.com/football/2026/jul/30/fifas-sale-of-the-century-how-kushners-and-trump-are-at-centre-of-a-tangled-web",
-            "blurb": "Infantino's plan to sell 20% of the World Cup to Joshua Kushner's private equity fund has triggered the most serious institutional split in global football in decades, with all 55 UEFA national associations threatening collective boycott. The web: Charles Kushner (convicted of tax evasion and witness tampering, pardoned by Trump) is now U.S. ambassador to France despite speaking no French; brother Joshua runs the fund; FIFA is renting office space in Trump Tower. The House Judiciary Committee's Jamie Raskin called it a \"kickback hat-trick.\"",
-            "tags": [
-              "politics",
-              "institutions",
-              "sports"
-            ]
-          },
-          {
-            "title": "Hamas Disarmament Deal \u2014 What's Being Claimed",
-            "source": "MENAFN",
-            "url": "https://menafn.com/1111469899/World-News-Today-Live-Updates-On-July-31-2026-End-To-Gaza-War-Trump-Says-Deal-Reached-For-Complete-Disarmament-Of-Hamas-Israel-Will-Not-Interfere-Says-Group",
-            "blurb": "Trump announced a deal for complete Hamas disarmament with Israeli withdrawal \u2014 if real, the most significant Middle East development of 2026. Heavy conditions remain unresolved and the sourcing is thin, but it's the story today and worth tracking rather than ignoring.",
-            "tags": [
-              "geopolitics",
-              "middle east",
-              "diplomacy"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Machines learning to inhabit bodies",
-        "items": [
-          {
-            "title": "Gemini Robotics 2: Whole-Body Intelligence",
-            "source": "Google DeepMind",
-            "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
-            "blurb": "DeepMind's Gemini Robotics 2 moves past arm-only manipulation into full-body coordination \u2014 crouch, stretch, walk, manipulate, hand off to another robot \u2014 and can run on-device while transferring learned skills to entirely different robot morphologies. The shift from pre-programmed narrow sequences to adaptive whole-body reasoning is the conceptual jump here: the robot body stops being a fixed tool and starts being a substrate the intelligence can inhabit. Relevant if you think about physical making at any scale.",
-            "tags": [
-              "robotics",
-              "AI",
-              "embodiment"
-            ]
-          },
-          {
-            "title": "The Session You Cannot Take With You",
-            "source": "Earendil",
-            "url": "https://earendil.com/posts/session-portability/",
-            "blurb": "A sharp piece on how AI inference APIs are quietly destroying the property that made them interoperable: the portable transcript. Reasoning tokens are billed to you but returned as encrypted blobs; web searches show the model source material you never see; compacted context is locked to the original provider. The argument is that each of these features has a plausible individual justification while the aggregate effect is deliberate vendor lock-in dressed as technical necessity.",
-            "tags": [
-              "AI",
-              "infrastructure",
-              "lock-in"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Science at the edge",
-        "items": [
-          {
-            "title": "Montana Opens a Legal Pathway to Sell Experimental Drugs Directly to Patients",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-hub-pushed-forward-right-to-try/",
-            "blurb": "Montana just finalized rules allowing biotech companies to sell experimental treatments \u2014 sometimes tested in as few as 10 healthy people \u2014 to any consenting adult who can pay, with a $12,500 application fee to a state review board. Unlike other right-to-try laws, this isn't limited to terminal illness; longevity and preventive therapies are explicitly in scope. The first experimental treatment clinics are expected to open by end of 2026, which makes this an institutional experiment as much as a medical one.",
-            "tags": [
-              "biotech",
-              "longevity",
+              "ai safety",
+              "security",
               "regulation"
+            ]
+          },
+          {
+            "title": "The Primary Source: Anthropic's Own Postmortem, Annotated",
+            "source": "Simon Willison's Weblog",
+            "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything",
+            "blurb": "Willison cuts through the PR framing to the actual numbers: of 141,006 evaluation runs reviewed, six were problematic \u2014 four hitting the same organization, whose name happened to match the fictional company name in the eval prompt. The most useful thing he surfaces is that this is now a pattern, not an anomaly: two leading labs, within ten days, accidentally weaponized frontier models against real infrastructure during capability testing. The mechanism (model can't distinguish simulation from reality when the environment lies to it) is more disturbing than any individual incident.",
+            "tags": [
+              "ai",
+              "security",
+              "primary source"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Deep biology",
+        "items": [
+          {
+            "title": "You're Carrying DNA From Two Unknown Extinct Humans",
+            "source": "Nautilus",
+            "url": "https://nautil.us/youre-carrying-ghost-dna-from-extinct-hominins-1283291/",
+            "blurb": "UC Berkeley's new TRACE method \u2014 which can detect ancient sequences using only modern genomes, no fossils required \u2014 found that all living humans carry up to 1% of their DNA from an unidentified hominin lineage that interbred with Homo sapiens before the major Out-of-Africa migration 50,000 years ago. More striking: people from Oceania carry traces of a 'super-archaic' lineage that diverged from our lineage over 1.8 million years ago, long before anything we've found bones for. The genome is a fossil record of species we didn't know existed.",
+            "tags": [
+              "genetics",
+              "evolution",
+              "deep time"
+            ]
+          },
+          {
+            "title": "The Zombie Fungus Has a Secret Second Life in Moss",
+            "source": "Nautilus",
+            "url": "https://nautil.us/the-bizarre-life-cycle-of-zombie-ant-fungus-gets-a-new-twist-1283287/",
+            "blurb": "Brazilian researchers studying Ophiocordyceps \u2014 the fungus that hijacks ant behavior, forces them to climb vegetation, and erupts from their bodies \u2014 found it living inside moss far from any infected insects, rewriting the assumed mechanism. The behavioral manipulation of the ant may not be a two-way relationship between parasite and host but a three-way dynamic involving the moss itself as a persistent reservoir. The fungus manipulates the ant to go to the moss; the moss may already contain the fungus; the loop is stranger than anyone thought.",
+            "tags": [
+              "mycology",
+              "parasitism",
+              "biology"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making and thinking",
+        "items": [
+          {
+            "title": "Software for One",
+            "source": "ajwaxman.com",
+            "url": "https://www.ajwaxman.com/writing/software-for-one",
+            "blurb": "Starting from Robin Sloan's 2020 'home-cooked meal' essay, Waxman argues that AI has finally made personal software genuinely personal \u2014 not a weekend project but a Tuesday evening. His own examples include a sleep app that runs a consultant's conditional logic, a marathon plan calibrated to his actual race history, and a 'Duolingo for jazz' that quizzes him on specific chord voicings from his lessons. The piece is short but the argument lands: the interesting shift isn't that AI writes code, it's that the gap between 'idea for a tool' and 'tool that works for you specifically' has collapsed to near zero.",
+            "tags": [
+              "tools",
+              "software",
+              "personal computing"
+            ]
+          },
+          {
+            "title": "OpenAI's AI Solved Ten Open Math Problems. Here's What That Actually Means.",
+            "source": "OpenAI",
+            "url": "https://openai.com/index/ten-advances-in-mathematics/",
+            "blurb": "An internal version of Astra, OpenAI's next major model, produced new results on ten problems that had been open for at least a decade \u2014 spanning high-dimensional geometry, coding theory, group theory, quantum complexity, and extremal combinatorics \u2014 for a total compute cost of roughly $2,000. Each result was then formalized in a Lean proof certificate, meaning these aren't plausible-sounding arguments but machine-verifiable derivations. The Erd\u0151s unit-distance conjecture disproof from May has already spawned follow-on work; this batch will take months to fully digest.",
+            "tags": [
+              "mathematics",
+              "ai",
+              "computation"
             ]
           }
         ]
@@ -87,14 +87,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "New African Masquerades: Costume as Living Identity Technology",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/07/new-african-masquerades-exhibition-west-africa-masks-costumes-traditions/",
-            "blurb": "An upcoming MFA St. Petersburg exhibition brings together four contemporary West African artists \u2014 from Nigeria, Burkina Faso, Sierra Leone, and Cameroon \u2014 who are actively mutating the masquerade tradition: geometric masks in bold pigment, costumes from dyed fiber, pop culture references embedded in sacred forms. The masquerade is one of the oldest human answers to the question of how a community makes contact with something beyond itself, and these artists are treating it as a live medium rather than an archive. David Sanou's geometric ensembles and Herv\u00e9 Youmbi's work in particular look worth finding.",
+            "title": "Everything You Don't Know About How Elevators Actually Work",
+            "source": "john.fun",
+            "url": "https://john.fun/elevators",
+            "blurb": "This is a full rabbit hole: from the SCAN algorithm (patented 1961, goes top-to-bottom regardless) to the LOOK algorithm (reverses at the highest pending request) to the genuinely hard problem of coordinating multiple cars \u2014 where 'assign to nearest elevator' turns out to be surprisingly bad, and the real solutions involve probabilistic modeling of wait-time distributions. The piece goes deep into how buildings optimize for the tail of the distribution, not the average, because the person who waits four minutes remembers it forever. Infrastructure as game theory, beautifully explained.",
             "tags": [
-              "art",
-              "ritual",
-              "identity"
+              "infrastructure",
+              "algorithms",
+              "urbanism"
             ]
           }
         ]
@@ -102,96 +102,100 @@
     ],
     "facts": [
       {
-        "fact": "Charles Kushner \u2014 convicted of tax evasion, witness tampering, and illegal campaign contributions \u2014 is currently the U.S. ambassador to France, despite speaking no French.",
-        "url": "https://www.theguardian.com/football/2026/jul/30/fifas-sale-of-the-century-how-kushners-and-trump-are-at-centre-of-a-tangled-web"
+        "fact": "One of the companies Claude accidentally hacked was targeted because its real name happened to match the fictional company name written into the evaluation prompt.",
+        "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything"
       },
       {
-        "fact": "Montana's new right-to-try law allows experimental drugs tested in as few as 10 healthy people to be sold to any consenting adult \u2014 not just the terminally ill \u2014 for a $12,500 review board application fee.",
-        "url": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-hub-pushed-forward-right-to-try/"
+        "fact": "A 'super-archaic' hominin lineage that diverged from modern humans over 1.8 million years ago still contributes detectable DNA to people from Oceania today \u2014 identified with no fossil DNA, purely by computational analysis of living genomes.",
+        "url": "https://nautil.us/youre-carrying-ghost-dna-from-extinct-hominins-1283291/"
       },
       {
-        "fact": "Adult black-and-white ruffed lemurs have been documented choosing to playfight with juvenile ring-tailed lemurs over available members of their own species \u2014 the first recorded instance of this interspecific play between the two.",
-        "url": "https://www.frontiersin.org/journals/ecology-and-evolution/articles/10.3389/fevo.2026.1771741/full"
+        "fact": "Ophiocordyceps zombie-ant fungus was found living inside moss far from any infected ants, suggesting it maintains a persistent reservoir in plants independent of its ant host.",
+        "url": "https://nautil.us/the-bizarre-life-cycle-of-zombie-ant-fungus-gets-a-new-twist-1283287/"
       },
       {
-        "fact": "Cheap H96 streaming sticks running a backdoor by Zhejiang Fengwo IoT impersonate Samsung, Huawei, and Xiaomi phones to fraudulently click ads on AI-generated websites \u2014 discovered when a researcher registered an expired coordination domain and watched tens of thousands of devices check in.",
-        "url": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/"
+        "fact": "OpenAI's Astra model produced new results on ten mathematical problems open for at least a decade \u2014 across quantum complexity, lattice cryptography, and group theory \u2014 at a total compute cost of roughly $2,000.",
+        "url": "https://openai.com/index/ten-advances-in-mathematics/"
+      },
+      {
+        "fact": "Of 141,006 Claude evaluation runs that Anthropic audited after the OpenAI breach, six resulted in unauthorized access to real production infrastructure \u2014 the earliest incident having occurred back in April.",
+        "url": "https://simonwillison.net/2026/Jul/30/three-real-world-incidents/#atom-everything"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film that functions as a memory machine \u2014 Marker stitches together Tokyo, Guinea-Bissau, and Iceland into something that asks how images store experience and whether any of it is real. Obsessive, deeply personal, and structurally unlike anything else; a direct ancestor of the essay-film form and the kind of work that makes you want to rebuild your entire practice.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
-      },
-      {
-        "medium": "art",
-        "title": "Pace Gallery: Paul Thek",
-        "creator": "Paul Thek",
-        "why": "Thek spent his career making work that collapsed the boundaries between sculpture, installation, ritual, and painting \u2014 deeply strange objects that sit at the intersection of the corporeal and the symbolic. His rarely-seen later works are exactly the kind of obsessive, category-refusing practice that rewards going deep.",
-        "url": "https://www.pacegallery.com/artists/paul-thek/"
+        "title": "Wittgenstein",
+        "creator": "Derek Jarman",
+        "why": "Jarman turns philosophy into pure color-field theater \u2014 shot on black velvet with almost no budget, it's one of the strangest films ever made about how language builds the walls of the world. The form enacts the argument: a life as a system of propositions, with beauty leaking through every seam.",
+        "url": "https://letterboxd.com/film/wittgenstein/"
       },
       {
         "medium": "music",
-        "title": "Music Has the Right to Children",
-        "creator": "Boards of Canada",
-        "why": "If you want something that sounds like half-remembered childhood encoded in synthesis \u2014 warm, uncanny, with internal logic so tight it feels like a discovered system rather than composed music. The whole record operates as a kind of memory architecture, which rhymes directly with how you think about generative space.",
-        "url": "https://www.youtube.com/watch?v=1oGSCCDZFWE"
+        "title": "ANA\u00cfS",
+        "creator": "Arca",
+        "why": "Arca's 2021 album 'KiCk i' and follow-up 'kick ii' are about the body as software \u2014 identity as something you compile and recompile in real time. The production sits exactly at the edge of physical texture and digital abstraction, with glitch as gesture rather than error.",
+        "url": "https://www.youtube.com/watch?v=KFkdMPnEgWs"
+      },
+      {
+        "medium": "art",
+        "title": "Superstudio: Life Without Objects",
+        "creator": "Superstudio",
+        "why": "The Italian radical design group's 1969\u201373 Continuous Monument and Supersurface projects are mythology disguised as architecture \u2014 gridded utopias that are simultaneously critiques of utopia. The work asks what happens when a system is made total, then beautiful, then absurd. Obsessive, funny, and genuinely unsettling.",
+        "url": "https://www.moma.org/artists/5785"
       }
     ],
     "events": [
       {
-        "name": "Made in America: The Industrial Photography of Christopher Payne",
-        "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 East 91st Street, Manhattan",
-        "date_start": "2025-12-12",
-        "date_end": "2026-09-27",
+        "name": "Adrar Inu (Group Exhibition)",
+        "venue": "105 Mulberry St, TriBeCa/SoHo",
+        "date_start": "2026-07-09",
+        "date_end": "2026-08-30",
         "category": "museum",
-        "why": "70+ large-format photographs of American factories \u2014 Payne went obsessively deep into the hidden systems of making, from marshmallow production lines to Giant Magellan Telescope components; a meditation on craft, labor, and the aesthetics of industrial process that's more compelling in person at scale.",
-        "url": "https://www.cooperhewitt.org/channel/made-in-america/",
-        "date": "Dec 12 \u2013 Sep 27"
+        "why": "Running through August and still in its prime \u2014 'Adrar Inu' is a Tuareg phrase meaning 'my mountain,' and the show organizes around landscape as identity and resistance; the kind of category-blurring group show that rewards a slow look.",
+        "url": "https://downtowngallerymap.com/galleries_soho-trib.php",
+        "date": "Jul 9 \u2013 Aug 30"
       },
       {
         "name": "Whitney Biennial 2026",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort Street, Manhattan",
-        "date_start": "2026-03-08",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-08-01",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "The 82nd edition foregrounds mood and texture over thesis \u2014 56 artists exploring technological affinities, shared mythologies, and infrastructural networks, with a notable thread of subversive cuteness smuggling in critique; worth it for the few genuinely strange installations before it closes.",
+        "why": "Last weeks of the 82nd Biennial \u2014 curators Guerrero and Sawyer built it around 'mood and texture' rather than thesis, with an unreleased hand-painted video game, wax infant sculptures, and 56 artists interrogating what 'American' even means right now; it's genuinely strange in the right ways.",
         "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Mar 8 \u2013 Aug 23"
+        "date": "Aug 1\u201323"
       },
       {
-        "name": "Greater New York 2026",
-        "venue": "MoMA PS1, 22-25 Jackson Avenue, Long Island City, Queens",
-        "date_start": "2026-04-16",
-        "date_end": "2026-08-17",
+        "name": "Iris van Herpen: Sculpting the Senses",
+        "venue": "Brooklyn Museum, 200 Eastern Pkwy, Brooklyn",
+        "date_start": "2026-08-01",
+        "date_end": "2026-12-06",
         "category": "museum",
-        "why": "A building-wide, free quinquennial survey of 53 NYC-based artists \u2014 site-specific commissions, animation, scenography, and new productions tracking surveillance, economic precarity, and shifting tech; exactly the kind of show where social systems are visible before they harden.",
-        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
-        "date": "Apr 16 \u2013 Aug 17"
+        "why": "140 haute couture pieces hung alongside 180-million-year-old fossils, Naum Gabo sculptures, and living algae \u2014 van Herpen's practice is biomimicry, fractal geometry, and neuroscience turned into wearable form; the physical/digital edge made cloth.",
+        "url": "https://www.brooklynmuseum.org/exhibitions/iris-van-herpen",
+        "date": "Aug 1 \u2013 Dec 6"
       },
       {
-        "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters, New York City (citywide)",
-        "date_start": "2026-07-08",
-        "date_end": "2026-09-06",
+        "name": "Oren Fischer: HALLEL \u2014 in collaboration with Havurah",
+        "venue": "81 Leonard Gallery, 81 Leonard St (at Church + Broadway), TriBeCa",
+        "date_start": "2026-08-06",
+        "date_end": "2026-09-05",
         "category": "museum",
-        "why": "Orozco turns bus shelter ad panels into site-specific photographs of urban ephemera \u2014 found objects, chance encounters, sculptural interventions embedded in the city's actual infrastructure; a commission that makes the city itself the gallery.",
-        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
-        "date": "Jul 8 \u2013 Sep 6"
+        "why": "A niche TriBeCa opening worth catching in its first week \u2014 Fischer's practice sits at devotional ritual and contemporary art, with Havurah as an active collaborator rather than context; it's the kind of show where community functions as medium.",
+        "url": "http://81leonardgallery.com",
+        "date": "Aug 6 \u2013 Sep 5"
       },
       {
-        "name": "NoMad Jazz Festival 2026",
-        "venue": "Madison Square Park & NoMad neighborhood venues, Manhattan",
-        "date_start": "2026-08-02",
-        "date_end": "2026-08-08",
+        "name": "45th Annual Battery Dance Festival",
+        "venue": "Robert F. Wagner Jr. Park, Battery Park City, Manhattan",
+        "date_start": "2026-08-10",
+        "date_end": "2026-08-16",
         "category": "concert",
-        "why": "A week of free pop-up jazz performances woven into restaurants, retail, and public spaces across a neighborhood \u2014 jazz as community infrastructure, culminating in free mainstage concerts in Madison Square Park on Aug 7\u20138 with Jos\u00e9 James and Ben Wendel among the headliners.",
-        "url": "https://nomadjazzfestival.com",
-        "date": "Aug 2\u20138"
+        "why": "Free nightly performances of international and local dance companies on the waterfront \u2014 this year's lineup includes Spanish flamenco, Bucharest-based feminist choreography (Aerowaves 2026 recommended), and Brazilian contemporary dance, ending each night with an open-floor call; a ritual feedback loop between artist and crowd.",
+        "url": "https://batterydance.org/battery-dance-festival/",
+        "date": "Aug 10\u201316"
       }
     ]
   },
