@@ -1,23 +1,26 @@
 {
-  "feeds": 88,
-  "mined": 42,
+  "feeds": 73,
+  "mined": 41,
   "videos": 4,
   "video_titles": [
     "The World's Heaviest Weight",
     "Why does every mammal get 1 billion heartbeats in their life?",
     "The Most Controversial Thought Experiment In Physics",
-    "I Automated Pressure Advance Using a Bed-Leveling Sensor"
+    "The Euler Disc Is The Wrong Shape"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
     "Ars Technica",
-    "Nautilus",
-    "OpenAI",
+    "Ars Technica / Nature",
+    "Colossal",
+    "Hacker News / GitHub",
+    "Leo de Moura's blog",
     "Simon Willison's Weblog",
-    "ajwaxman.com",
-    "john.fun"
+    "YouTube \u2014 Steve Mould",
+    "borretti.me",
+    "uCapital Research"
   ],
-  "had_video": false,
-  "run_at": "2026-08-01T12:37:04.126525+00:00"
+  "had_video": true,
+  "run_at": "2026-08-02T12:39:12.197766+00:00"
 }
