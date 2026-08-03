@@ -1,26 +1,27 @@
 {
-  "feeds": 73,
-  "mined": 41,
+  "feeds": 54,
+  "mined": 47,
   "videos": 4,
   "video_titles": [
+    "Is spider silk really stronger than steel?",
     "The World's Heaviest Weight",
     "Why does every mammal get 1 billion heartbeats in their life?",
-    "The Most Controversial Thought Experiment In Physics",
     "The Euler Disc Is The Wrong Shape"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 10,
   "final_sources": [
-    "Ars Technica",
-    "Ars Technica / Nature",
-    "Colossal",
-    "Hacker News / GitHub",
-    "Leo de Moura's blog",
-    "Simon Willison's Weblog",
-    "YouTube \u2014 Steve Mould",
-    "borretti.me",
-    "uCapital Research"
+    "Aeon Video",
+    "CBS News",
+    "Floor796",
+    "Hackaday",
+    "Isopolis",
+    "JFrog Security Research",
+    "MIT Technology Review",
+    "Robin Sloan",
+    "UK Parliament / House of Commons Library",
+    "gruhn.me"
   ],
   "had_video": true,
-  "run_at": "2026-08-02T12:39:12.197766+00:00"
+  "run_at": "2026-08-03T14:01:00.362012+00:00"
 }
