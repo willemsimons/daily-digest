@@ -1,9 +1,9 @@
 {
-  "feeds": 54,
-  "mined": 47,
+  "feeds": 70,
+  "mined": 48,
   "videos": 4,
   "video_titles": [
-    "Is spider silk really stronger than steel?",
+    "Is spider web really stronger than steel?",
     "The World's Heaviest Weight",
     "Why does every mammal get 1 billion heartbeats in their life?",
     "The Euler Disc Is The Wrong Shape"
@@ -11,17 +11,14 @@
   "supplemental": false,
   "final_items": 10,
   "final_sources": [
-    "Aeon Video",
-    "CBS News",
-    "Floor796",
-    "Hackaday",
-    "Isopolis",
-    "JFrog Security Research",
+    "Ars Technica",
+    "Colossal",
+    "ComfyUI Blog",
+    "Hacker News / seangoedecke.com",
     "MIT Technology Review",
-    "Robin Sloan",
-    "UK Parliament / House of Commons Library",
-    "gruhn.me"
+    "Nautilus",
+    "Veritasium"
   ],
   "had_video": true,
-  "run_at": "2026-08-03T14:01:00.362012+00:00"
+  "run_at": "2026-08-04T13:19:39.696695+00:00"
 }
