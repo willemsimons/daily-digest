@@ -1,6 +1,6 @@
 {
-  "feeds": 70,
-  "mined": 48,
+  "feeds": 85,
+  "mined": 47,
   "videos": 4,
   "video_titles": [
     "Is spider web really stronger than steel?",
@@ -9,16 +9,17 @@
     "The Euler Disc Is The Wrong Shape"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 9,
   "final_sources": [
     "Ars Technica",
-    "Colossal",
-    "ComfyUI Blog",
-    "Hacker News / seangoedecke.com",
-    "MIT Technology Review",
+    "CNN",
+    "Hackaday",
+    "Iowa Attorney General",
     "Nautilus",
-    "Veritasium"
+    "Quanta Magazine",
+    "Vincent Schmalbach",
+    "Wired"
   ],
-  "had_video": true,
-  "run_at": "2026-08-04T13:19:39.696695+00:00"
+  "had_video": false,
+  "run_at": "2026-08-05T13:15:11.198505+00:00"
 }
