@@ -1,25 +1,28 @@
 {
-  "feeds": 85,
-  "mined": 47,
-  "videos": 4,
+  "feeds": 87,
+  "mined": 50,
+  "videos": 5,
   "video_titles": [
     "Is spider web really stronger than steel?",
     "The World's Heaviest Weight",
     "Why does every mammal get 1 billion heartbeats in their life?",
+    "I made an apple peel itself",
     "The Euler Disc Is The Wrong Shape"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 10,
   "final_sources": [
-    "Ars Technica",
-    "CNN",
+    "Aeon Essays",
+    "Ars Technica / Simon Willison",
+    "Cloudflare Blog",
+    "Colossal",
+    "Google Blog",
     "Hackaday",
-    "Iowa Attorney General",
-    "Nautilus",
-    "Quanta Magazine",
-    "Vincent Schmalbach",
-    "Wired"
+    "Stuff Made Here (YouTube)",
+    "Zed",
+    "fogus",
+    "phoboslab"
   ],
-  "had_video": false,
-  "run_at": "2026-08-05T13:15:11.198505+00:00"
+  "had_video": true,
+  "run_at": "2026-08-06T13:13:45.765140+00:00"
 }
