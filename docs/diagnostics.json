@@ -1,28 +1,26 @@
 {
-  "feeds": 87,
-  "mined": 50,
+  "feeds": 84,
+  "mined": 51,
   "videos": 5,
   "video_titles": [
+    "How do submarines know where they are?",
     "Is spider web really stronger than steel?",
     "The World's Heaviest Weight",
-    "Why does every mammal get 1 billion heartbeats in their life?",
     "I made an apple peel itself",
     "The Euler Disc Is The Wrong Shape"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 8,
   "final_sources": [
-    "Aeon Essays",
-    "Ars Technica / Simon Willison",
-    "Cloudflare Blog",
-    "Colossal",
-    "Google Blog",
-    "Hackaday",
-    "Stuff Made Here (YouTube)",
-    "Zed",
-    "fogus",
-    "phoboslab"
+    "Ars Technica",
+    "BBC News",
+    "Nautilus",
+    "ScaleX",
+    "Simon Willison's Weblog",
+    "S\u00e3o Paulo Secreto",
+    "The Guardian",
+    "The Register"
   ],
-  "had_video": true,
-  "run_at": "2026-08-06T13:13:45.765140+00:00"
+  "had_video": false,
+  "run_at": "2026-08-07T12:13:00.662181+00:00"
 }
