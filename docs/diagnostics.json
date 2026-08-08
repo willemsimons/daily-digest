@@ -1,6 +1,6 @@
 {
-  "feeds": 84,
-  "mined": 51,
+  "feeds": 80,
+  "mined": 50,
   "videos": 5,
   "video_titles": [
     "How do submarines know where they are?",
@@ -10,17 +10,15 @@
     "The Euler Disc Is The Wrong Shape"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
+    "ARC Prize",
     "Ars Technica",
-    "BBC News",
-    "Nautilus",
-    "ScaleX",
-    "Simon Willison's Weblog",
-    "S\u00e3o Paulo Secreto",
-    "The Guardian",
-    "The Register"
+    "GitHub / xoreaxeaxeax",
+    "Hackaday",
+    "Robin Sloan",
+    "Travel and Tannins"
   ],
   "had_video": false,
-  "run_at": "2026-08-07T12:13:00.662181+00:00"
+  "run_at": "2026-08-08T11:57:45.051495+00:00"
 }
