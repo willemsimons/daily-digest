@@ -1,6 +1,6 @@
 {
-  "feeds": 80,
-  "mined": 50,
+  "feeds": 74,
+  "mined": 44,
   "videos": 5,
   "video_titles": [
     "How do submarines know where they are?",
@@ -12,13 +12,14 @@
   "supplemental": false,
   "final_items": 9,
   "final_sources": [
-    "ARC Prize",
     "Ars Technica",
-    "GitHub / xoreaxeaxeax",
+    "Geopolitical Daily",
     "Hackaday",
-    "Robin Sloan",
-    "Travel and Tannins"
+    "MIT Technology Review",
+    "Nautilus",
+    "PortSwigger Research",
+    "andrewt.net"
   ],
   "had_video": false,
-  "run_at": "2026-08-08T11:57:45.051495+00:00"
+  "run_at": "2026-08-09T11:59:41.151522+00:00"
 }
