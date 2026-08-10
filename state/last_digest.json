@@ -1,106 +1,80 @@
 {
   "digest": {
-    "intro": "Fringe becomes policy, CSS becomes weapon, caves get dated, galaxies get counted.",
+    "intro": "Hexagons on Mars, hollowed-out institutions, and a war nobody named.",
     "sections": [
       {
-        "heading": "World",
+        "heading": "Institutions hollowing out",
         "items": [
           {
-            "title": "The US-Iran pause rests on terms Tehran hasn't actually agreed to",
-            "source": "Geopolitical Daily",
-            "url": "https://buttondown.com/geodaily/archive/geopolitical-daily-august-2-2026/",
-            "blurb": "Trump halted Iran strikes based on an unverified pledge to reopen the Strait of Hormuz and end Iran's nuclear program \u2014 terms Iranian officials have not themselves confirmed. Meanwhile the US has 40 refueling aircraft in theater and is issuing embassy evacuation warnings, meaning Washington is visibly hedging against its own deal. The signal to watch: whether those aircraft begin drawing down in the next 72 hours.",
-            "tags": [
-              "geopolitics",
-              "iran",
-              "middle east"
-            ]
-          },
-          {
-            "title": "The quieter Iran story: Saudi enrichment rights and what they do to the NPT",
-            "source": "Geopolitical Daily",
-            "url": "https://buttondown.com/geodaily/archive/geopolitical-daily-august-3-2026/",
-            "blurb": "While Hormuz dominates headlines, the structurally more dangerous development is Saudi Arabia pushing for domestic uranium enrichment rights as part of a parallel US nuclear cooperation deal \u2014 at the exact moment the US is demanding Iran give them up. If Riyadh gets enrichment parity, it establishes a precedent that could trigger Gulf-wide proliferation and hollow out the NPT framework from inside.",
-            "tags": [
-              "geopolitics",
-              "nuclear",
-              "middle east"
-            ]
-          },
-          {
-            "title": "How 'censorship-industrial complex' went from fringe meme to US foreign policy",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/07/1141105/how-ideas-of-a-vast-censorship-network-moved-from-the-online-fringe-to-trump-policy/",
-            "blurb": "In April 2025, Darren Beattie personally showed up to shut down the State Department's foreign disinformation tracking unit \u2014 staff were crying; elsewhere in the building, people were celebrating. MIT Tech Review and Type Investigations trace exactly how a specific far-right narrative about a 'censorship-industrial complex' moved from online fringe to official policy architecture, dismantling the institutions that tracked Russian and Chinese influence operations in the process.",
-            "tags": [
-              "politics",
-              "disinformation",
-              "institutions"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Make & material",
-        "items": [
-          {
-            "title": "QR codes that ARE dithered photographs, not just decorated ones",
-            "source": "andrewt.net",
-            "url": "https://www.andrewt.net/dithered-qr-codes/wtf/",
-            "blurb": "Andrew Taylor exploits the fact that QR scanners only sample pixel centers \u2014 leaving the surrounding space genuinely free \u2014 to fill the data module grid with dithered photographs that survive as scannable codes. It's not decoration applied over a QR code; the image and the code occupy the same pixels through different constraints. The result is one of those constrained-generativity projects that makes you want to immediately try it with your own imagery.",
-            "tags": [
-              "generative",
-              "craft",
-              "visual"
-            ]
-          },
-          {
-            "title": "Extruding hollow tubes from a 3D printer using compressed air as the core",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/09/continously-extruding-3d-printed-tubes-with-compressed-air/",
-            "blurb": "Jan at Roetz 4.0 built a dual-material extruder that wraps molten filament around a compressed-air line \u2014 producing hollow, inflatable TPU tubes in a single print pass. Pressure control alone proved too chaotic (thinning walls balloon until they burst); switching to volumetric control via a peristaltic pump finally gave consistent geometry. The output, when inflated, behaves like a soft pneumatic actuator \u2014 fabrication vocabulary that didn't exist before.",
-            "tags": [
-              "fabrication",
-              "hardware",
-              "3d printing"
-            ]
-          },
-          {
-            "title": "Laser-etched parchment paper as a circuit substrate with 250\u00b5m resolution",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/08/high-density-parchment-paper-papertronics-with-laser-carved-hydrophilic-channels/",
-            "blurb": "Zahra Rafiee et al. used a 50W CO2 laser to ablate the silicone coating on parchment paper, opening hydrophilic channels that accept conductive PEDOT:PSS ink \u2014 achieving 250\u00b5m line widths and functional RC filters on paper that composts in soil within weeks. The trick is working backwards from a hydrophobic base rather than trying to control absorption on a hydrophilic one. Fully degradable flexible electronics with off-the-shelf materials.",
-            "tags": [
-              "materials",
-              "hardware",
-              "electronics"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Deep time",
-        "items": [
-          {
-            "title": "A Concorde fitted with telescopes chased the moon's shadow at Mach 2 to extend totality to 74 minutes",
+            "title": "Peer Review Is Buckling \u2014 and AI Is Only Part of the Problem",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/",
-            "blurb": "In June 1973, eight scientists aboard Concorde 001 prototype flew along the eclipse path across Africa faster than the moon's shadow, turning what would have been 7 minutes of totality into 74 \u2014 still the longest continuous solar corona observation in history. The route is still painted on the nose of the aircraft, now in a Paris museum. Worth reading three days before the August 12 eclipse, which gives observers in Europe just over two minutes on the ground.",
+            "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
+            "blurb": "A health economist's paper on HPV vaccine mandates was rejected by a single reviewer who confused vaccine efficacy with policy effectiveness \u2014 two entirely different questions. Peer review's structural problem isn't dishonesty but collapse-by-volume: submissions have outrun the supply of willing, careful reviewers, so journals are accepting one-reviewer verdicts and AI-assisted reviews that pass superficially but miss the point. The knowledge-verification layer of science is quietly failing, and almost nobody outside the system is tracking it.",
             "tags": [
-              "astronomy",
-              "history",
+              "science",
+              "institutions",
+              "epistemology"
+            ]
+          },
+          {
+            "title": "What Happened to HackerOne",
+            "source": "teknogeek.io",
+            "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
+            "blurb": "In 2011, two hackers cold-emailed 100 tech giants, found bugs in Google, Facebook, and Apple, and built HackerOne to make ethical security research less legally terrifying. A decade later, the person who managed large bug bounty programs on both sides of that relationship describes a textbook arc: community trust traded for enterprise contracts, incentive structures quietly inverted, institutional memory gone. It's a story about what happens when a platform built on hacker values starts optimizing for a different customer.",
+            "tags": [
+              "security",
+              "institutions",
+              "community"
+            ]
+          },
+          {
+            "title": "AI for Science Needs Reasoning, Not Just Data",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
+            "blurb": "AlphaFold solved a fifty-year-old protein structure problem by pattern-matching against known shapes \u2014 impressive, but it doesn't generalize to science that lacks large training sets or requires genuine hypothesis generation. The argument here is that what's missing isn't more data or bigger models but reasoning: the ability to model the actual epistemic process of research, including knowing when you don't know. Pairs uncomfortably well with the peer review collapse story above.",
+            "tags": [
+              "ai",
+              "science",
+              "epistemology"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Geometry, deep time, and the shape of things",
+        "items": [
+          {
+            "title": "Mount Toba Didn't Almost Kill Us \u2014 New Lake Sediment Data Rewrites the Story",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/",
+            "blurb": "74,000 years ago, Toba erupted with roughly 1,000 times the force of Pinatubo \u2014 and textbooks have said ever since that it nearly wiped out humanity. New sediment cores from a crater lake on the Kenya-Tanzania border show the cooling lasted under two years and amounted to maybe half a degree. The twist is physical: above a certain eruption size, aerosol droplets become too heavy and settle out of the stratosphere too quickly to sustain a volcanic winter, which means the biggest eruptions are paradoxically less catastrophic than mid-sized ones.",
+            "tags": [
+              "geology",
+              "deep time",
               "science"
             ]
           },
           {
-            "title": "The Vera Rubin Observatory just captured 650,000 galaxies in a single frame",
-            "source": "Nautilus",
-            "url": "https://nautil.us/new-observatory-captures-more-than-half-a-million-galaxies-in-a-single-image-1283526/",
-            "blurb": "Rubin's 3,200-megapixel camera \u2014 largest ever built \u2014 imaged the COSMOS field and resolved over 650,000 galaxies and 75,000 stars in one release, a region Hubble first photographed in 2003. The real payoff isn't the single image but the ten-year time-lapse: Rubin will revisit this same patch of sky continuously, adding the dimension of change to what every other telescope has seen as static.",
+            "title": "Even on Mars, Hexagons Are the Bestagons",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/10/even-on-the-red-planet-hexagons-are-the-bestagons/",
+            "blurb": "NASA's Curiosity rover is rolling through a vast field of hexagonal polygonal fractures in Valle Grande \u2014 and the honest answer is nobody knows exactly how they formed. Dried mud, freeze-thaw cycling, and ancient hydrology are all on the table, which makes this both an open scientific question and a clue about Mars's geologically recent past. The field stretches as far as the camera sees: the same tiling pattern that falls out of soap bubbles, basalt columns, and Saturn's pole, now confirmed on another planet's surface.",
             "tags": [
-              "astronomy",
-              "cosmology",
-              "imaging"
+              "mars",
+              "geometry",
+              "planetary science"
+            ]
+          },
+          {
+            "title": "Europe's Oldest Buddhist Temple, Built to Honor Napoleon's Enemies",
+            "source": "Aeon Video",
+            "url": "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple",
+            "thumbnail": "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple",
+            "blurb": "The Khosheutovsky Khurul sits on the Russian steppe as an architectural object that shouldn't exist \u2014 a Buddhist temple built in 1817 to commemorate a Kalmyk cavalry regiment that fought alongside Russian forces against Napoleon. Aeon's video essays consistently find the place where military history, diaspora identity, and sacred architecture collide; this one is built around an object that is simultaneously a war memorial, a religious site, and a relic of a nomadic people's survival across empires.",
+            "tags": [
+              "history",
+              "architecture",
+              "diaspora"
             ]
           }
         ]
@@ -109,14 +83,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "CSS in your email client can steal passwords from third-party websites",
-            "source": "PortSwigger Research",
-            "url": "https://portswigger.net/research/css-the-bomb-inside-your-inbox",
-            "blurb": "Gareth Heyes spent months probing Yahoo Mail, AOL, Fastmail, ProtonMail, Gmail, and Outlook and found that CSS properties webmail clients explicitly allow \u2014 fully on the allowlist \u2014 can be chained to spoof UI elements, exfiltrate auth tokens, and extract passwords from third-party sites the victim is logged into. The attack surface isn't JavaScript injection (long-guarded); it's the styling layer that everyone assumed was safe. Elegant, uncomfortable, and very well documented.",
+            "title": "Someone Is Bulk-Buying 5,000 Obscure Books from European Independents \u2014 Nobody Knows Why",
+            "source": "Irish Times",
+            "url": "https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/",
+            "blurb": "Orders of 5,000 titles are arriving overnight at independent booksellers from Galway to Berlin \u2014 no haggling, \u20ac10,000\u2013\u20ac50,000 a pop, mixing A History of Connemara with a 2018 driving test guide. The booksellers are cashing in but quietly terrified: a similar pattern swept US antiquarian dealers earlier this year, and the working theory is that someone is systematically sweeping physical copies of long-tail titles off the market, possibly to corner bibliographic scarcity. The motive \u2014 archival, speculative, adversarial \u2014 remains genuinely unknown.",
             "tags": [
-              "security",
-              "web",
-              "css"
+              "mystery",
+              "books",
+              "information"
             ]
           }
         ]
@@ -124,102 +98,98 @@
     ],
     "facts": [
       {
-        "fact": "The maximum duration of totality during a total solar eclipse is about 7.5 minutes at the equator \u2014 but a Concorde flying faster than the moon's shadow extended it to 74 minutes in 1973, a record that still stands.",
-        "url": "https://arstechnica.com/science/2026/08/the-ultimate-eclipse-chase-a-concorde-raced-against-the-moons-shadow/"
+        "fact": "Out of 443 occupations on nearly 9 million US death certificates, taxi and ambulance drivers had the lowest rate of dying from Alzheimer's disease \u2014 roughly 1 in 100, versus 1 in 60 overall.",
+        "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650"
       },
       {
-        "fact": "QR code scanners only read the center point of each data module pixel, meaning everything surrounding those centers is unconstrained free space \u2014 which is how a dithered photograph and a valid QR code can occupy the exact same grid.",
-        "url": "https://www.andrewt.net/dithered-qr-codes/wtf/"
+        "fact": "The Mount Toba eruption 74,000 years ago \u2014 roughly 1,000 times larger than Pinatubo \u2014 appears to have caused less than half a degree of global cooling lasting under two years, not the near-extinction volcanic winter long theorized.",
+        "url": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/"
       },
       {
-        "fact": "When 3D-printing hollow tubes with compressed air as the core, pressure-based control is inherently unstable \u2014 as the plastic wall thins, it offers less resistance and balloons continuously until it bursts; only volumetric control via a peristaltic pump produces consistent geometry.",
-        "url": "https://hackaday.com/2026/08/09/continously-extruding-3d-printed-tubes-with-compressed-air/"
+        "fact": "Independent European booksellers are receiving overnight orders of up to 5,000 eclectic titles worth \u20ac10,000\u2013\u20ac50,000 each, with no bulk-price negotiation \u2014 mirroring a pattern that already swept US antiquarian dealers earlier in 2026.",
+        "url": "https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/"
       },
       {
-        "fact": "The Vera Rubin Observatory's camera is so large that displaying a single one of its 3,200-megapixel images at full resolution would require hundreds of ultra-high-definition screens.",
-        "url": "https://nautil.us/new-observatory-captures-more-than-half-a-million-galaxies-in-a-single-image-1283526/"
-      },
-      {
-        "fact": "Saudi Arabia is currently pushing for domestic uranium enrichment rights in a US nuclear cooperation deal \u2014 at the same moment the US is demanding Iran surrender its enrichment capacity \u2014 which would set a precedent that could trigger Gulf-wide nuclear proliferation.",
-        "url": "https://buttondown.com/geodaily/archive/geopolitical-daily-august-3-2026/"
+        "fact": "Above a certain eruption magnitude, volcanic aerosol droplets become too large and heavy to stay suspended in the stratosphere, meaning the very biggest eruptions paradoxically cause less sustained cooling than mid-sized ones.",
+        "url": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/"
       }
     ],
     "make_something": {
-      "prompt": "Generate a QR code that links to something you actually want people to find \u2014 then run it through a dithering algorithm (Floyd-Steinberg works well) applied over an image you care about, respecting the finder pattern corners. The constraint: the code must scan on the first try from a phone at arm's length. Document the failure states \u2014 the bubbled, burst, unreadable attempts are the interesting part, same as Jan's inflated TPU tubes."
+      "prompt": "Take the Martian hexagonal fracture fields as a starting texture system: write a WebGL shader or generative sketch that tiles a surface with Voronoi-relaxed hexagons, then introduces a slow freeze-thaw deformation cycle \u2014 vertices drifting, cracks widening and healing \u2014 as if the geometry is trying to decide whether it's mud, ice, or regolith. The constraint: the only inputs are time and a single noise seed. No color, just topology and crack width."
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Tati's Playtime",
-        "creator": "Jacques Tati",
-        "why": "A film that is itself a generative system: a vast modernist set built as an interactive machine, where the 'story' is really emergent behavior from architectural feedback loops. The way Tati designs space to produce human comedy is the closest cinema gets to what you do with interactive environments.",
-        "url": "https://letterboxd.com/film/playtime/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film built like an essay built like a memory \u2014 Marker cuts between Tokyo rituals, Cape Verde villages, and Icelandic lava to ask how images construct time and culture. The systems question underneath: how do societies encode meaning into objects and ceremony? Devastating and generative.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Unit\u00e9 (Habitation)",
-        "creator": "Thomas Demand",
-        "why": "Demand reconstructs Le Corbusier's Cit\u00e9 Radieuse entirely from paper and cardboard, photographs it, then destroys the model \u2014 a meditation on how images of utopia outlast the utopia itself. Obsessive craft, deep systems thinking, and a sharp question about whether the document or the thing is real.",
-        "url": "https://www.matthewmarks.com/artists/thomas-demand"
+        "title": "Flatlands",
+        "creator": "Casey Reas",
+        "why": "Reas has spent 25 years treating code as a drawing instrument \u2014 not visualization, but mark-making with probability and rule-sets. His work sits exactly at the edge where software becomes expressive self-portrait, and the tension between control and emergence is the whole subject.",
+        "url": "https://reas.com"
       },
       {
         "medium": "music",
-        "title": "Replica",
-        "creator": "Oneohtrix Point Never",
-        "why": "Daniel Lopatin builds a haunted mythology out of sampled TV-commercial detritus \u2014 a generative system run on cultural sediment. It functions less as an album and more as an archaeological dig through collective unconscious imagery, the emotional inverse of the glossy surfaces it cannibalizes.",
-        "url": "https://www.youtube.com/watch?v=6eK3JptDS2Q"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "Not ambient as background \u2014 ambient as a system for constructing interior states. Each piece functions like a different light condition in an empty room. The obsessive craft is in the negative space: what's withheld, what's left to the listener's nervous system to complete.",
+        "url": "https://www.youtube.com/watch?v=FwCGnkf3Tys"
       }
     ],
     "events": [
       {
-        "name": "Whitney Biennial 2026 \u2014 Final Two Weeks",
+        "name": "Oren Fischer: HALLEL in collaboration with Havurah",
+        "venue": "81 Leonard Gallery, 81 Leonard St, TriBeCa",
+        "date_start": "2026-08-06",
+        "date_end": "2026-09-05",
+        "category": "museum",
+        "why": "A show built around ritual text and communal practice \u2014 art that functions as community and liturgy simultaneously, blurring the boundary between sacred form and contemporary installation in a small TriBeCa space worth the detour.",
+        "url": "https://www.81leonardgallery.com",
+        "date": "Aug 6 \u2013 Sep 5"
+      },
+      {
+        "name": "Greater New York 2026",
+        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City, Queens",
+        "date_start": "2026-08-10",
+        "date_end": "2026-08-17",
+        "category": "museum",
+        "why": "The quinquennial survey of 53 NYC-area early-career artists \u2014 site-specific commissions spanning the whole building, organized around surveillance, economic precarity, and shifting technologies \u2014 closes this Sunday; it's genuinely the last call.",
+        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
+        "date": "Aug 10\u201317"
+      },
+      {
+        "name": "Whitney Biennial 2026 (82nd Edition)",
         "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
-        "date_start": "2026-08-09",
+        "date_start": "2026-08-10",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "The 82nd edition closes August 23 \u2014 curators Guerrero and Sawyer organized it around kinship and infrastructure, foregrounding 'mood and texture' over thesis, with works exploring technological affinities, shared mythologies, and the reach of US power through artists from Okinawa to Iraq to Vietnam; notably includes AI sculptures synthesizing social-media trails of dead artists into disjointed ghost-voices.",
+        "why": "The 82nd Biennial \u2014 curated by Marcela Guerrero and Drew Sawyer \u2014 closes Aug 23; if you haven't gone, this is the final two-week window on what's been called the must-see survey show of 2026.",
         "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 9\u201323"
+        "date": "Aug 10\u201323"
       },
       {
-        "name": "It's Alive! A Century of Animation from the Collection",
-        "venue": "MoMA, 11 W 53rd St, Manhattan",
-        "date_start": "2026-08-09",
-        "date_end": "2026-08-23",
+        "name": "Lily van der Stokker: Male Art Exhibition, Great Show",
+        "venue": "Kaufmann Repetto, 55 Walker St, TriBeCa",
+        "date_start": "2026-08-10",
+        "date_end": "2026-08-28",
         "category": "museum",
-        "why": "Over 200 works tracing hand-drawn animation from 1908 to 2020 \u2014 not a nostalgia trip but a serious look at New York as the indie animation capital, from Dada film (Hans Richter) to early MTV ads, foregrounding the moment when drawing was still the only way to make something move.",
-        "url": "https://www.moma.org/calendar/exhibitions/5920",
-        "date": "Aug 9\u201323"
+        "why": "Van der Stokker's work is deceptively cheerful \u2014 pastel, domestic, self-deprecating \u2014 but the subject is always the ideological weight of taste, gender, and art-world status; expressive surface with structural critique underneath.",
+        "url": "https://www.kaufmannrepetto.com",
+        "date": "Aug 10\u201328"
       },
       {
-        "name": "Art of Noise \u2014 Closing Week",
-        "venue": "Cooper Hewitt Smithsonian Design Museum, 2 E 91st St, Manhattan",
-        "date_start": "2026-08-09",
-        "date_end": "2026-08-16",
-        "category": "museum",
-        "why": "300+ works tracing how design transformed the human relationship to music \u2014 concert posters, phonographs, teenage engineering's choir installation, and Devon Turnbull's handmade HiFi Listening Room as a live sculpture you sit inside; it's a design show that is also a visceral sensory argument.",
-        "url": "https://www.cooperhewitt.org/exhibitions/",
-        "date": "Aug 9\u201316"
-      },
-      {
-        "name": "Pioneer Works Second Sundays \u2014 Summer Closing Day",
-        "venue": "Pioneer Works, 159 Pioneer St, Red Hook, Brooklyn",
-        "date_start": "2026-08-09",
-        "date_end": "2026-08-09",
-        "category": "museum",
-        "why": "Final day of three summer exhibitions including ANIMAL [a listening gym] \u2014 a free community day with DJs, food, and open studios in one of the best raw industrial art spaces in the city; today is the last chance to catch the summer program before the fall cycle begins.",
-        "url": "https://pioneerworks.org/programs/second-sundays-august-2026",
-        "date": "Sun, Aug 9"
-      },
-      {
-        "name": "High Visibility \u2014 Group Exhibition",
-        "venue": "GOCA by Garde, 515 W 23rd St, Chelsea, Manhattan",
-        "date_start": "2026-08-09",
-        "date_end": "2026-08-22",
-        "category": "museum",
-        "why": "Curated by Charlotte Hailstone Wu, the show uses color as a directed tool \u2014 examining how abstraction and representation shape perception and direct attention; a tight, conceptually legible premise from a gallery worth watching.",
-        "url": "https://www.galleriesnow.net/exhibitions/new-york/",
-        "date": "Aug 9\u201322"
+        "name": "Warm Up 2026 \u2014 Fridays Aug 14 & 21",
+        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
+        "date_start": "2026-08-14",
+        "date_end": "2026-08-21",
+        "category": "concert",
+        "why": "Two Fridays left of the 28th season: an outdoor electronic music series curated as part of PS1's art program \u2014 drawing from dub, techno, gabber, house, and avant-garde improvisation \u2014 with the museum galleries open late alongside it.",
+        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
+        "date": "Aug 14\u201321"
       }
     ]
   },
