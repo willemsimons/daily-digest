@@ -1,96 +1,111 @@
 {
   "digest": {
-    "intro": "Hexagons on Mars, hollowed-out institutions, and a war nobody named.",
+    "intro": "A day of hidden infrastructure, mathematical surprise, and grief made visible.",
     "sections": [
       {
-        "heading": "Institutions hollowing out",
+        "heading": "World",
         "items": [
           {
-            "title": "Peer Review Is Buckling \u2014 and AI Is Only Part of the Problem",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/08/peer-review-is-overwhelmed-can-it-survive-in-the-ai-era/",
-            "blurb": "A health economist's paper on HPV vaccine mandates was rejected by a single reviewer who confused vaccine efficacy with policy effectiveness \u2014 two entirely different questions. Peer review's structural problem isn't dishonesty but collapse-by-volume: submissions have outrun the supply of willing, careful reviewers, so journals are accepting one-reviewer verdicts and AI-assisted reviews that pass superficially but miss the point. The knowledge-verification layer of science is quietly failing, and almost nobody outside the system is tracking it.",
+            "title": "After Hormuz, Bab el-Mandeb \u2014 Iran's backup lever",
+            "source": "Conference Board",
+            "url": "https://www.conference-board.org/research/policy-backgrounders/A-Geopolitical-August",
+            "blurb": "Even if Iran-Oman talks produce a Hormuz arrangement, Iran retains coercive power over Bab el-Mandeb \u2014 the chokepoint at the other end of the Arabian Peninsula that controls Red Sea shipping. The Conference Board's August snapshot puts this alongside Ukraine and African conflicts as overlapping flashpoints that historically ignite in the summer, citing precedents from the Molotov-Ribbentrop Pact to Kuwait. The structural point: a Hormuz deal doesn't end the squeeze, it just moves it.",
             "tags": [
-              "science",
-              "institutions",
-              "epistemology"
+              "geopolitics",
+              "iran",
+              "shipping"
             ]
           },
           {
-            "title": "What Happened to HackerOne",
-            "source": "teknogeek.io",
-            "url": "https://blog.teknogeek.io/posts/what-happened-to-hackerone/",
-            "blurb": "In 2011, two hackers cold-emailed 100 tech giants, found bugs in Google, Facebook, and Apple, and built HackerOne to make ethical security research less legally terrifying. A decade later, the person who managed large bug bounty programs on both sides of that relationship describes a textbook arc: community trust traded for enterprise contracts, incentive structures quietly inverted, institutional memory gone. It's a story about what happens when a platform built on hacker values starts optimizing for a different customer.",
+            "title": "The UK's anonymity playbook is being run on American statehouses",
+            "source": "Effort News",
+            "url": "https://www.effort.news/uk-lobby",
+            "blurb": "An Effort investigation tracked five British NGOs \u2014 including the Centre for Countering Digital Hate, founded by Labour consultants \u2014 coordinating a push for digital ID laws in 21 US states, using child safety rhetoric as the wedge. In the UK the same strategy succeeded and now underpins a system used to identify and prosecute political dissidents online. One NGO registered under FARA but omitted required disclosures on foreign leadership \u2014 the investigative thread is genuinely documented, not speculative.",
             "tags": [
-              "security",
-              "institutions",
-              "community"
+              "surveillance",
+              "civil liberties",
+              "policy"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Machine minds",
+        "items": [
           {
-            "title": "AI for Science Needs Reasoning, Not Just Data",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/10/1141384/ai-agents-for-science/",
-            "blurb": "AlphaFold solved a fifty-year-old protein structure problem by pattern-matching against known shapes \u2014 impressive, but it doesn't generalize to science that lacks large training sets or requires genuine hypothesis generation. The argument here is that what's missing isn't more data or bigger models but reasoning: the ability to model the actual epistemic process of research, including knowing when you don't know. Pairs uncomfortably well with the peer review collapse story above.",
+            "title": "Claude moved a 60-year-old math bound from 41.6% to 67.2%",
+            "source": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/riemann-zeta",
+            "blurb": "An unreleased research version of Claude was asked to take a genuine run at the Riemann hypothesis. It didn't crack it \u2014 nobody has since 1859 \u2014 but as a byproduct it improved the best-known lower bound on the fraction of Riemann zeta zeros satisfying the hypothesis from 41.6% to 67.2%, a result two Anthropic mathematicians validated and external experts Brian Conrey and Dan Goldston reviewed. Anthropic is careful not to oversell it: the techniques likely don't generalize to a proof. But the delta itself is not trivial, and the model produced a formally verifiable proof of its sub-result.",
             "tags": [
               "ai",
-              "science",
-              "epistemology"
+              "mathematics",
+              "research"
+            ]
+          },
+          {
+            "title": "Meta's Muse Glimmer: 30B parameters, Apache 2.0, runs on your GPU",
+            "source": "Meta AI Research",
+            "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+            "blurb": "Meta's Superintelligence Labs dropped a 30-billion-parameter model explicitly designed for always-on local agent workflows \u2014 function calling, local coding, LLM-as-judge \u2014 that fits on a single consumer GPU. The Apache 2.0 license is the meaningful departure from the restricted Llama terms that made previous releases awkward to build on commercially. Integrations for llama.cpp, MLX, and ExecuTorch are landing within days.",
+            "tags": [
+              "ai",
+              "open-source",
+              "local inference"
             ]
           }
         ]
       },
       {
-        "heading": "Geometry, deep time, and the shape of things",
+        "heading": "Hidden infrastructure",
         "items": [
           {
-            "title": "Mount Toba Didn't Almost Kill Us \u2014 New Lake Sediment Data Rewrites the Story",
+            "title": "He bought noreply.net. Companies immediately started sending him secrets.",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/",
-            "blurb": "74,000 years ago, Toba erupted with roughly 1,000 times the force of Pinatubo \u2014 and textbooks have said ever since that it nearly wiped out humanity. New sediment cores from a crater lake on the Kenya-Tanzania border show the cooling lasted under two years and amounted to maybe half a degree. The twist is physical: above a certain eruption size, aerosol droplets become too heavy and settle out of the stratosphere too quickly to sustain a volcanic winter, which means the biggest eruptions are paradoxically less catastrophic than mid-sized ones.",
+            "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
+            "blurb": "Cory Solovewicz picked up noreply.net in 2024 and within months was receiving 700 emails per day from organizations that assumed any address @noreply.net was a void. Instead he got injury reports from city governments, school platform credentials, pizza order confirmations, and service repair records \u2014 401,796 messages in total. The failure mode is architectural: systems encode an assumption (this address goes nowhere) that has no enforcement mechanism, and a $10 domain purchase is all it takes to falsify it.",
             "tags": [
-              "geology",
-              "deep time",
-              "science"
-            ]
-          },
-          {
-            "title": "Even on Mars, Hexagons Are the Bestagons",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/10/even-on-the-red-planet-hexagons-are-the-bestagons/",
-            "blurb": "NASA's Curiosity rover is rolling through a vast field of hexagonal polygonal fractures in Valle Grande \u2014 and the honest answer is nobody knows exactly how they formed. Dried mud, freeze-thaw cycling, and ancient hydrology are all on the table, which makes this both an open scientific question and a clue about Mars's geologically recent past. The field stretches as far as the camera sees: the same tiling pattern that falls out of soap bubbles, basalt columns, and Saturn's pole, now confirmed on another planet's surface.",
-            "tags": [
-              "mars",
-              "geometry",
-              "planetary science"
-            ]
-          },
-          {
-            "title": "Europe's Oldest Buddhist Temple, Built to Honor Napoleon's Enemies",
-            "source": "Aeon Video",
-            "url": "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple",
-            "thumbnail": "https://aeon.co/videos/the-strange-circuitous-history-of-europes-oldest-buddhist-temple",
-            "blurb": "The Khosheutovsky Khurul sits on the Russian steppe as an architectural object that shouldn't exist \u2014 a Buddhist temple built in 1817 to commemorate a Kalmyk cavalry regiment that fought alongside Russian forces against Napoleon. Aeon's video essays consistently find the place where military history, diaspora identity, and sacred architecture collide; this one is built around an object that is simultaneously a war memorial, a religious site, and a relic of a nomadic people's survival across empires.",
-            "tags": [
-              "history",
-              "architecture",
-              "diaspora"
+              "security",
+              "infrastructure",
+              "systems"
             ]
           }
         ]
       },
       {
-        "heading": "Off the map",
+        "heading": "Made things",
         "items": [
           {
-            "title": "Someone Is Bulk-Buying 5,000 Obscure Books from European Independents \u2014 Nobody Knows Why",
-            "source": "Irish Times",
-            "url": "https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/",
-            "blurb": "Orders of 5,000 titles are arriving overnight at independent booksellers from Galway to Berlin \u2014 no haggling, \u20ac10,000\u2013\u20ac50,000 a pop, mixing A History of Connemara with a 2018 driving test guide. The booksellers are cashing in but quietly terrified: a similar pattern swept US antiquarian dealers earlier this year, and the working theory is that someone is systematically sweeping physical copies of long-tail titles off the market, possibly to corner bibliographic scarcity. The motive \u2014 archival, speculative, adversarial \u2014 remains genuinely unknown.",
+            "title": "Scroll through all 43 quintillion Rubik's Cube states",
+            "source": "Hacker News / alen.is",
+            "url": "https://everycube.alen.is/",
+            "blurb": "Someone built an infinite scroll interface for the entire Rubik's Cube state space \u2014 43,252,003,274,489,856,000 permutations, navigable like a feed. It's a systems-art piece as much as a tool: the interface form (infinite scroll) applied to a space so vast that scrolling at any human speed would take longer than the age of the universe. The gap between the gesture and the scale is the whole point.",
             "tags": [
-              "mystery",
-              "books",
-              "information"
+              "combinatorics",
+              "interface",
+              "systems art"
+            ]
+          },
+          {
+            "title": "Grief, gouache, and a father's expired passport",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/08/radhika-chitalia-father-memory-passport-paintings/",
+            "blurb": "Copenhagen illustrator Radhika Chitalia painted every page of her late father's passport with gouache \u2014 working directly over visa stamps and immigration marks to fill pages he never got to fill himself. The document-as-substrate constraint is doing real work here: the bureaucratic geography of the passport (where you were allowed, when, for how long) becomes the armature for a posthumous collaboration. As physical visa stickers and ink stamps disappear from travel, the object is also an artifact of a vanishing system.",
+            "tags": [
+              "art",
+              "grief",
+              "object-making"
+            ]
+          },
+          {
+            "title": "Cotton-and-fiberglass composite countertops \u2014 one decorative layer doing two jobs",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/10/cotton-fiberglass-composite-makes-lightweight-rv-countertops/",
+            "blurb": "Whitburn Studio built RV countertops using printed Japanese cotton as the aesthetic fiber layer and a single backing layer of fiberglass \u2014 not for strength, but to protect the cotton from sanding-through mistakes. The real structural work is done by a ply-XPS foam-ply sandwich inside, a moldless composite technique Burt Rutan pioneered in aircraft. The result: surfaces that look like fabric art and weigh almost nothing, produced without a mold.",
+            "tags": [
+              "fabrication",
+              "composites",
+              "materials"
             ]
           }
         ]
@@ -98,98 +113,102 @@
     ],
     "facts": [
       {
-        "fact": "Out of 443 occupations on nearly 9 million US death certificates, taxi and ambulance drivers had the lowest rate of dying from Alzheimer's disease \u2014 roughly 1 in 100, versus 1 in 60 overall.",
-        "url": "https://theconversation.com/taxi-drivers-rarely-die-of-alzheimers-how-complex-mental-maps-and-spatial-reasoning-protect-your-brain-286650"
+        "fact": "Claude improved a lower bound on the Riemann zeta function that had stood since the 1940s \u2014 moving it from 41.6% to 67.2% \u2014 and produced a formally machine-verifiable proof of the result.",
+        "url": "https://www.anthropic.com/research/riemann-zeta"
       },
       {
-        "fact": "The Mount Toba eruption 74,000 years ago \u2014 roughly 1,000 times larger than Pinatubo \u2014 appears to have caused less than half a degree of global cooling lasting under two years, not the near-extinction volcanic winter long theorized.",
-        "url": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/"
+        "fact": "Security researcher Cory Solovewicz has received 401,796 emails containing other people's private data simply by owning the domain noreply.net, which organizations assumed was an unmonitored void.",
+        "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/"
       },
       {
-        "fact": "Independent European booksellers are receiving overnight orders of up to 5,000 eclectic titles worth \u20ac10,000\u2013\u20ac50,000 each, with no bulk-price negotiation \u2014 mirroring a pattern that already swept US antiquarian dealers earlier in 2026.",
-        "url": "https://www.irishtimes.com/world/europe/2026/08/10/a-mysterious-buying-spree-is-unsettling-europes-booksellers/"
+        "fact": "The Centre for Countering Digital Hate \u2014 now active in US state legislatures \u2014 was founded by British Labour consultants, one of whom (Morgan McSweeney) went on to become a senior figure in UK government.",
+        "url": "https://www.effort.news/uk-lobby"
       },
       {
-        "fact": "Above a certain eruption magnitude, volcanic aerosol droplets become too large and heavy to stay suspended in the stratosphere, meaning the very biggest eruptions paradoxically cause less sustained cooling than mid-sized ones.",
-        "url": "https://arstechnica.com/science/2026/08/mount-toba-eruption-doesnt-seem-like-it-could-nearly-kill-our-species/"
+        "fact": "The Oxford Nanopore MinION DNA sequencer \u2014 small enough to hold in one hand \u2014 uses consumable cartridges containing nanopore arrays that can each only be used a few times before replacement, at \u00a3690 per unit.",
+        "url": "https://hackaday.com/2026/08/10/teardown-of-an-oxford-nanopore-minion-dna-sequencer/"
+      },
+      {
+        "fact": "The Rubik's Cube has exactly 43,252,003,274,489,856,000 possible states \u2014 all of them now theoretically browsable via infinite scroll at everycube.alen.is.",
+        "url": "https://everycube.alen.is/"
       }
     ],
     "make_something": {
-      "prompt": "Take the Martian hexagonal fracture fields as a starting texture system: write a WebGL shader or generative sketch that tiles a surface with Voronoi-relaxed hexagons, then introduces a slow freeze-thaw deformation cycle \u2014 vertices drifting, cracks widening and healing \u2014 as if the geometry is trying to decide whether it's mud, ice, or regolith. The constraint: the only inputs are time and a single noise seed. No color, just topology and crack width."
+      "prompt": "Take a document that was meant to go somewhere but didn't \u2014 an unsent letter, a boarding pass, a returned package label, a voided check \u2014 and use it as the literal substrate for something new. Paint, draw, or print over it, but let the original text and marks show through as structure. The bureaucratic geography of the document (dates, destinations, amounts, stamps) should do compositional work, not just hide under paint. One rule: you cannot cover anything completely."
     },
     "art_picks": [
       {
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film built like an essay built like a memory \u2014 Marker cuts between Tokyo rituals, Cape Verde villages, and Icelandic lava to ask how images construct time and culture. The systems question underneath: how do societies encode meaning into objects and ceremony? Devastating and generative.",
+        "why": "A film that functions as a memory machine \u2014 Marker moves between Tokyo, Guinea-Bissau, and his own nervous system, tracing how images and rituals encode time and identity. The closest cinema gets to the feeling of deep-diving a rabbit hole at 3am and coming out changed.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Flatlands",
-        "creator": "Casey Reas",
-        "why": "Reas has spent 25 years treating code as a drawing instrument \u2014 not visualization, but mark-making with probability and rule-sets. His work sits exactly at the edge where software becomes expressive self-portrait, and the tension between control and emergence is the whole subject.",
-        "url": "https://reas.com"
+        "title": "Mycelium Networks / Substrate Studies",
+        "creator": "Refik Anadol Studio",
+        "why": "Anadol's generative, data-sculpture practice sits exactly at the WebGL-meets-physical-world edge you live in \u2014 large-scale neural datasets rendered as breathing, architectural living matter. The work asks what it means to make something 'alive' from information.",
+        "url": "https://refikanadol.com/"
       },
       {
         "medium": "music",
-        "title": "Selected Ambient Works Volume II",
-        "creator": "Aphex Twin",
-        "why": "Not ambient as background \u2014 ambient as a system for constructing interior states. Each piece functions like a different light condition in an empty room. The obsessive craft is in the negative space: what's withheld, what's left to the listener's nervous system to complete.",
-        "url": "https://www.youtube.com/watch?v=FwCGnkf3Tys"
+        "title": "Vespertine",
+        "creator": "Bj\u00f6rk",
+        "why": "A record built from the sounds of microscopic domestic life \u2014 ice crystals, cutlery, heartbeats \u2014 processed into something cathedral-sized. Systems thinking applied to intimacy, with an obsessive craft that rewards headphones and close listening.",
+        "url": "https://www.bjork.com/music/"
       }
     ],
     "events": [
       {
-        "name": "Oren Fischer: HALLEL in collaboration with Havurah",
-        "venue": "81 Leonard Gallery, 81 Leonard St, TriBeCa",
-        "date_start": "2026-08-06",
-        "date_end": "2026-09-05",
-        "category": "museum",
-        "why": "A show built around ritual text and communal practice \u2014 art that functions as community and liturgy simultaneously, blurring the boundary between sacred form and contemporary installation in a small TriBeCa space worth the detour.",
-        "url": "https://www.81leonardgallery.com",
-        "date": "Aug 6 \u2013 Sep 5"
-      },
-      {
-        "name": "Greater New York 2026",
-        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City, Queens",
-        "date_start": "2026-08-10",
+        "name": "Greater New York 2026 \u2014 Last Days",
+        "venue": "MoMA PS1, Long Island City, Queens",
+        "date_start": "2026-08-11",
         "date_end": "2026-08-17",
         "category": "museum",
-        "why": "The quinquennial survey of 53 NYC-area early-career artists \u2014 site-specific commissions spanning the whole building, organized around surveillance, economic precarity, and shifting technologies \u2014 closes this Sunday; it's genuinely the last call.",
+        "why": "53 artists and collectives from across the five boroughs, organized around surveillance, economic precarity, and shifting tech \u2014 the quinquennial snapshot of what NYC artists are actually making, spanning the whole building, free admission, and closing this week.",
         "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
-        "date": "Aug 10\u201317"
+        "date": "Aug 11\u201317"
       },
       {
-        "name": "Whitney Biennial 2026 (82nd Edition)",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
-        "date_start": "2026-08-10",
+        "name": "New Humans: Memories of the Future \u2014 New Museum (3rd Floor closing Aug 23)",
+        "venue": "New Museum, 235 Bowery, Manhattan",
+        "date_start": "2026-08-11",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "The 82nd Biennial \u2014 curated by Marcela Guerrero and Drew Sawyer \u2014 closes Aug 23; if you haven't gone, this is the final two-week window on what's been called the must-see survey show of 2026.",
-        "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 10\u201323"
+        "why": "The New Museum's reopening mega-show \u2014 Hito Steyerl, Anicka Yi's autonomous floating aerobes, Pierre Huyghe, and 150+ others tracing a diagonal history of humanity and technology; the 3rd floor closes Aug 23, making this a genuine closing-window moment.",
+        "url": "https://www.newmuseum.org/exhibition/new-humans-memories-of-the-future/",
+        "date": "Aug 11\u201323"
       },
       {
-        "name": "Lily van der Stokker: Male Art Exhibition, Great Show",
-        "venue": "Kaufmann Repetto, 55 Walker St, TriBeCa",
-        "date_start": "2026-08-10",
-        "date_end": "2026-08-28",
+        "name": "Whitney Biennial 2026 \u2014 Final Stretch",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-08-11",
+        "date_end": "2026-08-23",
         "category": "museum",
-        "why": "Van der Stokker's work is deceptively cheerful \u2014 pastel, domestic, self-deprecating \u2014 but the subject is always the ideological weight of taste, gender, and art-world status; expressive surface with structural critique underneath.",
-        "url": "https://www.kaufmannrepetto.com",
-        "date": "Aug 10\u201328"
+        "why": "The 82nd Whitney Biennial, curated by Marcela Guerrero and Drew Sawyer, closes August 23 \u2014 last chance to see the full show before it's gone for another two years.",
+        "url": "https://whitney.org/exhibitions/2026-biennial",
+        "date": "Aug 11\u201323"
       },
       {
-        "name": "Warm Up 2026 \u2014 Fridays Aug 14 & 21",
-        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
-        "date_start": "2026-08-14",
-        "date_end": "2026-08-21",
+        "name": "Joe Hisaishi \u2014 Film Music Concert (7-Night Residency)",
+        "venue": "Radio City Music Hall, 1260 Avenue of the Americas, Manhattan",
+        "date_start": "2026-08-11",
+        "date_end": "2026-08-17",
         "category": "concert",
-        "why": "Two Fridays left of the 28th season: an outdoor electronic music series curated as part of PS1's art program \u2014 drawing from dub, techno, gabber, house, and avant-garde improvisation \u2014 with the museum galleries open late alongside it.",
-        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
-        "date": "Aug 14\u201321"
+        "why": "Hisaishi conducting and performing live on piano with MasterVoices and the Orchestra of St. Luke's \u2014 Ghibli scores, Kitano films, and Takahata, with film scenes projected; a rare live performance of music that is fundamentally about emotional systems and cinematic time.",
+        "url": "https://www.mastervoices.org/events/hisaishi2026/",
+        "date": "Aug 11\u201317"
+      },
+      {
+        "name": "Midsummer Nights: Strings N' Skins",
+        "venue": "58 Seventh Avenue (Lincoln Place), Park Slope, Brooklyn",
+        "date_start": "2026-08-13",
+        "date_end": "2026-08-13",
+        "category": "concert",
+        "why": "Brooklyn Conservatory of Music's free open-air series, curated by Melanie Charles and featuring artists who actively ignore genre boundaries \u2014 intimate, first-come seating on a street turned jazz club for one night.",
+        "url": "https://www.bkcm.org/midsummer-nights",
+        "date": "Thu, Aug 13"
       }
     ]
   },
