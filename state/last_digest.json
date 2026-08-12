@@ -1,111 +1,95 @@
 {
   "digest": {
-    "intro": "A day of hidden infrastructure, mathematical surprise, and grief made visible.",
+    "intro": "Infrastructure as target, reasoning as exploit, and toys turned inside out.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "After Hormuz, Bab el-Mandeb \u2014 Iran's backup lever",
-            "source": "Conference Board",
-            "url": "https://www.conference-board.org/research/policy-backgrounders/A-Geopolitical-August",
-            "blurb": "Even if Iran-Oman talks produce a Hormuz arrangement, Iran retains coercive power over Bab el-Mandeb \u2014 the chokepoint at the other end of the Arabian Peninsula that controls Red Sea shipping. The Conference Board's August snapshot puts this alongside Ukraine and African conflicts as overlapping flashpoints that historically ignite in the summer, citing precedents from the Molotov-Ribbentrop Pact to Kuwait. The structural point: a Hormuz deal doesn't end the squeeze, it just moves it.",
+            "title": "Romanian Army Divers Blow Up Russian Drones Found Near Europe's Biggest Gas Project",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/",
+            "blurb": "Two Gerbera-type drones of Russian design were found floating near Neptun Deep \u2014 the offshore Black Sea project that will make Romania the EU's largest gas producer \u2014 and Romania had to call Ukraine to confirm they weren't theirs before blowing them up. This is the third escalation tier in one month: airspace incursions, a residential drone strike injuring civilians in southeastern Romania, and now energy infrastructure probing. The Neptun Deep project is the kind of target whose disruption would hurt all of Europe, not just Romania.",
             "tags": [
               "geopolitics",
-              "iran",
-              "shipping"
+              "energy infrastructure",
+              "russia"
             ]
           },
           {
-            "title": "The UK's anonymity playbook is being run on American statehouses",
-            "source": "Effort News",
-            "url": "https://www.effort.news/uk-lobby",
-            "blurb": "An Effort investigation tracked five British NGOs \u2014 including the Centre for Countering Digital Hate, founded by Labour consultants \u2014 coordinating a push for digital ID laws in 21 US states, using child safety rhetoric as the wedge. In the UK the same strategy succeeded and now underpins a system used to identify and prosecute political dissidents online. One NGO registered under FARA but omitted required disclosures on foreign leadership \u2014 the investigative thread is genuinely documented, not speculative.",
+            "title": "Roadside Cameras Are Quietly Building Identity Graphs from Your Phone's Bluetooth",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/",
+            "blurb": "SignalTrace, marketed by Leonardo, pairs with license plate readers to recognize recurring clusters of Bluetooth and device signals traveling together \u2014 so if you carpool enough times, your phone gets associated with a vehicle even without your name ever being queried. The system works in reverse too: a device signal seen at an unknown plate can be traced backward through previous co-occurrences to known vehicles and then to registered owners. This is infrastructure already marketed and tested; it doesn't require a warrant for the pattern-matching phase because it starts with anonymous signals.",
             "tags": [
               "surveillance",
-              "civil liberties",
-              "policy"
+              "infrastructure",
+              "privacy"
             ]
           }
         ]
       },
       {
-        "heading": "Machine minds",
+        "heading": "How machines think (and how we see into them)",
         "items": [
           {
-            "title": "Claude moved a 60-year-old math bound from 41.6% to 67.2%",
-            "source": "Anthropic Research",
-            "url": "https://www.anthropic.com/research/riemann-zeta",
-            "blurb": "An unreleased research version of Claude was asked to take a genuine run at the Riemann hypothesis. It didn't crack it \u2014 nobody has since 1859 \u2014 but as a byproduct it improved the best-known lower bound on the fraction of Riemann zeta zeros satisfying the hypothesis from 41.6% to 67.2%, a result two Anthropic mathematicians validated and external experts Brian Conrey and Dan Goldston reviewed. Anthropic is careful not to oversell it: the techniques likely don't generalize to a proof. But the delta itself is not trivial, and the model produced a formally verifiable proof of its sub-result.",
+            "title": "A Fields Medalist Sits Down with the AI That Just Solved Problems He Didn't Expect to See Solved",
+            "source": "Timothy Gowers",
+            "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+            "blurb": "Gowers writes this days after OpenAI announced solutions to ten major open problems \u2014 including the first construction of a non-sofic group (one of group theory's most important unsolved problems) and a proof that multicolor Ramsey numbers grow superexponentially, which Gowers didn't expect to see in his lifetime. His essay isn't a celebration; it's a careful attempt to map where LLMs still fall short and why speed advantage alone isn't yet producing a flood of results, which tells you something real about the shape of the remaining gap. This is the primary source, not a journalist summarizing it.",
             "tags": [
               "ai",
               "mathematics",
-              "research"
+              "capability"
             ]
           },
           {
-            "title": "Meta's Muse Glimmer: 30B parameters, Apache 2.0, runs on your GPU",
-            "source": "Meta AI Research",
-            "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-            "blurb": "Meta's Superintelligence Labs dropped a 30-billion-parameter model explicitly designed for always-on local agent workflows \u2014 function calling, local coding, LLM-as-judge \u2014 that fits on a single consumer GPU. The Apache 2.0 license is the meaningful departure from the restricted Llama terms that made previous releases awkward to build on commercially. Integrations for llama.cpp, MLX, and ExecuTorch are landing within days.",
+            "title": "Stealing the Thoughts That LLMs Encrypt Before Sending You",
+            "source": "Cryptography Engineering / stolen-thoughts.com",
+            "url": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/",
+            "blurb": "Matthew Green \u2014 a serious cryptographer \u2014 noticed that OpenAI's chain-of-thought blocks arrive signed and encrypted, which immediately raised the question: why would thinking blocks need signatures unless tampering had security implications? He spent a weekend probing it, published his findings, and a European research team then built a working attack from his post that partially decrypts those reasoning traces through timing and statistical methods. The excerpt from the actual recovered GPT-5.2 Codex reasoning is genuinely strange to read \u2014 internal monologue rendered visible, the model talking itself through a grep for AWS keys in a sanitize-git-repo task.",
             "tags": [
               "ai",
-              "open-source",
-              "local inference"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Hidden infrastructure",
-        "items": [
-          {
-            "title": "He bought noreply.net. Companies immediately started sending him secrets.",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/",
-            "blurb": "Cory Solovewicz picked up noreply.net in 2024 and within months was receiving 700 emails per day from organizations that assumed any address @noreply.net was a void. Instead he got injury reports from city governments, school platform credentials, pizza order confirmations, and service repair records \u2014 401,796 messages in total. The failure mode is architectural: systems encode an assumption (this address goes nowhere) that has no enforcement mechanism, and a $10 domain purchase is all it takes to falsify it.",
-            "tags": [
-              "security",
-              "infrastructure",
-              "systems"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Made things",
-        "items": [
-          {
-            "title": "Scroll through all 43 quintillion Rubik's Cube states",
-            "source": "Hacker News / alen.is",
-            "url": "https://everycube.alen.is/",
-            "blurb": "Someone built an infinite scroll interface for the entire Rubik's Cube state space \u2014 43,252,003,274,489,856,000 permutations, navigable like a feed. It's a systems-art piece as much as a tool: the interface form (infinite scroll) applied to a space so vast that scrolling at any human speed would take longer than the age of the universe. The gap between the gesture and the scale is the whole point.",
-            "tags": [
-              "combinatorics",
-              "interface",
-              "systems art"
+              "cryptography",
+              "security"
             ]
           },
           {
-            "title": "Grief, gouache, and a father's expired passport",
+            "title": "Compression Is Prediction \u2014 The Deep Equivalence That Explains Both ZIP and GPT",
+            "source": "ngrok Engineering Blog",
+            "url": "https://ngrok.com/blog/compression-is-prediction",
+            "blurb": "The post traces a clean line from run-length encoding through Shannon entropy to Kolmogorov complexity to show that a compressor and a language model are solving literally the same problem: predict the next symbol well enough to represent it in fewer bits. It's not a metaphor \u2014 the math is the same math. Good explanation of why LLMs can compress data better than traditional tools, and why that fact should change how you think about what 'understanding' might mean.",
+            "tags": [
+              "information theory",
+              "ai",
+              "fundamentals"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making",
+        "items": [
+          {
+            "title": "How to Scratch Holograms with a Pen Plotter and No Lasers",
+            "source": "Jordan Matelsky's Blog",
+            "url": "https://blog.jordan.matelsky.com/Penplotter-holography/",
+            "blurb": "Starting with a deliberately oily phone smudge as an intuition pump for diffraction, Matelsky derives the geometry of hand-drawn holograms entirely from first principles before automating the scratch patterns on a pen plotter using CD cases as the medium. No lasers, no darkroom \u2014 just obsessive geometry and the insight that a hologram is fundamentally a record of interference patterns that can be computed and physically scribed. The piece earns its length because by the end you understand *why* it works, not just that it does.",
+            "tags": [
+              "making",
+              "optics",
+              "physical computing"
+            ]
+          },
+          {
+            "title": "Stuffed Animals Turned Inside Out Into Fleshy, Organ-Like Sculptures",
             "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/08/radhika-chitalia-father-memory-passport-paintings/",
-            "blurb": "Copenhagen illustrator Radhika Chitalia painted every page of her late father's passport with gouache \u2014 working directly over visa stamps and immigration marks to fill pages he never got to fill himself. The document-as-substrate constraint is doing real work here: the bureaucratic geography of the passport (where you were allowed, when, for how long) becomes the armature for a posthumous collaboration. As physical visa stickers and ink stamps disappear from travel, the object is also an artifact of a vanishing system.",
+            "url": "https://www.thisiscolossal.com/2026/08/sungho-bae-stuffed-animal-sculptures/",
+            "blurb": "Seoul-born, Chicago-based Sungho Bae collects discarded stuffed animals from shops and disposal sites, deconstructs them, and rebuilds them over figurative armatures into sculptures that read as organs, muscle tissue, and amulets \u2014 the show is titled *Apotropaia*, after the ancient Greek concept of objects that ward off evil. The taxidermy eyes embedded in one piece called 'Dansu' (a cross-cut neck with feathers) sit at exactly the threshold between comfort object and body horror. The question the work keeps asking \u2014 why were these cherished things thrown away, and can their significance be reshaped \u2014 is genuinely open.",
             "tags": [
-              "art",
-              "grief",
-              "object-making"
-            ]
-          },
-          {
-            "title": "Cotton-and-fiberglass composite countertops \u2014 one decorative layer doing two jobs",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/10/cotton-fiberglass-composite-makes-lightweight-rv-countertops/",
-            "blurb": "Whitburn Studio built RV countertops using printed Japanese cotton as the aesthetic fiber layer and a single backing layer of fiberglass \u2014 not for strength, but to protect the cotton from sanding-through mistakes. The real structural work is done by a ply-XPS foam-ply sandwich inside, a moldless composite technique Burt Rutan pioneered in aircraft. The result: surfaces that look like fabric art and weigh almost nothing, produced without a mold.",
-            "tags": [
-              "fabrication",
-              "composites",
-              "materials"
+              "sculpture",
+              "material",
+              "art"
             ]
           }
         ]
@@ -113,102 +97,102 @@
     ],
     "facts": [
       {
-        "fact": "Claude improved a lower bound on the Riemann zeta function that had stood since the 1940s \u2014 moving it from 41.6% to 67.2% \u2014 and produced a formally machine-verifiable proof of the result.",
-        "url": "https://www.anthropic.com/research/riemann-zeta"
+        "fact": "Romania is set to become the EU's largest natural gas producer through the Neptun Deep offshore Black Sea project \u2014 which is also the site where Russian drones were just found drifting.",
+        "url": "https://arstechnica.com/gadgets/2026/08/romania-destroys-russian-drones-drifting-near-vital-european-offshore-gas-site/"
       },
       {
-        "fact": "Security researcher Cory Solovewicz has received 401,796 emails containing other people's private data simply by owning the domain noreply.net, which organizations assumed was an unmonitored void.",
-        "url": "https://arstechnica.com/security/2026/08/a-researcher-bought-noreply-net-companies-started-sending-him-secrets/"
+        "fact": "OpenAI recently announced the first-ever construction of a non-sofic group, solving one of group theory's most important open problems \u2014 a result Fields Medalist Timothy Gowers did not expect to see in his lifetime.",
+        "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/"
       },
       {
-        "fact": "The Centre for Countering Digital Hate \u2014 now active in US state legislatures \u2014 was founded by British Labour consultants, one of whom (Morgan McSweeney) went on to become a senior figure in UK government.",
-        "url": "https://www.effort.news/uk-lobby"
+        "fact": "SignalTrace can associate your phone with a vehicle you ride in regularly even without knowing your name, by clustering anonymous Bluetooth signals that repeatedly co-occur with a license plate.",
+        "url": "https://arstechnica.com/security/2026/08/new-surveillance-tech-links-your-phone-to-your-license-plate/"
       },
       {
-        "fact": "The Oxford Nanopore MinION DNA sequencer \u2014 small enough to hold in one hand \u2014 uses consumable cartridges containing nanopore arrays that can each only be used a few times before replacement, at \u00a3690 per unit.",
-        "url": "https://hackaday.com/2026/08/10/teardown-of-an-oxford-nanopore-minion-dna-sequencer/"
+        "fact": "Matthew Green's weekend blog post about OpenAI's encrypted reasoning blobs inspired a European research team to build an actual working attack that partially decrypts those private chain-of-thought traces.",
+        "url": "https://blog.cryptographyengineering.com/2026/05/29/fooling-around-with-encrypted-reasoning-blobs/"
       },
       {
-        "fact": "The Rubik's Cube has exactly 43,252,003,274,489,856,000 possible states \u2014 all of them now theoretically browsable via infinite scroll at everycube.alen.is.",
-        "url": "https://everycube.alen.is/"
+        "fact": "Hand-scratched holograms work on CD cases with no lasers \u2014 the diffraction pattern can be derived from first principles and then automated on a pen plotter using computed interference geometry.",
+        "url": "https://blog.jordan.matelsky.com/Penplotter-holography/"
       }
     ],
     "make_something": {
-      "prompt": "Take a document that was meant to go somewhere but didn't \u2014 an unsent letter, a boarding pass, a returned package label, a voided check \u2014 and use it as the literal substrate for something new. Paint, draw, or print over it, but let the original text and marks show through as structure. The bureaucratic geography of the document (dates, destinations, amounts, stamps) should do compositional work, not just hide under paint. One rule: you cannot cover anything completely."
+      "prompt": "Pick a single word \u2014 your name, a place, anything \u2014 and render it as a hologram scratch file for a pen plotter or CNC, using Matelsky's approach: compute the interference fringes mathematically and output them as vector paths. If you don't have a plotter, write the SVG generator and render it on screen first. The constraint is that the image should only be visible when the surface is tilted at an angle to a light source \u2014 visibility as a function of geometry, not pigment."
     },
     "art_picks": [
       {
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film that functions as a memory machine \u2014 Marker moves between Tokyo, Guinea-Bissau, and his own nervous system, tracing how images and rituals encode time and identity. The closest cinema gets to the feeling of deep-diving a rabbit hole at 3am and coming out changed.",
+        "why": "A film that thinks the way you work: images as systems, memory as architecture, the feedback loop between culture and the mind that records it. Marker moves through Tokyo, Guinea-Bissau, and Iceland treating the camera as an essay, not a document \u2014 the prototype for every interesting essay-film since. If you've seen it, see it again; if not, it's the one.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Mycelium Networks / Substrate Studies",
-        "creator": "Refik Anadol Studio",
-        "why": "Anadol's generative, data-sculpture practice sits exactly at the WebGL-meets-physical-world edge you live in \u2014 large-scale neural datasets rendered as breathing, architectural living matter. The work asks what it means to make something 'alive' from information.",
-        "url": "https://refikanadol.com/"
+        "title": "Early work (Neon and Language pieces, 1966\u201372)",
+        "creator": "Bruce Nauman",
+        "why": "Nauman turned the studio into a closed feedback loop and the body into a test instrument \u2014 his neon pieces are traps where language and light make each other unstable. The same obsession with systems, behavior, and the gap between a sign and its meaning that runs through your practice. The Walker's and MoMA's permanent collection pages have the deepest documentation.",
+        "url": "https://www.moma.org/artists/4165"
       },
       {
         "medium": "music",
-        "title": "Vespertine",
-        "creator": "Bj\u00f6rk",
-        "why": "A record built from the sounds of microscopic domestic life \u2014 ice crystals, cutlery, heartbeats \u2014 processed into something cathedral-sized. Systems thinking applied to intimacy, with an obsessive craft that rewards headphones and close listening.",
-        "url": "https://www.bjork.com/music/"
+        "title": "Versions (2007)",
+        "creator": "Matthew Dear",
+        "why": "A record that sits exactly at the seam where club music becomes something stranger \u2014 melodic, paranoid, architecture you can inhabit. Dear builds worlds with very few materials and then subverts the rules of those worlds mid-track. Good for making things.",
+        "url": "https://matthewdear.com"
       }
     ],
     "events": [
       {
-        "name": "Greater New York 2026 \u2014 Last Days",
-        "venue": "MoMA PS1, Long Island City, Queens",
-        "date_start": "2026-08-11",
+        "name": "Greater New York 2026 \u2014 Final Days",
+        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City, Queens",
+        "date_start": "2026-08-12",
         "date_end": "2026-08-17",
         "category": "museum",
-        "why": "53 artists and collectives from across the five boroughs, organized around surveillance, economic precarity, and shifting tech \u2014 the quinquennial snapshot of what NYC artists are actually making, spanning the whole building, free admission, and closing this week.",
+        "why": "PS1's quinquennial survey of 53 NYC-based early/mid-career artists \u2014 site-specific commissions spanning surveillance, shifting technologies, and economic precarity \u2014 closing this weekend, with Precious Okoyomon's living forest commission still on view through 2028; a curator-picked snapshot of what's actually being made in the city right now.",
         "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
-        "date": "Aug 11\u201317"
+        "date": "Aug 12\u201317"
       },
       {
-        "name": "New Humans: Memories of the Future \u2014 New Museum (3rd Floor closing Aug 23)",
-        "venue": "New Museum, 235 Bowery, Manhattan",
-        "date_start": "2026-08-11",
-        "date_end": "2026-08-23",
-        "category": "museum",
-        "why": "The New Museum's reopening mega-show \u2014 Hito Steyerl, Anicka Yi's autonomous floating aerobes, Pierre Huyghe, and 150+ others tracing a diagonal history of humanity and technology; the 3rd floor closes Aug 23, making this a genuine closing-window moment.",
-        "url": "https://www.newmuseum.org/exhibition/new-humans-memories-of-the-future/",
-        "date": "Aug 11\u201323"
-      },
-      {
-        "name": "Whitney Biennial 2026 \u2014 Final Stretch",
+        "name": "Whitney Biennial 2026 \u2014 Final Weeks",
         "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
-        "date_start": "2026-08-11",
+        "date_start": "2026-08-12",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "The 82nd Whitney Biennial, curated by Marcela Guerrero and Drew Sawyer, closes August 23 \u2014 last chance to see the full show before it's gone for another two years.",
+        "why": "The 82nd edition \u2014 56 artists organized around relationality, empire, and interspecies kinship \u2014 includes a decade-in-the-making playable video game by Casta\u00f1eda, a multi-sensory insect-extinction installation by Oswaldo Maci\u00e1, and Kelly Akashi's ghost-glass monument to wildfire loss; closes August 23 and won't travel.",
         "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 11\u201323"
+        "date": "Aug 12\u201323"
       },
       {
-        "name": "Joe Hisaishi \u2014 Film Music Concert (7-Night Residency)",
-        "venue": "Radio City Music Hall, 1260 Avenue of the Americas, Manhattan",
-        "date_start": "2026-08-11",
-        "date_end": "2026-08-17",
-        "category": "concert",
-        "why": "Hisaishi conducting and performing live on piano with MasterVoices and the Orchestra of St. Luke's \u2014 Ghibli scores, Kitano films, and Takahata, with film scenes projected; a rare live performance of music that is fundamentally about emotional systems and cinematic time.",
-        "url": "https://www.mastervoices.org/events/hisaishi2026/",
-        "date": "Aug 11\u201317"
+        "name": "Lily van der Stokker \u2014 Solo Exhibition",
+        "venue": "Kaufmann Repetto, 55 Walker St, TriBeCa",
+        "date_start": "2026-08-12",
+        "date_end": "2026-08-28",
+        "category": "museum",
+        "why": "Van der Stokker's work is deliberately, subversively decorative \u2014 pastel surfaces that smuggle in feminist critique and absurdist social commentary; a rare example of an artist who uses 'cute' as a conceptual weapon, and a smart counterpoint to the Biennial's conversation about the same.",
+        "url": "https://www.kaufmannrepetto.com",
+        "date": "Aug 12\u201328"
       },
       {
-        "name": "Midsummer Nights: Strings N' Skins",
-        "venue": "58 Seventh Avenue (Lincoln Place), Park Slope, Brooklyn",
-        "date_start": "2026-08-13",
-        "date_end": "2026-08-13",
+        "name": "Mirroring Nature \u2014 Group Exhibition",
+        "venue": "Nara Roesler, 511 W 21st St, Chelsea",
+        "date_start": "2026-08-12",
+        "date_end": "2026-08-22",
+        "category": "museum",
+        "why": "Curated by Luis P\u00e9rez-Oramas, this group show treats nature not as landscape but as a constellation of forces and feedback systems \u2014 aligns precisely with your interest in hidden systems and invisible structures that shape the world.",
+        "url": "https://www.nararoesler.art/exhibitions",
+        "date": "Aug 12\u201322"
+      },
+      {
+        "name": "Warm Up 2026 \u2014 Dopplereffekt / Cortisa Star / keiyaA",
+        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
+        "date_start": "2026-08-14",
+        "date_end": "2026-08-28",
         "category": "concert",
-        "why": "Brooklyn Conservatory of Music's free open-air series, curated by Melanie Charles and featuring artists who actively ignore genre boundaries \u2014 intimate, first-come seating on a street turned jazz club for one night.",
-        "url": "https://www.bkcm.org/midsummer-nights",
-        "date": "Thu, Aug 13"
+        "why": "The last three Fridays of PS1's outdoor music series (Aug 14, 21, 28) feature Dopplereffekt, Cortisa Star's lyrical drill, S\u00e3o Paulo bassline architects BADSISTA and DJ WORKING CLASS, and keiyaA's live R&B at the finale \u2014 unusually wide range of global electronic subcultures squeezed into one courtyard.",
+        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
+        "date": "Aug 14\u201328"
       }
     ]
   },
