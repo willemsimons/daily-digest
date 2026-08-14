@@ -1,24 +1,22 @@
 {
-  "feeds": 87,
-  "mined": 51,
-  "videos": 5,
+  "feeds": 91,
+  "mined": 43,
+  "videos": 4,
   "video_titles": [
     "How do submarines know where they are?",
     "Is spider web really stronger than steel?",
-    "The World's Heaviest Weight",
     "I made an apple peel itself",
     "The Euler Disc Is The Wrong Shape"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
-    "Aeon",
     "Ars Technica",
-    "Geopolitical Daily",
-    "MIT Technology Review",
-    "Simon Willison",
-    "Wikipedia / HN"
+    "Current.org",
+    "Geoffrey Litt",
+    "GitHub / xoreaxeaxeax",
+    "mun-logadan.github.io"
   ],
-  "had_video": true,
-  "run_at": "2026-08-13T12:15:07.893203+00:00"
+  "had_video": false,
+  "run_at": "2026-08-14T12:12:45.210902+00:00"
 }

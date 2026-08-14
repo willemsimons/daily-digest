@@ -1,95 +1,79 @@
 {
   "digest": {
-    "intro": "Matter made of pure force, fonts that lie, and typefaces that toppled empires.",
+    "intro": "Hardware breaks, doctrines break, and the archive almost disappears.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Gaza Deal Collapse + Ukraine Hits Russia 1,200km Deep",
-            "source": "Geopolitical Daily",
-            "url": "https://buttondown.com/geodaily/archive/geopolitical-daily-august-11-2026/",
-            "blurb": "The US-brokered Gaza ceasefire fell apart due to Israeli coalition politics \u2014 not battlefield logic \u2014 making Hamas's disarmament pledge functionally moot and straining Trump-Netanyahu relations at a volatile moment. Simultaneously, Ukrainian drones struck the Taneco refinery in Tatarstan and a major Tyumen petrochemical facility \u2014 the deepest strikes yet into Russian territory \u2014 in what analysts read as a deliberate pre-winter campaign to erode Russian refining capacity rather than chase territorial gains. The slower-burn logic: attrition of export revenue may pressure Kremlin negotiating incentives more than frontline losses ever could.",
+            "title": "Ukraine's Drone Teams Wiped Out an Entire US Armored Brigade \u2014 Repeatedly",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/",
+            "blurb": "During Combined Resolve exercises in Germany, Ukrainian operators from the 412th 'Nemesis' regiment destroyed 3,500-strong US armored formations \u2014 M1A2 tanks, Bradleys, everything \u2014 so quickly that referees had to respawn vehicles to keep the drill running. By the end of two weeks, US troops had gotten meaningfully better at dispersal and countermeasures, but the baseline finding is stark: on an observed battlefield, heavy armor is now a liability without layered drone suppression. NATO doctrine is being rewritten in real time by exercises, not theory.",
             "tags": [
-              "geopolitics",
-              "ukraine",
-              "middle east"
+              "military",
+              "drones",
+              "doctrine"
             ]
           },
           {
-            "title": "Why 2027 Could Be Hotter Than This Summer",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/",
-            "blurb": "June and July 2026 were the hottest two-month stretch in European recorded history, and the contiguous US hit its hottest July on record \u2014 but the El Ni\u00f1o event now underway typically peaks its temperature effect the following year, meaning 2027 may be worse. Europe is the world's fastest-warming continent after the Arctic; a comparable heat wave in 1976 would have been 3.5\u00b0C cooler under today's atmospheric conditions. The compounding structure \u2014 baseline warming accelerated by El Ni\u00f1o's delayed signal \u2014 is the part most coverage is missing.",
+            "title": "The White House Just Authorized Private Companies to Hack Overseas Criminal Groups",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/08/white-house-recruits-security-firms-to-hack-overseas-cybercriminals/",
+            "blurb": "A National Security Presidential Memorandum now permits private security firms to conduct 'Cyber Surveillance Operations and Cyber Effects Operations' against foreign transnational criminal organizations \u2014 ransomware gangs, sextortion networks, phishing operations \u2014 with DOJ and DHS oversight. This is the first time the US government has formally authorized private offensive cyber operations, and the program details remain deliberately vague. The accountability gap is the actual story: when a private firm miscalculates attribution and hits the wrong server in, say, an allied country, the chain of responsibility runs nowhere clear.",
             "tags": [
-              "climate",
-              "geophysics",
-              "el ni\u00f1o"
+              "cyber",
+              "policy",
+              "sovereignty"
             ]
           }
         ]
       },
       {
-        "heading": "Science",
+        "heading": "Making and thinking",
         "items": [
           {
-            "title": "Glueballs Are Real: Matter Made Entirely of Force, Confirmed",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/",
-            "blurb": "The Beijing Spectrometer III collaboration \u2014 700 scientists from 15 countries, working from a dataset of 10 billion J/\u03c8 particle decays \u2014 has produced convincing evidence that X(2370) is a glueball: a particle composed entirely of gluons, the carriers of the strong nuclear force, with no quarks at all. This has been a 50-year open prediction of quantum chromodynamics; gluons, counterintuitively, account for most of the mass of protons and neutrons (not the quarks themselves), so validating their bound state rewrites what we mean by 'matter.' Called a triumph by Carnegie Mellon theorists \u2014 the comparison to the Higgs discovery is not hype.",
+            "title": "Spaghettifying DRAM: Unlocking Everything the Specs Left Out",
+            "source": "GitHub / xoreaxeaxeax",
+            "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+            "blurb": "xoreaxeaxeax \u2014 the author behind legendary low-level technical art projects \u2014 has released skitter-creek-bath-salts, which rewires DRAM address translations at the physical layer to expose memory carveouts invisible even to the kernel, unlocking the Platform Security Processor, System Management Mode, CPU microcode, and C6 DRAM on AMD Family 16h processors. The trick works because AMD's last generation with documented DRAM controller translation registers also left them unlockable \u2014 newer generations simply omit the documentation. It reads like a Borges story about abstraction: every dereference of *p passes through so many translation layers that poking one layer scrambles the whole stack, and security primitives built on top collapse.",
             "tags": [
-              "physics",
-              "qcd",
-              "particle physics"
+              "hardware",
+              "low-level",
+              "security"
             ]
           },
           {
-            "title": "CRISPR Removes the Y Chromosome to Make Female Clones from Male Mice",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/12/1141768/scientists-just-created-female-clones-of-male-mice/",
-            "blurb": "A Japanese team used a CRISPR-based approach to strip the Y chromosome from male mouse cells and produce viable female clones \u2014 something no one had deliberately done before. The inspiration was the Okinawa rubble goby, a fish that spontaneously changes sex when no males are present. This is a preprint, not yet peer-reviewed, but the conservation implications are already attracting serious attention: for endangered species where only a few individuals remain, breaking the male/female reproduction requirement is a non-trivial unlock.",
-            "tags": [
-              "crispr",
-              "biology",
-              "reproduction"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "The authorship problem becomes infrastructure",
-        "items": [
-          {
-            "title": "Anthropic Is Watermarking Everything Claude Touches \u2014 Including Your Edits",
+            "title": "Czinger's Topology-Optimized Brakes Look Like Bone",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/08/claudes-new-scarlet-letter-watermark-is-invisible-for-now/",
-            "blurb": "Anthropic is rolling out invisible machine-readable watermarks on all content processed by Claude \u2014 not just generated from scratch, but any text the model touches, including light edits to human-written work. The EU AI Act only requires watermarking when AI 'substantially alters' content, but Anthropic is applying a global, nuke-it-from-orbit policy covering all new models worldwide. The downstream consequences for publishing, legal authorship, and creative work are enormous: if a model corrects your grammar, your document now carries a mark.",
+            "url": "https://arstechnica.com/cars/2026/08/czinger-debuts-topology-optimized-brakes-with-21c-spyder/",
+            "blurb": "Czinger's new 21C Spyder brake assemblies are produced via direct-metal laser sintering and topology optimization \u2014 the algorithm removes material everywhere it isn't structurally needed, producing organic, bone-like geometries that couldn't be manufactured any other way. It's the same logic that shaped the 21C's chassis, which already looked more grown than built. The deeper business thesis is that making your own car is just a proof-of-concept for selling the fabrication method itself to automotive and aerospace clients \u2014 and it's working.",
             "tags": [
-              "ai policy",
-              "watermarking",
-              "authorship"
+              "fabrication",
+              "design",
+              "additive manufacturing"
             ]
           },
           {
-            "title": "A Font That Shows Humans One Thing and Feeds AI Scrapers Nonsense",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/",
-            "blurb": "ShieldFont, by designers Isaque Seneda and Gabriel Abrucio, weaponizes OpenType ligatures \u2014 a feature normally used to improve letter-pair readability \u2014 to silently substitute entire words in the HTML source while rendering normally on screen. A scraper pulling plaintext gets a document where 'horse' might read as 'potato'; a human sees nothing wrong. The adversarial move is calibrated: replacements aren't simple synonyms (too easy to reverse) or pure gibberish (too easy to filter), but semantically disruptive substitutions designed to degrade training data value.",
+            "title": "Understanding Is the New Bottleneck",
+            "source": "Geoffrey Litt",
+            "url": "https://www.geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck",
+            "blurb": "As agents write more code, Litt argues the constraint shifts from production to comprehension \u2014 and crucially, not comprehension-for-verification (agents are getting better at checking their own work) but comprehension-as-steering: you can only direct a system you understand, and the further ahead you want to think, the more you need to actually know what you've built. His practical techniques \u2014 code explainer docs, quizzes, 'micro-worlds' for playing with subsystems \u2014 are less interesting than the underlying reframe: understanding is now a creative act, not a quality-control step.",
             "tags": [
-              "typography",
               "ai",
-              "adversarial design"
+              "craft",
+              "software"
             ]
           },
           {
-            "title": "Stealing Reasoning Traces from Encrypted LLM APIs",
-            "source": "Simon Willison",
-            "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/",
-            "blurb": "Anthropic, OpenAI, and Google all return encrypted chain-of-thought blocks via their APIs \u2014 but researchers discovered that every model within the same family shared the same encryption key. Feed a strong model's encrypted reasoning block into a weaker sibling, jailbreak the weaker model, and the stronger model's hidden thinking comes out in plaintext. All three providers have since patched it, but the structural revelation stands: 'opaque' and 'secure' are not the same thing, and what you return to a client is always a potential attack surface.",
+            "title": "Why the More Capable Model Feels Worse to Work With",
+            "source": "mun-logadan.github.io",
+            "url": "https://mun-logadan.github.io/why-does-opus-5-feel-worse/",
+            "blurb": "The hypothesis here is precise: benchmark training selects for models that make bold assumptions in the face of ambiguity (stopping to ask questions is penalized on self-contained tasks), so the more capable Opus 5 constantly reinterprets and acts rather than checking \u2014 requiring more babysitting than its predecessors. It's a clean example of how optimizing for a proxy metric reshapes behavior in ways that downstream users experience as aesthetic regression. The collaborator that asks fewer questions is, paradoxically, harder to work with.",
             "tags": [
-              "ai security",
-              "llm",
-              "research"
+              "ai",
+              "design",
+              "cognition"
             ]
           }
         ]
@@ -98,127 +82,111 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The Century-Long German War Fought Entirely Through Typefaces",
-            "source": "Wikipedia / HN",
-            "url": "https://en.wikipedia.org/wiki/Antiqua%E2%80%93Fraktur_dispute",
-            "blurb": "After Napoleon dissolved the Holy Roman Empire in 1806, German nationalists began using typeface preference as a proxy war for national identity: Fraktur (blackletter) stood for authentic German culture; Antiqua (Roman) for cosmopolitan modernity. The dispute ran for over a century through pamphlets, parliamentary motions, and academic feuds \u2014 and ended with a twist: the Nazis, despite being the obvious Fraktur faction, banned it in 1941, declaring it a 'Jewish typeface' and mandating Antiqua instead. Every aesthetic position, it turns out, is available to be conscripted.",
+            "title": "Nine PBS's 70-Year Archive Is Trapped in a Data Center by a Defunct Middleman",
+            "source": "Current.org",
+            "url": "https://current.org/2026/08/nine-pbs-sues-iron-mountain-over-blocked-access-to-archival-data/",
+            "blurb": "St. Louis's Nine PBS is suing Iron Mountain after their cloud storage vendor, Open Source Storage, went defunct \u2014 leaving 50+ terabytes of archival material (70 years of St. Louis broadcast history) sitting in an Iron Mountain data center that Iron Mountain won't release because its client relationship was with OSS, not the station whose content it is. A judge has already blocked deletion pending a hearing. This is the physical-custody economy applied to cultural memory: the archive exists, is intact, and is completely inaccessible because of a contractual trilemma between three parties, one of which no longer exists.",
             "tags": [
-              "typography",
-              "history",
-              "ideology"
+              "archives",
+              "infrastructure",
+              "culture"
             ]
-          },
-          {
-            "title": "James Turrell's Observatory: 13,000 Years of Sky, Half a Century in the Making",
-            "source": "Aeon",
-            "url": "https://aeon.co/videos/in-the-remote-desert-an-awe-inspiring-artwork-collapses-time-and-space",
-            "blurb": "Turrell's New Mexico observatory is built so precisely that it frames deep time \u2014 13,000 years forward and backward \u2014 through the quality of desert light and the geometry of the aperture. Aeon's film documents a work that has been in progress for fifty years, which is itself part of the piece: an artwork whose scale of intention matches the scale of what it's measuring. If you've ever wondered what it feels like to build something that outlives you by design, this is the case study.",
-            "tags": [
-              "land art",
-              "light",
-              "deep time"
-            ],
-            "thumbnail": "https://aeon.co/videos/in-the-remote-desert-an-awe-inspiring-artwork-collapses-time-and-space"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "Most of the mass in protons and neutrons doesn't come from quarks \u2014 it comes from the gluons holding them together, which is why confirming glueballs matters for understanding where mass comes from.",
-        "url": "https://arstechnica.com/science/2026/08/have-physicists-finally-discovered-glueballs-new-evidence-points-to-yes/"
+        "fact": "US armored vehicles were destroyed by Ukrainian drone operators so rapidly during Combined Resolve exercises that military referees had to 'respawn' them repeatedly just to keep the two-week drill running.",
+        "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-wipe-out-entire-us-tank-brigade-in-live-war-game/"
       },
       {
-        "fact": "A heat wave equivalent to Europe's May 2026 event would have been 3.5\u00b0C cooler if it had occurred under 1976 atmospheric conditions.",
-        "url": "https://www.technologyreview.com/2026/08/13/1141788/summer-heat-el-nino/"
+        "fact": "AMD's Family 16h processors are the last generation whose datasheets actually document the DRAM controller's translation registers \u2014 and also confirm those registers cannot be locked, an omission that later generations fixed simply by removing the documentation.",
+        "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts"
       },
       {
-        "fact": "ShieldFont's word substitutions happen only when the font engine renders the page \u2014 scrapers pulling raw HTML source get the altered text; human readers never see anything wrong.",
-        "url": "https://arstechnica.com/ai/2026/08/new-font-turns-ordinary-webpages-into-nonsense-for-ai-scrapers/"
+        "fact": "Only one third of Flock's law-enforcement agency clients had opted into a free anomaly-detection tool designed to catch officers using the license plate reader network to stalk acquaintances \u2014 the tool was optional until a single Georgia sheriff's office used it to arrest three such officers.",
+        "url": "https://arstechnica.com/tech-policy/2026/08/flock-cant-tech-its-way-out-of-the-stalker-cop-problem-experts-say/"
       },
       {
-        "fact": "The Nazi Party banned Fraktur typeface in 1941 \u2014 despite its association with German nationalist identity \u2014 by declaring it a 'Jewish typeface' and mandating Roman Antiqua instead.",
-        "url": "https://en.wikipedia.org/wiki/Antiqua%E2%80%93Fraktur_dispute"
-      },
-      {
-        "fact": "Researchers found that all models within the same LLM family (e.g. GPT-5.6 variants) shared a single encryption key for their chain-of-thought blocks, allowing reasoning traces from stronger models to be decrypted via weaker siblings.",
-        "url": "https://simonwillison.net/2026/Aug/11/stealing-reasoning-traces/"
+        "fact": "A new study found that a mother dolphin in Queensland taught her calf the 'shelling' technique \u2014 trapping fish inside conch shells and draining them at the surface \u2014 overturning a previous study's conclusion that the behavior spreads only through peer-to-peer horizontal learning.",
+        "url": "https://nautil.us/watch-australian-dolphin-filmed-catching-fish-with-shells-1283734/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Wavelength",
-        "creator": "Michael Snow",
-        "why": "A 45-minute zoom across a loft that doubles as a treatise on time, space, and perception \u2014 pure durational systems cinema that rewards exactly the kind of obsessive structural attention Willem brings to his own work. It will make you want to rebuild your entire visual approach.",
-        "url": "https://letterboxd.com/film/wavelength/"
-      },
-      {
-        "medium": "music",
-        "title": "Trilogie de la Mort",
-        "creator": "\u00c9liane Radigue",
-        "why": "Three hours of drone composed on a single ARP synthesizer, built through feedback loops and near-imperceptible variation \u2014 a person who went unreasonably deep on one narrow thing for six decades. The invisible system *is* the surface.",
-        "url": "https://www.youtube.com/watch?v=1uQUJ7RWKBA"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film-essay that operates as pure systems thinking about memory, ritual, and how cultures encode meaning \u2014 Tokyo arcades, African ceremony, and the feedback loops of image-making itself. The closest cinema gets to a WebGL meditation on how brains construct reality from fragments.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "The Paintings for the Temple",
-        "creator": "Hilma af Klint",
-        "why": "193 large-scale paintings made in secret from 1906\u20131915, years before Kandinsky or Mondrian \u2014 geometric, symbolic, spiritually systematic in a way that feels less like mysticism and more like a solo attempt to invent a new language for invisible forces. The hidden system that quietly ran ahead of art history.",
-        "url": "https://www.hilmaafklint.se/"
+        "title": "In Light of Innocence (Ra\u00fal de Nieves) + How To Get To Zero (Tega Brain & Sam Lavigne)",
+        "creator": "Ra\u00fal de Nieves / Tega Brain & Sam Lavigne",
+        "why": "De Nieves transforms Pioneer Works' entire main hall into a cathedral built from cheap materials and tarot visual language \u2014 expressive surface with deeply structural spiritual critique. Brain and Lavigne's first institutional survey pairs it perfectly: systems art with genuine human consequence.",
+        "url": "https://pioneerworks.org/exhibitions"
+      },
+      {
+        "medium": "music",
+        "title": "Vespertine",
+        "creator": "Bj\u00f6rk",
+        "why": "An album built from micro-sounds \u2014 harps, music boxes, choir, beats assembled from the noise of a living body \u2014 that turns interiority into architecture. It rewards the same close-listening that rewards close-looking at generative systems, and it holds up as a complete world unto itself.",
+        "url": "https://bjork.com"
       }
     ],
     "events": [
       {
-        "name": "Oren Fischer \u2014 HALLEL, in collaboration with Havurah",
-        "venue": "81 Leonard Gallery, 81 Leonard St (at Church), TriBeCa",
-        "date_start": "2026-08-06",
-        "date_end": "2026-09-05",
+        "name": "Monumental (Group Exhibition)",
+        "venue": "Artnet Gallery Network, New York",
+        "date_start": "2026-07-16",
+        "date_end": "2026-08-28",
         "category": "museum",
-        "why": "A solo show building ritual, communal song, and sacred text into visual work \u2014 exactly the kind of category-blurring that turns art into community and mythology into material, in a small TriBeCa gallery that rewards close looking.",
-        "url": "https://www.81leonardgallery.com",
-        "date": "Aug 6 \u2013 Sep 5"
+        "why": "Running through Aug 28 \u2014 worth catching in its final stretch if the scale and ambition of the premise matches what it promises on the page.",
+        "url": "https://www.artnet.com/events/new-york/",
+        "date": "Jul 16 \u2013 Aug 28"
       },
       {
-        "name": "Greater New York 2026 \u2014 Last Days",
-        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City, Queens",
-        "date_start": "2026-08-13",
-        "date_end": "2026-08-17",
-        "category": "museum",
-        "why": "53 artists and collectives filling the entire PS1 building \u2014 painting next to animation next to scenography \u2014 organized around surveillance, economic precarity, and shifting technologies; admission is free and this is the final week.",
-        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
-        "date": "Aug 13\u201317"
+        "name": "Grand Hotel Estate \u2014 In Collaboration with Nilufar",
+        "venue": "81 Leonard Gallery, 240 Church St, Tribeca",
+        "date_start": "2026-07-28",
+        "date_end": "2026-10-22",
+        "category": "popup",
+        "why": "A collaboration between a design-forward gallery and Milan's Nilufar \u2014 furniture and objects as cultural artifacts rather than product, the physical/digital edge of design-as-self-expression that sits squarely in Willem's territory.",
+        "url": "https://www.galerie56.com",
+        "date": "Jul 28 \u2013 Oct 22"
       },
       {
-        "name": "New Humans: Memories of the Future \u2014 Floors 2 & 3 Closing",
-        "venue": "New Museum, 235 Bowery, New York",
-        "date_start": "2026-08-13",
-        "date_end": "2026-08-23",
-        "category": "museum",
-        "why": "700+ objects across the New Museum's expanded SANAA/OMA campus tracing what it means to be human through a century of mechanical, biological, and spiritual invention \u2014 Anicka Yi's autonomous biomechanical drones alone are worth the trip; the 3rd floor closes Aug 23.",
-        "url": "https://www.newmuseum.org/exhibition/new-humans-memories-of-the-future/",
-        "date": "Aug 13\u201323"
-      },
-      {
-        "name": "Whitney Biennial 2026 \u2014 Final Weekend",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort St, New York",
-        "date_start": "2026-08-13",
-        "date_end": "2026-08-23",
-        "category": "museum",
-        "why": "The 82nd Biennial closes Aug 23 \u2014 last chance to see what curators Marcela Guerrero and Drew Sawyer chose as the pulse-check on American art right now, before the institutional dust settles and the takes calcify.",
-        "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 13\u201323"
-      },
-      {
-        "name": "Warm Up 2026 \u2014 August 14 & 21",
-        "venue": "MoMA PS1 Courtyard, 22-25 Jackson Ave, Long Island City, Queens",
+        "name": "Whitney Biennial 2026 (82nd Edition) \u2014 Final Days",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
         "date_start": "2026-08-14",
-        "date_end": "2026-08-21",
+        "date_end": "2026-08-23",
+        "category": "museum",
+        "why": "Curated without a preset thesis \u2014 shaped instead by 300+ studio visits \u2014 the show foregrounds mood and texture over argument, with works exploring interspecies kinship, technological affinity, and 'subversive cuteness'; artists include Joshua Citarella, Julio Torres, and Basel Abbas & Ruanne Abou-Rahme, and this is your last window before it closes.",
+        "url": "https://whitney.org/exhibitions/2026-biennial",
+        "date": "Aug 14\u201323"
+      },
+      {
+        "name": "Lily van der Stokker: Male Art Exhibition, Great Show",
+        "venue": "kaufmann repetto, 55 Walker St, Tribeca",
+        "date_start": "2026-08-14",
+        "date_end": "2026-08-28",
+        "category": "museum",
+        "why": "Van der Stokker's playfully subversive paintings deploy pastel decoration and domestic language as critique of masculinity and institutional art \u2014 expressive surface smuggling structural provocation, exactly the category-blurring Willem tends to respond to.",
+        "url": "https://www.kaufmannrepetto.com",
+        "date": "Aug 14\u201328"
+      },
+      {
+        "name": "International Puppet Fringe Festival",
+        "venue": "Multiple venues, New York City",
+        "date_start": "2026-08-14",
+        "date_end": "2026-08-16",
         "category": "concert",
-        "why": "PS1's 28th-season outdoor electronic music series, 4\u201310pm on Fridays \u2014 this year's lineup spans dub, techno, gabber, house, and avant-garde improvisation, with the museum galleries open late and Precious Okoyomon's living courtyard forest as the backdrop.",
-        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
-        "date": "Aug 14\u201321"
+        "why": "Back after a three-year hiatus \u2014 five days of wildly inventive puppetry from around the world that consistently operates as outsider performance art; the puppet frame is rarely just puppets, it's a cover for things too strange for conventional theater.",
+        "url": "https://www.timeout.com/newyork/events-calendar/august-events-calendar",
+        "date": "Aug 14\u201316"
       }
     ]
   },
