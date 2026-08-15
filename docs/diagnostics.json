@@ -1,6 +1,6 @@
 {
-  "feeds": 91,
-  "mined": 43,
+  "feeds": 82,
+  "mined": 50,
   "videos": 4,
   "video_titles": [
     "How do submarines know where they are?",
@@ -9,14 +9,15 @@
     "The Euler Disc Is The Wrong Shape"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 6,
   "final_sources": [
     "Ars Technica",
-    "Current.org",
-    "Geoffrey Litt",
-    "GitHub / xoreaxeaxeax",
-    "mun-logadan.github.io"
+    "Google Security Blog",
+    "Matt Green / Cryptography Engineering",
+    "Nautilus",
+    "conic.al",
+    "eigendrum.com"
   ],
   "had_video": false,
-  "run_at": "2026-08-14T12:12:45.210902+00:00"
+  "run_at": "2026-08-15T11:48:52.646315+00:00"
 }
