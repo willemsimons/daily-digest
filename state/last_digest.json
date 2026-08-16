@@ -1,68 +1,79 @@
 {
   "digest": {
-    "intro": "Encryption fades, eigenvalues sing, and blood stems cells age badly.",
+    "intro": "War reaches Russia's rocket factories, AI commoditizes, and Unicode ghosts haunt everything.",
     "sections": [
       {
-        "heading": "The architecture of surveillance",
+        "heading": "World",
         "items": [
           {
-            "title": "Going Dark: How AI Making Software Secure Is a Problem for Intelligence Agencies",
-            "source": "Matt Green / Cryptography Engineering",
-            "url": "https://blog.cryptographyengineering.com/2026/08/14/everything-is-about-to-go-dark/",
-            "blurb": "Matt Green's argument is counterintuitive and precise: if AI starts writing genuinely secure software, law enforcement loses the vulnerability-riddled attack surface it currently relies on for legal hacking \u2014 a covert capability that grew to replace wiretapping after encryption won. The concern isn't that surveillance disappears, it's that agencies will push hard for legislative backdoors or offensive hacking powers in response, and that fight will land on the rest of us.",
-            "tags": [
-              "surveillance",
-              "cryptography",
-              "ai"
-            ]
-          },
-          {
-            "title": "Prompt Injection as Legal Strategy",
+            "title": "Ukraine Hits Russia's Soyuz Factory \u2014 900 km Deep",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/",
-            "blurb": "A Connecticut plaintiff hid white-on-white text in court filings, formatted to be invisible to humans but readable by AI \u2014 essentially injecting instructions into any system the court might be using to process documents. The attack didn't work, but the judge called it 'dangerous' and it's almost certainly not the last attempt; it reveals a whole new adversarial surface that opens the moment institutions start routing decisions through language models.",
+            "url": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
+            "blurb": "Ukrainian Flamingo cruise missiles struck the Progress Rocket Space Center in Samara \u2014 the facility that assembles Soyuz-2 rockets used for both military satellites and ISS crew launches. Open-source reports suggest the hit may have targeted the clean room for avionics. Russia was already running a Soyuz shortage before this.",
             "tags": [
-              "ai",
-              "law",
-              "adversarial"
+              "geopolitics",
+              "war",
+              "space"
             ]
           },
           {
-            "title": "The Other Sean Byrne Doesn't Exist",
-            "source": "conic.al",
-            "url": "https://conic.al/writing/the-other-sean-byrne-doesnt-exist/",
-            "blurb": "Apple banned a developer from App Store Connect after their name matched a 2009 Commerce Department sanctions entry for someone in County Sligo, Ireland \u2014 a person who may not even exist as a distinct individual. The piece is a meticulous forensic reconstruction of how a bureaucratic data artifact can colonize your digital identity without any human ever reviewing whether it makes sense.",
+            "title": "Super El Ni\u00f1o Accelerating Toward Historic Territory",
+            "source": "Severe Weather EU",
+            "url": "https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/",
+            "blurb": "Record westerly wind anomalies across the equatorial Pacific are feeding a Kelvin Wave of subsurface heat that keeps pushing peak forecasts higher \u2014 the 2026 event is now tracking into historically unprecedented territory for fall/winter. That means disrupted precipitation, stressed food systems, and energy demand spikes across North America and Europe simultaneously. This is the kind of slow-moving variable that reshapes geopolitics before anyone is paying attention to it.",
             "tags": [
-              "identity",
-              "surveillance",
-              "bureaucracy"
-            ]
-          },
-          {
-            "title": "Google's Homomorphic Encryption Compiler Makes Private AI Inference Real",
-            "source": "Google Security Blog",
-            "url": "https://blog.google/security/how-google-is-making-private-ai-practical-with-homomorphic-encryption/",
-            "blurb": "HEIR is an open-source compiler that lets servers run AI inference directly on encrypted data \u2014 the server processes ciphertexts and returns encrypted results without ever seeing your inputs or exposing the model weights. Homomorphic encryption has been theoretically compelling for decades but computationally absurd; if this compiler genuinely closes the overhead gap, it quietly rewires what private AI infrastructure is possible in healthcare, finance, and anywhere else data-sharing is legally toxic.",
-            "tags": [
-              "cryptography",
-              "ai",
-              "privacy"
+              "climate",
+              "geopolitics",
+              "infrastructure"
             ]
           }
         ]
       },
       {
-        "heading": "Make and matter",
+        "heading": "Tools & infrastructure you're building in",
         "items": [
           {
-            "title": "Eigendrum: A Drum Machine Built on the Physics of Vibrating Shapes",
-            "source": "eigendrum.com",
-            "url": "https://eigendrum.com/#p=circle",
-            "blurb": "Draw a shape, and Eigendrum solves the eigenvalue problem for that drumhead numerically \u2014 covering it with a finite element mesh, finding the smallest eigenvalues of K\u03c6 = \u03bbM\u03c6, and deriving resonant frequencies from Bessel function zeros for circles or the \u03c0\u00b2(m\u00b2/a\u00b2 + n\u00b2/b\u00b2) formula for rectangles. Where you strike matters physically: hit a nodal line and that mode won't excite at all, which wasn't programmed in, it falls out of the math. Worth ten minutes right now.",
+            "title": "Patch Now: macOS Screen-Sharing Exploit Under Active Attack",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
+            "blurb": "CVE-2026-65400 is a state-management flaw in macOS screen sharing (port 5900) that lets a remote attacker gain root without credentials \u2014 Dutch authorities confirmed it's actively exploited in the wild, with Monero miners being dropped on compromised machines. Apple patched it last week for Tahoe, Sequoia, and Sonoma; if you haven't updated and have screen sharing on, that's the one thing to do today.",
             "tags": [
-              "generative",
-              "audio",
-              "math"
+              "security",
+              "macos",
+              "practical"
+            ]
+          },
+          {
+            "title": "AI Commoditizes: OpenAI and Anthropic in a Price War They Didn't Want",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
+            "blurb": "GPT-5.6 Luna just dropped 80% in price; Claude Opus 5 launched at half the cost of its predecessor \u2014 both moves driven by Chinese open-weight models (DeepSeek, Moonshot) that users are freely downloading and self-hosting. Token prices across the major US labs have fallen nearly 25% since mid-July. For anyone building on top of these APIs, the structural story is now clear: frontier model performance is no longer a defensible moat.",
+            "tags": [
+              "ai",
+              "infrastructure",
+              "market"
+            ]
+          },
+          {
+            "title": "Backflip: Scan a Mesh, Get a CAD Model",
+            "source": "Fabbaloo",
+            "url": "https://www.fabbaloo.com/",
+            "blurb": "Backflip has added AI-powered reverse engineering that converts mesh files (STL, OBJ) into editable CAD models \u2014 closing the loop between scanned physical objects and printable, modifiable geometry. If it holds up in practice, it removes one of the most annoying gaps in physical-to-digital workflows: the 'dumb mesh' problem where you can't edit what you scanned.",
+            "tags": [
+              "fabrication",
+              "3d",
+              "tools"
+            ]
+          },
+          {
+            "title": "AI Isn't Out-Reasoning Mathematicians. It's Out-Remembering Them.",
+            "source": "Davide Piffer / Substack",
+            "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
+            "blurb": "The argument: a human mathematician can hold maybe 4-7 unfamiliar elements in working memory simultaneously; a frontier model keeps the entire problem statement, hundreds of intermediate equations, multiple abandoned approaches, and all constraints in context at once. What looks like superior reasoning in domains like mathematics may be substantially the removal of a biological bottleneck \u2014 working memory \u2014 rather than deeper intelligence. A useful reframe for thinking about where human cognition actually holds its edge.",
+            "tags": [
+              "ai",
+              "cognition",
+              "research"
             ]
           }
         ]
@@ -71,14 +82,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The Sleep Paradox: Humans Sleep Less Than Any Other Ape and Won Anyway",
-            "source": "Nautilus",
-            "url": "https://nautil.us/where-human-sleep-went-wrong-1283797/",
-            "blurb": "Evolutionary anthropologist David Samson lived with the Hadza in Tanzania and found their sleep was fragmented, short, and low-efficiency by clinical standards \u2014 yet they reported high satisfaction. His broader puzzle: humans sleep fewer total hours than any other ape and are still the most evolutionarily successful primate, which means either our sleep is doing something unusually efficient, or the Western medical model of unbroken eight hours is a historical aberration rather than a biological imperative. The Hadza data suggests the social architecture of sleep \u2014 staying up late telling stories, sharing food \u2014 may matter as much as the duration.",
+            "title": "The Ghost Characters That Haunted Unicode for Decades",
+            "source": "Dampfkraft",
+            "url": "https://www.dampfkraft.com/ghost-characters.html",
+            "blurb": "In 1978, Japan's Ministry of Economy standardized JIS X 0208 and accidentally codified several characters that no one could read, pronounce, or source \u2014 they had no meaning, no origin, no speaker. A 1997 investigation traced most of them to OCR scanning errors and bureaucratic transcription accidents: a scribe misread a handwritten place name, a character got split in two, a smudge became a glyph, and then the standard froze it in place forever. They're still in Unicode. Systems accumulate ghosts.",
             "tags": [
-              "evolution",
-              "sleep",
-              "anthropology"
+              "language",
+              "systems",
+              "history"
             ]
           }
         ]
@@ -86,98 +97,114 @@
     ],
     "facts": [
       {
-        "fact": "A Circle's resonant frequencies on Eigendrum are derived from zeros of Bessel functions \u2014 the solver reproduces them to better than a tenth of a percent, and because it minimizes energy over a restricted space, its answers are guaranteed to be slight overestimates, never under.",
-        "url": "https://eigendrum.com/#p=circle"
+        "fact": "The Progress Rocket Space Center in Samara assembles the Soyuz-2 \u2014 the rocket Russia uses to send humans to the International Space Station \u2014 and Russia was already facing a Soyuz shortage before Ukraine struck it.",
+        "url": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/"
       },
       {
-        "fact": "The first test flight of Heart Aerospace's X1 \u2014 the largest battery-electric aircraft ever flown, capable of more than one megawatt of peak power \u2014 lasted nearly half an hour and consumed just $5 of electricity.",
-        "url": "https://arstechnica.com/gadgets/2026/08/first-test-flight-of-largest-all-electric-aircraft-used-just-5-of-electricity/"
+        "fact": "Dutch cybersecurity authorities confirmed that attackers exploiting the macOS screen-sharing bug (CVE-2026-65400) gained root access on multiple systems and installed Monero cryptocurrency miners \u2014 root, via a screen-sharing port left open to the internet.",
+        "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/"
       },
       {
-        "fact": "A Connecticut judge confirmed that a plaintiff hid prompt-injection instructions in court filings using white text on a white background at tiny point size \u2014 formatted to be invisible to humans but fully legible to any software reading the document.",
-        "url": "https://arstechnica.com/tech-policy/2026/08/suspecting-court-of-using-ai-man-injected-prompts-in-filings-to-try-to-win-case/"
+        "fact": "Token prices paid by customers of major US AI labs fell nearly 25% between mid-July and early August 2026, driven by competition from freely downloadable Chinese open-weight models.",
+        "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
       },
       {
-        "fact": "SIRT3, a mitochondrial deacetylase whose expression declines with age, has been identified as a key molecular brake on the 'trained immunity' that aging hematopoietic stem cells trigger \u2014 the mechanism driving the chronic low-grade inflammation underlying age-related decline.",
-        "url": "https://www.nature.com/subjects/stem-cells"
+        "fact": "Some of the Unicode ghost characters were traced to a seven-volume, 6,300-page Japanese place-name registry \u2014 investigators had to search it without page references to find characters that turned out to be OCR misreads of handwritten kanji.",
+        "url": "https://www.dampkraft.com/ghost-characters.html"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Meshes of the Afternoon",
-        "creator": "Maya Deren",
-        "why": "Fourteen minutes of pure feedback loop \u2014 a woman caught in a recursive domestic dream that keeps rewriting its own rules. Deren built a complete symbolic grammar from a handful of objects; the film thinks in systems the way generative code does, but in 1943.",
-        "url": "https://letterboxd.com/film/meshes-of-the-afternoon/"
-      },
-      {
-        "medium": "art",
-        "title": "Zhuang Zhe: Paintings",
-        "creator": "Zhuang Zhe",
-        "why": "Taiwan's great abstract painter worked at the collision of ink tradition and post-war gestural abstraction \u2014 canvases that feel simultaneously primordial and cosmological, like looking at terrain from altitude. The physical-digital texture problem she solved with a brush is one you're solving in a renderer.",
-        "url": "https://www.moma.org/artists/6553"
+        "title": "Playtime",
+        "creator": "Jacques Tati",
+        "why": "The whole film is a behavioral system \u2014 Tati built a full-scale modernist city just to watch people get lost inside it. The architecture is the antagonist, the comedy is emergent, and the craft is so unreasonably deep it nearly bankrupted him.",
+        "url": "https://letterboxd.com/film/playtime/"
       },
       {
         "medium": "music",
-        "title": "Mirror",
-        "creator": "Grouper",
-        "why": "Liz Harris makes records that behave like rooms \u2014 the reverb isn't production, it's the actual material. Mirror is her most structural: songs dissolving into each other the way light leaks in old photographs, the noise floor itself becoming compositional. A masterclass in treating ambiguity as a system.",
-        "url": "https://grouper.bandcamp.com/album/mirror"
+        "title": "KiCk i",
+        "creator": "Arca",
+        "why": "Arca treats identity and the body as generative, unstable systems \u2014 the album is mythology-as-product-design, where the surface is feral and playful and the structure underneath is genuinely rigorous. The physical/digital edge is the whole subject.",
+        "url": "https://www.youtube.com/watch?v=pnd8A-7Pyek"
+      },
+      {
+        "medium": "art",
+        "title": "Hilma af Klint: Paintings for the Future",
+        "creator": "Hilma af Klint",
+        "why": "A private cosmological system built in secret, decades ahead of abstraction, driven by ritual and invisible-force obsession \u2014 exactly what happens when someone goes unreasonably deep on one narrow thing with zero audience in mind.",
+        "url": "https://www.guggenheim.org/artwork/artist/hilma-af-klint"
       }
     ],
     "events": [
       {
-        "name": "Greater New York 2026 \u2014 Final Weekend",
+        "name": "Greater New York 2026 \u2014 Last Day",
         "venue": "MoMA PS1, Long Island City, Queens",
-        "date_start": "2026-08-15",
+        "date_start": "2026-08-16",
         "date_end": "2026-08-17",
         "category": "museum",
-        "why": "The quinquennial survey of 53 NY-area artists closes Aug 17 \u2014 150+ works spanning painting, animation, scenography, and surveillance-era installations, all free, organized for the first time by PS1's full curatorial team; this is the last-call weekend.",
+        "why": "PS1's quinquennial survey of 50+ emerging NYC artists closes tomorrow \u2014 it's the city's most honest temperature-read on who's actually making things here right now, and it fills the whole school building.",
         "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
-        "date": "Aug 15\u201317"
+        "date": "Aug 16\u201317"
       },
       {
-        "name": "Tarot! Renaissance Symbols, Modern Visions",
-        "venue": "The Morgan Library & Museum, Murray Hill",
-        "date_start": "2026-08-15",
-        "date_end": "2026-08-29",
-        "category": "museum",
-        "why": "~380 works tracing tarot from 15th-century Lombard court game to Andr\u00e9 Breton's Surrealist deck to a new Chris Ofili commission \u2014 it's really a show about how a symbol system gets loaded, transmits culture, and mutates across centuries; the Morgan's Visconti-Sforza cards are the oldest you'll see outside Italy.",
-        "url": "https://www.themorgan.org/exhibitions/tarot",
-        "date": "Aug 15\u201329"
-      },
-      {
-        "name": "Whitney Biennial 82nd Edition \u2014 Closing Weeks",
-        "venue": "Whitney Museum of American Art, Meatpacking",
-        "date_start": "2026-08-15",
+        "name": "Whitney Biennial 2026 \u2014 Final Week",
+        "venue": "Whitney Museum of American Art, Manhattan",
+        "date_start": "2026-08-16",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "Curated by Marcela Guerrero and Drew Sawyer, this edition closes Aug 23 \u2014 if you haven't been, this is the last stretch; the Biennial running alongside Greater New York and the coming New Museum Triennial makes this the densest survey moment NYC has had since 2010.",
+        "why": "The 82nd edition closes Aug 23 \u2014 curated around 'mood and texture' with 56 artists skewing young, it's the big cultural argument of the year and worth forming your own opinion on before it closes.",
         "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 15\u201323"
+        "date": "Aug 16\u201323"
       },
       {
-        "name": "Lily van der Stokker: Male Art Exhibition, Great Show",
-        "venue": "Kaufmann Repetto, 55 Walker St, Tribeca",
-        "date_start": "2026-08-15",
-        "date_end": "2026-08-28",
-        "category": "museum",
-        "why": "Van der Stokker's work is genuinely hard to categorize: decorative, funny, and politically exact all at once \u2014 she uses the visual grammar of 'nice' (pastels, florals, domestic pattern) to expose how gender gets coded into aesthetics and space; the title alone is doing a lot.",
-        "url": "https://kaufmannrepetto.com",
-        "date": "Aug 15\u201328"
-      },
-      {
-        "name": "Taiwanese Waves 10th Anniversary \u2014 SummerStage",
-        "venue": "Rumsey Playfield, Central Park",
+        "name": "SummerStage: Taiwanese Waves 10th Anniversary (9m88 + \u00d8ZI + Mong Tong)",
+        "venue": "Rumsey Playfield, Central Park, Manhattan",
         "date_start": "2026-08-16",
         "date_end": "2026-08-16",
         "category": "concert",
-        "why": "Free outdoor night headlined by psych-electronic duo Mong Tong (Taiwanese temple folk filtered through retro synthesizers) alongside 9m88, \u00d8ZI, and Chinatown Records DJing vinyl from past editions \u2014 a rare scene where diaspora identity, record culture, and genre-blending are all visibly on stage.",
-        "url": "https://www.taiwanesewaves.com/",
+        "why": "Free tonight \u2014 Mong Tong in particular is a Taiwanese duo making psychedelic music drenched in occult imagery and analog texture; a rare chance to see a genuinely weird, underground act in a big open-air setting.",
+        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
         "date": "Sun, Aug 16"
+      },
+      {
+        "name": "Made in America: The Industrial Photography of Christopher Payne",
+        "venue": "Cooper Hewitt, Smithsonian Design Museum, Manhattan",
+        "date_start": "2026-08-16",
+        "date_end": "2026-09-27",
+        "category": "museum",
+        "why": "70+ large-format photographs of American factories and artisanal making \u2014 the strange history of ordinary objects made monumental, inside the only museum in the US dedicated entirely to design.",
+        "url": "https://www.cooperhewitt.org",
+        "date": "Aug 16 \u2013 Sep 27"
+      },
+      {
+        "name": "Warm Up 2026",
+        "venue": "MoMA PS1 Courtyard, Long Island City, Queens",
+        "date_start": "2026-08-21",
+        "date_end": "2026-08-28",
+        "category": "concert",
+        "why": "Two remaining Fridays (Aug 21, 28) of PS1's underground music series \u2014 this year on a stage designed by Somnath Bhatt, with galleries open late and Precious Okoyomon's living-forest courtyard commission on view.",
+        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
+        "date": "Aug 21\u201328"
       }
     ]
   },
-  "trial_sources": []
+  "trial_sources": [
+    {
+      "name": "Uncharted Territories \u2013 Tomas Pueyo",
+      "feed_url": "https://unchartedterritories.tomaspueyo.com/feed",
+      "why": "Long-form geo-history essays by an individual with a product-builder's systems lens \u2014 connects geography, history, and current geopolitics from first principles, hitting the reader's core interests in why the world is shaped the way it is."
+    },
+    {
+      "name": "Chartbook \u2013 Adam Tooze",
+      "feed_url": "https://adamtooze.substack.com/feed",
+      "why": "A historian-economist's unfiltered notebook on geopolitics, economic statecraft, and the forces that actually matter in current events \u2014 cited by top geopolitics writers as the rare source that goes deeper than mainstream outlets without losing rigor."
+    },
+    {
+      "name": "Aging Almanac",
+      "feed_url": "https://agingalmanac.substack.com/feed",
+      "why": "Credible, research-grounded coverage of the longevity science beat \u2014 including peptides, stem cells, and healthspan vs. lifespan \u2014 written to separate signal from the noisy hype that surrounds the field."
+    }
+  ]
 }

@@ -1,23 +1,21 @@
 {
-  "feeds": 82,
-  "mined": 50,
-  "videos": 4,
+  "feeds": 68,
+  "mined": 45,
+  "videos": 3,
   "video_titles": [
     "How do submarines know where they are?",
     "Is spider web really stronger than steel?",
-    "I made an apple peel itself",
-    "The Euler Disc Is The Wrong Shape"
+    "I made an apple peel itself"
   ],
   "supplemental": false,
-  "final_items": 6,
+  "final_items": 7,
   "final_sources": [
     "Ars Technica",
-    "Google Security Blog",
-    "Matt Green / Cryptography Engineering",
-    "Nautilus",
-    "conic.al",
-    "eigendrum.com"
+    "Dampfkraft",
+    "Davide Piffer / Substack",
+    "Fabbaloo",
+    "Severe Weather EU"
   ],
   "had_video": false,
-  "run_at": "2026-08-15T11:48:52.646315+00:00"
+  "run_at": "2026-08-16T11:50:16.335920+00:00"
 }
