@@ -1,21 +1,21 @@
 {
-  "feeds": 68,
-  "mined": 45,
-  "videos": 3,
+  "feeds": 51,
+  "mined": 46,
+  "videos": 2,
   "video_titles": [
     "How do submarines know where they are?",
-    "Is spider web really stronger than steel?",
     "I made an apple peel itself"
   ],
   "supplemental": false,
   "final_items": 7,
   "final_sources": [
-    "Ars Technica",
-    "Dampfkraft",
-    "Davide Piffer / Substack",
-    "Fabbaloo",
-    "Severe Weather EU"
+    "Daring Fireball",
+    "Hackaday",
+    "Nautilus",
+    "TechCrunch",
+    "Vectoral",
+    "desktopcolors.com"
   ],
   "had_video": false,
-  "run_at": "2026-08-16T11:50:16.335920+00:00"
+  "run_at": "2026-08-17T11:54:45.968422+00:00"
 }

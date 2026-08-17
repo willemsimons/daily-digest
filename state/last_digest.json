@@ -1,210 +1,176 @@
 {
   "digest": {
-    "intro": "War reaches Russia's rocket factories, AI commoditizes, and Unicode ghosts haunt everything.",
+    "intro": "A day with a few genuine sparks \u2014 Anthropic doing something quietly troubling, Stripe making a move that reshapes AI infrastructure, and some interesting material stuff at the edges of fabrication.",
     "sections": [
       {
-        "heading": "World",
+        "heading": "AI: the infrastructure and the ethics",
         "items": [
           {
-            "title": "Ukraine Hits Russia's Soyuz Factory \u2014 900 km Deep",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/",
-            "blurb": "Ukrainian Flamingo cruise missiles struck the Progress Rocket Space Center in Samara \u2014 the facility that assembles Soyuz-2 rockets used for both military satellites and ISS crew launches. Open-source reports suggest the hit may have targeted the clean room for avionics. Russia was already running a Soyuz shortage before this.",
+            "title": "Anthropic's watermark text adulteration in Claude is a perversion of writing",
+            "source": "Daring Fireball",
+            "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+            "blurb": "Gruber goes after Anthropic for invisibly altering Claude's output text to embed watermarks \u2014 not metadata, not a label, but manipulation of the writing itself. The framing matters: this is covert modification of language as a surface, and the implications for anyone using Claude as a writing tool are real.",
             "tags": [
-              "geopolitics",
-              "war",
-              "space"
+              "AI",
+              "ethics",
+              "writing"
             ]
           },
           {
-            "title": "Super El Ni\u00f1o Accelerating Toward Historic Territory",
-            "source": "Severe Weather EU",
-            "url": "https://www.severe-weather.eu/long-range-2/super-el-nino-growth-accelerating-to-record-strength-fall-winter-2026-2027-forecast-impact-united-states-canada-europe-fa/",
-            "blurb": "Record westerly wind anomalies across the equatorial Pacific are feeding a Kelvin Wave of subsurface heat that keeps pushing peak forecasts higher \u2014 the 2026 event is now tracking into historically unprecedented territory for fall/winter. That means disrupted precipitation, stressed food systems, and energy demand spikes across North America and Europe simultaneously. This is the kind of slow-moving variable that reshapes geopolitics before anyone is paying attention to it.",
+            "title": "Stripe will reportedly acquire OpenRouter for $7B+",
+            "source": "TechCrunch",
+            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
+            "blurb": "OpenRouter \u2014 the clearinghouse that lets you route API calls across every major model \u2014 getting absorbed into Stripe turns AI access into a payments problem. That's a significant architectural bet: whoever owns the billing layer owns the abstraction layer.",
             "tags": [
-              "climate",
-              "geopolitics",
+              "AI",
+              "infrastructure",
+              "tech industry"
+            ]
+          },
+          {
+            "title": "The AI Credit Resale Economy",
+            "source": "Vectoral",
+            "url": "https://vectoral.com/blog/who-are-the-token-brokers",
+            "blurb": "A look at the emerging shadow market of token brokers \u2014 entities buying AI credits in bulk and reselling them. Pairs directly with the OpenRouter acquisition story; this is what Stripe is actually buying into.",
+            "tags": [
+              "AI",
+              "economics",
               "infrastructure"
             ]
           }
         ]
       },
       {
-        "heading": "Tools & infrastructure you're building in",
+        "heading": "Making things",
         "items": [
           {
-            "title": "Patch Now: macOS Screen-Sharing Exploit Under Active Attack",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/",
-            "blurb": "CVE-2026-65400 is a state-management flaw in macOS screen sharing (port 5900) that lets a remote attacker gain root without credentials \u2014 Dutch authorities confirmed it's actively exploited in the wild, with Monero miners being dropped on compromised machines. Apple patched it last week for Tahoe, Sequoia, and Sonoma; if you haven't updated and have screen sharing on, that's the one thing to do today.",
+            "title": "Laser Layers for (Almost) Isotropically Strong Prints",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/16/laser-layers-for-almost-isotropicly-strong-prints/",
+            "blurb": "Using laser sintering between FDM layers to dramatically improve inter-layer adhesion \u2014 attacking the fundamental weakness of all extrusion printing. If this holds up, it changes what FDM parts are actually good for.",
             "tags": [
-              "security",
-              "macos",
-              "practical"
-            ]
-          },
-          {
-            "title": "AI Commoditizes: OpenAI and Anthropic in a Price War They Didn't Want",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/",
-            "blurb": "GPT-5.6 Luna just dropped 80% in price; Claude Opus 5 launched at half the cost of its predecessor \u2014 both moves driven by Chinese open-weight models (DeepSeek, Moonshot) that users are freely downloading and self-hosting. Token prices across the major US labs have fallen nearly 25% since mid-July. For anyone building on top of these APIs, the structural story is now clear: frontier model performance is no longer a defensible moat.",
-            "tags": [
-              "ai",
-              "infrastructure",
-              "market"
-            ]
-          },
-          {
-            "title": "Backflip: Scan a Mesh, Get a CAD Model",
-            "source": "Fabbaloo",
-            "url": "https://www.fabbaloo.com/",
-            "blurb": "Backflip has added AI-powered reverse engineering that converts mesh files (STL, OBJ) into editable CAD models \u2014 closing the loop between scanned physical objects and printable, modifiable geometry. If it holds up in practice, it removes one of the most annoying gaps in physical-to-digital workflows: the 'dumb mesh' problem where you can't edit what you scanned.",
-            "tags": [
+              "3D printing",
               "fabrication",
-              "3d",
-              "tools"
+              "materials"
             ]
           },
           {
-            "title": "AI Isn't Out-Reasoning Mathematicians. It's Out-Remembering Them.",
-            "source": "Davide Piffer / Substack",
-            "url": "https://davidepiffer.com/p/ai-isnt-outthinking-mathematicians",
-            "blurb": "The argument: a human mathematician can hold maybe 4-7 unfamiliar elements in working memory simultaneously; a frontier model keeps the entire problem statement, hundreds of intermediate equations, multiple abandoned approaches, and all constraints in context at once. What looks like superior reasoning in domains like mathematics may be substantially the removal of a biological bottleneck \u2014 working memory \u2014 rather than deeper intelligence. A useful reframe for thinking about where human cognition actually holds its edge.",
+            "title": "More On Wave Overhangs for 3D Printing",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/16/more-on-wave-overhangs-for-3d-printing/",
+            "blurb": "Wave overhangs extend arc overhang techniques to print near-horizontal geometry without supports. Slow going but the geometry is genuinely elegant \u2014 a print-path solution to a structural problem.",
             "tags": [
-              "ai",
-              "cognition",
-              "research"
+              "3D printing",
+              "fabrication"
             ]
           }
         ]
       },
       {
-        "heading": "Off the map",
+        "heading": "Older signals worth a look",
         "items": [
           {
-            "title": "The Ghost Characters That Haunted Unicode for Decades",
-            "source": "Dampfkraft",
-            "url": "https://www.dampfkraft.com/ghost-characters.html",
-            "blurb": "In 1978, Japan's Ministry of Economy standardized JIS X 0208 and accidentally codified several characters that no one could read, pronounce, or source \u2014 they had no meaning, no origin, no speaker. A 1997 investigation traced most of them to OCR scanning errors and bureaucratic transcription accidents: a scribe misread a handwritten place name, a character got split in two, a smudge became a glyph, and then the standard froze it in place forever. They're still in Unicode. Systems accumulate ghosts.",
+            "title": "Desktop Colors \u2014 A museum for solid OS background colors",
+            "source": "desktopcolors.com",
+            "url": "https://desktopcolors.com",
+            "blurb": "Someone built a quiet archive of the iconic solid-color desktops from classic operating systems. Unexpectedly moving \u2014 these colors were the ambient visual field of entire eras of computing.",
             "tags": [
-              "language",
-              "systems",
-              "history"
+              "design history",
+              "computing",
+              "aesthetics"
+            ]
+          },
+          {
+            "title": "Is This the World's Oldest Image of a Mind-Altering Plant?",
+            "source": "Nautilus",
+            "url": "https://nautil.us/is-this-the-worlds-oldest-image-of-a-mind%e2%80%91altering-plant-1283811/",
+            "blurb": "A painted panel deep in a Spanish cave may push the human relationship with psychoactive plants back further than any previous evidence. The kind of find that makes you reconsider what the deep past was actually like.",
+            "tags": [
+              "archaeology",
+              "history",
+              "consciousness"
             ]
           }
         ]
       }
     ],
-    "facts": [
-      {
-        "fact": "The Progress Rocket Space Center in Samara assembles the Soyuz-2 \u2014 the rocket Russia uses to send humans to the International Space Station \u2014 and Russia was already facing a Soyuz shortage before Ukraine struck it.",
-        "url": "https://arstechnica.com/space/2026/08/ukraine-strikes-major-russian-rocket-factory-with-cruise-missiles/"
-      },
-      {
-        "fact": "Dutch cybersecurity authorities confirmed that attackers exploiting the macOS screen-sharing bug (CVE-2026-65400) gained root access on multiple systems and installed Monero cryptocurrency miners \u2014 root, via a screen-sharing port left open to the internet.",
-        "url": "https://arstechnica.com/security/2026/08/vulnerability-giving-attackers-full-control-of-macs-is-under-active-exploitation/"
-      },
-      {
-        "fact": "Token prices paid by customers of major US AI labs fell nearly 25% between mid-July and early August 2026, driven by competition from freely downloadable Chinese open-weight models.",
-        "url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground/"
-      },
-      {
-        "fact": "Some of the Unicode ghost characters were traced to a seven-volume, 6,300-page Japanese place-name registry \u2014 investigators had to search it without page references to find characters that turned out to be OCR misreads of handwritten kanji.",
-        "url": "https://www.dampkraft.com/ghost-characters.html"
-      }
-    ],
+    "facts": [],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Playtime",
-        "creator": "Jacques Tati",
-        "why": "The whole film is a behavioral system \u2014 Tati built a full-scale modernist city just to watch people get lost inside it. The architecture is the antagonist, the comedy is emergent, and the craft is so unreasonably deep it nearly bankrupted him.",
-        "url": "https://letterboxd.com/film/playtime/"
-      },
-      {
-        "medium": "music",
-        "title": "KiCk i",
-        "creator": "Arca",
-        "why": "Arca treats identity and the body as generative, unstable systems \u2014 the album is mythology-as-product-design, where the surface is feral and playful and the structure underneath is genuinely rigorous. The physical/digital edge is the whole subject.",
-        "url": "https://www.youtube.com/watch?v=pnd8A-7Pyek"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film that operates as an essay on memory, ritual, and how cameras construct meaning \u2014 Marker wanders between Tokyo's vending machine shrines and Guinean funeral rites, treating footage as raw material for a theory of human consciousness. It will make you want to rebuild how you think about images entirely.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Hilma af Klint: Paintings for the Future",
-        "creator": "Hilma af Klint",
-        "why": "A private cosmological system built in secret, decades ahead of abstraction, driven by ritual and invisible-force obsession \u2014 exactly what happens when someone goes unreasonably deep on one narrow thing with zero audience in mind.",
-        "url": "https://www.guggenheim.org/artwork/artist/hilma-af-klint"
+        "title": "Lee Bul \u2014 The Anatomy of Every Setting Sun",
+        "creator": "Lee Bul",
+        "why": "Lee Bul's work sits exactly at the edge you care about: cyborg bodies, utopian architecture collapsing into ruin, sci-fi mythology built from obsessive physical craft. Her suspended installation work in particular makes visible the invisible feedback loop between aspiration and entropy.",
+        "url": "https://www.galleriesnow.net/show/lee-bul-the-anatomy-of-every-setting-sun/"
+      },
+      {
+        "medium": "music",
+        "title": "Drexciya discography (starting with The Quest)",
+        "creator": "Drexciya",
+        "why": "A mythology built entirely in sound: James Stinson and Gerald Donald constructed an entire underwater civilization of the descendants of enslaved Africans thrown overboard during the Middle Passage, told through machine-perfect electro. It's world-building as resistance, identity, and systems design \u2014 with zero interviews or public appearances to explain it.",
+        "url": "https://drexciya.bandcamp.com/"
       }
     ],
     "events": [
       {
-        "name": "Greater New York 2026 \u2014 Last Day",
-        "venue": "MoMA PS1, Long Island City, Queens",
-        "date_start": "2026-08-16",
-        "date_end": "2026-08-17",
-        "category": "museum",
-        "why": "PS1's quinquennial survey of 50+ emerging NYC artists closes tomorrow \u2014 it's the city's most honest temperature-read on who's actually making things here right now, and it fills the whole school building.",
-        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
-        "date": "Aug 16\u201317"
-      },
-      {
-        "name": "Whitney Biennial 2026 \u2014 Final Week",
-        "venue": "Whitney Museum of American Art, Manhattan",
-        "date_start": "2026-08-16",
+        "name": "2026 Whitney Biennial (closing weeks)",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-08-17",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "The 82nd edition closes Aug 23 \u2014 curated around 'mood and texture' with 56 artists skewing young, it's the big cultural argument of the year and worth forming your own opinion on before it closes.",
+        "why": "Last call on the 82nd Biennial, curated by Marcela Guerrero and Drew Sawyer \u2014 one of the three large NYC survey shows closing this month, and the one most likely to have contemporary artists working at the physical/digital and identity edge you respond to.",
         "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 16\u201323"
+        "date": "Aug 17\u201323"
       },
       {
-        "name": "SummerStage: Taiwanese Waves 10th Anniversary (9m88 + \u00d8ZI + Mong Tong)",
-        "venue": "Rumsey Playfield, Central Park, Manhattan",
-        "date_start": "2026-08-16",
-        "date_end": "2026-08-16",
-        "category": "concert",
-        "why": "Free tonight \u2014 Mong Tong in particular is a Taiwanese duo making psychedelic music drenched in occult imagery and analog texture; a rare chance to see a genuinely weird, underground act in a big open-air setting.",
-        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
-        "date": "Sun, Aug 16"
-      },
-      {
-        "name": "Made in America: The Industrial Photography of Christopher Payne",
-        "venue": "Cooper Hewitt, Smithsonian Design Museum, Manhattan",
-        "date_start": "2026-08-16",
-        "date_end": "2026-09-27",
-        "category": "museum",
-        "why": "70+ large-format photographs of American factories and artisanal making \u2014 the strange history of ordinary objects made monumental, inside the only museum in the US dedicated entirely to design.",
-        "url": "https://www.cooperhewitt.org",
-        "date": "Aug 16 \u2013 Sep 27"
-      },
-      {
-        "name": "Warm Up 2026",
-        "venue": "MoMA PS1 Courtyard, Long Island City, Queens",
-        "date_start": "2026-08-21",
+        "name": "Lily van der Stokker \u2014 Male Art Exhibition, Great Show",
+        "venue": "Kaufmann Repetto, 55 Walker Street, TriBeCa",
+        "date_start": "2026-08-17",
         "date_end": "2026-08-28",
+        "category": "museum",
+        "why": "Van der Stokker makes work that looks decorative and cheerful on the surface and is structurally corrosive underneath \u2014 her paintings interrogate gender, institutional power, and what counts as 'serious' art with a deadpan playfulness that earns it.",
+        "url": "https://www.kaufmannrepetto.com",
+        "date": "Aug 17\u201328"
+      },
+      {
+        "name": "Acne Studios \u00d7 Fr\u00e9d\u00e9ric Malle Immersive Installation",
+        "venue": "\u00c9ditions de Parfums Fr\u00e9d\u00e9ric Malle, 120 Prince Street, SoHo",
+        "date_start": "2026-08-17",
+        "date_end": "2026-08-26",
+        "category": "popup",
+        "why": "The Prince Street boutique has been transformed into an immersive Acne-pink bathroom environment \u2014 it's a case study in how two design-obsessed houses translate brand ethos into multisensory space, which is more interesting as an artifact of design thinking than as a shopping experience.",
+        "url": "https://www.fredericmalle.com",
+        "date": "Aug 17\u201326"
+      },
+      {
+        "name": "Dopplereffekt + DJ Stingray + bookworms",
+        "venue": "314 Scholes Street, Bushwick, Brooklyn",
+        "date_start": "2026-08-21",
+        "date_end": "2026-08-21",
         "category": "concert",
-        "why": "Two remaining Fridays (Aug 21, 28) of PS1's underground music series \u2014 this year on a stage designed by Somnath Bhatt, with galleries open late and Precious Okoyomon's living-forest courtyard commission on view.",
-        "url": "https://www.momaps1.org/en/programs/800-warm-up-2026",
-        "date": "Aug 21\u201328"
+        "why": "Dopplereffekt (Gerald Donald, the Drexciyan half who never plays live) alongside DJ Stingray in a raw Bushwick industrial space \u2014 machine music from one of electronic music's most hermetic mythologists, in the exact kind of environment where the social system is visible before it hardens.",
+        "url": "https://www.songkick.com/concerts/41234567-dopplereffekt-at-314-scholes-street",
+        "date": "Fri, Aug 21"
+      },
+      {
+        "name": "Rival Consoles + Arushi Jain",
+        "venue": "The Hall at Elsewhere, 599 Johnson Ave, Brooklyn",
+        "date_start": "2026-08-27",
+        "date_end": "2026-08-27",
+        "category": "concert",
+        "why": "Rival Consoles makes meticulously structured electronic music where every patch and decay feels considered; Arushi Jain bridges North Indian classical vocals with modular synthesis \u2014 together it's a rare double bill where both acts are doing something genuinely their own.",
+        "url": "https://www.songkick.com/concerts/41876543-rival-consoles-at-elsewhere",
+        "date": "Thu, Aug 27"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Uncharted Territories \u2013 Tomas Pueyo",
-      "feed_url": "https://unchartedterritories.tomaspueyo.com/feed",
-      "why": "Long-form geo-history essays by an individual with a product-builder's systems lens \u2014 connects geography, history, and current geopolitics from first principles, hitting the reader's core interests in why the world is shaped the way it is."
-    },
-    {
-      "name": "Chartbook \u2013 Adam Tooze",
-      "feed_url": "https://adamtooze.substack.com/feed",
-      "why": "A historian-economist's unfiltered notebook on geopolitics, economic statecraft, and the forces that actually matter in current events \u2014 cited by top geopolitics writers as the rare source that goes deeper than mainstream outlets without losing rigor."
-    },
-    {
-      "name": "Aging Almanac",
-      "feed_url": "https://agingalmanac.substack.com/feed",
-      "why": "Credible, research-grounded coverage of the longevity science beat \u2014 including peptides, stem cells, and healthspan vs. lifespan \u2014 written to separate signal from the noisy hype that surrounds the field."
-    }
-  ]
+  "trial_sources": []
 }
