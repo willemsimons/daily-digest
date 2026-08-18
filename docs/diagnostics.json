@@ -1,21 +1,25 @@
 {
-  "feeds": 51,
-  "mined": 46,
-  "videos": 2,
+  "feeds": 76,
+  "mined": 51,
+  "videos": 4,
   "video_titles": [
+    "Could identical twins commit the perfect crime?",
+    "Total Solar Eclipse From Space",
     "How do submarines know where they are?",
     "I made an apple peel itself"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "Daring Fireball",
-    "Hackaday",
+    "Ars Technica",
+    "Drop Site News",
+    "Fabien Sanglard",
+    "MIT Technology Review",
     "Nautilus",
-    "TechCrunch",
-    "Vectoral",
-    "desktopcolors.com"
+    "Wikipedia",
+    "YouTube \u2014 Veritasium",
+    "timmarinin.net"
   ],
-  "had_video": false,
-  "run_at": "2026-08-17T11:54:45.968422+00:00"
+  "had_video": true,
+  "run_at": "2026-08-18T11:56:00.722489+00:00"
 }

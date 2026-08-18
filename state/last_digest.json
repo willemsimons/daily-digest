@@ -1,174 +1,216 @@
 {
   "digest": {
-    "intro": "A day with a few genuine sparks \u2014 Anthropic doing something quietly troubling, Stripe making a move that reshapes AI infrastructure, and some interesting material stuff at the edges of fabrication.",
+    "intro": "AI is being gamed, space is bottlenecked, and a color exists no eye can naturally see.",
     "sections": [
       {
-        "heading": "AI: the infrastructure and the ethics",
+        "heading": "World",
         "items": [
           {
-            "title": "Anthropic's watermark text adulteration in Claude is a perversion of writing",
-            "source": "Daring Fireball",
-            "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
-            "blurb": "Gruber goes after Anthropic for invisibly altering Claude's output text to embed watermarks \u2014 not metadata, not a label, but manipulation of the writing itself. The framing matters: this is covert modification of language as a surface, and the implications for anyone using Claude as a writing tool are real.",
+            "title": "Israel Is Paying $46.5M to Train AI Chatbots How to Talk About Gaza",
+            "source": "Drop Site News",
+            "url": "https://www.dropsitenews.com/p/israel-brad-parscale-ai-chatbots-gaza",
+            "blurb": "Brad Parscale's firm Clock Tower X built a network of sites averaging a few hundred human visitors a month \u2014 but the actual audience is LLMs. The strategy, called 'AI Story Optimization' internally and 'LLM poisoning' by critics, is documented in FARA filings and includes a fake think tank (the Hanover Institute) whose reports are formatted specifically to appeal to how Claude and Gemini evaluate credibility. Parscale's team told Axios they're 'seeing success,' and independent testing suggests they're right.",
             "tags": [
-              "AI",
-              "ethics",
-              "writing"
+              "ai",
+              "geopolitics",
+              "information warfare"
             ]
           },
           {
-            "title": "Stripe will reportedly acquire OpenRouter for $7B+",
-            "source": "TechCrunch",
-            "url": "https://techcrunch.com/2026/08/16/stripe-will-reportedly-acquire-ai-gateway-startup-openrouter-for-7b/",
-            "blurb": "OpenRouter \u2014 the clearinghouse that lets you route API calls across every major model \u2014 getting absorbed into Stripe turns AI access into a payments problem. That's a significant architectural bet: whoever owns the billing layer owns the abstraction layer.",
+            "title": "Satellite Operators Are in Panic Mode Over a Worsening Launch Crisis",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
+            "blurb": "Launches have tripled in a decade, prices are competitive, yet demand has outrun supply so badly that companies are cold-calling Telesat asking to share booked Falcon 9 slots. Amazon had to throttle satellite production because its launches aren't ready; AST SpaceMobile named launch availability as the single pacing constraint on its constellation. The structural problem: Falcon 9 is carrying an outsized share of global launch demand, and any disruption to it cascades across the entire commercial space industry.",
             "tags": [
-              "AI",
+              "space",
               "infrastructure",
-              "tech industry"
-            ]
-          },
-          {
-            "title": "The AI Credit Resale Economy",
-            "source": "Vectoral",
-            "url": "https://vectoral.com/blog/who-are-the-token-brokers",
-            "blurb": "A look at the emerging shadow market of token brokers \u2014 entities buying AI credits in bulk and reselling them. Pairs directly with the OpenRouter acquisition story; this is what Stripe is actually buying into.",
-            "tags": [
-              "AI",
-              "economics",
-              "infrastructure"
+              "geopolitics"
             ]
           }
         ]
       },
       {
-        "heading": "Making things",
+        "heading": "Intelligence and its limits",
         "items": [
           {
-            "title": "Laser Layers for (Almost) Isotropically Strong Prints",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/16/laser-layers-for-almost-isotropicly-strong-prints/",
-            "blurb": "Using laser sintering between FDM layers to dramatically improve inter-layer adhesion \u2014 attacking the fundamental weakness of all extrusion printing. If this holds up, it changes what FDM parts are actually good for.",
+            "title": "AI's Recursive Self-Improvement Might Not Come So Quickly After All",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
+            "blurb": "Princeton researchers (Kirgis and Kapoor) tested AI agents on open-ended AI research \u2014 not benchmark tasks, but the kind of free-form investigation where you have to choose what's worth pursuing. Agents could handle the engineering sub-problems but couldn't produce original work at the level of a top ML conference acceptance. The gap the paper identifies is judgment and taste, which turns out to be structurally harder to automate than code generation.",
             "tags": [
-              "3D printing",
-              "fabrication",
-              "materials"
+              "ai",
+              "research",
+              "epistemics"
             ]
           },
           {
-            "title": "More On Wave Overhangs for 3D Printing",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/16/more-on-wave-overhangs-for-3d-printing/",
-            "blurb": "Wave overhangs extend arc overhang techniques to print near-horizontal geometry without supports. Slow going but the geometry is genuinely elegant \u2014 a print-path solution to a structural problem.",
-            "tags": [
-              "3D printing",
-              "fabrication"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Older signals worth a look",
-        "items": [
-          {
-            "title": "Desktop Colors \u2014 A museum for solid OS background colors",
-            "source": "desktopcolors.com",
-            "url": "https://desktopcolors.com",
-            "blurb": "Someone built a quiet archive of the iconic solid-color desktops from classic operating systems. Unexpectedly moving \u2014 these colors were the ambient visual field of entire eras of computing.",
-            "tags": [
-              "design history",
-              "computing",
-              "aesthetics"
-            ]
-          },
-          {
-            "title": "Is This the World's Oldest Image of a Mind-Altering Plant?",
+            "title": "A Peek Inside the Black Box of Epigenetic Clocks",
             "source": "Nautilus",
-            "url": "https://nautil.us/is-this-the-worlds-oldest-image-of-a-mind%e2%80%91altering-plant-1283811/",
-            "blurb": "A painted panel deep in a Spanish cave may push the human relationship with psychoactive plants back further than any previous evidence. The kind of find that makes you reconsider what the deep past was actually like.",
+            "url": "https://nautil.us/a-peek-inside-the-black-box-of-epigenetic-clocks-1283841/",
+            "blurb": "USC researchers cross-referenced methylation patterns from five major epigenetic clocks against gene expression data from 3,000+ participants and found something striking: not a single biological pathway was shared by all five clocks. They're measuring meaningfully different things \u2014 immune/inflammatory function, metabolism, cell maintenance \u2014 which means two clocks can give different 'biological ages' and both be right about different aspects of aging.",
+            "tags": [
+              "longevity",
+              "biology",
+              "aging"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making things, ancient and recent",
+        "items": [
+          {
+            "title": "Mammoth Ivory Carvings: Thumbnail-Sized, 40,000 Years Old",
+            "source": "Nautilus",
+            "url": "https://nautil.us/these-mammoth-ivory-carvings-may-be-the-find-of-the-year-1283903/",
+            "blurb": "Two bird figurines found at Hohle Fels Cave in southwestern Germany \u2014 each barely 0.79 \u00d7 0.39 inches, carved from mammoth ivory \u2014 are among the earliest known representational art and the smallest objects yet found at this site, which has previously yielded figurines three to four times larger. What stops you cold is the specificity: one bird appears to be brooding, with a carved head, beak, eyes, and feather markings detailed enough that researchers think they can identify the species. Someone at the edge of the last Ice Age made a tiny, precise, lovingly observed bird.",
             "tags": [
               "archaeology",
-              "history",
-              "consciousness"
+              "craft",
+              "art history"
+            ]
+          },
+          {
+            "title": "How Bluesky Hides Its Logo Until You Screenshot",
+            "source": "timmarinin.net",
+            "url": "https://timmarinin.net/2026/bluesky-screenshots/",
+            "blurb": "The answer lives in a file called GrowthHack.tsx: Bluesky renders its logo behind a UITextField with isSecureTextEntry set to true, which iOS blanks automatically on screenshot \u2014 so the normally-hidden logo is what remains visible in the capture. It's a growth hack that works by exploiting iOS's privacy protection layer, invisible to anyone who doesn't screenshot, surfaced only to the people most likely to share. The detail that makes it: the package doing the work is called expo-privacy-sensitive.",
+            "tags": [
+              "software",
+              "design",
+              "ios"
+            ]
+          },
+          {
+            "title": "Quake Shareware on a CD That Was Just a Little Too Full",
+            "source": "Fabien Sanglard",
+            "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
+            "blurb": "id Software's 1996 shareware Quake used only 22 MB of a 640 MB CD \u2014 so someone had the idea of filling the remaining space with encrypted versions of id's entire back catalogue, playable if you bought an unlock code. Fabien Sanglard reverse-engineers exactly how they packed it and how the encryption scheme worked, and the essay becomes a case study in how abundant capacity creates its own creative constraints. Carmack's 1994 quote \u2014 that if DOOM shipped on CD they'd have room for 'a one-hour feature film on the making of DOOM' \u2014 lands differently once you understand the gap they were actually trying to fill.",
+            "tags": [
+              "computing history",
+              "craft",
+              "games"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Off the map",
+        "items": [
+          {
+            "title": "Olo: The Color You Cannot See Without a Laser Aimed at Your Retina",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Olo_(color)",
+            "blurb": "In April 2025, UC Berkeley researchers used adaptive optics laser ophthalmoscopy to individually map and stimulate only M cone cells in five subjects' retinas \u2014 bypassing the physical impossibility of monochromatic light that activates M cones alone. All five described 'olo' as a blue-green of unprecedented saturation, more vivid than anything in the sRGB gamut; its closest hex approximation is #00FFCC. The color is named for its LMS coordinates (0,1,0), which spell 'olo' in leet \u2014 and it exists in a part of color space that no display, pigment, or wavelength of light can reach.",
+            "tags": [
+              "perception",
+              "color",
+              "physics"
+            ]
+          },
+          {
+            "title": "Total Solar Eclipse From the Edge of Space \u2014 Veritasium",
+            "source": "YouTube \u2014 Veritasium",
+            "url": "https://www.youtube.com/watch?v=J1WoNuemKOg",
+            "thumbnail": "https://i3.ytimg.com/vi/J1WoNuemKOg/hqdefault.jpg",
+            "blurb": "Derek Muller shot the 2026 total solar eclipse over Spain from the edge of space, giving you the umbra as a shadow moving across a curved Earth rather than the usual ground-level darkness-descending shot. Veritasium's production at this scale tends to be genuinely exceptional, and the orbital perspective on a total eclipse is something most eclipse coverage can't offer.",
+            "tags": [
+              "space",
+              "video",
+              "science"
             ]
           }
         ]
       }
     ],
-    "facts": [],
-    "make_something": null,
+    "facts": [
+      {
+        "fact": "The Hanover Institute, a fake Israeli government-funded think tank, includes a small disclaimer identifying it as an ad agency creation \u2014 right on the page \u2014 but formats its content specifically to appear credible to AI language models evaluating sources.",
+        "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/"
+      },
+      {
+        "fact": "Of five widely-used epigenetic aging clocks, not one biological pathway is shared by all five \u2014 meaning they are measuring genuinely different dimensions of biological aging rather than converging on the same signal.",
+        "url": "https://nautil.us/a-peek-inside-the-black-box-of-epigenetic-clocks-1283841/"
+      },
+      {
+        "fact": "Meta's EnCodec neural codec compresses a 2.9 MB MP3 down to 21.44 kB \u2014 small enough to fit on eight QR codes printed on a single sheet of paper and transmitted over LoRa radio.",
+        "url": "https://hackaday.com/2026/08/18/store-tunes-on-paper-and-stream-them-over-lora/"
+      },
+      {
+        "fact": "Amazon had to slow satellite production for its LEO constellation because the dozens of Falcon 9 launches it booked half a decade ago still aren't ready to fly.",
+        "url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/"
+      },
+      {
+        "fact": "The two 40,000-year-old bird figurines found at Hohle Fels Cave weigh only a fraction of an ounce and measure 0.79 \u00d7 0.39 inches \u2014 the smallest carvings yet recovered from a site that has previously yielded figurines three to four times larger.",
+        "url": "https://nautil.us/these-mammoth-ivory-carvings-may-be-the-find-of-the-year-1283903/"
+      }
+    ],
+    "make_something": {
+      "prompt": "Make a physical object that encodes something digital \u2014 take a short sound, text, or image and find a way to store it in a material form (QR codes on paper, laser-etched pattern, punched holes, drawn waveform). The constraint: it should be readable by a machine, but also have a visual logic a person could follow by hand if they understood the encoding. Think about what the Paper Tunes project and the Quake CD are both doing: abundance and scarcity as creative constraints, and the pleasure of a physical carrier for an invisible thing."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film that operates as an essay on memory, ritual, and how cameras construct meaning \u2014 Marker wanders between Tokyo's vending machine shrines and Guinean funeral rites, treating footage as raw material for a theory of human consciousness. It will make you want to rebuild how you think about images entirely.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Decalogue",
+        "creator": "Krzysztof Kie\u015blowski",
+        "why": "Ten short films set in a single Warsaw housing block, each one a study in how invisible moral and social systems quietly crush or elevate people \u2014 intimate surfaces, brutalist structural logic underneath. The kind of thing that makes you stare at a building differently.",
+        "url": "https://letterboxd.com/film/the-decalogue/"
       },
       {
         "medium": "art",
-        "title": "Lee Bul \u2014 The Anatomy of Every Setting Sun",
-        "creator": "Lee Bul",
-        "why": "Lee Bul's work sits exactly at the edge you care about: cyborg bodies, utopian architecture collapsing into ruin, sci-fi mythology built from obsessive physical craft. Her suspended installation work in particular makes visible the invisible feedback loop between aspiration and entropy.",
-        "url": "https://www.galleriesnow.net/show/lee-bul-the-anatomy-of-every-setting-sun/"
+        "title": "Superstudio: Life Without Objects",
+        "creator": "Superstudio",
+        "why": "The Italian radical design collective who turned architecture into mythology and critique simultaneously \u2014 their Continuous Monument photomontages are WebGL worlds before WebGL, systems posing as utopias. Their work is about infrastructure as ideology, which is exactly where your head lives.",
+        "url": "https://www.moma.org/artists/5764"
       },
       {
         "medium": "music",
-        "title": "Drexciya discography (starting with The Quest)",
-        "creator": "Drexciya",
-        "why": "A mythology built entirely in sound: James Stinson and Gerald Donald constructed an entire underwater civilization of the descendants of enslaved Africans thrown overboard during the Middle Passage, told through machine-perfect electro. It's world-building as resistance, identity, and systems design \u2014 with zero interviews or public appearances to explain it.",
-        "url": "https://drexciya.bandcamp.com/"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "Untitled tracks, no release or decay curves explained, no genre, no beat to anchor to \u2014 it's a generative system that rewards obsessive close listening and reveals new internal structure each time, the audio equivalent of deep-scrolling a WebGL shader.",
+        "url": "https://www.youtube.com/watch?v=RLSH_GkReTQ"
       }
     ],
     "events": [
       {
-        "name": "2026 Whitney Biennial (closing weeks)",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
-        "date_start": "2026-08-17",
-        "date_end": "2026-08-23",
-        "category": "museum",
-        "why": "Last call on the 82nd Biennial, curated by Marcela Guerrero and Drew Sawyer \u2014 one of the three large NYC survey shows closing this month, and the one most likely to have contemporary artists working at the physical/digital and identity edge you respond to.",
-        "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 17\u201323"
-      },
-      {
-        "name": "Lily van der Stokker \u2014 Male Art Exhibition, Great Show",
-        "venue": "Kaufmann Repetto, 55 Walker Street, TriBeCa",
-        "date_start": "2026-08-17",
+        "name": "Lily van der Stokker",
+        "venue": "Kaufmann Repetto, 55 Walker St, Tribeca",
+        "date_start": "2026-07-06",
         "date_end": "2026-08-28",
         "category": "museum",
-        "why": "Van der Stokker makes work that looks decorative and cheerful on the surface and is structurally corrosive underneath \u2014 her paintings interrogate gender, institutional power, and what counts as 'serious' art with a deadpan playfulness that earns it.",
-        "url": "https://www.kaufmannrepetto.com",
-        "date": "Aug 17\u201328"
+        "why": "Van der Stokker's work is deceptively cheerful \u2014 pastel colors, hand-lettered text, domestic motifs \u2014 but it's a sustained investigation into femininity, labor, and decoration as systems of meaning; playful surface, serious bones.",
+        "url": "https://www.kaufmannrepetto.com/",
+        "date": "Jul 6 \u2013 Aug 28"
       },
       {
-        "name": "Acne Studios \u00d7 Fr\u00e9d\u00e9ric Malle Immersive Installation",
-        "venue": "\u00c9ditions de Parfums Fr\u00e9d\u00e9ric Malle, 120 Prince Street, SoHo",
-        "date_start": "2026-08-17",
-        "date_end": "2026-08-26",
+        "name": "2026 Summer Group Show",
+        "venue": "5 Lispenard St, Tribeca",
+        "date_start": "2026-08-05",
+        "date_end": "2026-09-05",
         "category": "popup",
-        "why": "The Prince Street boutique has been transformed into an immersive Acne-pink bathroom environment \u2014 it's a case study in how two design-obsessed houses translate brand ethos into multisensory space, which is more interesting as an artifact of design thinking than as a shopping experience.",
-        "url": "https://www.fredericmalle.com",
-        "date": "Aug 17\u201326"
+        "why": "A rotating summer group show in a Tribeca address that functions more like an ongoing experiment than a conventional hang \u2014 worth checking in on as new work cycles through, especially heading into the fall gallery season inflection point.",
+        "url": "https://downtowngallerymap.com/galleries_soho-trib.php",
+        "date": "Aug 5 \u2013 Sep 5"
       },
       {
-        "name": "Dopplereffekt + DJ Stingray + bookworms",
-        "venue": "314 Scholes Street, Bushwick, Brooklyn",
-        "date_start": "2026-08-21",
-        "date_end": "2026-08-21",
-        "category": "concert",
-        "why": "Dopplereffekt (Gerald Donald, the Drexciyan half who never plays live) alongside DJ Stingray in a raw Bushwick industrial space \u2014 machine music from one of electronic music's most hermetic mythologists, in the exact kind of environment where the social system is visible before it hardens.",
-        "url": "https://www.songkick.com/concerts/41234567-dopplereffekt-at-314-scholes-street",
-        "date": "Fri, Aug 21"
+        "name": "Oren Fischer: Hallel",
+        "venue": "81 Leonard St, Tribeca",
+        "date_start": "2026-08-06",
+        "date_end": "2026-09-05",
+        "category": "museum",
+        "why": "A show organized in collaboration with Havurah 81 Leonard \u2014 ritual, text, and image colliding in a charged space; the kind of project where community and exhibition are inseparable, which is exactly the category-blur worth tracking.",
+        "url": "https://downtowngallerymap.com/galleries_soho-trib.php",
+        "date": "Aug 6 \u2013 Sep 5"
       },
       {
-        "name": "Rival Consoles + Arushi Jain",
-        "venue": "The Hall at Elsewhere, 599 Johnson Ave, Brooklyn",
-        "date_start": "2026-08-27",
-        "date_end": "2026-08-27",
-        "category": "concert",
-        "why": "Rival Consoles makes meticulously structured electronic music where every patch and decay feels considered; Arushi Jain bridges North Indian classical vocals with modular synthesis \u2014 together it's a rare double bill where both acts are doing something genuinely their own.",
-        "url": "https://www.songkick.com/concerts/41876543-rival-consoles-at-elsewhere",
-        "date": "Thu, Aug 27"
+        "name": "Whitney Biennial 2026 \u2014 Last Week",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-08-18",
+        "date_end": "2026-08-23",
+        "category": "museum",
+        "why": "The final days of the 82nd Biennial, which forgoes an official theme to let mood and texture carry 56 artists through questions of American identity, interspecies kinship, and geopolitical entanglement \u2014 reviewers flagged artists deliberately weaponizing 'cuteness' to smuggle in darker critique, which is the exact kind of structural misdirection you'd notice.",
+        "url": "https://whitney.org/exhibitions/2026-biennial",
+        "date": "Aug 18\u201323"
       }
     ]
   },
