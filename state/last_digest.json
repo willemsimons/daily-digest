@@ -1,95 +1,106 @@
 {
   "digest": {
-    "intro": "AI is being gamed, space is bottlenecked, and a color exists no eye can naturally see.",
+    "intro": "Arms races, institutional sabotage, and a fly that escapes with real neurons.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Israel Is Paying $46.5M to Train AI Chatbots How to Talk About Gaza",
-            "source": "Drop Site News",
-            "url": "https://www.dropsitenews.com/p/israel-brad-parscale-ai-chatbots-gaza",
-            "blurb": "Brad Parscale's firm Clock Tower X built a network of sites averaging a few hundred human visitors a month \u2014 but the actual audience is LLMs. The strategy, called 'AI Story Optimization' internally and 'LLM poisoning' by critics, is documented in FARA filings and includes a fake think tank (the Hanover Institute) whose reports are formatted specifically to appeal to how Claude and Gemini evaluate credibility. Parscale's team told Axios they're 'seeing success,' and independent testing suggests they're right.",
-            "tags": [
-              "ai",
-              "geopolitics",
-              "information warfare"
-            ]
-          },
-          {
-            "title": "Satellite Operators Are in Panic Mode Over a Worsening Launch Crisis",
+            "title": "Ukrainian Drones Overwhelm Russian Tanks' New Active Protection System \u2014 For Now",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/",
-            "blurb": "Launches have tripled in a decade, prices are competitive, yet demand has outrun supply so badly that companies are cold-calling Telesat asking to share booked Falcon 9 slots. Amazon had to throttle satellite production because its launches aren't ready; AST SpaceMobile named launch availability as the single pacing constraint on its constellation. The structural problem: Falcon 9 is carrying an outsized share of global launch demand, and any disruption to it cascades across the entire commercial space industry.",
+            "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/",
+            "blurb": "Russia's Arena-M active protection system made its combat debut on July 22 in Donetsk and did manage to shoot down incoming drones \u2014 but Ukrainian operators responded by saturating each tank with 15\u201320 drones until it died anyway. The telling detail is the arithmetic: defense works until it doesn't scale, and the defenders are already iterating on the ratio. Rob Lee's read is that this isn't a failure story, it's the opening move of a new layer in the arms race.",
             "tags": [
+              "warfare",
+              "drones",
+              "ukraine"
+            ]
+          },
+          {
+            "title": "The United States Is About to Wake Up to the Threat from China's Space Program",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/08/the-united-states-is-about-to-wake-up-to-the-threat-from-chinas-space-program/",
+            "blurb": "Chang'e 7 is launching as soon as this Sunday \u2014 China's most sophisticated lunar mission yet, targeting the south pole \u2014 and the geopolitical stakes aren't really about who plants a flag first. The argument being made seriously now is that a Chinese lunar landing before NASA's return resets the century's superpower narrative in ways Apollo's legacy can't insulate against. The shared-commons assumption about space is quietly evaporating.",
+            "tags": [
+              "geopolitics",
               "space",
-              "infrastructure",
-              "geopolitics"
+              "china"
+            ]
+          },
+          {
+            "title": "Disney Sues FCC and Its Chair, Escalating Fight Against Trump's Chief Censor",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/08/disney-sues-fcc-and-its-chair-escalating-fight-against-trumps-chief-censor/",
+            "blurb": "Disney, ABC, and eight broadcast stations filed a First Amendment lawsuit against the FCC and Chair Brendan Carr, seeking a temporary restraining order to halt license renewal proceedings that Disney calls direct retaliation for ABC's editorial choices. The specific mechanism matters: a Hearing Designation Order, if issued, would all but guarantee license loss \u2014 making this a test of whether the executive branch can use regulatory process as a speech weapon. This is structural, not a PR dispute.",
+            "tags": [
+              "media",
+              "first amendment",
+              "regulation"
             ]
           }
         ]
       },
       {
-        "heading": "Intelligence and its limits",
+        "heading": "Making and thinking",
         "items": [
           {
-            "title": "AI's Recursive Self-Improvement Might Not Come So Quickly After All",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/18/1142188/ai-recursive-self-improvement/",
-            "blurb": "Princeton researchers (Kirgis and Kapoor) tested AI agents on open-ended AI research \u2014 not benchmark tasks, but the kind of free-form investigation where you have to choose what's worth pursuing. Agents could handle the engineering sub-problems but couldn't produce original work at the level of a top ML conference acceptance. The gap the paper identifies is judgment and taste, which turns out to be structurally harder to automate than code generation.",
+            "title": "A 3D Fruit Fly on macOS Desktop Powered by the Real FlyWire Connectome",
+            "source": "GitHub / Hacker News",
+            "url": "https://github.com/DenisSergeevitch/desktop-fly",
+            "blurb": "Someone took the complete FlyWire connectome \u2014 139,255 neurons mapped \u2014 extracted a 668-neuron escape circuit with ~19,000 real synaptic connections, ran it as a 1kHz leaky-integrate-and-fire simulation, and made it a desktop pet. When you move your cursor fast toward it, the Giant Fiber neurons actually spike through real synaptic pathways and the fly bolts in ~4ms, exactly as a biological fly does; slow approaches are tolerated because 1,200 feedforward inhibition synapses push back. This is a real biological system rendered as interactive geometry, and it's free to run.",
+            "tags": [
+              "neuroscience",
+              "3d",
+              "simulation"
+            ]
+          },
+          {
+            "title": "Robin Sloan: Dragoncatcher \u2014 Jarvising",
+            "source": "Robin Sloan",
+            "url": "https://www.robinsloan.com/lab/jarvising/",
+            "blurb": "Sloan notices that the most common use of a personal AI agent is... refining the personal AI agent. 'Gotta get my tools just right' has always been a way to avoid making the thing. His corrective is a scene from TNG where Geordi uses the ship's Computer and holodeck together to actually solve a mystery \u2014 anonymous, powerful, collaborative \u2014 which he argues is a richer model than the flattering Jarvis/Tony Stark fantasy. Short, sharp, and worth two minutes if you've been tinkering more than making lately.",
             "tags": [
               "ai",
-              "research",
-              "epistemics"
+              "creative practice",
+              "tools"
             ]
           },
           {
-            "title": "A Peek Inside the Black Box of Epigenetic Clocks",
-            "source": "Nautilus",
-            "url": "https://nautil.us/a-peek-inside-the-black-box-of-epigenetic-clocks-1283841/",
-            "blurb": "USC researchers cross-referenced methylation patterns from five major epigenetic clocks against gene expression data from 3,000+ participants and found something striking: not a single biological pathway was shared by all five clocks. They're measuring meaningfully different things \u2014 immune/inflammatory function, metabolism, cell maintenance \u2014 which means two clocks can give different 'biological ages' and both be right about different aspects of aging.",
+            "title": "Finger: The 1971 Social Network That Never Died",
+            "source": "andros.dev / Hacker News",
+            "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
+            "blurb": "Finger was born at Stanford's AI Lab in 1971 because Les Earnest kept watching researchers run their fingers down a WHO display trying to find colleagues \u2014 so he built a protocol that let you query a plain text file about any user on any connected machine. John Carmack used it as a public dev journal during the Quake era; it still works today; your Mac has the client installed. The piece is a genuinely good archaeology of how presence, identity, and social norms on networks were shaped by a tool almost no one knows existed.",
             "tags": [
-              "longevity",
-              "biology",
-              "aging"
+              "internet history",
+              "social software",
+              "protocols"
             ]
           }
         ]
       },
       {
-        "heading": "Making things, ancient and recent",
+        "heading": "Art and witness",
         "items": [
           {
-            "title": "Mammoth Ivory Carvings: Thumbnail-Sized, 40,000 Years Old",
-            "source": "Nautilus",
-            "url": "https://nautil.us/these-mammoth-ivory-carvings-may-be-the-find-of-the-year-1283903/",
-            "blurb": "Two bird figurines found at Hohle Fels Cave in southwestern Germany \u2014 each barely 0.79 \u00d7 0.39 inches, carved from mammoth ivory \u2014 are among the earliest known representational art and the smallest objects yet found at this site, which has previously yielded figurines three to four times larger. What stops you cold is the specificity: one bird appears to be brooding, with a carved head, beak, eyes, and feather markings detailed enough that researchers think they can identify the species. Someone at the edge of the last Ice Age made a tiny, precise, lovingly observed bird.",
+            "title": "Julie Green's 'The Last Supper' Memorializes Hundreds of People's Final Meals While on Death Row",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/08/julie-green-last-supper-ceramic-plates-final-meals/",
+            "blurb": "From 1999 until her death in 2021, Green painted final meal requests from death row inmates in cobalt blue mineral paint on mass-produced ceramic platters \u2014 everything from KFC buckets to a single plate reading 'NONE.' One plate reads 'He never had a birthday cake, so we ordered a birthday cake for him. He was only 15.' Green's own line \u2014 'Selections provide clues on region, race, and economic background' \u2014 is the whole project in a sentence: the most ordinary human act, choice of food, as the last legible trace of a person the system otherwise renders invisible.",
             "tags": [
-              "archaeology",
-              "craft",
-              "art history"
+              "art",
+              "capital punishment",
+              "craft"
             ]
           },
           {
-            "title": "How Bluesky Hides Its Logo Until You Screenshot",
-            "source": "timmarinin.net",
-            "url": "https://timmarinin.net/2026/bluesky-screenshots/",
-            "blurb": "The answer lives in a file called GrowthHack.tsx: Bluesky renders its logo behind a UITextField with isSecureTextEntry set to true, which iOS blanks automatically on screenshot \u2014 so the normally-hidden logo is what remains visible in the capture. It's a growth hack that works by exploiting iOS's privacy protection layer, invisible to anyone who doesn't screenshot, surfaced only to the people most likely to share. The detail that makes it: the package doing the work is called expo-privacy-sensitive.",
+            "title": "Sipho Mabona: Milk Cartons and Bottle Gourds Form a Tribute to His Late Father",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/08/sipho-mabona-calabasha-sculpture-series/",
+            "blurb": "Mabona cut triangular and rectangular windows into dried calabash gourds and replaced them with fragments of Tetra Pak milk cartons \u2014 the same material that displaced the calabash as a beverage container \u2014 stitched with colored thread, each piece centered on a small curved mirror. Embedded audio plays his late father, scholar and activist Mongameli Mabona, reading his own poems and his doctoral thesis on Xhosa cultural history. The swap of materials isn't metaphor bolted on; it's structural: the thing that replaced the thing, made to carry the memory of what it replaced.",
             "tags": [
-              "software",
-              "design",
-              "ios"
-            ]
-          },
-          {
-            "title": "Quake Shareware on a CD That Was Just a Little Too Full",
-            "source": "Fabien Sanglard",
-            "url": "https://fabiensanglard.net/quake_shareware_cd/index.html",
-            "blurb": "id Software's 1996 shareware Quake used only 22 MB of a 640 MB CD \u2014 so someone had the idea of filling the remaining space with encrypted versions of id's entire back catalogue, playable if you bought an unlock code. Fabien Sanglard reverse-engineers exactly how they packed it and how the encryption scheme worked, and the essay becomes a case study in how abundant capacity creates its own creative constraints. Carmack's 1994 quote \u2014 that if DOOM shipped on CD they'd have room for 'a one-hour feature film on the making of DOOM' \u2014 lands differently once you understand the gap they were actually trying to fill.",
-            "tags": [
-              "computing history",
-              "craft",
-              "games"
+              "sculpture",
+              "memory",
+              "material culture"
             ]
           }
         ]
@@ -98,119 +109,116 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Olo: The Color You Cannot See Without a Laser Aimed at Your Retina",
-            "source": "Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Olo_(color)",
-            "blurb": "In April 2025, UC Berkeley researchers used adaptive optics laser ophthalmoscopy to individually map and stimulate only M cone cells in five subjects' retinas \u2014 bypassing the physical impossibility of monochromatic light that activates M cones alone. All five described 'olo' as a blue-green of unprecedented saturation, more vivid than anything in the sRGB gamut; its closest hex approximation is #00FFCC. The color is named for its LMS coordinates (0,1,0), which spell 'olo' in leet \u2014 and it exists in a part of color space that no display, pigment, or wavelength of light can reach.",
+            "title": "Thieves of Cursed Rocks Pen Letters of Remorse to a National Park",
+            "source": "Aeon",
+            "url": "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park",
+            "blurb": "Petrified Forest National Park receives a steady stream of stolen rocks mailed back by visitors convinced the theft cursed their lives \u2014 car accidents, divorces, job losses, mysterious illness. Aeon's documentary short treats these letters as genuine folk mythology: secular people, confronted with bad luck, reaching for magical causality and choosing confession as the remedy. It's guilt archaeology, and it says something true about how thin the rationalist layer actually is.",
             "tags": [
-              "perception",
-              "color",
-              "physics"
-            ]
-          },
-          {
-            "title": "Total Solar Eclipse From the Edge of Space \u2014 Veritasium",
-            "source": "YouTube \u2014 Veritasium",
-            "url": "https://www.youtube.com/watch?v=J1WoNuemKOg",
-            "thumbnail": "https://i3.ytimg.com/vi/J1WoNuemKOg/hqdefault.jpg",
-            "blurb": "Derek Muller shot the 2026 total solar eclipse over Spain from the edge of space, giving you the umbra as a shadow moving across a curved Earth rather than the usual ground-level darkness-descending shot. Veritasium's production at this scale tends to be genuinely exceptional, and the orbital perspective on a total eclipse is something most eclipse coverage can't offer.",
-            "tags": [
-              "space",
-              "video",
-              "science"
-            ]
+              "folklore",
+              "documentary",
+              "human behavior"
+            ],
+            "thumbnail": "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "The Hanover Institute, a fake Israeli government-funded think tank, includes a small disclaimer identifying it as an ad agency creation \u2014 right on the page \u2014 but formats its content specifically to appear credible to AI language models evaluating sources.",
-        "url": "https://responsiblestatecraft.org/israel-influence-chatgpt/"
+        "fact": "Ukrainian soldiers reported needing 15\u201320 kamikaze drones to destroy each Russian tank equipped with the Arena-M active protection system, because the system successfully intercepted some incoming drones during its July 22 combat debut.",
+        "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/"
       },
       {
-        "fact": "Of five widely-used epigenetic aging clocks, not one biological pathway is shared by all five \u2014 meaning they are measuring genuinely different dimensions of biological aging rather than converging on the same signal.",
-        "url": "https://nautil.us/a-peek-inside-the-black-box-of-epigenetic-clocks-1283841/"
+        "fact": "The desktop fruit fly simulation runs a 668-neuron circuit with ~19,000 real synaptic connections at 1kHz, and its escape response triggers in ~4ms \u2014 the same latency as a biological fly \u2014 because the Giant Fiber neurons must genuinely spike through real connectome pathways, not a scripted animation.",
+        "url": "https://github.com/DenisSergeevitch/desktop-fly"
       },
       {
-        "fact": "Meta's EnCodec neural codec compresses a 2.9 MB MP3 down to 21.44 kB \u2014 small enough to fit on eight QR codes printed on a single sheet of paper and transmitted over LoRa radio.",
-        "url": "https://hackaday.com/2026/08/18/store-tunes-on-paper-and-stream-them-over-lora/"
+        "fact": "Narwhal tusks contain not one but two nested spirals oriented in opposite directions \u2014 a left-handed outer spiral and a right-handed internal one \u2014 a structure only revealed by X-ray imaging and reported in Nature Communications.",
+        "url": "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/"
       },
       {
-        "fact": "Amazon had to slow satellite production for its LEO constellation because the dozens of Falcon 9 launches it booked half a decade ago still aren't ready to fly.",
-        "url": "https://arstechnica.com/space/2026/08/theres-a-huge-launch-crunch-right-now-and-it-will-probably-get-worse/"
+        "fact": "The Trump administration has cut AHRQ staff by 75 percent, canceled over 100 grants worth more than $250 million, and is declining to spend most of the $345 million Congress appropriated for the agency in 2026 \u2014 with only $15 million disbursed in grants so far.",
+        "url": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/"
       },
       {
-        "fact": "The two 40,000-year-old bird figurines found at Hohle Fels Cave weigh only a fraction of an ounce and measure 0.79 \u00d7 0.39 inches \u2014 the smallest carvings yet recovered from a site that has previously yielded figurines three to four times larger.",
-        "url": "https://nautil.us/these-mammoth-ivory-carvings-may-be-the-find-of-the-year-1283903/"
+        "fact": "Finger, the 1971 social networking protocol that lets you query a plain text file about any user on a connected machine, is still operational today and comes pre-installed as a client on macOS and most Unix systems.",
+        "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/"
       }
     ],
-    "make_something": {
-      "prompt": "Make a physical object that encodes something digital \u2014 take a short sound, text, or image and find a way to store it in a material form (QR codes on paper, laser-etched pattern, punched holes, drawn waveform). The constraint: it should be readable by a machine, but also have a visual logic a person could follow by hand if they understood the encoding. Think about what the Paper Tunes project and the Quake CD are both doing: abundance and scarcity as creative constraints, and the pleasure of a physical carrier for an invisible thing."
-    },
+    "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Decalogue",
-        "creator": "Krzysztof Kie\u015blowski",
-        "why": "Ten short films set in a single Warsaw housing block, each one a study in how invisible moral and social systems quietly crush or elevate people \u2014 intimate surfaces, brutalist structural logic underneath. The kind of thing that makes you stare at a building differently.",
-        "url": "https://letterboxd.com/film/the-decalogue/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film that functions as a philosophical essay on memory, ritual, and how images construct time \u2014 Marker drifts between Japan, Guinea-Bissau, and Iceland, finding feedback loops between culture and self-mythology. Nothing else puts the invisible architecture of everyday life on screen like this.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Superstudio: Life Without Objects",
-        "creator": "Superstudio",
-        "why": "The Italian radical design collective who turned architecture into mythology and critique simultaneously \u2014 their Continuous Monument photomontages are WebGL worlds before WebGL, systems posing as utopias. Their work is about infrastructure as ideology, which is exactly where your head lives.",
-        "url": "https://www.moma.org/artists/5764"
+        "title": "Cybernetic Serendipity (1968 exhibition documentation)",
+        "creator": "Jasia Reichardt / ICA London",
+        "why": "The founding moment where art, systems thinking, and computation collided in public \u2014 a frontier scene still forming its own rules, where code was expression and machines made poetry. The documentation reads as a time capsule of a world figuring out what software-as-self-expression even means.",
+        "url": "https://www.ica.art/learning/cybernetic-serendipity-the-computer-and-the-arts"
       },
       {
         "medium": "music",
-        "title": "Selected Ambient Works Volume II",
-        "creator": "Aphex Twin",
-        "why": "Untitled tracks, no release or decay curves explained, no genre, no beat to anchor to \u2014 it's a generative system that rewards obsessive close listening and reveals new internal structure each time, the audio equivalent of deep-scrolling a WebGL shader.",
-        "url": "https://www.youtube.com/watch?v=RLSH_GkReTQ"
+        "title": "Tri Repetae",
+        "creator": "Autechre",
+        "why": "Pure expressive systems \u2014 generative industrial textures that feel both deeply inhuman and emotionally precise. The 1995 landmark where machine logic becomes its own aesthetic grammar; still the clearest proof that technical constraint can produce something that feels like breath.",
+        "url": "https://autechre.bandcamp.com/album/tri-repetae"
       }
     ],
     "events": [
       {
-        "name": "Lily van der Stokker",
-        "venue": "Kaufmann Repetto, 55 Walker St, Tribeca",
-        "date_start": "2026-07-06",
-        "date_end": "2026-08-28",
+        "name": "Andr\u00e9 Masson: Bodies, Cities, Kingdoms \u2014 Drawings from Automatism to Metamorphosis, 1924\u20131941",
+        "venue": "Acquavella Galleries, 18 E 79th St, Manhattan",
+        "date_start": "2026-06-29",
+        "date_end": "2026-09-25",
         "category": "museum",
-        "why": "Van der Stokker's work is deceptively cheerful \u2014 pastel colors, hand-lettered text, domestic motifs \u2014 but it's a sustained investigation into femininity, labor, and decoration as systems of meaning; playful surface, serious bones.",
-        "url": "https://www.kaufmannrepetto.com/",
-        "date": "Jul 6 \u2013 Aug 28"
+        "why": "Masson's automatist drawings are the raw wiring beneath Surrealism \u2014 unconscious systems made visible on paper, where bodies dissolve into landscapes and back; a quietly radical body of work that still looks like nothing else.",
+        "url": "https://www.acquavellagalleries.com",
+        "date": "Jun 29 \u2013 Sep 25"
       },
       {
-        "name": "2026 Summer Group Show",
-        "venue": "5 Lispenard St, Tribeca",
-        "date_start": "2026-08-05",
-        "date_end": "2026-09-05",
-        "category": "popup",
-        "why": "A rotating summer group show in a Tribeca address that functions more like an ongoing experiment than a conventional hang \u2014 worth checking in on as new work cycles through, especially heading into the fall gallery season inflection point.",
-        "url": "https://downtowngallerymap.com/galleries_soho-trib.php",
-        "date": "Aug 5 \u2013 Sep 5"
-      },
-      {
-        "name": "Oren Fischer: Hallel",
-        "venue": "81 Leonard St, Tribeca",
-        "date_start": "2026-08-06",
-        "date_end": "2026-09-05",
+        "name": "Marcel Duchamp Retrospective \u2014 Final Days",
+        "venue": "Museum of Modern Art (MoMA), 11 W 53rd St, Manhattan",
+        "date_start": "2026-08-19",
+        "date_end": "2026-08-22",
         "category": "museum",
-        "why": "A show organized in collaboration with Havurah 81 Leonard \u2014 ritual, text, and image colliding in a charged space; the kind of project where community and exhibition are inseparable, which is exactly the category-blur worth tracking.",
-        "url": "https://downtowngallerymap.com/galleries_soho-trib.php",
-        "date": "Aug 6 \u2013 Sep 5"
+        "why": "The first major North American Duchamp survey in 50+ years \u2014 nearly 300 works spanning readymades, film, painting, and the unclassifiable \u2014 closes Saturday; the man who broke the boundary between art and idea, and whose revolutions still quietly run the contemporary art world.",
+        "url": "https://www.moma.org/calendar/exhibitions/5820",
+        "date": "Aug 19\u201322"
       },
       {
-        "name": "Whitney Biennial 2026 \u2014 Last Week",
+        "name": "Whitney Biennial 2026 \u2014 Final Days",
         "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
-        "date_start": "2026-08-18",
+        "date_start": "2026-08-19",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "The final days of the 82nd Biennial, which forgoes an official theme to let mood and texture carry 56 artists through questions of American identity, interspecies kinship, and geopolitical entanglement \u2014 reviewers flagged artists deliberately weaponizing 'cuteness' to smuggle in darker critique, which is the exact kind of structural misdirection you'd notice.",
+        "why": "The 82nd edition closes Sunday \u2014 one of the few recurring exhibitions that functions as a live index of where American art is actually going, not where institutions wish it would; worth a final pass before it disappears.",
         "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 18\u201323"
+        "date": "Aug 19\u201323"
+      },
+      {
+        "name": "Devon Turnbull \u2014 HiFi Pursuit Listening Room Dream No. 3",
+        "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 E 91st St, Manhattan",
+        "date_start": "2026-08-19",
+        "date_end": "2026-09-02",
+        "category": "museum",
+        "why": "Turnbull has converted the Carnegie Mansion's historic library into a hand-built 'shrine to music' \u2014 large-scale sculptural audio equipment designed to slow you down and make listening a physical, spatial act; exactly the kind of obsessive craft-meets-space work that makes you want to go build something.",
+        "url": "https://www.cooperhewitt.org/events/",
+        "date": "Aug 19 \u2013 Sep 2"
+      },
+      {
+        "name": "Verve Records 70th Anniversary \u2014 Samara Joy & Christian McBride / Mei Semones plays Getz/Gilberto",
+        "venue": "Rumsey Playfield, Central Park, Manhattan",
+        "date_start": "2026-09-02",
+        "date_end": "2026-09-02",
+        "category": "concert",
+        "why": "Free, outdoor, late-evening celebration of one of jazz's most mythologized labels \u2014 Samara Joy and McBride on the catalog, plus a full Getz/Gilberto live set and a DJ closing; a ritual performance of a recording that itself became a cultural symbol.",
+        "url": "https://cityparksfoundation.org/events/verve-70th-anniversary-christian-mcbride-mei-semones-friends-play-the-music-of-getz-gilberto/",
+        "date": "Wed, Sep 2"
       }
     ]
   },
