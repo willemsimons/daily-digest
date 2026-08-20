@@ -1,23 +1,24 @@
 {
-  "feeds": 83,
-  "mined": 51,
-  "videos": 4,
+  "feeds": 86,
+  "mined": 60,
+  "videos": 3,
   "video_titles": [
     "Could identical twins commit the perfect crime?",
     "Total Solar Eclipse from 92,000 Feet",
-    "How do submarines know where they are?",
-    "I made an apple peel itself"
+    "How do submarines know where they are?"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 8,
   "final_sources": [
-    "Aeon",
     "Ars Technica",
-    "Colossal",
-    "GitHub / Hacker News",
-    "Robin Sloan",
-    "andros.dev / Hacker News"
+    "Hackaday",
+    "ISSCR 2026 Annual Meeting",
+    "Nautilus",
+    "Wikipedia",
+    "laserphile.com",
+    "sprocketfox.io",
+    "yassa9.github.io"
   ],
-  "had_video": true,
-  "run_at": "2026-08-19T11:54:43.900691+00:00"
+  "had_video": false,
+  "run_at": "2026-08-20T11:57:00.557258+00:00"
 }

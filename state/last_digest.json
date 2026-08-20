@@ -1,106 +1,95 @@
 {
   "digest": {
-    "intro": "Arms races, institutional sabotage, and a fly that escapes with real neurons.",
+    "intro": "Medicine crosses a threshold, invisible infrastructure surfaces, and sound does strange work.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Ukrainian Drones Overwhelm Russian Tanks' New Active Protection System \u2014 For Now",
+            "title": "First Phase 3 win for a personalized mRNA cancer vaccine",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/",
-            "blurb": "Russia's Arena-M active protection system made its combat debut on July 22 in Donetsk and did manage to shoot down incoming drones \u2014 but Ukrainian operators responded by saturating each tank with 15\u201320 drones until it died anyway. The telling detail is the arithmetic: defense works until it doesn't scale, and the defenders are already iterating on the ratio. Rob Lee's read is that this isn't a failure story, it's the opening move of a new layer in the arms race.",
+            "url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
+            "blurb": "Moderna and Merck's mRNA-4157 \u2014 a vaccine custom-built for each patient's unique tumor mutations \u2014 beat Keytruda alone on both recurrence-free survival and distant metastasis-free survival in 1,137 melanoma patients. This is the first time a personalized neoantigen vaccine has cleared Phase 3, which means every prior mRNA cancer effort has been a warmup. The details are still sparse pre-publication, but the trial design (double-blind, placebo-controlled) is solid and regulatory submission is the obvious next step.",
             "tags": [
-              "warfare",
-              "drones",
-              "ukraine"
+              "medicine",
+              "mrna",
+              "cancer"
             ]
           },
           {
-            "title": "The United States Is About to Wake Up to the Threat from China's Space Program",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/08/the-united-states-is-about-to-wake-up-to-the-threat-from-chinas-space-program/",
-            "blurb": "Chang'e 7 is launching as soon as this Sunday \u2014 China's most sophisticated lunar mission yet, targeting the south pole \u2014 and the geopolitical stakes aren't really about who plants a flag first. The argument being made seriously now is that a Chinese lunar landing before NASA's return resets the century's superpower narrative in ways Apollo's legacy can't insulate against. The shared-commons assumption about space is quietly evaporating.",
+            "title": "Stem-PD: off-the-shelf dopaminergic progenitor cells show 12-month safety in Parkinson's patients",
+            "source": "ISSCR 2026 Annual Meeting",
+            "url": "https://www.isscr.org/isscr-news/new-clinical-data-presented-at-isscr-2026-advance-stem-cell-based-cell-therapy-for-parkinsons-disease",
+            "blurb": "Twelve months of clinical data from Lund University's STEM-PD trial show that cryopreserved, pluripotent stem cell-derived dopamine neurons can be manufactured, shipped, implanted, and evaluated in a rigorous trial without the wheels falling off \u2014 something the field has been trying to prove for decades. The cells are \"off-the-shelf,\" meaning no patient-specific manufacturing, which is the difference between a research curiosity and something that could actually scale. Still early \u2014 safety and feasibility, not a cure \u2014 but this is the translational step the field needed.",
+            "tags": [
+              "stem cells",
+              "parkinson's",
+              "regenerative medicine"
+            ]
+          },
+          {
+            "title": "A joke domain became geopolitical infrastructure \u2014 the SondeHub balloon war",
+            "source": "sprocketfox.io",
+            "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
+            "blurb": "In 2018, someone registered sondehub.org as a throwaway URL redirect for weather-balloon nerds \u2014 more of a joke than a service. By 2026 it had become actual dual-use military infrastructure entangled with a shooting war, multiple government departments, and a cheese fortune teller (really). The piece is a perfect object lesson in how invisible community-built systems accumulate geopolitical weight that nobody planned for or consented to.",
             "tags": [
               "geopolitics",
-              "space",
-              "china"
-            ]
-          },
-          {
-            "title": "Disney Sues FCC and Its Chair, Escalating Fight Against Trump's Chief Censor",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/08/disney-sues-fcc-and-its-chair-escalating-fight-against-trumps-chief-censor/",
-            "blurb": "Disney, ABC, and eight broadcast stations filed a First Amendment lawsuit against the FCC and Chair Brendan Carr, seeking a temporary restraining order to halt license renewal proceedings that Disney calls direct retaliation for ABC's editorial choices. The specific mechanism matters: a Hearing Designation Order, if issued, would all but guarantee license loss \u2014 making this a test of whether the executive branch can use regulatory process as a speech weapon. This is structural, not a PR dispute.",
-            "tags": [
-              "media",
-              "first amendment",
-              "regulation"
+              "infrastructure",
+              "accidental systems"
             ]
           }
         ]
       },
       {
-        "heading": "Making and thinking",
+        "heading": "Sound as hidden system",
         "items": [
           {
-            "title": "A 3D Fruit Fly on macOS Desktop Powered by the Real FlyWire Connectome",
-            "source": "GitHub / Hacker News",
-            "url": "https://github.com/DenisSergeevitch/desktop-fly",
-            "blurb": "Someone took the complete FlyWire connectome \u2014 139,255 neurons mapped \u2014 extracted a 668-neuron escape circuit with ~19,000 real synaptic connections, ran it as a 1kHz leaky-integrate-and-fire simulation, and made it a desktop pet. When you move your cursor fast toward it, the Giant Fiber neurons actually spike through real synaptic pathways and the fly bolts in ~4ms, exactly as a biological fly does; slow approaches are tolerated because 1,200 feedforward inhibition synapses push back. This is a real biological system rendered as interactive geometry, and it's free to run.",
+            "title": "AliExpress runs silent WebAudio tones that break your Bluetooth headphones",
+            "source": "laserphile.com",
+            "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
+            "blurb": "Someone noticed that opening AliExpress in a browser instantly killed their Bluetooth multipoint audio \u2014 phone goes silent, closing the tab fixes it instantly. Digging in, they found AliExpress is generating inaudible WebAudio API tones for fingerprinting, and those silent tones are enough to claim the active audio stream and break multipoint priority. Sound as covert infrastructure: the Web Audio API being used not to make anything audible but to silently mark a device, with a physical side effect on your headphones.",
             "tags": [
-              "neuroscience",
-              "3d",
-              "simulation"
+              "webaudio",
+              "fingerprinting",
+              "surveillance"
             ]
           },
           {
-            "title": "Robin Sloan: Dragoncatcher \u2014 Jarvising",
-            "source": "Robin Sloan",
-            "url": "https://www.robinsloan.com/lab/jarvising/",
-            "blurb": "Sloan notices that the most common use of a personal AI agent is... refining the personal AI agent. 'Gotta get my tools just right' has always been a way to avoid making the thing. His corrective is a scene from TNG where Geordi uses the ship's Computer and holodeck together to actually solve a mystery \u2014 anonymous, powerful, collaborative \u2014 which he argues is a richer model than the flattering Jarvis/Tony Stark fantasy. Short, sharp, and worth two minutes if you've been tinkering more than making lately.",
+            "title": "Ocean waves as a volcanic early-warning system",
+            "source": "Nautilus",
+            "url": "https://nautil.us/how-listening-to-ocean-waves-can-predict-volcanic-eruptions-1284014/",
+            "blurb": "Pacific waves crashing on Hawaii's shores send microseismic noise through the island's rock, and seismometers built to detect volcanic tremors can also measure how fast that noise travels. Before an eruption, accumulating magma opens subterranean cracks that slow the wave-sound down \u2014 a measurable early warning signal that has nothing to do with the volcano itself. It's a beautiful inversion: the instrument for one thing (earthquakes) listening to another thing (ocean) to detect a third thing (eruption).",
             "tags": [
-              "ai",
-              "creative practice",
-              "tools"
-            ]
-          },
-          {
-            "title": "Finger: The 1971 Social Network That Never Died",
-            "source": "andros.dev / Hacker News",
-            "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/",
-            "blurb": "Finger was born at Stanford's AI Lab in 1971 because Les Earnest kept watching researchers run their fingers down a WHO display trying to find colleagues \u2014 so he built a protocol that let you query a plain text file about any user on any connected machine. John Carmack used it as a public dev journal during the Quake era; it still works today; your Mac has the client installed. The piece is a genuinely good archaeology of how presence, identity, and social norms on networks were shaped by a tool almost no one knows existed.",
-            "tags": [
-              "internet history",
-              "social software",
-              "protocols"
+              "acoustics",
+              "geology",
+              "sensing"
             ]
           }
         ]
       },
       {
-        "heading": "Art and witness",
+        "heading": "Making things, breaking things",
         "items": [
           {
-            "title": "Julie Green's 'The Last Supper' Memorializes Hundreds of People's Final Meals While on Death Row",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/08/julie-green-last-supper-ceramic-plates-final-meals/",
-            "blurb": "From 1999 until her death in 2021, Green painted final meal requests from death row inmates in cobalt blue mineral paint on mass-produced ceramic platters \u2014 everything from KFC buckets to a single plate reading 'NONE.' One plate reads 'He never had a birthday cake, so we ordered a birthday cake for him. He was only 15.' Green's own line \u2014 'Selections provide clues on region, race, and economic background' \u2014 is the whole project in a sentence: the most ordinary human act, choice of food, as the last legible trace of a person the system otherwise renders invisible.",
+            "title": "Geolocating an island using only geometry and CUDA",
+            "source": "yassa9.github.io",
+            "url": "https://yassa9.github.io/osint/gralhix-004/",
+            "blurb": "No GPS metadata in the image, so someone built a triangle from three visible landmasses, estimated their relative distances and angles by hand, then wrote CUDA code to brute-force-match that geometric fingerprint against coastline data at GPU speed. The whole thing is a study in what happens when you refuse the easy answer (Google Lens) and decide the puzzle deserves a real solution. The note at the top \u2014 \"NOTE: this is a genuine human work, didn't use LLM generation\" \u2014 says something quietly important about what's worth proving right now.",
             "tags": [
-              "art",
-              "capital punishment",
-              "craft"
+              "osint",
+              "geometry",
+              "gpu"
             ]
           },
           {
-            "title": "Sipho Mabona: Milk Cartons and Bottle Gourds Form a Tribute to His Late Father",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/08/sipho-mabona-calabasha-sculpture-series/",
-            "blurb": "Mabona cut triangular and rectangular windows into dried calabash gourds and replaced them with fragments of Tetra Pak milk cartons \u2014 the same material that displaced the calabash as a beverage container \u2014 stitched with colored thread, each piece centered on a small curved mirror. Embedded audio plays his late father, scholar and activist Mongameli Mabona, reading his own poems and his doctoral thesis on Xhosa cultural history. The swap of materials isn't metaphor bolted on; it's structural: the thing that replaced the thing, made to carry the memory of what it replaced.",
+            "title": "Teenage Engineering's lo-fi mic is hiding a surprisingly sophisticated lever",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/20/teardown-shows-low-fi-microphone-is-surprisingly-sophisticated/",
+            "blurb": "The chunky spring-loaded lever on TE's EP-2350 Ting FX mic contains three sensors: a switch that fires the moment you touch it (waking the device from sleep), a potentiometer tracking how far you press it (controlling effect depth proportionally), and a second switch at full depression that itself becomes an input signal. Three interaction states, one physical gesture, zero visible complexity from the outside \u2014 textbook TE hiding the engineering inside the aesthetic.",
             "tags": [
-              "sculpture",
-              "memory",
-              "material culture"
+              "hardware",
+              "teenage engineering",
+              "interaction design"
             ]
           }
         ]
@@ -109,40 +98,39 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Thieves of Cursed Rocks Pen Letters of Remorse to a National Park",
-            "source": "Aeon",
-            "url": "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park",
-            "blurb": "Petrified Forest National Park receives a steady stream of stolen rocks mailed back by visitors convinced the theft cursed their lives \u2014 car accidents, divorces, job losses, mysterious illness. Aeon's documentary short treats these letters as genuine folk mythology: secular people, confronted with bad luck, reaching for magical causality and choosing confession as the remedy. It's guilt archaeology, and it says something true about how thin the rationalist layer actually is.",
+            "title": "The Asimov story where aliens change one letter in a name and accidentally prevent nuclear war",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Spell_My_Name_with_an_S",
+            "blurb": "In Asimov's 1958 story, two alien observers \u2014 forbidden from direct intervention \u2014 steer a physicist to change the first letter of his surname from Z to S. The ripple: security services investigate, discover a Soviet gamma-ray shielding program, a geopolitical chain reaction unfolds, and nuclear war is quietly averted. The aliens' entire intervention was one letter in one man's name. It surfaced in comments on the SondeHub balloon piece as the perfect fictional frame for accidental infrastructure and hidden leverage \u2014 and it holds up completely.",
             "tags": [
-              "folklore",
-              "documentary",
-              "human behavior"
-            ],
-            "thumbnail": "https://aeon.co/videos/thieves-of-cursed-rocks-pen-letters-of-remorse-to-a-national-park"
+              "fiction",
+              "systems thinking",
+              "hidden influence"
+            ]
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "Ukrainian soldiers reported needing 15\u201320 kamikaze drones to destroy each Russian tank equipped with the Arena-M active protection system, because the system successfully intercepted some incoming drones during its July 22 combat debut.",
-        "url": "https://arstechnica.com/gadgets/2026/08/ukrainian-drones-overwhelm-russian-tanks-new-active-protection-system-for-now/"
+        "fact": "The mRNA-4157 cancer vaccine trial enrolled 1,137 patients and was double-blind \u2014 meaning neither doctors nor patients knew who received the personalized vaccine versus Keytruda alone.",
+        "url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/"
       },
       {
-        "fact": "The desktop fruit fly simulation runs a 668-neuron circuit with ~19,000 real synaptic connections at 1kHz, and its escape response triggers in ~4ms \u2014 the same latency as a biological fly \u2014 because the Giant Fiber neurons must genuinely spike through real connectome pathways, not a scripted animation.",
-        "url": "https://github.com/DenisSergeevitch/desktop-fly"
+        "fact": "SondeHub.org began in 2018 as a single-purpose URL redirect \u2014 a joke that appended a filter parameter to another site's URL \u2014 and grew into critical dual-use meteorological and military infrastructure.",
+        "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/"
       },
       {
-        "fact": "Narwhal tusks contain not one but two nested spirals oriented in opposite directions \u2014 a left-handed outer spiral and a right-handed internal one \u2014 a structure only revealed by X-ray imaging and reported in Nature Communications.",
-        "url": "https://arstechnica.com/science/2026/08/x-rays-add-new-twist-to-narwhals-spiral-tusk/"
+        "fact": "AliExpress's silent WebAudio fingerprinting tones don't make any audible sound, yet are sufficient to claim the browser's active audio context and interrupt Bluetooth multipoint connections on physically separate devices.",
+        "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html"
       },
       {
-        "fact": "The Trump administration has cut AHRQ staff by 75 percent, canceled over 100 grants worth more than $250 million, and is declining to spend most of the $345 million Congress appropriated for the agency in 2026 \u2014 with only $15 million disbursed in grants so far.",
-        "url": "https://arstechnica.com/health/2026/08/sabotage-experts-lawmakers-blast-rfk-jr-for-destroying-healthcare-research/"
+        "fact": "Before a volcanic eruption, subterranean cracks formed by accumulating magma measurably slow the speed of ocean-wave microseismic noise traveling through rock \u2014 detectable by seismometers not looking for it.",
+        "url": "https://nautil.us/how-listening-to-ocean-waves-can-predict-volcanic-eruptions-1284014/"
       },
       {
-        "fact": "Finger, the 1971 social networking protocol that lets you query a plain text file about any user on a connected machine, is still operational today and comes pre-installed as a client on macOS and most Unix systems.",
-        "url": "https://en.andros.dev/blog/54572bc7/finger-the-1971-social-network-that-never-died/"
+        "fact": "Brussels' 2026 Flower Carpet used 750,000 fresh dahlias to recreate Hokusai's Great Wave across 14,000 square feet of Grand-Place \u2014 assembled and then gone within four days.",
+        "url": "https://www.thisiscolossal.com/2026/08/brussels-grand-place-flower-carpet-dahlias-hokusai/"
       }
     ],
     "make_something": null,
@@ -151,74 +139,74 @@
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film that functions as a philosophical essay on memory, ritual, and how images construct time \u2014 Marker drifts between Japan, Guinea-Bissau, and Iceland, finding feedback loops between culture and self-mythology. Nothing else puts the invisible architecture of everyday life on screen like this.",
+        "why": "A film that operates as a memory machine \u2014 looping footage, voice-over philosophy, and early video synthesis into a meditation on how images construct reality and time. The feedback loop between the camera and consciousness is exactly Willem's territory: systems that reveal how perception is built.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Cybernetic Serendipity (1968 exhibition documentation)",
-        "creator": "Jasia Reichardt / ICA London",
-        "why": "The founding moment where art, systems thinking, and computation collided in public \u2014 a frontier scene still forming its own rules, where code was expression and machines made poetry. The documentation reads as a time capsule of a world figuring out what software-as-self-expression even means.",
-        "url": "https://www.ica.art/learning/cybernetic-serendipity-the-computer-and-the-arts"
+        "title": "Untitled (Perfect Lovers)",
+        "creator": "Felix Gonzalez-Torres",
+        "why": "Two identical clocks, synced and slowly drifting apart \u2014 a minimal system that encodes intimacy, mortality, and the physics of loss with almost nothing. The concept is the object; the object is the emotion. Obsessively precise craft in service of something deeply human.",
+        "url": "https://www.moma.org/collection/works/81074"
       },
       {
         "medium": "music",
-        "title": "Tri Repetae",
-        "creator": "Autechre",
-        "why": "Pure expressive systems \u2014 generative industrial textures that feel both deeply inhuman and emotionally precise. The 1995 landmark where machine logic becomes its own aesthetic grammar; still the clearest proof that technical constraint can produce something that feels like breath.",
-        "url": "https://autechre.bandcamp.com/album/tri-repetae"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "An album built on texture, negative space, and the feeling of entering a system you can't fully map \u2014 the audio equivalent of generative 3D that rewards close listening over passive background play. The structures are there; you have to find them.",
+        "url": "https://aphextwin.warp.net/release/80778-aphex-twin-selected-ambient-works-volume-ii"
       }
     ],
     "events": [
       {
-        "name": "Andr\u00e9 Masson: Bodies, Cities, Kingdoms \u2014 Drawings from Automatism to Metamorphosis, 1924\u20131941",
-        "venue": "Acquavella Galleries, 18 E 79th St, Manhattan",
-        "date_start": "2026-06-29",
-        "date_end": "2026-09-25",
-        "category": "museum",
-        "why": "Masson's automatist drawings are the raw wiring beneath Surrealism \u2014 unconscious systems made visible on paper, where bodies dissolve into landscapes and back; a quietly radical body of work that still looks like nothing else.",
-        "url": "https://www.acquavellagalleries.com",
-        "date": "Jun 29 \u2013 Sep 25"
-      },
-      {
-        "name": "Marcel Duchamp Retrospective \u2014 Final Days",
-        "venue": "Museum of Modern Art (MoMA), 11 W 53rd St, Manhattan",
-        "date_start": "2026-08-19",
-        "date_end": "2026-08-22",
-        "category": "museum",
-        "why": "The first major North American Duchamp survey in 50+ years \u2014 nearly 300 works spanning readymades, film, painting, and the unclassifiable \u2014 closes Saturday; the man who broke the boundary between art and idea, and whose revolutions still quietly run the contemporary art world.",
-        "url": "https://www.moma.org/calendar/exhibitions/5820",
-        "date": "Aug 19\u201322"
-      },
-      {
-        "name": "Whitney Biennial 2026 \u2014 Final Days",
+        "name": "Whitney Biennial 82nd Edition \u2014 Last Days",
         "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
-        "date_start": "2026-08-19",
+        "date_start": "2026-08-20",
         "date_end": "2026-08-23",
         "category": "museum",
-        "why": "The 82nd edition closes Sunday \u2014 one of the few recurring exhibitions that functions as a live index of where American art is actually going, not where institutions wish it would; worth a final pass before it disappears.",
+        "why": "Curated by Marcela Guerrero and Drew Sawyer, this is the final weekend of the most consequential survey of American contemporary art \u2014 closing Sunday; worth going now rather than regretting it.",
         "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 19\u201323"
+        "date": "Aug 20\u201323"
       },
       {
-        "name": "Devon Turnbull \u2014 HiFi Pursuit Listening Room Dream No. 3",
+        "name": "Book Launch: 'You Weren't There: '90s Graffiti in New York' at Printed Matter",
+        "venue": "Printed Matter, 231 11th Ave, Chelsea",
+        "date_start": "2026-08-20",
+        "date_end": "2026-08-20",
+        "category": "popup",
+        "why": "A deep-dive into an early-internet-era frontier scene \u2014 graffiti as a pre-digital social network, with its own status systems, rituals, and ephemeral archive \u2014 exactly the kind of cultural-systems anthropology that rewards a Thursday evening.",
+        "url": "https://www.printedmatter.org",
+        "date": "Thu, Aug 20"
+      },
+      {
+        "name": "Made in America: The Industrial Photography of Christopher Payne",
         "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 E 91st St, Manhattan",
-        "date_start": "2026-08-19",
-        "date_end": "2026-09-02",
+        "date_start": "2026-08-20",
+        "date_end": "2026-09-03",
         "category": "museum",
-        "why": "Turnbull has converted the Carnegie Mansion's historic library into a hand-built 'shrine to music' \u2014 large-scale sculptural audio equipment designed to slow you down and make listening a physical, spatial act; exactly the kind of obsessive craft-meets-space work that makes you want to go build something.",
-        "url": "https://www.cooperhewitt.org/events/",
-        "date": "Aug 19 \u2013 Sep 2"
+        "why": "Payne spent a decade photographing American factories with a large-format camera, waiting for color and form to align \u2014 the result is 70+ images that treat manufacturing as choreography; the physical/digital and craft/system intersection is unmissable.",
+        "url": "https://www.cooperhewitt.org/channel/made-in-america/",
+        "date": "Aug 20 \u2013 Sep 3"
       },
       {
-        "name": "Verve Records 70th Anniversary \u2014 Samara Joy & Christian McBride / Mei Semones plays Getz/Gilberto",
-        "venue": "Rumsey Playfield, Central Park, Manhattan",
-        "date_start": "2026-09-02",
-        "date_end": "2026-09-02",
-        "category": "concert",
-        "why": "Free, outdoor, late-evening celebration of one of jazz's most mythologized labels \u2014 Samara Joy and McBride on the catalog, plus a full Getz/Gilberto live set and a DJ closing; a ritual performance of a recording that itself became a cultural symbol.",
-        "url": "https://cityparksfoundation.org/events/verve-70th-anniversary-christian-mcbride-mei-semones-friends-play-the-music-of-getz-gilberto/",
-        "date": "Wed, Sep 2"
+        "name": "Derek Fordjour Artist Talk with Cecilia Alemani",
+        "venue": "The High Line at 22nd Street, Manhattan",
+        "date_start": "2026-08-22",
+        "date_end": "2026-08-22",
+        "category": "popup",
+        "why": "Free outdoor conversation between Fordjour \u2014 who makes dense, layered work about spectacle, Black performance, and crowd psychology \u2014 and former Venice Biennale curator Alemani; the High Line location adds an infrastructural layer to the whole thing.",
+        "url": "https://www.thehighline.org",
+        "date": "Sat, Aug 22"
+      },
+      {
+        "name": "Performance + Screening: Amelia Marzec & 'Hard to Be a God' at Flux Factory",
+        "venue": "Flux Factory, 39-31 29th St, Long Island City, Queens",
+        "date_start": "2026-08-22",
+        "date_end": "2026-08-22",
+        "category": "popup",
+        "why": "Marzec makes work at the edge of communication technology and the body; pairing her live performance with Aleksei German's visceral, immersive medieval sci-fi film is a genuine curatorial swing \u2014 the kind of afternoon that makes you want to go make something.",
+        "url": "https://fluxfactory.org",
+        "date": "Sat, Aug 22"
       }
     ]
   },
