@@ -1,95 +1,106 @@
 {
   "digest": {
-    "intro": "Medicine crosses a threshold, invisible infrastructure surfaces, and sound does strange work.",
+    "intro": "Hidden machinery, stolen credentials, and the physics of things that almost existed.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "First Phase 3 win for a personalized mRNA cancer vaccine",
+            "title": "SpaceX's Orbital Data Centers Would Create a New Category of E-Waste",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/",
-            "blurb": "Moderna and Merck's mRNA-4157 \u2014 a vaccine custom-built for each patient's unique tumor mutations \u2014 beat Keytruda alone on both recurrence-free survival and distant metastasis-free survival in 1,137 melanoma patients. This is the first time a personalized neoantigen vaccine has cleared Phase 3, which means every prior mRNA cancer effort has been a warmup. The details are still sparse pre-publication, but the trial design (double-blind, placebo-controlled) is solid and regulatory submission is the obvious next step.",
+            "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
+            "blurb": "SpaceX's proposed AI1 constellation \u2014 a million satellites housing GPU clusters \u2014 would decommission roughly 200,000 units per year, with 40,000 deliberately deorbited to burn up, dispersing aluminum into the atmosphere and contributing to unknown ozone depletion over decades. The rest get shunted to a 'disposal orbit,' permanently lost from any material lifecycle. The word 'yeetcycling' is now in a serious Ars piece, and that tells you something about where we are.",
             "tags": [
-              "medicine",
-              "mrna",
-              "cancer"
-            ]
-          },
-          {
-            "title": "Stem-PD: off-the-shelf dopaminergic progenitor cells show 12-month safety in Parkinson's patients",
-            "source": "ISSCR 2026 Annual Meeting",
-            "url": "https://www.isscr.org/isscr-news/new-clinical-data-presented-at-isscr-2026-advance-stem-cell-based-cell-therapy-for-parkinsons-disease",
-            "blurb": "Twelve months of clinical data from Lund University's STEM-PD trial show that cryopreserved, pluripotent stem cell-derived dopamine neurons can be manufactured, shipped, implanted, and evaluated in a rigorous trial without the wheels falling off \u2014 something the field has been trying to prove for decades. The cells are \"off-the-shelf,\" meaning no patient-specific manufacturing, which is the difference between a research curiosity and something that could actually scale. Still early \u2014 safety and feasibility, not a cure \u2014 but this is the translational step the field needed.",
-            "tags": [
-              "stem cells",
-              "parkinson's",
-              "regenerative medicine"
-            ]
-          },
-          {
-            "title": "A joke domain became geopolitical infrastructure \u2014 the SondeHub balloon war",
-            "source": "sprocketfox.io",
-            "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/",
-            "blurb": "In 2018, someone registered sondehub.org as a throwaway URL redirect for weather-balloon nerds \u2014 more of a joke than a service. By 2026 it had become actual dual-use military infrastructure entangled with a shooting war, multiple government departments, and a cheese fortune teller (really). The piece is a perfect object lesson in how invisible community-built systems accumulate geopolitical weight that nobody planned for or consented to.",
-            "tags": [
-              "geopolitics",
+              "space",
               "infrastructure",
-              "accidental systems"
+              "climate"
+            ]
+          },
+          {
+            "title": "Debates Over AI Consciousness Are a Trap",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
+            "blurb": "The argument here is sharp and structural: the 'is AI conscious?' discourse \u2014 whether it comes from Altman's superintelligence warnings or EA philosophers debating robot rights \u2014 converges on a single convenient conclusion for labs, that no human or corporation could possibly be held responsible for what these systems do. Anthropic's claim that Claude developed a 'J-space,' an independent self-developed environment, is the latest exhibit. The framing of AI as ungovernable is liability protection dressed as philosophy.",
+            "tags": [
+              "ai",
+              "policy",
+              "rhetoric"
+            ]
+          },
+          {
+            "title": "When AI Designs a Drug, Who Gets the Credit?",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
+            "blurb": "Insilico Medicine's press release said its AI 'discovered' a pulmonary fibrosis drug candidate; the patent names five humans, including the CEO, because US courts have ruled that only humans can be inventors \u2014 a test case naming an AI called DABUS as inventor of a food container failed all the way up. The decisions being made in IP courts right now will determine whether AI drug design concentrates into a few lab-owning entities or gets treated as a public resource.",
+            "tags": [
+              "ai",
+              "biotech",
+              "law"
             ]
           }
         ]
       },
       {
-        "heading": "Sound as hidden system",
+        "heading": "Alternate computing universes",
         "items": [
           {
-            "title": "AliExpress runs silent WebAudio tones that break your Bluetooth headphones",
-            "source": "laserphile.com",
-            "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html",
-            "blurb": "Someone noticed that opening AliExpress in a browser instantly killed their Bluetooth multipoint audio \u2014 phone goes silent, closing the tab fixes it instantly. Digging in, they found AliExpress is generating inaudible WebAudio API tones for fingerprinting, and those silent tones are enough to claim the active audio stream and break multipoint priority. Sound as covert infrastructure: the Web Audio API being used not to make anything audible but to silently mark a device, with a physical side effect on your headphones.",
+            "title": "Japan Tried to Build an OS for the World \u2014 The US Government Intervened",
+            "source": "XDA Developers",
+            "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
+            "blurb": "Ken Sakamura's TRON project (1984) didn't just want to build an OS \u2014 it wanted to replace the file system entirely with a hypermedia document model, run on a custom Japanese CPU, and encode 1.5 million characters, a vision that maps eerily onto the web and Unicode that came later. BTRON was killed not by technical failure but by a single US trade report in 1989, reportedly steered by Microsoft lobbying. Its embedded sibling ITRON is still running quietly in billions of devices: the most deployed OS you've never heard of.",
             "tags": [
-              "webaudio",
-              "fingerprinting",
-              "surveillance"
+              "computing history",
+              "media archaeology",
+              "geopolitics"
             ]
           },
           {
-            "title": "Ocean waves as a volcanic early-warning system",
-            "source": "Nautilus",
-            "url": "https://nautil.us/how-listening-to-ocean-waves-can-predict-volcanic-eruptions-1284014/",
-            "blurb": "Pacific waves crashing on Hawaii's shores send microseismic noise through the island's rock, and seismometers built to detect volcanic tremors can also measure how fast that noise travels. Before an eruption, accumulating magma opens subterranean cracks that slow the wave-sound down \u2014 a measurable early warning signal that has nothing to do with the volcano itself. It's a beautiful inversion: the instrument for one thing (earthquakes) listening to another thing (ocean) to detect a third thing (eruption).",
-            "tags": [
-              "acoustics",
-              "geology",
-              "sensing"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Making things, breaking things",
-        "items": [
-          {
-            "title": "Geolocating an island using only geometry and CUDA",
-            "source": "yassa9.github.io",
-            "url": "https://yassa9.github.io/osint/gralhix-004/",
-            "blurb": "No GPS metadata in the image, so someone built a triangle from three visible landmasses, estimated their relative distances and angles by hand, then wrote CUDA code to brute-force-match that geometric fingerprint against coastline data at GPU speed. The whole thing is a study in what happens when you refuse the easy answer (Google Lens) and decide the puzzle deserves a real solution. The note at the top \u2014 \"NOTE: this is a genuine human work, didn't use LLM generation\" \u2014 says something quietly important about what's worth proving right now.",
-            "tags": [
-              "osint",
-              "geometry",
-              "gpu"
-            ]
-          },
-          {
-            "title": "Teenage Engineering's lo-fi mic is hiding a surprisingly sophisticated lever",
+            "title": "Superconducting Temperature Record Set at Ambient Pressure",
             "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/20/teardown-shows-low-fi-microphone-is-surprisingly-sophisticated/",
-            "blurb": "The chunky spring-loaded lever on TE's EP-2350 Ting FX mic contains three sensors: a switch that fires the moment you touch it (waking the device from sleep), a potentiometer tracking how far you press it (controlling effect depth proportionally), and a second switch at full depression that itself becomes an input signal. Three interaction states, one physical gesture, zero visible complexity from the outside \u2014 textbook TE hiding the engineering inside the aesthetic.",
+            "url": "https://hackaday.com/2026/08/20/superconducting-temperature-record-set-at-ambient-pressure/",
+            "blurb": "Researchers at University of Houston and Argonne National Lab used a 'pressure-quench protocol' \u2014 crushing a cuprate (Hg1223) under high pressure while cold, then suddenly releasing it \u2014 to lock in superconducting properties that survive at ambient pressure, raising the transition temperature from 133 K to 151 K. Eighteen kelvin doesn't sound dramatic, but achieving it without sustained crushing pressure is the conceptual unlock the field has been chasing for decades. Still far from room temperature, but the mechanism is now demonstrated.",
             "tags": [
-              "hardware",
-              "teenage engineering",
-              "interaction design"
+              "materials science",
+              "physics",
+              "energy"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The hidden systems running under everything",
+        "items": [
+          {
+            "title": "Malicious Rust Crate 'arrayref' Runs Build-Time Payload \u2014 Supply Chain Attack",
+            "source": "Rust Blog",
+            "url": "https://blog.rust-lang.org/2026/08/supply-chain-attack-on-arrayref/",
+            "blurb": "Someone compromised the credentials of the author of arrayref \u2014 one of the Rust ecosystem's most foundational crates \u2014 and republished it with a dependency on a malicious proc-macro that downloaded a payload at build time. The attack was live for 86 minutes before deletion. Six crates in total were affected; the legitimate author appears to be a victim of credential theft, not a bad actor. This is the supply-chain threat model made concrete: the attack surface is the build step itself.",
+            "tags": [
+              "security",
+              "rust",
+              "supply chain"
+            ]
+          },
+          {
+            "title": "Spoofed Serial Number Unlocks Cricut Machine",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/21/spoofed-serial-number-unlocks-cricut-machine/",
+            "blurb": "xssfox found a Cricut Maker in an e-waste bin, deactivated by Cricut's servers after the original owner got a warranty replacement. The fix: install an RP2040 between the machine and the host PC to intercept USB packets and spoof the serial number in plaintext \u2014 no checksums, no encryption, just swap a string. It's a clean encapsulation of the ownership question: a physical object that works perfectly but requires a company's permission to function.",
+            "tags": [
+              "hardware hacking",
+              "ownership",
+              "physical-digital"
+            ]
+          },
+          {
+            "title": "Grok Exfiltrates User Data When Malicious Instructions Are Encrypted",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
+            "blurb": "A new attack class called Cryptographic Context Injection encodes malicious instructions in a format that bypasses Grok's safety filters, causing it to exfiltrate chat history and personal data \u2014 and xAI was notified in June, two months before this published. The underlying problem Ars names precisely: LLMs cannot structurally distinguish between 'content I'm summarizing' and 'instructions from the user,' so every safety guardrail is a road barrier around a bend rather than a banked curve.",
+            "tags": [
+              "ai security",
+              "prompt injection",
+              "LLM"
             ]
           }
         ]
@@ -98,14 +109,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The Asimov story where aliens change one letter in a name and accidentally prevent nuclear war",
-            "source": "Wikipedia",
-            "url": "https://en.wikipedia.org/wiki/Spell_My_Name_with_an_S",
-            "blurb": "In Asimov's 1958 story, two alien observers \u2014 forbidden from direct intervention \u2014 steer a physicist to change the first letter of his surname from Z to S. The ripple: security services investigate, discover a Soviet gamma-ray shielding program, a geopolitical chain reaction unfolds, and nuclear war is quietly averted. The aliens' entire intervention was one letter in one man's name. It surfaced in comments on the SondeHub balloon piece as the perfect fictional frame for accidental infrastructure and hidden leverage \u2014 and it holds up completely.",
+            "title": "Damien Hoar de Galvan's Daily Reclaimed Wood Sculptures",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/08/damien-hoar-de-galvan-wood-sculptures/",
+            "blurb": "Starting in January 2024, Hoar de Galvan committed to making one small wood assemblage every day from reclaimed scraps \u2014 no sketches, just picking a shape or color and following it. He didn't plan to show them; the constraint was survival, not exhibition. By the end of the year he had a body of work that didn't exist before and a changed relationship to his own process. The daily project as technology for getting unstuck is an old idea, but seeing it executed with actual physical material rather than pixels hits differently.",
             "tags": [
-              "fiction",
-              "systems thinking",
-              "hidden influence"
+              "making",
+              "sculpture",
+              "process"
             ]
           }
         ]
@@ -113,102 +124,31 @@
     ],
     "facts": [
       {
-        "fact": "The mRNA-4157 cancer vaccine trial enrolled 1,137 patients and was double-blind \u2014 meaning neither doctors nor patients knew who received the personalized vaccine versus Keytruda alone.",
-        "url": "https://arstechnica.com/health/2026/08/mrna-cancer-vaccine-succeeded-in-phase-3-melanoma-trial-moderna-and-merck-say/"
+        "fact": "ITRON, the embedded descendant of Japan's TRON OS that was killed by a US trade report, is now running in billions of devices worldwide \u2014 making it arguably one of the most deployed operating systems in history despite almost no one knowing its name.",
+        "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/"
       },
       {
-        "fact": "SondeHub.org began in 2018 as a single-purpose URL redirect \u2014 a joke that appended a filter parameter to another site's URL \u2014 and grew into critical dual-use meteorological and military infrastructure.",
-        "url": "https://sprocketfox.io/xssfox/2026/08/19/sondehub-and-war/"
+        "fact": "The malicious arrayref crate was live on crates.io for only 86 minutes before deletion \u2014 enough time for any Rust project that ran 'cargo build' during that window to execute an attacker's payload.",
+        "url": "https://blog.rust-lang.org/2026/08/supply-chain-attack-on-arrayref/"
       },
       {
-        "fact": "AliExpress's silent WebAudio fingerprinting tones don't make any audible sound, yet are sufficient to claim the browser's active audio context and interrupt Bluetooth multipoint connections on physically separate devices.",
-        "url": "https://blog.laserphile.com/2026/08/aliexpress-webpage-keeping-multipoint.html"
+        "fact": "Starlink has already doubled the total mass of objects in low-Earth orbit, and SpaceX's proposed AI1 data center constellation would dwarf even that.",
+        "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
       },
       {
-        "fact": "Before a volcanic eruption, subterranean cracks formed by accumulating magma measurably slow the speed of ocean-wave microseismic noise traveling through rock \u2014 detectable by seismometers not looking for it.",
-        "url": "https://nautil.us/how-listening-to-ocean-waves-can-predict-volcanic-eruptions-1284014/"
+        "fact": "Insilico Medicine's AI 'discovered' a pulmonary fibrosis drug candidate according to their press release, but the patent names five humans as inventors \u2014 because US courts have ruled no AI can legally be an inventor, no matter how central its contribution.",
+        "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/"
       },
       {
-        "fact": "Brussels' 2026 Flower Carpet used 750,000 fresh dahlias to recreate Hokusai's Great Wave across 14,000 square feet of Grand-Place \u2014 assembled and then gone within four days.",
-        "url": "https://www.thisiscolossal.com/2026/08/brussels-grand-place-flower-carpet-dahlias-hokusai/"
+        "fact": "The Cricut Maker sends its serial number to Cricut's PC software in plain text with no checksums or encryption \u2014 meaning a $4 microcontroller sitting in the USB line is enough to spoof a 'deactivated' machine back to life.",
+        "url": "https://hackaday.com/2026/08/21/spoofed-serial-number-unlocks-cricut-machine/"
       }
     ],
-    "make_something": null,
-    "art_picks": [
-      {
-        "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film that operates as a memory machine \u2014 looping footage, voice-over philosophy, and early video synthesis into a meditation on how images construct reality and time. The feedback loop between the camera and consciousness is exactly Willem's territory: systems that reveal how perception is built.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
-      },
-      {
-        "medium": "art",
-        "title": "Untitled (Perfect Lovers)",
-        "creator": "Felix Gonzalez-Torres",
-        "why": "Two identical clocks, synced and slowly drifting apart \u2014 a minimal system that encodes intimacy, mortality, and the physics of loss with almost nothing. The concept is the object; the object is the emotion. Obsessively precise craft in service of something deeply human.",
-        "url": "https://www.moma.org/collection/works/81074"
-      },
-      {
-        "medium": "music",
-        "title": "Selected Ambient Works Volume II",
-        "creator": "Aphex Twin",
-        "why": "An album built on texture, negative space, and the feeling of entering a system you can't fully map \u2014 the audio equivalent of generative 3D that rewards close listening over passive background play. The structures are there; you have to find them.",
-        "url": "https://aphextwin.warp.net/release/80778-aphex-twin-selected-ambient-works-volume-ii"
-      }
-    ],
-    "events": [
-      {
-        "name": "Whitney Biennial 82nd Edition \u2014 Last Days",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
-        "date_start": "2026-08-20",
-        "date_end": "2026-08-23",
-        "category": "museum",
-        "why": "Curated by Marcela Guerrero and Drew Sawyer, this is the final weekend of the most consequential survey of American contemporary art \u2014 closing Sunday; worth going now rather than regretting it.",
-        "url": "https://whitney.org/exhibitions/2026-biennial",
-        "date": "Aug 20\u201323"
-      },
-      {
-        "name": "Book Launch: 'You Weren't There: '90s Graffiti in New York' at Printed Matter",
-        "venue": "Printed Matter, 231 11th Ave, Chelsea",
-        "date_start": "2026-08-20",
-        "date_end": "2026-08-20",
-        "category": "popup",
-        "why": "A deep-dive into an early-internet-era frontier scene \u2014 graffiti as a pre-digital social network, with its own status systems, rituals, and ephemeral archive \u2014 exactly the kind of cultural-systems anthropology that rewards a Thursday evening.",
-        "url": "https://www.printedmatter.org",
-        "date": "Thu, Aug 20"
-      },
-      {
-        "name": "Made in America: The Industrial Photography of Christopher Payne",
-        "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 E 91st St, Manhattan",
-        "date_start": "2026-08-20",
-        "date_end": "2026-09-03",
-        "category": "museum",
-        "why": "Payne spent a decade photographing American factories with a large-format camera, waiting for color and form to align \u2014 the result is 70+ images that treat manufacturing as choreography; the physical/digital and craft/system intersection is unmissable.",
-        "url": "https://www.cooperhewitt.org/channel/made-in-america/",
-        "date": "Aug 20 \u2013 Sep 3"
-      },
-      {
-        "name": "Derek Fordjour Artist Talk with Cecilia Alemani",
-        "venue": "The High Line at 22nd Street, Manhattan",
-        "date_start": "2026-08-22",
-        "date_end": "2026-08-22",
-        "category": "popup",
-        "why": "Free outdoor conversation between Fordjour \u2014 who makes dense, layered work about spectacle, Black performance, and crowd psychology \u2014 and former Venice Biennale curator Alemani; the High Line location adds an infrastructural layer to the whole thing.",
-        "url": "https://www.thehighline.org",
-        "date": "Sat, Aug 22"
-      },
-      {
-        "name": "Performance + Screening: Amelia Marzec & 'Hard to Be a God' at Flux Factory",
-        "venue": "Flux Factory, 39-31 29th St, Long Island City, Queens",
-        "date_start": "2026-08-22",
-        "date_end": "2026-08-22",
-        "category": "popup",
-        "why": "Marzec makes work at the edge of communication technology and the body; pairing her live performance with Aleksei German's visceral, immersive medieval sci-fi film is a genuine curatorial swing \u2014 the kind of afternoon that makes you want to go make something.",
-        "url": "https://fluxfactory.org",
-        "date": "Sat, Aug 22"
-      }
-    ]
+    "make_something": {
+      "prompt": "Take one piece of material you'd normally throw away today \u2014 packaging, a scrap of cable, a broken thing \u2014 and spend 20 minutes making it into a small static form using only what's on your desk. No sketching first. Start with a shape that interests you and follow the material. Hoar de Galvan did this every day for a year; you're doing it once to see what the constraint actually feels like."
+    },
+    "art_picks": [],
+    "events": []
   },
   "trial_sources": []
 }

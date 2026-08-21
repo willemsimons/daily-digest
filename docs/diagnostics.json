@@ -1,24 +1,21 @@
 {
   "feeds": 86,
-  "mined": 60,
-  "videos": 3,
+  "mined": 49,
+  "videos": 2,
   "video_titles": [
     "Could identical twins commit the perfect crime?",
-    "Total Solar Eclipse from 92,000 Feet",
-    "How do submarines know where they are?"
+    "Total Solar Eclipse from 92,000 Feet"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
     "Ars Technica",
+    "Colossal",
     "Hackaday",
-    "ISSCR 2026 Annual Meeting",
-    "Nautilus",
-    "Wikipedia",
-    "laserphile.com",
-    "sprocketfox.io",
-    "yassa9.github.io"
+    "MIT Technology Review",
+    "Rust Blog",
+    "XDA Developers"
   ],
   "had_video": false,
-  "run_at": "2026-08-20T11:57:00.557258+00:00"
+  "run_at": "2026-08-21T11:56:35.520117+00:00"
 }
