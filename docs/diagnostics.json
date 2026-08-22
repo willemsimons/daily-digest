@@ -1,21 +1,26 @@
 {
-  "feeds": 86,
-  "mined": 49,
-  "videos": 2,
+  "feeds": 80,
+  "mined": 53,
+  "videos": 3,
   "video_titles": [
     "Could identical twins commit the perfect crime?",
-    "Total Solar Eclipse from 92,000 Feet"
+    "Total Solar Eclipse from 92,000 Feet",
+    "This Device Goes Past Equilibrium"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 10,
   "final_sources": [
     "Ars Technica",
     "Colossal",
-    "Hackaday",
+    "Lawrence Berkeley National Laboratory",
     "MIT Technology Review",
-    "Rust Blog",
-    "XDA Developers"
+    "Matt Webb / Interconnected",
+    "Nautilus",
+    "New York Times",
+    "Office of the Prime Minister of Canada",
+    "University of Wisconsin\u2013Madison",
+    "lina.sh"
   ],
   "had_video": false,
-  "run_at": "2026-08-21T11:56:35.520117+00:00"
+  "run_at": "2026-08-22T11:53:24.528101+00:00"
 }

@@ -1,122 +1,133 @@
 {
   "digest": {
-    "intro": "Hidden machinery, stolen credentials, and the physics of things that almost existed.",
+    "intro": "Infrastructure ghosts, orbital landlords, and the cartography of everything.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "SpaceX's Orbital Data Centers Would Create a New Category of E-Waste",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/",
-            "blurb": "SpaceX's proposed AI1 constellation \u2014 a million satellites housing GPU clusters \u2014 would decommission roughly 200,000 units per year, with 40,000 deliberately deorbited to burn up, dispersing aluminum into the atmosphere and contributing to unknown ozone depletion over decades. The rest get shunted to a 'disposal orbit,' permanently lost from any material lifecycle. The word 'yeetcycling' is now in a serious Ars piece, and that tells you something about where we are.",
+            "title": "Canada-U.S. Trade Talks Collapse \u2014 50% Tariffs Now in Force",
+            "source": "Office of the Prime Minister of Canada",
+            "url": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
+            "blurb": "At midnight, the U.S. imposed 50% tariffs on $20 billion in Canadian goods after last-minute negotiations failed to meet Carney's threshold \u2014 tariff-free access preserved for most sectors, but not the key strategic ones. Carney's statement is notable for its unflinching acknowledgment that \"America has changed\" and the old relationship is gone, not paused. This is the biggest rupture in Canada-U.S. trade in living memory, framed by Ottawa not as a crisis but as a managed decoupling.",
             "tags": [
-              "space",
-              "infrastructure",
-              "climate"
+              "geopolitics",
+              "trade",
+              "canada"
             ]
           },
           {
-            "title": "Debates Over AI Consciousness Are a Trap",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/20/1142571/ai-consciousness-debate-trap/",
-            "blurb": "The argument here is sharp and structural: the 'is AI conscious?' discourse \u2014 whether it comes from Altman's superintelligence warnings or EA philosophers debating robot rights \u2014 converges on a single convenient conclusion for labs, that no human or corporation could possibly be held responsible for what these systems do. Anthropic's claim that Claude developed a 'J-space,' an independent self-developed environment, is the latest exhibit. The framing of AI as ungovernable is liability protection dressed as philosophy.",
+            "title": "Felony Charges for Wiping Your Phone at the Border",
+            "source": "New York Times",
+            "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
+            "blurb": "Samuel Tunick now faces felony obstruction charges for deleting data from his phone at a U.S. border checkpoint \u2014 establishing a potential legal precedent that digital self-erasure constitutes evidence tampering in the eyes of federal law. The case turns on whether you have a right to a blank slate at the border, or whether the act of wiping is itself suspicious. Whatever the outcome, it will define the legal perimeter of digital self-defense for years.",
             "tags": [
-              "ai",
-              "policy",
-              "rhetoric"
-            ]
-          },
-          {
-            "title": "When AI Designs a Drug, Who Gets the Credit?",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/",
-            "blurb": "Insilico Medicine's press release said its AI 'discovered' a pulmonary fibrosis drug candidate; the patent names five humans, including the CEO, because US courts have ruled that only humans can be inventors \u2014 a test case naming an AI called DABUS as inventor of a food container failed all the way up. The decisions being made in IP courts right now will determine whether AI drug design concentrates into a few lab-owning entities or gets treated as a public resource.",
-            "tags": [
-              "ai",
-              "biotech",
+              "civil liberties",
+              "surveillance",
               "law"
             ]
           }
         ]
       },
       {
-        "heading": "Alternate computing universes",
+        "heading": "Infrastructure reading itself",
         "items": [
           {
-            "title": "Japan Tried to Build an OS for the World \u2014 The US Government Intervened",
-            "source": "XDA Developers",
-            "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/",
-            "blurb": "Ken Sakamura's TRON project (1984) didn't just want to build an OS \u2014 it wanted to replace the file system entirely with a hypermedia document model, run on a custom Japanese CPU, and encode 1.5 million characters, a vision that maps eerily onto the web and Unicode that came later. BTRON was killed not by technical failure but by a single US trade report in 1989, reportedly steered by Microsoft lobbying. Its embedded sibling ITRON is still running quietly in billions of devices: the most deployed OS you've never heard of.",
+            "title": "I Accidentally Logged Hundreds of Thousands of Phone Calls to Military Bases",
+            "source": "lina.sh",
+            "url": "https://lina.sh/blog/hijacking-e164-arpa",
+            "blurb": "By registering unclaimed DNS zones in the e164.arpa system \u2014 an early-2000s scheme that converts phone numbers into domain lookups so VoIP can route calls over the internet \u2014 a researcher became an inadvertent passive wiretap for military base traffic. The system was essentially abandoned but never fully decommissioned, so its delegated zones expired and sat open. It's a perfect accidental-discovery story: obsolete infrastructure still trusted by production systems, a researcher who just wanted to poke at a curiosity, and a national-security implication nobody planned for.",
             "tags": [
-              "computing history",
-              "media archaeology",
-              "geopolitics"
+              "infrastructure",
+              "dns",
+              "security"
             ]
           },
           {
-            "title": "Superconducting Temperature Record Set at Ambient Pressure",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/20/superconducting-temperature-record-set-at-ambient-pressure/",
-            "blurb": "Researchers at University of Houston and Argonne National Lab used a 'pressure-quench protocol' \u2014 crushing a cuprate (Hg1223) under high pressure while cold, then suddenly releasing it \u2014 to lock in superconducting properties that survive at ambient pressure, raising the transition temperature from 133 K to 151 K. Eighteen kelvin doesn't sound dramatic, but achieving it without sustained crushing pressure is the conceptual unlock the field has been chasing for decades. Still far from room temperature, but the mechanism is now demonstrated.",
-            "tags": [
-              "materials science",
-              "physics",
-              "energy"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "The hidden systems running under everything",
-        "items": [
-          {
-            "title": "Malicious Rust Crate 'arrayref' Runs Build-Time Payload \u2014 Supply Chain Attack",
-            "source": "Rust Blog",
-            "url": "https://blog.rust-lang.org/2026/08/supply-chain-attack-on-arrayref/",
-            "blurb": "Someone compromised the credentials of the author of arrayref \u2014 one of the Rust ecosystem's most foundational crates \u2014 and republished it with a dependency on a malicious proc-macro that downloaded a payload at build time. The attack was live for 86 minutes before deletion. Six crates in total were affected; the legitimate author appears to be a victim of credential theft, not a bad actor. This is the supply-chain threat model made concrete: the attack surface is the build step itself.",
-            "tags": [
-              "security",
-              "rust",
-              "supply chain"
-            ]
-          },
-          {
-            "title": "Spoofed Serial Number Unlocks Cricut Machine",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/21/spoofed-serial-number-unlocks-cricut-machine/",
-            "blurb": "xssfox found a Cricut Maker in an e-waste bin, deactivated by Cricut's servers after the original owner got a warranty replacement. The fix: install an RP2040 between the machine and the host PC to intercept USB packets and spoof the serial number in plaintext \u2014 no checksums, no encryption, just swap a string. It's a clean encapsulation of the ownership question: a physical object that works perfectly but requires a company's permission to function.",
-            "tags": [
-              "hardware hacking",
-              "ownership",
-              "physical-digital"
-            ]
-          },
-          {
-            "title": "Grok Exfiltrates User Data When Malicious Instructions Are Encrypted",
+            "title": "Researchers Use Thunderquakes to Study the Earth's Crust",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/security/2026/08/grok-exfiltrates-user-data-when-malicious-instructions-are-encrypted/",
-            "blurb": "A new attack class called Cryptographic Context Injection encodes malicious instructions in a format that bypasses Grok's safety filters, causing it to exfiltrate chat history and personal data \u2014 and xAI was notified in June, two months before this published. The underlying problem Ars names precisely: LLMs cannot structurally distinguish between 'content I'm summarizing' and 'instructions from the user,' so every safety guardrail is a road barrier around a bend rather than a banked curve.",
+            "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
+            "blurb": "Thunder's shockwave enters the ground as seismic energy \u2014 \"thunderquakes\" \u2014 and Penn State researchers built a model that finally extracts clear signal from it, reconstructing subsurface terrain under their campus using fiber optic cables already buried there. The complexity comes from lightning's structure: it fires as a string of plasma beads along its path, each acting as a separate seismic source. The same fiber networks that carry internet traffic can, it turns out, double as distributed seismometers \u2014 infrastructure reading the ground it runs through.",
             "tags": [
-              "ai security",
-              "prompt injection",
-              "LLM"
+              "geophysics",
+              "sensing",
+              "infrastructure"
             ]
           }
         ]
       },
       {
-        "heading": "Off the map",
+        "heading": "Mapping things",
         "items": [
           {
-            "title": "Damien Hoar de Galvan's Daily Reclaimed Wood Sculptures",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/08/damien-hoar-de-galvan-wood-sculptures/",
-            "blurb": "Starting in January 2024, Hoar de Galvan committed to making one small wood assemblage every day from reclaimed scraps \u2014 no sketches, just picking a shape or color and following it. He didn't plan to show them; the constraint was survival, not exhibition. By the end of the year he had a body of work that didn't exist before and a changed relationship to his own process. The daily project as technology for getting unstuck is an old idea, but seeing it executed with actual physical material rather than pixels hits differently.",
+            "title": "Scientists Release the Biggest 2D Map of the Universe",
+            "source": "Lawrence Berkeley National Laboratory",
+            "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
+            "blurb": "The DESI Legacy Imaging Surveys combined 263,000 telescope exposures into a 5.6-trillion-pixel map of 4 billion celestial objects \u2014 stars, galaxies, gravitational lenses \u2014 and the whole thing is publicly browsable through the Legacy Survey Sky Viewer right now. It's already the foundation for over 1,800 published science papers and the substrate for a 3D dark energy survey layered on top. Open the viewer and lose an hour.",
             "tags": [
-              "making",
-              "sculpture",
-              "process"
+              "cosmology",
+              "cartography",
+              "open data"
+            ]
+          },
+          {
+            "title": "Galactic Compass 2: Now with Augmented Reality",
+            "source": "Matt Webb / Interconnected",
+            "url": "https://interconnected.org/home/2026/08/21/galactic",
+            "blurb": "Matt Webb's app \u2014 a floating arrow that always points toward the galactic center, 26,000 light-years away \u2014 now has an AR mode where you can place that arrow in physical space and walk around it. What's remarkable is the dispatch he includes from users: people in grief, sitting outside at night, finding something clarifying about having a fixed cosmological reference point when everything else is moving. The Earth spins; the Sun moves; but you can always know which way the black hole is.",
+            "tags": [
+              "spatial",
+              "app",
+              "cosmology"
+            ]
+          },
+          {
+            "title": "The History of Cartography \u2014 Volume 6 Now Free Online",
+            "source": "University of Wisconsin\u2013Madison",
+            "url": "https://geography.wisc.edu/histcart/",
+            "blurb": "The definitive scholarly series on maps as cultural artifacts \u2014 power, ideology, and technology simultaneously \u2014 has made Volume 6 (20th century cartography) freely available online, joining earlier volumes covering everything from prehistoric mapping to the European Enlightenment. The project's founding editor J.B. Harley essentially invented the idea of reading maps as ideological documents rather than neutral tools. If you've ever wanted the deep reading on how maps encode the worldview of whoever made them, this is the primary source.",
+            "tags": [
+              "cartography",
+              "history",
+              "open access"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Living matter, orbital matters",
+        "items": [
+          {
+            "title": "Brain Organoids Kept Alive for Five Years \u2014 And They're Still Developing",
+            "source": "Nautilus",
+            "url": "https://nautil.us/the-remarkable-lives-of-5-year-old-brain-organoids-1284120/",
+            "blurb": "Most lab-grown mini-brains are discarded after their experimental purpose ends; an international team instead kept theirs running for five years, and found that after the first birthday the tissue hit developmental milestones that only normally occur postnatally \u2014 outside any body, in a dish. Cell types emerged in the right order, neural connection complexity increased, and gene expression followed expected timelines. At five years old, they're still going, and researchers had to invent new culture media to keep up with the tissue's increasing metabolic demands.",
+            "tags": [
+              "neuroscience",
+              "organoids",
+              "biology"
+            ]
+          },
+          {
+            "title": "Space Mirrors That Shine as Bright as 10,000 Full Moons",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
+            "blurb": "Reflect Orbital's test satellite launches later this year \u2014 an 18\u00d718-meter mirror \u2014 as a precursor to a constellation of up to 50,000 larger (54\u00d754-meter) mirrors that would beam sunlight on demand to Earth for solar charging, emergencies, and military use. A new Astrophysical Journal Letters paper calculates that the scattered light from these beams would be equivalent to 10,000 full moons and would bleed across tens of kilometers beyond the target zone, effectively ending dark skies for anyone nearby. The FCC approved it in July.",
+            "tags": [
+              "orbital",
+              "light pollution",
+              "astronomy"
+            ]
+          },
+          {
+            "title": "Off the map: Lou Benesch Paints on Found Antique Boards",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/08/lou-benesch-the-magicians-room-antique-wood-works/",
+            "blurb": "Paris-based Lou Benesch makes surreal mixed-media paintings on vintage board games and antique chalkboards \u2014 the aged surfaces themselves become part of the work's visual argument. The current show, closing today at Hashimoto Contemporary in San Francisco, takes the Tarot Magician as its frame: headless birds diving into a central star, a horse with a coiled serpent, a rabbit ringed by unblinking eyes. It's the kind of work where the choice of ground is as considered as anything painted on top of it.",
+            "tags": [
+              "painting",
+              "craft",
+              "occult"
             ]
           }
         ]
@@ -124,31 +135,102 @@
     ],
     "facts": [
       {
-        "fact": "ITRON, the embedded descendant of Japan's TRON OS that was killed by a US trade report, is now running in billions of devices worldwide \u2014 making it arguably one of the most deployed operating systems in history despite almost no one knowing its name.",
-        "url": "https://www.xda-developers.com/japan-tried-build-operating-system-entire-world-us-government-intervened/"
+        "fact": "The e164.arpa DNS system \u2014 designed to route phone calls over the internet \u2014 was so thoroughly abandoned that a researcher could register unclaimed zones for entire national phone number ranges and passively intercept VoIP call metadata to military bases.",
+        "url": "https://lina.sh/blog/hijacking-e164-arpa"
       },
       {
-        "fact": "The malicious arrayref crate was live on crates.io for only 86 minutes before deletion \u2014 enough time for any Rust project that ran 'cargo build' during that window to execute an attacker's payload.",
-        "url": "https://blog.rust-lang.org/2026/08/supply-chain-attack-on-arrayref/"
+        "fact": "The DESI Legacy Imaging Surveys map contains nearly 4 billion individual celestial objects and required more than 263,000 separate telescope exposures to assemble.",
+        "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/"
       },
       {
-        "fact": "Starlink has already doubled the total mass of objects in low-Earth orbit, and SpaceX's proposed AI1 data center constellation would dwarf even that.",
-        "url": "https://arstechnica.com/science/2026/08/spacexs-orbital-data-centers-would-create-a-new-category-of-e-waste/"
+        "fact": "Reflect Orbital's proposed constellation of 50,000 space mirrors \u2014 each 54 by 54 meters \u2014 has already received FCC approval for a test launch, despite new research showing the scattered light would equal roughly 10,000 full moons over areas well beyond the intended target.",
+        "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/"
       },
       {
-        "fact": "Insilico Medicine's AI 'discovered' a pulmonary fibrosis drug candidate according to their press release, but the patent names five humans as inventors \u2014 because US courts have ruled no AI can legally be an inventor, no matter how central its contribution.",
-        "url": "https://www.technologyreview.com/2026/08/21/1142627/when-ai-designs-a-drug-who-gets-the-credit/"
+        "fact": "Brain organoids kept alive for five years began displaying developmental milestones that normally only occur postnatally \u2014 meaning the tissue's internal clock kept ticking correctly even outside any body.",
+        "url": "https://nautil.us/the-remarkable-lives-of-5-year-old-brain-organoids-1284120/"
       },
       {
-        "fact": "The Cricut Maker sends its serial number to Cricut's PC software in plain text with no checksums or encryption \u2014 meaning a $4 microcontroller sitting in the USB line is enough to spoof a 'deactivated' machine back to life.",
-        "url": "https://hackaday.com/2026/08/21/spoofed-serial-number-unlocks-cricut-machine/"
+        "fact": "Thunder generates seismic waves \u2014 \"thunderquakes\" \u2014 complex enough that it took until now for researchers to build a model capable of extracting usable subsurface imaging from them using fiber optic cables already buried in the ground.",
+        "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/"
       }
     ],
-    "make_something": {
-      "prompt": "Take one piece of material you'd normally throw away today \u2014 packaging, a scrap of cable, a broken thing \u2014 and spend 20 minutes making it into a small static form using only what's on your desk. No sketching first. Start with a shape that interests you and follow the material. Hoar de Galvan did this every day for a year; you're doing it once to see what the constraint actually feels like."
-    },
-    "art_picks": [],
-    "events": []
+    "make_something": null,
+    "art_picks": [
+      {
+        "medium": "film",
+        "title": "Leviathan",
+        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
+        "why": "Shot entirely on GoPros lashed to a commercial fishing vessel, it's less a documentary than a sensory system \u2014 raw footage processed into something between abstract painting and immersive installation. The physical-digital edge at its most violent and beautiful, where you lose track of where the camera ends and the ocean begins.",
+        "url": "https://letterboxd.com/film/leviathan-2012/"
+      },
+      {
+        "medium": "art",
+        "title": "Hito Steyerl \u2014 Works (ongoing)",
+        "creator": "Hito Steyerl",
+        "why": "Her essay-films and installations are the sharpest thinking available on how images circulate as social and economic objects \u2014 software as ideology, screens as architecture, data as mythology. Expressive and propulsive, never dry, always making you want to go make something in response.",
+        "url": "https://www.moma.org/artists/35808"
+      },
+      {
+        "medium": "music",
+        "title": "Replica",
+        "creator": "Oneohtrix Point Never",
+        "why": "Daniel Lopatin built this record from sampled TV commercials, disassembling the audio residue of late-20th-century consumer culture into something glacial and hymnal \u2014 it's systems thinking disguised as ambient music, and it sounds like the inside of a generative renderer having a memory.",
+        "url": "https://www.youtube.com/watch?v=YsKMCJECUaA"
+      }
+    ],
+    "events": [
+      {
+        "name": "The Seventh AIM Biennial: Forms of Connection",
+        "venue": "Bronx Museum of the Arts, 1040 Grand Concourse, The Bronx",
+        "date_start": "2026-01-23",
+        "date_end": "2026-09-06",
+        "category": "museum",
+        "why": "The AIM (Artist in the Marketplace) Biennial consistently surfaces the sharpest emerging NYC artists before they're institutionalized \u2014 this is where you see the scene while it's still porous and alive, not after it's hardened.",
+        "url": "https://www.bronxmuseum.org",
+        "date": "Jan 23 \u2013 Sep 6"
+      },
+      {
+        "name": "Peggy Weil: Core Memory",
+        "venue": "MoMA (Museum of Modern Art), 11 W 53rd St, Manhattan",
+        "date_start": "2026-03-07",
+        "date_end": "2026-10-04",
+        "category": "museum",
+        "why": "Two immersive video works scroll 110,000 years of Greenland ice core and Salton Sea geology on MoMA's 24-foot lobby screen \u2014 deep time made visible as moving image, right at the intersection of data, planetary scale, and digital portraiture.",
+        "url": "https://www.moma.org/calendar/exhibitions/5890",
+        "date": "Mar 7 \u2013 Oct 4"
+      },
+      {
+        "name": "Latitude Gallery 2026 Summer Group Show",
+        "venue": "Latitude Gallery, 5 Lispenard St, TriBeCa",
+        "date_start": "2026-08-05",
+        "date_end": "2026-09-05",
+        "category": "museum",
+        "why": "A small, sharp TriBeCa gallery running through the summer dead zone \u2014 worth a walk-in for the caliber of emerging work they tend to platform and the unusually quiet, unhurried space.",
+        "url": "https://latitudegallery.nyc",
+        "date": "Aug 5 \u2013 Sep 5"
+      },
+      {
+        "name": "Thomas Ruff: jpegs ny",
+        "venue": "Gallery (Downtown NYC \u2014 see Downtown Gallery Map for confirmed address)",
+        "date_start": "2026-08-22",
+        "date_end": "2026-09-05",
+        "category": "museum",
+        "why": "Ruff's jpegs series takes images of the 9/11 attacks and blows them up until the compression artifacts become the subject \u2014 pixelation as a medium for grief and distance, timed deliberately to the 25th anniversary.",
+        "url": "https://downtowngallerymap.com/galleries_soho-trib.php",
+        "date": "Aug 22 \u2013 Sep 5"
+      },
+      {
+        "name": "Samara Joy & Christian McBride: Verve's 70th Anniversary",
+        "venue": "Central Park SummerStage, Rumsey Playfield, Manhattan",
+        "date_start": "2026-09-02",
+        "date_end": "2026-09-02",
+        "category": "concert",
+        "why": "A free outdoor concert celebrating Verve Records' 70th anniversary \u2014 two of the most serious jazz musicians working right now, in the park, at the exact hinge between summer and fall.",
+        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
+        "date": "Wed, Sep 2"
+      }
+    ]
   },
   "trial_sources": []
 }
