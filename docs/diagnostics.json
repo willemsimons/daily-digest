@@ -1,6 +1,6 @@
 {
-  "feeds": 80,
-  "mined": 53,
+  "feeds": 67,
+  "mined": 49,
   "videos": 3,
   "video_titles": [
     "Could identical twins commit the perfect crime?",
@@ -8,19 +8,15 @@
     "This Device Goes Past Equilibrium"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 6,
   "final_sources": [
-    "Ars Technica",
-    "Colossal",
-    "Lawrence Berkeley National Laboratory",
-    "MIT Technology Review",
-    "Matt Webb / Interconnected",
-    "Nautilus",
-    "New York Times",
-    "Office of the Prime Minister of Canada",
-    "University of Wisconsin\u2013Madison",
-    "lina.sh"
+    "AT Protocol / Bluesky",
+    "HN",
+    "Level1Techs Forum",
+    "PIN-UP Magazine",
+    "Simon Willison's Weblog",
+    "Steve Mould / YouTube"
   ],
-  "had_video": false,
-  "run_at": "2026-08-22T11:53:24.528101+00:00"
+  "had_video": true,
+  "run_at": "2026-08-23T11:50:06.443355+00:00"
 }

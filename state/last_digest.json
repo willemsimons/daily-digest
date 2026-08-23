@@ -1,133 +1,85 @@
 {
   "digest": {
-    "intro": "Infrastructure ghosts, orbital landlords, and the cartography of everything.",
+    "intro": "A day where infrastructure shifts quietly and intuition keeps failing.",
     "sections": [
       {
-        "heading": "World",
+        "heading": "Architecture of experience",
         "items": [
           {
-            "title": "Canada-U.S. Trade Talks Collapse \u2014 50% Tariffs Now in Force",
-            "source": "Office of the Prime Minister of Canada",
-            "url": "https://www.pm.gc.ca/en/news/statements/2026/08/21/statement-prime-minister-carney-canada-us-trade-negotiations",
-            "blurb": "At midnight, the U.S. imposed 50% tariffs on $20 billion in Canadian goods after last-minute negotiations failed to meet Carney's threshold \u2014 tariff-free access preserved for most sectors, but not the key strategic ones. Carney's statement is notable for its unflinching acknowledgment that \"America has changed\" and the old relationship is gone, not paused. This is the biggest rupture in Canada-U.S. trade in living memory, framed by Ottawa not as a crisis but as a managed decoupling.",
+            "title": "Form Follows Fantasy: NYC Nightclubs as Competing Philosophies",
+            "source": "PIN-UP Magazine",
+            "url": "https://www.pinupmagazine.org/articles/essay-nightlife-architecture-paradise-basement-spectrum-andrew-pasquier",
+            "blurb": "The essay sets Paradise (Ian Schrager's Times Square hotel club, directly across from the Olive Garden and Elmo) against BASEMENT and The Spectrum as two irreconcilable answers to the same question: do you want to be seen, or do you want to disappear? Schrager's model \u2014 hospitality-as-nightlife \u2014 sells the fantasy of arrival and visibility; the other tradition, rooted in fog machines and sound systems built for compulsion rather than aesthetics, bets on dissolution. What makes it useful beyond the clubs is its frame: nightlife design as spatial choreography that constructs the social self you inhabit for a night, not the one you walked in with.",
             "tags": [
-              "geopolitics",
-              "trade",
-              "canada"
+              "architecture",
+              "nightlife",
+              "new york"
             ]
           },
           {
-            "title": "Felony Charges for Wiping Your Phone at the Border",
-            "source": "New York Times",
-            "url": "https://www.nytimes.com/2026/08/21/us/politics/samuel-tunick-deleted-phone-felony.html",
-            "blurb": "Samuel Tunick now faces felony obstruction charges for deleting data from his phone at a U.S. border checkpoint \u2014 establishing a potential legal precedent that digital self-erasure constitutes evidence tampering in the eyes of federal law. The case turns on whether you have a right to a blank slate at the border, or whether the act of wiping is itself suspicious. Whatever the outcome, it will define the legal perimeter of digital self-defense for years.",
+            "title": "Counterflow Heat Exchangers: The Device That Beats Equilibrium",
+            "source": "Steve Mould / YouTube",
+            "url": "https://www.youtube.com/watch?v=NvkZaWLe0Sk",
+            "thumbnail": "https://i3.ytimg.com/vi/NvkZaWLe0Sk/hqdefault.jpg",
+            "blurb": "Steve Mould's reliable gift is finding physical systems where your thermodynamic intuition is structurally wrong, not just imprecise \u2014 and counterflow heat exchangers are a clean example: by running hot and cold streams in opposite directions, you extract heat transfer that would be impossible if they ran parallel, apparently defying what equilibrium should allow. The kind of elegant engineering that looks like cheating until you see why it isn't.",
             "tags": [
-              "civil liberties",
-              "surveillance",
-              "law"
+              "physics",
+              "engineering",
+              "thermodynamics"
             ]
           }
         ]
       },
       {
-        "heading": "Infrastructure reading itself",
+        "heading": "Infrastructure and tools",
         "items": [
           {
-            "title": "I Accidentally Logged Hundreds of Thousands of Phone Calls to Military Bases",
-            "source": "lina.sh",
-            "url": "https://lina.sh/blog/hijacking-e164-arpa",
-            "blurb": "By registering unclaimed DNS zones in the e164.arpa system \u2014 an early-2000s scheme that converts phone numbers into domain lookups so VoIP can route calls over the internet \u2014 a researcher became an inadvertent passive wiretap for military base traffic. The system was essentially abandoned but never fully decommissioned, so its delegated zones expired and sat open. It's a perfect accidental-discovery story: obsolete infrastructure still trusted by production systems, a researcher who just wanted to poke at a curiosity, and a national-security implication nobody planned for.",
+            "title": "ATProto Spaces: The Locked-Open Network Gets Private Rooms",
+            "source": "AT Protocol / Bluesky",
+            "url": "https://atproto.com/blog/atproto-spaces-alpha",
+            "blurb": "ATProto's entire design premise until now has been radical publicness \u2014 every post, like, follow, and block flows through a global firehose anyone can tap. Spaces adds a new protocol primitive for non-public data while preserving portable identity, interoperable data, and permissionless participation, which is the genuinely hard design constraint: private data that still isn't siloed. The alpha ships today with running code, published SDKs, and a hosted PDS \u2014 so the question of whether you can build private communities, subscriptions, or forums on a locked-open network is now an empirical one.",
             "tags": [
-              "infrastructure",
-              "dns",
-              "security"
+              "protocol design",
+              "social software",
+              "decentralization"
             ]
           },
           {
-            "title": "Researchers Use Thunderquakes to Study the Earth's Crust",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/",
-            "blurb": "Thunder's shockwave enters the ground as seismic energy \u2014 \"thunderquakes\" \u2014 and Penn State researchers built a model that finally extracts clear signal from it, reconstructing subsurface terrain under their campus using fiber optic cables already buried there. The complexity comes from lightning's structure: it fires as a string of plasma beads along its path, each acting as a separate seismic source. The same fiber networks that carry internet traffic can, it turns out, double as distributed seismometers \u2014 infrastructure reading the ground it runs through.",
+            "title": "Why Your Local LLM Feels Dumber Than It Is",
+            "source": "Level1Techs Forum",
+            "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
+            "blurb": "The gap between 'the lab's benchmark' and 'what you're running' is wider than most people realize, and this post makes it concrete: your GPU's instruction set executes the math differently than the reference hardware, quantization trims capability invisibly, and context length defaults are often set so conservatively that the model never gets to demonstrate what it knows. The framing is that your implementation sucks, but so does everyone else's \u2014 the model you downloaded and the model that got benchmarked are, in a meaningful sense, different objects.",
             "tags": [
-              "geophysics",
-              "sensing",
-              "infrastructure"
+              "local llm",
+              "inference",
+              "tooling"
+            ]
+          },
+          {
+            "title": "Linus Torvalds: AI Is a Tireless Helper That Also Gave Up Several Times",
+            "source": "Simon Willison's Weblog",
+            "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
+            "blurb": "Torvalds describing a 'debug session from hell' where an AI did the grunt work but repeatedly declared the problem impossible and unsolvable \u2014 and only kept going because he pushed it past its own surrender. He let it write the commit message as credit; he suspects the training data came from people less stubborn than him. It's three sentences, but it's the most precise description of what working with AI on genuinely hard problems actually feels like that I've seen from someone with no incentive to be diplomatic about it.",
+            "tags": [
+              "ai",
+              "debugging",
+              "linux"
             ]
           }
         ]
       },
       {
-        "heading": "Mapping things",
+        "heading": "Off the map",
         "items": [
           {
-            "title": "Scientists Release the Biggest 2D Map of the Universe",
-            "source": "Lawrence Berkeley National Laboratory",
-            "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/",
-            "blurb": "The DESI Legacy Imaging Surveys combined 263,000 telescope exposures into a 5.6-trillion-pixel map of 4 billion celestial objects \u2014 stars, galaxies, gravitational lenses \u2014 and the whole thing is publicly browsable through the Legacy Survey Sky Viewer right now. It's already the foundation for over 1,800 published science papers and the substrate for a 3D dark energy survey layered on top. Open the viewer and lose an hour.",
+            "title": "XY Labs: Every Number from 0\u201399 Has an AI Startup Now",
+            "source": "HN",
+            "url": "https://quantumi.sh/public/labs.html",
+            "blurb": "Someone noticed ElevenLabs (audio), TwelveLabs (video), ThirteenLabs (3D) and kept going \u2014 mapping every number from 0 to 99 to a company using it as a name, with AI-related ones highlighted. The seventies are inexplicably dense. One outlier: SeventyOneLab.com is a 2000s webdev portfolio best viewed in Netscape 4.0+ or IE 5.0+, which makes it the most honest site in the index. The piece is tiny but the thing it surfaces is real: naming-as-status-signal in a field so crowded that numerical adjacency to a prestige brand counts as positioning.",
             "tags": [
-              "cosmology",
-              "cartography",
-              "open data"
-            ]
-          },
-          {
-            "title": "Galactic Compass 2: Now with Augmented Reality",
-            "source": "Matt Webb / Interconnected",
-            "url": "https://interconnected.org/home/2026/08/21/galactic",
-            "blurb": "Matt Webb's app \u2014 a floating arrow that always points toward the galactic center, 26,000 light-years away \u2014 now has an AR mode where you can place that arrow in physical space and walk around it. What's remarkable is the dispatch he includes from users: people in grief, sitting outside at night, finding something clarifying about having a fixed cosmological reference point when everything else is moving. The Earth spins; the Sun moves; but you can always know which way the black hole is.",
-            "tags": [
-              "spatial",
-              "app",
-              "cosmology"
-            ]
-          },
-          {
-            "title": "The History of Cartography \u2014 Volume 6 Now Free Online",
-            "source": "University of Wisconsin\u2013Madison",
-            "url": "https://geography.wisc.edu/histcart/",
-            "blurb": "The definitive scholarly series on maps as cultural artifacts \u2014 power, ideology, and technology simultaneously \u2014 has made Volume 6 (20th century cartography) freely available online, joining earlier volumes covering everything from prehistoric mapping to the European Enlightenment. The project's founding editor J.B. Harley essentially invented the idea of reading maps as ideological documents rather than neutral tools. If you've ever wanted the deep reading on how maps encode the worldview of whoever made them, this is the primary source.",
-            "tags": [
-              "cartography",
-              "history",
-              "open access"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Living matter, orbital matters",
-        "items": [
-          {
-            "title": "Brain Organoids Kept Alive for Five Years \u2014 And They're Still Developing",
-            "source": "Nautilus",
-            "url": "https://nautil.us/the-remarkable-lives-of-5-year-old-brain-organoids-1284120/",
-            "blurb": "Most lab-grown mini-brains are discarded after their experimental purpose ends; an international team instead kept theirs running for five years, and found that after the first birthday the tissue hit developmental milestones that only normally occur postnatally \u2014 outside any body, in a dish. Cell types emerged in the right order, neural connection complexity increased, and gene expression followed expected timelines. At five years old, they're still going, and researchers had to invent new culture media to keep up with the tissue's increasing metabolic demands.",
-            "tags": [
-              "neuroscience",
-              "organoids",
-              "biology"
-            ]
-          },
-          {
-            "title": "Space Mirrors That Shine as Bright as 10,000 Full Moons",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/",
-            "blurb": "Reflect Orbital's test satellite launches later this year \u2014 an 18\u00d718-meter mirror \u2014 as a precursor to a constellation of up to 50,000 larger (54\u00d754-meter) mirrors that would beam sunlight on demand to Earth for solar charging, emergencies, and military use. A new Astrophysical Journal Letters paper calculates that the scattered light from these beams would be equivalent to 10,000 full moons and would bleed across tens of kilometers beyond the target zone, effectively ending dark skies for anyone nearby. The FCC approved it in July.",
-            "tags": [
-              "orbital",
-              "light pollution",
-              "astronomy"
-            ]
-          },
-          {
-            "title": "Off the map: Lou Benesch Paints on Found Antique Boards",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/08/lou-benesch-the-magicians-room-antique-wood-works/",
-            "blurb": "Paris-based Lou Benesch makes surreal mixed-media paintings on vintage board games and antique chalkboards \u2014 the aged surfaces themselves become part of the work's visual argument. The current show, closing today at Hashimoto Contemporary in San Francisco, takes the Tarot Magician as its frame: headless birds diving into a central star, a horse with a coiled serpent, a rabbit ringed by unblinking eyes. It's the kind of work where the choice of ground is as considered as anything painted on top of it.",
-            "tags": [
-              "painting",
-              "craft",
-              "occult"
+              "naming",
+              "startup culture",
+              "language"
             ]
           }
         ]
@@ -135,24 +87,16 @@
     ],
     "facts": [
       {
-        "fact": "The e164.arpa DNS system \u2014 designed to route phone calls over the internet \u2014 was so thoroughly abandoned that a researcher could register unclaimed zones for entire national phone number ranges and passively intercept VoIP call metadata to military bases.",
-        "url": "https://lina.sh/blog/hijacking-e164-arpa"
+        "fact": "Every piece of data on ATProto today \u2014 every post, like, follow, and block \u2014 is fully public by design and flows through a global firehose anyone can tap; Spaces is the first exception to that in the protocol's history.",
+        "url": "https://atproto.com/blog/atproto-spaces-alpha"
       },
       {
-        "fact": "The DESI Legacy Imaging Surveys map contains nearly 4 billion individual celestial objects and required more than 263,000 separate telescope exposures to assemble.",
-        "url": "https://newscenter.lbl.gov/2026/08/10/scientists-release-biggest-2d-map-of-the-universe/"
+        "fact": "Linus Torvalds let an AI write the commit message for a kernel fix it helped debug, after the same AI declared the problem 'impossible and unsolvable' multiple times before he pushed it to continue.",
+        "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/"
       },
       {
-        "fact": "Reflect Orbital's proposed constellation of 50,000 space mirrors \u2014 each 54 by 54 meters \u2014 has already received FCC approval for a test launch, despite new research showing the scattered light would equal roughly 10,000 full moons over areas well beyond the intended target.",
-        "url": "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/"
-      },
-      {
-        "fact": "Brain organoids kept alive for five years began displaying developmental milestones that normally only occur postnatally \u2014 meaning the tissue's internal clock kept ticking correctly even outside any body.",
-        "url": "https://nautil.us/the-remarkable-lives-of-5-year-old-brain-organoids-1284120/"
-      },
-      {
-        "fact": "Thunder generates seismic waves \u2014 \"thunderquakes\" \u2014 complex enough that it took until now for researchers to build a model capable of extracting usable subsurface imaging from them using fiber optic cables already buried in the ground.",
-        "url": "https://arstechnica.com/science/2026/08/researchers-use-thunderquakes-to-study-structure-of-earths-surface/"
+        "fact": "The number '71' in the AI labs naming survey links to SeventyOneLab.com, a design portfolio from the early 2000s that declares itself best viewed in Netscape 4.0+ or Internet Explorer 5.0+.",
+        "url": "https://quantumi.sh/public/labs.html"
       }
     ],
     "make_something": null,
@@ -161,76 +105,92 @@
         "medium": "film",
         "title": "Leviathan",
         "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
-        "why": "Shot entirely on GoPros lashed to a commercial fishing vessel, it's less a documentary than a sensory system \u2014 raw footage processed into something between abstract painting and immersive installation. The physical-digital edge at its most violent and beautiful, where you lose track of where the camera ends and the ocean begins.",
+        "why": "Shot entirely on GoPros strapped to fishing nets, sailors, and fish \u2014 it dissolves the boundary between documentary and pure sensory installation. There's no narrative, only systems: labor, sea, death, light. A film that thinks like a WebGL sketch.",
         "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "art",
-        "title": "Hito Steyerl \u2014 Works (ongoing)",
-        "creator": "Hito Steyerl",
-        "why": "Her essay-films and installations are the sharpest thinking available on how images circulate as social and economic objects \u2014 software as ideology, screens as architecture, data as mythology. Expressive and propulsive, never dry, always making you want to go make something in response.",
-        "url": "https://www.moma.org/artists/35808"
+        "title": "All Works (ongoing practice)",
+        "creator": "Anni Albers",
+        "why": "Albers spent decades treating the loom as a computational substrate \u2014 encoding structure, rhythm, and optical tension through pure constraint. Her work sits exactly at the intersection of system and sensation, craft radicalized into abstraction.",
+        "url": "https://www.anniealbers.com/"
       },
       {
         "medium": "music",
-        "title": "Replica",
-        "creator": "Oneohtrix Point Never",
-        "why": "Daniel Lopatin built this record from sampled TV commercials, disassembling the audio residue of late-20th-century consumer culture into something glacial and hymnal \u2014 it's systems thinking disguised as ambient music, and it sounds like the inside of a generative renderer having a memory.",
-        "url": "https://www.youtube.com/watch?v=YsKMCJECUaA"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "A record built entirely around texture, drift, and negative space \u2014 not songs but atmospheres with their own internal physics. The closest recorded music gets to generative 3D: forms that seem to self-organize rather than be composed.",
+        "url": "https://www.youtube.com/watch?v=VNhqkfNHJ-Y"
       }
     ],
     "events": [
       {
-        "name": "The Seventh AIM Biennial: Forms of Connection",
-        "venue": "Bronx Museum of the Arts, 1040 Grand Concourse, The Bronx",
-        "date_start": "2026-01-23",
+        "name": "Dreams of This Future: The Collection of Peggy Cooper Cafritz",
+        "venue": "Studio Museum in Harlem, 144 W. 125th St.",
+        "date_start": "2026-08-19",
+        "date_end": "2027-02-28",
+        "category": "museum",
+        "why": "A newly opened collection show built around Cafritz's visionary gift of hundreds of works by artists of African descent \u2014 a rare chance to see how one collector's obsessive eye built an alternative canon.",
+        "url": "https://www.studiomuseum.org/exhibition/dreams-of-this-future-the-collection-of-peggy-cooper-cafritz",
+        "date": "Aug 19 \u2013 Feb 28"
+      },
+      {
+        "name": "Fade \u2014 Studio Museum 'F' Series, Sixth Edition",
+        "venue": "Studio Museum in Harlem, 144 W. 125th St.",
+        "date_start": "2026-08-23",
         "date_end": "2026-09-06",
         "category": "museum",
-        "why": "The AIM (Artist in the Marketplace) Biennial consistently surfaces the sharpest emerging NYC artists before they're institutionalized \u2014 this is where you see the scene while it's still porous and alive, not after it's hardened.",
-        "url": "https://www.bronxmuseum.org",
-        "date": "Jan 23 \u2013 Sep 6"
+        "why": "Seventeen early-career artists of African and Afro-Latinx descent exploring spirituality, surrealism, and nonlinear time \u2014 the final two weeks of the show that launched the Studio Museum's new Adjaye-designed building's first spring season.",
+        "url": "https://www.studiomuseum.org/exhibition/fade",
+        "date": "Aug 23 \u2013 Sep 6"
       },
       {
-        "name": "Peggy Weil: Core Memory",
-        "venue": "MoMA (Museum of Modern Art), 11 W 53rd St, Manhattan",
-        "date_start": "2026-03-07",
-        "date_end": "2026-10-04",
+        "name": "Greater New York 2026 \u2014 Extended View",
+        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City",
+        "date_start": "2026-08-23",
+        "date_end": "2026-09-07",
         "category": "museum",
-        "why": "Two immersive video works scroll 110,000 years of Greenland ice core and Salton Sea geology on MoMA's 24-foot lobby screen \u2014 deep time made visible as moving image, right at the intersection of data, planetary scale, and digital portraiture.",
-        "url": "https://www.moma.org/calendar/exhibitions/5890",
-        "date": "Mar 7 \u2013 Oct 4"
+        "why": "The quinquennial survey of NYC-area artists in PS1's 50th-anniversary year \u2014 select galleries still open through Sept 7, showing site-specific commissions and new productions from 50+ early/mid-career artists grappling with surveillance, economic precarity, and shifting technologies.",
+        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
+        "date": "Aug 23 \u2013 Sep 7"
       },
       {
-        "name": "Latitude Gallery 2026 Summer Group Show",
-        "venue": "Latitude Gallery, 5 Lispenard St, TriBeCa",
-        "date_start": "2026-08-05",
-        "date_end": "2026-09-05",
+        "name": "Made in America: The Industrial Photography of Christopher Payne",
+        "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 E. 91st St.",
+        "date_start": "2026-08-23",
+        "date_end": "2026-09-27",
         "category": "museum",
-        "why": "A small, sharp TriBeCa gallery running through the summer dead zone \u2014 worth a walk-in for the caliber of emerging work they tend to platform and the unusually quiet, unhurried space.",
-        "url": "https://latitudegallery.nyc",
-        "date": "Aug 5 \u2013 Sep 5"
+        "why": "Over 70 large-format photographs from a decade-long obsessive project documenting American industrial and artisanal making \u2014 the kind of unreasonably deep commitment to one narrow thing, at the intersection of labor, craft, and hidden systems.",
+        "url": "https://www.cooperhewitt.org",
+        "date": "Aug 23 \u2013 Sep 27"
       },
       {
-        "name": "Thomas Ruff: jpegs ny",
-        "venue": "Gallery (Downtown NYC \u2014 see Downtown Gallery Map for confirmed address)",
-        "date_start": "2026-08-22",
-        "date_end": "2026-09-05",
-        "category": "museum",
-        "why": "Ruff's jpegs series takes images of the 9/11 attacks and blows them up until the compression artifacts become the subject \u2014 pixelation as a medium for grief and distance, timed deliberately to the 25th anniversary.",
-        "url": "https://downtowngallerymap.com/galleries_soho-trib.php",
-        "date": "Aug 22 \u2013 Sep 5"
-      },
-      {
-        "name": "Samara Joy & Christian McBride: Verve's 70th Anniversary",
-        "venue": "Central Park SummerStage, Rumsey Playfield, Manhattan",
-        "date_start": "2026-09-02",
-        "date_end": "2026-09-02",
+        "name": "Uptown Fridays at the Studio Museum",
+        "venue": "Studio Museum in Harlem, 144 W. 125th St.",
+        "date_start": "2026-08-28",
+        "date_end": "2026-08-28",
         "category": "concert",
-        "why": "A free outdoor concert celebrating Verve Records' 70th anniversary \u2014 two of the most serious jazz musicians working right now, in the park, at the exact hinge between summer and fall.",
-        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
-        "date": "Wed, Sep 2"
+        "why": "Free evening series blending art, culture, and live music in the new Studio Museum building \u2014 a rare chance to experience the Adjaye space as a social environment rather than a white cube.",
+        "url": "https://www.studiomuseum.org/event/uptown-fridays",
+        "date": "Fri, Aug 28"
       }
     ]
   },
-  "trial_sources": []
+  "trial_sources": [
+    {
+      "name": "Chartbook \u2014 Adam Tooze",
+      "feed_url": "https://adamtooze.substack.com/feed",
+      "why": "Columbia historian's newsletter weaves economics, geopolitics, and history into dense, data-driven dispatches that go far deeper than his FT/Foreign Policy columns \u2014 repeatedly cited by every serious geopolitics writer as a must-read."
+    },
+    {
+      "name": "The Niche \u2014 Paul Knoepfler (UC Davis)",
+      "feed_url": "https://ipscell.com/feed",
+      "why": "The only stem-cell and regenerative-medicine blog written by an active research professor, covering peptides, CRISPR, and unproven clinic culture with both scientific rigor and readable skepticism."
+    },
+    {
+      "name": "The Upheaval \u2014 N.S. Lyons",
+      "feed_url": "https://upheaval.substack.com/feed",
+      "why": "Rare long-form analyst mapping how ideological shifts, China's rise, and technological change are reshaping institutions and cultural capital \u2014 recommended across the geopolitics and alternative-institutions reading circles."
+    }
+  ]
 }
