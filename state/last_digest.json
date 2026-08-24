@@ -1,69 +1,84 @@
 {
   "digest": {
-    "intro": "A day where infrastructure shifts quietly and intuition keeps failing.",
+    "intro": "Infrastructure as target, children as benchmark, garages as fabs.",
     "sections": [
       {
-        "heading": "Architecture of experience",
+        "heading": "World",
         "items": [
           {
-            "title": "Form Follows Fantasy: NYC Nightclubs as Competing Philosophies",
-            "source": "PIN-UP Magazine",
-            "url": "https://www.pinupmagazine.org/articles/essay-nightlife-architecture-paradise-basement-spectrum-andrew-pasquier",
-            "blurb": "The essay sets Paradise (Ian Schrager's Times Square hotel club, directly across from the Olive Garden and Elmo) against BASEMENT and The Spectrum as two irreconcilable answers to the same question: do you want to be seen, or do you want to disappear? Schrager's model \u2014 hospitality-as-nightlife \u2014 sells the fantasy of arrival and visibility; the other tradition, rooted in fog machines and sound systems built for compulsion rather than aesthetics, bets on dissolution. What makes it useful beyond the clubs is its frame: nightlife design as spatial choreography that constructs the social self you inhabit for a night, not the one you walked in with.",
+            "title": "Iranian Hackers Shut Down a UK Power Plant for Four Days",
+            "source": "The Telegraph",
+            "url": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/",
+            "blurb": "A confirmed Iranian state-linked cyberattack physically disabled a British power facility for four days \u2014 the first successful attack of this kind on UK energy infrastructure. It ran concurrent with a coordinated campaign hitting water systems across 12 US states, suggesting a deliberate, synchronized pressure operation rather than opportunistic probing. The plant was small and the grid stayed up, but the precedent is what matters: OT systems went dark.",
             "tags": [
-              "architecture",
-              "nightlife",
-              "new york"
+              "cyberwar",
+              "infrastructure",
+              "iran"
             ]
           },
           {
-            "title": "Counterflow Heat Exchangers: The Device That Beats Equilibrium",
-            "source": "Steve Mould / YouTube",
-            "url": "https://www.youtube.com/watch?v=NvkZaWLe0Sk",
-            "thumbnail": "https://i3.ytimg.com/vi/NvkZaWLe0Sk/hqdefault.jpg",
-            "blurb": "Steve Mould's reliable gift is finding physical systems where your thermodynamic intuition is structurally wrong, not just imprecise \u2014 and counterflow heat exchangers are a clean example: by running hot and cold streams in opposite directions, you extract heat transfer that would be impossible if they ran parallel, apparently defying what equilibrium should allow. The kind of elegant engineering that looks like cheating until you see why it isn't.",
+            "title": "US\u2013Iran War: 775 Casualties, $94 Oil, and 'Economic Warfare' Threats",
+            "source": "CNN",
+            "url": "https://www.cnn.com/2026/08/20/world/live-news/iran-war-trump",
+            "blurb": "The war has entered a sanctions-and-attrition phase: Trump is threatening 'crushing economic warfare' while oil climbs to $94/barrel on Strait of Hormuz deadlock, and the USS Abraham Lincoln is finally rotating home after an extended deployment that's prompted congressional concern about crew mental health. JD Vance called economic pressure the 'most effective tool' while acknowledging it's a 'delicate dance' as Americans absorb high gas prices. The diplomatic track is frozen.",
             "tags": [
-              "physics",
-              "engineering",
-              "thermodynamics"
+              "geopolitics",
+              "iran",
+              "war"
+            ]
+          },
+          {
+            "title": "Slovakia Found a Russian Backdoor Hidden in Traffic Speed Cameras",
+            "source": "Risky Biz",
+            "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
+            "blurb": "Slovakia's NBU discovered that 279 NERO R-ONE traffic cameras \u2014 purchased via a Cyprus shell company using fake certifications as part of a \u20ac30 million EU-funded infrastructure project \u2014 are rebranded Russian CORDON PRO.M units containing a backdoor triggered by SMS from hardcoded St. Petersburg phone numbers, granting full shell and network access. The Interior Ministry initially denied they were Russian. This is hybrid warfare at its most patient and mundane: civilian road infrastructure as pre-positioned intelligence asset.",
+            "tags": [
+              "cyberwar",
+              "russia",
+              "infrastructure"
             ]
           }
         ]
       },
       {
-        "heading": "Infrastructure and tools",
+        "heading": "Biology and the brain",
         "items": [
           {
-            "title": "ATProto Spaces: The Locked-Open Network Gets Private Rooms",
-            "source": "AT Protocol / Bluesky",
-            "url": "https://atproto.com/blog/atproto-spaces-alpha",
-            "blurb": "ATProto's entire design premise until now has been radical publicness \u2014 every post, like, follow, and block flows through a global firehose anyone can tap. Spaces adds a new protocol primitive for non-public data while preserving portable identity, interoperable data, and permissionless participation, which is the genuinely hard design constraint: private data that still isn't siloed. The alpha ships today with running code, published SDKs, and a hosted PDS \u2014 so the question of whether you can build private communities, subscriptions, or forums on a locked-open network is now an empirical one.",
+            "title": "Kids Outlearn AI \u2014 and We Still Don't Know Why",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
+            "blurb": "LLMs consume roughly 100,000 times more text than a child hears before their first birthday to reach comparable language fluency \u2014 Stanford's Michael Frank calls it 'burning down a forest to re-create a milestone that happens in living rooms over the course of a year.' The piece is a genuine inquiry into what that data efficiency gap reveals about how brains construct internal models of reality versus statistical pattern-matching across a corpus. The answer has stakes for both AI architecture and our understanding of what cognition actually is.",
             "tags": [
-              "protocol design",
-              "social software",
-              "decentralization"
-            ]
-          },
-          {
-            "title": "Why Your Local LLM Feels Dumber Than It Is",
-            "source": "Level1Techs Forum",
-            "url": "https://forum.level1techs.com/t/why-your-local-llm-feels-dumber-than-it-is/253917",
-            "blurb": "The gap between 'the lab's benchmark' and 'what you're running' is wider than most people realize, and this post makes it concrete: your GPU's instruction set executes the math differently than the reference hardware, quantization trims capability invisibly, and context length defaults are often set so conservatively that the model never gets to demonstrate what it knows. The framing is that your implementation sucks, but so does everyone else's \u2014 the model you downloaded and the model that got benchmarked are, in a meaningful sense, different objects.",
-            "tags": [
-              "local llm",
-              "inference",
-              "tooling"
-            ]
-          },
-          {
-            "title": "Linus Torvalds: AI Is a Tireless Helper That Also Gave Up Several Times",
-            "source": "Simon Willison's Weblog",
-            "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/",
-            "blurb": "Torvalds describing a 'debug session from hell' where an AI did the grunt work but repeatedly declared the problem impossible and unsolvable \u2014 and only kept going because he pushed it past its own surrender. He let it write the commit message as credit; he suspects the training data came from people less stubborn than him. It's three sentences, but it's the most precise description of what working with AI on genuinely hard problems actually feels like that I've seen from someone with no incentive to be diplomatic about it.",
-            "tags": [
+              "cognition",
               "ai",
-              "debugging",
-              "linux"
+              "language"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Garage alchemy",
+        "items": [
+          {
+            "title": "Making Functional LEDs in a Home Fab",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/23/making-leds-in-the-home-fab/",
+            "blurb": "Dr. Semiconductor didn't just demonstrate amateur chip fabrication \u2014 he made working GaN LEDs and bonded them to PCBs, substituting a 355nm UV etching laser for the chlorine reactive-ion etching that normally requires industrial equipment, then cleaning up with a potassium hydroxide etch. The contacts are nickel/silver/titanium deposited via home sputtering chamber with photoresist liftoff. The gap between garage and fab is collapsing in real time, one workaround at a time.",
+            "tags": [
+              "hardware",
+              "semiconductors",
+              "home fab"
+            ]
+          },
+          {
+            "title": "The Casio F-91W as a Contactless Payment Device",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/24/the-casio-f-91w-as-a-contactless-payment-device/",
+            "blurb": "Matteo P. crammed NFC payment into a Casio F-91W \u2014 a watch that's been on terrorism watchlists, beloved by hackers, and worn by minimalists for 30 years \u2014 by SLA-printing a new front face that positions the NFC chip above the display with a pickup coil around the perimeter. The most interesting part isn't the build, it's his deep-dive into RF coupling design and tuning the antenna near resonance inside such tight physical constraints. The F-91W has always been a statement; this one just pays for coffee.",
+            "tags": [
+              "hardware",
+              "nfc",
+              "craft"
             ]
           }
         ]
@@ -72,14 +87,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "XY Labs: Every Number from 0\u201399 Has an AI Startup Now",
-            "source": "HN",
-            "url": "https://quantumi.sh/public/labs.html",
-            "blurb": "Someone noticed ElevenLabs (audio), TwelveLabs (video), ThirteenLabs (3D) and kept going \u2014 mapping every number from 0 to 99 to a company using it as a name, with AI-related ones highlighted. The seventies are inexplicably dense. One outlier: SeventyOneLab.com is a 2000s webdev portfolio best viewed in Netscape 4.0+ or IE 5.0+, which makes it the most honest site in the index. The piece is tiny but the thing it surfaces is real: naming-as-status-signal in a field so crowded that numerical adjacency to a prestige brand counts as positioning.",
+            "title": "Moxie Marlinspike \u2014 \"Scrap\" (2006)",
+            "source": "Twitter / moxie.org",
+            "url": "https://twitter.com/moxie/status/2091218652133732491",
+            "blurb": "Moxie recently surfaced a 2006 journal entry about squatting in a Pittsburgh winter, installing gas lines with frozen fingers, and what happens when a cast-iron bathtub you left outside disappears overnight \u2014 stripped for scrap metal by neighbors who needed cash more than you needed the tub. It's a short piece about infrastructure, poverty, value, and the ethics of taking things apart, written with the specificity and moral compression that makes his essays stick. The kind of thing that makes you sit with it.",
             "tags": [
-              "naming",
-              "startup culture",
-              "language"
+              "essay",
+              "infrastructure",
+              "writing"
             ]
           }
         ]
@@ -87,16 +102,20 @@
     ],
     "facts": [
       {
-        "fact": "Every piece of data on ATProto today \u2014 every post, like, follow, and block \u2014 is fully public by design and flows through a global firehose anyone can tap; Spaces is the first exception to that in the protocol's history.",
-        "url": "https://atproto.com/blog/atproto-spaces-alpha"
+        "fact": "The Russian backdoor in Slovak traffic cameras is activated by an SMS sent from a list of hardcoded St. Petersburg phone numbers \u2014 no network intrusion required.",
+        "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/"
       },
       {
-        "fact": "Linus Torvalds let an AI write the commit message for a kernel fix it helped debug, after the same AI declared the problem 'impossible and unsolvable' multiple times before he pushed it to continue.",
-        "url": "https://simonwillison.net/2026/Aug/22/linus-torvalds/"
+        "fact": "A child typically begins acquiring language by their first birthday having heard far fewer words than the ~100,000x data advantage LLMs require to reach comparable fluency.",
+        "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/"
       },
       {
-        "fact": "The number '71' in the AI labs naming survey links to SeventyOneLab.com, a design portfolio from the early 2000s that declares itself best viewed in Netscape 4.0+ or Internet Explorer 5.0+.",
-        "url": "https://quantumi.sh/public/labs.html"
+        "fact": "Dr. Semiconductor replaced industrial chlorine reactive-ion etching with a 355nm UV laser to pattern GaN LEDs at home \u2014 the laser causes GaN to decompose directly into gallium and nitrogen.",
+        "url": "https://hackaday.com/2026/08/23/making-leds-in-the-home-fab/"
+      },
+      {
+        "fact": "The Iranian cyberattack on UK energy infrastructure coincided precisely with simultaneous attacks on water systems across 12 US states, suggesting coordinated timing rather than coincidence.",
+        "url": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/"
       }
     ],
     "make_something": null,
@@ -105,92 +124,46 @@
         "medium": "film",
         "title": "Leviathan",
         "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
-        "why": "Shot entirely on GoPros strapped to fishing nets, sailors, and fish \u2014 it dissolves the boundary between documentary and pure sensory installation. There's no narrative, only systems: labor, sea, death, light. A film that thinks like a WebGL sketch.",
+        "why": "A sensory assault filmed on a commercial fishing trawler off New Bedford \u2014 cameras lashed to nets, hooks, fish, sailors \u2014 that dissolves the boundary between observer and system entirely. It's what happens when hardware and human labor become one feedback loop, and it will make you want to rig a camera to something immediately.",
         "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "art",
-        "title": "All Works (ongoing practice)",
-        "creator": "Anni Albers",
-        "why": "Albers spent decades treating the loom as a computational substrate \u2014 encoding structure, rhythm, and optical tension through pure constraint. Her work sits exactly at the intersection of system and sensation, craft radicalized into abstraction.",
-        "url": "https://www.anniealbers.com/"
+        "title": "Paintings and Works on Paper",
+        "creator": "Hilma af Klint",
+        "why": "af Klint built an elaborate private mythology \u2014 s\u00e9ances, a secret society, diagrams of cosmic evolution \u2014 and used it as scaffolding for pure abstract form, decades before Kandinsky. The work reads simultaneously as systems diagram and visionary ecstasy, which is exactly the category-collapse you're drawn to.",
+        "url": "https://www.hilmaafklint.se/"
       },
       {
         "medium": "music",
-        "title": "Selected Ambient Works Volume II",
-        "creator": "Aphex Twin",
-        "why": "A record built entirely around texture, drift, and negative space \u2014 not songs but atmospheres with their own internal physics. The closest recorded music gets to generative 3D: forms that seem to self-organize rather than be composed.",
-        "url": "https://www.youtube.com/watch?v=VNhqkfNHJ-Y"
+        "title": "Versions",
+        "creator": "Mark Fell",
+        "why": "Fell builds rhythm from first principles \u2014 microsecond offsets, probability distributions, combinatorial permutation \u2014 and the result is music that sounds like discovering the source code of groove. Obsessive formal constraint producing something genuinely sensual; the rare case where technical depth and physical feeling are the same thing.",
+        "url": "https://www.youtube.com/watch?v=hj-_HLKQ0jI"
       }
     ],
     "events": [
       {
-        "name": "Dreams of This Future: The Collection of Peggy Cooper Cafritz",
-        "venue": "Studio Museum in Harlem, 144 W. 125th St.",
-        "date_start": "2026-08-19",
-        "date_end": "2027-02-28",
+        "name": "Iris van Herpen: Sculpting the Senses",
+        "venue": "Brooklyn Museum, 200 Eastern Parkway, Brooklyn",
+        "date_start": "2026-05-16",
+        "date_end": "2026-12-06",
         "category": "museum",
-        "why": "A newly opened collection show built around Cafritz's visionary gift of hundreds of works by artists of African descent \u2014 a rare chance to see how one collector's obsessive eye built an alternative canon.",
-        "url": "https://www.studiomuseum.org/exhibition/dreams-of-this-future-the-collection-of-peggy-cooper-cafritz",
-        "date": "Aug 19 \u2013 Feb 28"
+        "why": "Van Herpen's couture placed in direct dialogue with coral, fossils, fractal geometry, and James Turrell \u2014 140+ garments that function as physical instantiations of scientific inquiry; the rare fashion exhibition where the physical/digital/natural boundary is actually the subject.",
+        "url": "https://www.brooklynmuseum.org/exhibitions/iris-van-herpen",
+        "date": "May 16 \u2013 Dec 6"
       },
       {
-        "name": "Fade \u2014 Studio Museum 'F' Series, Sixth Edition",
-        "venue": "Studio Museum in Harlem, 144 W. 125th St.",
-        "date_start": "2026-08-23",
-        "date_end": "2026-09-06",
+        "name": "The Lost World: The Art of Minnie Evans",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-08-22",
+        "date_end": "2027-01-10",
         "category": "museum",
-        "why": "Seventeen early-career artists of African and Afro-Latinx descent exploring spirituality, surrealism, and nonlinear time \u2014 the final two weeks of the show that launched the Studio Museum's new Adjaye-designed building's first spring season.",
-        "url": "https://www.studiomuseum.org/exhibition/fade",
-        "date": "Aug 23 \u2013 Sep 6"
-      },
-      {
-        "name": "Greater New York 2026 \u2014 Extended View",
-        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City",
-        "date_start": "2026-08-23",
-        "date_end": "2026-09-07",
-        "category": "museum",
-        "why": "The quinquennial survey of NYC-area artists in PS1's 50th-anniversary year \u2014 select galleries still open through Sept 7, showing site-specific commissions and new productions from 50+ early/mid-career artists grappling with surveillance, economic precarity, and shifting technologies.",
-        "url": "https://www.momaps1.org/en/programs/702-greater-new-york-2026",
-        "date": "Aug 23 \u2013 Sep 7"
-      },
-      {
-        "name": "Made in America: The Industrial Photography of Christopher Payne",
-        "venue": "Cooper Hewitt, Smithsonian Design Museum, 2 E. 91st St.",
-        "date_start": "2026-08-23",
-        "date_end": "2026-09-27",
-        "category": "museum",
-        "why": "Over 70 large-format photographs from a decade-long obsessive project documenting American industrial and artisanal making \u2014 the kind of unreasonably deep commitment to one narrow thing, at the intersection of labor, craft, and hidden systems.",
-        "url": "https://www.cooperhewitt.org",
-        "date": "Aug 23 \u2013 Sep 27"
-      },
-      {
-        "name": "Uptown Fridays at the Studio Museum",
-        "venue": "Studio Museum in Harlem, 144 W. 125th St.",
-        "date_start": "2026-08-28",
-        "date_end": "2026-08-28",
-        "category": "concert",
-        "why": "Free evening series blending art, culture, and live music in the new Studio Museum building \u2014 a rare chance to experience the Adjaye space as a social environment rather than a white cube.",
-        "url": "https://www.studiomuseum.org/event/uptown-fridays",
-        "date": "Fri, Aug 28"
+        "why": "A 50-years-overdue retrospective of a visionary self-taught Black artist who channeled visions of pre-Flood 'lost worlds' into dense, kaleidoscopic mandalas \u2014 folk art as private cosmology, and one of the genuinely strange American imaginations of the 20th century.",
+        "url": "https://whitney.org/exhibitions/the-lost-world",
+        "date": "Aug 22 \u2013 Jan 10"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Chartbook \u2014 Adam Tooze",
-      "feed_url": "https://adamtooze.substack.com/feed",
-      "why": "Columbia historian's newsletter weaves economics, geopolitics, and history into dense, data-driven dispatches that go far deeper than his FT/Foreign Policy columns \u2014 repeatedly cited by every serious geopolitics writer as a must-read."
-    },
-    {
-      "name": "The Niche \u2014 Paul Knoepfler (UC Davis)",
-      "feed_url": "https://ipscell.com/feed",
-      "why": "The only stem-cell and regenerative-medicine blog written by an active research professor, covering peptides, CRISPR, and unproven clinic culture with both scientific rigor and readable skepticism."
-    },
-    {
-      "name": "The Upheaval \u2014 N.S. Lyons",
-      "feed_url": "https://upheaval.substack.com/feed",
-      "why": "Rare long-form analyst mapping how ideological shifts, China's rise, and technological change are reshaping institutions and cultural capital \u2014 recommended across the geopolitics and alternative-institutions reading circles."
-    }
-  ]
+  "trial_sources": []
 }
