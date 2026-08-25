@@ -1,84 +1,106 @@
 {
   "digest": {
-    "intro": "Infrastructure as target, children as benchmark, garages as fabs.",
+    "intro": "Record heat, covert watermarks, and the architecture of things that outlast their makers.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Iranian Hackers Shut Down a UK Power Plant for Four Days",
-            "source": "The Telegraph",
-            "url": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/",
-            "blurb": "A confirmed Iranian state-linked cyberattack physically disabled a British power facility for four days \u2014 the first successful attack of this kind on UK energy infrastructure. It ran concurrent with a coordinated campaign hitting water systems across 12 US states, suggesting a deliberate, synchronized pressure operation rather than opportunistic probing. The plant was small and the grid stayed up, but the precedent is what matters: OT systems went dark.",
+            "title": "Ocean surface hits record temperature \u2014 in August",
+            "source": "BBC News",
+            "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
+            "blurb": "The average sea surface outside polar regions hit 21.1\u00b0C on Saturday \u2014 edging past the March 2024 record, which is the disturbing part: ocean temps normally peak in March, not August, when the southern hemisphere's vast water mass is cooling. El Ni\u00f1o is adding heat on top of decades of baseline warming, not instead of it. The timing anomaly is the real headline, not the margin.",
             "tags": [
-              "cyberwar",
-              "infrastructure",
-              "iran"
+              "climate",
+              "oceans",
+              "geopolitics"
             ]
           },
           {
-            "title": "US\u2013Iran War: 775 Casualties, $94 Oil, and 'Economic Warfare' Threats",
-            "source": "CNN",
-            "url": "https://www.cnn.com/2026/08/20/world/live-news/iran-war-trump",
-            "blurb": "The war has entered a sanctions-and-attrition phase: Trump is threatening 'crushing economic warfare' while oil climbs to $94/barrel on Strait of Hormuz deadlock, and the USS Abraham Lincoln is finally rotating home after an extended deployment that's prompted congressional concern about crew mental health. JD Vance called economic pressure the 'most effective tool' while acknowledging it's a 'delicate dance' as Americans absorb high gas prices. The diplomatic track is frozen.",
+            "title": "Nvidia manager indicted in Taiwan for smuggling B300 servers to China",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
+            "blurb": "Taiwan has indicted nine people \u2014 including an Nvidia senior manager and two Supermicro employees \u2014 for forging documents to cover a shipment of 130 B300 AI servers supposedly installed at a Taiwan facility; 74 actually reached Chinese customers before customs caught the rest. This follows the US arrest of Supermicro co-founder Wally Liaw in March for allegedly routing $2.5 billion in restricted hardware to China since 2024. The chip war just crossed from trade policy into criminal prosecutions inside major American companies.",
             "tags": [
               "geopolitics",
-              "iran",
-              "war"
-            ]
-          },
-          {
-            "title": "Slovakia Found a Russian Backdoor Hidden in Traffic Speed Cameras",
-            "source": "Risky Biz",
-            "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/",
-            "blurb": "Slovakia's NBU discovered that 279 NERO R-ONE traffic cameras \u2014 purchased via a Cyprus shell company using fake certifications as part of a \u20ac30 million EU-funded infrastructure project \u2014 are rebranded Russian CORDON PRO.M units containing a backdoor triggered by SMS from hardcoded St. Petersburg phone numbers, granting full shell and network access. The Interior Ministry initially denied they were Russian. This is hybrid warfare at its most patient and mundane: civilian road infrastructure as pre-positioned intelligence asset.",
-            "tags": [
-              "cyberwar",
-              "russia",
-              "infrastructure"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Biology and the brain",
-        "items": [
-          {
-            "title": "Kids Outlearn AI \u2014 and We Still Don't Know Why",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/",
-            "blurb": "LLMs consume roughly 100,000 times more text than a child hears before their first birthday to reach comparable language fluency \u2014 Stanford's Michael Frank calls it 'burning down a forest to re-create a milestone that happens in living rooms over the course of a year.' The piece is a genuine inquiry into what that data efficiency gap reveals about how brains construct internal models of reality versus statistical pattern-matching across a corpus. The answer has stakes for both AI architecture and our understanding of what cognition actually is.",
-            "tags": [
-              "cognition",
-              "ai",
-              "language"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Garage alchemy",
-        "items": [
-          {
-            "title": "Making Functional LEDs in a Home Fab",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/23/making-leds-in-the-home-fab/",
-            "blurb": "Dr. Semiconductor didn't just demonstrate amateur chip fabrication \u2014 he made working GaN LEDs and bonded them to PCBs, substituting a 355nm UV etching laser for the chlorine reactive-ion etching that normally requires industrial equipment, then cleaning up with a potassium hydroxide etch. The contacts are nickel/silver/titanium deposited via home sputtering chamber with photoresist liftoff. The gap between garage and fab is collapsing in real time, one workaround at a time.",
-            "tags": [
-              "hardware",
               "semiconductors",
-              "home fab"
+              "china"
             ]
           },
           {
-            "title": "The Casio F-91W as a Contactless Payment Device",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/24/the-casio-f-91w-as-a-contactless-payment-device/",
-            "blurb": "Matteo P. crammed NFC payment into a Casio F-91W \u2014 a watch that's been on terrorism watchlists, beloved by hackers, and worn by minimalists for 30 years \u2014 by SLA-printing a new front face that positions the NFC chip above the display with a pickup coil around the perimeter. The most interesting part isn't the build, it's his deep-dive into RF coupling design and tuning the antenna near resonance inside such tight physical constraints. The F-91W has always been a statement; this one just pays for coffee.",
+            "title": "Clean energy is booming under the administration trying to kill it",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/08/trump-tried-to-curb-clean-energy-its-booming-anyway/",
+            "blurb": "The US will add a record 45 GW of clean energy capacity this year \u2014 roughly 25% above the 2024 record \u2014 driven by AI data center demand, expiring tax credits, and the Iran war pushing energy prices up globally. Solar and wind are jumping nearly a third and 50% respectively, even as the White House touts \"record oil and gas production.\" The market has simply outrun the political will to stop it.",
+            "tags": [
+              "energy",
+              "policy",
+              "climate"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Tools and trust",
+        "items": [
+          {
+            "title": "MS Paint quietly embeds a server-issued GUID in every AI image you save locally",
+            "source": "xusheng.dev",
+            "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
+            "blurb": "Even when using Paint's on-device AI models on a Copilot+ PC, your prompt is sent to a Microsoft server for moderation, which returns a GUID that gets invisibly embedded in the output image as a C2PA watermark \u2014 and the visible-watermark toggle does nothing to disable it. The researcher found this by reverse-engineering the app with Binary Ninja; Microsoft does technically disclose C2PA metadata is added, but not the server-roundtrip that seeds it. The practical takeaway: there's no such thing as a purely local AI creative tool on Windows right now.",
+            "tags": [
+              "privacy",
+              "microsoft",
+              "reverse-engineering"
+            ]
+          },
+          {
+            "title": "EU packaging rules are structurally eliminating small hardware makers",
+            "source": "Lectronz",
+            "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
+            "blurb": "The EU's new Packaging and Packaging Waste Regulation, which came into force August 12, requires producers to register with and pay fees to EPR schemes in every EU country they ship to \u2014 a compliance stack designed for corporations, not someone selling 10 PCBs from a garage. The principle (producers fund recycling) is sound; the implementation creates a fixed overhead that simply makes micro-scale hardware businesses economically irrational. Every Arduino begins somewhere, and this is a structural ceiling on where those beginnings can happen.",
             "tags": [
               "hardware",
-              "nfc",
-              "craft"
+              "regulation",
+              "maker culture"
+            ]
+          },
+          {
+            "title": "Quest 1 jailbreak turns an abandoned headset into open hardware",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/25/quest-vr-headset-becomes-unlocked-hardware/",
+            "blurb": "QuestStack automates a privilege-escalation chain to give the original Oculus Quest a fully unlocked bootloader \u2014 and there's a web version where you just plug in the headset and visit a page. Meta stopped supporting the device years ago, which is exactly when hardware should be freed: it's capable enough to run real spatial workloads, it's just been orphaned by a platform roadmap. For anyone building WebGL or interactive 3D environments who wants a rootable spatial compute target without paying Quest 3 prices, this changes the calculus.",
+            "tags": [
+              "vr",
+              "hardware",
+              "open source"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Deep time",
+        "items": [
+          {
+            "title": "Children born under British sugar rationing grew up with significantly lower cancer rates",
+            "source": "Nautilus",
+            "url": "https://nautil.us/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-1284136/",
+            "blurb": "A study of 64,000 people born in Britain between 1951 and 1956 used the abrupt end of postwar sugar rationing in September 1953 as a natural experiment: those who spent more of their first 1,000 days (conception to age 2) under rationing showed meaningfully lower cancer incidence and markers of slower biological aging decades later. Sugar consumption nearly doubled the month rationing ended, creating a sharp exposure gradient between children born just months apart. Early-life metabolic environment appears to set something that persists for 70 years \u2014 the mechanism isn't fully understood, but the signal is striking.",
+            "tags": [
+              "health",
+              "longevity",
+              "research"
+            ]
+          },
+          {
+            "title": "Was Abstract Expressionism a CIA soft-power operation? Mostly yes.",
+            "source": "JSTOR Daily",
+            "url": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
+            "blurb": "Thomas Braden ran MoMA's operations before joining the CIA to direct its cultural programs, and later wrote publicly that American art \"won more acclaim for the US than John Foster Dulles could have bought with a hundred speeches.\" MoMA fulfilled 38 government contracts during WWII and mounted 19 Latin America exhibitions for Roosevelt's Coordinator of Inter-American Affairs \u2014 run by Nelson Rockefeller, who was simultaneously MoMA's president. Pollock's drip paintings were genuinely radical and also genuinely useful to the State Department; those two things were never in conflict, which is the uncomfortable part.",
+            "tags": [
+              "art history",
+              "cold war",
+              "institutions"
             ]
           }
         ]
@@ -87,14 +109,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Moxie Marlinspike \u2014 \"Scrap\" (2006)",
-            "source": "Twitter / moxie.org",
-            "url": "https://twitter.com/moxie/status/2091218652133732491",
-            "blurb": "Moxie recently surfaced a 2006 journal entry about squatting in a Pittsburgh winter, installing gas lines with frozen fingers, and what happens when a cast-iron bathtub you left outside disappears overnight \u2014 stripped for scrap metal by neighbors who needed cash more than you needed the tub. It's a short piece about infrastructure, poverty, value, and the ethics of taking things apart, written with the specificity and moral compression that makes his essays stick. The kind of thing that makes you sit with it.",
+            "title": "All of San Francisco rendered as a navigable 3D game",
+            "source": "sf.thijs.gg",
+            "url": "https://sf.thijs.gg/",
+            "blurb": "Someone built a real-time tile-streaming WebGL environment of the entire city \u2014 WASD movement, a glider mechanic, a vehicle mode, and chat \u2014 pulling map geometry at up to Z20 zoom with a visible tile-loading pipeline in the UI. The technical seams are left exposed (you can watch tiles stream in by zoom level), which makes it feel more like a meditation on how cities are stored as data than a polished product. It's the kind of thing that makes you want to understand exactly how the tile-streaming works and then build something on top of it.",
             "tags": [
-              "essay",
-              "infrastructure",
-              "writing"
+              "webgl",
+              "3d",
+              "urban space"
             ]
           }
         ]
@@ -102,66 +124,92 @@
     ],
     "facts": [
       {
-        "fact": "The Russian backdoor in Slovak traffic cameras is activated by an SMS sent from a list of hardcoded St. Petersburg phone numbers \u2014 no network intrusion required.",
-        "url": "https://risky.biz/risky-bulletin-slovakia-finds-russian-backdoor-in-traffic-speed-cameras/"
+        "fact": "Ocean surface temperatures normally peak in March or April \u2014 so August's new record being set now is more alarming than the margin of 0.01\u00b0C over the previous record.",
+        "url": "https://www.bbc.com/news/articles/c62m4gpnp78o"
       },
       {
-        "fact": "A child typically begins acquiring language by their first birthday having heard far fewer words than the ~100,000x data advantage LLMs require to reach comparable fluency.",
-        "url": "https://www.technologyreview.com/2026/08/24/1141740/kids-machines-language-learning/"
+        "fact": "74 of 130 Nvidia B300 servers that were supposed to be installed and running at a Taiwan facility were actually delivered to customers in China before customs caught on.",
+        "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
       },
       {
-        "fact": "Dr. Semiconductor replaced industrial chlorine reactive-ion etching with a 355nm UV laser to pattern GaN LEDs at home \u2014 the laser causes GaN to decompose directly into gallium and nitrogen.",
-        "url": "https://hackaday.com/2026/08/23/making-leds-in-the-home-fab/"
+        "fact": "Employment for workers aged 22\u201325 in the most AI-exposed occupations is now 19% below that of their peers in less AI-affected fields \u2014 while overall employment across all ages shows little difference.",
+        "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/"
       },
       {
-        "fact": "The Iranian cyberattack on UK energy infrastructure coincided precisely with simultaneous attacks on water systems across 12 US states, suggesting coordinated timing rather than coincidence.",
-        "url": "https://www.telegraph.co.uk/news/2026/08/22/iranian-hackers-shut-down-uk-power-plant/"
+        "fact": "The Quest 1 jailbreak is now a one-step web process: plug in the headset, visit a page, receive an unlocked bootloader \u2014 no technical knowledge required.",
+        "url": "https://hackaday.com/2026/08/25/quest-vr-headset-becomes-unlocked-hardware/"
+      },
+      {
+        "fact": "vLLM previously used eval() on tool-call parameters, and CVE-2025-9141 was an arbitrary-code-execution bug in its XML parser for Qwen3 Coder \u2014 meaning inference engines have already been exploitable by token output.",
+        "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a minimal tile-streaming viewer for a city of your choice using publicly available map tile APIs and WebGL or Three.js. Don't hide the loading state \u2014 make it part of the aesthetic: show which zoom levels are resident, which are fetching, which are evicted. The seam between data and place is the interesting thing. Spend an hour just getting one neighborhood streaming cleanly before you add any navigation."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Leviathan",
-        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
-        "why": "A sensory assault filmed on a commercial fishing trawler off New Bedford \u2014 cameras lashed to nets, hooks, fish, sailors \u2014 that dissolves the boundary between observer and system entirely. It's what happens when hardware and human labor become one feedback loop, and it will make you want to rig a camera to something immediately.",
-        "url": "https://letterboxd.com/film/leviathan-2012/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film-essay built entirely from the gap between image and memory \u2014 Marker uses footage from Japan, Guinea-Bissau, and Iceland to argue that all human culture is just a coping mechanism for the passage of time. Obsessively crafted, formally unlike anything else, and one of the few works that will genuinely change how you edit your own perception.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Paintings and Works on Paper",
-        "creator": "Hilma af Klint",
-        "why": "af Klint built an elaborate private mythology \u2014 s\u00e9ances, a secret society, diagrams of cosmic evolution \u2014 and used it as scaffolding for pure abstract form, decades before Kandinsky. The work reads simultaneously as systems diagram and visionary ecstasy, which is exactly the category-collapse you're drawn to.",
-        "url": "https://www.hilmaafklint.se/"
+        "title": "Textile and Tapestry Works",
+        "creator": "Anni Albers",
+        "why": "Albers treated weaving as a generative system, not decoration \u2014 her grids carry the same logic as code and the same warmth as ritual. If you work in generative 3D, the structural thinking here reads like a predecessor to shader art.",
+        "url": "https://www.anniealbers.com/works/"
       },
       {
         "medium": "music",
-        "title": "Versions",
-        "creator": "Mark Fell",
-        "why": "Fell builds rhythm from first principles \u2014 microsecond offsets, probability distributions, combinatorial permutation \u2014 and the result is music that sounds like discovering the source code of groove. Obsessive formal constraint producing something genuinely sensual; the rare case where technical depth and physical feeling are the same thing.",
-        "url": "https://www.youtube.com/watch?v=hj-_HLKQ0jI"
+        "title": "Selected Works",
+        "creator": "Matmos",
+        "why": "Matmos make music from extremely specific physical systems \u2014 washing machines, liposuction surgery, a Civil War\u2013era snare drum \u2014 and the result is conceptually airtight and formally strange. Their records feel like interactive art pieces that happen to have a play button.",
+        "url": "https://www.youtube.com/@matmos"
       }
     ],
     "events": [
       {
-        "name": "Iris van Herpen: Sculpting the Senses",
-        "venue": "Brooklyn Museum, 200 Eastern Parkway, Brooklyn",
-        "date_start": "2026-05-16",
-        "date_end": "2026-12-06",
+        "name": "Gabriel Orozco: Public Nature",
+        "venue": "JCDecaux Bus Shelters across New York City",
+        "date_start": "2026-07-08",
+        "date_end": "2026-09-06",
         "category": "museum",
-        "why": "Van Herpen's couture placed in direct dialogue with coral, fossils, fractal geometry, and James Turrell \u2014 140+ garments that function as physical instantiations of scientific inquiry; the rare fashion exhibition where the physical/digital/natural boundary is actually the subject.",
-        "url": "https://www.brooklynmuseum.org/exhibitions/iris-van-herpen",
-        "date": "May 16 \u2013 Dec 6"
+        "why": "Orozco's first commissioned photo series \u2014 images exploring urban fabric embedded in bus shelters across the city \u2014 turns the infrastructure of the street into a distributed gallery, which rewards the kind of noticing you do while building things.",
+        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
+        "date": "Jul 8 \u2013 Sep 6"
       },
       {
-        "name": "The Lost World: The Art of Minnie Evans",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
-        "date_start": "2026-08-22",
-        "date_end": "2027-01-10",
+        "name": "RISD MFA 2026: Fool's Privilege (curated by Ajay Kurian)",
+        "venue": "170 Suffolk St, Lower East Side",
+        "date_start": "2026-07-10",
+        "date_end": "2026-08-28",
         "category": "museum",
-        "why": "A 50-years-overdue retrospective of a visionary self-taught Black artist who channeled visions of pre-Flood 'lost worlds' into dense, kaleidoscopic mandalas \u2014 folk art as private cosmology, and one of the genuinely strange American imaginations of the 20th century.",
-        "url": "https://whitney.org/exhibitions/the-lost-world",
-        "date": "Aug 22 \u2013 Jan 10"
+        "why": "A tight MFA group show curated by Ajay Kurian \u2014 catch it before it closes; the LES location and the framing of 'fool's privilege' signals permission for formal risk-taking you rarely see in MFA contexts.",
+        "url": "https://downtowngallerymap.com/galleries_les.php",
+        "date": "Jul 10 \u2013 Aug 28"
+      },
+      {
+        "name": "Francisca Ben\u00edtez: Direct Action (closing weeks)",
+        "venue": "Storefront for Art and Architecture, 97 Kenmare St, Manhattan",
+        "date_start": "2026-08-25",
+        "date_end": "2026-09-09",
+        "category": "museum",
+        "why": "Ben\u00edtez turns Storefront's gallery into a live meeting room, rehearsal studio, and urban stage for activist groups defending public space \u2014 the institution itself becomes the medium, which is exactly the kind of category-blurring social system made visible that hooks you.",
+        "url": "https://storefront.nyc/program/direct-action-by-francisca-benitez/",
+        "date": "Aug 25 \u2013 Sep 9"
+      },
+      {
+        "name": "Roc\u00edo Garc\u00eda: The Object of Power is Power",
+        "venue": "Latitude Gallery, 26 Wooster St, SoHo",
+        "date_start": "2026-08-25",
+        "date_end": "2026-09-20",
+        "category": "museum",
+        "why": "The title alone earns attention \u2014 Garc\u00eda's work probes symbolic systems of power, politics, and identity, making it a natural pull for anyone interested in how images and objects encode social force.",
+        "url": "https://latitudegallery.nyc/",
+        "date": "Aug 25 \u2013 Sep 20"
       }
     ]
   },

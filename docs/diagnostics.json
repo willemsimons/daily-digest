@@ -1,22 +1,24 @@
 {
-  "feeds": 50,
-  "mined": 51,
+  "feeds": 69,
+  "mined": 53,
   "videos": 3,
   "video_titles": [
+    "It's impossible to choose a number at random",
     "Could identical twins commit the perfect crime?",
-    "Total Solar Eclipse from 92,000 Feet",
-    "This Device Goes Past Equilibrium"
+    "Total Solar Eclipse from 92,000 Feet"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "CNN",
+    "Ars Technica",
+    "BBC News",
     "Hackaday",
-    "MIT Technology Review",
-    "Risky Biz",
-    "The Telegraph",
-    "Twitter / moxie.org"
+    "JSTOR Daily",
+    "Lectronz",
+    "Nautilus",
+    "sf.thijs.gg",
+    "xusheng.dev"
   ],
   "had_video": false,
-  "run_at": "2026-08-24T11:58:17.848197+00:00"
+  "run_at": "2026-08-25T11:58:36.622297+00:00"
 }
