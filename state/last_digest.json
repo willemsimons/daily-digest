@@ -1,122 +1,112 @@
 {
   "digest": {
-    "intro": "Record heat, covert watermarks, and the architecture of things that outlast their makers.",
+    "intro": "Chips, singularities, soft tissue, and a 75-cent accounting error that caught a spy.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Ocean surface hits record temperature \u2014 in August",
-            "source": "BBC News",
-            "url": "https://www.bbc.com/news/articles/c62m4gpnp78o",
-            "blurb": "The average sea surface outside polar regions hit 21.1\u00b0C on Saturday \u2014 edging past the March 2024 record, which is the disturbing part: ocean temps normally peak in March, not August, when the southern hemisphere's vast water mass is cooling. El Ni\u00f1o is adding heat on top of decades of baseline warming, not instead of it. The timing anomaly is the real headline, not the margin.",
+            "title": "Z.ai Confirms Ox Alpha: Another Chinese Open-Weight Model Rival to DeepSeek",
+            "source": "Bloomberg",
+            "url": "https://www.bloomberg.com/news/articles/2026-08-26/china-s-z-ai-made-ox-alpha-stealth-model-that-rivals-deepseek",
+            "blurb": "Z.ai is releasing weights for Ox Alpha, a model that was built quietly and benchmarks alongside DeepSeek. The structural story here isn't any single model \u2014 it's that Chinese labs are now systematically choosing open-weight releases as a geopolitical and ecosystem move, compounding pressure on Western closed-model incumbents.",
             "tags": [
-              "climate",
-              "oceans",
-              "geopolitics"
-            ]
-          },
-          {
-            "title": "Nvidia manager indicted in Taiwan for smuggling B300 servers to China",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/",
-            "blurb": "Taiwan has indicted nine people \u2014 including an Nvidia senior manager and two Supermicro employees \u2014 for forging documents to cover a shipment of 130 B300 AI servers supposedly installed at a Taiwan facility; 74 actually reached Chinese customers before customs caught the rest. This follows the US arrest of Supermicro co-founder Wally Liaw in March for allegedly routing $2.5 billion in restricted hardware to China since 2024. The chip war just crossed from trade policy into criminal prosecutions inside major American companies.",
-            "tags": [
-              "geopolitics",
-              "semiconductors",
-              "china"
-            ]
-          },
-          {
-            "title": "Clean energy is booming under the administration trying to kill it",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/08/trump-tried-to-curb-clean-energy-its-booming-anyway/",
-            "blurb": "The US will add a record 45 GW of clean energy capacity this year \u2014 roughly 25% above the 2024 record \u2014 driven by AI data center demand, expiring tax credits, and the Iran war pushing energy prices up globally. Solar and wind are jumping nearly a third and 50% respectively, even as the White House touts \"record oil and gas production.\" The market has simply outrun the political will to stop it.",
-            "tags": [
-              "energy",
-              "policy",
-              "climate"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Tools and trust",
-        "items": [
-          {
-            "title": "MS Paint quietly embeds a server-issued GUID in every AI image you save locally",
-            "source": "xusheng.dev",
-            "url": "https://xusheng.dev/posts/reversing/mspaint_invisible_watermark/main/",
-            "blurb": "Even when using Paint's on-device AI models on a Copilot+ PC, your prompt is sent to a Microsoft server for moderation, which returns a GUID that gets invisibly embedded in the output image as a C2PA watermark \u2014 and the visible-watermark toggle does nothing to disable it. The researcher found this by reverse-engineering the app with Binary Ninja; Microsoft does technically disclose C2PA metadata is added, but not the server-roundtrip that seeds it. The practical takeaway: there's no such thing as a purely local AI creative tool on Windows right now.",
-            "tags": [
-              "privacy",
-              "microsoft",
-              "reverse-engineering"
-            ]
-          },
-          {
-            "title": "EU packaging rules are structurally eliminating small hardware makers",
-            "source": "Lectronz",
-            "url": "https://lectronz.com/u/lectronz/articles/how-europe-is-killing-makers-and-micro-entrepreneurs",
-            "blurb": "The EU's new Packaging and Packaging Waste Regulation, which came into force August 12, requires producers to register with and pay fees to EPR schemes in every EU country they ship to \u2014 a compliance stack designed for corporations, not someone selling 10 PCBs from a garage. The principle (producers fund recycling) is sound; the implementation creates a fixed overhead that simply makes micro-scale hardware businesses economically irrational. Every Arduino begins somewhere, and this is a structural ceiling on where those beginnings can happen.",
-            "tags": [
-              "hardware",
-              "regulation",
-              "maker culture"
-            ]
-          },
-          {
-            "title": "Quest 1 jailbreak turns an abandoned headset into open hardware",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/25/quest-vr-headset-becomes-unlocked-hardware/",
-            "blurb": "QuestStack automates a privilege-escalation chain to give the original Oculus Quest a fully unlocked bootloader \u2014 and there's a web version where you just plug in the headset and visit a page. Meta stopped supporting the device years ago, which is exactly when hardware should be freed: it's capable enough to run real spatial workloads, it's just been orphaned by a platform roadmap. For anyone building WebGL or interactive 3D environments who wants a rootable spatial compute target without paying Quest 3 prices, this changes the calculus.",
-            "tags": [
-              "vr",
-              "hardware",
+              "ai",
+              "china",
               "open source"
             ]
           }
         ]
       },
       {
-        "heading": "Deep time",
+        "heading": "Silicon",
         "items": [
           {
-            "title": "Children born under British sugar rationing grew up with significantly lower cancer rates",
-            "source": "Nautilus",
-            "url": "https://nautil.us/babies-born-under-sugar-rationing-grew-into-adults-with-lower-cancer-risk-1284136/",
-            "blurb": "A study of 64,000 people born in Britain between 1951 and 1956 used the abrupt end of postwar sugar rationing in September 1953 as a natural experiment: those who spent more of their first 1,000 days (conception to age 2) under rationing showed meaningfully lower cancer incidence and markers of slower biological aging decades later. Sugar consumption nearly doubled the month rationing ended, creating a sharp exposure gradient between children born just months apart. Early-life metabolic environment appears to set something that persists for 70 years \u2014 the mechanism isn't fully understood, but the signal is striking.",
+            "title": "OpenAI Jalape\u00f1o: A First-Gen Inference Chip That Actually Beats Nvidia",
+            "source": "SemiAnalysis",
+            "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia",
+            "blurb": "OpenAI went from hiring the chip team to manufacturing tape-out in 16 months \u2014 an almost unheard-of ASIC development cycle \u2014 and the resulting chip benchmarks 1.5\u20131.9\u00d7 better than Nvidia Blackwell on performance per watt across multiple open-source models. The surprising architectural choice: it's deliberately generalized, not overfit to OpenAI's own models, which is what makes it dangerous for Nvidia long-term rather than just a one-trick internal tool.",
             "tags": [
-              "health",
-              "longevity",
-              "research"
+              "ai hardware",
+              "chips",
+              "inference"
             ]
           },
           {
-            "title": "Was Abstract Expressionism a CIA soft-power operation? Mostly yes.",
-            "source": "JSTOR Daily",
-            "url": "https://daily.jstor.org/was-modern-art-really-a-cia-psy-op/",
-            "blurb": "Thomas Braden ran MoMA's operations before joining the CIA to direct its cultural programs, and later wrote publicly that American art \"won more acclaim for the US than John Foster Dulles could have bought with a hundred speeches.\" MoMA fulfilled 38 government contracts during WWII and mounted 19 Latin America exhibitions for Roosevelt's Coordinator of Inter-American Affairs \u2014 run by Nelson Rockefeller, who was simultaneously MoMA's president. Pollock's drip paintings were genuinely radical and also genuinely useful to the State Department; those two things were never in conflict, which is the uncomfortable part.",
+            "title": "Apple M6 and M5 Ultra: 2nm, Quad-Die, 1.2TB/s",
+            "source": "Apple Newsroom",
+            "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+            "blurb": "M6 is Apple's first 2-nanometer chip and ships a Dual 16-core Neural Engine alongside 170GB/s unified memory bandwidth \u2014 the number that matters most for large local model inference. M5 Ultra goes further with a quad-die UltraFusion architecture delivering 1.2TB/s memory bandwidth, 50% more than M3 Ultra, which means the Mac Studio is now a plausible local inference node for serious generative workloads.",
             "tags": [
-              "art history",
-              "cold war",
-              "institutions"
+              "apple silicon",
+              "hardware",
+              "local ai"
+            ]
+          },
+          {
+            "title": "C2PA Cameras Do Not Survive Contact with Reality",
+            "source": "David Buchanan",
+            "url": "https://www.da.vidbuchanan.co.uk/blog/android-c2pa.html",
+            "blurb": "The cryptographic image-provenance standard meant to distinguish real photos from AI fakes relies on Android's Key Attestation \u2014 which breaks the moment a device is rooted, and one-click root exploits now exist for fully-patched Pixel phones in the wild. The researcher reported this 90 days before publishing; the standard's trust model has no realistic patch path because hardware vulnerabilities in existing devices can't be updated.",
+            "tags": [
+              "security",
+              "provenance",
+              "ai fakes"
             ]
           }
         ]
       },
       {
-        "heading": "Off the map",
+        "heading": "Deep structure",
         "items": [
           {
-            "title": "All of San Francisco rendered as a navigable 3D game",
-            "source": "sf.thijs.gg",
-            "url": "https://sf.thijs.gg/",
-            "blurb": "Someone built a real-time tile-streaming WebGL environment of the entire city \u2014 WASD movement, a glider mechanic, a vehicle mode, and chat \u2014 pulling map geometry at up to Z20 zoom with a visible tile-loading pipeline in the UI. The technical seams are left exposed (you can watch tiles stream in by zoom level), which makes it feel more like a meditation on how cities are stored as data than a polished product. It's the kind of thing that makes you want to understand exactly how the tile-streaming works and then build something on top of it.",
+            "title": "Black Hole Singularity Is a Surface, Not a Point",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2608.21590",
+            "blurb": "Two observers falling into a Schwarzschild black hole along different angular trajectories don't meet at the singularity \u2014 they lose causal contact well before reaching it, which means the singularity has spatial extent, not a point geometry. The paper's further implication for quantum gravity: the quantum states of a black hole probably reside at this effectively 2-dimensional singular surface, co-evolving with the trapped Hawking radiation inside the event horizon.",
             "tags": [
-              "webgl",
-              "3d",
-              "urban space"
+              "physics",
+              "cosmology",
+              "quantum gravity"
+            ]
+          },
+          {
+            "title": "450-Million-Year-Old Soft Tissue, Preserved in Pyrite",
+            "source": "Nautilus",
+            "url": "https://nautil.us/this-one-in-a-million-fossil-has-450-million-year-old-soft-tissue-1284340/",
+            "blurb": "A crinoid fossil from before animals had fully colonized dry land \u2014 and more than 200 million years before the first dinosaur \u2014 has its tube feet intact, crystallized into pyrite so fast by bacteria that they outran decay. This is only the second time soft tissue has ever been found in a crinoid fossil, out of millions examined.",
+            "tags": [
+              "paleontology",
+              "deep time",
+              "biology"
+            ]
+          },
+          {
+            "title": "Rheoscopic Fluid: Reject Simulation, Return to Mica",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/08/25/reject-fluid-simulations-return-to-rheoscopic-fluid/",
+            "blurb": "Mica flakes suspended in water with a drop of soap self-align with fluid shear, making flow structure directly visible \u2014 a cheap, tactile alternative to computational fluid dynamics for anyone who wants to see what's actually happening in a flow rather than render it. The linked video starts with a miniature ship hull moved through a thin fluid sandwich between laser-cut acrylic sheets, and escalates toward coffee-table-scale sand-drawing mechanisms.",
+            "tags": [
+              "physical computing",
+              "fluid dynamics",
+              "making"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Rabbit hole",
+        "items": [
+          {
+            "title": "Stalking the Wily Hacker: 40 Years Later \u2014 Cliff Stoll",
+            "source": "YouTube",
+            "url": "https://www.youtube.com/watch?v=656058JxTM0",
+            "thumbnail": "https://i.ytimg.com/vi/656058JxTM0/hqdefault.jpg",
+            "blurb": "In 1986, Cliff Stoll noticed a 75-cent accounting discrepancy in his university's computer system and spent the next year obsessively tracking it to a KGB-connected hacker ring \u2014 the original slow-burn infosec investigation. Stoll recounts it with the energy of a man who still can't believe it happened, and the talk is less about hacking than about the obsessive naturalist mindset: following one small wrong thing until the whole system reveals itself.",
+            "tags": [
+              "hacking",
+              "history",
+              "rabbit hole"
             ]
           }
         ]
@@ -124,92 +114,92 @@
     ],
     "facts": [
       {
-        "fact": "Ocean surface temperatures normally peak in March or April \u2014 so August's new record being set now is more alarming than the margin of 0.01\u00b0C over the previous record.",
-        "url": "https://www.bbc.com/news/articles/c62m4gpnp78o"
+        "fact": "OpenAI's Jalape\u00f1o chip went from initial team hiring to manufacturing tape-out in approximately 16 months \u2014 an unusually fast ASIC development cycle even by aggressive industry standards.",
+        "url": "https://newsletter.semianalysis.com/p/openai-jalapeno-better-than-nvidia"
       },
       {
-        "fact": "74 of 130 Nvidia B300 servers that were supposed to be installed and running at a Taiwan facility were actually delivered to customers in China before customs caught on.",
-        "url": "https://arstechnica.com/tech-policy/2026/08/nvidia-senior-manager-linked-to-supermicro-scheme-smuggling-ai-servers-to-china/"
+        "fact": "A researcher found image manipulations \u2014 the kind that would trigger academic retraction \u2014 in marketing materials for over 17,000 commercially sold antibodies used in biomedical research.",
+        "url": "https://arstechnica.com/science/2026/08/lab-supply-companies-have-been-selling-antibodies-using-manipulated-images/"
       },
       {
-        "fact": "Employment for workers aged 22\u201325 in the most AI-exposed occupations is now 19% below that of their peers in less AI-affected fields \u2014 while overall employment across all ages shows little difference.",
-        "url": "https://arstechnica.com/ai/2026/08/ai-is-hitting-entry-level-jobs-hardest-stanford-study-finds/"
+        "fact": "Two observers falling into a black hole along different angular paths lose causal contact with each other well before reaching the singularity \u2014 meaning the singularity itself is spatially extended, not a geometric point.",
+        "url": "https://arxiv.org/abs/2608.21590"
       },
       {
-        "fact": "The Quest 1 jailbreak is now a one-step web process: plug in the headset, visit a page, receive an unlocked bootloader \u2014 no technical knowledge required.",
-        "url": "https://hackaday.com/2026/08/25/quest-vr-headset-becomes-unlocked-hardware/"
+        "fact": "The 450-million-year-old crinoid fossil is only the second time soft tissue has ever been found preserved in any crinoid fossil, out of millions examined worldwide.",
+        "url": "https://nautil.us/this-one-in-a-million-fossil-has-450-million-year-old-soft-tissue-1284340/"
       },
       {
-        "fact": "vLLM previously used eval() on tool-call parameters, and CVE-2025-9141 was an arbitrary-code-execution bug in its XML parser for Qwen3 Coder \u2014 meaning inference engines have already been exploitable by token output.",
-        "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines"
+        "fact": "Apple's M5 Ultra uses a quad-die UltraFusion architecture delivering 1.2TB/s of unified memory bandwidth \u2014 50% more than M3 Ultra \u2014 making the Mac Studio a credible local inference platform for large models.",
+        "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/"
       }
     ],
     "make_something": {
-      "prompt": "Build a minimal tile-streaming viewer for a city of your choice using publicly available map tile APIs and WebGL or Three.js. Don't hide the loading state \u2014 make it part of the aesthetic: show which zoom levels are resident, which are fetching, which are evicted. The seam between data and place is the interesting thing. Spend an hour just getting one neighborhood streaming cleanly before you add any navigation."
+      "prompt": "Build a rheoscopic fluid panel: a thin fluid layer sandwiched between two sheets of laser-cut or cut acrylic, seeded with cosmetic mica flakes and a drop of dish soap. Mount a small object \u2014 a hull cross-section, a wing profile, an abstract form \u2014 on a magnet beneath the bottom sheet so you can drag it through the fluid and watch the shear lines appear. Try filming it at high contrast under a single raking light source. The mica aligns with flow, so you're not illustrating fluid dynamics \u2014 you're directly reading them in a physical medium."
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film-essay built entirely from the gap between image and memory \u2014 Marker uses footage from Japan, Guinea-Bissau, and Iceland to argue that all human culture is just a coping mechanism for the passage of time. Obsessively crafted, formally unlike anything else, and one of the few works that will genuinely change how you edit your own perception.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Mauvais Sang",
+        "creator": "Leos Carax",
+        "why": "A film that runs on pure system \u2014 youth culture, ritual, forbidden knowledge, bodies in space \u2014 where the visual grammar IS the argument. Carax builds a world where every gesture is already a symbol before it's an action, and the famous running sequence is one of cinema's most expressive feedback loops between music, motion, and longing.",
+        "url": "https://letterboxd.com/film/bad-blood-1986/"
       },
       {
         "medium": "art",
-        "title": "Textile and Tapestry Works",
-        "creator": "Anni Albers",
-        "why": "Albers treated weaving as a generative system, not decoration \u2014 her grids carry the same logic as code and the same warmth as ritual. If you work in generative 3D, the structural thinking here reads like a predecessor to shader art.",
-        "url": "https://www.anniealbers.com/works/"
+        "title": "Alamar (To the Sea)",
+        "creator": "Tom\u00e1s Saraceno",
+        "why": "Saraceno builds cosmologies \u2014 spider webs mapped as load-bearing architecture, ecosystems as social contracts, the invisible physics of air as political space. His practice is the exact category-blur you want: ecological systems as aesthetic objects, science as myth-making, the studio as research lab.",
+        "url": "https://studiotomassaraceno.org/"
       },
       {
         "medium": "music",
-        "title": "Selected Works",
-        "creator": "Matmos",
-        "why": "Matmos make music from extremely specific physical systems \u2014 washing machines, liposuction surgery, a Civil War\u2013era snare drum \u2014 and the result is conceptually airtight and formally strange. Their records feel like interactive art pieces that happen to have a play button.",
-        "url": "https://www.youtube.com/@matmos"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "The rare record that functions less as music than as a revealed system \u2014 pure texture organized by logic you can feel but not name, the sonic equivalent of generative 3D before it had a name. Still the high-water mark for the idea that constraint + obsession = atmosphere.",
+        "url": "https://www.youtube.com/watch?v=Xw5AiRVqfqk"
       }
     ],
     "events": [
       {
-        "name": "Gabriel Orozco: Public Nature",
-        "venue": "JCDecaux Bus Shelters across New York City",
-        "date_start": "2026-07-08",
-        "date_end": "2026-09-06",
+        "name": "Christian Rutledge: An Inch of This New York Mile \u2014 Opening",
+        "venue": "14BC Gallery, Manhattan",
+        "date_start": "2026-08-27",
+        "date_end": "2026-08-27",
         "category": "museum",
-        "why": "Orozco's first commissioned photo series \u2014 images exploring urban fabric embedded in bus shelters across the city \u2014 turns the infrastructure of the street into a distributed gallery, which rewards the kind of noticing you do while building things.",
-        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
-        "date": "Jul 8 \u2013 Sep 6"
+        "why": "A lower-profile gallery opening from an artist deep in the city-as-system territory \u2014 the title alone signals the kind of obsessive, granular urban attention worth showing up for.",
+        "url": "https://alexfeim.substack.com/p/nyc-art-map-and-recs-8242026-8302026",
+        "date": "Thu, Aug 27"
       },
       {
-        "name": "RISD MFA 2026: Fool's Privilege (curated by Ajay Kurian)",
-        "venue": "170 Suffolk St, Lower East Side",
-        "date_start": "2026-07-10",
+        "name": "Book Launch: You Weren't There \u2014 '90s Graffiti in New York",
+        "venue": "Printed Matter, 231 11th Ave, Chelsea, Manhattan",
+        "date_start": "2026-08-27",
+        "date_end": "2026-08-27",
+        "category": "popup",
+        "why": "Printed Matter is the right room for this \u2014 a deep archive of a frontier culture (NYC graffiti in the 90s) before it hardened into brand, exactly the kind of scene-before-institution moment that reveals how social systems form and calcify.",
+        "url": "https://alexfeim.substack.com/p/nyc-art-map-and-recs-8242026-8302026",
+        "date": "Thu, Aug 27"
+      },
+      {
+        "name": "Jody Pinto: Body/Land Exchange \u2014 Opening",
+        "venue": "Art Lot, Brooklyn",
+        "date_start": "2026-08-28",
         "date_end": "2026-08-28",
         "category": "museum",
-        "why": "A tight MFA group show curated by Ajay Kurian \u2014 catch it before it closes; the LES location and the framing of 'fool's privilege' signals permission for formal risk-taking you rarely see in MFA contexts.",
-        "url": "https://downtowngallerymap.com/galleries_les.php",
-        "date": "Jul 10 \u2013 Aug 28"
+        "why": "Pinto works at the literal edge of body and terrain \u2014 her practice maps the body as landscape and landscape as body, a physical/conceptual feedback loop that sits right at Willem's intersection of systems and the tactile.",
+        "url": "https://alexfeim.substack.com/p/nyc-art-map-and-recs-8242026-8302026",
+        "date": "Fri, Aug 28"
       },
       {
-        "name": "Francisca Ben\u00edtez: Direct Action (closing weeks)",
-        "venue": "Storefront for Art and Architecture, 97 Kenmare St, Manhattan",
-        "date_start": "2026-08-25",
+        "name": "Opening Celebration: Camille Henrot \u2014 Dogs",
+        "venue": "Doris C. Freedman Plaza, Central Park (5th Ave & 60th St), Manhattan",
+        "date_start": "2026-09-09",
         "date_end": "2026-09-09",
         "category": "museum",
-        "why": "Ben\u00edtez turns Storefront's gallery into a live meeting room, rehearsal studio, and urban stage for activist groups defending public space \u2014 the institution itself becomes the medium, which is exactly the kind of category-blurring social system made visible that hooks you.",
-        "url": "https://storefront.nyc/program/direct-action-by-francisca-benitez/",
-        "date": "Aug 25 \u2013 Sep 9"
-      },
-      {
-        "name": "Roc\u00edo Garc\u00eda: The Object of Power is Power",
-        "venue": "Latitude Gallery, 26 Wooster St, SoHo",
-        "date_start": "2026-08-25",
-        "date_end": "2026-09-20",
-        "category": "museum",
-        "why": "The title alone earns attention \u2014 Garc\u00eda's work probes symbolic systems of power, politics, and identity, making it a natural pull for anyone interested in how images and objects encode social force.",
-        "url": "https://latitudegallery.nyc/",
-        "date": "Aug 25 \u2013 Sep 20"
+        "why": "Henrot's dog sculptures are a precise inquiry into domestication, etiquette, and societal rule-making \u2014 playful objects doing serious systems work at the entrance to Central Park; free, public, and opens with a celebration 6\u20137pm.",
+        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
+        "date": "Wed, Sep 9"
       }
     ]
   },
