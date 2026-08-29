@@ -1,106 +1,95 @@
 {
   "digest": {
-    "intro": "Power, physics, and open infrastructure all had bad days today.",
+    "intro": "Referendums, fractals without computers, and surveillance going parabolic.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Federal judge rules Trump's blacklisting of Anthropic was illegal retaliation",
+            "title": "Iceland votes today on EU accession \u2014 split 46-46",
+            "source": "International Centre for Defence and Security",
+            "url": "https://icds.ee/en/icelands-small-referendum-with-big-consequences-for-the-eu/",
+            "blurb": "Iceland is voting right now on whether to resume EU membership talks frozen since 2015 \u2014 and polls are essentially tied. What makes it bigger than 390,000 people: a yes sustains EU enlargement momentum at a fragile geopolitical moment, while a no hands ammunition to every Euroskeptic on the continent. Trump's Greenland saber-rattling has pushed Arctic security to the center of the debate in a way no one expected.",
+            "tags": [
+              "geopolitics",
+              "europe",
+              "arctic"
+            ]
+          },
+          {
+            "title": "SpaceX acquired Cursor; OpenAI is cutting them off",
+            "source": "OpenAI",
+            "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+            "blurb": "OpenAI announced it's winding down its model contract with Cursor \u2014 now a SpaceX property \u2014 with a cutoff date of November 12, citing Musk's companies' documented pattern of contract violations, including an admission under oath that xAI violated OpenAI's terms of service. The letter is essentially a public paper trail being laid before any future litigation. The practical casualty is developer tooling: Cursor users lose OpenAI model access, and Astra (OpenAI's next model) will never ship through Cursor.",
+            "tags": [
+              "ai",
+              "tech policy",
+              "musk"
+            ]
+          },
+          {
+            "title": "RFK lied to the Senate; 83 children died in Samoa",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/",
-            "blurb": "Judge Rita Lin found that after Anthropic refused to drop its restrictions on lethal autonomous weapons and mass surveillance of Americans, the Pentagon banned the company from all federal contracts \u2014 including ones unrelated to the military \u2014 and declared it a national security risk. Lin vacated the directives entirely, writing that 'the empty invocation of national security is not a blank check to punish.' The ruling is the clearest judicial line yet against using procurement power as speech suppression.",
+            "url": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/",
+            "blurb": "Newly released documents show RFK Jr. misrepresented his 2019 Samoa trip during confirmation hearings \u2014 a trip that preceded a measles outbreak that killed 83 people, mostly children under five, after vaccination rates cratered to 31%. Senator Wyden is calling for a DOJ criminal referral for lying to Congress. This has crossed from political scandal into documentary evidence of a specific, traceable public health harm.",
             "tags": [
-              "law",
-              "ai policy",
-              "first amendment"
+              "public health",
+              "politics",
+              "vaccines"
             ]
           },
           {
-            "title": "U.S. Treasury sanctions Italian anarchist digital infrastructure collective A/I",
-            "source": "Inventati.org",
-            "url": "https://www.inventati.org/",
-            "blurb": "Autistici/Inventati \u2014 a volunteer-run Italian collective providing free, no-surveillance hosting and communications infrastructure to activists and civil society groups since 2001 \u2014 has been hit with U.S. Treasury sanctions. This is almost entirely absent from mainstream coverage, which is itself telling: the U.S. is now asserting extraterritorial reach over foreign nonprofit digital infrastructure on the basis of who it serves. The precedent for what constitutes a sanctionable 'platform' is the story.",
+            "title": "Cities are dropping Flock surveillance contracts at three per day",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/",
+            "blurb": "90 localities canceled Flock Safety license-plate-reader contracts in August alone \u2014 a fourfold spike over July, and 165 cancellations in just the first eight months of 2026. The reasons are a mix of cost, data-sharing overreach, and documented police abuse. Flock counters that new partnerships still outpace cancellations 10-to-1, but the advocacy group tracking this says the curve has \"gone parabolic\" and the dollar figures will start mattering soon.",
             "tags": [
-              "geopolitics",
-              "censorship",
-              "digital rights"
-            ]
-          },
-          {
-            "title": "Glacial barrier lake on the China-Nepal border is at critical stage",
-            "source": "Kathmandu Post",
-            "url": "https://kathmandupost.com/national/2026/08/28/barrier-lake-continues-to-pose-flood-risk-china-warns",
-            "blurb": "An ice-rock avalanche on the Nepal-China border formed a landslide-dammed lake that is now overflowing, with the Chinese Embassy in Kathmandu warning downstream communities to monitor river levels and prepare for a possible breach. The embassy declined to say how large the lake is or how much water it holds \u2014 which is either diplomatic caution or a sign nobody knows. Glacial outburst floods in this terrain move fast and hit hard.",
-            "tags": [
-              "climate",
-              "geopolitics",
-              "disaster"
+              "surveillance",
+              "tech policy",
+              "civil liberties"
             ]
           }
         ]
       },
       {
-        "heading": "Infrastructure under pressure",
+        "heading": "Making things think, and things move",
         "items": [
           {
-            "title": "AI chip demand has halted Pine64's Linux board production",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/28/ram-and-emmc-prices-are-so-high-pine64-has-stopped-linux-device-production/",
-            "blurb": "RAM and eMMC prices have risen so much \u2014 demand pulled by AI infrastructure build-out \u2014 that Pine64 has suspended production of its Linux single-board computers rather than pass the cost on. This is a concrete, community-level casualty of the chip economy most coverage ignores: the open hardware ecosystem is being quietly starved by the same compute gold rush everyone is celebrating. The Hackaday piece notes microcontrollers (with onboard storage, thus insulated from the price spike) are now the more rational choice for many use cases.",
+            "title": "Anthropic's Model Hardware Standard: a USB moment for AI-to-device control",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/08/anthropics-new-hardware-standard-lets-ai-agents-control-the-physical-world/",
+            "blurb": "Anthropic's MHS is a standardized driver interface that lets AI agents talk to arbitrary physical hardware \u2014 microscopes, lasers, cameras \u2014 without bespoke translator code for every device pair. The inspiration was watching a neuroscientist spend months wiring together a memory-formation experiment at HHMI Janelia; MHS collapses that to hours. It's a research preview aimed at labs first, but the abstraction is obviously general \u2014 this is the layer that makes physical-world automation composable.",
             "tags": [
-              "open hardware",
-              "chip economy",
-              "maker culture"
-            ]
-          },
-          {
-            "title": "Tracer.AI auto-DMCAed an open-source game engine off Google Play \u2014 on Microsoft's behalf",
-            "source": "Luanti Blog",
-            "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/",
-            "blurb": "Luanti, a fully open-source voxel game-creation platform with no proprietary code or assets, was removed from Google Play after Tracer.AI filed a DMCA notice alleging Minecraft copyright infringement \u2014 apparently because it's blocky. This is the second time the same company has done this to Luanti (they won the 2023 appeal), and Tracer.AI filed a similar notice this year against an unrelated indie voxel game called Allumeria. The pattern is clear: AI-automated copyright detection is now generating legal force without human review, and platforms comply rather than scrutinize.",
-            "tags": [
-              "copyright",
-              "open source",
-              "platform power"
-            ]
-          },
-          {
-            "title": "The rumor of a bug is now enough for AI agents to find the exploit",
-            "source": "Anil Recoil",
-            "url": "https://anil.recoil.org/notes/rumour-is-the-exploit",
-            "blurb": "Anil Madhavapeddy released a security fix for the OCaml cohttp library and noticed exploit probes hitting his server with the exact bug pattern within minutes of opening the patch PR \u2014 before the advisory was even published. He then tested his own agents against the code and found DeepSeek V4 Pro independently found related issues and generated a working exploit in under a minute, armed only with a rough description of the problem area. The upshot: the coordinated disclosure window is effectively gone, and the open-source security response model was built for a world that no longer exists.",
-            "tags": [
-              "security",
               "ai",
-              "open source"
+              "hardware",
+              "physical computing"
+            ]
+          },
+          {
+            "title": "Curvature B\u00e9ziers: making the curve that won't die actually better",
+            "source": "acko.net",
+            "url": "https://acko.net/blog/curvature-beziers/",
+            "blurb": "Steven Wittens asks whether b\u00e9zier curves \u2014 conceived in 1959, never dethroned despite decades of superior alternatives \u2014 can be improved without breaking the entire stack built on them. The answer is curvature b\u00e9ziers, a modification that preserves the lerp-based construction while giving designers control over curvature continuity that standard cubic b\u00e9ziers can't achieve. Every diagram in the post is interactive, and the writing is the rare kind that makes a math problem feel like an aesthetic argument.",
+            "tags": [
+              "math",
+              "graphics",
+              "curves"
             ]
           }
         ]
       },
       {
-        "heading": "Things machines are doing now",
+        "heading": "Paradigm shifts, slow and fast",
         "items": [
           {
-            "title": "Multi-agent AI systems are autonomously discovering new mathematics",
-            "source": "arXiv",
-            "url": "https://arxiv.org/abs/2608.23691",
-            "blurb": "Researchers built 'the Station,' an open-world environment where AI agents from different model families pursue shared math research goals without a central coordinator \u2014 choosing their own directions, running experiments, and building a shared literature. Across 14 problems, the system produced results novel relative to prior literature on five of them, including a new infinite family of finite-field Kakeya sets and improved bounds on Erd\u0151s's minimum-overlap problem. Crucially, the agents produced not just numerical constructions but theorems explaining why the constructions work \u2014 which is what makes the results actually usable by human mathematicians.",
+            "title": "The DSM is finally being rewritten around biology",
+            "source": "Nautilus",
+            "url": "https://nautil.us/im-part-of-the-team-writing-the-next-bible-of-psychiatry-for-the-first-time-the-dsm-will-use-biology-to-understand-mental-disorders-1284613/",
+            "blurb": "An insider on the DSM's strategic committee explains how the next edition will introduce neurobiology into psychiatric diagnosis for the first time \u2014 carefully, using biological factors rather than hard biomarkers, because the science isn't settled enough to mandate measurable thresholds yet. The DSM-5 (2013) was criticized for medicalizing human suffering through symptom clusters with no objective biological grounding; the next edition attempts to thread between clinical usability and scientific validity. A genuine paradigm shift in how psychiatry defines what mental illness *is*.",
             "tags": [
-              "ai",
-              "mathematics",
-              "multi-agent"
-            ]
-          },
-          {
-            "title": "GLM-5.3-Flash: 320B-parameter open model trained entirely on Chinese chips",
-            "source": "The New Stack",
-            "url": "https://thenewstack.io/glm-5-3-flash-chinese-chips/",
-            "blurb": "Z.ai's GLM-5.3-Flash spent days as the most popular model on OpenRouter under the alias 'Ox-alpha' before being unmasked \u2014 competitive with Claude Opus 4.8 and GPT-5.6 Terra at benchmark, priced at $0.075 per million input tokens, and MIT-licensed. The buried lede is that it was trained on domestic Chinese silicon, not Nvidia GPUs, which is the first credible evidence that the chip embargo is accelerating self-sufficiency rather than arresting it.",
-            "tags": [
-              "ai",
-              "geopolitics",
-              "open weights"
+              "psychiatry",
+              "science",
+              "medicine"
             ]
           }
         ]
@@ -109,25 +98,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "DOOM played on a series of 555 timers \u2014 kind of",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/28/doom-played-on-series-of-555-timers/",
-            "blurb": "Nick built a circuit that plays the DOOM opening theme using nothing but 555 timers: one acts as a 7 Hz system clock, feeding a binary counter and decoder that steps through 15 positions, each mapped via a diode matrix to one of six pitches, which then drives another 555 tuned by resistor networks to produce sound. It's entirely discrete analog logic \u2014 no microcontroller, no firmware. The 'run DOOM on it' framing is technically a troll, but the actual achievement is a working hardware sequencer built from first principles, which is a different and realer thing.",
+            "title": "Does the Sumerian King List encode actual climate events?",
+            "source": "Vectorian",
+            "url": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/",
+            "blurb": "The antediluvian Sumerian kings supposedly ruled for tens of thousands of years \u2014 Alulim for 28,800, Enmenluana for 43,200 \u2014 numbers that are suspiciously precise multiples of 3,600 and 600. This interactive explorer rescales the entire 241,200-year sequence, anchors it to a proposed flood date, and overlays the resulting reign-boundary dates against a Quaternary paleoclimate event catalog to test whether the numbers might be garbled memory of real geological shifts. It's methodologically rigorous about what it isn't claiming, which makes the rabbit hole feel honest rather than crankish.",
             "tags": [
-              "hardware",
-              "analog",
-              "obsessive craft"
-            ]
-          },
-          {
-            "title": "Panoramic photography with a linear scanner \u2014 temporal distortion included",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/08/28/panoramic-photography-with-a-linear-scanner/",
-            "blurb": "Philo repurposed a single-line industrial CCD (the kind used to inspect conveyor belts) as a slit camera, capturing one column of pixels at a time and stitching them with accelerometer-stabilized software as the camera travels along railways and boats. The output images are enormous and slightly wrong in a specific way: anything that moves relative to the camera's travel creates temporal smear artifacts that film panoramics can't produce. It's a tool inverted past its design intent and producing images that couldn't exist any other way.",
-            "tags": [
-              "photography",
-              "hardware",
-              "imaging"
+              "archaeology",
+              "deep time",
+              "data visualization"
             ]
           }
         ]
@@ -135,80 +113,90 @@
     ],
     "facts": [
       {
-        "fact": "The U.S. government banned Anthropic from all federal contracts \u2014 including ones with no military connection \u2014 after the company refused to remove safety restrictions on lethal autonomous weapons use.",
-        "url": "https://arstechnica.com/tech-policy/2026/08/trump-blacklisting-of-woke-anthropic-deemed-illegal-by-federal-judge/"
+        "fact": "90 cities dropped Flock Safety surveillance contracts in August 2026 alone \u2014 averaging three cancellations per day, a fourfold increase over the previous month.",
+        "url": "https://arstechnica.com/tech-policy/2026/08/cities-terminate-flock-contracts-at-record-pace-in-august/"
       },
       {
-        "fact": "Tracer.AI filed an AI-generated DMCA notice removing Luanti from Google Play for infringing Minecraft copyright \u2014 despite Luanti containing zero proprietary code or assets, and having successfully beaten the same company's identical 2023 claim.",
-        "url": "https://blog.luanti.org/2026/08/27/luanti-dmca-tracer-ai/"
+        "fact": "Under oath earlier in 2026, Elon Musk admitted that xAI had violated OpenAI's terms of service \u2014 terms similar to xAI's own.",
+        "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/"
       },
       {
-        "fact": "In the Station multi-agent math experiment, AI agents discovered a new infinite family of finite-field Kakeya sets and improved the lower bound on Erd\u0151s's minimum-overlap problem \u2014 open problems that had resisted human progress.",
-        "url": "https://arxiv.org/abs/2608.23691"
+        "fact": "Samoa's measles vaccination rate fell to as low as 31% before a 2019 outbreak that killed 83 people, mostly children under five.",
+        "url": "https://arstechnica.com/health/2026/08/rfk-jr-has-lied-to-the-senate-lawmakers-call-for-criminal-probe-ouster/"
       },
       {
-        "fact": "GLM-5.3-Flash spent several days as the most-used model on OpenRouter under a stealth alias before Z.ai revealed it \u2014 and it was trained entirely on Chinese domestic chips, not Nvidia hardware.",
-        "url": "https://thenewstack.io/glm-5-3-flash-chinese-chips/"
+        "fact": "All eight antediluvian Sumerian kings' reign lengths are multiples of 600, and most are multiples of 3,600 \u2014 their total is exactly 241,200 years.",
+        "url": "https://www.vectorian.be/articles/2026-06-07/sumerian-king-list-paleoclimate-alignment-explorer/"
       },
       {
-        "fact": "Pine64 has halted production of its Linux single-board computers because RAM and eMMC prices \u2014 driven by AI infrastructure demand \u2014 have made the boards unviable to sell at reasonable prices.",
-        "url": "https://hackaday.com/2026/08/28/ram-and-emmc-prices-are-so-high-pine64-has-stopped-linux-device-production/"
+        "fact": "Iceland's 2026 referendum is its first-ever public vote on EU accession \u2014 a 2009 parliamentary proposal to hold such a referendum was defeated by a single abstention.",
+        "url": "https://icds.ee/en/icelands-small-referendum-with-big-consequences-for-the-eu/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Leviathan",
-        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
-        "why": "A sensory assault shot with cameras lashed to fishing nets, deck machinery, and the bodies of crew \u2014 it obliterates the line between documentary and pure phenomenology, turning industrial labor into something closer to deep-sea hallucination. No narration, no interviews, just systems and bodies in brutal feedback.",
-        "url": "https://letterboxd.com/film/leviathan-2012/"
-      },
-      {
-        "medium": "music",
-        "title": "Replica",
-        "creator": "Oneohtrix Point Never",
-        "why": "Daniel Lopatin built this album from TV commercial samples \u2014 detritus of consumer culture reassembled into something eerie and gorgeous, a ghost archaeology of the early internet era. It works like a found-footage film for the ears: familiar surfaces, totally alien structure underneath.",
-        "url": "https://www.youtube.com/watch?v=7LL2Via5Sig"
+        "title": "La Jet\u00e9e",
+        "creator": "Chris Marker",
+        "why": "A 28-minute film made almost entirely of still photographs, it's a masterclass in how form can be the content \u2014 stillness as time, memory as loop, the archive as myth. If you work in generative systems and care about how brains construct reality, this one quietly restructures something in how you think about image-making.",
+        "url": "https://letterboxd.com/film/la-jetee/"
       },
       {
         "medium": "art",
-        "title": "Black Square (and the full Suprematist body of work)",
-        "creator": "Kazimir Malevich",
-        "why": "Malevich didn't just make a painting \u2014 he built a mythology and a cosmology, positioning a black square as the culmination of all art history and the beginning of pure sensation. The obsessive internal logic, the manifesto-as-product-design, the way symbol becomes identity: it's the template for every artist-as-system-builder since.",
-        "url": "https://www.tate.org.uk/art/artists/kazimir-malevich-1561"
+        "title": "Obliteration Room",
+        "creator": "Yayoi Kusama",
+        "why": "A participatory installation where a white room is handed to visitors with dot stickers and collectively consumed \u2014 it's less about the dots and more about the feedback loop between individual mark-making and emergent pattern, which is exactly the physical/digital edge you live on.",
+        "url": "https://www.queenslandartgallery.org/collection/works/2002.094.000.001"
+      },
+      {
+        "medium": "music",
+        "title": "Music for 18 Musicians",
+        "creator": "Steve Reich",
+        "why": "The canonical example of systems thinking as composition \u2014 interlocking rhythmic cells that produce emergent, shimmering harmonics no individual performer could create alone. It's less 'music to listen to' and more a formal model for thinking about generative structures and the beauty inside constraint.",
+        "url": "https://www.stevereich.com/music-for-18-musicians"
       }
     ],
     "events": [
       {
         "name": "Iris van Herpen: Sculpting the Senses",
-        "venue": "Brooklyn Museum, 200 Eastern Pkwy, Brooklyn",
-        "date_start": "2026-08-28",
-        "date_end": "2026-09-11",
+        "venue": "Brooklyn Museum, 200 Eastern Parkway, Brooklyn",
+        "date_start": "2026-08-29",
+        "date_end": "2026-09-12",
         "category": "museum",
-        "why": "140+ haute couture pieces built from biomimicry, fractal geometry, and living bioluminescent algae \u2014 shown alongside scientific specimens and natural history artifacts; less fashion exhibit, more a walk through the physical-digital boundary where craft and code fuse.",
-        "url": "https://www.brooklynmuseum.org/exhibitions/iris_van_herpen",
-        "date": "Aug 28 \u2013 Sep 11"
+        "why": "140+ haute couture pieces made via biomimicry, fractal geometry, and neuroscience \u2014 including a gown with 125 million living bioluminescent algae \u2014 shown alongside scientific specimens; it's less fashion show and more argument about where craft, code, and biology converge.",
+        "url": "https://www.brooklynmuseum.org/press/the-brooklyn-museum-presents-north-american-debut-of-iris-van-herpen-sculpting-the-senses",
+        "date": "Aug 29 \u2013 Sep 12"
       },
       {
-        "name": "Camille Henrot: Dogs \u2014 Opening",
-        "venue": "Doris C. Freedman Plaza, Central Park (5th Ave at 60th St), Manhattan",
+        "name": "Arbrasson Workshop with Daniel Fishkin",
+        "venue": "Pioneer Works, 159 Pioneer Street, Red Hook, Brooklyn",
+        "date_start": "2026-08-29",
+        "date_end": "2026-08-29",
+        "category": "popup",
+        "why": "Fishkin builds custom instruments from unusual materials \u2014 the kind of obsessive, narrow-craft-meets-new-sound work that sits at the physical/digital edge and tends to make you want to go build something.",
+        "url": "https://pioneerworks.org/calendar",
+        "date": "Sat, Aug 29"
+      },
+      {
+        "name": "Camille Henrot: Dogs \u2014 Opening Celebration",
+        "venue": "Doris C. Freedman Plaza, Central Park (5th Ave & 60th St), Manhattan",
         "date_start": "2026-09-09",
         "date_end": "2026-09-09",
         "category": "museum",
-        "why": "Henrot's first NYC public sculpture show plants dog figures \u2014 each with its own materiality and personality \u2014 at the park entrance as a meditation on domestication, social order, and the symbols we invent to approximate shared understanding; the opening celebration is free, 6\u20137pm.",
+        "why": "Henrot's first NYC public show deploys dog sculptures as a lens on domestication, societal rules, and the symbols we invent to create shared meaning \u2014 the exact intersection of banal surface and structural anthropology that makes her work worth your time.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Wed, Sep 9"
       },
       {
-        "name": "Scott Kahn: Silent Night \u2014 Opening",
-        "venue": "David Zwirner, 537 West 20th Street, Chelsea",
-        "date_start": "2026-09-10",
+        "name": "Pioneer Works Fall 2026 Opening Reception (Siphon + Child/ren of the Bloom + There is no me without you)",
+        "venue": "Pioneer Works, 159 Pioneer Street, Red Hook, Brooklyn",
+        "date_start": "2026-09-11",
         "date_end": "2026-09-11",
-        "category": "popup",
-        "why": "Kahn's obsessively hand-worked, memory-saturated interiors occupy a strange zone between folk painting and psychological portraiture \u2014 deeply unfashionable and completely singular, the kind of show that makes you want to go home and make something.",
-        "url": "https://www.davidzwirner.com/exhibitions/2026/scott-kahn-silent-night",
-        "date": "Sep 10\u201311"
+        "category": "museum",
+        "why": "The anchor show Siphon \u2014 an 8K immersive video of octopus camouflage developed with a neuroscientist \u2014 is precisely the kind of work that lives at the edge where biology, perception, and image-making collapse into each other; the opening is free and public.",
+        "url": "https://www.eventbrite.com/e/opening-reception-for-pioneer-works-fall-2026-exhibitions-tickets-1995948494677",
+        "date": "Fri, Sep 11"
       }
     ]
   },
