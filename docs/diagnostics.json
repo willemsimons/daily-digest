@@ -1,6 +1,6 @@
 {
-  "feeds": 71,
-  "mined": 52,
+  "feeds": 58,
+  "mined": 47,
   "videos": 5,
   "video_titles": [
     "We Took $10,000 From @mkbhd's Locked iPhone",
@@ -10,15 +10,16 @@
     "This Device Goes Past Equilibrium"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
-    "Ars Technica",
-    "International Centre for Defence and Security",
-    "Nautilus",
-    "OpenAI",
-    "Vectorian",
-    "acko.net"
+    "BBVA Research",
+    "Dan Luu",
+    "Dwarkesh Podcast",
+    "Hackaday",
+    "RANE Worldview",
+    "Sentiers No. 414",
+    "Zack Bartel"
   ],
   "had_video": false,
-  "run_at": "2026-08-29T15:47:11.177130+00:00"
+  "run_at": "2026-08-30T15:30:14.473432+00:00"
 }
