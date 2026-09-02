@@ -1,26 +1,27 @@
 {
-  "feeds": 76,
-  "mined": 30,
-  "videos": 5,
+  "feeds": 89,
+  "mined": 35,
+  "videos": 8,
   "video_titles": [
+    "A Physics Professor Bet Me $10,000 I'm Wrong...",
     "We Took $10,000 From @mkbhd's Locked iPhone",
     "It's impossible to choose a number at random",
     "The \"Perpetual Motion\" Pump That Actually Works",
     "Hooded Seals are amazing!",
-    "This Device Goes Past Equilibrium"
+    "This Device Goes Past Equilibrium",
+    "The Skull in Holbein's 'The Ambassadors\"",
+    "The Ambassadors: Great Art Explained"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 8,
   "final_sources": [
-    "Aeon",
     "Ars Technica",
-    "Hackaday",
-    "MIT Technology Review",
-    "Personal blog",
-    "Rock Paper Shotgun",
-    "Steve Mould (YouTube)",
-    "playaphone.com"
+    "Great Art Explained / YouTube",
+    "NL Times",
+    "Nautilus",
+    "Trellner",
+    "arXiv"
   ],
   "had_video": true,
-  "run_at": "2026-09-01T15:36:10.193457+00:00"
+  "run_at": "2026-09-02T15:17:07.265125+00:00"
 }
