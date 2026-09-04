@@ -1,6 +1,6 @@
 {
-  "feeds": 87,
-  "mined": 53,
+  "feeds": 82,
+  "mined": 48,
   "videos": 8,
   "video_titles": [
     "A Physics Professor Bet Me $10,000 I'm Wrong...",
@@ -13,20 +13,16 @@
     "The Ambassadors: Great Art Explained"
   ],
   "supplemental": false,
-  "final_items": 12,
+  "final_items": 9,
   "final_sources": [
     "Ars Technica",
-    "Colossal",
-    "Dwarkesh Podcast",
-    "GitHub / Hacker News",
+    "Babylonian Twins",
+    "Discover Wildlife",
     "Hackaday",
-    "NVIDIA Blog / SEC Filing",
-    "ScienceBlog / Hacker News",
-    "WORLD Radio",
-    "WORLD Radio / NPR",
-    "Wikipedia / Hacker News",
-    "YouTube \u2014 Great Art Explained"
+    "OpenAI",
+    "Techdirt",
+    "collusion.wiki"
   ],
-  "had_video": true,
-  "run_at": "2026-09-03T15:11:37.779189+00:00"
+  "had_video": false,
+  "run_at": "2026-09-04T15:07:43.394074+00:00"
 }
