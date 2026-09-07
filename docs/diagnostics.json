@@ -1,7 +1,7 @@
 {
-  "feeds": 74,
+  "feeds": 56,
   "mined": 54,
-  "videos": 7,
+  "videos": 8,
   "video_titles": [
     "The Most Dangerous Escalator In Europe",
     "A Physics Professor Bet Me $10,000 I'm Wrong...",
@@ -9,18 +9,19 @@
     "The \"Perpetual Motion\" Pump That Actually Works",
     "Hooded Seals are amazing!",
     "The Skull in Holbein's 'The Ambassadors\"",
-    "The Ambassadors: Great Art Explained"
+    "The Ambassadors: Great Art Explained",
+    "I Tested Two 3D Scanners: One Is Simply Better!"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 7,
   "final_sources": [
+    "Aeon",
     "Ars Technica",
-    "Bryan Cantrill's blog",
-    "DPReview",
-    "Hackaday",
-    "Isar Aerospace",
-    "arXiv"
+    "Notebookcheck",
+    "OpenLGTV",
+    "Reuters / Mining.com",
+    "Simon Willison"
   ],
   "had_video": false,
-  "run_at": "2026-09-06T14:24:03.794765+00:00"
+  "run_at": "2026-09-07T16:40:58.280655+00:00"
 }

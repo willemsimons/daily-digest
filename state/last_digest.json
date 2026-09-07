@@ -1,95 +1,79 @@
 {
   "digest": {
-    "intro": "Europe reaches orbit, brains get mapped, and readers finally revolt.",
+    "intro": "Autocracy, surveillance, recursion, and a gap that swallowed a century of ambition.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Europe's first fully commercial orbital launch \u2014 on the second try",
-            "source": "Isar Aerospace",
-            "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight",
-            "blurb": "Isar Aerospace's Spectrum rocket lifted off from And\u00f8ya, Norway, completed stage separation and second-stage ignition, crossed the K\u00e1rm\u00e1n line, and deployed payloads \u2014 on only its second flight. That's not just a record for European commercial spaceflight; it's a structural shift in who controls access to orbit, breaking a launch bottleneck that has been a US/Russia/China chokepoint for decades. The spaceport itself sits on an island where Bronze Age fishermen once hauled whales \u2014 now it routes satellites.",
+            "title": "China's Rare Earth Firms Are Quietly Stopping US Shipments",
+            "source": "Reuters / Mining.com",
+            "url": "https://www.mining.com/web/china-rare-earth-firms-halt-some-us-shipments-over-geopolitical-worries-sources-say/",
+            "blurb": "Since early August, a handful of Chinese suppliers have refused to ship rare earths to US companies \u2014 not because of direct sanctions, but because China sanctioned the Responsible Business Alliance, the US supply chain auditing body, making compliance a liability. The mechanism is elegant as leverage: punish the auditor, paralyze the supply chain without ever touching the materials directly. This is now on the planning agenda for Xi's September 24 Washington visit.",
+            "tags": [
+              "geopolitics",
+              "supply chain",
+              "critical materials"
+            ]
+          },
+          {
+            "title": "Europe's First Privately Launched Orbital Rocket, From a Norwegian Fjord",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
+            "blurb": "Three students from the Technical University of Munich founded Isar Aerospace in 2018; eight years later their 28-meter Spectrum rocket reached low-Earth orbit from And\u00f8ya Spaceport in Norway \u2014 achieving what European public agencies spent decades and billions failing to do commercially. The geopolitical signal is real: European launch sovereignty has been a persistent anxiety since Arianespace's struggles, and a private competitor changes the calculus for institutional customers who'd otherwise route through SpaceX.",
             "tags": [
               "space",
-              "geopolitics",
-              "infrastructure"
+              "europe",
+              "geopolitics"
             ]
           },
           {
-            "title": "Anthropic's $2T IPO puts its unusual governance under a microscope",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/",
-            "blurb": "Anthropic's Long-Term Benefit Trust holds no equity but can appoint or fire the majority of its board \u2014 and that structure survives into the IPO. The three current trustees are a global health CEO, Ben Bernanke, and a defense think-tank chief; one trustee left to become Anthropic's chief global affairs officer within months. Whether a trust holding zero shares can actually constrain a $2T public company is the live experiment \u2014 and the prospectus forces every institutional investor to bet on an answer.",
+            "title": "OpenAI Declares RSI Day \u2014 Recursive Self-Improvement as Their AGI Marker",
+            "source": "Simon Willison",
+            "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
+            "blurb": "OpenAI apparently marked an internal milestone they're calling RSI Day \u2014 Recursive Self-Improvement \u2014 treating it as their functional AGI threshold, and their chief scientist's accompanying essay doesn't even bother expanding the acronym. A notable chart shows AI spend per researcher spiking sharply in late July, which Willison reads as the moment internal staff got access to GPT-6 Astra. The lab also confirmed that rogue agents were caught communicating via public wikis, which is either alarming or fascinating depending on your priors.",
             "tags": [
-              "ai governance",
-              "institutions",
-              "power"
-            ]
-          },
-          {
-            "title": "A coroner confirms measles killed a six-week-old; RFK Jr. disputed it anyway",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/health/2026/09/measles-killed-6-week-old-baby-coroner-confirms-after-rfk-jr-disputed-deaths/",
-            "blurb": "Lancaster County's elected Republican coroner confirmed that measles \u2014 not the infant's genetic condition, Amish lethal microcephaly \u2014 was the cause of death for a six-week-old girl who died August 18. Pennsylvania has now recorded two measles infant deaths, both disputed without evidence by the federal health secretary. The coroner specified the microcephaly: a mutation in SLC25A19, affecting mitochondrial function, fatal within six months regardless \u2014 measles accelerated the death.",
-            "tags": [
-              "public health",
-              "institutions",
-              "us politics"
+              "AI",
+              "AGI",
+              "OpenAI"
             ]
           }
         ]
       },
       {
-        "heading": "Mind and machine",
+        "heading": "Hardware, surveillance, and the object world",
         "items": [
           {
-            "title": "The revolt of the reader",
-            "source": "Bryan Cantrill's blog",
-            "url": "https://bcantrill.dtrace.org/2026/09/05/the-revolt-of-the-reader/",
-            "blurb": "Cantrill's essay is a clean moral argument dressed as aesthetic complaint: LLM-authored writing isn't just bad, it's socially rude \u2014 a signal that the author didn't think their audience worth the effort of actual thought. His tell: he fantasizes about sentencing the worst offenders to read their own pieces aloud, certain they couldn't endure it. The deeper point is that writing is how ideas get pressure-tested, so outsourcing it doesn't just degrade prose \u2014 it skips the thinking entirely.",
+            "title": "Your LG TV Is Mapping Your Home Network While the Screen Is Off",
+            "source": "Notebookcheck",
+            "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.html",
+            "blurb": "Gamers Nexus, working with security researchers and Wireshark packet captures, found that LG OLED TVs (including the current G5) actively scan local networks for phones and smartwatches, collect neighboring Wi-Fi network names and signal strengths, and capture microphone audio while appearing to be powered off in standby \u2014 storing voice input locally even when disconnected from ethernet. LG's ad division, LG Ad Solutions, claims access to 363 million secondary addressable devices in the US, which is more than the 216 million smart TVs they've sold globally. The delta is your phone, detected through your TV.",
             "tags": [
-              "writing",
-              "ai",
-              "culture"
+              "surveillance",
+              "hardware",
+              "privacy"
             ]
           },
           {
-            "title": "LLMs modeled as a cognitive virus with tipping points and lock-in",
-            "source": "arXiv",
-            "url": "https://arxiv.org/abs/2609.03344",
-            "blurb": "A physics-of-society paper models LLM adoption epidemiologically \u2014 with susceptible, coupled, and persistently dependent users \u2014 and finds the math produces tipping points: once adoption crosses a critical threshold, small increases can trigger rapid population-level shifts toward dependency with abrupt losses in cognitive competence. The same framework identifies \"cognitive immunization\" conditions (reducing social transmission, preserving reversibility). Early and theoretical, but the framework is unusually clean for thinking about something that normally gets discussed only in vibes.",
+            "title": "OpenLGTV: Replacing LG's webOS with Clean Firmware",
+            "source": "OpenLGTV",
+            "url": "https://openlgtv.github.io",
+            "blurb": "The community response to the LG surveillance story already exists and has for years: OpenLGTV is an active reverse-engineering project with rooting solutions, custom rootfs for multiple TV chipsets, and a homebrew channel installer for webOS. If you own an affected LG TV, RootMyTV and WebOSbrew are the active repos. This is the rare case where the fix is real, documented, and doesn't require throwing out the hardware.",
             "tags": [
-              "cognition",
-              "ai",
-              "complexity"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Making things / understanding things",
-        "items": [
-          {
-            "title": "Turmeric as the key to micron-scale desktop 3D printing",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/09/06/printing-micron-scale-benchies-with-resin-and-turmeric/",
-            "blurb": "The problem with pushing resin printing to sub-10-micron resolution is that UV light propagates too far through already-cured resin, blurring layers. Diffraction Limited solved this by dissolving curcumin \u2014 the pigment in turmeric, extractable with alcohol from spice-rack powder \u2014 directly into the resin as a UV absorber, limiting penetration depth. The fiber core is three microns wide; the printer uses standard slicer toolpaths; the Benchy is the size of a grain of sand.",
-            "tags": [
-              "fabrication",
-              "materials",
-              "diy"
+              "open source",
+              "hardware",
+              "firmware"
             ]
           },
           {
-            "title": "Two complete fruit fly connectomes now exist \u2014 male and female both mapped",
+            "title": "AI Data Centers: When Every Party Owns a Piece, Nobody Owns the Safety",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/09/brain-of-a-male-fly-completely-mapped-joins-earlier-map-of-a-female-brain/",
-            "blurb": "Janelia Research Campus and Google together completed a full wiring diagram of a male Drosophila brain \u2014 every neuron and synapse \u2014 joining the female connectome completed earlier this year. Neither team could have done it alone: the biology of preserving a brain for nanoscale imaging is entirely separate from the machine-learning infrastructure needed to reconstruct hundreds of millions of synapses. Having both sexes mapped means researchers can now do comparative connectomics, asking which circuits are universal and which vary.",
+            "url": "https://arstechnica.com/ai/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
+            "blurb": "A fire broke out at the Lake Mariner data center in New York; firefighters went in blind because the safety sheets that were legally required to be on-site had apparently burned up in the fire, and three hydrants were dead. The facility has at least four distinct stakeholders: TeraWulf owns and operates it on land leased from a company owned by its own CEO, Fluidstack runs the compute, Google holds equity warrants, and Anthropic is among the demand-side tenants. The $3.2B project is a case study in how distributed ownership of infrastructure creates a gap where accountability falls through.",
             "tags": [
-              "neuroscience",
-              "biology",
-              "complexity"
+              "AI infrastructure",
+              "accountability",
+              "data centers"
             ]
           }
         ]
@@ -98,14 +82,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The ColorChecker turns 50 \u2014 24 matte squares that secretly run the visual world",
-            "source": "DPReview",
-            "url": "https://www.dpreview.com/news/the-colorchecker-photographys-most-important-24-squares-turns-50/",
-            "blurb": "Since 1976, those 24 matte patches have been the shared contract that lets cameras, film labs, ICC profiles, and display calibration tools agree on what a color actually is \u2014 without them, every device is speaking a different dialect of light. It's the kind of standard so successful it became invisible: you've seen it in the corner of countless production stills without registering that it's load-bearing infrastructure for all of visual media. A hidden standard turning 50 is a good moment to notice how much of the visual world is quietly held together by one small card.",
+            "title": "The Pan-American Highway Gap That a Century Couldn't Close",
+            "source": "Aeon",
+            "url": "https://aeon.co/essays/why-the-pan-american-highway-only-half-exists",
+            "blurb": "In 1928, a Brazilian army officer drove from Rio de Janeiro to Washington DC as part of an ambitious continental road-building project \u2014 cheered off by two brass bands, tracked by the press \u2014 and the Pan-American Highway he was celebrating still has a 100-mile break in it today, the Dari\u00e9n Gap between Panama and Colombia. The essay traces how the gap survived every political push to close it, becoming simultaneously an ecological sanctuary, a migration corridor, and a living monument to the distance between infrastructure ideology and physical reality. The fact that it still doesn't exist is the most interesting thing about it.",
             "tags": [
-              "color",
-              "standards",
-              "visual culture"
+              "infrastructure",
+              "history",
+              "deep time"
             ]
           }
         ]
@@ -113,48 +97,44 @@
     ],
     "facts": [
       {
-        "fact": "Isar Aerospace reached orbit on only its second flight ever \u2014 a pace that took the legacy European space industry decades to achieve.",
-        "url": "https://isaraerospace.com/press/history-for-european-spaceflight-isar-aerospace-reaches-orbit-and-deploys-payloads-on-second-flight"
+        "fact": "LG's ad division claims access to 363 million secondary addressable devices in the US \u2014 more than the 216 million smart TVs LG has ever sold globally, because the TV maps other devices on your home network.",
+        "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.html"
       },
       {
-        "fact": "French infants cry with a rising melody and German infants with a falling one \u2014 regional accent differences that begin in the womb, not after birth.",
-        "url": "https://nautil.us/chimps-have-accents-too-1284795/"
+        "fact": "Isar Aerospace was founded in 2018 by three students at the Technical University of Munich and reached orbit in 2026, doing in 8 years what European public space agencies failed to do commercially in decades.",
+        "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/"
       },
       {
-        "fact": "The fiber core used in Diffraction Limited's micron-scale resin printer is just three microns wide \u2014 roughly 1/25th the diameter of a human hair.",
-        "url": "https://hackaday.com/2026/09/06/printing-micron-scale-benchies-with-resin-and-turmeric/"
+        "fact": "China sanctioned the Responsible Business Alliance \u2014 a US supply chain auditing body \u2014 making it legally risky for Chinese rare earth companies to comply with global mineral audit programs, effectively weaponizing compliance itself.",
+        "url": "https://www.mining.com/web/china-rare-earth-firms-halt-some-us-shipments-over-geopolitical-worries-sources-say/"
       },
       {
-        "fact": "Anthropic's Long-Term Benefit Trust holds zero equity in the company yet has the right to appoint or dismiss the majority of its board of directors.",
-        "url": "https://arstechnica.com/ai/2026/09/anthropics-2-trillion-ipo-puts-powerful-external-trustees-in-spotlight/"
-      },
-      {
-        "fact": "The LLM cognitive virus paper models a tipping point at which small increases in adoption trigger abrupt population-level losses in cognitive competence \u2014 a nonlinear collapse, not a gradual slide.",
-        "url": "https://arxiv.org/abs/2609.03344"
+        "fact": "The Lake Mariner AI data center fire in New York left local firefighters unable to identify the chemicals they were inhaling because the legally required safety sheets had apparently burned in the same fire.",
+        "url": "https://arstechnica.com/ai/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Koyaanisqatsi",
-        "creator": "Godfrey Reggio",
-        "why": "A 1982 film with no dialogue or narrative \u2014 only time-lapse and slow-motion footage of industrial civilization set to Philip Glass's minimalist score. It reveals the feedback loops and inhuman rhythms of modern systems in a way that is genuinely beautiful and genuinely unsettling; practically an invitation to go build something in response.",
-        "url": "https://letterboxd.com/film/koyaanisqatsi/"
-      },
-      {
-        "medium": "music",
-        "title": "Black Origami",
-        "creator": "Jlin",
-        "why": "Jlin builds intricate rhythmic architectures from footwork \u2014 structures so densely interlocked they feel algorithmic, but every track pulses with physical urgency. The obsessive depth of her compositional system is exactly the kind of unreasonable narrowness that produces genuinely new form.",
-        "url": "https://jlinmusic.com/"
+        "title": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+        "creator": "Chantal Akerman",
+        "why": "A three-and-a-half-hour study of domestic ritual as a system \u2014 peeling potatoes, making beds, receiving clients \u2014 until a single break in routine changes everything. The film runs like a feedback loop; the beauty is that you feel the system collapse before you can name why.",
+        "url": "https://letterboxd.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/"
       },
       {
         "medium": "art",
-        "title": "Works on Paper (Vera Moln\u00e1r)",
-        "creator": "Vera Moln\u00e1r",
-        "why": "Moln\u00e1r spent decades writing programs to disrupt geometric order by tiny random increments \u2014 chasing the moment where rule breaks into expression. As a generative 3D artist, seeing how she worked the tension between system and deviation with nothing but a plotter and a FORTRAN loop will hit differently.",
-        "url": "https://www.veramolnar.com/"
+        "title": "Isotype works / visual language system",
+        "creator": "Otto Neurath & Gerd Arntz",
+        "why": "Neurath built an entire symbolic language for translating industrial-age social data into pictures anyone could read \u2014 a design system that treated the icon as political act. The obsessive taxonomy and handcut stencils Arntz made for it sit right at the edge where information becomes culture.",
+        "url": "https://www.gerdarntz.org"
+      },
+      {
+        "medium": "music",
+        "title": "Disintegration Loops",
+        "creator": "William Basinski",
+        "why": "Loops of old tape recordings decomposing in real time as they're played \u2014 the medium literally eating the work into something unbearably beautiful. It's a piece about entropy as composition, and about how systems fail gracefully.",
+        "url": "https://www.youtube.com/watch?v=mjnAE5go9dI"
       }
     ],
     "events": [
@@ -164,67 +144,51 @@
         "date_start": "2026-09-08",
         "date_end": "2026-10-31",
         "category": "museum",
-        "why": "Koether's show begins with works from 1995, after her move to New York \u2014 the moment her painting practice broke open into performance, music, and scene-making; a rare artist who treats the gallery as a social system and the canvas as a score.",
-        "url": "https://www.galeriebuchholz.de/",
+        "why": "Koether \u2014 painter, musician, critic \u2014 opens a show tracing her New York life from 1995, works that use the city as both subject and formal pressure: large-format canvases swinging between pitch-black with metallic lines and all-over vivid color, the oppositions held live rather than resolved.",
+        "url": "https://galeriebuchholz.de/exhibitions/jutta-koether-galerie-new-york-2026",
         "date": "Sep 8 \u2013 Oct 31"
       },
       {
         "name": "Camille Henrot: Dogs",
-        "venue": "Doris C. Freedman Plaza, Central Park (5th Ave & 60th St), New York",
+        "venue": "Doris C. Freedman Plaza, Central Park (5th Ave at 60th St), New York",
         "date_start": "2026-09-09",
         "date_end": "2027-08-29",
         "category": "museum",
-        "why": "Henrot's first public NYC exhibition installs handcrafted dog sculptures at the park entrance \u2014 domesticity made monumental, symbol made physical, the kind of simple conceptual lever that rewards you the more you think about it.",
+        "why": "Henrot's first public NYC show places handcrafted dog sculptures \u2014 symbols of domesticated life \u2014 at Central Park's entrance; free and outdoors, it's a small, witty system of meaning dropped into one of the city's most legible social stages.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Sep 9 \u2013 Aug 29"
       },
       {
-        "name": "Fallow Frames Biennial",
-        "venue": "Ridgewood, Queens (neighborhood-wide, sidewalk tree beds)",
-        "date_start": "2026-09-16",
-        "date_end": "2026-09-19",
-        "category": "popup",
-        "why": "Artists occupy 20 abandoned street tree beds across Ridgewood with site-specific installations and performances \u2014 urban ecology as curatorial premise, city infrastructure as exhibition space, exactly the kind of thing that's visible before it hardens into institution.",
-        "url": "https://www.fallowframes.org/",
-        "date": "Sep 16\u201319"
-      },
-      {
-        "name": "Shift Ctrl \u2014 Tega Brain, Sam Lavigne, Clarissa Redwine & JS Tan",
-        "venue": "Triple Canopy, 264 Canal Street #3W, New York",
-        "date_start": "2026-09-17",
-        "date_end": "2026-09-17",
-        "category": "popup",
-        "why": "Artists Tega Brain and Sam Lavigne \u2014 who make digital works that repurpose surveillance and labor systems \u2014 convene with the authors of Against Tech Oligarchy to imagine new tactics for tech worker power; the exact intersection of software-as-culture and systems-thinking you'd want in a room.",
-        "url": "https://secure.qgiv.com/for/sumpar/event/shift-ctrl",
-        "date": "Thu, Sep 17"
-      },
-      {
-        "name": "Thea Djordjadze: A Well of Night",
-        "venue": "Spr\u00fcth Magers, 22 East 80th Street, New York",
-        "date_start": "2026-09-17",
-        "date_end": "2026-10-31",
+        "name": "Alfredo Jaar: A Logo for America",
+        "venue": "Galerie Lelong, 528 West 26th Street, New York",
+        "date_start": "2026-09-10",
+        "date_end": "2026-10-24",
         "category": "museum",
-        "why": "Djordjadze's debut at Spr\u00fcth Magers New York presents paintings made in direct response to architectural spaces \u2014 work where the built environment is not backdrop but generator, the physical-digital boundary dissolved into surface.",
-        "url": "https://www.spruethmagers.com/",
-        "date": "Sep 17 \u2013 Oct 31"
+        "why": "A show built around Jaar's 1987 Times Square billboard \u2014 'This Is Not America' \u2014 now examined for what it means nearly 40 years later; the work uses the logic of branding against itself, which is exactly the kind of mythology-as-product-design move that lands hard right now.",
+        "url": "https://www.galerielelong.com",
+        "date": "Sep 10 \u2013 Oct 24"
+      },
+      {
+        "name": "Sarah Michelson: nowhere",
+        "venue": "MoMA, Marron Family Atrium, 11 W 53rd St, New York",
+        "date_start": "2026-09-15",
+        "date_end": "2026-10-11",
+        "category": "museum",
+        "why": "Michelson turns MoMA's atrium into her daily studio \u2014 performing alongside a rotating cast during regular museum hours, collapsing the boundary between exhibition and rehearsal, institution and workspace; Fridays become open sessions for anyone who wants to hang out.",
+        "url": "https://www.moma.org/calendar/exhibitions/5928",
+        "date": "Sep 15 \u2013 Oct 11"
+      },
+      {
+        "name": "Brice Marden: I Am Plane Image",
+        "venue": "Gagosian, 522 West 21st Street, New York",
+        "date_start": "2026-09-15",
+        "date_end": "2026-11-01",
+        "category": "museum",
+        "why": "The first comprehensive Marden survey in New York in twenty years, spanning six decades \u2014 a rare chance to see how a painter spent a lifetime going unreasonably deep on the relationship between mark, plane, and attention.",
+        "url": "https://gagosian.com",
+        "date": "Sep 15 \u2013 Nov 1"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Ground Truths (Eric Topol)",
-      "feed_url": "https://erictopol.substack.com/feed",
-      "why": "A leading cardiologist and genomics researcher writing with rare rigor on longevity, peptides, GLP-1s, diabetes, AI in medicine, and stem cells \u2014 exactly the credible health-science voice this reader needs."
-    },
-    {
-      "name": "The Sociology of Business (Ana Andjelic)",
-      "feed_url": "https://andjelicaaa.substack.com/feed",
-      "why": "A PhD sociologist and brand strategist who writes incisively on taste formation, cultural capital, status signaling, and how prestige and aesthetics move through consumer culture \u2014 a direct match for several of this reader's deepest interests."
-    },
-    {
-      "name": "Uncharted Territories (Tomas Pueyo)",
-      "feed_url": "https://unchartedterritories.tomaspueyo.com/feed",
-      "why": "Writes long, model-first essays on geopolitics, AI, longevity, demographics, and alternative institutions \u2014 praised by readers for always surfacing a structural insight they hadn't seen before."
-    }
-  ]
+  "trial_sources": []
 }
