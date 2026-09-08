@@ -1,6 +1,6 @@
 {
-  "feeds": 56,
-  "mined": 54,
+  "feeds": 64,
+  "mined": 51,
   "videos": 8,
   "video_titles": [
     "The Most Dangerous Escalator In Europe",
@@ -15,13 +15,14 @@
   "supplemental": false,
   "final_items": 7,
   "final_sources": [
-    "Aeon",
-    "Ars Technica",
-    "Notebookcheck",
-    "OpenLGTV",
-    "Reuters / Mining.com",
-    "Simon Willison"
+    "404 Media",
+    "Google DeepMind",
+    "Manual do Usu\u00e1rio",
+    "Mistral AI",
+    "Signore Galilei",
+    "U.S. Department of State",
+    "Weird Gloop"
   ],
   "had_video": false,
-  "run_at": "2026-09-07T16:40:58.280655+00:00"
+  "run_at": "2026-09-08T15:17:44.863852+00:00"
 }

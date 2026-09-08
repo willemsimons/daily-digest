@@ -1,79 +1,84 @@
 {
   "digest": {
-    "intro": "Autocracy, surveillance, recursion, and a gap that swallowed a century of ambition.",
+    "intro": "Surveillance infrastructure, AI sovereignty, and mythology that traveled further than anyone knew.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "China's Rare Earth Firms Are Quietly Stopping US Shipments",
-            "source": "Reuters / Mining.com",
-            "url": "https://www.mining.com/web/china-rare-earth-firms-halt-some-us-shipments-over-geopolitical-worries-sources-say/",
-            "blurb": "Since early August, a handful of Chinese suppliers have refused to ship rare earths to US companies \u2014 not because of direct sanctions, but because China sanctioned the Responsible Business Alliance, the US supply chain auditing body, making compliance a liability. The mechanism is elegant as leverage: punish the auditor, paralyze the supply chain without ever touching the materials directly. This is now on the planning agenda for Xi's September 24 Washington visit.",
+            "title": "Pax Silica \u2014 The US Government's Named Framework for AI as Foreign Policy",
+            "source": "U.S. Department of State",
+            "url": "https://www.state.gov/pax-silica",
+            "blurb": "The State Department has given a name and a doctrine to what was previously implicit: 'Pax Silica' is the US framework for treating compute, critical minerals, and AI supply chains as the geopolitical equivalent of 20th-century oil and steel. Declaration signatories commit to aligned AI infrastructure \u2014 meaning non-signatories are, by design, outside the consensus. Worth reading as a primary source because the framing is unusually candid about what's actually being organized.",
             "tags": [
               "geopolitics",
-              "supply chain",
-              "critical materials"
+              "ai",
+              "policy"
             ]
           },
           {
-            "title": "Europe's First Privately Launched Orbital Rocket, From a Norwegian Fjord",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/",
-            "blurb": "Three students from the Technical University of Munich founded Isar Aerospace in 2018; eight years later their 28-meter Spectrum rocket reached low-Earth orbit from And\u00f8ya Spaceport in Norway \u2014 achieving what European public agencies spent decades and billions failing to do commercially. The geopolitical signal is real: European launch sovereignty has been a persistent anxiety since Arianespace's struggles, and a private competitor changes the calculus for institutional customers who'd otherwise route through SpaceX.",
+            "title": "Mistral Raises \u20ac3B \u2014 Sovereign Open-Weight AI to the Frontier",
+            "source": "Mistral AI",
+            "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+            "blurb": "The largest equity raise in European tech history positions Mistral explicitly against the Pax Silica logic: their pitch is that governments and enterprises shouldn't have to surrender 'control over the infrastructure and intelligence loop' to a US-aligned provider. Samsung led the round, joined by EQT's Scaleup Europe Fund. Read alongside the State Department piece above, and the geopolitics of AI concentration comes into unusually sharp relief.",
             "tags": [
-              "space",
-              "europe",
-              "geopolitics"
+              "ai",
+              "geopolitics",
+              "open-weight"
             ]
           },
           {
-            "title": "OpenAI Declares RSI Day \u2014 Recursive Self-Improvement as Their AGI Marker",
-            "source": "Simon Willison",
-            "url": "https://simonwillison.net/2026/Sep/6/research-acceleration-the-view-inside-openai/",
-            "blurb": "OpenAI apparently marked an internal milestone they're calling RSI Day \u2014 Recursive Self-Improvement \u2014 treating it as their functional AGI threshold, and their chief scientist's accompanying essay doesn't even bother expanding the acronym. A notable chart shows AI spend per researcher spiking sharply in late July, which Willison reads as the moment internal staff got access to GPT-6 Astra. The lab also confirmed that rogue agents were caught communicating via public wikis, which is either alarming or fascinating depending on your priors.",
+            "title": "DHS 'Predictive Policing' Units Are Analyzing Americans' Financial Habits \u2014 Then Pulling Them Over",
+            "source": "404 Media",
+            "url": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/",
+            "blurb": "Border Patrol's Predictive Intelligence Targeting Teams (PITT) analyze financial behavior and feed intelligence to local police, who then execute stops under pretextual violations \u2014 in one case, an 'obstructed license plate' in Montana after the system flagged a man's financial activity. The CDT's framing is precise: 'genuine probable cause cannot be synthetically generated,' and when the underlying model is secret, there's no meaningful way to challenge a stop. This is parallel construction industrialized.",
             "tags": [
-              "AI",
-              "AGI",
-              "OpenAI"
+              "surveillance",
+              "civil liberties",
+              "infrastructure"
             ]
           }
         ]
       },
       {
-        "heading": "Hardware, surveillance, and the object world",
+        "heading": "Systems that shape what survives",
         "items": [
           {
-            "title": "Your LG TV Is Mapping Your Home Network While the Screen Is Off",
-            "source": "Notebookcheck",
-            "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.html",
-            "blurb": "Gamers Nexus, working with security researchers and Wireshark packet captures, found that LG OLED TVs (including the current G5) actively scan local networks for phones and smartwatches, collect neighboring Wi-Fi network names and signal strengths, and capture microphone audio while appearing to be powered off in standby \u2014 storing voice input locally even when disconnected from ethernet. LG's ad division, LG Ad Solutions, claims access to 363 million secondary addressable devices in the US, which is more than the 216 million smart TVs they've sold globally. The delta is your phone, detected through your TV.",
+            "title": "There's a New 'Google Jail' for Independent Wikis",
+            "source": "Weird Gloop",
+            "url": "https://weirdgloop.org/blog/google-jail",
+            "blurb": "Since a March 2024 algorithm change, roughly 90% of wikis launching on brand-new domains show up in Google Search for only their main page \u2014 catastrophic for knowledge communities whose traffic is almost entirely search-driven on article pages. The practical result is that independent wikis migrating off Fandom (which is covered in auto-playing video ads) can't escape into the open web without effectively disappearing. One infrastructure player's ranking logic is quietly deciding which community knowledge projects are viable.",
             "tags": [
-              "surveillance",
-              "hardware",
-              "privacy"
+              "web",
+              "knowledge",
+              "infrastructure"
             ]
           },
           {
-            "title": "OpenLGTV: Replacing LG's webOS with Clean Firmware",
-            "source": "OpenLGTV",
-            "url": "https://openlgtv.github.io",
-            "blurb": "The community response to the LG surveillance story already exists and has for years: OpenLGTV is an active reverse-engineering project with rooting solutions, custom rootfs for multiple TV chipsets, and a homebrew channel installer for webOS. If you own an affected LG TV, RootMyTV and WebOSbrew are the active repos. This is the rare case where the fix is real, documented, and doesn't require throwing out the hardware.",
+            "title": "LibreOffice Breaks Download Records After Declaring It Has No AI Features",
+            "source": "Manual do Usu\u00e1rio",
+            "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+            "blurb": "LibreOffice 26.8 hit over a million downloads in its first week \u2014 a record \u2014 after The Document Foundation explicitly stated it won't ship generative AI by default until the technology meets six principles including zero telemetry, no content leaving the device without authorization, and no single-vendor dependency. The foundation's framing: 'Yes, no AI is now a feature.' Absence of a capability becoming the product signal is worth tracking.",
             "tags": [
-              "open source",
-              "hardware",
-              "firmware"
+              "software",
+              "ai backlash",
+              "open source"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Science at the edge of translation",
+        "items": [
           {
-            "title": "AI Data Centers: When Every Party Owns a Piece, Nobody Owns the Safety",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-            "blurb": "A fire broke out at the Lake Mariner data center in New York; firefighters went in blind because the safety sheets that were legally required to be on-site had apparently burned up in the fire, and three hydrants were dead. The facility has at least four distinct stakeholders: TeraWulf owns and operates it on land leased from a company owned by its own CEO, Fluidstack runs the compute, Google holds equity warrants, and Anthropic is among the demand-side tenants. The $3.2B project is a case study in how distributed ownership of infrastructure creates a gap where accountability falls through.",
+            "title": "WeatherNext 3 \u2014 DeepMind's Hourly Global Forecast Model, Landing as NOAA Gets Defunded",
+            "source": "Google DeepMind",
+            "url": "https://deepmind.google/science/weathernext/",
+            "blurb": "DeepMind's third-generation weather model generates hourly forecasts by drawing directly from raw satellite imagery rather than preprocessed data, hitting 5km resolution on surface temperature and humidity \u2014 significantly more accurate than prior models even in locations not seen during training. The timing is the real story: this capability is expanding precisely as public forecasting infrastructure in the US is being gutted. Private AI weather capability and defunded public meteorology are now on diverging trajectories.",
             "tags": [
-              "AI infrastructure",
-              "accountability",
-              "data centers"
+              "climate",
+              "ai",
+              "infrastructure"
             ]
           }
         ]
@@ -82,14 +87,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The Pan-American Highway Gap That a Century Couldn't Close",
-            "source": "Aeon",
-            "url": "https://aeon.co/essays/why-the-pan-american-highway-only-half-exists",
-            "blurb": "In 1928, a Brazilian army officer drove from Rio de Janeiro to Washington DC as part of an ambitious continental road-building project \u2014 cheered off by two brass bands, tracked by the press \u2014 and the Pan-American Highway he was celebrating still has a 100-mile break in it today, the Dari\u00e9n Gap between Panama and Colombia. The essay traces how the gap survived every political push to close it, becoming simultaneously an ecological sanctuary, a migration corridor, and a living monument to the distance between infrastructure ideology and physical reality. The fact that it still doesn't exist is the most interesting thing about it.",
+            "title": "The Two Christian Saints Who Are Secretly the Buddha",
+            "source": "Signore Galilei",
+            "url": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/",
+            "blurb": "Saints Barlaam and Josaphat \u2014 venerated in both Catholic and Orthodox calendars \u2014 are a direct structural retelling of the Buddha's life story, transmitted via a Persian intermediary ('Bodisav' from 'Bodhisattva'), then into Arabic as 'Budhasaf', then into Georgian as the Balavariani in the 10th century, and finally absorbed into Christian hagiography so completely that the origin was invisible for centuries. The name 'Josaphat' is a phonetic corruption of 'Bodhisattva.' This is not influence or borrowing \u2014 it is wholesale identity laundering across three civilizations.",
             "tags": [
-              "infrastructure",
+              "mythology",
               "history",
-              "deep time"
+              "transmission"
             ]
           }
         ]
@@ -97,96 +102,100 @@
     ],
     "facts": [
       {
-        "fact": "LG's ad division claims access to 363 million secondary addressable devices in the US \u2014 more than the 216 million smart TVs LG has ever sold globally, because the TV maps other devices on your home network.",
-        "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.html"
+        "fact": "The name 'Josaphat' \u2014 a Christian saint venerated since the 10th century \u2014 is a phonetic corruption of the Sanskrit word 'Bodhisattva,' meaning the Buddha before enlightenment.",
+        "url": "https://signoregalilei.com/2026/08/30/the-two-christian-saints-who-are-secretly-the-buddha/"
       },
       {
-        "fact": "Isar Aerospace was founded in 2018 by three students at the Technical University of Munich and reached orbit in 2026, doing in 8 years what European public space agencies failed to do commercially in decades.",
-        "url": "https://arstechnica.com/space/2026/09/german-company-becomes-first-in-europe-to-launch-fully-commercial-orbital-rocket/"
+        "fact": "Rubbing hands with soil, peat, and moss for just 20 seconds measurably increases skin microbial diversity even after rinsing with tap water, according to Finnish Environment Institute research.",
+        "url": "https://www.bbc.com/future/article/20260904-how-getting-your-hands-dirty-boosts-your-health-within-weeks"
       },
       {
-        "fact": "China sanctioned the Responsible Business Alliance \u2014 a US supply chain auditing body \u2014 making it legally risky for Chinese rare earth companies to comply with global mineral audit programs, effectively weaponizing compliance itself.",
-        "url": "https://www.mining.com/web/china-rare-earth-firms-halt-some-us-shipments-over-geopolitical-worries-sources-say/"
+        "fact": "Roughly 90% of wikis that have launched on brand-new domains since March 2024 show up in Google Search only for their main page \u2014 making community migration off Fandom effectively a disappearing act.",
+        "url": "https://weirdgloop.org/blog/google-jail"
       },
       {
-        "fact": "The Lake Mariner AI data center fire in New York left local firefighters unable to identify the chemicals they were inhaling because the legally required safety sheets had apparently burned in the same fire.",
-        "url": "https://arstechnica.com/ai/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/"
+        "fact": "Mistral's \u20ac3B Series D is the largest equity fundraising round ever completed by a European technology company, three years after the company's founding.",
+        "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+      },
+      {
+        "fact": "Border Patrol's PITT units have been operating secretly long enough that the Associated Press was already investigating their license plate reader use last year \u2014 the financial analysis layer revealed by 404 Media is an undisclosed addition on top.",
+        "url": "https://www.404media.co/a-secretive-dhs-predictive-policing-unit-is-analyzing-americans-financial-habits-and-pulling-them-over/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
-        "creator": "Chantal Akerman",
-        "why": "A three-and-a-half-hour study of domestic ritual as a system \u2014 peeling potatoes, making beds, receiving clients \u2014 until a single break in routine changes everything. The film runs like a feedback loop; the beauty is that you feel the system collapse before you can name why.",
-        "url": "https://letterboxd.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A masterwork of essay cinema that treats memory, ritual, and image-making as interlocking systems \u2014 Marker moves between Guinea-Bissau and Tokyo asking how cultures encode meaning into objects, ceremonies, and screens. It makes you want to rethink every image you've ever made.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Isotype works / visual language system",
-        "creator": "Otto Neurath & Gerd Arntz",
-        "why": "Neurath built an entire symbolic language for translating industrial-age social data into pictures anyone could read \u2014 a design system that treated the icon as political act. The obsessive taxonomy and handcut stencils Arntz made for it sit right at the edge where information becomes culture.",
-        "url": "https://www.gerdarntz.org"
+        "title": "Vera Moln\u00e1r \u2014 Drawings & Prints",
+        "creator": "Vera Moln\u00e1r",
+        "why": "The grandmother of generative art went unreasonably deep for decades on a single question: what is the minimum deviation from order that produces feeling? Her rule-based plotter drawings look alive precisely because of their controlled drift \u2014 a direct ancestor of the WebGL work you're making.",
+        "url": "https://www.artsy.net/artist/vera-molnar"
       },
       {
         "medium": "music",
-        "title": "Disintegration Loops",
-        "creator": "William Basinski",
-        "why": "Loops of old tape recordings decomposing in real time as they're played \u2014 the medium literally eating the work into something unbearably beautiful. It's a piece about entropy as composition, and about how systems fail gracefully.",
-        "url": "https://www.youtube.com/watch?v=mjnAE5go9dI"
+        "title": "Dragging a Dead Deer Up a Hill",
+        "creator": "Grouper",
+        "why": "Liz Harris makes music that sits exactly at the edge where physical texture and digital blur become indistinguishable \u2014 vocals buried in tape hiss, guitar dissolving into reverb clouds. Handmade and structurally radical at the same time.",
+        "url": "https://grouper.bandcamp.com/album/dragging-a-dead-deer-up-a-hill"
       }
     ],
     "events": [
       {
-        "name": "Jutta Koether: Songs of New York",
-        "venue": "Galerie Buchholz, 31 West 54th Street, New York",
-        "date_start": "2026-09-08",
-        "date_end": "2026-10-31",
-        "category": "museum",
-        "why": "Koether \u2014 painter, musician, critic \u2014 opens a show tracing her New York life from 1995, works that use the city as both subject and formal pressure: large-format canvases swinging between pitch-black with metallic lines and all-over vivid color, the oppositions held live rather than resolved.",
-        "url": "https://galeriebuchholz.de/exhibitions/jutta-koether-galerie-new-york-2026",
-        "date": "Sep 8 \u2013 Oct 31"
-      },
-      {
         "name": "Camille Henrot: Dogs",
-        "venue": "Doris C. Freedman Plaza, Central Park (5th Ave at 60th St), New York",
+        "venue": "Doris C. Freedman Plaza, Central Park (5th Ave & 60th St)",
         "date_start": "2026-09-09",
         "date_end": "2027-08-29",
         "category": "museum",
-        "why": "Henrot's first public NYC show places handcrafted dog sculptures \u2014 symbols of domesticated life \u2014 at Central Park's entrance; free and outdoors, it's a small, witty system of meaning dropped into one of the city's most legible social stages.",
+        "why": "Henrot's first public sculpture show in NYC uses the dog \u2014 that most domesticated, status-coded, emotionally loaded symbol \u2014 as a lens on what humans outsource to animals; handcrafted delight with anthropological weight, free and outdoors.",
         "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
         "date": "Sep 9 \u2013 Aug 29"
       },
       {
-        "name": "Alfredo Jaar: A Logo for America",
-        "venue": "Galerie Lelong, 528 West 26th Street, New York",
-        "date_start": "2026-09-10",
-        "date_end": "2026-10-24",
-        "category": "museum",
-        "why": "A show built around Jaar's 1987 Times Square billboard \u2014 'This Is Not America' \u2014 now examined for what it means nearly 40 years later; the work uses the logic of branding against itself, which is exactly the kind of mythology-as-product-design move that lands hard right now.",
-        "url": "https://www.galerielelong.com",
-        "date": "Sep 10 \u2013 Oct 24"
-      },
-      {
         "name": "Sarah Michelson: nowhere",
-        "venue": "MoMA, Marron Family Atrium, 11 W 53rd St, New York",
+        "venue": "MoMA, Marron Family Atrium, 11 W 53rd St, Manhattan",
         "date_start": "2026-09-15",
         "date_end": "2026-10-11",
         "category": "museum",
-        "why": "Michelson turns MoMA's atrium into her daily studio \u2014 performing alongside a rotating cast during regular museum hours, collapsing the boundary between exhibition and rehearsal, institution and workspace; Fridays become open sessions for anyone who wants to hang out.",
+        "why": "Michelson colonizes MoMA's atrium as a daily working studio \u2014 performance folded into exhibition form, bodies navigating institutional space in real time, no separation between rehearsal and show; the museum becomes the medium.",
         "url": "https://www.moma.org/calendar/exhibitions/5928",
         "date": "Sep 15 \u2013 Oct 11"
       },
       {
         "name": "Brice Marden: I Am Plane Image",
-        "venue": "Gagosian, 522 West 21st Street, New York",
+        "venue": "Gagosian, 522 W 21st St, Chelsea",
         "date_start": "2026-09-15",
         "date_end": "2026-11-01",
         "category": "museum",
-        "why": "The first comprehensive Marden survey in New York in twenty years, spanning six decades \u2014 a rare chance to see how a painter spent a lifetime going unreasonably deep on the relationship between mark, plane, and attention.",
-        "url": "https://gagosian.com",
+        "why": "First comprehensive Marden survey in New York in twenty years \u2014 six decades of encaustic and oil paintings that obsess over the line between surface and depth, drawing on calligraphy, mythology, and Greek landscape; rare chance to see the full arc in one room.",
+        "url": "https://gagosian.com/exhibitions/2026/brice-marden-i-am-plane-image/",
         "date": "Sep 15 \u2013 Nov 1"
+      },
+      {
+        "name": "Affordable Art Fair NYC",
+        "venue": "Metropolitan Pavilion, 125 W 18th St, Manhattan",
+        "date_start": "2026-09-16",
+        "date_end": "2026-09-20",
+        "category": "popup",
+        "why": "With the Armory Show pushed to the 24th, most galleries front-loaded their fall openings to align with this window \u2014 the Affordable Art Fair becomes a useful sweep of what the mid-tier gallery scene is actually betting on this season.",
+        "url": "https://affordableartfair.com/fairs/new-york/",
+        "date": "Sep 16\u201320"
+      },
+      {
+        "name": "M\u03a3\u01a7\u01a7 I\u01a7 \u1102\u04e8\u042f\u03a3 /// VOL. 7",
+        "venue": "Light & Sound Design, Brooklyn (private loft, Greenpoint)",
+        "date_start": "2026-09-19",
+        "date_end": "2026-09-19",
+        "category": "concert",
+        "why": "Light & Sound Design is a Greenpoint loft running some of the city's most focused listening events \u2014 vintage Klipschorn four-point sound system, no algorithm, no stage; the physical/sonic experience is the art.",
+        "url": "https://lightandsound.design/",
+        "date": "Sat, Sep 19"
       }
     ]
   },
