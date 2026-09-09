@@ -1,11 +1,10 @@
 {
-  "feeds": 64,
+  "feeds": 91,
   "mined": 51,
-  "videos": 8,
+  "videos": 7,
   "video_titles": [
     "The Most Dangerous Escalator In Europe",
     "A Physics Professor Bet Me $10,000 I'm Wrong...",
-    "We Took $10,000 From @mkbhd's Locked iPhone",
     "The \"Perpetual Motion\" Pump That Actually Works",
     "Hooded Seals are amazing!",
     "The Skull in Holbein's 'The Ambassadors\"",
@@ -13,16 +12,16 @@
     "I Tested Two 3D Scanners: One Is Simply Better!"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "404 Media",
+    "Aeon",
+    "Ars Technica",
+    "Dwarkesh Podcast",
     "Google DeepMind",
-    "Manual do Usu\u00e1rio",
-    "Mistral AI",
-    "Signore Galilei",
-    "U.S. Department of State",
-    "Weird Gloop"
+    "MIT Technology Review",
+    "Nautilus",
+    "ZeroFox Intelligence"
   ],
-  "had_video": false,
-  "run_at": "2026-09-08T15:17:44.863852+00:00"
+  "had_video": true,
+  "run_at": "2026-09-09T15:18:18.499078+00:00"
 }
