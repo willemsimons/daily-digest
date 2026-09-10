@@ -1,10 +1,12 @@
 {
-  "feeds": 91,
-  "mined": 51,
-  "videos": 7,
+  "feeds": 92,
+  "mined": 48,
+  "videos": 9,
   "video_titles": [
+    "The Scariest Chart In Engineering",
     "The Most Dangerous Escalator In Europe",
     "A Physics Professor Bet Me $10,000 I'm Wrong...",
+    "Hooded Seals are Really Weird...",
     "The \"Perpetual Motion\" Pump That Actually Works",
     "Hooded Seals are amazing!",
     "The Skull in Holbein's 'The Ambassadors\"",
@@ -12,16 +14,14 @@
     "I Tested Two 3D Scanners: One Is Simply Better!"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
     "Aeon",
     "Ars Technica",
-    "Dwarkesh Podcast",
-    "Google DeepMind",
     "MIT Technology Review",
-    "Nautilus",
-    "ZeroFox Intelligence"
+    "Quanta Magazine",
+    "Simon Willison (citing Calif Research)"
   ],
-  "had_video": true,
-  "run_at": "2026-09-09T15:18:18.499078+00:00"
+  "had_video": false,
+  "run_at": "2026-09-10T15:10:33.584702+00:00"
 }
