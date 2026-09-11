@@ -1,6 +1,6 @@
 {
-  "feeds": 92,
-  "mined": 48,
+  "feeds": 91,
+  "mined": 51,
   "videos": 9,
   "video_titles": [
     "The Scariest Chart In Engineering",
@@ -16,12 +16,14 @@
   "supplemental": false,
   "final_items": 7,
   "final_sources": [
-    "Aeon",
     "Ars Technica",
-    "MIT Technology Review",
-    "Quanta Magazine",
-    "Simon Willison (citing Calif Research)"
+    "BBC News",
+    "Construction Physics",
+    "Hackaday",
+    "NASA Spinoff",
+    "Public Domain Review",
+    "YouTube \u2014 CNC Kitchen"
   ],
-  "had_video": false,
-  "run_at": "2026-09-10T15:10:33.584702+00:00"
+  "had_video": true,
+  "run_at": "2026-09-11T15:11:46.767802+00:00"
 }

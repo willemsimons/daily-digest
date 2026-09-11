@@ -1,84 +1,85 @@
 {
   "digest": {
-    "intro": "AI solves a Millennium Problem, steals credit, and may kill us all.",
+    "intro": "A chokepoint seized, a pact signed, and the world's hidden layers made visible.",
     "sections": [
-      {
-        "heading": "The Navier-Stokes affair",
-        "items": [
-          {
-            "title": "AI Has Solved One of Math's $1 Million Millennium Prize Problems",
-            "source": "Quanta Magazine",
-            "url": "https://www.quantamagazine.org/ai-has-solved-one-of-maths-1-million-millennium-prize-problems-20260908/",
-            "blurb": "10,000 autonomous OpenAI agents running an unreleased model found a singularity in the 3D Navier-Stokes equations \u2014 one of the six remaining Millennium Prize Problems \u2014 in 88 hours, then formally verified the proof in Lean. The fluid dynamics equations have been central to physics since the mid-19th century; whether their solutions always stay well-behaved has been an open question the whole time. This is the primary source; read it first.",
-            "tags": [
-              "mathematics",
-              "ai",
-              "formal verification"
-            ]
-          },
-          {
-            "title": "What OpenAI's Latest Controversy Tells Us About the Future of Math",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
-            "blurb": "OpenAI's S\u00e9bastien Bubeck admitted in a press briefing that the team was 'inspired to pursue the problem after hearing a rumor' about NYU's Tristan Buckmaster and Anthropic's Levent Alp\u00f6ge already working on it \u2014 which is doing a lot of work in one sentence. The deeper structural question Tech Review raises: if frontier AI math now requires resources only two or three companies can afford, and those companies absorb human mathematicians' unpublished leads without credit, what's left for academic math? That's not a hypothetical; it's this week.",
-            "tags": [
-              "mathematics",
-              "ai",
-              "academic norms"
-            ]
-          }
-        ]
-      },
       {
         "heading": "World",
         "items": [
           {
-            "title": "Anthropic Researcher Quits With a Warning: Self-Improving AI Could 'Kill Us All'",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/",
-            "blurb": "Jacob Coxon's resignation post would be easy to dismiss as routine doom-posting, except Anthropic's own Alignment Science lead Evan Hubinger publicly seconded it, putting his personal estimate of AI killing all humans within a decade at greater than 10%. The timing \u2014 same week an Anthropic employee is at the center of the Navier-Stokes credit scandal, same week OpenAI's agents clear a Millennium Problem \u2014 makes this feel less like a warning and more like a dispatch from inside the acceleration.",
-            "tags": [
-              "ai safety",
-              "existential risk",
-              "anthropic"
-            ]
-          },
-          {
-            "title": "Six Chinese AI Firms Accused of Aggressively Copying US Frontier Models",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/",
-            "blurb": "The NSA, CISA, and FBI jointly named DeepSeek, Moonshot AI, Alibaba, MiniMax, StepFun, and Z.AI as running industrial-scale distillation attacks on US frontier models since at least late 2024 \u2014 bulk-buying fake accounts and firing coordinated prompt swarms ranging from thousands to millions of queries. The alleged goal: compress years of frontier training into months, at a fraction of the cost. The US response reportedly includes pressuring AI firms to secretly downgrade capabilities served to Chinese users, which is its own kind of epistemically interesting problem.",
+            "title": "Houthis seize Perim Island \u2014 the other Red Sea chokepoint",
+            "source": "BBC News",
+            "url": "https://www.bbc.com/news/live/cmd683p01eljt",
+            "blurb": "Perim Island bisects the Bab al-Mandab Strait, the southern gate between Asia and Europe, and the Houthis now control it \u2014 a move that matters more because Saudi Arabia has been rerouting oil through the Red Sea since the Strait of Hormuz closed. The BBC's Nawal Al-Maghafi adds the important nuance: Iran built the Houthis' missile and drone capacity over years, but doesn't script every decision \u2014 this is an indigenous strategic choice as much as a proxy action.",
             "tags": [
               "geopolitics",
-              "ai",
-              "export controls"
+              "red sea",
+              "shipping"
             ]
           },
           {
-            "title": "WeWorm: First Zero-Click Worm Spreading Through WeChat Calls on iOS and Android",
-            "source": "Simon Willison (citing Calif Research)",
-            "url": "https://simonwillison.net/2026/Sep/10/calif-research/",
-            "blurb": "The victim doesn't need to answer the call, doesn't need to touch their phone \u2014 the exploit succeeds regardless, silently. Calif Research says their team found the bug and wrote the first RCE exploit in about two days with AI assistance; the worm took one more week. The editorial note in their release is the part that should stay with you: 'A worm at this scale used to be the kind of thing that took a larger team months. AI can already do most of the work here.'",
+            "title": "Bankruptcy as AI data acquisition vehicle",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/",
+            "blurb": "Google won the auction for Spirit Airlines' operational data in bankruptcy proceedings \u2014 but Springshot, whose platform ran Spirit's entire tech stack through the final flight, says a substantial portion of what's being sold is actually their IP, not Spirit's. The sale agreement uses definitions so vague ('productivity and collaboration data,' 'core business systems data') that no one can tell whose property is being transferred \u2014 and Springshot argues the court should pause the sale until a forensic audit draws the line.",
             "tags": [
-              "security",
-              "zero-click",
-              "wechat"
+              "tech policy",
+              "AI",
+              "data"
             ]
           }
         ]
       },
       {
-        "heading": "Biology at the edge",
+        "heading": "Hidden layers",
         "items": [
           {
-            "title": "Google's AI Genome System Evaluates Every Possible One-Base Change",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change/",
-            "blurb": "AlphaGenome Atlas ran 9 billion base substitutions \u2014 every possible single-nucleotide variant against the 3-billion-base human reference genome \u2014 through Google's AlphaGenome model, producing a systematic functional annotation of essentially every SNV in the human genome. The target is the 97%+ of the genome that doesn't encode proteins but controls when and where genes turn on; predicting which of those variants matter has been the core bottleneck in interpreting genetic disease. This is infrastructure, not a cure \u2014 but it's the kind of map that changes what questions you can even ask.",
+            "title": "The NASA algorithm that makes ancient paintings visible again",
+            "source": "NASA Spinoff",
+            "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images",
+            "blurb": "Decorrelation stretch \u2014 originally developed at JPL to pull more information from satellite imagery by amplifying subtle spectral differences \u2014 turned out to be exactly what archaeologists needed to recover faded rock art and lost paintings. A hobbyist named Jon Harman, whose side interest in rock art happened to collide with his image-processing background, built the tool that brought back 200 invisible paintings from the walls of Angkor Wat, rediscovered between 2010 and 2012. The same algorithm that reads Mars is reading the Pleistocene.",
             "tags": [
-              "genomics",
-              "ai",
-              "precision medicine"
+              "image processing",
+              "archaeology",
+              "tools"
+            ]
+          },
+          {
+            "title": "Where construction automation actually succeeded \u2014 and why almost everywhere else it failed",
+            "source": "Construction Physics",
+            "url": "https://www.construction-physics.com/p/where-has-construction-automation",
+            "blurb": "Brian Potter fed thousands of back-issues of construction trade journals into AI trawlers going back to 1853 and found a stark pattern: successful automation in construction falls into exactly two categories \u2014 tasks moved off-site into factory conditions, and on-site tasks so repetitive a machine can do them in a straight line. Direct labor is still ~50% of a U.S. home's cost versus 6-8% for a car, and that gap has resisted 170 years of attempts. The insight is immediately portable to digital fabrication: the question isn't whether you can automate a step, it's whether you can make the conditions factory-like enough for automation to hold.",
+            "tags": [
+              "fabrication",
+              "automation",
+              "systems"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making things",
+        "items": [
+          {
+            "title": "What happens when you redesign the inside of a 3D printer nozzle",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/09/10/changing-nozzle-internal-geometry-to-increase-fdm-flowrate/",
+            "blurb": "Thomas Sanladerer SLS-printed nozzles with exotic internal geometries \u2014 triple-split material paths, various intrusions to maximize melt contact area \u2014 then tested them on a Prusa Core One with a custom pressure rig to find where each design buckles under high flow. The 'Fuge' design won, though it's printed in MS1 tool steel, which is not ideal nozzle material; the more interesting result is that the pressure-characterization methodology itself is now in the open, giving anyone a replicable way to benchmark nozzle geometry.",
+            "tags": [
+              "3d printing",
+              "hardware",
+              "fabrication"
+            ]
+          },
+          {
+            "title": "CNC Kitchen: head-to-head 3D scanner shootout",
+            "source": "YouTube \u2014 CNC Kitchen",
+            "url": "https://www.youtube.com/watch?v=6Pe7mMFp9Go",
+            "thumbnail": "https://i3.ytimg.com/vi/6Pe7mMFp9Go/hqdefault.jpg",
+            "blurb": "Stefan Geisler is the most methodical tester in the maker space \u2014 he builds fixtures, runs controlled comparisons, and shows his numbers rather than vibes. A head-to-head scanner comparison from him means actual resolution and accuracy data under real conditions, which is exactly what you need before dropping money on capture hardware for a physical/digital pipeline.",
+            "tags": [
+              "3d scanning",
+              "hardware",
+              "review"
             ]
           }
         ]
@@ -87,14 +88,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The Medieval Curio Cabinet of Mental Health",
-            "source": "Aeon",
-            "url": "https://aeon.co/essays/the-curio-cabinet-of-medieval-mental-health",
-            "blurb": "Medieval physicians treating what we'd now call mental illness prescribed saffron, ostrich liver, carefully designed gardens, music, and structured animal contact \u2014 not only exorcism, which tends to dominate the popular imagination. The essay argues that medieval medicine, read without condescension, shows a surprisingly coherent environmental and sensory model of psychological treatment that holds up better under modern environmental psychology than its reputation suggests. A 29-minute rabbit hole that will make you reconsider what 'superstitious' actually means as a category.",
+            "title": "The 1816 children's book that taught death through paper flaps",
+            "source": "Public Domain Review",
+            "url": "https://publicdomainreview.org/collection/metamorphosis-early-modern-flap-book",
+            "blurb": "A Philadelphia flap book from 1816 let children manipulate paper tabs to transform Adam into Eve into a mermaid, a lion into a griffin into an eagle \u2014 and then, inevitably, into a skeleton \u2014 while a disclaimer on the first page clarified that mermaids and griffins are fictional but death is not. The object is a state machine disguised as a toy, and it's descended from a single-sheet pamphlet from the English Civil War whose figures suspiciously resemble Charles I. The physical/digital transformation problem, solved in paper, 200 years before WebGL.",
             "tags": [
               "history",
-              "medicine",
-              "consciousness"
+              "interactivity",
+              "print"
             ]
           }
         ]
@@ -102,99 +103,99 @@
     ],
     "facts": [
       {
-        "fact": "Anthropic's own Alignment Science lead publicly stated his personal estimate that AI kills all humans is greater than 10% within the next decade \u2014 not a fringe view inside the lab, apparently.",
-        "url": "https://arstechnica.com/ai/2026/09/anthropic-researcher-quits-with-a-warning-self-improving-ai-could-kill-us-all/"
+        "fact": "Angkor Wat contains approximately 200 paintings that were invisible to the naked eye and were only discovered between 2010 and 2012 using a satellite image-processing algorithm originally developed by NASA's Jet Propulsion Laboratory.",
+        "url": "https://spinoff.nasa.gov/Manipulating_Satellite_Photos_Now_Reveals_Ancient_Images"
       },
       {
-        "fact": "The WeWorm exploit on WeChat calls succeeds even if the victim never answers \u2014 the phone doesn't need to be touched at all, and the call is silent if picked up.",
-        "url": "https://simonwillison.net/2026/Sep/10/calif-research/"
+        "fact": "Direct labor accounts for roughly 50% of the cost of building a U.S. single-family home, compared to just 6\u20138% for manufacturing a car \u2014 a gap that has persisted despite 170 years of automation attempts dating back to an 1853 plastering machine.",
+        "url": "https://www.construction-physics.com/p/where-has-construction-automation"
       },
       {
-        "fact": "OpenAI's Navier-Stokes team admitted they were 'inspired to pursue the problem after hearing a rumor' about two other researchers already working on it \u2014 one of whom was subsequently allegedly pressured off the paper for being Anthropic-affiliated.",
-        "url": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/"
+        "fact": "Saudi Arabia has been routing oil exports through the Red Sea rather than the Strait of Hormuz since the Strait was effectively closed by the U.S.-Israel war with Iran \u2014 making the Houthis' seizure of Perim Island, which divides the Bab al-Mandab Strait, a direct threat to Saudi export capacity.",
+        "url": "https://www.bbc.com/news/live/cmd683p01eljt"
       },
       {
-        "fact": "Google's AlphaGenome Atlas processed 9 billion base-pair substitutions to annotate the functional consequence of every possible single-nucleotide change in the human genome \u2014 which is less than 3% protein-coding.",
-        "url": "https://arstechnica.com/science/2026/09/googles-ai-genome-system-evaluates-every-possible-one-base-change/"
+        "fact": "Springshot, the startup whose platform powered Spirit Airlines' entire technology stack through its final flight, says it received no notice before Google won the bankruptcy auction for Spirit's data \u2014 and the sale agreement's definitions are broad enough to potentially transfer Springshot's own IP.",
+        "url": "https://arstechnica.com/tech-policy/2026/09/panic-builds-over-bankrupt-spirits-looming-data-sale-to-google/"
       },
       {
-        "fact": "The NSA, CISA, and FBI allege Chinese AI firms ran coordinated prompt swarms of millions of queries against US frontier models \u2014 using bulk fake accounts \u2014 to distill frontier capabilities at a fraction of the training cost.",
-        "url": "https://arstechnica.com/tech-policy/2026/09/six-chinese-ai-firms-accused-of-aggressively-copying-us-frontier-models/"
+        "fact": "The 1816 flap book 'Metamorphosis' is descended from a single-sheet Civil War pamphlet first printed in 1650 whose figures bear a suspicious resemblance to Charles I \u2014 making it possibly a political document disguised as a children's toy for nearly four centuries.",
+        "url": "https://publicdomainreview.org/collection/metamorphosis-early-modern-flap-book"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film that operates as a meditation on memory, image-making, and how cultures encode time \u2014 Marker's essay-film form is the closest cinema gets to the kind of deep-structure thinking you live in, and the Japan/Guinea/Iceland triptych makes visible the invisible systems by which humans construct meaning from place. The 'zone' sequences, built from early video synthesis, still feel like someone describing the internet from 1983.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Leviathan",
+        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
+        "why": "A fishing trawler rendered as pure sensory system \u2014 cameras lashed to nets, hooks, and hulls produce something genuinely alien, a document of labor and ocean that sits exactly at the edge where physical reality becomes abstract image. No narration, no thesis; just the feedback loop of industrial violence and beauty.",
+        "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "art",
-        "title": "Hiroshi Sugimoto \u2014 Theaters series",
-        "creator": "Hiroshi Sugimoto",
-        "why": "Each image is a single exposure for the entire runtime of a film \u2014 the screen burns to pure white, the architecture sits in perfect chiaroscuro, time becomes visible as accumulation. The conceptual apparatus is so clean it almost disappears; what's left is something that feels both like a system and like grief.",
-        "url": "https://www.sugimotohiroshi.com/photographs/theaters"
+        "title": "Vera Moln\u00e1r \u2014 Retrospective",
+        "creator": "Vera Moln\u00e1r",
+        "why": "The godmother of generative art, who spent decades hand-simulating algorithms before computers existed to run them \u2014 her entire practice is a meditation on rule, deviation, and the moment a system becomes expressive. For anyone building generative 3D, this is the lineage.",
+        "url": "https://www.molnar-vera.net/"
       },
       {
         "medium": "music",
-        "title": "Plat du Jour",
-        "creator": "Matmos",
-        "why": "An entire album of electronic music made exclusively from the sounds of food and agricultural processing \u2014 a ruthlessly formal conceptual constraint that somehow produces genuinely weird beauty. Matmos at their best are systems artists who happen to release records; this one is about industrial food supply and ends up sounding like a field recording from a dream.",
-        "url": "https://matmos.bandcamp.com/album/plat-du-jour"
+        "title": "Vis",
+        "creator": "Elori Saxl",
+        "why": "Saxl built synthesis instruments from field recordings of water and wind, then composed music indistinguishable from natural phenomena \u2014 the album functions like a feedback system between technology and environment. It rewards the kind of attention that looks for the hidden structure underneath a surface.",
+        "url": "https://www.elorisaxl.com/"
       }
     ],
     "events": [
       {
         "name": "Camille Henrot: Dogs",
-        "venue": "Doris C. Freedman Plaza, Central Park (60th St. entrance)",
-        "date_start": "2026-09-10",
+        "venue": "Doris C. Freedman Plaza, Central Park (5th Ave & 60th St)",
+        "date_start": "2026-09-09",
         "date_end": "2027-08-29",
         "category": "museum",
-        "why": "Henrot's bronze dog sculptures aren't about dogs \u2014 they're about etiquette, control, and how societal rules shape imagination; each figure has its own idiosyncratic materiality and personality, a public installation that reads as both warm and structurally pointed about domestication.",
-        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
-        "date": "Sep 10 \u2013 Aug 29"
+        "why": "Henrot's dog sculptures read as deceptively domestic objects that are actually dense symbol systems \u2014 she uses the domesticated animal as a lens on co-dependence, care, and the rituals of everyday life; free, public, and worth catching while the September light holds.",
+        "url": "https://www.publicartfund.org/exhibitions/view/camille-henrot-dogs/",
+        "date": "Sep 9 \u2013 Aug 29"
       },
       {
-        "name": "Aziz Hazara: Coming Home",
-        "venue": "SculptureCenter, Long Island City, Queens",
+        "name": "Taryn Simon | Father Country I Do Love You \u2014 Opening",
+        "venue": "Solomon R. Guggenheim Museum, 1071 5th Ave, Manhattan",
+        "date_start": "2026-09-18",
+        "date_end": "2027-03-14",
+        "category": "museum",
+        "why": "Simon fills the entire Wright rotunda \u2014 for the first time with a photography-based artist \u2014 with 42 interconnected works tracing an unnamed federal agent's life across Cold War geographies, folding personal family history and state power into one interactive labyrinth: exactly the kind of hidden-system narrative that rewards slow looking.",
+        "url": "https://www.guggenheim.org/exhibition/taryn-simon",
+        "date": "Sep 18 \u2013 Mar 14"
+      },
+      {
+        "name": "MESS IS LORE Vol. 7 at Light & Sound Design",
+        "venue": "Light & Sound Design (Brooklyn \u2014 exact address on site)",
         "date_start": "2026-09-19",
-        "date_end": "2026-12-28",
-        "category": "museum",
-        "why": "Hazara gathered literal tonnes of military consumer detritus abandoned at Bagram Airfield after the US withdrawal \u2014 kneepads, electronics, kitchenware \u2014 and is physically returning it to the US; the show is about supply chains, empire, and the everyday materiality of a twenty-year war, told entirely through objects.",
-        "url": "https://www.sculpture-center.org/exhibitions/14935/aziz-hazara-coming-home",
-        "date": "Sep 19 \u2013 Dec 28"
-      },
-      {
-        "name": "Music for Action: Young the Giant / St. Lucia \u2014 Free Climate Week Concert",
-        "venue": "Central Park SummerStage (Rumsey Playfield)",
-        "date_start": "2026-09-22",
-        "date_end": "2026-09-22",
+        "date_end": "2026-09-19",
         "category": "concert",
-        "why": "Free, open-air, first-come-first-served \u2014 a low-friction Tuesday night in the park with a band that actually delivers live; the climate-week framing is earnest but the music is the point.",
-        "url": "https://www.centralpark.com/things-to-do/concerts/summerstage-festival/",
-        "date": "Tue, Sep 22"
+        "why": "Light & Sound Design runs one of Brooklyn's most obsessively curated sound spaces \u2014 vintage Klipschorn system, private loft, serious listening culture \u2014 the kind of venue built around the idea that acoustic design is itself an artistic act.",
+        "url": "https://lightandsound.design/",
+        "date": "Sat, Sep 19"
       },
       {
-        "name": "Arthur Jafa: I Am Tony \u2014 Opening",
-        "venue": "New Museum, Lower East Side",
-        "date_start": "2026-09-24",
-        "date_end": "2027-01-04",
-        "category": "museum",
-        "why": "The largest survey of Jafa's career \u2014 two floors of the newly expanded OMA building \u2014 featuring his full visual archive practice, where cinema, social media, news, and music are collaged into what he calls 'affective proximities' that expose how race is constructed and circulated through contemporary image culture.",
-        "url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
-        "date": "Sep 24 \u2013 Jan 4"
+        "name": "Spring/Break Art Show",
+        "venue": "TBA (announced closer to date \u2014 historically in Midtown Manhattan)",
+        "date_start": "2026-09-22",
+        "date_end": "2026-09-28",
+        "category": "popup",
+        "why": "The anti-Armory fair: artist-curated, conceptually driven, uses found spaces \u2014 historically a better place to stumble onto genuinely strange work than any of the polished booths across town, and running the same week as the Armory makes the contrast instructive.",
+        "url": "https://www.springbreakartshow.com/",
+        "date": "Sep 22\u201328"
       },
       {
         "name": "The Armory Show 2026",
-        "venue": "Javits Center, Midtown",
+        "venue": "Javits Center, 655 W 34th St, Manhattan",
         "date_start": "2026-09-24",
         "date_end": "2026-09-27",
-        "category": "popup",
-        "why": "The 2026 edition's Platform and Focus sections center artists from the Caribbean diaspora \u2014 less the blue-chip main floor, more the Presents section featuring galleries under 12 years old showing solo/dual presentations, which is where the actual live scouting happens.",
-        "url": "https://www.thearmoryshow.com",
+        "category": "museum",
+        "why": "230+ galleries from 30+ countries, with the curated Focus and Platform sections built around Caribbean-led curatorial narratives \u2014 more geographically specific and less Eurocentric than prior editions, and worth the walk for the Presents section spotlighting galleries under 12 years old.",
+        "url": "https://www.thearmoryshow.com/",
         "date": "Sep 24\u201327"
       }
     ]
