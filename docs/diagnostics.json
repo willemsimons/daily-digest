@@ -1,29 +1,30 @@
 {
-  "feeds": 91,
+  "feeds": 89,
   "mined": 51,
-  "videos": 9,
+  "videos": 8,
   "video_titles": [
     "The Scariest Chart In Engineering",
     "The Most Dangerous Escalator In Europe",
     "A Physics Professor Bet Me $10,000 I'm Wrong...",
     "Hooded Seals are Really Weird...",
     "The \"Perpetual Motion\" Pump That Actually Works",
-    "Hooded Seals are amazing!",
     "The Skull in Holbein's 'The Ambassadors\"",
     "The Ambassadors: Great Art Explained",
     "I Tested Two 3D Scanners: One Is Simply Better!"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "Ars Technica",
-    "BBC News",
-    "Construction Physics",
-    "Hackaday",
-    "NASA Spinoff",
-    "Public Domain Review",
-    "YouTube \u2014 CNC Kitchen"
+    "BBC",
+    "CBC",
+    "CSIS \u2014 Brzezinski Chair",
+    "Nautilus / Knowable Magazine",
+    "YouTube",
+    "dayzlegame.com",
+    "eiln.github.io",
+    "joelotter.com",
+    "rubyhack.ai / independent researchers"
   ],
   "had_video": true,
-  "run_at": "2026-09-11T15:11:46.767802+00:00"
+  "run_at": "2026-09-12T14:21:00.334289+00:00"
 }
