@@ -1,7 +1,7 @@
 {
-  "feeds": 89,
-  "mined": 51,
-  "videos": 8,
+  "feeds": 69,
+  "mined": 46,
+  "videos": 9,
   "video_titles": [
     "The Scariest Chart In Engineering",
     "The Most Dangerous Escalator In Europe",
@@ -10,21 +10,20 @@
     "The \"Perpetual Motion\" Pump That Actually Works",
     "The Skull in Holbein's 'The Ambassadors\"",
     "The Ambassadors: Great Art Explained",
+    "Why did Nobody Make this Before? SUNLU i10 Dry Cabinet",
     "I Tested Two 3D Scanners: One Is Simply Better!"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 8,
   "final_sources": [
-    "BBC",
-    "CBC",
-    "CSIS \u2014 Brzezinski Chair",
-    "Nautilus / Knowable Magazine",
-    "YouTube",
-    "dayzlegame.com",
-    "eiln.github.io",
-    "joelotter.com",
-    "rubyhack.ai / independent researchers"
+    "Clash Report / Anthropic September 2026 Threat Report",
+    "Dunstan Orchard",
+    "Hackaday / Ken Shirriff",
+    "Nautilus",
+    "Simon Willison's Weblog",
+    "hyperbo.la",
+    "yoshuabengio.org"
   ],
-  "had_video": true,
-  "run_at": "2026-09-12T14:21:00.334289+00:00"
+  "had_video": false,
+  "run_at": "2026-09-13T15:03:29.753757+00:00"
 }
