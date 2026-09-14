@@ -1,6 +1,6 @@
 {
-  "feeds": 69,
-  "mined": 46,
+  "feeds": 60,
+  "mined": 41,
   "videos": 9,
   "video_titles": [
     "The Scariest Chart In Engineering",
@@ -14,16 +14,13 @@
     "I Tested Two 3D Scanners: One Is Simply Better!"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 5,
   "final_sources": [
-    "Clash Report / Anthropic September 2026 Threat Report",
-    "Dunstan Orchard",
-    "Hackaday / Ken Shirriff",
-    "Nautilus",
-    "Simon Willison's Weblog",
-    "hyperbo.la",
-    "yoshuabengio.org"
+    "MIT Technology Review",
+    "MacRumors / braw.dev",
+    "WORLD Radio",
+    "threebodyorbits.com"
   ],
   "had_video": false,
-  "run_at": "2026-09-13T15:03:29.753757+00:00"
+  "run_at": "2026-09-14T17:04:08.765124+00:00"
 }
