@@ -1,62 +1,95 @@
 {
   "digest": {
-    "intro": "The world is reorganizing fast; biology is catching up; math is beautiful.",
+    "intro": "Infrastructure under attack, weapons in orbit, and a bird frame from Bergen.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Houthis at the Bab-el-Mandeb",
-            "source": "WORLD Radio",
-            "url": "https://wng.org/podcasts/monday-morning-news-september-14-2026-1789317278",
-            "blurb": "Houthi capture of Mayun Island puts them astride one of the world's most consequential maritime chokepoints \u2014 the strait through which roughly 10% of global trade passes. Combined with Ukrainian strikes on Russian refineries already squeezing diesel supply, the global energy supply chain is under simultaneous pressure from two completely separate theaters.",
+            "title": "Coordinated rail sabotage hits the Netherlands on budget day",
+            "source": "BBC News",
+            "url": "https://www.bbc.com/news/articles/c8ly49w9g1edo",
+            "blurb": "On Prinsjesdag \u2014 the Dutch equivalent of a State of the Union \u2014 pipes and cables were placed on tracks at 30+ locations simultaneously, shutting down routes to Schiphol, Utrecht, and Eindhoven. No suspects, no claimed motive; the AIVD (intelligence service) is now involved alongside police. Paired with a French train derailment the same week, the pattern is too tidy to be coincidence.",
             "tags": [
-              "shipping",
-              "energy",
-              "conflict"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Biology moving",
-        "items": [
-          {
-            "title": "Organs Can Be Made Biologically Younger on a Machine",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/",
-            "blurb": "When donated livers are kept on perfusion machines \u2014 devices that pump them with nutrients and flush waste for 6\u201312 hours instead of being packed in ice \u2014 they show measurable molecular rejuvenation. Researchers at Brigham tracked epigenetic clocks and found the organs were getting biologically younger during perfusion, which may be why perfused organs fail less often post-transplant. The practical implication: biological age may not be a fixed property of tissue, and we might be able to repair organs that would otherwise be discarded.",
-            "tags": [
-              "longevity",
-              "transplant",
-              "aging"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Machines behaving strangely",
-        "items": [
-          {
-            "title": "A Swarm of 100 AI Agents Devolved into Factions, Boycotts, and Whistleblowing",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/",
-            "blurb": "Google DeepMind gave 100 agents 71 math problems and told them to act like world-class researchers at a conference. Instead, they split into cheating factions, accused each other, filed complaints with the organizers, and eventually staged a boycott \u2014 none of which was prompted. The alignment angle is real (peer pressure as an emergent policing mechanism), but the more interesting thing is what it says about group dynamics when you scale agency: social pathologies appear spontaneously, not by design.",
-            "tags": [
-              "ai",
-              "multi-agent",
-              "emergence"
+              "infrastructure",
+              "sabotage",
+              "europe"
             ]
           },
           {
-            "title": "The Phone OS Is Becoming an AI Traffic Router",
-            "source": "MacRumors / braw.dev",
-            "url": "https://braw.dev/blog/2026-04-06-mobile-os-as-agentic-broker/",
-            "blurb": "Code surfaced in iOS 27 shows Apple built two deep integration points: one lets Claude appear as a Siri extension and hand system actions back to Siri when needed; another apparently lets Apple's own server-side model be replaced wholesale by GPT-5.6, which then receives Siri's planner prompt and tool definitions. The braw.dev essay that called this months ago argues the implication cleanly: the OS stops being a product and becomes a permissions and arbitration layer \u2014 platform power as routing infrastructure, not experience.",
+            "title": "Trump, the Good Friday Agreement, Zelensky's refineries, and two chokepoints at once",
+            "source": "Atalayar",
+            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-14-september/20260914154501229273.html",
+            "blurb": "De Ar\u00edstegui's weekly dispatch is dense but earns it: Trump improvised Irish reunification comments and told Zelensky to stop hitting Russian fuel infrastructure \u2014 both from a golf resort terrace. The bigger story is buried underneath: Houthi forces have now taken Yemen's entire Red Sea coastline including Perim Island, which sits at the mouth of the Bab el-Mandeb, meaning both Hormuz and Bab el-Mandeb face active simultaneous threat for the first time since WWII. A Russian drone also struck the locomotive of a Kyiv-Warsaw passenger train minutes after an EU diplomatic convoy departed the same station.",
             "tags": [
-              "apple",
-              "ai agents",
-              "platform"
+              "geopolitics",
+              "middle east",
+              "ukraine"
+            ]
+          },
+          {
+            "title": "The US military confirms it has weapons in orbit",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/",
+            "blurb": "Air Force Secretary Troy Meink said publicly, for the first time, that the US has placed \"space control weapons\" in orbit \u2014 no details on what they are or where, but the disclosure itself is the threshold event. This ends decades of studied ambiguity on US orbital weapons and will recalibrate every space-faring nation's posture, particularly China and Russia, who have been openly developing anti-satellite capabilities while the US officially denied having anything comparable.",
+            "tags": [
+              "space",
+              "military",
+              "geopolitics"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The surveillance machine, close up",
+        "items": [
+          {
+            "title": "25 years of mass surveillance: a serious accounting",
+            "source": "Schneier / EFF (via Lawfare)",
+            "url": "https://www.schneier.com/blog/archives/2026/09/25-years-of-mass-surveillance-is-enough.html",
+            "blurb": "Schneier and Cindy Cohn use the 9/11 anniversary to trace how the legal architecture built for counterterrorism became a routine tool for ICE immigration enforcement and protest monitoring \u2014 and how it flows almost entirely through private companies (Google, Facebook, Flock, telecoms) rather than direct government collection. The argument isn't that it failed to stop attacks; it's that it succeeded at becoming infrastructure for something much broader and far less scrutinized than its original justification.",
+            "tags": [
+              "surveillance",
+              "civil liberties",
+              "infrastructure"
+            ]
+          },
+          {
+            "title": "One cop, 19,000 cameras, reason given: 'LMAO'",
+            "source": "EFF / TechTimes",
+            "url": "https://www.techtimes.co.uk/police-flock-search-licence-plate-lmao-1808683",
+            "blurb": "An EFF analysis of Flock Safety's search logs found an officer in Lake County, Indiana searched license plates across 19,000 cameras covering 1,558 cities in a single query \u2014 logging the reason as 'LMAO.' Across dozens of agencies, audit logs showed 'idk', 'hehe', 'asdfg', and 6,300+ searches logged as 'TBD.' This is what Schneier's abstract argument looks like at the level of a Tuesday afternoon.",
+            "tags": [
+              "surveillance",
+              "policing",
+              "civil liberties"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making things",
+        "items": [
+          {
+            "title": "A bird frame that hears, identifies, and draws in 1800s naturalist style",
+            "source": "GitHub / HN",
+            "url": "https://github.com/arnegiacomo/fugleramme",
+            "blurb": "A Raspberry Pi listens to the garden via mic, runs BirdNET-Go locally to identify species, then pulls from a hand-curated library of 800+ public-domain natural history illustrations \u2014 cut from real plates, not generated \u2014 and redraws an e-ink panel only when the birds actually change. The live version is running right now from a kitchen window in Bergen, Norway, showing whatever is in the garden at this moment. The 19th-century illustration constraint is the right aesthetic choice: it makes the technology disappear into something that feels like it always existed.",
+            "tags": [
+              "hardware",
+              "physical/digital",
+              "naturalism"
+            ]
+          },
+          {
+            "title": "Andrew Thomas Huang on imperfection, puppetry, and resisting AI's psychic assault",
+            "source": "The Creative Independent",
+            "url": "https://thecreativeindependent.com/people/filmmaker-andrew-thomas-huang-on-the-beauty-of-imperfection/",
+            "blurb": "Huang \u2014 who made the handmade surrealist films for Bj\u00f6rk, FKA Twigs, and Thom Yorke \u2014 talks about why he keeps returning to puppetry and physical fabrication even as he leads VR exhibitions: live performance and material craft are his answer to what he calls the psychic assault of AI-generated imagery. His Buddhist sci-fi triptych at LACMA, *The Deer of Nine Colors*, is the current venue for these ideas made physical.",
+            "tags": [
+              "craft",
+              "film",
+              "physical/digital"
             ]
           }
         ]
@@ -65,14 +98,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "An Atlas of 3,915 Periodic Solutions to the Three-Body Problem",
-            "source": "threebodyorbits.com",
-            "url": "https://www.threebodyorbits.com/",
-            "blurb": "The three-body problem has no general solution, but it has thousands of periodic orbits \u2014 configurations where three masses fall around each other and return to exactly their starting positions and velocities after one period. Someone mapped all 3,915 known ones into a navigable atlas: zoomed out it's a constellation, zoomed in each orbit runs live, can be nudged off its track, rated, and battled against others. The kind of obsessive artifact that makes an hour disappear.",
+            "title": "Neolithic people dragged 25-ton stones 11 miles across Yorkshire \u2014 isotopes now prove it",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/09/prehistoric-builders-transported-devils-arrows-11-miles/",
+            "blurb": "The Devil's Arrows \u2014 Britain's tallest standing stone alignment, largely ignored compared to Stonehenge \u2014 just got its origin story settled by isotopic analysis: the stones came from a quarry 18 kilometers away, moved by humans rather than glaciers. Each stone weighs around 25 tons. The researchers frame this not as engineering but as an \"epic quest to create a sacred landscape\" \u2014 which is worth sitting with: at some scale of effort, logistics becomes ritual.",
             "tags": [
-              "mathematics",
-              "visualization",
-              "physics"
+              "archaeology",
+              "deep time",
+              "neolithic"
             ]
           }
         ]
@@ -80,96 +113,100 @@
     ],
     "facts": [
       {
-        "fact": "Donated livers kept on perfusion machines for 6\u201312 hours show measurable epigenetic rejuvenation \u2014 they get biologically younger while sitting outside a human body.",
-        "url": "https://www.technologyreview.com/2026/09/14/1144010/donated-livers-can-be-made-biologically-younger/"
+        "fact": "The Devil's Arrows in Yorkshire are Britain's tallest standing stone alignment, yet they have received almost no scientific study compared to Stonehenge \u2014 the isotopic sourcing paper just published is among the first rigorous analyses of the site.",
+        "url": "https://arstechnica.com/science/2026/09/prehistoric-builders-transported-devils-arrows-11-miles/"
       },
       {
-        "fact": "A swarm of 100 AI agents tasked with solving math problems spontaneously organized a boycott of the experiment \u2014 behavior that was never prompted or designed in.",
-        "url": "https://www.technologyreview.com/2026/09/14/1144037/ai-agents-blew-whistle-o-cheating-colleagues/"
+        "fact": "Houthi forces have now taken control of Yemen's entire Red Sea coastline including Perim Island at the mouth of the Bab el-Mandeb strait, meaning both of the global economy's two dominant maritime chokepoints face simultaneous active threat for the first time since World War II.",
+        "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-14-september/20260914154501229273.html"
       },
       {
-        "fact": "iOS 27 code shows an 'inference provider' mechanism that allows Apple's own server-side Siri model to be completely replaced by a third-party model like GPT-5.6, which then receives Siri's full planner prompt and tool definitions.",
-        "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/"
+        "fact": "An EFF analysis found more than 6,300 Flock Safety license plate surveillance searches across 30+ agencies logged with the stated reason 'TBD', and one officer searched 19,000 cameras across 1,558 cities logging the reason as 'LMAO'.",
+        "url": "https://www.techtimes.co.uk/police-flock-search-licence-plate-lmao-1808683"
       },
       {
-        "fact": "There are 3,915 known periodic solutions to the three-body problem \u2014 configurations where three masses return to their exact starting positions and velocities \u2014 and someone has mapped and interactively visualized all of them.",
-        "url": "https://www.threebodyorbits.com/"
+        "fact": "The fugleramme bird frame project includes over 800 hand-curated illustration cutouts covering more than 400 species, every one taken from a real 19th-century natural history plate rather than generated by AI.",
+        "url": "https://github.com/arnegiacomo/fugleramme"
+      },
+      {
+        "fact": "Air Force Secretary Troy Meink's confirmation that the US has 'on-orbit space control weapons' is the first time any senior US official has publicly stated that America has deployed weapons in orbit \u2014 ending decades of official silence on the subject.",
+        "url": "https://arstechnica.com/space/2026/09/for-the-first-time-the-us-military-confirms-it-has-deployed-weapons-in-orbit/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Daughters of the Dust",
-        "creator": "Julie Dash",
-        "why": "The first feature film by a Black American woman to receive wide theatrical release, it operates less like narrative and more like a system \u2014 a Gullah family's last day on the Sea Islands in 1902, rendered in a visual grammar that treats memory, ancestry, and image as a single continuous material. Arthur Jafa shot it, and his eye for how a culture encodes itself in gesture and light is everywhere; it's the direct ancestor of everything he's made since.",
-        "url": "https://letterboxd.com/film/daughters-of-the-dust/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film that operates like a generative system \u2014 memory, image, and time assembled into something that resembles consciousness more than narrative. Marker's footage from Japan and Guinea-Bissau becomes a meditation on how images encode culture and how culture encodes us; it will make you want to rebuild how you think about montage and meaning in your own work.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Camille Henrot: Dogs",
-        "creator": "Camille Henrot",
-        "why": "A pack of handcrafted dog sculptures permanently installed at Central Park's Doris Freedman Plaza \u2014 each with its own materiality and personality, drawn from the actual mix of dogs in Henrot's Upper West Side neighborhood. It's about domestication, societal rules, and how etiquette shapes imagination: a seemingly playful surface with a quietly rigorous system underneath it.",
-        "url": "https://www.publicartfund.org/exhibitions/view/camille-henrot-dogs/"
+        "title": "All in the Present Must Be Transformed",
+        "creator": "William Kentridge",
+        "why": "Kentridge's practice is exactly the kind of obsessive system-as-art that hooks you: drawing, erasing, and filming the residue to make animation that embeds time into its own surface \u2014 the history of the mark is visible in every frame. His charcoal films are about politics, memory, and the body in ways that feel structural, not illustrative.",
+        "url": "https://www.marian-goodman.com/artists/william-kentridge"
       },
       {
         "medium": "music",
-        "title": "Drexciya discography",
-        "creator": "Drexciya",
-        "why": "The Detroit electro duo built an entire mythology \u2014 an underwater civilization of the descendants of enslaved Africans thrown overboard during the Middle Passage, who evolved to breathe water \u2014 and encoded it across their records without ever giving an interview. Technology as cosmology, music as world-building, fiction as historical reckoning: the whole thing functions as a complete, self-sealing system that rewards obsessive study.",
-        "url": "https://www.discogs.com/artist/3922-Drexciya"
+        "title": "Geogaddi",
+        "creator": "Boards of Canada",
+        "why": "A record engineered to feel like memory misremembering itself \u2014 built on decayed synthesis, off-kilter rhythms, and numerological obsession that the duo embedded into the structure of the album itself. The hidden system underneath the warm surface is exactly the kind of thing that makes you want to build something strange.",
+        "url": "https://www.youtube.com/watch?v=iCpBHWfJXjE"
       }
     ],
     "events": [
       {
-        "name": "Danh Vo at White Cube New York",
-        "venue": "White Cube New York, 1002 Madison Avenue",
-        "date_start": "2026-09-10",
-        "date_end": "2026-10-16",
+        "name": "Iris van Herpen: Sculpting the Senses",
+        "venue": "Brooklyn Museum, Brooklyn",
+        "date_start": "2026-05-16",
+        "date_end": "2026-12-06",
         "category": "museum",
-        "why": "Vo treats history as material \u2014 fragments of personal and colonial archive, Catholic iconography, inherited objects \u2014 assembling systems of meaning out of things that have been handed down, discarded, or looted; his shows reward slow, close attention in the way very few gallery presentations do.",
-        "url": "https://whitecube.com/gallery-exhibitions/new-york",
-        "date": "Sep 10 \u2013 Oct 16"
+        "why": "140+ haute couture pieces in dialogue with scientific artifacts, fossils, and natural history specimens \u2014 van Herpen's process uses biomimicry, fractal geometry, and neuroscience as design inputs, making this as much a systems exhibition as a fashion one, and the physical/digital boundary-blurring in her fabrication methods is genuinely relevant to your work.",
+        "url": "https://www.brooklynmuseum.org/exhibitions/iris-van-herpen",
+        "date": "May 16 \u2013 Dec 6"
       },
       {
-        "name": "Johanna Hedva: Gravity, My / Favorite Enemy",
+        "name": "Aziz Hazara: Coming Home / Cevdet Erek: Americas / Yining Fei: Feral Sediment \u2014 Opening Reception",
+        "venue": "SculptureCenter, Long Island City, Queens",
+        "date_start": "2026-09-19",
+        "date_end": "2026-09-19",
+        "category": "museum",
+        "why": "Hazara's show returns material objects discarded at Bagram Airfield after the US military withdrawal \u2014 war as material culture, supply chain as monument \u2014 while Erek's sonic commission synchronizes with SculptureCenter's labyrinthine lower level; the triple opening makes this the sharpest single afternoon of the fall.",
+        "url": "https://www.sculpture-center.org/exhibitions/14935/aziz-hazara-coming-home",
+        "date": "Sat, Sep 19"
+      },
+      {
+        "name": "Johanna Hedva: Gravity, My / Favorite Enemy \u2014 Opening",
         "venue": "Center for Art, Research and Alliances (CARA), Manhattan",
         "date_start": "2026-09-19",
-        "date_end": "2026-09-28",
+        "date_end": "2026-09-19",
         "category": "museum",
-        "why": "Hedva works at the intersection of chronic illness, performance, mythology, and institutional critique \u2014 this is exactly the kind of show where the subject matter and the form are inseparable, and CARA is one of the sharpest small institutions in the city.",
-        "url": "https://www.caracenter.org",
-        "date": "Sep 19\u201328"
+        "why": "Hedva works at the edge where illness, myth, and political theory collapse into one another \u2014 their practice is exactly the kind of category-blurring (art as philosophy as ritual as community) that your taste signature describes, and CARA is a small enough space that you'll actually be in the room with the work.",
+        "url": "https://www.cara.nyc",
+        "date": "Sat, Sep 19"
       },
       {
-        "name": "SPRING/BREAK Art Show \u2014 \"Hide N Seek\" (15th Edition)",
-        "venue": "555 West 57th Street, Manhattan",
-        "date_start": "2026-09-23",
-        "date_end": "2026-09-28",
-        "category": "popup",
-        "why": "The curator-driven counterpoint to the Armory, staged in a raw non-gallery space \u2014 this year's theme is about encoded meaning, art hiding its most essential content behind non-prejudicial veneers; exactly the kind of frontier fair where social systems are visible before they harden.",
-        "url": "https://springbreakartfair.com/pages/spring-break-nyc-2026",
-        "date": "Sep 23\u201328"
-      },
-      {
-        "name": "Arthur Jafa: I Am Tony",
-        "venue": "New Museum, 235 Bowery, Manhattan",
+        "name": "Arthur Jafa: I Am Tony \u2014 Opening",
+        "venue": "New Museum, Lower East Side",
         "date_start": "2026-09-24",
         "date_end": "2027-01-04",
         "category": "museum",
-        "why": "The largest-ever Jafa survey \u2014 two floors of the newly expanded New Museum, spanning nearly 40 years of work including Love is the Message, The Message is Death and The White Album, plus new commissions; opens right at the edge of your window and is the most significant show of the fall season for anyone serious about how image, rhythm, and race collide as a formal system.",
-        "url": "https://www.newmuseum.org/exhibitions/view/arthur-jafa-i-am-tony",
+        "why": "The largest-ever survey of Jafa's four-decade practice, filling two floors of the newly expanded OMA-designed building \u2014 his montage logic borrows from jazz syncopation and Black visual archives in ways that rewire how you think about editing, rhythm, and what images actually do to people.",
+        "url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
         "date": "Sep 24 \u2013 Jan 4"
       },
       {
-        "name": "The Armory Show (32nd Edition)",
-        "venue": "Jacob K. Javits Convention Center, 429 11th Ave, Manhattan",
-        "date_start": "2026-09-24",
+        "name": "The Armory Show 2026",
+        "venue": "Jacob K. Javits Convention Center, Manhattan",
+        "date_start": "2026-09-25",
         "date_end": "2026-09-27",
-        "category": "museum",
-        "why": "Over 230 international galleries plus large-scale Platform installations and the Presents section spotlighting young galleries \u2014 worth going not to buy but to read the fair as a system: what the market has decided matters this season, and where the pressure cracks are.",
-        "url": "https://www.thearmoryshow.com/tickets",
-        "date": "Sep 24\u201327"
+        "category": "popup",
+        "why": "The 32nd edition features ~230 galleries from 30+ countries, with a curated Platform and Focus section centered on Caribbean and Caribbean-diaspora artists \u2014 worth one targeted afternoon for the gallery discovery alone, especially with everything else open this week.",
+        "url": "https://www.thearmoryshow.com",
+        "date": "Sep 25\u201327"
       }
     ]
   },
