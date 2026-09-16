@@ -1,28 +1,26 @@
 {
-  "feeds": 82,
+  "feeds": 86,
   "mined": 46,
-  "videos": 8,
+  "videos": 5,
   "video_titles": [
     "The Scariest Chart In Engineering",
     "The Most Dangerous Escalator In Europe",
-    "A Physics Professor Bet Me $10,000 I'm Wrong...",
     "Hooded Seals are Really Weird...",
-    "The Skull in Holbein's 'The Ambassadors\"",
-    "The Ambassadors: Great Art Explained",
     "Why did Nobody Make this Before? SUNLU i10 Dry Cabinet",
     "I Tested Two 3D Scanners: One Is Simply Better!"
   ],
   "supplemental": false,
   "final_items": 8,
   "final_sources": [
+    "Apple Security",
     "Ars Technica",
-    "Atalayar",
-    "BBC News",
-    "EFF / TechTimes",
-    "GitHub / HN",
-    "Schneier / EFF (via Lawfare)",
-    "The Creative Independent"
+    "Ars Technica / Mozilla",
+    "MIT Technology Review / Nature",
+    "Rheinmetall / Hacker News",
+    "Tom's Hardware / Hacker News",
+    "Wired / 404 Media",
+    "nand2mario / Hacker News"
   ],
   "had_video": false,
-  "run_at": "2026-09-15T15:42:48.733891+00:00"
+  "run_at": "2026-09-16T15:33:16.516772+00:00"
 }
