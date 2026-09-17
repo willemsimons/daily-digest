@@ -1,6 +1,6 @@
 {
-  "feeds": 86,
-  "mined": 46,
+  "feeds": 88,
+  "mined": 49,
   "videos": 5,
   "video_titles": [
     "The Scariest Chart In Engineering",
@@ -10,17 +10,18 @@
     "I Tested Two 3D Scanners: One Is Simply Better!"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 10,
   "final_sources": [
-    "Apple Security",
+    "Aeon",
+    "Aeon Video",
     "Ars Technica",
-    "Ars Technica / Mozilla",
-    "MIT Technology Review / Nature",
-    "Rheinmetall / Hacker News",
-    "Tom's Hardware / Hacker News",
-    "Wired / 404 Media",
-    "nand2mario / Hacker News"
+    "Ars Technica / PLoS ONE",
+    "Colossal / P\u00b7P\u00b7O\u00b7W",
+    "Construction Physics",
+    "EY-Parthenon",
+    "The Guardian",
+    "ryan.science"
   ],
-  "had_video": false,
-  "run_at": "2026-09-16T15:33:16.516772+00:00"
+  "had_video": true,
+  "run_at": "2026-09-17T15:39:51.379724+00:00"
 }

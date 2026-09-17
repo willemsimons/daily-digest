@@ -1,95 +1,118 @@
 {
   "digest": {
-    "intro": "Hidden infrastructure exposed, dead silicon cracked open, and a mouse that thinks with human cells.",
+    "intro": "War crimes, cloud wreckage, and 2,000-year-old ink lit up like a Christmas tree.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Boston Dumps Flock After 'Vendor Error' Shared Data Nationwide",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/09/boston-dumps-flock-says-it-shared-data-nationwide-in-violation-of-contract/",
-            "blurb": "Boston's BPD explicitly disabled nationwide data-sharing in its Flock ALPR contract \u2014 and within three days of going live, other law enforcement agencies across the country could already query Boston's plates anyway. The city pulled the plug entirely. This is the policy consequence: when the default state of a surveillance platform is 'share everything,' a contract clause is not a firewall.",
+            "title": "UN finds reasonable grounds US committed war crimes in Iran school strike",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack",
+            "blurb": "A UN fact-finding mission concluded a US Tomahawk missile collapsed the roof of Shajareh Tayyebeh primary school in Minab on February 28, killing 156 civilians including 120 children \u2014 a building they describe as 'clearly identifiable.' The Pentagon's own investigation reportedly concluded months ago; its findings remain classified, while senior commanders are said to have been warned that targeting data was dangerously outdated before the strike.",
             "tags": [
-              "surveillance",
-              "policy",
+              "geopolitics",
+              "war crimes",
+              "accountability"
+            ]
+          },
+          {
+            "title": "Iran strikes permanently destroyed AWS data across an entire region",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/09/iran-strikes-on-amazon-data-centers-caused-permanent-loss-of-customer-data/",
+            "blurb": "Iranian drone strikes on Amazon data centers in Bahrain wiped out data across all three availability zones \u2014 exceeding what AWS's own multi-AZ redundancy architecture was designed to survive. The destruction represents the first real test of hyperscale cloud infrastructure under kinetic warfare, and the answer is: it failed at a scale the system wasn't designed to contemplate.",
+            "tags": [
+              "infrastructure",
+              "cloud",
+              "war"
+            ]
+          },
+          {
+            "title": "Middle powers are playing every board simultaneously",
+            "source": "EY-Parthenon",
+            "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis",
+            "blurb": "With BRICS (now 10 full members, 10 partner countries) and UNGA both convening this month, countries like Saudi Arabia, Turkey, and Pakistan are running parallel strategies \u2014 signing a new Mecca defense pact while simultaneously pushing for UN reforms. The clearest signal of the post-US-hegemony moment: middle powers aren't choosing sides, they're joining everything at once.",
+            "tags": [
+              "geopolitics",
+              "multilateralism",
+              "BRICS"
+            ]
+          },
+          {
+            "title": "California's net neutrality law traded away for broadband cash",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand",
+            "blurb": "The Trump NTIA is making $1.86 billion in BEAD broadband grants conditional on California agreeing not to enforce its net neutrality law \u2014 not just in funded areas, but statewide, for up to 14 years. California won a lengthy court battle to defend that law; now it's being circumvented not through litigation but through the leverage of infrastructure money.",
+            "tags": [
+              "internet policy",
+              "regulation",
               "infrastructure"
             ]
-          },
-          {
-            "title": "Open Chinese Models Are Four Months Behind Frontier AI at One-Fifth the Cost",
-            "source": "Ars Technica / Mozilla",
-            "url": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/",
-            "blurb": "Mozilla's new data puts a concrete number on the open/closed capability gap: paying for frontier proprietary AI currently buys you roughly a four-month lead, at five times the cost. The geopolitical implication is that the window in which US labs can claim meaningful capability superiority is compressing fast, and the leverage point is shifting from model intelligence to deployment infrastructure and data access.",
-            "tags": [
-              "ai",
-              "geopolitics",
-              "open-source"
-            ]
           }
         ]
       },
       {
-        "heading": "Infrastructure you couldn't see until now",
+        "heading": "Deep craft",
         "items": [
           {
-            "title": "Hackers Ripped a Flock Camera Off a Pole and Read Its Brain",
-            "source": "Wired / 404 Media",
-            "url": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/",
-            "blurb": "The encryption key that Flock promised protects on-device data was stored on the device itself \u2014 so once you have the hardware, you have the key. The dumped logs show the camera generating over a million images in a few weeks, tracking not just plates but people, bicycles, and bumper stickers including, specifically, an American flag patch on a motorcyclist's saddlebag. What Flock sold as a license-plate reader is behaviorally a general-purpose visual surveillance node.",
+            "title": "Researchers burned their own scrolls to decode Herculaneum's lead-ink papyri",
+            "source": "Ars Technica / PLoS ONE",
+            "url": "https://arstechnica.com/science/2026/09/why-researchers-made-their-own-model-herculaneum-scrolls/",
+            "blurb": "To figure out which of the 2,000-year-old Herculaneum scrolls are worth digitally unwrapping, researchers deliberately charred replica papyrus rolls and ran them through CT scanners \u2014 repurposing software originally designed for lithium-ion battery analysis \u2014 and found that lead-based ink lights up in X-ray 'like a Christmas tree.' The double move of destroying copies to preserve originals, using battery-industry imaging tools to read ancient philosophy, is exactly the kind of unreasonable cross-domain obsession that actually moves archaeology forward.",
             "tags": [
-              "surveillance",
-              "hardware",
-              "security"
+              "archaeology",
+              "imaging",
+              "craft"
             ]
           },
           {
-            "title": "Rheinmetall Open-Sources Its Battlefield Weapon Integration Protocol",
-            "source": "Rheinmetall / Hacker News",
-            "url": "https://rheinmetall.github.io/onboardapi-documentation/9.10.0/index.html",
-            "blurb": "A major European defense contractor just published its sensor-to-software integration API on GitHub \u2014 DDS publish-subscribe architecture, C++ core, wrappers for Python and Java, full data schema \u2014 as if it were an open-source middleware library for a logistics startup. The casual normalcy of the presentation is the strange part: military hardware interoperability specs, styled like a developer docs site you'd find for any SaaS tool.",
+            "title": "How SpaceX went from a tangle of pipes to the Raptor 3",
+            "source": "Construction Physics",
+            "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor",
+            "blurb": "Brian Potter traces how SpaceX reduced the Raptor from a rat's nest of external plumbing to a smooth, almost featureless cylinder \u2014 achieving 35% more thrust in the process \u2014 by internalizing routing, eliminating intermediate fittings, and designing manufacturing constraints into the geometry from the start. The rival CEO who called the Raptor 3 photos 'exaggerated' because no assembled engine could look like that is a good measure of how far outside normal aerospace reasoning this work sits.",
             "tags": [
-              "defense",
-              "open-source",
-              "hardware"
+              "manufacturing",
+              "engineering",
+              "space"
             ]
           },
           {
-            "title": "Apple Builds Cryptographic Provenance Into the Shutter",
-            "source": "Apple Security",
-            "url": "https://security.apple.com/blog/apple-reference-image/",
-            "blurb": "Apple's approach goes further than the existing C2PA standard, which attaches provenance metadata after capture and can be tampered with anywhere downstream \u2014 instead, Apple anchors a reference image at the sensor level with a chain of trust that runs through the computational photography stack. Crucially, it's designed to work without tying an image to a photographer's public identity, which matters for anyone shooting in dangerous conditions. The authenticity question for photography just moved from 'can you tell?' to 'did the hardware witness it?'",
+            "title": "The cryptographic infrastructure behind every US driver's license barcode was recoverable",
+            "source": "ryan.science",
+            "url": "https://ryan.science/blog/keys-not-included",
+            "blurb": "Ryan Fahey reverse-engineered and recovered the signing keys used to verify US state ID barcodes \u2014 infrastructure that underlies identity checks at bars, airports, and dispensaries across the country. The systemic failure isn't just one state's bad key hygiene; it's a story about what happens when critical verification systems get built without anyone treating the cryptographic root of trust as the thing that actually needs protecting.",
             "tags": [
-              "photography",
+              "security",
               "cryptography",
-              "trust"
+              "identity"
             ]
           }
         ]
       },
       {
-        "heading": "Obsessive craft",
+        "heading": "Art & surface",
         "items": [
           {
-            "title": "Voodoo Graphics, Rebuilt in Programmable Logic",
-            "source": "nand2mario / Hacker News",
-            "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/",
-            "blurb": "Starting from a working FPGA 486 CPU, nand2mario spent a month implementing the 3dfx Voodoo Graphics SST-1 in SystemVerilog \u2014 triangle rasterization, texture filtering, mipmapping, fog, dithering, the fixed- and floating-point setup interfaces \u2014 until Tomb Raider ran with its original 3dfx renderer at 100 MHz on a Xilinx KV260. This is not emulation; it's a re-implementation of the exact rendering pipeline at the logic gate level, recovering the specific visual character of a dead aesthetic era in hardware.",
+            "title": "Hew Locke's flotilla of colonial ghosts",
+            "source": "Colossal / P\u00b7P\u00b7O\u00b7W",
+            "url": "https://www.thisiscolossal.com/2026/09/hew-locke-the-wanderers-ship-sculptures/",
+            "blurb": "Locke's new show at P\u00b7P\u00b7O\u00b7W suspends a fleet of miniature ships from the gallery ceiling \u2014 galleons alongside tankers, all adorned with pennants and foliage \u2014 as a single argument about how empire's economic logic doesn't end, it just changes vessels. The busts of Victoria and Washington draped in glittering baubles, rendered in Parian ware (19th-century cheap marble substitute), add another layer: prestige materials imitating prestige, all the way down.",
             "tags": [
-              "fpga",
-              "graphics",
-              "media-archaeology"
+              "sculpture",
+              "colonialism",
+              "contemporary art"
             ]
           },
           {
-            "title": "Four Years to Crack the PS2's Last Secret Chip",
-            "source": "Tom's Hardware / Hacker News",
-            "url": "https://www.tomshardware.com/video-games/playstation/26-year-old-sony-ps2-security-chip-broken-wide-open-after-four-years-of-effort-reverse-engineering-enthusiast-successfully-unlocks-cxp102064-mechacon-chip",
-            "blurb": "DiscoStarslayer chemically decapped the CXP102064 MechaCon \u2014 the chip that controlled the PS2's optical drive mechanics and handled Magic Gate memory card and KELF executable decryption \u2014 then used optical microscopy to read the die directly. The breakthrough came from what the writeup calls a 'lucky break' during the hacking process, after four years of effort. Twenty-six years after the console launched, one of its last hardware secrets is now open.",
+            "title": "Fake marble: 2,000 years of humans desperately wanting the real thing",
+            "source": "Aeon Video",
+            "url": "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble",
+            "thumbnail": "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble",
+            "blurb": "Aeon's essay-film tracks the continuous thread from Roman fresco painters imitating stone grain to modern kitchen countertop laminates \u2014 asking what it means that simulation of a prestige surface has itself become a prestige tradition. The obsession is never really about marble; it's about what surfaces are allowed to signal and who gets to use them.",
             "tags": [
-              "reverse-engineering",
-              "hardware",
-              "preservation"
+              "materials",
+              "design history",
+              "semiotics"
             ]
           }
         ]
@@ -98,14 +121,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "A Mouse With a Human Cortex Performed Better on Memory Tests",
-            "source": "MIT Technology Review / Nature",
-            "url": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
-            "blurb": "Sergiu Pa\u0219ca's Stanford team genetically modified mice to develop without a cortex or hippocampus, then filled that space with human neural organoids \u2014 and the human tissue took hold so thoroughly that nearly half the mouse's brain volume is now human cells. The chimeric mice outperformed mice with no cortex on maze memory tests, meaning the transplanted human tissue is functionally contributing to a living animal's cognition. The mice with no cortex at all, notably, seemed 'fairly normal' otherwise \u2014 which raises its own unsettling questions.",
+            "title": "Who will taste the cherries if computers count all the petals?",
+            "source": "Aeon",
+            "url": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
+            "blurb": "Starting from a Silicon Valley test kitchen building an oven designed to produce Michelin-quality food at a button press, this essay excavates the 'computist dream' \u2014 the centuries-long project of debugging subjectivity out of human knowledge until experience becomes pure frictionless data. The question it won't let go of: when a system can optimize every measurable quality of a dish, what exactly is the taster for?",
             "tags": [
-              "neuroscience",
-              "biology",
-              "ethics"
+              "technology",
+              "epistemology",
+              "experience"
             ]
           }
         ]
@@ -113,100 +136,100 @@
     ],
     "facts": [
       {
-        "fact": "Flock's on-device encryption key was stored on the device itself \u2014 meaning physical access to the camera was sufficient to decrypt over a million stored vehicle images.",
-        "url": "https://www.wired.com/story/hackers-flock-camera-data-shows-how-system-works/"
+        "fact": "AWS's Bahrain region lost data across all three availability zones \u2014 meaning Iran's strikes exceeded the maximum failure scenario the platform was architecturally designed to survive.",
+        "url": "https://arstechnica.com/gadgets/2026/09/iran-strikes-on-amazon-data-centers-caused-permanent-loss-of-customer-data/"
       },
       {
-        "fact": "Boston's BPD confirmed with Flock that data-sharing was 'off' before launch \u2014 other law enforcement agencies were accessing Boston plate data within three days anyway.",
-        "url": "https://arstechnica.com/tech-policy/2026/09/boston-dumps-flock-says-it-shared-data-nationwide-in-violation-of-contract/"
+        "fact": "The Raptor 3 produces about 35% more thrust than the Raptor 1, while looking \u2014 from the outside \u2014 like almost a completely different object with most of its plumbing hidden internally.",
+        "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor"
       },
       {
-        "fact": "A mouse engineered to develop without a cortex or hippocampus \u2014 and then filled with human neural organoids \u2014 outperformed normal mice on a spatial memory maze.",
-        "url": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/"
+        "fact": "Researchers studying Herculaneum scrolls found that lead-based ancient ink illuminates so brightly under X-ray CT that they described it as lighting up 'like a Christmas tree' \u2014 making those scrolls the highest-priority targets for digital unwrapping.",
+        "url": "https://arstechnica.com/science/2026/09/why-researchers-made-their-own-model-herculaneum-scrolls/"
       },
       {
-        "fact": "The 3dfx Voodoo Graphics SST-1 has been fully reimplemented in SystemVerilog on an FPGA, running Tomb Raider with its original 3dfx renderer at 100 MHz.",
-        "url": "https://nand2mario.github.io/posts/2026/zsst-voodoo/"
+        "fact": "California's BEAD broadband grant agreement would exempt ISPs from the state's net neutrality law not just in areas receiving funding, but statewide, for up to 14 years.",
+        "url": "https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand"
       },
       {
-        "fact": "Mozilla's benchmark data puts the current open Chinese model capability gap at roughly four months behind frontier proprietary AI, at approximately one-fifth the cost.",
-        "url": "https://arstechnica.com/ai/2026/09/exclusive-open-chinese-models-close-gap-with-silicon-valleys-frontier-ai-models/"
+        "fact": "The UN fact-finding mission found that the Minab school struck on February 28 was 'clearly identifiable' as a school \u2014 a key threshold in war crimes law distinguishing lawful military targets from protected civilian sites.",
+        "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film structured entirely around the gap between memory, image, and meaning \u2014 Marker free-associates across Japan, Guinea-Bissau, Iceland, and the archives of his own mind into something that reads less like a documentary and more like a system for thinking. If you make things that live at the edge of data and feeling, this is the source text.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
-      },
-      {
-        "medium": "music",
-        "title": "Watering a Flower",
-        "creator": "Haruomi Hosono",
-        "why": "The YMO co-founder's ambient solo records \u2014 this one especially \u2014 treat music the way a generative system treats noise: structured indeterminacy, deep listening, and an obsessive interest in the texture of sound before it becomes song. Made in a 1984 Osaka hospital room, it sounds like nothing else.",
-        "url": "https://www.hosonoharuomi.jp/"
+        "title": "Leviathan",
+        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel (Sensory Ethnography Lab)",
+        "why": "A 2012 documentary shot with cameras lashed to fishing nets, hooks, and deckhands \u2014 the physical/digital edge at its most visceral. No narration, no arc, just the system of a commercial fishing boat rendered as pure sensation. The kind of obsessive formal commitment that makes you want to rethink every creative constraint you have.",
+        "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "art",
-        "title": "The Propeller Group",
-        "creator": "The Propeller Group",
-        "why": "A Ho Chi Minh City collective who operate simultaneously as an advertising agency and an art practice \u2014 treating brand logic, nationalism, and propaganda as raw sculptural material. Their video works are formally gorgeous and structurally sinister, exactly the vibe of systems made visible through their own surface.",
-        "url": "https://www.propellergroupstudio.com/"
+        "title": "The Clock",
+        "creator": "Christian Marclay",
+        "why": "A 24-hour film collage that syncs cinema time to real time \u2014 tens of thousands of clock moments edited into an instrument that actually tells the hour. It's systems thinking as art, a feedback loop between collective cultural memory and lived present. Obsessive craft at an almost incomprehensible scale, and the experience of watching it shifts how you feel inside your own day.",
+        "url": "https://www.paulacoopergallery.com/artists/christian-marclay"
+      },
+      {
+        "medium": "music",
+        "title": "Replica",
+        "creator": "Oneohtrix Point Never",
+        "why": "Daniel Lopatin built this 2011 record entirely from TV commercial samples \u2014 jingles, soundbites, product voice-overs \u2014 dissolved into ambient drift until the source is unrecognizable. It's an archaeology of consumer culture that sounds like beautiful ruins; the invisible system (late-capitalist media) becomes emotionally raw through formal transformation.",
+        "url": "https://www.youtube.com/watch?v=ek7EBKVBjSA"
       }
     ],
     "events": [
       {
-        "name": "Haruomi Hosono: The Yours Sincerely Tour (with Toro y Moi)",
-        "venue": "Radio City Music Hall, New York",
-        "date_start": "2026-09-16",
-        "date_end": "2026-09-16",
-        "category": "concert",
-        "why": "Tonight only \u2014 the 79-year-old YMO co-founder and city pop godfather, rare stateside, with Toro y Moi opening; a living link between Japanese ambient/electronic history and the sounds that quietly rewired Western pop.",
-        "url": "https://www.msg.com/events-tickets/haruomi-hosono-toro-y-moi-radio-city-music-hall-september-2026/3C0064AD78030BD9",
-        "date": "Wed, Sep 16"
+        "name": "Camille Henrot: Dogs",
+        "venue": "Doris C. Freedman Plaza, Central Park (Public Art Fund)",
+        "date_start": "2026-09-09",
+        "date_end": "2027-08-29",
+        "category": "museum",
+        "why": "Henrot's first NYC public commission \u2014 a group of handcrafted dog sculptures that are, characteristically, never just what they look like: dogs as symbols of domesticity, control, and the human need to make wildness legible; free, outdoors, and right there if you're in the park.",
+        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
+        "date": "Sep 9 \u2013 Aug 29"
       },
       {
-        "name": "Fallow Frames Biennial",
-        "venue": "Ridgewood, Queens (street-distributed, self-guided)",
-        "date_start": "2026-09-16",
-        "date_end": "2026-09-19",
-        "category": "popup",
-        "why": "Artists take over ~20 empty street tree beds across Ridgewood's sidewalks with site-specific installations \u2014 infrastructure as canvas, neighborhood as exhibition space, the city's neglected negative space made suddenly loud.",
-        "url": "https://www.fallowframes.org/",
-        "date": "Sep 16\u201319"
-      },
-      {
-        "name": "Shift Ctrl \u2014 Tega Brain, Sam Lavigne, Clarissa Redwine & JS Tan",
-        "venue": "Triple Canopy, New York",
+        "name": "Brice Marden Survey",
+        "venue": "Gagosian, 522 West 21st Street, Chelsea",
         "date_start": "2026-09-17",
-        "date_end": "2026-09-17",
+        "date_end": "2026-12-12",
+        "category": "museum",
+        "why": "A comprehensive career survey \u2014 six decades of paintings, the first show of his work in New York in twenty years, with major loans from the Art Institute of Chicago and the Whitney; Marden's slow, embodied mark-making is the opposite of algorithmic art and hits hard right now for that reason.",
+        "url": "https://gagosian.com",
+        "date": "Sep 17 \u2013 Dec 12"
+      },
+      {
+        "name": "Clio Art Fair \u2014 'I Don't Want to Be Useful'",
+        "venue": "511 West 25th Street, Chelsea, Manhattan",
+        "date_start": "2026-09-17",
+        "date_end": "2026-09-20",
         "category": "popup",
-        "why": "Four artists and researchers at the center of critical tech/art practice convene at Triple Canopy \u2014 the exact overlap of code, culture, and systemic thinking that's in Willem's wheelhouse.",
-        "url": "https://www.canopycanopycanopy.com/",
-        "date": "Thu, Sep 17"
+        "why": "Self-representing artists only, no gallery intermediaries, organized around an 'anti-fair' ethos and a theme of optimistic nihilism \u2014 includes a performance art program; small, weird, and direct in exactly the ways the Armory isn't.",
+        "url": "https://clioartfair.com",
+        "date": "Sep 17\u201320"
+      },
+      {
+        "name": "SPRING/BREAK Art Show \u2014 'Hide N Seek' (15th Edition)",
+        "venue": "555 West 57th Street, Hell's Kitchen, Manhattan",
+        "date_start": "2026-09-23",
+        "date_end": "2026-09-28",
+        "category": "popup",
+        "why": "The curator-driven anti-fair that takes over raw, atypical spaces \u2014 100+ independent curatorial projects organized around encoding, concealment, and symbolic language; consistently the most formally adventurous fair week event, and the antidote to booth-style art fair fatigue.",
+        "url": "https://springbreakartfair.com/",
+        "date": "Sep 23\u201328"
       },
       {
         "name": "Arthur Jafa: I Am Tony",
-        "venue": "New Museum, 235 Bowery, New York",
+        "venue": "New Museum, 235 Bowery, Manhattan",
         "date_start": "2026-09-24",
         "date_end": "2027-01-04",
         "category": "museum",
-        "why": "The largest survey of Jafa's career \u2014 two floors of montaged image, film, sculpture, and new commissions tracing nearly 40 years of work that treats Black visual culture and media as both subject and system; opens in the newly expanded OMA-designed building.",
+        "why": "Jafa's largest-ever survey \u2014 forty years of film, montage, painting, and sculpture that treats images as 'fugitive, virulent cultural agents,' mining internet culture and Black popular music to interrogate how identity is constructed, commodified, and consumed; opens during the window and is immediately the most important show in the city.",
         "url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
         "date": "Sep 24 \u2013 Jan 4"
-      },
-      {
-        "name": "The Armory Show 2026",
-        "venue": "Javits Center, New York",
-        "date_start": "2026-09-24",
-        "date_end": "2026-09-27",
-        "category": "museum",
-        "why": "Not a fair to browse but to use as a map of the current international gallery ecosystem \u2014 worth a focused hour or two to read the room on what scenes are consolidating right now, then leave.",
-        "url": "https://www.thearmoryshow.com/",
-        "date": "Sep 24\u201327"
       }
     ]
   },
