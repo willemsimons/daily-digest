@@ -1,235 +1,184 @@
 {
   "digest": {
-    "intro": "War crimes, cloud wreckage, and 2,000-year-old ink lit up like a Christmas tree.",
+    "intro": "Thin day for hard news, thick day for things worth thinking about. A few genuine signals below.",
     "sections": [
       {
-        "heading": "World",
+        "heading": "The moment that matters",
         "items": [
           {
-            "title": "UN finds reasonable grounds US committed war crimes in Iran school strike",
-            "source": "The Guardian",
-            "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack",
-            "blurb": "A UN fact-finding mission concluded a US Tomahawk missile collapsed the roof of Shajareh Tayyebeh primary school in Minab on February 28, killing 156 civilians including 120 children \u2014 a building they describe as 'clearly identifiable.' The Pentagon's own investigation reportedly concluded months ago; its findings remain classified, while senior commanders are said to have been warned that targeting data was dangerously outdated before the strike.",
+            "title": "Microsoft exec called AI scraping 'the largest theft of labor in human history'",
+            "source": "TechCrunch / Ars Technica",
+            "url": "https://techcrunch.com/2026/09/17/microsoft-exec-called-ai-scraping-the-largest-theft-of-labor-in-human-history-new-unredacted-filings-reveal/",
+            "blurb": "Unredacted court filings reveal internal Microsoft fear of an AI 'doom loop' that kills news orgs and degrades the very training data future models depend on. The candor is more interesting than the claim.",
             "tags": [
+              "AI",
               "geopolitics",
-              "war crimes",
-              "accountability"
-            ]
-          },
-          {
-            "title": "Iran strikes permanently destroyed AWS data across an entire region",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/09/iran-strikes-on-amazon-data-centers-caused-permanent-loss-of-customer-data/",
-            "blurb": "Iranian drone strikes on Amazon data centers in Bahrain wiped out data across all three availability zones \u2014 exceeding what AWS's own multi-AZ redundancy architecture was designed to survive. The destruction represents the first real test of hyperscale cloud infrastructure under kinetic warfare, and the answer is: it failed at a scale the system wasn't designed to contemplate.",
-            "tags": [
-              "infrastructure",
-              "cloud",
-              "war"
-            ]
-          },
-          {
-            "title": "Middle powers are playing every board simultaneously",
-            "source": "EY-Parthenon",
-            "url": "https://www.ey.com/en_gl/insights/geostrategy/geostrategic-analysis",
-            "blurb": "With BRICS (now 10 full members, 10 partner countries) and UNGA both convening this month, countries like Saudi Arabia, Turkey, and Pakistan are running parallel strategies \u2014 signing a new Mecca defense pact while simultaneously pushing for UN reforms. The clearest signal of the post-US-hegemony moment: middle powers aren't choosing sides, they're joining everything at once.",
-            "tags": [
-              "geopolitics",
-              "multilateralism",
-              "BRICS"
-            ]
-          },
-          {
-            "title": "California's net neutrality law traded away for broadband cash",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand",
-            "blurb": "The Trump NTIA is making $1.86 billion in BEAD broadband grants conditional on California agreeing not to enforce its net neutrality law \u2014 not just in funded areas, but statewide, for up to 14 years. California won a lengthy court battle to defend that law; now it's being circumvented not through litigation but through the leverage of infrastructure money.",
-            "tags": [
-              "internet policy",
-              "regulation",
-              "infrastructure"
+              "labor"
             ]
           }
         ]
       },
       {
-        "heading": "Deep craft",
+        "heading": "Tools behaving badly",
         "items": [
           {
-            "title": "Researchers burned their own scrolls to decode Herculaneum's lead-ink papyri",
-            "source": "Ars Technica / PLoS ONE",
-            "url": "https://arstechnica.com/science/2026/09/why-researchers-made-their-own-model-herculaneum-scrolls/",
-            "blurb": "To figure out which of the 2,000-year-old Herculaneum scrolls are worth digitally unwrapping, researchers deliberately charred replica papyrus rolls and ran them through CT scanners \u2014 repurposing software originally designed for lithium-ion battery analysis \u2014 and found that lead-based ink lights up in X-ray 'like a Christmas tree.' The double move of destroying copies to preserve originals, using battery-industry imaging tools to read ancient philosophy, is exactly the kind of unreasonable cross-domain obsession that actually moves archaeology forward.",
+            "title": "ZCode, the GLM coding agent, silently uploads your Git history",
+            "source": "Hacker News",
+            "url": "https://tokenstead.ai/guides/zcode-silent-git-history-upload",
+            "blurb": "Another AI coding tool caught exfiltrating data without disclosure. The pattern is becoming structural, not accidental \u2014 worth knowing which tools are in your environment.",
             "tags": [
-              "archaeology",
-              "imaging",
+              "security",
+              "AI agents",
+              "privacy"
+            ]
+          },
+          {
+            "title": "Researchers used Claude to hack OpenAI",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/09/researchers-used-claude-to-hack-openai/",
+            "blurb": "One frontier model used as an attack vector against a competitor's internal systems. The irony is almost too clean, but the security implication is real.",
+            "tags": [
+              "AI",
+              "security"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Language and what hides in it",
+        "items": [
+          {
+            "title": "Pre-Greek: The lost language hidden within Ancient Greek",
+            "source": "Linguistic Discovery",
+            "url": "https://linguisticdiscovery.com/posts/pre-greek/",
+            "blurb": "Hundreds of Greek words \u2014 including names like Corinth and Olympus \u2014 come from a language spoken before Greeks arrived, now reconstructable only from residue. A genuine rabbit hole about what survives when a civilization is absorbed.",
+            "tags": [
+              "language",
+              "history",
+              "archaeology"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Craft and making",
+        "items": [
+          {
+            "title": "Bend 2 and the Vibe-Coding Trap",
+            "source": "Hacker News",
+            "url": "https://blog.liampwll.com/posts/bend_vibe_coding/",
+            "blurb": "A sharp critique of using LLMs to build in a language specifically designed to prevent AI mistakes \u2014 the irony of vibe-coding your way past the proof system. Touches something real about what it means to understand your tools.",
+            "tags": [
+              "programming languages",
+              "AI",
               "craft"
             ]
           },
           {
-            "title": "How SpaceX went from a tangle of pipes to the Raptor 3",
-            "source": "Construction Physics",
-            "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor",
-            "blurb": "Brian Potter traces how SpaceX reduced the Raptor from a rat's nest of external plumbing to a smooth, almost featureless cylinder \u2014 achieving 35% more thrust in the process \u2014 by internalizing routing, eliminating intermediate fittings, and designing manufacturing constraints into the geometry from the start. The rival CEO who called the Raptor 3 photos 'exaggerated' because no assembled engine could look like that is a good measure of how far outside normal aerospace reasoning this work sits.",
-            "tags": [
-              "manufacturing",
-              "engineering",
-              "space"
-            ]
-          },
-          {
-            "title": "The cryptographic infrastructure behind every US driver's license barcode was recoverable",
-            "source": "ryan.science",
-            "url": "https://ryan.science/blog/keys-not-included",
-            "blurb": "Ryan Fahey reverse-engineered and recovered the signing keys used to verify US state ID barcodes \u2014 infrastructure that underlies identity checks at bars, airports, and dispensaries across the country. The systemic failure isn't just one state's bad key hygiene; it's a story about what happens when critical verification systems get built without anyone treating the cryptographic root of trust as the thing that actually needs protecting.",
-            "tags": [
-              "security",
-              "cryptography",
-              "identity"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Art & surface",
-        "items": [
-          {
-            "title": "Hew Locke's flotilla of colonial ghosts",
-            "source": "Colossal / P\u00b7P\u00b7O\u00b7W",
-            "url": "https://www.thisiscolossal.com/2026/09/hew-locke-the-wanderers-ship-sculptures/",
-            "blurb": "Locke's new show at P\u00b7P\u00b7O\u00b7W suspends a fleet of miniature ships from the gallery ceiling \u2014 galleons alongside tankers, all adorned with pennants and foliage \u2014 as a single argument about how empire's economic logic doesn't end, it just changes vessels. The busts of Victoria and Washington draped in glittering baubles, rendered in Parian ware (19th-century cheap marble substitute), add another layer: prestige materials imitating prestige, all the way down.",
+            "title": "Through Carved Wooden Assemblages, Daniel Minter Communes with the Spiritual",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/09/daniel-minter-wood-sculptures-haggerty/",
+            "blurb": "\"Do objects transmit spirituality? No, they remind us of our spirituality.\" Minter's carved assemblages as a practice of material thinking \u2014 the kind of work that makes you want to pick up a tool.",
             "tags": [
               "sculpture",
-              "colonialism",
-              "contemporary art"
-            ]
-          },
-          {
-            "title": "Fake marble: 2,000 years of humans desperately wanting the real thing",
-            "source": "Aeon Video",
-            "url": "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble",
-            "thumbnail": "https://aeon.co/videos/the-millennia-long-history-of-our-obsession-with-fake-marble",
-            "blurb": "Aeon's essay-film tracks the continuous thread from Roman fresco painters imitating stone grain to modern kitchen countertop laminates \u2014 asking what it means that simulation of a prestige surface has itself become a prestige tradition. The obsession is never really about marble; it's about what surfaces are allowed to signal and who gets to use them.",
-            "tags": [
-              "materials",
-              "design history",
-              "semiotics"
+              "materiality",
+              "art"
             ]
           }
         ]
       },
       {
-        "heading": "Off the map",
+        "heading": "Worth a long look",
         "items": [
           {
-            "title": "Who will taste the cherries if computers count all the petals?",
+            "title": "Cosmic amnesia \u2014 black holes ring like bells, then forget",
             "source": "Aeon",
-            "url": "https://aeon.co/essays/if-computers-count-all-the-petals-who-tastes-the-cherries",
-            "blurb": "Starting from a Silicon Valley test kitchen building an oven designed to produce Michelin-quality food at a button press, this essay excavates the 'computist dream' \u2014 the centuries-long project of debugging subjectivity out of human knowledge until experience becomes pure frictionless data. The question it won't let go of: when a system can optimize every measurable quality of a dish, what exactly is the taster for?",
+            "url": "https://aeon.co/essays/black-holes-ring-like-bells-what-happens-next-is-stranger",
+            "blurb": "A black hole struck by a merger rings like a bell, then settles into silence \u2014 losing almost all memory of what made it. An essay about information, entropy, and forgetting at the scale of spacetime.",
             "tags": [
-              "technology",
-              "epistemology",
-              "experience"
+              "physics",
+              "essay",
+              "cosmology"
             ]
           }
         ]
       }
     ],
-    "facts": [
-      {
-        "fact": "AWS's Bahrain region lost data across all three availability zones \u2014 meaning Iran's strikes exceeded the maximum failure scenario the platform was architecturally designed to survive.",
-        "url": "https://arstechnica.com/gadgets/2026/09/iran-strikes-on-amazon-data-centers-caused-permanent-loss-of-customer-data/"
-      },
-      {
-        "fact": "The Raptor 3 produces about 35% more thrust than the Raptor 1, while looking \u2014 from the outside \u2014 like almost a completely different object with most of its plumbing hidden internally.",
-        "url": "https://www.construction-physics.com/p/how-spacex-streamlined-the-raptor"
-      },
-      {
-        "fact": "Researchers studying Herculaneum scrolls found that lead-based ancient ink illuminates so brightly under X-ray CT that they described it as lighting up 'like a Christmas tree' \u2014 making those scrolls the highest-priority targets for digital unwrapping.",
-        "url": "https://arstechnica.com/science/2026/09/why-researchers-made-their-own-model-herculaneum-scrolls/"
-      },
-      {
-        "fact": "California's BEAD broadband grant agreement would exempt ISPs from the state's net neutrality law not just in areas receiving funding, but statewide, for up to 14 years.",
-        "url": "https://arstechnica.com/tech-policy/2026/09/california-may-gut-state-net-neutrality-law-to-comply-with-trump-admin-demand"
-      },
-      {
-        "fact": "The UN fact-finding mission found that the Minab school struck on February 28 was 'clearly identifiable' as a school \u2014 a key threshold in war crimes law distinguishing lawful military targets from protected civilian sites.",
-        "url": "https://www.theguardian.com/world/2026/sep/17/iran-school-bombing-un-mission-us-military-behind-attack"
-      }
-    ],
+    "facts": [],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Leviathan",
-        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel (Sensory Ethnography Lab)",
-        "why": "A 2012 documentary shot with cameras lashed to fishing nets, hooks, and deckhands \u2014 the physical/digital edge at its most visceral. No narration, no arc, just the system of a commercial fishing boat rendered as pure sensation. The kind of obsessive formal commitment that makes you want to rethink every creative constraint you have.",
-        "url": "https://letterboxd.com/film/leviathan-2012/"
+        "title": "Jeanne Dielman, 23 Commerce Quay, 1080 Brussels",
+        "creator": "Chantal Akerman",
+        "why": "A film about invisible labor, ritual, and the brutal logic of systems hiding inside the domestic \u2014 the feedback loop between routine and selfhood made visible in real time. If you haven't sat with all 3h22m, now is the moment; if you have, it's one of those works that changes on every return.",
+        "url": "https://letterboxd.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/"
       },
       {
         "medium": "art",
-        "title": "The Clock",
-        "creator": "Christian Marclay",
-        "why": "A 24-hour film collage that syncs cinema time to real time \u2014 tens of thousands of clock moments edited into an instrument that actually tells the hour. It's systems thinking as art, a feedback loop between collective cultural memory and lived present. Obsessive craft at an almost incomprehensible scale, and the experience of watching it shifts how you feel inside your own day.",
-        "url": "https://www.paulacoopergallery.com/artists/christian-marclay"
+        "title": "Black Sound / White Cube (and broader practice)",
+        "creator": "Theaster Gates",
+        "why": "Gates builds institutions disguised as art \u2014 record archives, renovation projects, community land trusts \u2014 using the aesthetics of craft and Black music as both material and argument. His work lives exactly at the edge where art functions as community infrastructure, and where beauty is a form of political organizing.",
+        "url": "https://www.theastergates.com/"
       },
       {
         "medium": "music",
-        "title": "Replica",
-        "creator": "Oneohtrix Point Never",
-        "why": "Daniel Lopatin built this 2011 record entirely from TV commercial samples \u2014 jingles, soundbites, product voice-overs \u2014 dissolved into ambient drift until the source is unrecognizable. It's an archaeology of consumer culture that sounds like beautiful ruins; the invisible system (late-capitalist media) becomes emotionally raw through formal transformation.",
-        "url": "https://www.youtube.com/watch?v=ek7EBKVBjSA"
+        "title": "Vespertine",
+        "creator": "Bj\u00f6rk",
+        "why": "A record built entirely around the domestic micro-scale \u2014 breath, heartbeat, the creak of ice \u2014 rendered in generative electronics, harpsichord, and a 50-voice choir. It's a system for turning interior states into weather. The physical/digital boundary doesn't exist here; it was dissolved in the studio.",
+        "url": "https://www.bjork.com/music/vespertine/"
       }
     ],
     "events": [
       {
-        "name": "Camille Henrot: Dogs",
-        "venue": "Doris C. Freedman Plaza, Central Park (Public Art Fund)",
-        "date_start": "2026-09-09",
-        "date_end": "2027-08-29",
+        "name": "Sarah Michelson: nowhere",
+        "venue": "MoMA Atrium, 11 W 53rd St, Manhattan",
+        "date_start": "2026-09-15",
+        "date_end": "2026-10-11",
         "category": "museum",
-        "why": "Henrot's first NYC public commission \u2014 a group of handcrafted dog sculptures that are, characteristically, never just what they look like: dogs as symbols of domesticity, control, and the human need to make wildness legible; free, outdoors, and right there if you're in the park.",
-        "url": "https://www.publicartfund.org/exhibitions/view/2026-exhibitions/",
-        "date": "Sep 9 \u2013 Aug 29"
+        "why": "A live performance exhibition \u2014 not a show with a curtain but a durational, spatial presence running through the atrium over weeks \u2014 Michelson is one of the few choreographers who treats the architectural and social system of the gallery itself as the material.",
+        "url": "https://www.moma.org/",
+        "date": "Sep 15 \u2013 Oct 11"
       },
       {
-        "name": "Brice Marden Survey",
-        "venue": "Gagosian, 522 West 21st Street, Chelsea",
+        "name": "Gaetano Pesce: A chair is a nest, is a foot, is a\u2026",
+        "venue": "Salon 94, 1 Freeman Alley, Manhattan",
         "date_start": "2026-09-17",
-        "date_end": "2026-12-12",
+        "date_end": "2026-10-18",
+        "category": "popup",
+        "why": "Pesce spent his career collapsing the boundary between object, body, and language \u2014 his furniture refuses to behave as furniture, which is the whole point; a tight gallery show of his work is a rare chance to be around objects that are genuinely trying to mean something.",
+        "url": "https://salon94.com/",
+        "date": "Sep 17 \u2013 Oct 18"
+      },
+      {
+        "name": "Taryn Simon: Father Country I Do Love You",
+        "venue": "Solomon R. Guggenheim Museum, 1071 Fifth Ave, Manhattan",
+        "date_start": "2026-09-18",
+        "date_end": "2027-03-14",
         "category": "museum",
-        "why": "A comprehensive career survey \u2014 six decades of paintings, the first show of his work in New York in twenty years, with major loans from the Art Institute of Chicago and the Whitney; Marden's slow, embodied mark-making is the opposite of algorithmic art and hits hard right now for that reason.",
-        "url": "https://gagosian.com",
-        "date": "Sep 17 \u2013 Dec 12"
-      },
-      {
-        "name": "Clio Art Fair \u2014 'I Don't Want to Be Useful'",
-        "venue": "511 West 25th Street, Chelsea, Manhattan",
-        "date_start": "2026-09-17",
-        "date_end": "2026-09-20",
-        "category": "popup",
-        "why": "Self-representing artists only, no gallery intermediaries, organized around an 'anti-fair' ethos and a theme of optimistic nihilism \u2014 includes a performance art program; small, weird, and direct in exactly the ways the Armory isn't.",
-        "url": "https://clioartfair.com",
-        "date": "Sep 17\u201320"
-      },
-      {
-        "name": "SPRING/BREAK Art Show \u2014 'Hide N Seek' (15th Edition)",
-        "venue": "555 West 57th Street, Hell's Kitchen, Manhattan",
-        "date_start": "2026-09-23",
-        "date_end": "2026-09-28",
-        "category": "popup",
-        "why": "The curator-driven anti-fair that takes over raw, atypical spaces \u2014 100+ independent curatorial projects organized around encoding, concealment, and symbolic language; consistently the most formally adventurous fair week event, and the antidote to booth-style art fair fatigue.",
-        "url": "https://springbreakartfair.com/",
-        "date": "Sep 23\u201328"
+        "why": "Simon's first-ever fill of the entire Guggenheim rotunda \u2014 42 interconnected works tracing one unnamed federal agent's life across photography, text, video, and sculpture, nearly a decade in the making; it's precisely about the invisible forces and hidden systems that shape national identity, and visitors choose their own path through the spiral.",
+        "url": "https://www.guggenheim.org/exhibition/taryn-simon",
+        "date": "Sep 18 \u2013 Mar 14"
       },
       {
         "name": "Arthur Jafa: I Am Tony",
-        "venue": "New Museum, 235 Bowery, Manhattan",
+        "venue": "The New Museum, 235 Bowery, Manhattan",
         "date_start": "2026-09-24",
         "date_end": "2027-01-04",
         "category": "museum",
-        "why": "Jafa's largest-ever survey \u2014 forty years of film, montage, painting, and sculpture that treats images as 'fugitive, virulent cultural agents,' mining internet culture and Black popular music to interrogate how identity is constructed, commodified, and consumed; opens during the window and is immediately the most important show in the city.",
+        "why": "The largest Jafa survey ever mounted \u2014 two full floors of his filmic collage practice, including Love is the Message, The Message is Death and The White Album, plus new work; his method of cutting archival footage, music video, and documentary material into 'affective proximities' is exactly the kind of unreasonably deep system-building in image-making that rewards close attention.",
         "url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
         "date": "Sep 24 \u2013 Jan 4"
+      },
+      {
+        "name": "The Armory Show 2026",
+        "venue": "Jacob K. Javits Convention Center, 429 11th Ave, Manhattan",
+        "date_start": "2026-09-25",
+        "date_end": "2026-09-27",
+        "category": "museum",
+        "why": "230+ galleries across four days, with the curated Focus and Platform sections centering Caribbean diaspora artists \u2014 worth it less for the blue-chip booths than for the Presents section's first-timers and the nonprofit floor, where the fair's actual social logic becomes legible.",
+        "url": "https://www.thearmoryshow.com/visit",
+        "date": "Sep 25\u201327"
       }
     ]
   },
