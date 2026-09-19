@@ -1,5 +1,5 @@
 {
-  "feeds": 87,
+  "feeds": 82,
   "mined": 50,
   "videos": 6,
   "video_titles": [
@@ -13,13 +13,13 @@
   "supplemental": false,
   "final_items": 7,
   "final_sources": [
-    "Aeon",
     "Ars Technica",
-    "Colossal",
-    "Hacker News",
-    "Linguistic Discovery",
-    "TechCrunch / Ars Technica"
+    "MIT Technology Review",
+    "Simon Willison",
+    "Stanford Medicine / bioRxiv",
+    "Terry Tao's Blog",
+    "onionfutures.com"
   ],
   "had_video": false,
-  "run_at": "2026-09-18T15:09:02.297751+00:00"
+  "run_at": "2026-09-19T14:44:20.236041+00:00"
 }
