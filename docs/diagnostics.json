@@ -1,24 +1,24 @@
 {
-  "feeds": 63,
-  "mined": 50,
-  "videos": 5,
+  "feeds": 65,
+  "mined": 48,
+  "videos": 4,
   "video_titles": [
     "Heating A Ball Just By Squeezing It",
     "The Scariest Chart In Engineering",
     "Hooded Seals are Really Weird...",
-    "Why did Nobody Make this Before? SUNLU i10 Dry Cabinet",
-    "I Tested Two 3D Scanners: One Is Simply Better!"
+    "Why did Nobody Make this Before? SUNLU i10 Dry Cabinet"
   ],
   "supplemental": false,
-  "final_items": 6,
+  "final_items": 7,
   "final_sources": [
-    "ASM.D. Aesthetics",
-    "Hackaday",
-    "IACR ePrint",
-    "Lifespan Research Institute",
-    "millenniumproblems.bio",
-    "sockpuppet.org"
+    "Ars Technica",
+    "Bryan Cantrill's blog",
+    "Libroot.org",
+    "MIT Technology Review",
+    "Nautilus",
+    "Wired ME",
+    "datagubbe.se"
   ],
   "had_video": false,
-  "run_at": "2026-09-20T14:50:58.580659+00:00"
+  "run_at": "2026-09-21T17:12:28.327958+00:00"
 }

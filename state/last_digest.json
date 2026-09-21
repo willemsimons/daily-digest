@@ -1,68 +1,84 @@
 {
   "digest": {
-    "intro": "Cryptography cracks, organs grow inside organs, and the world fragments quietly.",
+    "intro": "Surveillance systems failing the people they claim to protect \u2014 in every register.",
     "sections": [
       {
-        "heading": "Science worth knowing",
+        "heading": "World",
         "items": [
           {
-            "title": "Thymus Transplanted Into Spleen Grows, Restores Immune Function",
-            "source": "Lifespan Research Institute",
-            "url": "https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/",
-            "blurb": "Researchers implanted donor thymic tissue into mouse spleens \u2014 not the textbook transplant site \u2014 and it grew, behaved like a real thymus (training T cells, establishing self-tolerance), and measurably improved responses to both viral infection and tumors compared to controls. The practical hook: thymic involution with age is one of the cleaner mechanistic explanations for why old immune systems fail, and the spleen turns out to be a far more hospitable host than the previously tried thigh muscle. One organ inside another, working.",
+            "title": "The US spent billions on a virtual border wall. People are dying in front of its cameras.",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
+            "blurb": "A 15-month investigation by MIT Tech Review and Times of San Diego mapped deaths near Anduril-built AI surveillance towers and found the system routinely fails to trigger the response chain it was designed to initiate \u2014 Jos\u00e9 Morales Bernal died within range of three towers that were supposed to detect him. The story is less about malfunction than about a technology deployed as political theater, where the appearance of control matters more than its operation.",
             "tags": [
-              "immunology",
-              "longevity",
-              "biology"
+              "surveillance",
+              "border",
+              "accountability journalism"
             ]
           },
           {
-            "title": "The Millennium Problems, But for Biology",
-            "source": "millenniumproblems.bio",
-            "url": "https://millenniumproblems.bio/",
-            "blurb": "Someone has attempted to do for biology what the Clay Institute did for mathematics: enumerate the genuinely foundational unsolved problems with crisp, falsifiable criteria for what would count as a solution. The two excerpted problems alone are humbling \u2014 demonstrating abiogenesis from plausible chemistry (self-replicating cells increasing 10\u2076-fold), and reversible whole-body cryopreservation of live adult mice. This is a document worth sitting with: it's a structured map of civilizational ignorance.",
+            "title": "Trump dismisses AI safety concerns as a hoax, announces 'AI Force' and an 'AI Tsar'",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/",
+            "blurb": "Rather than engaging with growing calls from industry figures for a development slowdown, Trump branded AI safety a left-wing hoax alongside climate change and Russiagate, and announced a military-framed 'AI Force' with no technical specifics. The significance isn't the announcement \u2014 it's that governance doctrine gets locked in at exactly this moment of institutional formlessness, before anyone understands what they're building.",
             "tags": [
-              "biology",
-              "open problems",
-              "science"
-            ]
-          },
-          {
-            "title": "FDA Advisory Panel Votes to Allow BPC-157 and Mots-C Compounding",
-            "source": "ASM.D. Aesthetics",
-            "url": "https://www.asmdaesthetics.com/blog-posts/the-future-of-peptide-therapy-longevity-recovery",
-            "blurb": "On July 23\u201324, an FDA advisory committee recommended allowing six peptides \u2014 including BPC-157 and Mots-C \u2014 to be compounded by licensed pharmacies, over objections from career scientists about thin human-trial evidence. It's a recommendation, not a finalized rule, and as this physician-authored piece is honest enough to say: neither compound is proven to treat a specific condition in humans yet. Still, it's the regulatory inflection point that determines whether these stay in gray-market vials or enter the prescription mainstream.",
-            "tags": [
-              "peptides",
-              "fda",
-              "longevity"
+              "ai governance",
+              "policy",
+              "us politics"
             ]
           }
         ]
       },
       {
-        "heading": "Provenance, proof, and the authentication problem",
+        "heading": "Buried systems",
         "items": [
           {
-            "title": "ZK-JPEG: Proving an Image Was Edited Without Revealing the Original",
-            "source": "IACR ePrint",
-            "url": "https://eprint.iacr.org/2026/2039",
-            "blurb": "The core problem this paper solves: camera-attestation signatures (the main tool for proving an image came from a real camera) break the moment you crop, blur, or JPEG-compress the image \u2014 which you always do. ZK-JPEG builds a zero-knowledge proof that survives lossy JPEG compression, letting you prove a published image was correctly derived from an authenticated original without ever revealing that original. For anyone working at the intersection of digital and physical authenticity, this is the actual cryptographic infrastructure the provenance argument has been missing.",
+            "title": "What actually happened to the Snowden archive",
+            "source": "Libroot.org",
+            "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
+            "blurb": "The last document from the Snowden archive was published May 29, 2019 \u2014 The Guardian stopped in February 2014, Der Spiegel in January 2015, and The Intercept closed its archive in March 2019. This piece traces the organizational and personal dynamics that buried what was supposed to be the most consequential leak in NSA history, with documented war crimes still unpublished \u2014 not because of government pressure, but because of the journalists and institutions that held the material.",
             "tags": [
-              "cryptography",
-              "provenance",
-              "art"
+              "journalism",
+              "surveillance",
+              "institutional failure"
             ]
           },
           {
-            "title": "How to Use an LLM Without Letting It Eat Your Voice",
-            "source": "sockpuppet.org",
-            "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
-            "blurb": "The two rules are simple and hard: write everything yourself first, then feed it to the model to find flaws \u2014 and never adopt a single word it suggests, only the diagnosis. The reasoning is sharp: frontier models are supernaturally good at selecting pleasing phrases, which is exactly what makes their word choices toxic to your voice; readers detect LLM prose in parts per trillion. Using it as a copyeditor rather than a ghostwriter is structurally different from how most people use it, and the distinction actually holds up.",
+            "title": "Bryan Cantrill: What Sun Microsystems actually got wrong",
+            "source": "Bryan Cantrill's blog",
+            "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
+            "blurb": "Cantrill's distillation after 15 more years of reflection: Sun 'had become bored with the mechanics of running a business' \u2014 illustrated by the specific episode of a startup trying to buy Sun gear to run their OpenSolaris infrastructure, and Sun fumbling it. It's a precise autopsy of how technical brilliance without institutional coherence collapses, written by someone who genuinely loved the place and still sees clearly.",
             "tags": [
-              "writing",
-              "llm",
+              "tech culture",
+              "institutional failure",
               "craft"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The physical-digital edge",
+        "items": [
+          {
+            "title": "CRT scanlines weren't a limitation \u2014 they were part of the image",
+            "source": "datagubbe.se",
+            "url": "https://datagubbe.se/crt/",
+            "blurb": "This obsessive 2024 piece argues that pixel artists of the 8- and 16-bit era were designing for the CRT as a compositing layer \u2014 the scanlines, phosphor bloom, and signal interference were load-bearing aesthetic elements, not noise to be corrected. Modern 'crisp' pixel art isn't more faithful to the originals; it's a different and impoverished image, like printing a halftone painting at 1200dpi and calling it restoration.",
+            "tags": [
+              "pixel art",
+              "display technology",
+              "craft"
+            ]
+          },
+          {
+            "title": "ZuckOff: A Bluetooth fingerprinting app that tells you if Meta glasses are in the room",
+            "source": "Wired ME",
+            "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
+            "blurb": "Polish developer Pawel Szydlowski bought multiple smart glasses models, recorded their Bluetooth broadcast signatures, and built a passive detection app that flags Ray-Ban Meta, Oakley Meta, and Snap Spectacles nearby \u2014 because the recording indicator LEDs have proven trivially defeatable with tape. Seven million pairs of Meta glasses were sold in 2025; this is what counter-surveillance looks like when it has to come from a single developer rather than regulation.",
+            "tags": [
+              "surveillance",
+              "privacy",
+              "physical-digital"
             ]
           }
         ]
@@ -71,14 +87,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Defeating a Chip's Secure Boot With a Laser, One Bit at a Time",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/09/19/laser-your-way-into-debug-mode-on-the-rp2350/",
-            "blurb": "The Ledger Donjon security team decapsulated an RP2350 microcontroller, located the debug-enable register using photon-emission electron microscopy, then shone an infrared laser through the back of the silicon wafer at precisely the right clock cycle to flip the bits \u2014 unlocking the secure execution zone and reading out the 128-bit secret Raspberry Pi had hidden as a hacking challenge. The RP2350 has glitch detection specifically to block the usual 'zap it until it obeys' approach, so they went slower and more precise instead. Hardware security as a kind of deranged watchmaking.",
+            "title": "The oldest evidence of drug use \u2014 25,000 years old \u2014 is already a story about addiction",
+            "source": "Nautilus",
+            "url": "https://nautil.us/the-oldest-evidence-of-drug-use-is-also-a-story-about-addiction-1285144/",
+            "blurb": "Archaeologist Adam Brumm found prehistoric teeth from 25,000 and 7,000 years ago with grooves worn all the way through the enamel \u2014 consistent with habitual betel nut use, confirmed by chemical testing and then by soaking the nuts in artificial saliva and running the extract on genetically modified frog eggs expressing human brain receptors. The finding reframes addiction not as a modern pathology but as something that arrived with us, baked into the oldest recreational behavior we can document.",
             "tags": [
-              "hardware",
-              "security",
-              "craft"
+              "archaeology",
+              "deep time",
+              "human behavior"
             ]
           }
         ]
@@ -86,76 +102,68 @@
     ],
     "facts": [
       {
-        "fact": "Thymic tissue implanted into mouse spleens \u2014 not the usual site \u2014 grew normally and improved both anti-tumor and antiviral immune responses compared to controls, suggesting the spleen is a better host organ than previously tried thigh muscle.",
-        "url": "https://lifespan.io/thymus-grafts-grow-in-mouse-spleens-restoring-immunity/"
+        "fact": "The Guardian stopped publishing Snowden documents in February 2014 \u2014 less than a year after the first revelations \u2014 and no news outlet has published a single document from the archive since May 29, 2019.",
+        "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive"
       },
       {
-        "fact": "JPEG compression invalidates camera-attestation signatures, meaning nearly every photograph shared online \u2014 even one from an authenticated camera \u2014 currently has no cryptographic proof of its provenance; ZK-JPEG is the first system to fix this while surviving lossy compression.",
-        "url": "https://eprint.iacr.org/2026/2039"
+        "fact": "Roughly seven million pairs of Meta smart glasses were sold in 2025, and the recording indicator light can be disabled with a piece of tape \u2014 Meta only announced detection of tampered LEDs in July 2026.",
+        "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff"
       },
       {
-        "fact": "The FDA's compounding advisory committee voted to allow BPC-157 and Mots-C to be prepared by licensed pharmacies despite career FDA scientists objecting that human-trial evidence remains thin \u2014 and the rule is still not finalized as of this writing.",
-        "url": "https://www.asmdaesthetics.com/blog-posts/the-future-of-peptide-therapy-longevity-recovery"
+        "fact": "Betel nut \u2014 still used by around 10% of the global population \u2014 may be the oldest recreational drug known, with evidence of habitual use dating back 25,000 years, confirmed by chemical traces in prehistoric teeth.",
+        "url": "https://nautil.us/the-oldest-evidence-of-drug-use-is-also-a-story-about-addiction-1285144/"
       },
       {
-        "fact": "The Ledger Donjon team defeated the RP2350's secure boot \u2014 a chip specifically designed with glitch detection to resist fault injection \u2014 by firing an infrared laser through the back of the decapped silicon wafer to flip the debug-enable register bit at the right clock cycle.",
-        "url": "https://hackaday.com/2026/09/19/laser-your-way-into-debug-mode-on-the-rp2350/"
+        "fact": "Jos\u00e9 Morales Bernal died in the New Mexico desert on April 8, 2024 within range of three AI surveillance towers specifically installed to detect border crossers \u2014 the alert-and-response chain the system was designed to trigger did not save him.",
+        "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a small WebGL or canvas sketch that renders pixel art the way a CRT actually saw it: not just scanlines, but phosphor persistence, RGB subpixel bloom, and slight signal bleed between colors. The goal isn't a filter \u2014 it's to understand the CRT as a compositor. Take one sprite or shape you've made before and redesign it specifically for this display model, where blur is a tool. See if the piece changes when you're designing for the medium rather than against it."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Daughters of the Dust",
-        "creator": "Julie Dash",
-        "why": "The first feature film by a Black woman theatrically released in the US \u2014 a non-linear, myth-saturated portrait of a Gullah family on the eve of migration. Stunning visual language built entirely on ritual, memory, and symbolic weight; the kind of film that rewires how you think about time and image. Arthur Jafa was the cinematographer.",
-        "url": "https://letterboxd.com/film/daughters-of-the-dust/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "The ur-text for anyone interested in how images accumulate meaning across time, culture, and memory \u2014 Marker built an essay-film that treats the act of looking itself as the subject, toggling between Japan, Guinea-Bissau, and a floating narrator constructing a theory of images from found footage and obsessive attention. It's the kind of film that makes you want to build something the moment it ends.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Brice Marden: Six Decades",
-        "creator": "Brice Marden",
-        "why": "The first comprehensive New York survey of Marden's paintings in twenty years \u2014 six decades of work that lives exactly at the edge between system and feeling, where grids dissolve into something almost nervous. Pure obsessive mark-making with a deep formal logic underneath.",
-        "url": "https://www.matthewmarks.com"
+        "title": "The Noisy Dozen / Systems & Feedback (survey)",
+        "creator": "Hans Haacke",
+        "why": "Haacke spent fifty years making art that is literally systems \u2014 biological, financial, political \u2014 rendered as sculptural or photographic propositions. His real estate pieces from the '70s map landlord networks as diagrams; his live organisms track entropy in real time. A clear ancestor of generative and interactive practice, except with merciless social consequence built in.",
+        "url": "https://www.moma.org/artists/2412"
       },
       {
         "medium": "music",
         "title": "Vespertine",
         "creator": "Bj\u00f6rk",
-        "why": "A record built from micro-sounds \u2014 music boxes, harps, a choir of 50 voices \u2014 assembled into an impossibly intricate interior architecture. Every sound is tactile and placed. The system is the feeling. If you haven't heard it in a while, it still sounds like something that shouldn't exist.",
-        "url": "https://bjork.com"
+        "why": "A record built entirely around the phenomenology of interiority \u2014 microbeats, harp, choir, music boxes assembled into a private architecture that somehow feels both algorithmic and handmade. The production language is as deliberate and original as any visual system, and the gap between its tiny sounds and vast emotional scale is exactly the kind of expressive paradox that tends to unlock something.",
+        "url": "https://bjork.com/music/"
       }
     ],
     "events": [
       {
-        "name": "Aziz Hazara: Coming Home",
-        "venue": "SculptureCenter, 44-19 Purves St, Long Island City, Queens",
-        "date_start": "2026-09-19",
-        "date_end": "2026-12-28",
+        "name": "MoMA: Sarah Michelson \u2014 nowhere",
+        "venue": "MoMA, 11 West 53rd St, Manhattan",
+        "date_start": "2026-09-15",
+        "date_end": "2026-10-11",
         "category": "museum",
-        "why": "Hazara gathered debris left at Bagram Airfield after the US military's withdrawal \u2014 kneepads, electronics, kitchenware \u2014 and returned it to exhibition as a durational act of witness; the artist himself cannot attend because his Afghan passport is currently banned from entry, which is itself part of the work.",
-        "url": "https://www.sculpture-center.org/exhibitions/14935/aziz-hazara-coming-home",
-        "date": "Sep 19 \u2013 Dec 28"
+        "why": "A live performance exhibition in MoMA's atrium \u2014 Michelson's choreography is rigorous, body-as-system work that collapses the line between dance, durational installation, and visual art; seeing it in a museum frame rather than a theater completely changes the feedback loop.",
+        "url": "https://www.moma.org/",
+        "date": "Sep 15 \u2013 Oct 11"
       },
       {
-        "name": "Johanna Hedva: Gravity, My / Favorite Enemy",
-        "venue": "Center for Art, Research and Alliances (CARA), Manhattan",
-        "date_start": "2026-09-19",
-        "date_end": "2026-12-13",
+        "name": "Taryn Simon: Father Country I Do Love You",
+        "venue": "Solomon R. Guggenheim Museum, 1071 Fifth Ave, Manhattan",
+        "date_start": "2026-09-18",
+        "date_end": "2027-03-14",
         "category": "museum",
-        "why": "Hedva works at the intersection of chronic illness, cosmology, and sound \u2014 the kind of practice that fuses body-as-system with deep-time thinking, built around feedback between pain and beauty; a genuinely unusual institutional debut for this show.",
-        "url": "https://www.cara.nyc",
-        "date": "Sep 19 \u2013 Dec 13"
-      },
-      {
-        "name": "SPRING/BREAK Art Show \u2014 'HIDE N SEEK'",
-        "venue": "555 West 57th Street, Hell's Kitchen, Manhattan",
-        "date_start": "2026-09-23",
-        "date_end": "2026-09-28",
-        "category": "popup",
-        "why": "The curator-driven anti-fair that takes over an unlikely raw space during Armory Week \u2014 100+ independently curated exhibitions organized around encoded meaning, hidden symbolism, and materialist mysticism; the format is explicitly against the booth-grid model and tends to be the most formally strange thing happening that week.",
-        "url": "https://springbreakartfair.com",
-        "date": "Sep 23\u201328"
+        "why": "Simon spent nearly a decade reconstructing the hidden life of one unnamed federal agent across 42 chapters of photos, text, video, and sculpture \u2014 it's a labyrinth of institutional power and personal memory that fills the entire Wright rotunda, and the building's spiral ramp literally becomes the bureaucratic logic of the piece.",
+        "url": "https://www.guggenheim.org/exhibition/taryn-simon",
+        "date": "Sep 18 \u2013 Mar 14"
       },
       {
         "name": "Arthur Jafa: I Am Tony",
@@ -163,37 +171,31 @@
         "date_start": "2026-09-24",
         "date_end": "2027-01-04",
         "category": "museum",
-        "why": "The first full US survey of Jafa's nearly forty-year practice \u2014 spanning film, painting, sculpture, and photography across two floors of the newly expanded OMA-designed building \u2014 including Love is the Message, The Message is Death and new premieres; the show treats images as cultural agents with physical consequences.",
+        "why": "The largest-ever survey of Jafa's forty-year practice \u2014 including 'Love is the Message, The Message is Death' \u2014 across two floors of the newly expanded OMA-designed building; his method of 'affective proximities' (collaging Black visual culture from cinema, social media, and news) is one of the most rigorous image-systems working today.",
         "url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
         "date": "Sep 24 \u2013 Jan 4"
       },
       {
         "name": "The Armory Show 2026",
-        "venue": "Javits Center, 429 11th Avenue, Hudson Yards, Manhattan",
+        "venue": "Javits Center, 429 11th Ave, Manhattan",
         "date_start": "2026-09-24",
         "date_end": "2026-09-27",
         "category": "popup",
-        "why": "Over 230 galleries from 30 countries, with this year's focused sections on Caribbean and diasporic art \u2014 worth one pass for the sheer density of new international work, and to triangulate what the market currently thinks matters.",
-        "url": "https://thearmoryshow.com",
+        "why": "The 32nd edition foregrounds galleries and artists from the Caribbean diaspora in its curated Platform and Focus sections \u2014 the fair is best used as a field scan of what 230 international galleries are betting on right now, which is its own kind of data.",
+        "url": "https://www.thearmoryshow.com/",
         "date": "Sep 24\u201327"
+      },
+      {
+        "name": "Lower East Side Fall Gallery Walk (late-night)",
+        "venue": "Lower East Side galleries \u2014 Orchard, Eldridge, Bowery, Manhattan",
+        "date_start": "2026-09-25",
+        "date_end": "2026-09-25",
+        "category": "popup",
+        "why": "The LES's concentrated cluster of compact, experimental galleries \u2014 Miguel Abreu, TOTAH, Martos, Perrotin, and others \u2014 runs a coordinated late-night gallery walk this Thursday; the neighborhood skews toward discovery over blue-chip, and the density means you can cover a lot of genuinely weird ground in one evening.",
+        "url": "https://artinnewyorkcity.com/2026/09/07/lower-east-side-gallery-guide-for-fall",
+        "date": "Fri, Sep 25"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Contraptions \u2014 Venkatesh Rao",
-      "feed_url": "https://contraptions.venkateshrao.com/feed",
-      "why": "Rao's active post-Ribbonfarm home: long-form essays on taste cultures, technology aesthetics, coordination theory, and status \u2014 hitting at least six of the reader's core interests in a single voice."
-    },
-    {
-      "name": "Lifespan.io News",
-      "feed_url": "https://lifespan.io/feed",
-      "why": "Independent non-profit outlet (formed by the 2024 SENS + LEAF merger) reporting daily on aging research, stem cells, rejuvenation biotech, and longevity science \u2014 credible, conflict-free, and closely matched to the reader's health and longevity track."
-    },
-    {
-      "name": "Kneeling Bus \u2014 Drew Austin",
-      "feed_url": "https://kneelingbus.substack.com/feed",
-      "why": "Recommended by Venkatesh Rao himself; Austin writes precise, unhurried essays on how technology reshapes urban behavior, social software, and the felt texture of modern life \u2014 a strong fit for the reader's interest in the aesthetics of technology and alternative institutions."
-    }
-  ]
+  "trial_sources": []
 }
