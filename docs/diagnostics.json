@@ -1,8 +1,9 @@
 {
-  "feeds": 65,
-  "mined": 48,
-  "videos": 4,
+  "feeds": 82,
+  "mined": 46,
+  "videos": 5,
   "video_titles": [
+    "This Machine Made Wartime Germany (Almost) Impossible to Defeat",
     "Heating A Ball Just By Squeezing It",
     "The Scariest Chart In Engineering",
     "Hooded Seals are Really Weird...",
@@ -11,14 +12,14 @@
   "supplemental": false,
   "final_items": 7,
   "final_sources": [
-    "Ars Technica",
-    "Bryan Cantrill's blog",
-    "Libroot.org",
-    "MIT Technology Review",
-    "Nautilus",
-    "Wired ME",
-    "datagubbe.se"
+    "Hackaday",
+    "Science.org",
+    "Veritasium",
+    "brand.io",
+    "cryptocellar.org",
+    "dbushell.com",
+    "flat assembler forum"
   ],
-  "had_video": false,
-  "run_at": "2026-09-21T17:12:28.327958+00:00"
+  "had_video": true,
+  "run_at": "2026-09-22T15:39:27.319786+00:00"
 }

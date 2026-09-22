@@ -1,100 +1,101 @@
 {
   "digest": {
-    "intro": "Surveillance systems failing the people they claim to protect \u2014 in every register.",
+    "intro": "Consent overridden, codes cracked, cells transplanted \u2014 systems revealing their hidden logic.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The US spent billions on a virtual border wall. People are dying in front of its cameras.",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/",
-            "blurb": "A 15-month investigation by MIT Tech Review and Times of San Diego mapped deaths near Anduril-built AI surveillance towers and found the system routinely fails to trigger the response chain it was designed to initiate \u2014 Jos\u00e9 Morales Bernal died within range of three towers that were supposed to detect him. The story is less about malfunction than about a technology deployed as political theater, where the appearance of control matters more than its operation.",
+            "title": "NASA's Mars Sample Return Is Dead",
+            "source": "Science.org",
+            "url": "https://science.org",
+            "blurb": "The Mars Sample Return mission \u2014 the most ambitious interplanetary science project in NASA's pipeline \u2014 has been officially cancelled, ending the prospect of bringing back the samples Perseverance has been caching on the Martian surface. This isn't a budget trim; it's a civilizational choice about how much the US invests in deep planetary science when costs balloon and timelines stretch past political attention spans. The samples sit there anyway.",
             "tags": [
-              "surveillance",
-              "border",
-              "accountability journalism"
-            ]
-          },
-          {
-            "title": "Trump dismisses AI safety concerns as a hoax, announces 'AI Force' and an 'AI Tsar'",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/09/trump-rejects-ai-slowdown-calls-launches-ai-force-instead/",
-            "blurb": "Rather than engaging with growing calls from industry figures for a development slowdown, Trump branded AI safety a left-wing hoax alongside climate change and Russiagate, and announced a military-framed 'AI Force' with no technical specifics. The significance isn't the announcement \u2014 it's that governance doctrine gets locked in at exactly this moment of institutional formlessness, before anyone understands what they're building.",
-            "tags": [
-              "ai governance",
-              "policy",
-              "us politics"
+              "space",
+              "science policy",
+              "nasa"
             ]
           }
         ]
       },
       {
-        "heading": "Buried systems",
+        "heading": "Hidden systems",
         "items": [
           {
-            "title": "What actually happened to the Snowden archive",
-            "source": "Libroot.org",
-            "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive",
-            "blurb": "The last document from the Snowden archive was published May 29, 2019 \u2014 The Guardian stopped in February 2014, Der Spiegel in January 2015, and The Intercept closed its archive in March 2019. This piece traces the organizational and personal dynamics that buried what was supposed to be the most consequential leak in NSA history, with documented war crimes still unpublished \u2014 not because of government pressure, but because of the journalists and institutions that held the material.",
+            "title": "Spymarks, Not Watermarks",
+            "source": "brand.io",
+            "url": "https://brand.io/article/spymarks/",
+            "blurb": "Google's SynthID-O variant encodes a 136-bit payload into a 512\u00d7512-pixel image \u2014 enough room for a 64-bit database identifier linking back to your name, IP, date of birth, and political affiliation, with 72 bits left for error correction. The public framing is 'AI content detection'; the actual mechanism is persistent covert identity tracking baked into pixel frequency data. The word 'watermark' is doing a lot of moral laundering here.",
             "tags": [
-              "journalism",
               "surveillance",
-              "institutional failure"
+              "ai",
+              "infrastructure"
             ]
           },
           {
-            "title": "Bryan Cantrill: What Sun Microsystems actually got wrong",
-            "source": "Bryan Cantrill's blog",
-            "url": "https://bcantrill.dtrace.org/2026/09/20/what-sun-got-wrong/",
-            "blurb": "Cantrill's distillation after 15 more years of reflection: Sun 'had become bored with the mechanics of running a business' \u2014 illustrated by the specific episode of a startup trying to buy Sun gear to run their OpenSolaris infrastructure, and Sun fumbling it. It's a precise autopsy of how technical brilliance without institutional coherence collapses, written by someone who genuinely loved the place and still sees clearly.",
+            "title": "I Said No and Apple Said Yes",
+            "source": "dbushell.com",
+            "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
+            "blurb": "A developer documents the precise moment \u2014 9:51am, February 5, 2025 \u2014 when macOS 15.3 re-enabled a feature he'd disabled, phoning home every 15 minutes with personal data. After upgrading to macOS 27, Apple had removed the off switch entirely, hiding partial controls inside Screen Time parental restrictions. It's a clean case study in how platform infrastructure quietly reclassifies consent as a preference it can override.",
             "tags": [
-              "tech culture",
-              "institutional failure",
-              "craft"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "The physical-digital edge",
-        "items": [
-          {
-            "title": "CRT scanlines weren't a limitation \u2014 they were part of the image",
-            "source": "datagubbe.se",
-            "url": "https://datagubbe.se/crt/",
-            "blurb": "This obsessive 2024 piece argues that pixel artists of the 8- and 16-bit era were designing for the CRT as a compositing layer \u2014 the scanlines, phosphor bloom, and signal interference were load-bearing aesthetic elements, not noise to be corrected. Modern 'crisp' pixel art isn't more faithful to the originals; it's a different and impoverished image, like printing a halftone painting at 1200dpi and calling it restoration.",
-            "tags": [
-              "pixel art",
-              "display technology",
-              "craft"
-            ]
-          },
-          {
-            "title": "ZuckOff: A Bluetooth fingerprinting app that tells you if Meta glasses are in the room",
-            "source": "Wired ME",
-            "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff",
-            "blurb": "Polish developer Pawel Szydlowski bought multiple smart glasses models, recorded their Bluetooth broadcast signatures, and built a passive detection app that flags Ray-Ban Meta, Oakley Meta, and Snap Spectacles nearby \u2014 because the recording indicator LEDs have proven trivially defeatable with tape. Seven million pairs of Meta glasses were sold in 2025; this is what counter-surveillance looks like when it has to come from a single developer rather than regulation.",
-            "tags": [
-              "surveillance",
               "privacy",
-              "physical-digital"
+              "apple",
+              "consent"
             ]
           }
         ]
       },
       {
-        "heading": "Off the map",
+        "heading": "Cracks in old things",
         "items": [
           {
-            "title": "The oldest evidence of drug use \u2014 25,000 years old \u2014 is already a story about addiction",
-            "source": "Nautilus",
-            "url": "https://nautil.us/the-oldest-evidence-of-drug-use-is-also-a-story-about-addiction-1285144/",
-            "blurb": "Archaeologist Adam Brumm found prehistoric teeth from 25,000 and 7,000 years ago with grooves worn all the way through the enamel \u2014 consistent with habitual betel nut use, confirmed by chemical testing and then by soaking the nuts in artificial saliva and running the extract on genetically modified frog eggs expressing human brain receptors. The finding reframes addiction not as a modern pathology but as something that arrived with us, baked into the oldest recreational behavior we can document.",
+            "title": "GPT-6 Astra Breaks an Enigma Message That Resisted Solution Since 2005",
+            "source": "cryptocellar.org",
+            "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
+            "blurb": "Message MVUEH \u2014 a 82-letter German Army Enigma intercept from July 10, 1941 \u2014 had defeated every cryptanalytic attempt for 21 years, partly because its key (wheel order 253) differed from every other message sent that same day, and partly because a transcription error buried in the plaintext ('Btte' instead of 'Bitte') threw off pattern matching. Carter Leffer fed it to GPT-6 Astra and got the break; the recovered plaintext turns out to be nearly identical to a neighboring message cracked in 2017. The primary source is the cryptanalysis community's own validation record \u2014 not a press release.",
             "tags": [
-              "archaeology",
-              "deep time",
-              "human behavior"
+              "cryptography",
+              "ai",
+              "wwii history"
+            ]
+          },
+          {
+            "title": "This Machine Made Wartime Germany (Almost) Impossible to Defeat",
+            "source": "Veritasium",
+            "url": "https://www.youtube.com/watch?v=JsBZOcqZerk",
+            "thumbnail": "https://i3.ytimg.com/vi/JsBZOcqZerk/hqdefault.jpg",
+            "blurb": "Veritasium's Enigma deep-dive is the natural companion to the MVUEH crack above \u2014 the mechanical and mathematical context for why a single message from a single radio station could stay dark for two decades. Veritasium consistently earns its runtime on mechanism: how the rotors actually step, why plugboard permutations multiplied keyspace, what the Bletchley team was actually doing. Worth watching back-to-back with the primary source.",
+            "tags": [
+              "cryptography",
+              "history",
+              "video"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making things / off the map",
+        "items": [
+          {
+            "title": "An Open-Source Digital Back for a 1970s Medium Format Camera",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/09/22/digital-upgrade-brings-medium-format-camera-into-the-21st-century/",
+            "blurb": "Wenting replaced the film back of a Mamiya Super 23 with a 22-megapixel Kodak KAF-22000CE CCD \u2014 a 38.8\u00d750mm sensor that nearly fills the same frame 120 film would have occupied \u2014 driven by a Xilinx Zynq 7010 running both Cortex-A9 cores and an onboard FPGA. The whole thing is open-source on GitLab, and the photos look like what they are: Mamiya glass hitting a serious modern sensor. The kind of project where the constraint (preserve the optics, reinvent everything behind them) does the creative work.",
+            "tags": [
+              "hardware",
+              "photography",
+              "open source"
+            ]
+          },
+          {
+            "title": "AMD's Random Number Generator Can't Generate a Zero",
+            "source": "flat assembler forum",
+            "url": "https://board.flatassembler.net/topic.php?t=24261",
+            "blurb": "A developer rendering data charts in assembly noticed by accident that AMD's RDRAND instruction \u2014 on Zen2 at minimum \u2014 never produces 0, while Intel's implementation generates zeros normally. The thread traces it through probability (across 65,535 possible values, systematic absence of one is detectable fast) and silicon behavior, with a test application anyone can run. A hardware RNG with a blind spot is the kind of low-level weirdness that makes you question every assumption about determinism in systems.",
+            "tags": [
+              "hardware",
+              "assembly",
+              "bugs"
             ]
           }
         ]
@@ -102,58 +103,70 @@
     ],
     "facts": [
       {
-        "fact": "The Guardian stopped publishing Snowden documents in February 2014 \u2014 less than a year after the first revelations \u2014 and no news outlet has published a single document from the archive since May 29, 2019.",
-        "url": "https://libroot.org/posts/what-happened-to-the-snowden-archive"
+        "fact": "Google's SynthID-O can embed a 136-bit payload \u2014 enough to encode a 64-bit personal database ID \u2014 into a single 512\u00d7512-pixel image in frequency-domain noise invisible to the human eye.",
+        "url": "https://brand.io/article/spymarks/"
       },
       {
-        "fact": "Roughly seven million pairs of Meta smart glasses were sold in 2025, and the recording indicator light can be disabled with a piece of tape \u2014 Meta only announced detection of tampered LEDs in July 2026.",
-        "url": "https://www.wired.me/story/meta-smart-glasses-detector-app-zuckoff"
+        "fact": "The WWII Enigma message MVUEH used a completely different wheel order (253) from every other message transmitted on the same day (512), which is part of why it resisted cryptanalysis for 21 years.",
+        "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
       },
       {
-        "fact": "Betel nut \u2014 still used by around 10% of the global population \u2014 may be the oldest recreational drug known, with evidence of habitual use dating back 25,000 years, confirmed by chemical traces in prehistoric teeth.",
-        "url": "https://nautil.us/the-oldest-evidence-of-drug-use-is-also-a-story-about-addiction-1285144/"
+        "fact": "AMD's RDRAND hardware random number generator appears to systematically never output the value 0 on at least Zen2 processors \u2014 a reproducible bug absent on Intel hardware running identical assembly.",
+        "url": "https://board.flatassembler.net/topic.php?t=24261"
       },
       {
-        "fact": "Jos\u00e9 Morales Bernal died in the New Mexico desert on April 8, 2024 within range of three AI surveillance towers specifically installed to detect border crossers \u2014 the alert-and-response chain the system was designed to trigger did not save him.",
-        "url": "https://www.technologyreview.com/2026/09/21/1144166/border-towers-surveillance-investigation/"
+        "fact": "Renishaw's LIBERTAS technology eliminates support structures in metal laser powder bed fusion by dynamically adjusting laser scan parameters across geometry \u2014 previously these supports were required in locations physically inaccessible for post-processing removal.",
+        "url": "https://www.aerospacemanufacturinganddesign.com/article/3dadditive-manufacturing-news-for-september-2026/"
+      },
+      {
+        "fact": "Apple hid partial controls for disabling Apple Intelligence features inside Screen Time \u2014 software designed for parental controls \u2014 after removing the direct off switch in macOS 27.",
+        "url": "https://dbushell.com/2026/09/22/apple-intelligence/"
       }
     ],
-    "make_something": {
-      "prompt": "Build a small WebGL or canvas sketch that renders pixel art the way a CRT actually saw it: not just scanlines, but phosphor persistence, RGB subpixel bloom, and slight signal bleed between colors. The goal isn't a filter \u2014 it's to understand the CRT as a compositor. Take one sprite or shape you've made before and redesign it specifically for this display model, where blur is a tool. See if the piece changes when you're designing for the medium rather than against it."
-    },
+    "make_something": null,
     "art_picks": [
       {
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "The ur-text for anyone interested in how images accumulate meaning across time, culture, and memory \u2014 Marker built an essay-film that treats the act of looking itself as the subject, toggling between Japan, Guinea-Bissau, and a floating narrator constructing a theory of images from found footage and obsessive attention. It's the kind of film that makes you want to build something the moment it ends.",
+        "why": "A meditation on memory, time, ritual, and the invisible systems that hold cultures together \u2014 shot across Japan, Guinea-Bissau, and Iceland, structured like a mind moving through images rather than a conventional documentary. Marker's essay-film mode is the blueprint for a lot of what you probably love: expressive surface, deep architecture underneath, systems visible before they harden.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "The Noisy Dozen / Systems & Feedback (survey)",
-        "creator": "Hans Haacke",
-        "why": "Haacke spent fifty years making art that is literally systems \u2014 biological, financial, political \u2014 rendered as sculptural or photographic propositions. His real estate pieces from the '70s map landlord networks as diagrams; his live organisms track entropy in real time. A clear ancestor of generative and interactive practice, except with merciless social consequence built in.",
-        "url": "https://www.moma.org/artists/2412"
+        "title": "Flatlands",
+        "creator": "Hito Steyerl",
+        "why": "Steyerl works exactly the edge where digital image-making becomes ideology \u2014 her essays and video installations treat the screen as a social object, asking how rendering pipelines and logistics systems shape what we're allowed to see and feel. The kind of artist who makes you want to go make something and also fundamentally rethink what making means.",
+        "url": "https://www.estuaryinfo.org.uk/artists/hito-steyerl/"
       },
       {
         "medium": "music",
         "title": "Vespertine",
         "creator": "Bj\u00f6rk",
-        "why": "A record built entirely around the phenomenology of interiority \u2014 microbeats, harp, choir, music boxes assembled into a private architecture that somehow feels both algorithmic and handmade. The production language is as deliberate and original as any visual system, and the gap between its tiny sounds and vast emotional scale is exactly the kind of expressive paradox that tends to unlock something.",
-        "url": "https://bjork.com/music/"
+        "why": "One of the tightest integrations of physical texture, digital processing, and emotional architecture in recorded music \u2014 Bj\u00f6rk treats her own voice as raw material alongside microbeats, harps, and music boxes, building a world that feels both intimate and cosmological. If you haven't listened to it with good headphones in a while, this is the reminder.",
+        "url": "https://bjork.com/"
       }
     ],
     "events": [
       {
-        "name": "MoMA: Sarah Michelson \u2014 nowhere",
-        "venue": "MoMA, 11 West 53rd St, Manhattan",
-        "date_start": "2026-09-15",
-        "date_end": "2026-10-11",
+        "name": "Volker H\u00fcller: Angelus Novus",
+        "venue": "Grimm Gallery, 54 White St, Tribeca",
+        "date_start": "2026-09-09",
+        "date_end": "2026-10-31",
         "category": "museum",
-        "why": "A live performance exhibition in MoMA's atrium \u2014 Michelson's choreography is rigorous, body-as-system work that collapses the line between dance, durational installation, and visual art; seeing it in a museum frame rather than a theater completely changes the feedback loop.",
-        "url": "https://www.moma.org/",
-        "date": "Sep 15 \u2013 Oct 11"
+        "why": "H\u00fcller's paintings place black-and-white archival imagery against New York backdrops in a way that collapses art history and popular culture into the same visual plane \u2014 the show's title, borrowed from Klee's famous angel of history, signals exactly the kind of historical systems-thinking layered under an expressive surface that hooks you.",
+        "url": "https://www.grimmgallery.com/",
+        "date": "Sep 9 \u2013 Oct 31"
+      },
+      {
+        "name": "Ugo Rondinone: waterfall",
+        "venue": "Gladstone Gallery, 530 W 21st St, Chelsea",
+        "date_start": "2026-09-17",
+        "date_end": "2026-10-31",
+        "category": "museum",
+        "why": "Twelve monumental semitranslucent resin sculptures \u2014 between 11 and 20 feet tall \u2014 that distill waterfalls to their pure form: slow, geological time materialized in synthetic media, which is exactly Rondinone's obsessive territory.",
+        "url": "https://gladstonegallery.com/artist/ugo-rondinone/",
+        "date": "Sep 17 \u2013 Oct 31"
       },
       {
         "name": "Taryn Simon: Father Country I Do Love You",
@@ -161,19 +174,9 @@
         "date_start": "2026-09-18",
         "date_end": "2027-03-14",
         "category": "museum",
-        "why": "Simon spent nearly a decade reconstructing the hidden life of one unnamed federal agent across 42 chapters of photos, text, video, and sculpture \u2014 it's a labyrinth of institutional power and personal memory that fills the entire Wright rotunda, and the building's spiral ramp literally becomes the bureaucratic logic of the piece.",
+        "why": "42 chapters of photographs, text, video, and sculpture tracing one unnamed federal agent's life and its global reverberations \u2014 Simon's entire practice is about invisible systems and unseen forces, and this is the largest debut of new work ever staged at the Guggenheim, filling the entire Wright rotunda.",
         "url": "https://www.guggenheim.org/exhibition/taryn-simon",
         "date": "Sep 18 \u2013 Mar 14"
-      },
-      {
-        "name": "Arthur Jafa: I Am Tony",
-        "venue": "New Museum, 235 Bowery, Manhattan",
-        "date_start": "2026-09-24",
-        "date_end": "2027-01-04",
-        "category": "museum",
-        "why": "The largest-ever survey of Jafa's forty-year practice \u2014 including 'Love is the Message, The Message is Death' \u2014 across two floors of the newly expanded OMA-designed building; his method of 'affective proximities' (collaging Black visual culture from cinema, social media, and news) is one of the most rigorous image-systems working today.",
-        "url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
-        "date": "Sep 24 \u2013 Jan 4"
       },
       {
         "name": "The Armory Show 2026",
@@ -181,19 +184,19 @@
         "date_start": "2026-09-24",
         "date_end": "2026-09-27",
         "category": "popup",
-        "why": "The 32nd edition foregrounds galleries and artists from the Caribbean diaspora in its curated Platform and Focus sections \u2014 the fair is best used as a field scan of what 230 international galleries are betting on right now, which is its own kind of data.",
+        "why": "~230 galleries from 30+ countries, with this edition's curatorial focus on Caribbean artists and diaspora \u2014 useful less as a shopping fair and more as a pressure-test of what the international gallery system is currently valuing and platforming.",
         "url": "https://www.thearmoryshow.com/",
         "date": "Sep 24\u201327"
       },
       {
-        "name": "Lower East Side Fall Gallery Walk (late-night)",
-        "venue": "Lower East Side galleries \u2014 Orchard, Eldridge, Bowery, Manhattan",
+        "name": "Lenape/Lun\u00e1apeew \u2014 Original People of Lenapehoking (Opening)",
+        "venue": "Museum of the City of New York, 1220 Fifth Ave at 103rd St",
         "date_start": "2026-09-25",
-        "date_end": "2026-09-25",
-        "category": "popup",
-        "why": "The LES's concentrated cluster of compact, experimental galleries \u2014 Miguel Abreu, TOTAH, Martos, Perrotin, and others \u2014 runs a coordinated late-night gallery walk this Thursday; the neighborhood skews toward discovery over blue-chip, and the density means you can cover a lot of genuinely weird ground in one evening.",
-        "url": "https://artinnewyorkcity.com/2026/09/07/lower-east-side-gallery-guide-for-fall",
-        "date": "Fri, Sep 25"
+        "date_end": "2026-10-06",
+        "category": "museum",
+        "why": "An exhibition centering the living cultures of the Lenape people on the land that became New York \u2014 deep time and place, the kind of history that reframes the city you live and work in every day.",
+        "url": "https://www.mcny.org/exhibitions",
+        "date": "Sep 25 \u2013 Oct 6"
       }
     ]
   },
