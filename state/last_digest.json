@@ -1,101 +1,122 @@
 {
   "digest": {
-    "intro": "Consent overridden, codes cracked, cells transplanted \u2014 systems revealing their hidden logic.",
+    "intro": "AI killed children, orbits are filling up, and concrete gets its movie.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "NASA's Mars Sample Return Is Dead",
-            "source": "Science.org",
-            "url": "https://science.org",
-            "blurb": "The Mars Sample Return mission \u2014 the most ambitious interplanetary science project in NASA's pipeline \u2014 has been officially cancelled, ending the prospect of bringing back the samples Perseverance has been caching on the Martian surface. This isn't a budget trim; it's a civilizational choice about how much the US invests in deep planetary science when costs balloon and timelines stretch past political attention spans. The samples sit there anyway.",
+            "title": "The Kill Chain: How AI Targeting and Gutted Oversight Killed 120+ Children in Minab",
+            "source": "Bloomberg / ProPublica",
+            "url": "https://www.propublica.org/article/hegseth-civilian-harm-mitigation-response-trump-defense-department",
+            "blurb": "The structural story under the Minab school strike: Hegseth tried to poll commanders into eliminating civilian-harm review entirely, but every single regional commander rebuffed him \u2014 so he gutted it instead, slashing CENTCOM's 16-person CHMR staff down to essentially one. The Bloomberg investigation ties this directly to an AI targeting pipeline (Palantir Maven + Claude) operating without the human review layer that existed precisely to catch errors like this. The commanders chose preservation; the civilian dead got the math anyway.",
+            "tags": [
+              "military",
+              "ai",
+              "policy"
+            ]
+          },
+          {
+            "title": "ShinyHunters Claims Full FBI Employee Database \u2014 Names, Home Addresses, Spouses",
+            "source": "404 Media",
+            "url": "https://www.404media.co/we-hacked-the-fbi-hackers-say-they-have-data-on-all-fbi-employees/",
+            "blurb": "The same hacking ecosystem that previously used stolen phone records to track and harass FBI agents investigating them now claims to hold every employee's home address and spouse's information. The counterintelligence implications are significant: foreign services would pay enormously for a complete map of who works at the FBI, doing what, living where. Not a routine breach story.",
+            "tags": [
+              "security",
+              "surveillance",
+              "us politics"
+            ]
+          },
+          {
+            "title": "How the US Handed China Control of Rare Earths \u2014 and What Happens November 10",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/",
+            "blurb": "Written by a former Navy war-game adjudicator, this longform traces how rare earth processing \u2014 not mining, processing \u2014 became China's chokehold on everything from F-35 fighters to consumer electronics. China agreed to suspend its 2025 export controls, but only until November 10, 2026, giving it a live geopolitical lever it can tighten or release on demand. The US military's Virginia-class submarines are on that list.",
+            "tags": [
+              "geopolitics",
+              "supply chain",
+              "china"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Systems under pressure",
+        "items": [
+          {
+            "title": "17,000 Satellites and the Quiet Approach of Kessler",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/",
+            "blurb": "When Gravity came out in 2013 there were ~1,000 active satellites; there are now 17,000, with Starlink alone accounting for 11,000 of them and thousands more contracted. A new European report warns we are approaching the threshold where certain orbits become statistically unusable \u2014 not from a single catastrophic collision but from the accumulating probability of cascading ones. The governance gap is that no single body controls who can launch what into shared orbital corridors.",
             "tags": [
               "space",
-              "science policy",
-              "nasa"
+              "infrastructure",
+              "policy"
             ]
-          }
-        ]
-      },
-      {
-        "heading": "Hidden systems",
-        "items": [
+          },
           {
-            "title": "Spymarks, Not Watermarks",
-            "source": "brand.io",
-            "url": "https://brand.io/article/spymarks/",
-            "blurb": "Google's SynthID-O variant encodes a 136-bit payload into a 512\u00d7512-pixel image \u2014 enough room for a 64-bit database identifier linking back to your name, IP, date of birth, and political affiliation, with 72 bits left for error correction. The public framing is 'AI content detection'; the actual mechanism is persistent covert identity tracking baked into pixel frequency data. The word 'watermark' is doing a lot of moral laundering here.",
+            "title": "Meta Smart Glasses Are Already Weaponized in India \u2014 and Authorities See Opportunity, Not Problem",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/09/23/1144953/smart-glasses-havoc-india/",
+            "blurb": "A trans graphic designer at a Delhi protest was recorded without consent on Meta Ray-Bans styled as ordinary Wayfarers, edited into a mocking reel, and hit with millions of views of transphobic abuse \u2014 two decades of built identity undone in one ambient capture. The piece argues India is a preview: high population density, active protest culture, weak privacy law, and authorities who see facial-recognition-capable glasses as an asset rather than a threat. Ambient surveillance isn't coming; it arrived looking like Wayfarers.",
             "tags": [
               "surveillance",
-              "ai",
-              "infrastructure"
-            ]
-          },
-          {
-            "title": "I Said No and Apple Said Yes",
-            "source": "dbushell.com",
-            "url": "https://dbushell.com/2026/09/22/apple-intelligence/",
-            "blurb": "A developer documents the precise moment \u2014 9:51am, February 5, 2025 \u2014 when macOS 15.3 re-enabled a feature he'd disabled, phoning home every 15 minutes with personal data. After upgrading to macOS 27, Apple had removed the off switch entirely, hiding partial controls inside Screen Time parental restrictions. It's a clean case study in how platform infrastructure quietly reclassifies consent as a preference it can override.",
-            "tags": [
-              "privacy",
-              "apple",
-              "consent"
+              "ambient computing",
+              "social harm"
             ]
           }
         ]
       },
       {
-        "heading": "Cracks in old things",
+        "heading": "Making things",
         "items": [
           {
-            "title": "GPT-6 Astra Breaks an Enigma Message That Resisted Solution Since 2005",
-            "source": "cryptocellar.org",
-            "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html",
-            "blurb": "Message MVUEH \u2014 a 82-letter German Army Enigma intercept from July 10, 1941 \u2014 had defeated every cryptanalytic attempt for 21 years, partly because its key (wheel order 253) differed from every other message sent that same day, and partly because a transcription error buried in the plaintext ('Btte' instead of 'Bitte') threw off pattern matching. Carter Leffer fed it to GPT-6 Astra and got the break; the recovered plaintext turns out to be nearly identical to a neighboring message cracked in 2017. The primary source is the cryptanalysis community's own validation record \u2014 not a press release.",
-            "tags": [
-              "cryptography",
-              "ai",
-              "wwii history"
-            ]
-          },
-          {
-            "title": "This Machine Made Wartime Germany (Almost) Impossible to Defeat",
-            "source": "Veritasium",
-            "url": "https://www.youtube.com/watch?v=JsBZOcqZerk",
-            "thumbnail": "https://i3.ytimg.com/vi/JsBZOcqZerk/hqdefault.jpg",
-            "blurb": "Veritasium's Enigma deep-dive is the natural companion to the MVUEH crack above \u2014 the mechanical and mathematical context for why a single message from a single radio station could stay dark for two decades. Veritasium consistently earns its runtime on mechanism: how the rotors actually step, why plugboard permutations multiplied keyspace, what the Bletchley team was actually doing. Worth watching back-to-back with the primary source.",
-            "tags": [
-              "cryptography",
-              "history",
-              "video"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Making things / off the map",
-        "items": [
-          {
-            "title": "An Open-Source Digital Back for a 1970s Medium Format Camera",
+            "title": "Myst on an Atari 2600 \u2014 Three Years to Fit a 1993 Game into 128 Bytes of RAM",
             "source": "Hackaday",
-            "url": "https://hackaday.com/2026/09/22/digital-upgrade-brings-medium-format-camera-into-the-21st-century/",
-            "blurb": "Wenting replaced the film back of a Mamiya Super 23 with a 22-megapixel Kodak KAF-22000CE CCD \u2014 a 38.8\u00d750mm sensor that nearly fills the same frame 120 film would have occupied \u2014 driven by a Xilinx Zynq 7010 running both Cortex-A9 cores and an onboard FPGA. The whole thing is open-source on GitLab, and the photos look like what they are: Mamiya glass hitting a serious modern sensor. The kind of project where the constraint (preserve the optics, reinvent everything behind them) does the creative work.",
+            "url": "https://hackaday.com/2026/09/22/myst-on-the-atari-2600/",
+            "blurb": "Vince built a physical cartridge using salvaged BurgerTime hardware (one of the few 2600 carts with extra memory), implemented E7 bank switching to squeeze in a demake of Myst, then spent three years chasing timing bugs in hardware that was never supposed to run anything like this. The project sits in the same tradition as the demoscene: constraint as creative engine, unreasonable ambition as the only interesting kind.",
             "tags": [
               "hardware",
-              "photography",
-              "open source"
+              "demoscene",
+              "craft"
             ]
           },
           {
-            "title": "AMD's Random Number Generator Can't Generate a Zero",
-            "source": "flat assembler forum",
-            "url": "https://board.flatassembler.net/topic.php?t=24261",
-            "blurb": "A developer rendering data charts in assembly noticed by accident that AMD's RDRAND instruction \u2014 on Zen2 at minimum \u2014 never produces 0, while Intel's implementation generates zeros normally. The thread traces it through probability (across 65,535 possible values, systematic absence of one is detectable fast) and silicon behavior, with a test application anyone can run. A hardware RNG with a blind spot is the kind of low-level weirdness that makes you question every assumption about determinism in systems.",
+            "title": "Pixar's Linux Migration: The Hidden Infrastructure Underneath Twenty Years of Films",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/09/23/how-pixar-stopped-worrying-and-learned-to-love-linux/",
+            "blurb": "When SGI workstations became commercially unviable, Pixar faced porting two million lines of internal Unix code to Windows NT or finding another POSIX path \u2014 they chose Linux, completed the port by 2001, and by 2003 were running Xenon-based x86 render farms that became an industry standard. The question the piece leaves hanging is why CAD/CAM and other Unix-dependent industries didn't follow: the answer is probably that Hollywood's render farms had cleaner internal incentives than enterprise software vendors did.",
             "tags": [
-              "hardware",
-              "assembly",
-              "bugs"
+              "render pipeline",
+              "infrastructure",
+              "film"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Off the map",
+        "items": [
+          {
+            "title": "James Skinner's 1825 Manuscript: Caste, Empire, and the Mughal Visual Vocabulary",
+            "source": "Public Domain Review",
+            "url": "https://publicdomainreview.org/collection/james-skinner-india-castes",
+            "blurb": "Lieutenant Colonel James Skinner \u2014 son of a Scottish EIC officer and a Bhojpuri noblewoman, excluded from Company service for his race, then readmitted when his irregular cavalry proved too useful \u2014 compiled a 120-painting Persian manuscript classifying Indian castes in a style closer to late Mughal album-making than any European book of the period. He spoke Persian better than English, yet the manuscript was designed to serve British classificatory ambitions. The object is a collision point: colonial data collection encoded inside the visual language of the culture being catalogued.",
+            "tags": [
+              "visual history",
+              "manuscript",
+              "empire"
+            ]
+          },
+          {
+            "title": "John Wilson's 'The History of Concrete' Is in Theaters Now",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/09/john-wilson-the-history-of-concrete-movie/",
+            "blurb": "Wilson's HBO series treated New York sidewalk repair and foam-party logistics as portals into human longing \u2014 his feature debut does the same thing with concrete, which is to say with the literal substrate of cities. If you haven't seen How To with John Wilson, this is the excuse.",
+            "tags": [
+              "film",
+              "documentary",
+              "new york"
             ]
           }
         ]
@@ -103,24 +124,24 @@
     ],
     "facts": [
       {
-        "fact": "Google's SynthID-O can embed a 136-bit payload \u2014 enough to encode a 64-bit personal database ID \u2014 into a single 512\u00d7512-pixel image in frequency-domain noise invisible to the human eye.",
-        "url": "https://brand.io/article/spymarks/"
+        "fact": "When Hegseth polled every regional commander on gutting civilian-harm review, not one supported elimination \u2014 yet the program was gutted anyway, leaving CENTCOM with a fraction of its 16-person staff.",
+        "url": "https://www.propublica.org/article/hegseth-civilian-harm-mitigation-response-trump-defense-department"
       },
       {
-        "fact": "The WWII Enigma message MVUEH used a completely different wheel order (253) from every other message transmitted on the same day (512), which is part of why it resisted cryptanalysis for 21 years.",
-        "url": "https://www.cryptocellar.org/bgac/the-mvueh-break.html"
+        "fact": "Starlink alone now accounts for 11,000 of the 17,000 active satellites in orbit \u2014 up from roughly 1,000 total active satellites when the film Gravity was released in 2013.",
+        "url": "https://arstechnica.com/space/2026/09/there-are-now-17000-satellites-in-orbit-and-growing-should-we-be-concerned/"
       },
       {
-        "fact": "AMD's RDRAND hardware random number generator appears to systematically never output the value 0 on at least Zen2 processors \u2014 a reproducible bug absent on Intel hardware running identical assembly.",
-        "url": "https://board.flatassembler.net/topic.php?t=24261"
+        "fact": "China's rare earth export controls \u2014 suspended but live \u2014 cover materials used in the US military's F-35 fighter jets and Virginia-class submarines, and the suspension expires November 10, 2026.",
+        "url": "https://arstechnica.com/reviews/2026/09/how-the-us-handed-china-control-of-the-rare-earth-supply-chain/"
       },
       {
-        "fact": "Renishaw's LIBERTAS technology eliminates support structures in metal laser powder bed fusion by dynamically adjusting laser scan parameters across geometry \u2014 previously these supports were required in locations physically inaccessible for post-processing removal.",
-        "url": "https://www.aerospacemanufacturinganddesign.com/article/3dadditive-manufacturing-news-for-september-2026/"
+        "fact": "A near-catastrophic 'rm' command during production almost erased Toy Story 2 entirely \u2014 and was one of the incidents that reinforced Pixar's determination to stay on Unix rather than migrate to Windows NT.",
+        "url": "https://hackaday.com/2026/09/23/how-pixar-stopped-worrying-and-learned-to-love-linux/"
       },
       {
-        "fact": "Apple hid partial controls for disabling Apple Intelligence features inside Screen Time \u2014 software designed for parental controls \u2014 after removing the direct off switch in macOS 27.",
-        "url": "https://dbushell.com/2026/09/22/apple-intelligence/"
+        "fact": "T. rex teeth from the Hell Creek Formation indicate a body temperature of 36.3 \u00b1 2.5\u00b0C \u2014 comparable to modern birds and mammals, and measurably warmer than contemporary crocodilian teeth found in the same geological layer.",
+        "url": "https://hackaday.com/2026/09/22/determining-the-body-temperature-of-tyrannosaurus-rex/"
       }
     ],
     "make_something": null,
@@ -129,74 +150,74 @@
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A meditation on memory, time, ritual, and the invisible systems that hold cultures together \u2014 shot across Japan, Guinea-Bissau, and Iceland, structured like a mind moving through images rather than a conventional documentary. Marker's essay-film mode is the blueprint for a lot of what you probably love: expressive surface, deep architecture underneath, systems visible before they harden.",
+        "why": "A film structured like memory itself \u2014 a wandering essay about ritual, image, time, and how cultures encode meaning into objects and gestures. Marker moves between Tokyo pachinko halls and Guinea-Bissau funerals with the restless curiosity of someone who believes the camera is a theory, not a tool. It will make you want to build something.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Flatlands",
-        "creator": "Hito Steyerl",
-        "why": "Steyerl works exactly the edge where digital image-making becomes ideology \u2014 her essays and video installations treat the screen as a social object, asking how rendering pipelines and logistics systems shape what we're allowed to see and feel. The kind of artist who makes you want to go make something and also fundamentally rethink what making means.",
-        "url": "https://www.estuaryinfo.org.uk/artists/hito-steyerl/"
+        "title": "Taryn Simon: Father Country I Do Love You",
+        "creator": "Taryn Simon",
+        "why": "Forty-two interconnected works \u2014 photography, video, sculpture, text \u2014 spiraling through the Guggenheim's rotunda to trace the life of one unnamed federal agent and the invisible ripple effects of his actions on nations and lives he never knew. It's a system diagram disguised as portraiture: Simon at her most obsessively structural, making the hidden architecture of power navigable and visceral.",
+        "url": "https://www.guggenheim.org/exhibition/taryn-simon"
       },
       {
         "medium": "music",
-        "title": "Vespertine",
-        "creator": "Bj\u00f6rk",
-        "why": "One of the tightest integrations of physical texture, digital processing, and emotional architecture in recorded music \u2014 Bj\u00f6rk treats her own voice as raw material alongside microbeats, harps, and music boxes, building a world that feels both intimate and cosmological. If you haven't listened to it with good headphones in a while, this is the reminder.",
-        "url": "https://bjork.com/"
+        "title": "Gesamtkunstwerk",
+        "creator": "Dopplereffekt",
+        "why": "Detroit electronics filtered through a conceptual framework so rigorously alien it reads as artifact rather than album \u2014 named after Wagner's total-artwork concept, built from machine rhythms that feel like diagrams of industrial systems made physical. The project's consistent anonymity and mythology-as-product-design approach are part of the work itself.",
+        "url": "https://dopplereffekt.bandcamp.com/"
       }
     ],
     "events": [
       {
-        "name": "Volker H\u00fcller: Angelus Novus",
-        "venue": "Grimm Gallery, 54 White St, Tribeca",
-        "date_start": "2026-09-09",
-        "date_end": "2026-10-31",
+        "name": "Whitney Biennial 2026",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St, Manhattan",
+        "date_start": "2026-03-01",
+        "date_end": "2026-10-12",
         "category": "museum",
-        "why": "H\u00fcller's paintings place black-and-white archival imagery against New York backdrops in a way that collapses art history and popular culture into the same visual plane \u2014 the show's title, borrowed from Klee's famous angel of history, signals exactly the kind of historical systems-thinking layered under an expressive surface that hooks you.",
-        "url": "https://www.grimmgallery.com/",
-        "date": "Sep 9 \u2013 Oct 31"
+        "why": "Closing soon \u2014 last window to see the Biennial before it comes down October 12, and Biennial years are when the Whitney tends to take the most compositional risks with artists working at the edge of digital, physical, and social form.",
+        "url": "https://whitney.org/exhibitions/2026-biennial",
+        "date": "Mar 1 \u2013 Oct 12"
       },
       {
-        "name": "Ugo Rondinone: waterfall",
-        "venue": "Gladstone Gallery, 530 W 21st St, Chelsea",
-        "date_start": "2026-09-17",
-        "date_end": "2026-10-31",
+        "name": "Hans Arp: Heads or Tails",
+        "venue": "Hauser & Wirth, 548 W 22nd St, Chelsea",
+        "date_start": "2026-09-10",
+        "date_end": "2026-10-17",
         "category": "museum",
-        "why": "Twelve monumental semitranslucent resin sculptures \u2014 between 11 and 20 feet tall \u2014 that distill waterfalls to their pure form: slow, geological time materialized in synthetic media, which is exactly Rondinone's obsessive territory.",
-        "url": "https://gladstonegallery.com/artist/ugo-rondinone/",
-        "date": "Sep 17 \u2013 Oct 31"
+        "why": "The first New York exhibition devoted to Arp in nearly fifteen years, anchored by his late Threshold sculptures \u2014 forms that sit exactly at the edge of body, landscape, and pure geometry, made by an artist who believed sculpture should refuse to be named.",
+        "url": "https://www.hauserwirth.com/hauser-wirth-exhibitions/hans-arp-heads-or-tails/",
+        "date": "Sep 10 \u2013 Oct 17"
       },
       {
         "name": "Taryn Simon: Father Country I Do Love You",
-        "venue": "Solomon R. Guggenheim Museum, 1071 Fifth Ave, Manhattan",
+        "venue": "Solomon R. Guggenheim Museum, 1071 5th Ave, Manhattan",
         "date_start": "2026-09-18",
         "date_end": "2027-03-14",
         "category": "museum",
-        "why": "42 chapters of photographs, text, video, and sculpture tracing one unnamed federal agent's life and its global reverberations \u2014 Simon's entire practice is about invisible systems and unseen forces, and this is the largest debut of new work ever staged at the Guggenheim, filling the entire Wright rotunda.",
+        "why": "The largest debut of new work ever staged at the Guggenheim \u2014 a decade in the making, filling the entire rotunda with an interactive labyrinth of photography, sculpture, and video that maps invisible systems of power through one man's life; visitors choose their own path through the spiral.",
         "url": "https://www.guggenheim.org/exhibition/taryn-simon",
         "date": "Sep 18 \u2013 Mar 14"
       },
       {
-        "name": "The Armory Show 2026",
-        "venue": "Javits Center, 429 11th Ave, Manhattan",
-        "date_start": "2026-09-24",
-        "date_end": "2026-09-27",
-        "category": "popup",
-        "why": "~230 galleries from 30+ countries, with this edition's curatorial focus on Caribbean artists and diaspora \u2014 useful less as a shopping fair and more as a pressure-test of what the international gallery system is currently valuing and platforming.",
-        "url": "https://www.thearmoryshow.com/",
-        "date": "Sep 24\u201327"
+        "name": "Daniel Avery (Live) + Dopplereffekt (Live)",
+        "venue": "Elsewhere (The Hall), 599 Johnson Ave, Bushwick, Brooklyn",
+        "date_start": "2026-09-23",
+        "date_end": "2026-09-23",
+        "category": "concert",
+        "why": "Dopplereffekt performing live is genuinely rare \u2014 their conceptual Detroit electro meets Avery's Sheffield-lineage body music in a small Bushwick room, which is exactly the wrong scale for two projects this serious, in the best possible way.",
+        "url": "https://ra.co/events/2485135",
+        "date": "Wed, Sep 23"
       },
       {
-        "name": "Lenape/Lun\u00e1apeew \u2014 Original People of Lenapehoking (Opening)",
-        "venue": "Museum of the City of New York, 1220 Fifth Ave at 103rd St",
-        "date_start": "2026-09-25",
-        "date_end": "2026-10-06",
-        "category": "museum",
-        "why": "An exhibition centering the living cultures of the Lenape people on the land that became New York \u2014 deep time and place, the kind of history that reframes the city you live and work in every day.",
-        "url": "https://www.mcny.org/exhibitions",
-        "date": "Sep 25 \u2013 Oct 6"
+        "name": "SPRING/BREAK Art Show: HIDE 'N SEEK (15th Edition)",
+        "venue": "555 W 57th St, Manhattan",
+        "date_start": "2026-09-23",
+        "date_end": "2026-09-28",
+        "category": "popup",
+        "why": "The curator-driven fair explicitly rejecting the white-cube model \u2014 100+ independent curatorial projects staged throughout a found building, organized around a theme (Hide 'N Seek) built around concealment, code, and the symbology of what is revealed versus buried; closer to a museum program than a sales floor.",
+        "url": "https://springbreakartfair.com/pages/spring-break-nyc-2026",
+        "date": "Sep 23\u201328"
       }
     ]
   },

@@ -1,6 +1,6 @@
 {
-  "feeds": 82,
-  "mined": 46,
+  "feeds": 87,
+  "mined": 53,
   "videos": 5,
   "video_titles": [
     "This Machine Made Wartime Germany (Almost) Impossible to Defeat",
@@ -10,16 +10,16 @@
     "Why did Nobody Make this Before? SUNLU i10 Dry Cabinet"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
+    "404 Media",
+    "Ars Technica",
+    "Bloomberg / ProPublica",
+    "Colossal",
     "Hackaday",
-    "Science.org",
-    "Veritasium",
-    "brand.io",
-    "cryptocellar.org",
-    "dbushell.com",
-    "flat assembler forum"
+    "MIT Technology Review",
+    "Public Domain Review"
   ],
-  "had_video": true,
-  "run_at": "2026-09-22T15:39:27.319786+00:00"
+  "had_video": false,
+  "run_at": "2026-09-23T15:35:10.693510+00:00"
 }
