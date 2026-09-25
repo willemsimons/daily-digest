@@ -1,25 +1,23 @@
 {
-  "feeds": 87,
-  "mined": 44,
+  "feeds": 85,
+  "mined": 56,
   "videos": 4,
   "video_titles": [
-    "What happens to these balloons when you open the valve?",
-    "How Do You Crack a Code With 100 Sextillion Combinations?",
+    "What happens when you open the valve?",
+    "The Insane Real Engineering of the Nazi Enigma Machine",
     "Heating A Ball Just By Squeezing It",
     "Why did Nobody Make this Before? SUNLU i10 Dry Cabinet"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
-    "Aeon Video",
-    "Anthropic",
     "Ars Technica",
-    "BBC News",
-    "Just Security",
-    "Nautilus",
-    "Robin Sloan",
-    "macanorak.com"
+    "DAWO Community",
+    "Hacker News / bastardica",
+    "Louisiana Channel / Colossal",
+    "MIT Technology Review",
+    "Washington Sun"
   ],
-  "had_video": true,
-  "run_at": "2026-09-24T15:56:07.064307+00:00"
+  "had_video": false,
+  "run_at": "2026-09-25T15:56:49.661769+00:00"
 }
