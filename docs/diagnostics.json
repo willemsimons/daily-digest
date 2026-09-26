@@ -1,6 +1,6 @@
 {
-  "feeds": 85,
-  "mined": 56,
+  "feeds": 78,
+  "mined": 43,
   "videos": 4,
   "video_titles": [
     "What happens when you open the valve?",
@@ -9,15 +9,17 @@
     "Why did Nobody Make this Before? SUNLU i10 Dry Cabinet"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 8,
   "final_sources": [
     "Ars Technica",
-    "DAWO Community",
-    "Hacker News / bastardica",
-    "Louisiana Channel / Colossal",
-    "MIT Technology Review",
-    "Washington Sun"
+    "CBS News",
+    "Colossal",
+    "Hackaday",
+    "METR",
+    "Nautilus",
+    "Quanta Magazine",
+    "Terry Tao / Amit Sahai"
   ],
   "had_video": false,
-  "run_at": "2026-09-25T15:56:49.661769+00:00"
+  "run_at": "2026-09-26T15:09:18.843947+00:00"
 }
