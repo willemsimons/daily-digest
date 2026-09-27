@@ -1,25 +1,25 @@
 {
-  "feeds": 78,
-  "mined": 43,
-  "videos": 4,
+  "feeds": 61,
+  "mined": 44,
+  "videos": 3,
   "video_titles": [
-    "What happens when you open the valve?",
+    "What happens to these balloons when you open the valve?",
     "The Insane Real Engineering of the Nazi Enigma Machine",
-    "Heating A Ball Just By Squeezing It",
-    "Why did Nobody Make this Before? SUNLU i10 Dry Cabinet"
+    "Heating A Ball Just By Squeezing It"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
-    "Ars Technica",
-    "CBS News",
-    "Colossal",
+    "Astral Codex Ten",
+    "DEV Community",
+    "Freie Universit\u00e4t Berlin",
     "Hackaday",
-    "METR",
-    "Nautilus",
-    "Quanta Magazine",
-    "Terry Tao / Amit Sahai"
+    "OpenAI Alignment",
+    "Tom's Hardware",
+    "arXiv",
+    "mitxela.com",
+    "worldnews / Reddit"
   ],
   "had_video": false,
-  "run_at": "2026-09-26T15:09:18.843947+00:00"
+  "run_at": "2026-09-27T15:51:04.731316+00:00"
 }
