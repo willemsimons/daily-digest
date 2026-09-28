@@ -1,6 +1,6 @@
 {
   "feeds": 61,
-  "mined": 44,
+  "mined": 46,
   "videos": 3,
   "video_titles": [
     "What happens to these balloons when you open the valve?",
@@ -8,18 +8,15 @@
     "Heating A Ball Just By Squeezing It"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
-    "Astral Codex Ten",
-    "DEV Community",
-    "Freie Universit\u00e4t Berlin",
+    "Ars Technica",
     "Hackaday",
-    "OpenAI Alignment",
-    "Tom's Hardware",
-    "arXiv",
-    "mitxela.com",
-    "worldnews / Reddit"
+    "MIT Technology Review",
+    "MUBI Notebook",
+    "Smithsonian Magazine",
+    "habibicode.org"
   ],
   "had_video": false,
-  "run_at": "2026-09-27T15:51:04.731316+00:00"
+  "run_at": "2026-09-28T18:43:56.786013+00:00"
 }
