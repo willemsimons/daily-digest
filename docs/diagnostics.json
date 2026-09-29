@@ -1,6 +1,6 @@
 {
-  "feeds": 61,
-  "mined": 46,
+  "feeds": 86,
+  "mined": 51,
   "videos": 3,
   "video_titles": [
     "What happens to these balloons when you open the valve?",
@@ -8,15 +8,16 @@
     "Heating A Ball Just By Squeezing It"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 8,
   "final_sources": [
     "Ars Technica",
+    "Colossal",
+    "Democracy Now / wires",
     "Hackaday",
-    "MIT Technology Review",
-    "MUBI Notebook",
-    "Smithsonian Magazine",
-    "habibicode.org"
+    "Public Domain Review",
+    "The Guardian",
+    "jagi.studio"
   ],
   "had_video": false,
-  "run_at": "2026-09-28T18:43:56.786013+00:00"
+  "run_at": "2026-09-29T17:01:29.668503+00:00"
 }
