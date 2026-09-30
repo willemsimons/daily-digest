@@ -1,6 +1,6 @@
 {
-  "feeds": 86,
-  "mined": 51,
+  "feeds": 89,
+  "mined": 48,
   "videos": 3,
   "video_titles": [
     "What happens to these balloons when you open the valve?",
@@ -10,14 +10,15 @@
   "supplemental": false,
   "final_items": 8,
   "final_sources": [
+    "AlphaPixel Dev",
     "Ars Technica",
-    "Colossal",
-    "Democracy Now / wires",
-    "Hackaday",
-    "Public Domain Review",
-    "The Guardian",
-    "jagi.studio"
+    "BBC Future",
+    "Democracy Now / multiple outlets",
+    "GE Vernova / NRC",
+    "IEEE Spectrum",
+    "The Public Domain Review",
+    "tomwojcik.com"
   ],
   "had_video": false,
-  "run_at": "2026-09-29T17:01:29.668503+00:00"
+  "run_at": "2026-09-30T16:58:24.010313+00:00"
 }
