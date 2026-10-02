@@ -1,26 +1,24 @@
 {
-  "feeds": 85,
-  "mined": 46,
+  "feeds": 83,
+  "mined": 50,
   "videos": 5,
   "video_titles": [
+    "How Dangerous Are Non-Stick Pans?",
     "We're trying something new...",
     "What happens to these balloons when you open the valve?",
-    "The Insane Real Engineering of the Nazi Enigma Machine",
     "This Device Turns Anything into a Suction Cup",
     "Drawing electricity from this sodium-water reactor prevents it from exploding (in theory)"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 7,
   "final_sources": [
-    "404 Media",
-    "Au79 Macro Research",
-    "CNBC",
-    "Designboom",
+    "Ars Technica",
+    "Dwarkesh Podcast",
+    "Just Security",
     "MIT Technology Review",
     "Simon Willison's Weblog",
-    "The Space Review",
-    "Works in Progress"
+    "YouTube \u2014 Steve Mould"
   ],
-  "had_video": false,
-  "run_at": "2026-10-01T17:30:23.879898+00:00"
+  "had_video": true,
+  "run_at": "2026-10-02T16:49:19.491495+00:00"
 }

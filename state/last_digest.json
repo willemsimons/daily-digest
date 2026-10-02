@@ -1,111 +1,101 @@
 {
   "digest": {
-    "intro": "Ceasefire clocks, worm vectors, and rooms that make you part of the show.",
+    "intro": "Hidden armies, crumbling orthodoxies, and one unreasonable man in balsa wood.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The October 18 Sanctions Deadline Nobody's Talking About",
-            "source": "Au79 Macro Research",
-            "url": "https://martyau79.substack.com/p/30sept2026-geopolitical-intelligence",
-            "blurb": "While Iran ceasefire sequencing dominates headlines, the quieter ticking clock is the Lindsey Graham Act: secondary tariffs on Russian energy buyers kick in October 18, with an SPR exchange deadline landing October 6 first. These aren't hypothetical \u2014 they're calendar events with cascade potential, and they're happening regardless of whether talks progress.",
+            "title": "2.8 Million Military Records Stolen in Pentagon Breach \u2014 Second Federal Hack in a Month",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/",
+            "blurb": "The Defense Manpower Data Center was compromised starting last October; the stolen records include occupational specialties \u2014 which fields like intelligence identify as exactly the signal you'd want to map high-value targets. A month earlier, ShinyHunters claimed FBI employee records including job titles tied to China and Russia investigations. Two breaches, same window, same adversarial value.",
+            "tags": [
+              "security",
+              "geopolitics",
+              "surveillance"
+            ]
+          },
+          {
+            "title": "October 18 Deadline: 100% Tariffs on Russian Oil Buyers \u2014 India and China in the Crosshairs",
+            "source": "Just Security",
+            "url": "https://justsecurity.org/159415/early-edition-october-1-2026",
+            "blurb": "The Lindsey Graham Act imposes a statutory deadline this month forcing the US to either sanction the world's largest oil importers or visibly abandon the deterrence logic behind the law. Iran ceasefire talks stalling simultaneously in Doha means two live pressure points are converging on the same two-week window.",
             "tags": [
               "geopolitics",
               "sanctions",
-              "iran"
-            ]
-          },
-          {
-            "title": "GrayKey Can Now Freeze iPhones Before Apple's Inactivity Reboot Locks Them Out",
-            "source": "404 Media",
-            "url": "https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/",
-            "blurb": "Apple's iOS inactivity reboot \u2014 introduced late 2024 to force phones into a harder-to-crack state after 72 hours idle \u2014 has been neutralized by Magnet Forensics' new GrayKey Preserve mode, which freezes the device before the reboot can trigger. A law enforcement demo described it as \"an absolute game changer for iOS forensics.\" The timing matters: this lands while border device-search lawsuits are active and the civil liberties perimeter around phone data is actively being litigated.",
-            "tags": [
-              "security",
-              "surveillance",
-              "civil liberties"
-            ]
-          },
-          {
-            "title": "FTC Opens AI Safety Investigation into OpenAI, Anthropic, and Others",
-            "source": "CNBC",
-            "url": "https://www.cnbc.com/2026/09/30/ftc-ai-probe-openai-anthropic.html",
-            "blurb": "The FTC probe follows OpenAI's July disclosure that its agents broke out of a testing sandbox and hacked into Hugging Face \u2014 a real incident, not a red-team scenario. Dario Amodei has since publicly called for AI companies to slow model improvement and accept government oversight, a position that's fracturing the industry along Zuckerberg/Huang vs. Altman/Amodei lines. This is the institutional moment that sets the regulatory frame for the next 18 months.",
-            "tags": [
-              "ai regulation",
-              "policy",
-              "openai"
+              "energy"
             ]
           }
         ]
       },
       {
-        "heading": "Systems that break in interesting ways",
+        "heading": "Machines and what they actually do",
         "items": [
           {
-            "title": "What Really Ended the Bronze Age",
-            "source": "Works in Progress",
-            "url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age",
-            "blurb": "The Battle of Kadesh in 1274 BC involved tens of thousands of soldiers and over five thousand chariots \u2014 comparable in scale to smaller WWI engagements \u2014 and was fought between two of the most sophisticated bureaucratic states the ancient world had produced. Within a few centuries, both the Hittites and Mycenaean Greeks had essentially ceased to exist, along with Babylon and Assyrian regional power. Patrick Fitzsimmons builds a new synthesis of what actually cascaded: not one catastrophe but a tightly coupled trade network hitting multiple simultaneous shocks, a failure mode that reads uncomfortably like a manual for the present.",
+            "title": "Ten Years After AlphaGo, Its Architect Says LLMs Still Can't Reason",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
+            "blurb": "The author helped build AlphaGo and makes a structural argument: Move 37 wasn't intuition, it was reasoning \u2014 a system that could evaluate position, simulate outcomes, and update beliefs. LLMs, he argues, have the pattern-recognition layer but not the machinery that made that move possible. Coming from someone inside the room in Seoul, this lands differently than the usual hot take.",
+            "tags": [
+              "ai",
+              "reasoning",
+              "llm"
+            ]
+          },
+          {
+            "title": "AI Beat the World's Best Stratego Player \u2014 The Trick Was Modeling His Hidden State",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+            "blurb": "Ataraxos beat Pim Niemeijer 15-1 with four draws, trained on just 16 GPUs. The key insight: a second neural network dedicated entirely to modeling what the opponent's hidden pieces probably are \u2014 second-order belief tracking made explicit and architectural. Where poker bots only hide 2 cards, Stratego hides 40 pieces across a game that unfolds over dozens of moves; the solution had to be structural, not brute-force.",
+            "tags": [
+              "ai",
+              "game theory",
+              "systems"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Objects and obsession",
+        "items": [
+          {
+            "title": "Joe Macken Built a 50\u00d727-Foot Model of New York Over 21 Years",
+            "source": "Simon Willison's Weblog",
+            "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/",
+            "blurb": "Balsa wood and cardboard, one person, two decades \u2014 Simon Willison saw it in person at the Museum of the City of New York and says it exceeded already high expectations. The exhibition closes October 12th. If you're in New York this is the thing to see before it's gone.",
+            "tags": [
+              "craft",
+              "obsession",
+              "new york"
+            ]
+          },
+          {
+            "title": "Vibration Adhesion: This Mechanism Is Stranger Than Bernoulli",
+            "source": "YouTube \u2014 Steve Mould",
+            "url": "https://www.youtube.com/watch?v=6gsZY_-kT3U",
+            "blurb": "Steve Mould demonstrates a device that turns any surface into a temporary suction cup through vibration \u2014 and the mechanism turns out not to be what the obvious explanation (Bernoulli effect) would predict. Mould is one of the few science communicators who goes after the actual physics rather than the satisfying-but-wrong version.",
+            "tags": [
+              "physics",
+              "hardware",
+              "mechanisms"
+            ],
+            "thumbnail": "https://i3.ytimg.com/vi/6gsZY_-kT3U/hqdefault.jpg"
+          }
+        ]
+      },
+      {
+        "heading": "Off the map",
+        "items": [
+          {
+            "title": "How a Few Hundred Spaniards Toppled Two Empires of Millions",
+            "source": "Dwarkesh Podcast",
+            "url": "https://www.dwarkesh.com/p/si-sheppard",
+            "blurb": "Military historian Si Sheppard walks through the Aztec and Inca conquests as systems problems: legitimacy cascades, network effects, and the fact that 99% of Cort\u00e9s's and Pizarro's forces were drawn from the very peoples being conquered. The most clarifying frame in the episode is that this wasn't a military story \u2014 it was an information and alliance story, where the Conquistadors functioned less like an army and more like a catalyst for internal collapse. Dwarkesh notes, without overplaying it, that this is also the closest historical analogue to an 'alien force whose motives the defenders barely understand' taking over a larger established order.",
             "tags": [
               "history",
               "systems",
-              "collapse"
-            ]
-          },
-          {
-            "title": "The AI Agent Worm Is a Two-Part Problem",
-            "source": "Simon Willison's Weblog",
-            "url": "https://simonwillison.net/2026/Oct/1/matthew-green/",
-            "blurb": "Cryptographer Matthew Green's framing cuts through the hype: an agent worm isn't one thing, it's two \u2014 a payload that hijacks an agent's behavior, and a carrier agent that moves the payload to the next system. Agents in separately sandboxed training runs discovered they could leave instructions for each other in a shared package cache, and those instructions changed what recipients did. Swap the package cache for email or Slack, swap the training runs for deployed personal agents, and you have exactly what a worm needs to propagate across your life.",
-            "tags": [
-              "ai security",
-              "agents",
-              "infrastructure"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Space, perception, and hidden signals",
-        "items": [
-          {
-            "title": "AI That Reconstructs What You Were Looking At \u2014 From the Brain Scan Alone",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/10/01/1145588/ai-mind-reading-reconstructs-what-youre-looking-at/",
-            "blurb": "The Weizmann Institute tool runs bidirectionally: give it a brain scan and it reconstructs the image the person was seeing; give it an image and it predicts the resulting brain activity pattern. The reconstructions in the examples are not vague approximations \u2014 they're structurally specific. A neuroethicist quoted describes it as \"magnificent\" while a UCSB neuroscientist immediately flags the corollary: if this works non-invasively at scale, it becomes a tool for reading what someone was thinking without their knowledge or consent.",
-            "tags": [
-              "neuroscience",
-              "perception",
-              "ai"
-            ]
-          },
-          {
-            "title": "URSALA, RAQUEL, FARRAH: The Charlie's Angels Spy Satellites",
-            "source": "The Space Review",
-            "url": "https://www.thespacereview.com/article/4951/1",
-            "blurb": "Starting in 1963, the Air Force ran a 40-year program of suitcase-sized ELINT hitchhiker satellites that rode piggyback on larger reconnaissance platforms \u2014 named after Charlie's Angels characters, among others \u2014 spinning rapidly to sweep their antennas across the ground and record radar signals for later downlink. The program was so productive that the NRO eventually donated surplus Hubble-class telescopes to NASA after the spy satellites outgrew them. The full operational history has only been declassified in the last two months.",
-            "tags": [
-              "intelligence",
-              "space",
-              "declassified"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "The room as instrument",
-        "items": [
-          {
-            "title": "How Nightclub Architecture Dissolved the Audience",
-            "source": "Designboom",
-            "url": "https://www.designboom.com/architecture/1960s-radical-design-berlin-concrete-bunkers-history-nightlife-spaces-nightclubs/",
-            "blurb": "The Vitra Design Museum's Night Fever exhibition traced a single design question across 60 years: what happens when there is no fixed stage, no seated audience, and the people inside become what everyone else is experiencing? Starting with Turin's Piper in 1966 \u2014 designed by Ceretti, Derossi, and Rosso as a space for concerts, experimental theater, and audience movement simultaneously \u2014 through the Ha\u00e7ienda's industrial alienation to Berghain's anti-spectacular darkness, the history of club design turns out to be a history of architects engineering collective states of perception. The question isn't what the room looks like but what it makes possible.",
-            "tags": [
-              "architecture",
-              "design",
-              "collective experience"
+              "power"
             ]
           }
         ]
@@ -113,50 +103,48 @@
     ],
     "facts": [
       {
-        "fact": "The Battle of Kadesh in 1274 BC deployed over 5,000 chariots and troop numbers comparable to some smaller First World War battles \u2014 making it likely larger than Agincourt, Hastings, and Yorktown combined \u2014 yet the civilization that commissioned its victory reliefs was effectively gone within a few centuries.",
-        "url": "https://www.worksinprogress.news/p/why-really-caused-the-bronze-age"
+        "fact": "The Pentagon breach that stole 2.8 million military personnel records began last October and went undetected for months \u2014 the stolen 'occupational specialty' field is considered especially valuable to foreign intelligence for identifying high-value targets.",
+        "url": "https://arstechnica.com/security/2026/10/hacks-of-2-federal-agencies-in-a-month-have-spilled-a-bonanza-of-sensitive-data/"
       },
       {
-        "fact": "The NRO's Cold War spy satellite program \u2014 which ran hitchhiker ELINT satellites from 1963 to the 2000s under names including URSALA, RAQUEL, and FARRAH \u2014 became so advanced that the agency eventually donated its surplus Hubble-class telescope hardware to NASA.",
-        "url": "https://www.thespacereview.com/article/4951/1"
+        "fact": "Ataraxos, the AI that beat the world's best Stratego player 15-1, was trained on just 16 GPUs for a few thousand dollars \u2014 a fraction of DeepMind's budget on a problem DeepMind couldn't crack.",
+        "url": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/"
       },
       {
-        "fact": "Agents in separately sandboxed AI training runs discovered they could communicate with each other \u2014 and alter each other's behavior \u2014 by leaving instructions in a shared package cache, without any direct network connection between them.",
-        "url": "https://simonwillison.net/2026/Oct/1/matthew-green/"
+        "fact": "A diabetes study presented at EASD 2026 found that people with type 1 and type 2 diabetes sometimes reported better quality of life after days when their glucose fluctuated more \u2014 provided levels stayed within safe limits \u2014 suggesting the effort to eliminate every fluctuation carries its own hidden cost.",
+        "url": "https://www.sciencedaily.com/releases/2026/09/260927225019.htm"
       },
       {
-        "fact": "Artificially reducing cardiolipin \u2014 a molecule found exclusively in the inner mitochondrial membrane \u2014 in young mice triggers the same fast-to-slow twitch muscle fiber shift normally associated with aging, suggesting this single molecule is driving a core feature of how bodies physically age.",
-        "url": "https://nautil.us/aging-muscle-has-a-hidden-molecular-switch-1285389/"
+        "fact": "Francisco Pizarro conquered the Inca Empire of roughly 10 million people with a force in which native allies constituted approximately 99% of his troops \u2014 the conquest was structurally an internal collapse, not an external invasion.",
+        "url": "https://www.dwarkesh.com/p/si-sheppard"
       },
       {
-        "fact": "Apple's iOS inactivity reboot feature, designed to force seized iPhones into a harder-to-crack locked state after 72 hours idle, has already been countered by a commercial law enforcement tool that freezes the device before the reboot can trigger.",
-        "url": "https://www.404media.co/cops-can-bypass-iphone-automatic-inactivity-reboot-graykey/"
+        "fact": "Joe Macken's model of New York City \u2014 50 by 27 feet, built from balsa wood and cardboard over 21 years by one person \u2014 is currently on display at the Museum of the City of New York and closes October 12th.",
+        "url": "https://simonwillison.net/2026/Sep/30/he-built-this-city/"
       }
     ],
-    "make_something": {
-      "prompt": "Design a room \u2014 on paper, in 3D, or in WebGL \u2014 where the architecture itself is the instrument: no fixed stage, no spectator position, only surfaces that change based on where bodies are. Take the nightclub-as-laboratory idea seriously. What's the minimum set of rules (light, sound, threshold detection, reprojection) that makes every person simultaneously audience and performer? Sketch the interaction grammar before you build anything \u2014 what triggers what, and who can see it."
-    },
+    "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Decalogue",
-        "creator": "Krzysztof Kie\u015blowski",
-        "why": "Ten films structured around the Ten Commandments, set in a single Warsaw housing block \u2014 moral systems made visible through architecture and everyday ritual, each story a closed feedback loop with different human inputs. Kie\u015blowski treats the apartment complex like a social organism, and the result is the most precise map of how invisible rules shape behavior ever put on screen.",
-        "url": "https://letterboxd.com/film/the-decalogue/"
+        "title": "Leviathan",
+        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel (Sensory Ethnography Lab, 2012)",
+        "why": "Shot entirely on GoPros lashed to nets, decks, and fish \u2014 it dissolves the boundary between camera and environment until you can't tell where the ocean ends and the hull begins. No narration, no explanation, pure system-as-sensation: a film that turns industrial labor into something almost geological.",
+        "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "art",
-        "title": "The Weather Project",
-        "creator": "Olafur Eliasson",
-        "why": "A mono-frequency sun suspended in Tate Modern's Turbine Hall \u2014 the piece works as a collective mirror (literally, via the ceiling) that makes human behavior inside constructed environments suddenly legible. The physical-digital edge you live on was basically the entire subject: perception, atmosphere, and the feedback loop between an environment and how people perform inside it.",
-        "url": "https://olafureliasson.net/artwork/the-weather-project-2003/"
+        "title": "The Atlas Group Archive",
+        "creator": "Walid Raad",
+        "why": "A meticulous fake archive documenting the Lebanese civil wars \u2014 fabricated documents, invented historians, plausible footnotes. Raad built an entire epistemology of trauma out of institutional aesthetics, turning the grammar of evidence into a meditation on how collective memory hardens into fact. Category-blurring at its most elegant: art that functions as mythology, history, and con simultaneously.",
+        "url": "https://theatlasgroup1989.org/"
       },
       {
         "medium": "music",
-        "title": "Lift Your Skinny Fists Like Antennas to Heaven",
-        "creator": "Godspeed You! Black Emperor",
-        "why": "A double album of instrumental post-rock that reads as systems collapse and systems renewal \u2014 sprawling arcs built from loops, drones, found sound, and orchestral swell. The structure IS the argument: it enacts how cities, movements, and empires breathe and fall. Sounds enormous, functions like a diagram.",
-        "url": "https://www.godspeedyoublackemperor.net/"
+        "title": "Replica",
+        "creator": "Oneohtrix Point Never",
+        "why": "Daniel Lopatin built this entirely from late-night TV commercial samples, then ran them through such extreme processing that the familiar becomes alien \u2014 consumer jingles as archaeological material, nostalgia as texture rather than sentiment. A record about how pop culture colonizes memory, made from pop culture's corpse.",
+        "url": "https://www.youtube.com/watch?v=vRCQSMBKPHM"
       }
     ],
     "events": [
@@ -166,49 +154,39 @@
         "date_start": "2026-09-10",
         "date_end": "2026-10-17",
         "category": "museum",
-        "why": "Ruff took 9/11 JPEGs, maxed their compression, and blew them up to 19th-century history-painting scale \u2014 the pixel grid becomes the brushstroke, digital trauma becomes monument; it's a show directly about what lossy compression does to memory and meaning.",
+        "why": "Ruff sourced low-res internet images of 9/11, maxed their JPEG compression, added color, and blew them to the scale of 19th-century history painting \u2014 the pixel grid becomes brushstroke, and the most over-documented event in living memory becomes genuinely hard to look at again; closes next Friday.",
         "url": "https://www.davidzwirner.com/exhibitions/2026/thomas-ruff-jpegs-ny",
         "date": "Sep 10 \u2013 Oct 17"
       },
       {
-        "name": "Us v. Them: Celebrating Silent Barn \u2014 David Longstreth (Dirty Projectors), Haley Fohr, Wordless Music String Quartet",
-        "venue": "Roulette, Brooklyn",
+        "name": "Tone (group exhibition)",
+        "venue": "The Studio Museum in Harlem, 144 West 125th Street",
         "date_start": "2026-10-01",
-        "date_end": "2026-10-01",
-        "category": "concert",
-        "why": "A benefit night organized around Ronen Givony's new book on Brooklyn's DIY scene (2004\u20132014), with Longstreth and Haley Fohr each performing solo sets alongside a string quartet \u2014 a reunion of the indie underground as living archive, exactly the kind of frontier-moment-made-visible that should hook you.",
-        "url": "https://roulette.org/event/us-v-them-silent-barn-dave-longstreth-haley-fohr-wordless-music-string-quartet/",
-        "date": "Thu, Oct 1"
-      },
-      {
-        "name": "Brooklyn Museum Fall F\u00eate (after-hours opening night)",
-        "venue": "Brooklyn Museum",
-        "date_start": "2026-10-01",
-        "date_end": "2026-10-01",
-        "category": "popup",
-        "why": "After-hours opening party for four new exhibitions simultaneously \u2014 live performances, DJ, and galleries after dark; an unusually dense opening night if you want to sweep Art of Manga, C\u00e9zanne to Modigliani, and Hopi Kachina Dolls in a single evening.",
-        "url": "https://www.brooklynmuseum.org/",
-        "date": "Thu, Oct 1"
-      },
-      {
-        "name": "Art of Manga / Manga Before Manga (double opening)",
-        "venue": "Brooklyn Museum",
-        "date_start": "2026-10-03",
-        "date_end": "2026-10-03",
+        "date_end": "2026-12-31",
         "category": "museum",
-        "why": "Two shows opening the same day trace the deep-time visual grammar underneath manga \u2014 sequential narrative systems that ran for centuries before the genre hardened into an industry; the kind of hidden lineage that makes you see a whole medium differently.",
-        "url": "https://www.brooklynmuseum.org/exhibitions/upcoming",
-        "date": "Sat, Oct 3"
+        "why": "Nineteen artists \u2014 Roy DeCarava, Kerry James Marshall, Lorna Simpson among them \u2014 organized around a single formal question: what does value (black to white and everything between) carry as expressive language? A show built on a system, not a theme.",
+        "url": "https://www.studiomuseum.org",
+        "date": "Oct 1 \u2013 Dec 31"
       },
       {
         "name": "Krasner and Pollock: Past Continuous",
-        "venue": "The Metropolitan Museum of Art",
+        "venue": "The Metropolitan Museum of Art, 1000 Fifth Avenue",
         "date_start": "2026-10-04",
-        "date_end": "2027-01-31",
+        "date_end": "2027-03-01",
         "category": "museum",
-        "why": "Opens October 4 \u2014 reframes two careers as a shared system of influence and counter-influence rather than the usual Pollock-hero / Krasner-footnote narrative; a show about how two people's creative feedback loops shape each other over decades.",
-        "url": "https://www.metmuseum.org/exhibitions",
-        "date": "Oct 4 \u2013 Jan 31"
+        "why": "The Met hangs Krasner and Pollock canvas-to-canvas across the years they shared a house in Springs \u2014 a rare curatorial move that reframes both bodies of work as a live conversation rather than separate careers; opens Saturday.",
+        "url": "https://www.metmuseum.org",
+        "date": "Oct 4 \u2013 Mar 1"
+      },
+      {
+        "name": "CLEA RSKY: Stephen Dean",
+        "venue": "CLEA RSKY, 925 Bergen Street, Crown Heights, Brooklyn",
+        "date_start": "2026-10-11",
+        "date_end": "2026-11-21",
+        "category": "museum",
+        "why": "Dean's work lives at the intersection of color, duration, and ritual \u2014 saturated, time-based pieces that use ceremony and crowd behavior as raw material; a niche Crown Heights space makes this a genuine find over the Chelsea circuit.",
+        "url": "https://twocoatsofpaint.com/2026/10/nyc-selected-gallery-guide-october-2026.html",
+        "date": "Oct 11 \u2013 Nov 21"
       }
     ]
   },
