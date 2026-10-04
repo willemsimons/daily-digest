@@ -1,96 +1,84 @@
 {
   "digest": {
-    "intro": "Cells losing identity, wars of choice, and an LLM that paints in oil.",
+    "intro": "Printers in orbit, scans on the seafloor, and a corpus that thinks back.",
     "sections": [
       {
-        "heading": "This week abroad",
+        "heading": "World",
         "items": [
           {
-            "title": "Ethiopia's Wars of Choice",
-            "source": "An Africanist Perspective",
-            "url": "https://www.africanistperspective.com/p/on-the-escalation-of-war-in-ethiopia",
-            "blurb": "The 2022 Pretoria peace deal is effectively dead: seven armed groups including the TPLF and Amhara Fano militias launched coordinated ground assaults in late September, and Ethiopian federal drones are now striking within 50km of Addis Ababa. The author's framing cuts through the noise \u2014 this isn't structural inevitability, it's elite choice, and a rotating cast of foreign academics and journalists keeps cheering for their preferred side rather than pushing for peace.",
+            "title": "Third carrier, 10,000 troops: the US Iran posture hardens",
+            "source": "The Cipher Brief",
+            "url": "https://thecipherbrief.com/report/global-intelligence-report-for-friday-october-2-2026",
+            "blurb": "A third carrier group plus fresh troop deployments to the Middle East signals the administration is moving beyond deterrence posture into something closer to strike readiness. The same bulletin notes Ukraine's first combat use of the FP-7 tactical ballistic missile \u2014 two simultaneous escalation markers on opposite sides of the world, same day.",
             "tags": [
               "geopolitics",
-              "conflict",
-              "horn of africa"
-            ]
-          },
-          {
-            "title": "China Just Made Trump's Energy Dilemma Worse",
-            "source": "Geopolitical Futures",
-            "url": "https://geopoliticalfutures.com/china-just-made-trumps-energy-dilemma-worse/",
-            "blurb": "Less than a week after the Trump-Xi Washington summit, Beijing suspended refined fuel exports \u2014 a surgically precise counter-move against one of the White House's most politically urgent economic targets: domestic fuel prices. It's a clean demonstration of what interdependence actually means in practice: the lever you pull to hurt the other side is attached to yourself.",
-            "tags": [
-              "geopolitics",
-              "us-china",
-              "energy"
-            ]
-          },
-          {
-            "title": "Court Agrees with EFF: Utah's VPN Law Demands a Technical Impossibility",
-            "source": "EFF",
-            "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility",
-            "blurb": "Utah's SB 73 required adult websites to detect and block VPN users or identify their physical location \u2014 and banned sites from even explaining how VPNs work. A federal judge blocked it on the grounds that it imposes extraterritorial burdens on the entire internet, which is the constitutional equivalent of Indiana's 1897 legislature voting to legally redefine pi as 3.2. The EFF brief is worth a read as a document about what happens when lawmakers treat technical infrastructure like a zoning ordinance.",
-            "tags": [
-              "internet law",
-              "digital rights",
-              "technical policy"
+              "iran",
+              "ukraine"
             ]
           }
         ]
       },
       {
-        "heading": "Biology, in uncomfortable motion",
+        "heading": "Making things at the edge",
         "items": [
           {
-            "title": "Loss of Cell Identity Drives Human Aging",
-            "source": "Eric Topol / Ground Truths",
-            "url": "https://erictopol.substack.com/p/loss-of-cell-identity-drives-human",
-            "blurb": "Two papers published simultaneously propose that aging isn't primarily damage accumulation \u2014 it's cells losing their epigenetic identity, forgetting what they're supposed to be. If the framing holds, it reorients the entire field: the problem isn't wear, it's information drift, which is both more alarming and potentially more tractable. Topol synthesizes the pair well; this is early but the paradigm shift is real enough to track.",
+            "title": "Rodin Museum 3D scan verdict: Cosmo Wenman gets his answer",
+            "source": "Cosmo Wenman / Substack",
+            "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
+            "blurb": "After years of FOIA-style legal pressure, Wenman's case against the Mus\u00e9e Rodin over withheld 3D scan data of public-domain sculpture has reached a verdict \u2014 the outcome sets a precedent for whether cultural institutions can lock digital twins of works the public already owns. For anyone working at the physical/digital boundary this is the access-rights case that actually matters, decided in real time.",
             "tags": [
-              "aging",
-              "epigenetics",
-              "longevity"
+              "digital fabrication",
+              "open access",
+              "art"
             ]
           },
           {
-            "title": "Your Immune System Ages in Two Big Bursts",
-            "source": "Nautilus",
-            "url": "https://nautil.us/your-immune-system-ages-in-two-big-bursts-1285487/",
-            "blurb": "Analysis of 3.8 million immune cells from nearly 2,000 people found that immune aging isn't a smooth decline \u2014 it comes in two discrete restructuring events, around your 40s and your 60s, with T-cells showing the sharpest shifts. The sex difference is striking: older women's killer T-cells show sustained activation that likely explains why they clear pathogens and respond to vaccines better than men of the same age. Punctuated, not gradual \u2014 that changes when and how any intervention timing logic should apply.",
+            "title": "31 new deep-sea species found without touching a single one",
+            "source": "Science Alert / Schmidt Ocean Institute",
+            "url": "https://www.sciencealert.com/31-haunting-new-deep-sea-species-discovered-off-the-coast-of-brazil",
+            "blurb": "The Schmidt Ocean Institute's latest expedition used DeepPIV laser-based 3D imaging to capture the living cellular structure of midwater organisms \u2014 ghostly gossamer worms, comb jellies, and single-celled giants visible to the naked eye \u2014 without collecting a specimen. Crucially, the team also imaged a microbe in 3D while it was still alive, a first. Thirty-one new species from the South Atlantic, described entirely through light.",
             "tags": [
-              "immunology",
-              "aging",
-              "biology"
+              "3d imaging",
+              "ocean",
+              "discovery"
+            ]
+          },
+          {
+            "title": "ESA printed functional metal thrusters in orbit",
+            "source": "Voxel Matters / ESA",
+            "url": "https://www.voxelmatters.com/",
+            "blurb": "ESA's metal 3D printer aboard the ISS has now produced and successfully tested thrusters \u2014 functional propulsion components made and qualified in microgravity, not shipped from Earth. It's the proof-of-concept moment for in-space manufacturing: the factory follows the mission rather than preceding it.",
+            "tags": [
+              "fabrication",
+              "space",
+              "additive manufacturing"
+            ]
+          },
+          {
+            "title": "Hole Punch: gravity-assist as WebGL toy",
+            "source": "Hacker News",
+            "url": "https://notoriousbfg.com/hole-punch/",
+            "blurb": "A spare, beautifully constrained browser game where you sling a spacecraft around gravitational fields with no fuel \u2014 real orbital mechanics, no tutorial, just sector after sector of emergent physics intuition. The HN thread surfaced it alongside Falstad's rendezvous simulator as part of a small cluster of interactive physics tools worth going down.",
+            "tags": [
+              "webgl",
+              "interactive",
+              "physics"
             ]
           }
         ]
       },
       {
-        "heading": "Made things",
+        "heading": "Seeing further",
         "items": [
           {
-            "title": "Still Wet: Giving an LLM a Simulated Paint Canvas",
-            "source": "Hacker News / stillwet.art",
-            "url": "https://stillwet.art/",
-            "blurb": "Someone built a physically simulated oil paint canvas and had Claude Opus 5.5 write every brushstroke as code \u2014 no image generator, just a model describing paint behavior that a simulation then executed. The output is less interesting than the structure: AI as a painter who must think in the logic of a medium rather than pattern-match to training images. One of three free-subject painters in round 17 independently chose an estuary at evening; another avoided all Friedrich motifs because it misread earlier painters' notes as rules.",
+            "title": "Roman's coronagraph sees first light \u2014 locked on a dime from 150 miles",
+            "source": "NASA / ScienceDaily",
+            "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
+            "blurb": "NASA's Roman Space Telescope completed its fine-guidance tests September 15\u201321 and then turned its coronagraph instrument on the cosmos for the first time on September 22nd, capturing stars in the Large Magellanic Cloud. The pointing stability benchmark: staying locked on a target with precision equivalent to aiming a laser at a dime from 150 miles away. The coronagraph's whole purpose is to blot out a star's glare so we can image what orbits it.",
             "tags": [
-              "ai",
-              "generative art",
-              "painting"
-            ]
-          },
-          {
-            "title": "Drawing Electricity from This Sodium-Water Reactor Prevents It from Exploding (In Theory)",
-            "source": "Applied Science (YouTube)",
-            "url": "https://www.youtube.com/watch?v=l0qqUE1pgXU",
-            "thumbnail": "https://i1.ytimg.com/vi/l0qqUE1pgXU/hqdefault.jpg",
-            "blurb": "Ben Krasnow digs up a 1970s patent describing a sodium-water reactor where extracting electrical power is what keeps the reaction from going violently wrong \u2014 the electricity draw is the safety mechanism. Applied Science is one of the few channels where the failure modes are shown honestly and the reasoning is actually followed through. This one lives at the exact edge of 'elegant control system' and 'why would you build this.'",
-            "tags": [
-              "hardware",
-              "chemistry",
-              "experimental"
+              "space",
+              "imaging",
+              "astronomy"
             ]
           }
         ]
@@ -99,14 +87,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Mike Tomlin Spent 12 Years Building a Minecraft City",
-            "source": "The Athletic",
-            "url": "https://www.nytimes.com/athletic/7648198/2026/10/01/mike-tomlin-minecraft-nfl-coach/",
-            "blurb": "An NFL head coach has been building a solo Minecraft city for twelve years \u2014 no audience, no monetization, no content, just compulsive world-building in private. The sports context is almost irrelevant; what's interesting is the psychological portrait of someone running one of the most publicly scrutinized jobs in American life who retreats into a medium of pure autonomous construction. Twelve years is longer than most artists sustain a single body of work.",
+            "title": "Your body of work thinks back at you",
+            "source": "Photonist",
+            "url": "https://photoni.st/index.php/2026/09/25/your-body-of-work-thinks-back-at-you/",
+            "blurb": "A photographer realizes he'd been documenting hostile architecture \u2014 benches redesigned to prevent sleeping, armrests placed mid-seat, curves that deny rest \u2014 without consciously knowing it, one frame at a time over years. The essay's argument: a practice sustained long enough builds an archive that develops its own perception, noticing things the practitioner hasn't yet named. Less about photography than about what any consistent making does to the maker's attention over time.",
             "tags": [
-              "craft",
-              "obsession",
-              "world-building"
+              "creative practice",
+              "archive",
+              "attention"
             ]
           }
         ]
@@ -114,46 +102,40 @@
     ],
     "facts": [
       {
-        "fact": "Helper T-cells showed altered gene expression profiles around age 40, while killer T-cells showed changes around age 60 \u2014 immune aging comes in two discrete bursts, not a gradual slope, according to analysis of 3.8 million immune cells.",
-        "url": "https://nautil.us/your-immune-system-ages-in-two-big-bursts-1285487/"
+        "fact": "Roman's fine-guidance system tracks 18 separate guide stars simultaneously \u2014 one small section of each of its 18 detectors dedicated to a different reference star \u2014 to maintain its extraordinary pointing stability.",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm"
       },
       {
-        "fact": "EloraTZP, a next-generation triple agonist, cut body weight by up to 23.3% versus 14.8% for tirzepatide 15mg at 48 weeks in a Phase 2b trial presented at EASD 2026.",
-        "url": "https://hcplive.com/view/8-endocrinology-headlines-you-missed-in-september-2026"
+        "fact": "The midwater ocean zone \u2014 between the sunlit surface and the seafloor \u2014 is the largest habitat on Earth, yet the Schmidt expedition found 31 previously unknown species there in a single survey off Brazil.",
+        "url": "https://www.sciencealert.com/31-haunting-new-deep-sea-species-discovered-off-the-coast-of-brazil"
       },
       {
-        "fact": "Utah's SB 73 became the first state law in the US to explicitly prohibit websites from providing instructions on how to use a VPN \u2014 before being blocked by a federal court.",
-        "url": "https://www.eff.org/deeplinks/2026/10/court-agrees-eff-utahs-vpn-law-demands-technical-impossibility"
-      },
-      {
-        "fact": "In the 1980s, the Indian Forestry Service distributed thousands of rubber masks worn on the back of the head to deter Bengal tiger attacks \u2014 and it worked, at least for a while, because tigers exclusively attacked from behind.",
-        "url": "https://nautil.us/floating-scarecrow-demonstrates-the-enduring-power-of-eyes-in-the-natural-world-1285493/"
+        "fact": "Ukrainian soldiers wearing Hypershell exoskeletons on the front lines report becoming 'less fatigued, work faster, and maintain combat effectiveness for longer' when carrying artillery shells, according to a colonel cited in Ukrainska Pravda.",
+        "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/"
       }
     ],
-    "make_something": {
-      "prompt": "Build a small simulation where 'cells' hold a piece of identity information \u2014 a color, a pattern, a value \u2014 and over time, with each generation, that information drifts randomly unless reinforced by neighbors. Render it in WebGL or canvas. Watch at what point the field loses coherence and becomes unrecognizable as what it started. No goal state, no fitness function \u2014 just drift made visible. Call it 'epigenetic noise' if you want to give it a name."
-    },
+    "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "La Jet\u00e9e",
+        "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A 28-minute film made almost entirely of still photographs that somehow achieves more emotional velocity than most features \u2014 it's a meditation on memory, image, and time that reveals how narrative is constructed entirely in the gap between frames. The form IS the argument.",
-        "url": "https://letterboxd.com/film/la-jetee/"
+        "why": "A film that operates entirely as a feedback loop between image, memory, and meaning \u2014 Marker narrates across Tokyo, Guinea-Bissau, and Iceland, treating footage as a system for reconstructing how cultures encode time. Every frame asks what an image is actually doing to the person who made it, and to you watching it now.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "\u00c9tant donn\u00e9s",
-        "creator": "Marcel Duchamp",
-        "why": "Duchamp spent 20 secret years building a diorama visible only through two peepholes in a barn door, installed in the Philadelphia Museum permanently after his death \u2014 a hidden system the institution didn't fully understand until it was already inside one. The physical/viewer relationship and the gap between surface and interior is exactly your territory.",
-        "url": "https://www.philamuseum.org/collection/object/54149"
+        "title": "Process Art / Scatter Works (Studio Archive)",
+        "creator": "Robert Morris",
+        "why": "Morris spent the late 1960s making work whose whole point was that the process of making it *was* the piece \u2014 gravity, entropy, the behavior of materials. For a builder obsessed with generative systems and expressive surfaces, Morris is the pre-digital ancestor who already understood that constraining a system and watching it run is a valid art practice.",
+        "url": "https://www.guggenheim.org/artwork/3054"
       },
       {
         "medium": "music",
-        "title": "Ensemble",
-        "creator": "Haiku Salut",
-        "why": "Three instrumentalists who trigger their own lighting rigs, loops, and visual systems live \u2014 the music and the hardware feedback into each other in real time, making the performance a closed loop of signal. Obsessive craft at the intersection of physical and generative.",
-        "url": "https://www.haikusalut.com/"
+        "title": "Tri Repetae",
+        "creator": "Autechre",
+        "why": "The defining record of music as emergent behavior \u2014 Booth and Brown build rhythmic systems so complex they feel alive, not composed. The pleasure is architectural: you keep hearing the structure underneath trying to stabilize, and failing beautifully. Made for listening while building something.",
+        "url": "https://autechre.bandcamp.com/album/tri-repetae"
       }
     ],
     "events": [
@@ -163,51 +145,67 @@
         "date_start": "2026-09-10",
         "date_end": "2026-10-17",
         "category": "museum",
-        "why": "Ruff took internet-sourced 9/11 images, degraded them further by maxing compression and stripping pixels, then blew them to 19th-century history-painting scale \u2014 the result is images that are legible and destroyed at once, grief filtered through codec artifact; closing this week.",
+        "why": "Ruff sourced 9/11 images from the internet, then methodically degraded them \u2014 increasing compression, dropping pixel density, adding color \u2014 until ubiquitous trauma imagery becomes painterly abstraction at the scale of 19th-century history painting; a precise, ruthless investigation of what digital mediation does to collective memory, and it closes Friday.",
         "url": "https://www.davidzwirner.com/exhibitions/2026/thomas-ruff-jpegs-ny",
         "date": "Sep 10 \u2013 Oct 17"
       },
       {
-        "name": "Walter De Maria: 360\u02da I Ching",
-        "venue": "Dia Beacon, 3 Beekman Street, Beacon, NY",
-        "date_start": "2026-10-03",
-        "date_end": "2026-12-31",
-        "category": "museum",
-        "why": "576 white-lacquered rods arranged into 64 groups by the hexagrams of the I Ching, filling Dia's two vast central galleries \u2014 a rule-based physical system that is simultaneously divination machine, minimalist sculpture, and immersive environment; just opened today.",
-        "url": "https://www.diaart.org/exhibition/exhibitions-projects/walter-de-maria-360-i-ching-exhibition",
-        "date": "Oct 3 \u2013 Dec 31"
+        "name": "Child/ren of the Bloom",
+        "venue": "Pioneer Works, 159 Pioneer Street, Red Hook, Brooklyn",
+        "date_start": "2026-09-12",
+        "date_end": "2026-12-20",
+        "category": "popup",
+        "why": "Digital sensors, holography, and video in Pioneer Works' enormous industrial space \u2014 exactly the physical/digital edge Willem builds in, and Pioneer Works remains the best non-institutional venue in New York for work that refuses to sit still in one medium.",
+        "url": "https://pioneerworks.org",
+        "date": "Sep 12 \u2013 Dec 20"
       },
       {
-        "name": "Art of Manga",
-        "venue": "Brooklyn Museum, 200 Eastern Parkway",
-        "date_start": "2026-10-03",
-        "date_end": "2027-02-28",
+        "name": "The Surrealist Book: Tomorrow Lives in Mirrors",
+        "venue": "MoMA, 11 West 53rd Street",
+        "date_start": "2026-10-04",
+        "date_end": "2027-01-23",
         "category": "museum",
-        "why": "East Coast debut of the first major Americas exhibition treating manga as fine art \u2014 600+ original drawings that make the case for a visual language that built one of the most elaborate shared mythologies of the 20th century; opens today.",
-        "url": "https://www.brooklynmuseum.org",
-        "date": "Oct 3 \u2013 Feb 28"
+        "why": "The Surrealists treated the book itself as an object to be broken \u2014 collage, fold-outs, hidden text, anti-narrative structure \u2014 and this show excavates that tradition as a design and systems problem as much as an art-historical one.",
+        "url": "https://www.moma.org/calendar/exhibitions",
+        "date": "Oct 4 \u2013 Jan 23"
       },
       {
         "name": "Krasner and Pollock: Past Continuous",
         "venue": "The Metropolitan Museum of Art, 1000 Fifth Avenue",
         "date_start": "2026-10-04",
-        "date_end": "2027-03-01",
+        "date_end": "2027-01-31",
         "category": "museum",
-        "why": "The Met hangs the two painters canvas-to-canvas across the years they shared a house \u2014 reframes both bodies of work as a feedback loop rather than a hierarchy, which changes what you see in each.",
-        "url": "https://www.metmuseum.org",
-        "date": "Oct 4 \u2013 Mar 1"
+        "why": "Reframes two careers not as 'the great man and his wife' but as a genuine feedback loop \u2014 how two studios in the same building, competing and collaborating across decades, shaped entirely different but entangled visual languages.",
+        "url": "https://www.metmuseum.org/exhibitions",
+        "date": "Oct 4 \u2013 Jan 31"
       },
       {
-        "name": "Haegue Yang: Through",
-        "venue": "Dia Beacon, 3 Beekman Street, Beacon, NY",
-        "date_start": "2026-10-10",
-        "date_end": "2027-06-30",
+        "name": "Jakob Kudsk Steensen: Wetland",
+        "venue": "MoMA, 11 West 53rd Street",
+        "date_start": "2026-10-12",
+        "date_end": "2027-03-07",
         "category": "museum",
-        "why": "Yang's newly commissioned installation responds to the Beacon building itself in multifaceted forms \u2014 her work consistently turns industrial materials (venetian blinds, bells, scent) into sensory systems that encode cultural memory; opens this window.",
-        "url": "https://www.diaart.org",
-        "date": "Oct 10 \u2013 Jun 30"
+        "why": "Steensen's Berl-Berl uses game-engine technology and ecological field research to reconstruct Berlin's lost wetlands as a living digital environment \u2014 the exact overlap of real-time 3D, environmental systems, and cultural mythology that Willem works in.",
+        "url": "https://www.moma.org/calendar/exhibitions",
+        "date": "Oct 12 \u2013 Mar 7"
       }
     ]
   },
-  "trial_sources": []
+  "trial_sources": [
+    {
+      "name": "Global Inequality and More 3.0 \u2014 Branko Milanovic",
+      "feed_url": "https://branko2f7.substack.com/feed",
+      "why": "A former World Bank lead economist writing sharp, short-form posts on geopolitics, global inequality, capitalism, and the history of economic thought \u2014 cited by Adam Tooze, Matthew Klein, and Global Dispatches as essential reading."
+    },
+    {
+      "name": "Ground Truths \u2014 Eric Topol",
+      "feed_url": "https://erictopol.substack.com/feed",
+      "why": "A top cardiologist and science journalist offering rigorous, evidence-first reporting on longevity, peptides, stem cells, GLP-1, and AI in medicine \u2014 directly matching the reader's health and longevity research interests."
+    },
+    {
+      "name": "Contraptions \u2014 Venkatesh Rao",
+      "feed_url": "https://contraptions.venkateshrao.com/feed",
+      "why": "Rao's active post-Ribbonfarm Substack explores the aesthetics and feel of technology, organizational theory, status dynamics, and internet culture \u2014 the live successor to the archived Ribbonfarm blog the reader already follows."
+    }
+  ]
 }
