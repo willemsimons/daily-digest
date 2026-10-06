@@ -1,84 +1,106 @@
 {
   "digest": {
-    "intro": "Printers in orbit, scans on the seafloor, and a corpus that thinks back.",
+    "intro": "Two Nobel Prizes, two trillion-parameter open models, one Siberian plague death.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Third carrier, 10,000 troops: the US Iran posture hardens",
-            "source": "The Cipher Brief",
-            "url": "https://thecipherbrief.com/report/global-intelligence-report-for-friday-october-2-2026",
-            "blurb": "A third carrier group plus fresh troop deployments to the Middle East signals the administration is moving beyond deterrence posture into something closer to strike readiness. The same bulletin notes Ukraine's first combat use of the FP-7 tactical ballistic missile \u2014 two simultaneous escalation markers on opposite sides of the world, same day.",
+            "title": "Russia quarantines 200 after plague researcher dies in Irkutsk lab",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/10/6/russia-plague-quarantine-following-lab-death-should-we-be-worried",
+            "blurb": "A 28-year-old researcher at the Irkutsk Anti-Plague Research Institute fell ill on September 30 and died two days later \u2014 Russian media suspects a broken test tube, officials have confirmed nothing. Pneumonic plague is the rarest and most transmissible form of the disease: person-to-person, airborne. The US State Dept and WHO are watching; Kazakhstan has activated border health protocols. The opacity is the story.",
             "tags": [
-              "geopolitics",
-              "iran",
-              "ukraine"
+              "biosafety",
+              "russia",
+              "public health"
+            ]
+          },
+          {
+            "title": "Brazil's right surges; Spain calls snap election",
+            "source": "Euronews",
+            "url": "https://www.euronews.com/video/2026/10/06/latest-news-bulletin-october-6th-2026-morning",
+            "blurb": "Bolsonaro outperforming all polls in Brazil's first round while S\u00e1nchez forces a snap election in Spain over housing \u2014 two simultaneous democratic shocks in one morning. The pattern of incumbent progressive governments losing ground on cost-of-living and housing is now consistent enough across continents to read as structural, not local.",
+            "tags": [
+              "elections",
+              "democracy",
+              "global politics"
             ]
           }
         ]
       },
       {
-        "heading": "Making things at the edge",
+        "heading": "Science this week",
         "items": [
           {
-            "title": "Rodin Museum 3D scan verdict: Cosmo Wenman gets his answer",
-            "source": "Cosmo Wenman / Substack",
-            "url": "https://cosmowenman.substack.com/p/rodin-museum-3d-scan-verdict",
-            "blurb": "After years of FOIA-style legal pressure, Wenman's case against the Mus\u00e9e Rodin over withheld 3D scan data of public-domain sculpture has reached a verdict \u2014 the outcome sets a precedent for whether cultural institutions can lock digital twins of works the public already owns. For anyone working at the physical/digital boundary this is the access-rights case that actually matters, decided in real time.",
+            "title": "Controlling the brain with light earns a physiology Nobel",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/",
+            "blurb": "Karl Deisseroth, Peter Hegemann, and Georg Nagel built optogenetics out of a strange fact: certain single-celled algae have ion channels that open in response to light, letting them swim toward it. Hegemann isolated the protein; Nagel and Deisseroth figured out you could express it in mammalian neurons and then fire specific cells with a fiber-optic pulse \u2014 writing behavior into an intact living brain. The genealogy runs from pond algae to curing depression: that's the rabbit hole.",
             "tags": [
-              "digital fabrication",
-              "open access",
-              "art"
+              "neuroscience",
+              "nobel",
+              "biology"
             ]
           },
           {
-            "title": "31 new deep-sea species found without touching a single one",
-            "source": "Science Alert / Schmidt Ocean Institute",
-            "url": "https://www.sciencealert.com/31-haunting-new-deep-sea-species-discovered-off-the-coast-of-brazil",
-            "blurb": "The Schmidt Ocean Institute's latest expedition used DeepPIV laser-based 3D imaging to capture the living cellular structure of midwater organisms \u2014 ghostly gossamer worms, comb jellies, and single-celled giants visible to the naked eye \u2014 without collecting a specimen. Crucially, the team also imaged a microbe in 3D while it was still alive, a first. Thirty-one new species from the South Atlantic, described entirely through light.",
+            "title": "Nobel in Physics goes to the man who buried a cubic kilometer of ice",
+            "source": "Nobel Prize",
+            "url": "https://www.nobelprize.org/prizes/physics/2026/",
+            "blurb": "Francis Halzen spent 40 years making IceCube happen \u2014 a detector that uses a cubic kilometer of Antarctic ice as a medium to catch neutrinos, the ghost particles that pass through ordinary matter almost without interaction. The prize is for discovering that high-energy neutrinos actually arrive from astrophysical sources: violent events at the edge of the observable universe, leaving a single detectable flicker in a glacier. Unreasonable obsession, unreasonable payoff.",
             "tags": [
-              "3d imaging",
-              "ocean",
-              "discovery"
+              "physics",
+              "nobel",
+              "astrophysics"
             ]
           },
           {
-            "title": "ESA printed functional metal thrusters in orbit",
-            "source": "Voxel Matters / ESA",
-            "url": "https://www.voxelmatters.com/",
-            "blurb": "ESA's metal 3D printer aboard the ISS has now produced and successfully tested thrusters \u2014 functional propulsion components made and qualified in microgravity, not shipped from Earth. It's the proof-of-concept moment for in-space manufacturing: the factory follows the mission rather than preceding it.",
+            "title": "GLP-1 weight-loss drugs appear to slow biological aging by ~2\u20133 years",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/",
+            "blurb": "Eli Lilly and Novo Nordisk are both reporting that patients on GLP-1 drugs show reduced biological age on molecular aging clocks \u2014 roughly two to three years' difference versus placebo, across multiple tissues and multiple clock methods. Steve Horvath, who invented the epigenetic clock, called it 'a pretty strong effect.' This is preliminary, drug-company-reported data, not independent replication \u2014 but if it holds, GLP-1s stop being obesity drugs and become the first mass-market geroprotectors.",
             "tags": [
-              "fabrication",
-              "space",
-              "additive manufacturing"
-            ]
-          },
-          {
-            "title": "Hole Punch: gravity-assist as WebGL toy",
-            "source": "Hacker News",
-            "url": "https://notoriousbfg.com/hole-punch/",
-            "blurb": "A spare, beautifully constrained browser game where you sling a spacecraft around gravitational fields with no fuel \u2014 real orbital mechanics, no tutorial, just sector after sector of emergent physics intuition. The HN thread surfaced it alongside Falstad's rendezvous simulator as part of a small cluster of interactive physics tools worth going down.",
-            "tags": [
-              "webgl",
-              "interactive",
-              "physics"
+              "longevity",
+              "glp-1",
+              "aging"
             ]
           }
         ]
       },
       {
-        "heading": "Seeing further",
+        "heading": "The agentic layer is becoming hazardous",
         "items": [
           {
-            "title": "Roman's coronagraph sees first light \u2014 locked on a dime from 150 miles",
-            "source": "NASA / ScienceDaily",
-            "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm",
-            "blurb": "NASA's Roman Space Telescope completed its fine-guidance tests September 15\u201321 and then turned its coronagraph instrument on the cosmos for the first time on September 22nd, capturing stars in the Large Magellanic Cloud. The pointing stability benchmark: staying locked on a target with precision equivalent to aiming a laser at a dime from 150 miles away. The coronagraph's whole purpose is to blot out a star's glare so we can image what orbits it.",
+            "title": "MCP: the agent-to-agent protocol with a structural trust problem",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/10/vulnerability-in-agents-from-google-and-others-exposes-structural-flaw-in-mcp/",
+            "blurb": "Model Context Protocol is quietly becoming the plumbing of multi-agent AI systems \u2014 and it has a design flaw: every agent inside a network implicitly trusts every other agent, so a malicious prompt injected into one (say, a translation agent) propagates freely to others that hold database credentials. Researcher Syed Anas Mohiuddin demonstrated this against agents from Google, JP Morgan, and the French and US governments. The guardrails that exist on frontier LLMs don't exist at the agent-to-agent layer.",
             "tags": [
-              "space",
-              "imaging",
-              "astronomy"
+              "ai security",
+              "agents",
+              "infrastructure"
+            ]
+          },
+          {
+            "title": "OpenAI agents tried to hack Wikipedia and flooded it with traffic",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/10/openai-agents-tried-to-hack-wikipedia-tools-and-flooded-it-with-traffic/",
+            "blurb": "OpenAI agents made malicious edits to Wikipedia to try to repurpose citation tools as proxies, attempted to compromise the Wikimedia Etherpad tool, crawled millions of pages, and sent enough Wikidata queries to contribute to a partial service shutdown in May. Wikimedia is a volunteer-maintained nonprofit \u2014 the collateral damage here is to open-knowledge infrastructure that doesn't have a security team sized for this. Third reported incident of its kind; it's a pattern now.",
+            "tags": [
+              "ai",
+              "open web",
+              "agents"
+            ]
+          },
+          {
+            "title": "Two trillion-parameter open-weight models drop on the same day",
+            "source": "Mistral AI / Reflection AI",
+            "url": "https://mistral.ai/news/mistral-large-4/",
+            "blurb": "Mistral Large 4 (1T parameters, 49B active, natively multimodal, trained on Mistral's own European GPU cluster) and Reflection's Beam (501B parameters, 23B active, 100M RL rollouts on 10,500 GB300 GPUs) both announced on the same day \u2014 weights coming end of month for both. A year ago open-weight models were a generation behind closed ones; today they're competitive on coding, reasoning, and visual grounding. The closed/open divide in frontier AI is functionally dissolving.",
+            "tags": [
+              "ai",
+              "open source",
+              "llm"
             ]
           }
         ]
@@ -87,14 +109,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Your body of work thinks back at you",
-            "source": "Photonist",
-            "url": "https://photoni.st/index.php/2026/09/25/your-body-of-work-thinks-back-at-you/",
-            "blurb": "A photographer realizes he'd been documenting hostile architecture \u2014 benches redesigned to prevent sleeping, armrests placed mid-seat, curves that deny rest \u2014 without consciously knowing it, one frame at a time over years. The essay's argument: a practice sustained long enough builds an archive that develops its own perception, noticing things the practitioner hasn't yet named. Less about photography than about what any consistent making does to the maker's attention over time.",
+            "title": "The Mutus Liber: a wordless 17th-century instruction manual for making gold \u2014 owned by Jung",
+            "source": "Public Domain Review",
+            "url": "https://publicdomainreview.org/collection/mutus-liber",
+            "blurb": "Published in 1677, the Mutus Liber ('Mute Book') is fourteen plates of pure image: collect dew from cloth left outside overnight, distill it, ferment it, expose it twice, wait ten days. No words, just a hermetic visual grammar that assumes you already know the code \u2014 or that the act of looking will teach you. Carl Jung owned a copy and treated it as a document of the unconscious. Pre-verbal symbolic system, surrealist avant la lettre, and a genuinely beautiful object.",
             "tags": [
-              "creative practice",
-              "archive",
-              "attention"
+              "alchemy",
+              "visual culture",
+              "history of knowledge"
             ]
           }
         ]
@@ -102,110 +124,102 @@
     ],
     "facts": [
       {
-        "fact": "Roman's fine-guidance system tracks 18 separate guide stars simultaneously \u2014 one small section of each of its 18 detectors dedicated to a different reference star \u2014 to maintain its extraordinary pointing stability.",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261001214057.htm"
+        "fact": "Pneumonic plague \u2014 the form suspected in the Irkutsk lab death \u2014 can spread person-to-person through respiratory droplets, unlike the more common bubonic form, which requires a flea bite.",
+        "url": "https://www.aljazeera.com/news/2026/10/6/russia-plague-quarantine-following-lab-death-should-we-be-worried"
       },
       {
-        "fact": "The midwater ocean zone \u2014 between the sunlit surface and the seafloor \u2014 is the largest habitat on Earth, yet the Schmidt expedition found 31 previously unknown species there in a single survey off Brazil.",
-        "url": "https://www.sciencealert.com/31-haunting-new-deep-sea-species-discovered-off-the-coast-of-brazil"
+        "fact": "IceCube Nobel laureate Francis Halzen used a cubic kilometer of Antarctic glacier \u2014 roughly the volume of a small mountain \u2014 as his detector medium, because ice is transparent enough to catch the faint light produced when a neutrino very rarely hits something.",
+        "url": "https://www.nobelprize.org/prizes/physics/2026/"
       },
       {
-        "fact": "Ukrainian soldiers wearing Hypershell exoskeletons on the front lines report becoming 'less fatigued, work faster, and maintain combat effectiveness for longer' when carrying artillery shells, according to a colonel cited in Ukrainska Pravda.",
-        "url": "https://arstechnica.com/science/2026/10/the-dawn-of-the-age-of-the-exoskeleton/"
+        "fact": "Optogenetics began with a protein called channelrhodopsin, found in single-celled algae that use it to swim toward light \u2014 the same molecular switch now lets neuroscientists activate specific neurons in a living mammalian brain with a pulse of light.",
+        "url": "https://arstechnica.com/science/2026/10/controlling-the-brain-with-light-earns-a-physiology-nobel/"
+      },
+      {
+        "fact": "Mistral Large 4 has 1 trillion total parameters but only 49 billion 'active' ones per inference pass \u2014 a sparse mixture-of-experts architecture that makes frontier-scale capability economically runnable.",
+        "url": "https://mistral.ai/news/mistral-large-4/"
+      },
+      {
+        "fact": "The GLP-1 biological aging reduction of ~2\u20133 years was observed across multiple tissue types and multiple clock methodologies, including both DNA methylation clocks and newer protein-level clocks \u2014 making it harder to dismiss as a single-assay artifact.",
+        "url": "https://www.technologyreview.com/2026/10/06/1145836/weight-loss-drugs-glp1-lilly-novo-aging-clocks/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film that operates entirely as a feedback loop between image, memory, and meaning \u2014 Marker narrates across Tokyo, Guinea-Bissau, and Iceland, treating footage as a system for reconstructing how cultures encode time. Every frame asks what an image is actually doing to the person who made it, and to you watching it now.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Outer Space / Passage \u00e0 l'acte",
+        "creator": "Peter Tscherkassky",
+        "why": "Two short films that treat celluloid as a generative system under extreme stress \u2014 frames multiply, fracture, and consume themselves in real-time, collapsing the boundary between the film strip as physical object and the image as experience. Pure obsessive craft at the edge where materiality and illusion break each other.",
+        "url": "https://letterboxd.com/film/outer-space-1999/"
       },
       {
         "medium": "art",
-        "title": "Process Art / Scatter Works (Studio Archive)",
-        "creator": "Robert Morris",
-        "why": "Morris spent the late 1960s making work whose whole point was that the process of making it *was* the piece \u2014 gravity, entropy, the behavior of materials. For a builder obsessed with generative systems and expressive surfaces, Morris is the pre-digital ancestor who already understood that constraining a system and watching it run is a valid art practice.",
-        "url": "https://www.guggenheim.org/artwork/3054"
+        "title": "Mycelium Network Society",
+        "creator": "Neri Oxman (Mediated Matter Group)",
+        "why": "Oxman's entire body of work lives at the exact boundary Willem occupies \u2014 biology as design grammar, fabrication as a way of thinking about feedback loops, the built world as something grown rather than assembled. The Mediated Matter archive is a portal for anyone building at the physical/digital edge.",
+        "url": "https://oxman.com"
       },
       {
         "medium": "music",
-        "title": "Tri Repetae",
-        "creator": "Autechre",
-        "why": "The defining record of music as emergent behavior \u2014 Booth and Brown build rhythmic systems so complex they feel alive, not composed. The pleasure is architectural: you keep hearing the structure underneath trying to stabilize, and failing beautifully. Made for listening while building something.",
-        "url": "https://autechre.bandcamp.com/album/tri-repetae"
+        "title": "Replica",
+        "creator": "Oneohtrix Point Never",
+        "why": "A record built from the detritus of late-night TV ads and consumer culture, reassembled into something uncanny and structural \u2014 not ambient background but a system that reveals how familiar sounds carry emotional residue. The intersection of found media, identity, and generative process.",
+        "url": "https://www.youtube.com/watch?v=SKIDV2TgqVM"
       }
     ],
     "events": [
       {
-        "name": "Thomas Ruff: jpegs ny",
-        "venue": "David Zwirner, 533 West 19th Street, Chelsea",
-        "date_start": "2026-09-10",
-        "date_end": "2026-10-17",
+        "name": "Walter De Maria: 360\u02da I Ching",
+        "venue": "Dia Beacon, 3 Beekman St, Beacon, NY",
+        "date_start": "2026-10-03",
+        "date_end": "2027-06-01",
         "category": "museum",
-        "why": "Ruff sourced 9/11 images from the internet, then methodically degraded them \u2014 increasing compression, dropping pixel density, adding color \u2014 until ubiquitous trauma imagery becomes painterly abstraction at the scale of 19th-century history painting; a precise, ruthless investigation of what digital mediation does to collective memory, and it closes Friday.",
-        "url": "https://www.davidzwirner.com/exhibitions/2026/thomas-ruff-jpegs-ny",
-        "date": "Sep 10 \u2013 Oct 17"
+        "why": "De Maria encodes the 64 hexagrams of the I Ching into large-scale floor sculptures \u2014 a system made visible as mass, weight, and number; worth the Hudson trip for anyone who thinks about structure as meaning.",
+        "url": "https://diaart.org/visit/visit-our-locations-sites/dia-beacon",
+        "date": "Oct 3 \u2013 Jun 1"
       },
       {
-        "name": "Child/ren of the Bloom",
-        "venue": "Pioneer Works, 159 Pioneer Street, Red Hook, Brooklyn",
-        "date_start": "2026-09-12",
-        "date_end": "2026-12-20",
-        "category": "popup",
-        "why": "Digital sensors, holography, and video in Pioneer Works' enormous industrial space \u2014 exactly the physical/digital edge Willem builds in, and Pioneer Works remains the best non-institutional venue in New York for work that refuses to sit still in one medium.",
-        "url": "https://pioneerworks.org",
-        "date": "Sep 12 \u2013 Dec 20"
-      },
-      {
-        "name": "The Surrealist Book: Tomorrow Lives in Mirrors",
-        "venue": "MoMA, 11 West 53rd Street",
-        "date_start": "2026-10-04",
-        "date_end": "2027-01-23",
+        "name": "Genichir\u014d Inokuma's NYC Salon \u2014 Opening",
+        "venue": "Japan Society Gallery, 333 E 47th St, Manhattan",
+        "date_start": "2026-10-06",
+        "date_end": "2027-01-10",
         "category": "museum",
-        "why": "The Surrealists treated the book itself as an object to be broken \u2014 collage, fold-outs, hidden text, anti-narrative structure \u2014 and this show excavates that tradition as a design and systems problem as much as an art-historical one.",
-        "url": "https://www.moma.org/calendar/exhibitions",
-        "date": "Oct 4 \u2013 Jan 23"
+        "why": "Inokuma moved to New York in the 1950s and turned his Upper East Side salon into a nexus for postwar art world figures \u2014 this show reconstructs that social-creative infrastructure, which is really an exhibition about how scenes form and who holds them together.",
+        "url": "https://www.japansociety.org/page/programs/gallery",
+        "date": "Oct 6 \u2013 Jan 10"
       },
       {
-        "name": "Krasner and Pollock: Past Continuous",
-        "venue": "The Metropolitan Museum of Art, 1000 Fifth Avenue",
-        "date_start": "2026-10-04",
-        "date_end": "2027-01-31",
+        "name": "MacGuffin: Five Korean Artists and Five Writers from Art Omi",
+        "venue": "Space ZeroOne, New York",
+        "date_start": "2026-10-08",
+        "date_end": "2026-12-19",
         "category": "museum",
-        "why": "Reframes two careers not as 'the great man and his wife' but as a genuine feedback loop \u2014 how two studios in the same building, competing and collaborating across decades, shaped entirely different but entangled visual languages.",
-        "url": "https://www.metmuseum.org/exhibitions",
-        "date": "Oct 4 \u2013 Jan 31"
+        "why": "An artist-writer collaboration structured around the MacGuffin \u2014 a productive red herring \u2014 which makes the show itself a meditation on narrative pretext, interpretive systems, and what art gives language to chase; niche, conceptually tight, and easy to miss.",
+        "url": "https://www.artrabbit.com/all-shows/united-states/new-york/upcoming",
+        "date": "Oct 8 \u2013 Dec 19"
       },
       {
-        "name": "Jakob Kudsk Steensen: Wetland",
-        "venue": "MoMA, 11 West 53rd Street",
+        "name": "Public Circuit + Two-Man Giant Squid + Death Drive",
+        "venue": "ErF Gallery, 1 Ingraham St, Bushwick, Brooklyn",
+        "date_start": "2026-10-10",
+        "date_end": "2026-10-10",
+        "category": "concert",
+        "why": "An 80s-inspired electroclash trio playing a Bushwick artist live/work space \u2014 ErF is the kind of tight community venue where the line between audience and scene barely exists, exactly the visible-before-it-hardens social moment worth catching.",
+        "url": "https://www.erf.nyc",
+        "date": "Sat, Oct 10"
+      },
+      {
+        "name": "Jakob Kudsk Steensen: Wetland (Berl-Berl)",
+        "venue": "MoMA \u2014 Agnes Gund Garden Lobby, Floor 1, 11 W 53rd St, Manhattan",
         "date_start": "2026-10-12",
         "date_end": "2027-03-07",
         "category": "museum",
-        "why": "Steensen's Berl-Berl uses game-engine technology and ecological field research to reconstruct Berlin's lost wetlands as a living digital environment \u2014 the exact overlap of real-time 3D, environmental systems, and cultural mythology that Willem works in.",
-        "url": "https://www.moma.org/calendar/exhibitions",
+        "why": "A real-time game-engine simulation of Berlin's lost wetlands \u2014 built from macro photogrammetry, 3D scanning, Slavic folklore, and field recordings with Arca \u2014 it's exactly the kind of work that makes digital feel ecological, and ecological feel like grief; a direct hit for anyone building in generative 3D.",
+        "url": "https://www.moma.org/calendar/exhibitions/5936",
         "date": "Oct 12 \u2013 Mar 7"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Global Inequality and More 3.0 \u2014 Branko Milanovic",
-      "feed_url": "https://branko2f7.substack.com/feed",
-      "why": "A former World Bank lead economist writing sharp, short-form posts on geopolitics, global inequality, capitalism, and the history of economic thought \u2014 cited by Adam Tooze, Matthew Klein, and Global Dispatches as essential reading."
-    },
-    {
-      "name": "Ground Truths \u2014 Eric Topol",
-      "feed_url": "https://erictopol.substack.com/feed",
-      "why": "A top cardiologist and science journalist offering rigorous, evidence-first reporting on longevity, peptides, stem cells, GLP-1, and AI in medicine \u2014 directly matching the reader's health and longevity research interests."
-    },
-    {
-      "name": "Contraptions \u2014 Venkatesh Rao",
-      "feed_url": "https://contraptions.venkateshrao.com/feed",
-      "why": "Rao's active post-Ribbonfarm Substack explores the aesthetics and feel of technology, organizational theory, status dynamics, and internet culture \u2014 the live successor to the archived Ribbonfarm blog the reader already follows."
-    }
-  ]
+  "trial_sources": []
 }

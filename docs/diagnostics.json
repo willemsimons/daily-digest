@@ -1,6 +1,6 @@
 {
-  "feeds": 65,
-  "mined": 43,
+  "feeds": 86,
+  "mined": 49,
   "videos": 5,
   "video_titles": [
     "How Dangerous Are Non-Stick Pans?",
@@ -10,16 +10,16 @@
     "Drawing electricity from this sodium-water reactor prevents it from exploding (in theory)"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "Cosmo Wenman / Substack",
-    "Hacker News",
-    "NASA / ScienceDaily",
-    "Photonist",
-    "Science Alert / Schmidt Ocean Institute",
-    "The Cipher Brief",
-    "Voxel Matters / ESA"
+    "Al Jazeera",
+    "Ars Technica",
+    "Euronews",
+    "MIT Technology Review",
+    "Mistral AI / Reflection AI",
+    "Nobel Prize",
+    "Public Domain Review"
   ],
   "had_video": false,
-  "run_at": "2026-10-04T15:58:08.745890+00:00"
+  "run_at": "2026-10-06T17:24:31.438524+00:00"
 }
