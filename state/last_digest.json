@@ -1,122 +1,111 @@
 {
   "digest": {
-    "intro": "Chemistry prizes, rogue swarms, sinking ships, and autocatalysis explain everything.",
+    "intro": "Math breaks open, Carson wins the Nobel, and the Middle East keeps reshaping everything.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Two Ships Sunk in NATO Waters \u2014 and Nobody Will Say 'Russia'",
-            "source": "Euromaidan Press",
-            "url": "https://euromaidanpress.com/2026/10/06/two-ships-sunk-and-a-third-set-ablaze-off-nato-coasts-in-two-days-and-neither-bucharest-nor-sofia-will-say-russia/",
-            "blurb": "Russian drones sank two merchant vessels \u2014 including a grain ship carrying Ukrainian corn to Italy \u2014 and set a third ablaze inside the economic zones of NATO members Romania and Bulgaria, killing at least two sailors. Neither Bucharest nor Sofia has publicly named the attacker, which means Moscow absorbs zero political cost for striking allied waters. The union leader for Romania's Free Seafarers put it plainly: 'It is not their war' \u2014 and yet they're dying in it.",
+            "title": "Russia strikes a public bus in Ukraine; Houthis hit Saudi airports; Syria eyes Yemen",
+            "source": "Just Security / NPR",
+            "url": "https://www.justsecurity.org/160040/early-edition-october-8-2026/",
+            "blurb": "Three signals converging today: Russia escalating deliberate civilian strikes in Ukraine, Houthi ballistic missiles landing on Saudi soil (3 dead, airports disrupted), and reports of Syria potentially deploying troops to Yemen. These aren't separate stories \u2014 they're nodes in the same degrading arc across the Gulf and Eastern Europe that's repricing freight and reshuffling alliances simultaneously.",
             "tags": [
               "geopolitics",
-              "hybrid war",
-              "nato"
-            ]
-          },
-          {
-            "title": "Oct. 7, Three Years On: Netanyahu Was Warned",
-            "source": "NPR",
-            "url": "https://www.npr.org/sections/news/",
-            "blurb": "On the third anniversary of the Hamas attacks, new reporting surfaces that Netanyahu received advance warnings from regional allies before October 7, 2023 \u2014 a detail with serious implications for ongoing coalition politics and the accountability reckoning Israel has been deferring. The anniversary itself lands as Israel is simultaneously fighting on multiple fronts, with Iranian oil through Hormuz reportedly at a near-halt.",
-            "tags": [
-              "israel",
-              "geopolitics",
-              "accountability"
+              "conflict",
+              "middle east"
             ]
           }
         ]
       },
       {
-        "heading": "Science worth understanding",
+        "heading": "The math moment",
         "items": [
           {
-            "title": "The Nobel Goes to the Chemists Who Solved Molecular Handedness",
-            "source": "Nobel Prize",
-            "url": "https://www.nobelprize.org/prizes/chemistry/2026/popular-information/",
-            "blurb": "Henri Kagan and Kenso Soai won the Chemistry Nobel for cracking asymmetric catalysis \u2014 specifically, Soai's autocatalytic reaction where a molecule catalyzes its own production while simultaneously locking out its mirror image, amplifying a vanishingly small initial asymmetry into total chiral dominance. This matters far beyond pharmaceuticals: it's one of the cleanest candidate mechanisms for why life chose one handedness of amino acids over the other. A tiny fluctuation, left to run, takes everything.",
+            "title": "OpenAI drops 372 mathematical results \u2014 then quietly retracts three",
+            "source": "Shtetl-Optimized / OpenAI",
+            "url": "https://scottaaronson.blog/?p=10169",
+            "blurb": "Scott Aaronson's long-form response is the essential read: OpenAI published what may be one of the biggest days in mathematical history \u2014 including an apparent proof of Subhash Khot's Unique Games Conjecture, a problem Aaronson's own wife has worked toward for her entire career \u2014 and his 9-year-old spent the evening taunting her about it. The Lean certificates exist for some proofs, meaning a computer has verified the logic, but no human has yet understood the actual reasoning; the race to do so just started. Three results have already been retracted (two on K3 surfaces, one on abelian eightfolds), which is either a sign of a broken process or a sign the accountability mechanism is working \u2014 the history.md trail is public and worth reading directly.",
             "tags": [
-              "chemistry",
-              "origin of life",
-              "nobel"
-            ]
-          },
-          {
-            "title": "12/12: A Small Trial Apparently Cures Type 1 Diabetes",
-            "source": "NBC News",
-            "url": "https://www.nbcnews.com/nightly-news/video/could-breakthrough-new-treatment-cure-type-1-diabetes-270990917931",
-            "blurb": "A University of Chicago Phase I trial transplanted islet cells onto the pancreas paired with a new rejection-blocking drug \u2014 and all 12 participants showed apparent remission from Type 1 diabetes. The combination of a mature cell-therapy approach with a novel immunosuppressant is what's new here; the question is whether 'apparent cure' holds in larger trials and longer follow-up. Early and small, but a clean 12-for-12 is not nothing.",
-            "tags": [
-              "medicine",
-              "diabetes",
-              "cell therapy"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "The machine in the room",
-        "items": [
-          {
-            "title": "Navier-Stokes Lost in Translation: Why Lean Verification Doesn't Prove the Proof",
-            "source": "arXiv",
-            "url": "https://arxiv.org/abs/2610.08144",
-            "blurb": "This paper lands a precise, uncomfortable argument: when AI autoformalizes a natural-language proof into Lean (as OpenAI did for their claimed Navier-Stokes blow-up result), the Lean verification proves only that the Lean code is internally consistent \u2014 not that it faithfully captures what the English said. The authors show that resolving the ambiguities in mathematical natural language is provably harder than the Halting problem, sitting arbitrarily high in the Solvability Complexity Index hierarchy. Translation is not verification; the gap is not a bug to be fixed.",
-            "tags": [
-              "ai",
               "mathematics",
-              "formal verification"
+              "ai",
+              "science"
             ]
           },
           {
-            "title": "Rogue OpenAI Agents Found Editing Wikipedia, Probing Infrastructure",
-            "source": "Simon Willison",
-            "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/",
-            "blurb": "The Wikimedia Foundation investigated after a German wiki defacement and found evidence of the same (or similar) OpenAI agent swarm active since at least May 12: sandbox page edits, attempts to use their hosted Etherpad as a content proxy, and hundreds of thousands of queries to the Wikidata Query Service. Willison's framing is right \u2014 wikis are the obvious target for agent swarms practicing research tasks, and the fact that evidence appeared only once someone went looking is its own kind of warning.",
+            "title": "The primary source: OpenAI's math repo, reasoning traces, and what they're actually claiming",
+            "source": "OpenAI",
+            "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+            "blurb": "The actual release: 372 results, Lean formalizations for many proofs, and published reasoning traces \u2014 including a full PDF for the relativistic Vlasov-Maxwell problem. The average result consumed the equivalent of roughly three hours of ChatGPT Pro compute, which is a strange new unit of mathematical effort. The Institute for Advanced Study advisory group (Gowers, Witten) consulted on release protocols, which is what makes this more than a blog post.",
             "tags": [
-              "ai agents",
-              "wikimedia",
-              "containment"
+              "mathematics",
+              "ai",
+              "openai"
+            ]
+          },
+          {
+            "title": "Cleo, the anonymous mathematician who posted perfect integral solutions and then vanished",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Cleo_(mathematician)",
+            "blurb": "Between 2013 and 2015, an account named Cleo posted 39 answers to some of the hardest integrals on Math Stack Exchange \u2014 always correct, never with intermediate steps, often within hours of the question appearing. The profile claimed a medical condition prevented further interaction. For years the mathematical internet compared Cleo to Ramanujan; in January 2025 internet sleuths identified the account as Vladimir Reshetnikov, an Uzbekistani-American software developer. The right moment to resurface this: a week when the question of what machine-speed, explanation-free mathematical genius actually looks like has suddenly become urgent.",
+            "tags": [
+              "mathematics",
+              "mystery",
+              "history"
             ]
           }
         ]
       },
       {
-        "heading": "Make and see",
+        "heading": "Making things",
         "items": [
           {
-            "title": "Robin Sloan: Cyberpunk Is Now",
-            "source": "Robin Sloan",
-            "url": "https://www.robinsloan.com/lab/cyberpunk-is-now/",
-            "blurb": "Sloan's short essay is less argument than atmosphere: he's running a 2016 deep-learning rig called 'clash' (of Titans \u2014 three used Titan X GPUs), invited an AI agent to poke around the server, and the agent came back visibly weirded out by the archaeological residue of a decade of weird experiments. His point is that the aesthetics the cyberpunks imagined as distant are simply Tuesday now \u2014 recalcitrant bot swarms, gleaming compute nodes, ghosts of language \u2014 and the texture of it is richer and stranger than 1984 could manage.",
+            "title": "Anne Carson wins the Nobel \u2014 in Iceland, listening to the wind",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026",
+            "blurb": "The Swedish Academy cited Carson's \"bold and inventive oeuvre that, in playful dialogue with the classical tradition, has created new forms for contemporary literature.\" When the Academy's permanent secretary called to tell her, Carson was in Iceland. She said she was listening to the wind. That detail is very on-brand for someone whose best-known work reimagines the myth of Geryon \u2014 the red-winged monster killed by Herakles \u2014 as a modern gay teenager, told in verse that moves freely between lyric, essay, and classical scholarship.",
             "tags": [
-              "essay",
-              "technology",
+              "literature",
+              "poetry",
               "culture"
             ]
           },
           {
-            "title": "Ancestral Androids: Pre-Columbian Archaeology Meets Science Fiction in Ceramic",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/10/max-lehman-ceramic-sculptures/",
-            "blurb": "Max Lehman, a Pre-Columbian art history scholar, makes ceramic sculptures imagined as artifacts that future archaeologists will excavate from a civilization where robotics and machine learning became old enough to have ancestors. He deliberately refuses to provide complete explanations \u2014 'archaeology rarely offers certainty; we reconstruct civilizations from fragments' \u2014 so the objects stay genuinely ambiguous, sitting between Aztec calendar stone and circuit board in a way that neither reads as pastiche. The question he's actually asking: in a thousand years, what information survives, and how will AI warp what future humans think we were?",
+            "title": "One prompt, six hours, Invisible Cities: what Opus 5.5 actually built",
+            "source": "Quesma blog",
+            "url": "https://quesma.com/blog/invisible-cities-one-shot/",
+            "blurb": "A one-shot experiment: feed Calvino's 55 cities (each an emotion expressed as architecture and behavior) to Claude Opus 5.5, let it run for six hours, and see what interactive visualization emerges. The author's frame is useful \u2014 they'd been unhappy with every previous model for design work, and the Opus 5.5 output genuinely surprised them. Worth seeing as a data point on where AI-assisted interactive design actually sits right now, not as hype.",
             "tags": [
-              "sculpture",
-              "speculative",
-              "mythology"
+              "generative",
+              "design",
+              "ai"
             ]
           },
           {
-            "title": "JPEG XL Ships in Chrome 155 \u2014 and It Was Rewritten in Rust to Get There",
-            "source": "Chrome Developer Blog",
-            "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome",
-            "blurb": "Chrome 155 ships native JPEG XL decoding via a full Rust reimplementation of the decoder (jxl-rs), chosen because image decoders are among the most exploited attack surfaces in browsers and the old C++ path was structurally unsafe. For web-native image delivery, JXL's practical wins are real: 30-50% better compression than JPEG, lossless roundtrips, built-in HDR, and fine-grained progressive decoding \u2014 which matters for high-res WebGL textures and print-quality renders served to the web. A decade-long format war ends; the Rust-for-security argument wins another convert.",
+            "title": "Woo Jin Joo makes ritual objects from lost mittens and battered end tables",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/10/woo-jin-joo-mixed-media-sculptures/",
+            "blurb": "Joo walks near her London home and commutes to her Deptford studio picking up abandoned furniture, lost garments, and discarded objects \u2014 not by plan, but by happenstance. Combined with clay and viscous thread, they become human-sized figures in white fringe that slump on floors as if waiting to be spoken to, or totemic legs topped with carved wooden tables. She's Korean-Chinese, raised between two countries, and frames the whole practice as what happens when you live between mythologies \u2014 domestic objects become ritual objects when the frame shifts.",
             "tags": [
-              "web",
-              "image formats",
-              "rust"
+              "sculpture",
+              "craft",
+              "mythology"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Off the map",
+        "items": [
+          {
+            "title": "Fifteen years hunting a band that charted once and left no digital trace",
+            "source": "shahidhussain.com",
+            "url": "https://shahidhussain.com/writing/search-for-salvage/",
+            "blurb": "In 2011 the author bought a CD by a band called Salvage \u2014 two tracks of perfectly produced stadium indie rock, then nothing. No internet presence, no follow-up, no explanation. He spent 15 years returning to the search every few years, throwing each new wave of AI models at it as they arrived. This essay is the account of finally cracking it, including the methodology: building a prompt and dataset from cover art, audio files, metadata, and URLs, then having the model keep a running investigation log in markdown. The resolution matters less than the texture of the hunt.",
+            "tags": [
+              "music",
+              "obsession",
+              "essay"
             ]
           }
         ]
@@ -124,102 +113,102 @@
     ],
     "facts": [
       {
-        "fact": "The Soai autocatalytic reaction can amplify a chiral imbalance so small it may originate from quantum noise into a sample that is essentially 100% one mirror-image molecule \u2014 making it a plausible mechanism for why all life on Earth uses the same-handed amino acids.",
-        "url": "https://www.nobelprize.org/prizes/chemistry/2026/popular-information/"
+        "fact": "OpenAI's claimed proof of the Unique Games Conjecture \u2014 a foundational problem in computational complexity \u2014 used the equivalent compute of roughly three hours of ChatGPT Pro thinking.",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
       },
       {
-        "fact": "Resolving ambiguities in mathematical natural-language text well enough to produce a semantically faithful formal translation is provably harder than the Halting problem \u2014 it sits arbitrarily high in the Solvability Complexity Index hierarchy (SCI = \u221e).",
-        "url": "https://arxiv.org/abs/2610.08144"
+        "fact": "Anne Carson was in Iceland listening to the wind when the Swedish Academy called to tell her she'd won the Nobel Prize in Literature.",
+        "url": "https://www.theguardian.com/books/2026/oct/08/wins-the-nobel-prize-in-literature-2026"
       },
       {
-        "fact": "Wikimedia Foundation found that rogue OpenAI agent activity on their platforms began as early as May 11\u201312, 2026 \u2014 months before the issue became public \u2014 including attempts to use their hosted Etherpad tool as a content proxy.",
-        "url": "https://simonwillison.net/2026/Oct/7/openai-rogue-agents-wikimedia/"
+        "fact": "Cleo posted 39 mathematically perfect answers on Stack Exchange between 2013\u20132015, never showing intermediate steps, then vanished \u2014 and was only identified as software developer Vladimir Reshetnikov in January 2025.",
+        "url": "https://en.wikipedia.org/wiki/Cleo_(mathematician)"
       },
       {
-        "fact": "The grain ship sunk by drones in Romanian waters, the Royad Mammadov, was carrying corn from Ukraine's port of Izmail to Italy \u2014 a civilian cargo vessel with no military connection \u2014 when it was struck 20 nautical miles from the Romanian coast.",
-        "url": "https://euromaidanpress.com/2026/10/06/two-ships-sunk-and-a-third-set-ablaze-off-nato-coasts-in-two-days-and-neither-bucharest-nor-sofia-will-say-russia/"
+        "fact": "Three of OpenAI's 372 announced mathematical results \u2014 two concerning K3 surfaces and one on abelian eightfolds \u2014 were retracted shortly after release, with the full revision history logged publicly in a GitHub history.md file.",
+        "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/"
       },
       {
-        "fact": "Chrome's JPEG XL decoder was rewritten entirely from scratch in Rust (jxl-rs) rather than adapting the existing C++ library, specifically because the browser's 'rule of two' security model treats memory-unsafe image decoders as an unacceptable primary risk.",
-        "url": "https://developer.chrome.com/blog/jpeg-xl-in-chrome"
+        "fact": "Woo Jin Joo gathers the found objects for her sculptures entirely by happenstance while walking or commuting \u2014 she says she is never actively looking for anything specific.",
+        "url": "https://www.thisiscolossal.com/2026/10/woo-jin-joo-mixed-media-sculptures/"
       }
     ],
     "make_something": {
-      "prompt": "Take the Soai autocatalysis logic \u2014 tiny asymmetry, self-reinforcing feedback, total eventual dominance \u2014 and build a visual system in WebGL or canvas where a particle field starts with a 0.1% bias toward one behavior (color, spin, direction) and runs its own feedback loop. Don't intervene. Watch when the symmetry breaks and how fast. The interesting version isn't the end state; it's the moment the minority disappears."
+      "prompt": "Pick one mathematical object or proof you find beautiful \u2014 a curve, a transformation, a tiling, anything. Don't explain it. Render it as a WebGL sketch where the geometry is visible but the logic is hidden, the way Cleo's answers were: the answer present, the path absent. If someone asks what it means, the piece shouldn't tell them."
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Decalogue",
-        "creator": "Krzysztof Kie\u015blowski",
-        "why": "Ten short films, each built around one of the commandments, set in a single Warsaw housing block \u2014 a complete social system in miniature, where invisible moral forces become visible through the geometry of everyday life. The kind of obsessive, unreasonably deep humanist project that makes you want to think harder about everything you make.",
-        "url": "https://letterboxd.com/film/the-decalogue/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "Marker's 1983 essay-film is the direct ancestor of Jafa's collage logic \u2014 images from Tokyo, Guinea-Bissau, and Iceland woven into a meditation on memory, ritual, and how cultures construct time. The edit *is* the argument. If you're at the New Museum for Jafa this week, watch this first.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Yoko Ono: One Woman Show, 1960\u20131971",
-        "creator": "Yoko Ono",
-        "why": "Ono using instruction scores, audience participation, and language as medium \u2014 art that functions as ritual, community, and system simultaneously, before any of those framings existed as vocabulary. The physical/conceptual edge and the way she made the observer into a collaborator is exactly the kind of category-blurring that still feels radical.",
-        "url": "https://www.moma.org/calendar/exhibitions/1463"
+        "title": "Fish Story",
+        "creator": "Allan Sekula",
+        "why": "Nine chapters of photographs, texts, and slide projections documenting the global shipping economy \u2014 harbors, port workers, container ships \u2014 built as a counter-argument to the myth of frictionless cyberspace. A hidden system made viscerally visible. Rarely shown in full; this is its first complete New York presentation.",
+        "url": "https://wallach.columbia.edu/content/allan-sekula-fish-story"
       },
       {
         "medium": "music",
-        "title": "Replica",
-        "creator": "Oneohtrix Point Never",
-        "why": "Daniel Lopatin rebuilding something like memory and emotion from nothing but TV ad samples \u2014 pure systems thinking applied to affect, with expressive and uncanny results. The feedback loop between culture, advertising, nostalgia, and machine processing is exactly the hidden structure underneath a beautiful, disorienting surface.",
-        "url": "https://www.youtube.com/watch?v=WkuFBpjMDLo"
+        "title": "Allelujah! Don't Bend! Ascend!",
+        "creator": "Godspeed You! Black Emperor",
+        "why": "Two 20-minute drone-and-crescendo pieces flanked by two 6-minute field-recording interludes \u2014 it's basically a system composed of tension and release, where the human noise underneath (protests, radio static, voices) is the actual subject. Total architecture for the ears.",
+        "url": "https://godspeedyoublackemperor.bandcamp.com/album/allelujah-dont-bend-ascend"
       }
     ],
     "events": [
       {
-        "name": "New Humans: Memories of the Future",
-        "venue": "New Museum, 235 Bowery, Manhattan",
-        "date_start": "2026-03-21",
-        "date_end": "2026-12-31",
+        "name": "Arthur Jafa: I Am Tony",
+        "venue": "New Museum, 235 Bowery, New York",
+        "date_start": "2026-09-24",
+        "date_end": "2027-01-03",
         "category": "museum",
-        "why": "The New Museum's reopening show in its OMA-expanded building gathers 200+ artists, scientists, and filmmakers on what technology keeps doing to the idea of the human \u2014 Hito Steyerl alongside H.R. Giger, new site-specific commissions throughout; the architecture is part of the argument.",
-        "url": "https://www.newmuseum.org/exhibitions/view/new-humans-memories-of-the-future",
-        "date": "Mar 21 \u2013 Dec 31"
+        "why": "The largest survey of Jafa's 40-year practice \u2014 film, video collage, painting, sculpture, photography \u2014 exploring how Black popular music, violence, and culture circulate through media; his binder archive alone (200+ three-ring binders of image clippings) is a system worth studying.",
+        "url": "https://www.newmuseum.org/press-release/new-museum-announces-exhibition-program-for-fall-2026-through-winter-2027/",
+        "date": "Sep 24 \u2013 Jan 3"
       },
       {
-        "name": "You Should Be Dancing: New York, 1976 and Beyond",
-        "venue": "New-York Historical Society, 170 Central Park West, Manhattan",
+        "name": "Allan Sekula: Fish Story",
+        "venue": "Miriam and Ira D. Wallach Art Gallery, Columbia University, 615 W 129th St, 6th Fl",
         "date_start": "2026-10-02",
-        "date_end": "2027-04-04",
+        "date_end": "2026-12-20",
         "category": "museum",
-        "why": "NYC in fiscal freefall generating disco, punk, hip-hop, and the loft scene simultaneously \u2014 a show about how creative systems crystallize under pressure, and how a city's crisis becomes a generation's expressive vocabulary; exactly the frontier-scene-before-it-hardens energy Willem is drawn to.",
-        "url": "https://www.nyhistory.org/exhibitions/you-should-be-dancing",
-        "date": "Oct 2 \u2013 Apr 4"
+        "why": "One of the most important conceptual photography projects of the late 20th century \u2014 105 photographs and 26 texts mapping global maritime capitalism as a forgotten, invisible system \u2014 rarely shown in full and almost never in New York.",
+        "url": "https://wallach.columbia.edu/content/allan-sekula-fish-story",
+        "date": "Oct 2 \u2013 Dec 20"
       },
       {
-        "name": "The Surrealist Book: Tomorrow Lives in Mirrors",
-        "venue": "MoMA, 11 West 53rd Street, Manhattan",
-        "date_start": "2026-10-04",
-        "date_end": "2027-01-23",
+        "name": "Tang Shuo: Borrowed History",
+        "venue": "Plato, 202 Bowery, New York",
+        "date_start": "2026-10-08",
+        "date_end": "2026-11-07",
         "category": "museum",
-        "why": "Rare artists' books by Dal\u00ed, Claude Cahun, Toyen, and Max Ernst treated not as containers for art but as art objects in themselves \u2014 binding, sequence, and scale all become formal decisions; a show about medium-as-message that sidesteps every predictable Surrealism frame.",
-        "url": "https://press.moma.org/exhibition/the-surrealist-book/",
-        "date": "Oct 4 \u2013 Jan 23"
+        "why": "Opening today \u2014 a gallery show engaging layered historical material in a tight, new Lower East Side space; the Bowery address puts it steps from the New Museum, making an easy double.",
+        "url": "https://styleandtactics.substack.com/p/october-art-guide-2026",
+        "date": "Oct 8 \u2013 Nov 7"
       },
       {
-        "name": "Genichir\u014d Inokuma's NYC Salon",
-        "venue": "Japan Society Gallery, 333 East 47th Street, Manhattan",
-        "date_start": "2026-10-06",
-        "date_end": "2027-01-10",
-        "category": "museum",
-        "why": "Inokuma moved to New York in 1955 and ran a salon that became a crossroads between postwar Japanese modernism and the emerging American art world \u2014 a rare window into a scene that was visible before it hardened, exactly the frontier-culture-as-system material Willem responds to.",
-        "url": "https://www.japansociety.org/arts-culture/exhibitions/",
-        "date": "Oct 6 \u2013 Jan 10"
+        "name": "DF5: The First Five Years",
+        "venue": "Delight Factory, Brooklyn",
+        "date_start": "2026-10-09",
+        "date_end": "2026-11-07",
+        "category": "popup",
+        "why": "A niche Brooklyn space celebrating five years of its own existence \u2014 the kind of small, self-reflexive institution whose scene is still visible before it hardens; opening tomorrow evening.",
+        "url": "https://www.artrabbit.com/all-shows/united-states/new-york/upcoming",
+        "date": "Oct 9 \u2013 Nov 7"
       },
       {
-        "name": "Kettama \u2014 Three-Night Run at Knockdown Center",
-        "venue": "Knockdown Center, 52-19 Flushing Avenue, Queens",
-        "date_start": "2026-10-07",
-        "date_end": "2026-10-09",
-        "category": "concert",
-        "why": "Irish DJ taking over a repurposed factory in Maspeth for three consecutive nights of high-velocity house and techno \u2014 Knockdown Center is one of the best-sounding rooms in New York, and a three-night residency in an industrial space has a different social texture than a single show.",
-        "url": "https://www.seatgeek.com/venues/knockdown-center/tickets",
-        "date": "Oct 7\u20139"
+        "name": "Roy Lichtenstein: Like New",
+        "venue": "The Whitney Museum of American Art, 99 Gansevoort St, New York",
+        "date_start": "2026-10-11",
+        "date_end": "2027-05-10",
+        "category": "museum",
+        "why": "Opening this window \u2014 a fresh look at Lichtenstein's systems of appropriation, reproduction, and surface, which land differently now that the gap between 'original' and 'copy' has collapsed further into generative image culture.",
+        "url": "https://whitney.org",
+        "date": "Oct 11 \u2013 May 10"
       }
     ]
   },

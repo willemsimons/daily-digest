@@ -1,27 +1,25 @@
 {
-  "feeds": 98,
-  "mined": 40,
-  "videos": 5,
+  "feeds": 91,
+  "mined": 53,
+  "videos": 4,
   "video_titles": [
     "How Dangerous Are Non-Stick Pans?",
     "We're trying something new...",
-    "What happens to these balloons when you open the valve?",
     "This Device Turns Anything into a Suction Cup",
     "Drawing electricity from this sodium-water reactor prevents it from exploding (in theory)"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 8,
   "final_sources": [
-    "Chrome Developer Blog",
     "Colossal",
-    "Euromaidan Press",
-    "NBC News",
-    "NPR",
-    "Nobel Prize",
-    "Robin Sloan",
-    "Simon Willison",
-    "arXiv"
+    "Just Security / NPR",
+    "OpenAI",
+    "Quesma blog",
+    "Shtetl-Optimized / OpenAI",
+    "The Guardian",
+    "Wikipedia",
+    "shahidhussain.com"
   ],
   "had_video": false,
-  "run_at": "2026-10-07T17:59:09.428955+00:00"
+  "run_at": "2026-10-08T18:00:23.925656+00:00"
 }
