@@ -1,6 +1,6 @@
 {
-  "feeds": 80,
-  "mined": 43,
+  "feeds": 64,
+  "mined": 50,
   "videos": 5,
   "video_titles": [
     "What is edge dislocation?",
@@ -10,16 +10,15 @@
     "Drawing electricity from this sodium-water reactor prevents it from exploding (in theory)"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
-    "Al Jazeera Opinion",
-    "Ars Technica",
-    "Earth.com",
+    "Ars Technica / Nature study, Monash University",
+    "Earth.com / Mass General Brigham, Broad Institute",
+    "Euronews / wire reports",
     "Hackaday",
-    "ScienceAlert",
-    "Terry Tao's blog",
-    "ZeroFox Intelligence"
+    "Robin Sloan's Lab",
+    "patkerr.co.uk / Hacker News"
   ],
   "had_video": false,
-  "run_at": "2026-10-10T16:22:24.810408+00:00"
+  "run_at": "2026-10-11T16:46:50.272385+00:00"
 }
