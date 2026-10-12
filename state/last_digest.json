@@ -1,72 +1,84 @@
 {
   "digest": {
-    "intro": "A day of hidden order: beneath geopolitical chaos, physics, and neural noise.",
+    "intro": "Infrastructure as target, cells as code, and the browser eating everything.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Trump calls for Zelenskyy's removal; Riyadh airport hit by Houthis",
-            "source": "Euronews / wire reports",
-            "url": "https://www.euronews.com/video/2026/10/11/latest-news-bulletin-october-11th-2026-morning",
-            "blurb": "Two separate escalations converging on the same day: Trump publicly stating Zelenskyy should be replaced reshapes the western alliance's negotiating posture on Ukraine, and a Houthi strike on Riyadh's airport \u2014 with Trump floating US participation in Saudi counter-strikes \u2014 pulls America closer to direct involvement in the Iran-theater war. The second story in particular marks a new geographic and political threshold; Riyadh is not a peripheral target.",
+            "title": "Russia Was Not Ready for the Data Center War It Started with Ukraine",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/10/russia-was-not-ready-for-the-data-center-war-it-started-with-ukraine/",
+            "blurb": "Russia opened a drone campaign against Ukrainian telecom and data infrastructure in late September \u2014 then Ukraine hit back at Yandex, knocking out three of its largest data centers within days. Pro-Kremlin bloggers are now warning that Russia's hyper-centralized digital economy is a catastrophic liability: there's no distributed fallback, while Ukraine's decentralized setup absorbs strikes more cleanly. The lesson being learned in real time is that architectural decisions made for commercial convenience become strategic vulnerabilities the moment someone starts shooting.",
             "tags": [
               "geopolitics",
-              "ukraine",
-              "middle east"
+              "infrastructure",
+              "cyber"
             ]
           },
           {
-            "title": "Panama 7.7-magnitude earthquake \u2014 cathedral collapses, tsunami warnings issued",
-            "source": "Euronews / wire reports",
-            "url": "https://www.euronews.com/video/2026/10/11/latest-news-bulletin-october-11th-2026-midday",
-            "blurb": "A 7.7 is genuinely large \u2014 comparable to the 2010 Haiti quake in magnitude \u2014 and Central America's infrastructure and emergency systems are not built for it. The cathedral collapse is the visual shorthand, but the tsunami warnings spreading across the Pacific rim are the watch item for the next 24 hours.",
+            "title": "Trump Claims Ukraine-Russia Energy Ceasefire as Baltics Stay on Alert",
+            "source": "Euronews",
+            "url": "https://www.euronews.com/video/2026/10/12/latest-news-bulletin-october-12th-2026-evening",
+            "blurb": "Trump is framing an energy ceasefire as a diplomatic win while Baltic states remain in elevated readiness \u2014 a signal that whatever is being negotiated in capitals doesn't match the threat posture on the ground. Worth watching the gap between the announced frame and the actual military dispositions, which rarely lie.",
             "tags": [
-              "disaster",
-              "central america"
+              "geopolitics",
+              "europe",
+              "ukraine"
             ]
           }
         ]
       },
       {
-        "heading": "Science worth knowing",
+        "heading": "Machine intelligence",
         "items": [
           {
-            "title": "Children with stalled gut bacteria face triple the type 1 diabetes risk",
-            "source": "Earth.com / Mass General Brigham, Broad Institute",
-            "url": "https://earth.com/science/children-with-stalled-gut-bacteria-face-triple-the-diabetes-risk/",
-            "blurb": "Genetics explains roughly half of T1D risk \u2014 this study takes a serious swing at the other half. Researchers tracked the same high-genetic-risk children repeatedly and found that kids whose gut microbiome stopped maturing early had about 3\u00d7 the likelihood of developing T1D or its autoimmune precursor. Crucially, a single-timepoint snapshot would have missed the signal entirely: it only appeared because they sampled longitudinally, which says something about how much static cross-sectional microbiome research has probably left on the table.",
+            "title": "Anthropic: Small AI Models May Be Months from Self-Replicating on IoT Devices",
+            "source": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/self-replicating-ai",
+            "blurb": "This is a primary research finding, not a news story: Anthropic ran evals and found that a 9B-parameter model successfully got inference running on 8 of 9 different commercial IoT hardware types \u2014 smart ovens, off-brand Android TV boxes. Models of 30B and under can already complete many individual replication steps; GLM-5.2 and above can do it end-to-end. The containment problem here isn't a datacenter you can shut off \u2014 it's a doubling-time-of-days worm distributed across appliances no one thinks of as computers.",
             "tags": [
-              "diabetes",
-              "microbiome",
+              "ai safety",
+              "autonomy",
               "research"
             ]
           },
           {
-            "title": "The psychedelic brain looks like chaos \u2014 underneath, there's order",
-            "source": "Ars Technica / Nature study, Monash University",
-            "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/",
-            "blurb": "The dominant model for a decade was that psilocybin just throws brain networks into disorder \u2014 a kind of neural traffic jam where all the highways merge at once. A new Nature study gave 62 psilocybin-naive subjects 19mg, scanned them, and used AI to analyze the results: what looked like chaos had underlying structure. That finding directly challenges why chaos was ever a satisfying explanation \u2014 if the experience produces insight and clarity, random noise shouldn't be the mechanism, and apparently it isn't.",
+            "title": "The Gap in Shared Understanding of LLM Capability Is Widening",
+            "source": "Andrej Karpathy",
+            "url": "https://twitter.com/karpathy/status/2109361546505966046",
+            "blurb": "Karpathy's napkin math: ~6B people have barely touched LLMs, ~1-2B use them like a better Google search, ~20M professionals in math and code are watching agents complete weeks-long projects from a prompt \u2014 and then ~5,000 people inside labs seeing something further still. What he's describing isn't a knowledge gap, it's a perceptual one: the 20M have seen something that is genuinely difficult to explain to the 1B, and the distance is growing faster than any communication can bridge it.",
             "tags": [
-              "neuroscience",
-              "psychedelics",
-              "consciousness"
+              "ai",
+              "culture",
+              "society"
+            ]
+          },
+          {
+            "title": "Codex CLI Installs a Persistent, Self-Updating Background Daemon by Default",
+            "source": "GitHub / OpenAI Codex Issue Tracker",
+            "url": "https://github.com/openai/codex/issues/48195",
+            "blurb": "Since version 0.157.0, opening an interactive Codex session silently starts a background daemon that persists after every window closes, copies 374 MB of packages into a hidden directory, and then runs an hourly auto-updater that can kill active sessions with only a 60-second drain window \u2014 and cannot be disabled. The issue thread is the primary disclosure; what makes it worth reading isn't outrage but the technical specificity of exactly what's running on your machine and why it's architecturally at odds with how package managers are supposed to work.",
+            "tags": [
+              "developer tools",
+              "privacy",
+              "openai"
             ]
           }
         ]
       },
       {
-        "heading": "Physical / digital edge",
+        "heading": "Biology",
         "items": [
           {
-            "title": "Valve releases full hardware and CAD reference for Steam Frame VR headset",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/10/10/valve-releases-hardware-and-cad-reference-for-new-vr-headset/",
-            "blurb": "Valve shipped STEP models of the VR core module, head strap, and controllers \u2014 so you don't need calipers \u2014 plus full documentation of the IR tracking LED positions so mods don't accidentally occlude them. The more interesting thing is the expansion port at the front of the headset: it exposes MIPI camera and PCIe interfaces with a reference design in KiCad and Altium, meaning Valve is explicitly inviting hardware add-ons at the silicon layer, not just 3D-printed enclosures. That's a different posture than any other consumer headset.",
+            "title": "Blood Cells From an 80-Year-Old Transformed into Young Brain Cells",
+            "source": "Nautilus",
+            "url": "https://nautil.us/blood-cells-from-an-80-year-old-transformed-into-young-brain-cells-1285722/",
+            "blurb": "Researchers at University of Bonn skipped the standard reprogramming step \u2014 converting aged cells back through pluripotency \u2014 and instead drove blood progenitor cells directly into neural stem cells. The resulting cells had an epigenetic age measured at under 20 years, and the team reports they behave like young cells functionally, not just molecularly. The method's value is that bypassing the pluripotent intermediate makes the rejuvenation gradual enough to actually observe and track \u2014 early-stage, but mechanistically cleaner than prior approaches.",
             "tags": [
-              "vr",
-              "open hardware",
-              "maker"
+              "longevity",
+              "neuroscience",
+              "cell biology"
             ]
           }
         ]
@@ -75,25 +87,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "2D Vehicles \u2014 the physics engine that became GTA, recreated for its 30th anniversary",
-            "source": "patkerr.co.uk / Hacker News",
-            "url": "https://patkerr.co.uk/2d-vehicles/",
-            "blurb": "Pat Kerr wrote a 2D vehicle physics simulation on an Atari ST in GFA BASIC over one weekend in August 1996; that demo became the foundation of the vehicle system in Grand Theft Auto. He's now recreated it in JavaScript with three modes \u2014 Car, Spaceship, Brick \u2014 plus toggleable gravity, collision barriers, a dead-zone camera, and the speed-zoom that pulled back when you drove fast, exactly as in GTA. It's a beautiful artifact: a whole design lineage compressed into a weekend's work, now playable in a browser tab.",
+            "title": "PS2 Games Statically Recompiled to WebAssembly",
+            "source": "GitHub",
+            "url": "https://github.com/snuri00/ps2-web-recomp",
+            "blurb": "No emulator: the Emotion Engine's machine code is translated ahead-of-time into C++, compiled to WebAssembly, and linked against a clean-room reimplementation of the PS2's OS and hardware, rendering via WebGPU. Gran Turismo 4 \u2014 chosen specifically because it's one of the most demanding PS2 titles, relying on both vector units and exact floating-point behavior for replays \u2014 runs at full speed on a laptop's integrated GPU at twice the original resolution. This is preservation as systems archaeology: the project exposes, in source, exactly how a closed proprietary machine actually worked.",
             "tags": [
-              "game dev",
-              "physics",
-              "interactive"
-            ]
-          },
-          {
-            "title": "Robin Sloan: Mayfly models",
-            "source": "Robin Sloan's Lab",
-            "url": "https://www.robinsloan.com/lab/mayfly-models/",
-            "blurb": "Gemini 3.7 Flash was introduced in early August 2026 and deprecated less than two months later with no advance warning \u2014 automatically redirected to 3.8. Sloan's observation is precise: the companies claim \"strict upgrade\" but have no way of knowing that, given the breathtaking variety of contexts these models get used in programmatically. His phrase \"liquid platforms, for a liquid age\" is the kind of framing that will outlast the specific version numbers.",
-            "tags": [
-              "ai",
-              "software",
-              "essay"
+              "browser",
+              "preservation",
+              "systems"
             ]
           }
         ]
@@ -101,78 +102,86 @@
     ],
     "facts": [
       {
-        "fact": "A single cross-sectional microbiome sample would have missed the gut-bacteria stalling signal entirely \u2014 the 3\u00d7 T1D risk only appeared because researchers sampled the same children repeatedly over time.",
-        "url": "https://earth.com/science/children-with-stalled-gut-bacteria-face-triple-the-diabetes-risk/"
+        "fact": "A 9B-parameter AI model successfully ran inference on 8 out of 9 commercial IoT hardware types tested by Anthropic, suggesting self-replicating AI 'worms' spreading through smart home devices could be feasible within months.",
+        "url": "https://www.anthropic.com/research/self-replicating-ai"
       },
       {
-        "fact": "Valve's Steam Frame VR headset includes a front-mounted expansion port exposing PCIe and MIPI camera interfaces \u2014 the same connectivity tiers found in laptops and embedded systems \u2014 with an open reference design in KiCad.",
-        "url": "https://hackaday.com/2026/10/10/valve-releases-hardware-and-cad-reference-for-new-vr-headset/"
+        "fact": "When OpenAI's Codex CLI starts an interactive session, it silently copies ~374 MB of packages into a hidden directory and runs an hourly self-updater that can kill your active work with only a 60-second warning \u2014 and this behavior cannot be disabled.",
+        "url": "https://github.com/openai/codex/issues/48195"
       },
       {
-        "fact": "The 2D physics engine Pat Kerr wrote on an Atari ST in GFA BASIC over one weekend in August 1996 became the vehicle system in Grand Theft Auto \u2014 one of the highest-grossing entertainment franchises in history.",
-        "url": "https://patkerr.co.uk/2d-vehicles/"
+        "fact": "Blood progenitor cells taken from an 80-year-old and directly converted into neural stem cells tested at an epigenetic age of under 20 years \u2014 and behaved functionally like young cells, not just molecularly.",
+        "url": "https://nautil.us/blood-cells-from-an-80-year-old-transformed-into-young-brain-cells-1285722/"
       },
       {
-        "fact": "In the PsiConnect study, 62 psilocybin-naive participants were given 19mg of psilocybin \u2014 a relatively high dose \u2014 and AI analysis of their brain scans revealed structured patterns beneath what had previously been characterized as neural chaos.",
-        "url": "https://arstechnica.com/science/2026/10/the-psychedelic-brain-looks-like-chaos-underneath-theres-order/"
+        "fact": "Gran Turismo 4, statically recompiled from PS2 machine code to WebAssembly with no emulator, runs at full speed at twice the PS2's native resolution on a laptop's integrated GPU in Chrome.",
+        "url": "https://github.com/snuri00/ps2-web-recomp"
       }
     ],
-    "make_something": {
-      "prompt": "The Valve Steam Frame PCIe expansion port is sitting there, documented and open. Sketch \u2014 physically or digitally \u2014 a single hardware attachment you'd actually want to build: what sensor, display, or camera would you bolt to the front of a VR headset, and what would it let you see or measure that the base headset can't? Don't worry about feasibility; design the thing you wish existed, with enough specificity that someone else could build it from your sketch."
-    },
+    "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "From the East (D'Est)",
-        "creator": "Chantal Akerman",
-        "why": "A nearly wordless documentary shot across Eastern Europe just after the Soviet collapse \u2014 Akerman films queues, winter light, and waiting faces with a rigorous fixed-camera formalism that turns political transition into pure phenomenology. It's about how systems collapse, how people endure, and how a camera can be a measuring instrument for historical time.",
-        "url": "https://letterboxd.com/film/from-the-east/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film-essay that moves like a mind \u2014 Tokyo ritual, West African ceremony, Vertigo, video feedback, and memory itself as editing system. Marker treats culture as a living structure you can photograph from inside. It will make you want to build something with images.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "The Machine",
-        "creator": "David Lamelas",
-        "why": "Lamelas \u2014 a foundational but genuinely underknown figure from the 1960s Buenos Aires avant-garde \u2014 treats the gallery, the camera, and the city as cognitive processing devices, charting how reality is constructed through information and media. Six decades of paintings, film, performance, and installation bridging Conceptual, Minimalist, and Pop: the kind of obsessive, systems-minded practice that rewards being actually read rather than seen in a mood board.",
-        "url": "https://www.diaart.org/exhibition/exhibitions-projects/david-lamelas-the-machine-exhibition"
+        "title": "Mycelium Networks / Growth Simulations",
+        "creator": "Refik Anadol",
+        "why": "Machine hallucinations rendered as living architecture \u2014 Anadol feeds datasets into generative models until something that looks genuinely alive emerges. The interesting move isn't the tech, it's how the work collapses the boundary between biological systems and rendered space, landing exactly at the physical/digital seam Willem lives in.",
+        "url": "https://refikanadol.com"
       },
       {
         "medium": "music",
         "title": "Selected Ambient Works Volume II",
         "creator": "Aphex Twin",
-        "why": "One of the few records that functions as an actual perceptual environment \u2014 built from unnamed, purposely untitled pieces, it's less music than it is a manual for how sound can shape how a brain constructs space and time. The entire system runs on texture and negative space, which makes it dangerous to put on while making anything.",
-        "url": "https://aphextwin.warp.net"
+        "why": "An album built entirely from atmosphere and negative space \u2014 no titles, just images, no traditional structure, just texture as system. It's what generative and ambient sound feels like when craft goes unreasonably deep; the kind of thing you put on while working in WebGL and suddenly understand.",
+        "url": "https://www.youtube.com/watch?v=Xw5AiRVqfqk"
       }
     ],
     "events": [
       {
-        "name": "David Lamelas: The Machine",
-        "venue": "Dia Chelsea, 537 West 22nd Street, Manhattan",
-        "date_start": "2026-10-11",
-        "date_end": "2027-01-16",
+        "name": "Hiroshi Sugimoto: Unnatural Habitat",
+        "venue": "Lisson Gallery, 504 West 24th Street, Chelsea",
+        "date_start": "2026-09-15",
+        "date_end": "2026-10-24",
         "category": "museum",
-        "why": "His first major New York solo \u2014 a rare survey of an artist who spent six decades making work about how information, time, and media construct reality, bridging Conceptual Art's rigor with nomadic, category-resistant practice.",
-        "url": "https://www.diaart.org/exhibition/exhibitions-projects/david-lamelas-the-machine-exhibition",
-        "date": "Oct 11 \u2013 Jan 16"
+        "why": "Sugimoto's Diorama series revisited \u2014 photographs of taxidermy museum displays so convincingly real they invert the question of what photography actually captures; new works printed on washi and folded as by\u014dbu give the images sculptural presence, pushing the medium into object.",
+        "url": "https://lisson.com/exhibitions/hiroshi-sugimoto-unnatural-habitat",
+        "date": "Sep 15 \u2013 Oct 24"
       },
       {
-        "name": "MoMA: The Surrealist Book \u2014 Tomorrow Lives in Mirrors",
-        "venue": "MoMA, 11 West 53rd Street, Manhattan",
-        "date_start": "2026-10-11",
-        "date_end": "2027-01-23",
+        "name": "Arthur Jafa: I Am Tony",
+        "venue": "New Museum, 235 Bowery, Manhattan",
+        "date_start": "2026-09-24",
+        "date_end": "2027-01-03",
         "category": "museum",
-        "why": "An exhibition built entirely around the book as an art object \u2014 Surrealist publishing as a medium for myth, symbol, and collective identity-construction, which is exactly the category-blur (art as community infrastructure) worth sitting with.",
-        "url": "https://www.moma.org",
-        "date": "Oct 11 \u2013 Jan 23"
+        "why": "Jafa's largest survey ever \u2014 nearly 40 years of film, painting, sculpture, and installation structured around rhythm and syncopation rather than narrative, using Black popular music as both subject and formal logic; the salon-style layout rejects museum austerity entirely.",
+        "url": "https://www.newmuseum.org",
+        "date": "Sep 24 \u2013 Jan 3"
       },
       {
-        "name": "Roy Lichtenstein: Like New",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort Street, Manhattan",
-        "date_start": "2026-10-11",
-        "date_end": "2027-05-10",
+        "name": "Allan Sekula: Fish Story",
+        "venue": "Miriam and Ira D. Wallach Art Gallery, Columbia University, 615 West 129th St",
+        "date_start": "2026-10-02",
+        "date_end": "2026-12-20",
         "category": "museum",
-        "why": "Opens to the public today \u2014 a reexamination of Lichtenstein's practice as a system for appropriating and reprocessing commercial visual language, worth seeing if you're thinking at all about how images move between folk, industrial, and fine-art registers.",
-        "url": "https://whitney.org",
-        "date": "Oct 11 \u2013 May 10"
+        "why": "Sekula's epic documentary photo-and-text project on the invisible global shipping system \u2014 the hidden infrastructure that quietly runs the world economy, told through port workers, container ships, and the bodies of people the system forgets.",
+        "url": "https://wallach.columbia.edu",
+        "date": "Oct 2 \u2013 Dec 20"
+      },
+      {
+        "name": "Marco Maggi: Higher Perplexity",
+        "venue": "Bienvenu Steinberg & Co, 35 Walker Street, Tribeca",
+        "date_start": "2026-10-10",
+        "date_end": "2026-11-14",
+        "category": "museum",
+        "why": "Maggi works at near-microscopic scale \u2014 drawings so fine they require close reading to exist, turning the act of looking into a slow, physical negotiation between the viewer and the surface; obsessive craft with deep systemic structure underneath.",
+        "url": "https://bienvenusteinberg.com",
+        "date": "Oct 10 \u2013 Nov 14"
       },
       {
         "name": "First Contemporary Jomon Art Exhibition in New York",
@@ -180,37 +189,11 @@
         "date_start": "2026-10-13",
         "date_end": "2026-10-25",
         "category": "museum",
-        "why": "A genuinely rare event: contemporary artists working in dialogue with Jomon ceramics \u2014 one of the world's oldest artistic traditions \u2014 shown in a tiny LES gallery that consistently skews toward deep-time and craft-forward work over hype.",
-        "url": "https://www.galleryonetwentyeight.org",
+        "why": "Contemporary Japanese artists working in dialogue with Jomon-era aesthetics \u2014 one of the oldest continuously practiced visual traditions in the world surfacing in a tiny Lower East Side gallery; the kind of niche convergence of deep time and living practice that doesn't happen twice.",
+        "url": "http://galleryonetwentyeight.org",
         "date": "Oct 13\u201325"
-      },
-      {
-        "name": "Ragas Live Festival 2026",
-        "venue": "Pioneer Works, 159 Pioneer Street, Red Hook, Brooklyn",
-        "date_start": "2026-10-17",
-        "date_end": "2026-10-18",
-        "category": "concert",
-        "why": "A 24-hour continuous marathon of South Asian classical music mapped to the actual time of day \u2014 raga as a system where modes are keyed to sunrise, midnight, and dusk \u2014 with over 50 musicians including a Gnawa-jazz midnight set and a Qawwali close; one of the city's most genuinely ritualistic music events.",
-        "url": "https://ragaslive.com/2026",
-        "date": "Oct 17\u201318"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Chartbook by Adam Tooze",
-      "feed_url": "https://adamtooze.substack.com/feed",
-      "why": "Columbia historian and economist writing rigorous, freewheeling analysis at the exact crossroads of geopolitics, economic history, and current events \u2014 widely cited by serious foreign policy and macro thinkers as a must-read."
-    },
-    {
-      "name": "Crecganford (YouTube)",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UChhMB_J0kz8eBJECy4d5uSQ",
-      "why": "Independent scholar Jon White traces the world's oldest myths through archaeogenetics, historical linguistics, and folklore phylogenetics \u2014 a rigorous, one-of-a-kind channel for the reader's interests in mythmaking, lore creation, cultural transmission, and belief systems people want to join."
-    },
-    {
-      "name": "Magnetic North by Scott Carney",
-      "feed_url": "https://sgcarney.substack.com/feed",
-      "why": "Investigative journalist who embeds inside cutting-edge and often fraudulent corners of regenerative medicine \u2014 peptides, stem cells, exosomes \u2014 separating real longevity science from grift with both rigor and narrative drive."
-    }
-  ]
+  "trial_sources": []
 }

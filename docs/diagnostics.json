@@ -1,24 +1,26 @@
 {
-  "feeds": 64,
-  "mined": 50,
-  "videos": 5,
+  "feeds": 61,
+  "mined": 55,
+  "videos": 6,
   "video_titles": [
+    "How We Trapped Light and Built the Internet",
     "What is edge dislocation?",
     "How Dangerous Are Non-Stick Pans?",
-    "We're trying something new...",
     "This Device Turns Anything into a Suction Cup",
-    "Drawing electricity from this sodium-water reactor prevents it from exploding (in theory)"
+    "Drawing electricity from this sodium-water reactor prevents it from exploding (in theory)",
+    "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
   "final_items": 7,
   "final_sources": [
-    "Ars Technica / Nature study, Monash University",
-    "Earth.com / Mass General Brigham, Broad Institute",
-    "Euronews / wire reports",
-    "Hackaday",
-    "Robin Sloan's Lab",
-    "patkerr.co.uk / Hacker News"
+    "Andrej Karpathy",
+    "Anthropic Research",
+    "Ars Technica",
+    "Euronews",
+    "GitHub",
+    "GitHub / OpenAI Codex Issue Tracker",
+    "Nautilus"
   ],
   "had_video": false,
-  "run_at": "2026-10-11T16:46:50.272385+00:00"
+  "run_at": "2026-10-12T20:26:40.128423+00:00"
 }
