@@ -1,27 +1,23 @@
 {
-  "feeds": 86,
-  "mined": 51,
-  "videos": 7,
+  "feeds": 72,
+  "mined": 45,
+  "videos": 5,
   "video_titles": [
+    "When you lose weight where does it go?",
     "The Absurd Engineering Behind the Internet",
     "What is edge dislocation?",
-    "How Dangerous Are Non-Stick Pans?",
-    "This Device Turns Anything into a Suction Cup",
-    "Drawing electricity from this sodium-water reactor prevents it from exploding (in theory)",
     "I Snuck a 3D Printer on Vacation!  #3dprinting #positron",
     "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 7,
   "final_sources": [
     "Ars Technica",
-    "Colossal",
-    "Democracy Now",
-    "Hackaday",
-    "Nautilus",
-    "Open Culture",
-    "The Public Domain Review"
+    "Bert Hubert's writings",
+    "MIT Technology Review",
+    "Simon Willison's Weblog",
+    "The New Yorker"
   ],
   "had_video": false,
-  "run_at": "2026-10-14T15:58:21.744535+00:00"
+  "run_at": "2026-10-15T15:44:53.867753+00:00"
 }

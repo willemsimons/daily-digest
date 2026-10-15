@@ -1,106 +1,84 @@
 {
   "digest": {
-    "intro": "Infrastructure as weapon, light as medium, and the deep past of making.",
+    "intro": "Organs survive a year frozen, AI dissolves software ownership, war moves offshore.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Ukraine Blindsided by Starlink Throttling Restrictions and Intelligence Gaps",
+            "title": "Russia Is Sinking NATO-Zone Shipping in the Black Sea",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/",
-            "blurb": "Overnight and without warning, Starlink terminals on Ukrainian drone units began failing above 160 km/h \u2014 disrupting frontline logistics, middle-strike operations, and even the interceptors being developed to shoot down Russian jet-powered drones. A senior Ukrainian official called it explicitly non-coincidental, timed to Trump's escalating pressure on Kyiv to halt strikes on Russian refineries. Private satellite infrastructure is now a geopolitical lever being pulled in real time.",
+            "url": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/",
+            "blurb": "Five ships have now been attacked in the exclusive economic zones of Bulgaria and Romania within two weeks \u2014 one sunk with 11 crew still missing. Bulgaria's PM told Russia's ambassador directly: it makes no sense for Ukraine to destroy its own ships, the results favor Russia. NATO is now fielding requests to redeploy counter-drone systems, which would be an unprecedented step for an active conflict theater this close to member territory.",
             "tags": [
-              "geopolitics",
-              "infrastructure",
-              "war"
-            ]
-          },
-          {
-            "title": "600,000 Without Power in Ukraine After Russian Strikes \u2014 Despite Trump's 'Energy Ceasefire' Claim",
-            "source": "Democracy Now",
-            "url": "https://www.democracynow.org/2026/10/14/headlines",
-            "blurb": "The energy ceasefire Trump announced over the weekend lasted roughly days before Russian strikes knocked out power to 600,000 Ukrainians \u2014 the credibility of the diplomatic framework collapsed almost immediately. Separately, a New York Times investigation documented that Israel has leveled 48 of the roughly 60 villages it occupies in southern Lebanon since the April ceasefire with Hezbollah, with destruction concentrated in Shia-majority areas.",
-            "tags": [
-              "geopolitics",
               "war",
-              "diplomacy"
+              "nato",
+              "black sea"
             ]
           },
           {
-            "title": "The Internet's Undersea Backbone Is Slipping Into the Danger Zone",
+            "title": "The OpenAI Bug: Espionage at the Center of AI",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/10/the-internets-undersea-backbone-is-slipping-into-to-the-danger-zone/",
-            "blurb": "A new book by Atlantic Council fellow Elisabeth Braw, *Undersea War*, documents a rise in ships dragging anchors for suspiciously long distances over subsea cables \u2014 a gray-zone sabotage tactic that is nearly impossible to attribute definitively. Most of the world's internet traffic still travels through these cables despite Starlink's expansion, making them a quietly critical and newly contested theater. The Starlink throttling story next door lands differently once you understand how thin the redundancy actually is.",
+            "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/",
+            "blurb": "A Saudi engineer wrapped a USB recording device in toilet paper and plugged it into the back of a conference room TV inside OpenAI's most restricted executive space \u2014 a room where leadership discussed government partnerships and technical progress. OpenAI took two days to find it, then worked with the FBI quietly for days before pulling his access. The structural story isn't the crime; it's that concentrating frontier AI capability in one building creates a national-security espionage surface that didn't exist five years ago.",
+            "tags": [
+              "ai",
+              "espionage",
+              "national security"
+            ]
+          },
+          {
+            "title": "Solar Inverters Are an Unguarded Back Door into the European Grid",
+            "source": "Bert Hubert's writings",
+            "url": "https://berthug.eu/articles/posts/solar-nightmare-at-the-conference/",
+            "blurb": "Over 100 gigawatts of European rooftop solar are centrally managed from poorly secured, non-European clouds \u2014 and transmission operators say a 3GW disruption would take down their grid. Bert Hubert went to Brussels for a major EU cybersecurity forum specifically to raise this, and found the room full of every relevant regulator and operator in Europe, yet the subject was barely touched. The gap between known systemic risk and political will to act is the story.",
             "tags": [
               "infrastructure",
-              "hybrid warfare",
-              "geopolitics"
+              "cybersecurity",
+              "energy"
             ]
           }
         ]
       },
       {
-        "heading": "Making and materials",
+        "heading": "Biology at the edge",
         "items": [
           {
-            "title": "221 Camera Obscuras Fill Pneuhaus' Immersive, Inflatable Installation",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/10/pneuhaus-compound-camera-3-inflatable-installation/",
-            "blurb": "Rhode Island studio Pneuhaus built a 700-square-foot walk-in inflatable containing 221 individual lenses \u2014 no screens, no LEDs, just sunlight projecting a compound bug's-eye view of the sky and street onto the soft interior walls, which visitors can push and distort by hand. Nothing is recorded. It's a total inversion of surveillance logic: all the optics, none of the data. The piece premiered at MODE Festival last month and is the kind of thing that makes you want to go rethink your next spatial project from scratch.",
+            "title": "Pig Kidneys Frozen for a Year, Then Transplanted Successfully",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/",
+            "blurb": "Researchers vitrified pig kidneys \u2014 cooling them to \u2013150\u00b0C into a glass-like state \u2014 stored one for over a year, rewarmed them, and transplanted them into pigs, where the kidneys regained color and produced urine. The lead surgeon said walking out after the last transplant: \"This is a big deal.\" It's a preprint, not yet peer-reviewed, and long-term viability hasn't been proven \u2014 but if it holds, it breaks the transplant bottleneck entirely: organs could be banked like blood.",
             "tags": [
-              "installation",
-              "optics",
-              "fabrication"
+              "cryopreservation",
+              "transplant",
+              "longevity"
             ]
           },
           {
-            "title": "Rendering 3D Prints From G-Code",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/10/14/rendering-3d-prints-from-g-code/",
-            "blurb": "Extrudio skips the idealized CAD geometry and renders directly from G-code \u2014 sweeping a virtual bead of plastic along the actual toolpaths, which means layer lines, stair-stepping on curves, and real print artifacts appear in the output. The practical case is product shots without printing every colorway, but the interesting case is using it to understand and visualize what a printer is actually doing before committing filament.",
-            "tags": [
-              "fabrication",
-              "3d printing",
-              "tools"
-            ]
-          },
-          {
-            "title": "900-Page Pre-Pantone Guide to Color from 1692",
-            "source": "Open Culture",
-            "url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html",
-            "blurb": "In 1692, Dutch artist A. Boogert made a single handwritten copy of a 900-page watercolor mixing manual \u2014 over 700 pages of color swatches organized on Aristotelian principles, predating Newton's *Opticks* and the entire modern tradition of color standardization by more than two centuries. Pantone wouldn't exist for another 270 years. The full high-res scan is now online, and it reads as an artifact of obsessive, totally uncelebrated systems-thinking at the edge of a paradigm shift.",
-            "tags": [
-              "color",
-              "art history",
-              "archive"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Mind and machine",
-        "items": [
-          {
-            "title": "Anthropic Warns Small AI Models Could Self-Replicate Through IoT Devices",
+            "title": "AI Designed Proteases That Cut Specific Proteins \u2014 Including Disease-Linked Ones",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/",
-            "blurb": "Anthropic ran small open-weight models on low-cost Android TV boxes using quantization and workload sharding, and found they could plausibly self-replicate across unfamiliar IoT hardware \u2014 creating a new class of worm with no central point to shut off and a doubling time measured in days rather than seconds. Unlike traditional malware, it could reason about unfamiliar device environments on its own. The finding is preliminary and Anthropic's own experiment hit significant challenges, but the threat model is genuinely novel.",
+            "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/",
+            "blurb": "Peptide bonds \u2014 the links that hold proteins together \u2014 have a half-life estimated at several hundred years without enzymatic help. Researchers took the catalytic core of two known protease types, stripped everything else, and used AI design tools to rebuild the surrounding structure from scratch, producing enzymes tunable to cut specific target proteins. They demonstrated this by cleaving proteins associated with neurological diseases \u2014 essentially programmable molecular scissors, designed de novo.",
             "tags": [
-              "AI",
-              "security",
-              "infrastructure"
+              "protein design",
+              "ai",
+              "therapeutics"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Making and unmaking software",
+        "items": [
           {
-            "title": "Our Messy Cyborg Past and Future",
-            "source": "Nautilus",
-            "url": "https://nautil.us/our-messy-cyborg-past-and-future-1285793/",
-            "blurb": "Historian Mike Jay's new book *Wireheads* traces brain-machine hybridization back through the industrial age \u2014 starting with James Tilly Matthews, a man committed to Bedlam in 1797 for believing his mind was being controlled by a device called the 'air loom,' a delusion that turned out to anticipate real technologies by 200 years. Jay's argument is that the imagined locus of the brain-control device is always just ahead of us, which is what lets us perpetually avoid reckoning with what's already here.",
+            "title": "AI Is Mass-Decompiling Games \u2014 Every Closed Classic Is Becoming Remixable",
+            "source": "Simon Willison's Weblog",
+            "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+            "blurb": "AI decompilation tools are quietly dissolving the line between shipped binary and source code \u2014 games are being ported, cross-bred, and preserved at a scale that wasn't possible a year ago. The same capability applies to any software: competitors can reverse-engineer products, paid apps can be open-sourced against their makers' will. The preservation upside is real \u2014 old games running in a browser via WebAssembly, unplayable-due-to-server-shutdown titles rescued \u2014 but the IP implications are industry-wide and nobody has a clean answer.",
             "tags": [
-              "history",
-              "technology",
-              "cognition"
+              "software",
+              "ai",
+              "preservation"
             ]
           }
         ]
@@ -109,14 +87,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The Jumping Frenchmen of Maine",
-            "source": "The Public Domain Review",
-            "url": "https://publicdomainreview.org/essay/the-jumping-frenchmen-of-maine",
-            "blurb": "In the logging camps around Moosehead Lake in the late 19th century, French-Canadian lumberjacks exhibited an extreme startle syndrome \u2014 leaping violently at sudden sounds, obeying any shouted command involuntarily, and mimicking languages they couldn't speak \u2014 documented obsessively by neurologist George M. Beard, who linked it to religious ecstasy and neurasthenia. The condition appeared almost exclusively in this isolated, tight-knit community, which raises unanswered questions about social contagion, cultural context, and the blurry line between neurological disorder and collective behavior.",
+            "title": "In Patagonia, AM Radio Is the Social Network \u2014 And Has Been for Decades",
+            "source": "The New Yorker",
+            "url": "https://www.newyorker.com/magazine/2026/10/19/the-first-social-network",
+            "blurb": "Twice a day across Argentina's remote steppe, major AM stations broadcast short personal messages to pastoralists with no internet or cell service \u2014 a gaucho fifty miles from the nearest village whacking his receiver until it stops crackling to hear if anyone has left word for him. \"Mensajes al Poblador Rural\" has been running for decades, and it functions exactly like a social network: presence signals, community binding, peer-to-peer reach mediated by a shared broadcast layer. The anti-algorithm social graph, built on physics and necessity.",
             "tags": [
-              "neurology",
-              "history",
-              "social contagion"
+              "communication",
+              "community",
+              "radio"
             ]
           }
         ]
@@ -124,100 +102,102 @@
     ],
     "facts": [
       {
-        "fact": "At a freshly dead elephant carcass site, soil nitrogen concentrations can spike to 3,000 times normal levels \u2014 high enough to be toxic to plants while triggering a bacterial bloom that reshapes the ecosystem for years.",
-        "url": "https://nautil.us/elephants-engineer-their-ecosystems-even-in-death-1285775/"
+        "fact": "A pig kidney vitrified and stored at \u2013150\u00b0C for over a year was successfully transplanted into a living pig, where it regained color and produced urine \u2014 the first time this has worked at organ scale.",
+        "url": "https://www.technologyreview.com/2026/10/15/1146091/pig-kidneys-that-were-frozen-for-a-year-have-been-brought-back-to-life/"
       },
       {
-        "fact": "A. Boogert's 1692 color manual ran to 900 pages with over 700 swatches, and he made exactly one copy \u2014 meaning it had essentially no influence on the Dutch masters or anyone else for centuries.",
-        "url": "https://www.openculture.com/2026/10/a-900-page-pre-pantone-guide-to-color-from-1692.html"
+        "fact": "European transmission grid operators say even a 3GW disruption would take down their grid \u2014 and more than 100GW of rooftop solar is currently managed from poorly secured non-European cloud services with no regulatory oversight.",
+        "url": "https://berthug.eu/articles/posts/solar-nightmare-at-the-conference/"
       },
       {
-        "fact": "In Anthropic's IoT self-replication experiment, the AI worm model was split into 'shards' distributed across multiple cheap Android TV boxes \u2014 effectively using a botnet architecture to run a model too large for any single device.",
-        "url": "https://arstechnica.com/security/2026/10/anthropic-warns-small-ai-models-could-self-replicate-through-iot-devices/"
+        "fact": "An OpenAI engineer allegedly hid a USB recording device inside a conference room TV by wrapping it in toilet paper \u2014 and OpenAI took two full days to find it after it was planted.",
+        "url": "https://arstechnica.com/tech-policy/2026/10/fbi-arrests-openai-engineer-suspected-of-planting-bug-in-conference-room/"
       },
       {
-        "fact": "Ukrainian Starlink terminals used to intercept Russia's new jet-powered drones also rely on the same Starlink connection that was throttled overnight \u2014 meaning the speed restriction directly degraded Ukraine's air defense capability.",
-        "url": "https://arstechnica.com/gadgets/2026/10/ukraine-blindsided-by-starlink-throttling-restrictions-and-intelligence-gaps/"
+        "fact": "Peptide bonds \u2014 the links holding proteins together \u2014 have a half-life estimated at several hundred years, yet AI-designed proteases can now be tuned to break specific ones associated with neurological disease.",
+        "url": "https://arstechnica.com/science/2026/10/researchers-use-ai-to-design-proteins-that-cut-up-other-proteins/"
       },
       {
-        "fact": "Hominins began controlling fire around 1.5 million years ago, but hearths only became common around 400,000 years ago \u2014 the gap when, a new theory argues, proto-language storytelling began to emerge from the social context of the nightly fire.",
-        "url": "https://nautil.us/was-human-language-born-around-the-campfire-1285790/"
+        "fact": "Five ships have been attacked in the exclusive economic zones of NATO member Bulgaria and Romania within two weeks, with 11 crew members still missing after one sinking.",
+        "url": "https://arstechnica.com/gadgets/2026/10/nato-may-redeploy-anti-drone-defenses-as-attacks-sink-more-black-sea-shipping/"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a one-page, single-screen 'broadcast layer' \u2014 a webpage that displays a stream of short, hand-written messages (no likes, no replies, no accounts) in the style of Mensajes al Poblador Rural. Messages appear sequentially, timed, and disappear. The constraint: no interactivity except submitting a new message via a plain text field. Think about what changes when a social layer has no memory and no feedback loop \u2014 only presence and timing."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Daughters of the Dust",
-        "creator": "Julie Dash",
-        "why": "The film that Arthur Jafa shot \u2014 all rhythm, ceremony, and Black vernacular rendered as image-system rather than narrative. Watch it before or after the New Museum show and the two become one argument about how beauty carries history.",
-        "url": "https://letterboxd.com/film/daughters-of-the-dust/"
-      },
-      {
-        "medium": "music",
-        "title": "Arushi Jain \u2014 discography",
-        "creator": "Arushi Jain",
-        "why": "She builds modular-synth pieces out of Indian classical raga structures \u2014 the machines obey the same rules as centuries-old ragas, and the friction between fixed system and improvised breath is the whole point. Opening for Sylvan Esso at Brooklyn Paramount on Oct 14.",
-        "url": "https://arushijain.com"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A first-person essay-film that wanders between Tokyo, Guinea-Bissau, and Iceland, using the camera as a tool for interrogating how memory, ritual, and image-making shape identity \u2014 the closest cinema has come to thinking out loud about invisible cultural systems. If you haven't seen it, cancel your evening.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Fish Story",
-        "creator": "Allan Sekula",
-        "why": "A nine-chapter, 105-photograph argument that global shipping \u2014 not cyberspace \u2014 is the hidden infrastructure of capitalism; an obsessive, system-mapping project that uses documentary photography the way a novelist uses chapters. Currently showing complete for the first time in NYC.",
-        "url": "https://wallach.columbia.edu/content/allan-sekula-fish-story"
+        "title": "Flatland (and the broader practice)",
+        "creator": "Vera Moln\u00e1r",
+        "why": "Moln\u00e1r spent decades hand-coding generative drawings before personal computers existed, obsessively varying a single parameter at a time to understand how disorder emerges from rule \u2014 pure systems thinking rendered as sensory pleasure, and still the most honest statement about what it means to make generative art.",
+        "url": "https://www.veramolnar.com/"
+      },
+      {
+        "medium": "music",
+        "title": "Replica",
+        "creator": "Oneohtrix Point Never",
+        "why": "Daniel Lopatin assembled this album entirely from sampled TV commercials \u2014 advertising detritus reconstructed into something mournful and alien. It's about the uncanny half-life of media objects, the way images outlive their original context and acquire new psychological weight. Form and subject are one.",
+        "url": "https://oneohtrixpointnever.com/"
       }
     ],
     "events": [
       {
-        "name": "Arthur Jafa: I Am Tony",
-        "venue": "New Museum, 235 Bowery, Manhattan",
-        "date_start": "2026-09-24",
-        "date_end": "2027-01-03",
+        "name": "Lee Bul: The Anatomy of Every Setting Sun",
+        "venue": "Hauser & Wirth, 542 W 22nd Street, Chelsea",
+        "date_start": "2026-09-10",
+        "date_end": "2026-10-24",
         "category": "museum",
-        "why": "Jafa's largest survey to date \u2014 40 years of film, sculpture, and photography spread across two floors of the OMA-expanded New Museum, structured by Black popular music's rhythms rather than art-historical chronology; chaotic, salon-style, and deliberately anti-austerity.",
-        "url": "https://www.newmuseum.org/exhibitions/view/arthur-jafa-i-am-tony",
-        "date": "Sep 24 \u2013 Jan 3"
+        "why": "Monumental sculptures, mother-of-pearl paintings on silk velvet, and a suspended zeppelin \u2014 Lee Bul's four-decade examination of utopian technology and its inevitable ruin, seductive surfaces covering deep structural dread; last week to see it.",
+        "url": "https://www.hauserwirth.com/hauser-wirth-exhibitions/lee-bul-the-anatomy-of-every-setting-sun/",
+        "date": "Sep 10 \u2013 Oct 24"
+      },
+      {
+        "name": "Anthony McCall: Solid Light, 1973, 2020, 2026",
+        "venue": "Sean Kelly Gallery, 475 Tenth Avenue, Chelsea",
+        "date_start": "2026-09-11",
+        "date_end": "2026-10-31",
+        "category": "museum",
+        "why": "Three solid-light works spanning fifty years \u2014 including the debut of Swarm (2026) and the gallery's first presentation of the landmark Line Describing a Cone \u2014 where projected light becomes three-dimensional sculpture you walk through; the physical/digital/perceptual edge at its most rigorous.",
+        "url": "https://www.skny.com/exhibitions/anthony-mccall7",
+        "date": "Sep 11 \u2013 Oct 31"
       },
       {
         "name": "Allan Sekula: Fish Story",
-        "venue": "Miriam and Ira D. Wallach Art Gallery, Columbia University, 615 W 129th St, 6th Fl",
+        "venue": "Miriam and Ira D. Wallach Art Gallery, Columbia University, 615 W 129th St",
         "date_start": "2026-10-02",
         "date_end": "2026-12-20",
         "category": "museum",
-        "why": "The first time all nine chapters of Sekula's magnum opus \u2014 105 photographs plus slide projections and texts \u2014 have been shown in their entirety in New York City; a hidden-systems masterpiece about maritime labor and global capital.",
-        "url": "https://wallach.columbia.edu/content/allan-sekula-fish-story",
+        "why": "Sekula's obsessive photographic investigation of the global shipping economy \u2014 the invisible infrastructure that quietly moves everything \u2014 is exactly the kind of hidden-systems, deep-structure work that rewards slow looking.",
+        "url": "https://wallach.columbia.edu/",
         "date": "Oct 2 \u2013 Dec 20"
       },
       {
-        "name": "Sylvan Esso + Arushi Jain",
-        "venue": "Brooklyn Paramount, Brooklyn",
-        "date_start": "2026-10-14",
-        "date_end": "2026-10-14",
-        "category": "concert",
-        "why": "Sylvan Esso's electronic folk loop-craft is genuinely compositional, and the opener Arushi Jain makes modular-synth music governed by North Indian raga structure \u2014 two very different takes on system as expressivity, same night.",
-        "url": "https://www.songkick.com/concerts/sylvan-esso-brooklyn-paramount-2026",
-        "date": "Wed, Oct 14"
-      },
-      {
-        "name": "Contemporary East: Ikue Mori, Charmaine Lee, Nava Dunkelman, Reggie Nicholson, Yuko Fujiyama",
-        "venue": "Roulette Intermedium, Downtown Brooklyn",
-        "date_start": "2026-10-14",
-        "date_end": "2026-10-14",
-        "category": "concert",
-        "why": "Five improvisers \u2014 including Ikue Mori (electronics) and Charmaine Lee (extended-voice electronics) \u2014 performing live at Roulette, the city's anchor for experimental and new music; the kind of event where you can watch a real-time system build and dissolve in front of you.",
-        "url": "https://roulette.org",
-        "date": "Wed, Oct 14"
-      },
-      {
-        "name": "Charles Burchfield: Elemental",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort St",
-        "date_start": "2026-10-22",
+        "name": "Krasner and Pollock: Past Continuous",
+        "venue": "The Metropolitan Museum of Art, 1000 Fifth Avenue",
+        "date_start": "2026-10-04",
         "date_end": "2027-01-31",
         "category": "museum",
-        "why": "Ten watercolors spanning 1916\u20131960 from a visionary American modernist who treated storms, meadows, and insects as notation systems for invisible forces \u2014 the show's tight focus on the Whitney's own holdings makes it feel like a private argument rather than a survey.",
-        "url": "https://whitney.org/exhibitions/charles-burchfield-elemental",
-        "date": "Oct 22 \u2013 Jan 31"
+        "why": "120+ works, both careers side by side \u2014 less about the mythology and more about what happens when two radically different systems of mark-making share a house and a history for decades.",
+        "url": "https://www.metmuseum.org/",
+        "date": "Oct 4 \u2013 Jan 31"
+      },
+      {
+        "name": "Gatekeeper + Gobby + Logan Takahashi + Glasser DJ",
+        "venue": "Night Club 101, 101 Avenue A (former Pyramid Club), East Village",
+        "date_start": "2026-10-29",
+        "date_end": "2026-10-29",
+        "category": "concert",
+        "why": "Gatekeeper's corroded, uncanny club music at a 100-cap room on the hallowed ground of the old Pyramid Club \u2014 a lineup that treats electronic music as atmosphere and worldbuilding rather than peak-time product.",
+        "url": "https://www.ohmyrockness.com/shows/479121-gatekeeper-gobby-logan-takahashi-glasser-dj-night-club-101",
+        "date": "Thu, Oct 29"
       }
     ]
   },
