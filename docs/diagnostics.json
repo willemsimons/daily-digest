@@ -1,23 +1,27 @@
 {
-  "feeds": 72,
-  "mined": 45,
-  "videos": 5,
+  "feeds": 85,
+  "mined": 42,
+  "videos": 6,
   "video_titles": [
     "When you lose weight where does it go?",
     "The Absurd Engineering Behind the Internet",
     "What is edge dislocation?",
+    "This Resin 3D Printer Changed My Mind!",
     "I Snuck a 3D Printer on Vacation!  #3dprinting #positron",
     "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "Ars Technica",
-    "Bert Hubert's writings",
-    "MIT Technology Review",
-    "Simon Willison's Weblog",
-    "The New Yorker"
+    "Ars Technica / Citizen Lab",
+    "Berkeley Engineering / Nature Communications",
+    "CNC Kitchen (YouTube)",
+    "Daniel Temkin",
+    "Goodfire AI",
+    "Meta AI Research",
+    "Wire sources",
+    "Works in Progress"
   ],
-  "had_video": false,
-  "run_at": "2026-10-15T15:44:53.867753+00:00"
+  "had_video": true,
+  "run_at": "2026-10-16T15:30:00.294877+00:00"
 }
