@@ -1,6 +1,6 @@
 {
-  "feeds": 76,
-  "mined": 47,
+  "feeds": 59,
+  "mined": 50,
   "videos": 7,
   "video_titles": [
     "When you lose weight where does it go?",
@@ -12,18 +12,16 @@
     "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 7,
   "final_sources": [
-    "Alex Wang",
     "Ars Technica",
-    "Black Forest Labs",
-    "Filippo Valsorda",
-    "Geopolitical Futures",
-    "Geopolitical Monitor",
-    "Hackaday",
-    "Nautilus",
-    "YouTube \u2014 Great Art Explained"
+    "GitHub",
+    "GitHub / RepRap Community",
+    "Graphic Online",
+    "Nature",
+    "Numismatic News",
+    "antfu"
   ],
-  "had_video": true,
-  "run_at": "2026-10-17T14:22:59.784718+00:00"
+  "had_video": false,
+  "run_at": "2026-10-18T14:48:52.910705+00:00"
 }
