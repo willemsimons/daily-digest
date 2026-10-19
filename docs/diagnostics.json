@@ -1,6 +1,6 @@
 {
-  "feeds": 59,
-  "mined": 50,
+  "feeds": 61,
+  "mined": 45,
   "videos": 7,
   "video_titles": [
     "When you lose weight where does it go?",
@@ -12,16 +12,18 @@
     "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
+    "3Blue1Brown",
     "Ars Technica",
-    "GitHub",
-    "GitHub / RepRap Community",
-    "Graphic Online",
-    "Nature",
-    "Numismatic News",
-    "antfu"
+    "BioNews / Progress Educational Trust",
+    "Everything Briefing",
+    "Just Security",
+    "Karri Saarinen",
+    "MIT Technology Review",
+    "ScienceDaily / EASD",
+    "arXiv (Together AI)"
   ],
-  "had_video": false,
-  "run_at": "2026-10-18T14:48:52.910705+00:00"
+  "had_video": true,
+  "run_at": "2026-10-19T17:42:51.683711+00:00"
 }
