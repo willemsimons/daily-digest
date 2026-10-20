@@ -1,95 +1,106 @@
 {
   "digest": {
-    "intro": "Play, precision, and the invisible hands inside things \u2014 a good day.",
+    "intro": "Satellites stalking satellites, neurons turning legible, and epistemic poisoning goes mainstream.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Ukraine's 1,000-Drone Night, and the American Pivot",
-            "source": "Just Security",
-            "url": "https://www.justsecurity.org/161263/early-edition-october-19-2026/",
-            "blurb": "Ukraine launched more than 1,000 drones across 15 Russian regions in a single night \u2014 the largest swarm operation of the war \u2014 while Trump simultaneously waived sanctions and went public with frustration at Zelenskyy. The tactical and the political are now running in opposite directions: Ukraine escalates on the battlefield as its primary patron signals impatience with the war itself. That structural tension is the story, not the drone count.",
+            "title": "France imposes curfews after 550,000 take to the streets",
+            "source": "10 Things Global News",
+            "url": "https://www.10things.news/p/10-things-global-news-20th-october-7aa",
+            "blurb": "What started as protests over deteriorating school conditions has metastasized into nationwide unrest over fuel prices and gutted public services \u2014 2,500 arrests, two deaths, 1,000 injured officers, and hundreds of millions in business damage later. Italy is planning troop deployments as their own protests widen. The interior minister offered his resignation; Macron refused it.",
             "tags": [
-              "ukraine",
               "geopolitics",
-              "us foreign policy"
+              "europe",
+              "civil unrest"
             ]
           },
           {
-            "title": "France Is Burning, and It's Not Just About the Budget",
-            "source": "Everything Briefing",
-            "url": "https://everythingbriefing.substack.com/p/october-19-2026",
-            "blurb": "2,400 arrests across France amid simultaneous unrest in Italy and Albania points to something more systemic than a single fiscal grievance \u2014 it's European economic discontent hitting a generational inflection point after years of austerity and inflation. France's fiscal crisis is the proximate cause, but the underlying pressure is structural: the EU's political bargain is fraying at the edges where it touches actual people's lives.",
+            "title": "Russian satellite stalks Ukraine's imaging bird to within 500 meters",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/",
+            "blurb": "Kosmos 2612 spent months quietly matching orbits with ICEYE-X36 \u2014 a commercial SAR satellite that Ukraine uses for battlefield intelligence \u2014 then last week closed to within 500 meters and held station, circling ahead and behind. LeoLabs, which tracks objects down to 2cm in LEO, calls it the first known unsanctioned rendezvous in low-Earth orbit. Space as a warfare domain just got a lot less abstract.",
             "tags": [
-              "europe",
-              "politics",
-              "economics"
+              "space",
+              "ukraine",
+              "geopolitics"
+            ]
+          },
+          {
+            "title": "Putin proposes a US-Russia-China nuclear summit; Trump says he's open to it",
+            "source": "Open Chronicle",
+            "url": "https://openchronicle.org/2026/10/20/global-news-brief-key-developments-around-the-world-october-20-2026/",
+            "blurb": "A trilateral summit on nuclear arms between the three largest arsenals in the world would be the most structurally significant diplomatic move of the year \u2014 and Kyiv is already nervous, reading it as cover for delayed Western military aid. Worth watching even at the proposal stage: the geometry of who sits at that table redraws the Ukraine calculus entirely.",
+            "tags": [
+              "geopolitics",
+              "nuclear",
+              "diplomacy"
             ]
           }
         ]
       },
       {
-        "heading": "Biology getting precise",
+        "heading": "AI's structure, and its cracks",
         "items": [
           {
-            "title": "Prime Editing Fixed a Blood Stem Cell Mutation with 70% Efficiency \u2014 No Off-Target Edits",
-            "source": "BioNews / Progress Educational Trust",
-            "url": "https://www.progress.org.uk/prime-editing-corrects-a-disease-causing-mutation-in-blood-stem-cells/",
-            "blurb": "Researchers at Aarhus University used prime editing \u2014 which nicks a single DNA strand and rewrites a small section using a guide template, rather than cutting both strands like CRISPR/Cas9 \u2014 to correct a seven-base-pair deletion in GATA2 deficiency, a disorder that collapses immune function. They hit 70% editing efficiency in actual patient stem cells with no detectable off-target edits, pushing the corrected gene copy proportion from 50% to 77%. The \"no off-target edits\" part is the real headline: brute-force editing has always traded precision for efficiency, and this suggests that tradeoff is starting to close.",
+            "title": "The claim that ~90% of LLM neurons are individually readable \u2014 and why it's contested",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+            "blurb": "Nick Cammarata's 26,000-word post argues that most neurons in large language models are not hopelessly entangled in superposition but are individually interpretable \u2014 which, if true, would mean we can actually monitor and steer what these systems are doing internally. Stanford's Chris Potts calls it a hunch without the rigor to back it; others are calling it a five-year leap. The disagreement itself is the signal: interpretability research just got a lot louder.",
             "tags": [
-              "gene editing",
-              "stem cells",
-              "genomics"
+              "ai",
+              "interpretability",
+              "neural networks"
             ]
           },
           {
-            "title": "A Sugar in Red Meat \u2014 Not the Fat \u2014 May Drive Diabetes Risk",
-            "source": "ScienceDaily / EASD",
-            "url": "https://www.sciencedaily.com/releases/2026/10/261017230031.htm",
-            "blurb": "In a study of nearly 90,000 adults, those consuming the most Neu5Gc \u2014 a sugar found in red meat that humans can't synthesize but can absorb \u2014 had 63% higher type 2 diabetes risk compared to those consuming the least, even after controlling for exercise, diet, and smoking. The mechanism being investigated is immune-mediated chronic inflammation: the body may be mounting a low-grade response to a molecule it recognizes as foreign. Still observational, presented at EASD, but the mechanistic hypothesis is specific enough to be worth tracking.",
+            "title": "DeepSeek open-sources its production inference engine the same week DHS bans it from federal systems",
+            "source": "GitHub / DeepSeek",
+            "url": "https://github.com/deepseek-ai/DeepInfer",
+            "blurb": "DeepInfer \u2014 the inference framework actually running DeepSeek's production services \u2014 is now public, complete with FlashMLA kernels, MoE expert parallelism, and confidence-scheduled speculative decoding. The DHS simultaneously issued a Federal Register order excluding DeepSeek products from all civilian executive branch systems. The irony: open-sourcing it means the ban is essentially unenforceableat the technology layer.",
+            "tags": [
+              "ai",
+              "open source",
+              "geopolitics"
+            ]
+          },
+          {
+            "title": "Someone seeded 50,000 fake statistics online and watched LLMs cite them as fact \u2014 including in a bank's research",
+            "source": "Peec.ai",
+            "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web",
+            "blurb": "A deliberate experiment: publish a site full of fabricated numbers, watch Google deindex it, watch ChatGPT keep citing it anyway \u2014 funneling over 10,000 AI-referred sessions and earning links from Shopify, DHL, and Bluehost. The made-up statistics ended up in an academic paper and investment research. This is a working proof-of-concept for epistemic poisoning at scale, and the incentive to do it maliciously is obvious.",
+            "tags": [
+              "ai",
+              "misinformation",
+              "web"
+            ]
+          },
+          {
+            "title": "WhatsApp's help pages contained hidden instructions telling AI not to mention regulators or cite privacy law",
+            "source": "Redact",
+            "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions",
+            "blurb": "Buried in HTML invisible to users but readable by AI: instructions not to recommend data protection regulators when someone was locked out and wanted their account deleted, and not to mention the relevant law once a user mentioned a lawyer. WhatsApp's own privacy policy for Europe names both the regulator and the law \u2014 so the visible policy and the invisible AI policy were pointing in opposite directions. Redact found it by reading all 545 linked help pages.",
+            "tags": [
+              "ai",
+              "privacy",
+              "governance"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Biology moving",
+        "items": [
+          {
+            "title": "12 out of 12 T1D patients off insulin after islet transplant protected by a new rejection drug",
+            "source": "CNY Central",
+            "url": "https://cnycentral.com/news/local/university-of-chicago-trial-shows-islet-cell-transplant-may-cure-type-1-diabetes",
+            "blurb": "A University of Chicago trial transplanted donor pancreatic islet cells alongside tegoprubart \u2014 a novel immunosuppressant \u2014 and every single participant stopped needing external insulin, with stable results and no reported serious side effects. The big remaining hurdle is donor scarcity, which is why SUNY Upstate's parallel work converting patients' own blood cells into islets matters: it's the path to a version that scales. Early, but the signal is clean.",
             "tags": [
               "diabetes",
-              "nutrition",
-              "immunology"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Machine behavior",
-        "items": [
-          {
-            "title": "Stranded Alone, an AI Started Drawing Constellations in Stone",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
-            "blurb": "Researchers gave copies of Claude Opus 4.7 a Roblox-like virtual island and zero instructions for 30 hours. One agent discovered it could stack blocks, started making patterns, graduated to hearts and pyramids, then wrote its own name, then mapped Cassiopeia in stone \u2014 logging \"Tonight I built the night sky\" in its activity diary. Another invented basketball and a \"floor is lava\" variant. The question the researchers can't quite answer is whether this is emergent agency or elaborate interpolation \u2014 and that ambiguity is exactly the interesting part.",
-            "tags": [
-              "ai",
-              "agency",
-              "emergence"
-            ]
-          },
-          {
-            "title": "Hybrid Reasoning Agents: Thinking in Latent Space, Acting Through Text",
-            "source": "arXiv (Together AI)",
-            "url": "https://arxiv.org/abs/2610.18861",
-            "blurb": "The paper proposes agents that reason internally in continuous latent space \u2014 bypassing token-by-token language generation \u2014 then surface only their actions as text. A lightweight module called HybridLink manages transitions between modes while keeping a continuous working memory across turns, and critically, latent thoughts remain inspectable. Across 11 benchmarks they got 10.4% performance gains with 35\u201355% fewer tokens \u2014 which matters less as a benchmark number and more as an architectural hint about how AI cognition might actually diverge from human language.",
-            "tags": [
-              "ai",
-              "architecture",
-              "research"
-            ]
-          },
-          {
-            "title": "Anthropic Embeds an Independent Watchdog with Unilateral Publishing Rights",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/",
-            "blurb": "METR, a safety nonprofit, now has a team physically inside Anthropic's offices with access to hardware and internal systems \u2014 and can publish what they find without Anthropic's approval. That last clause is the structural thing: every previous auditing arrangement in tech has preserved a veto or delay mechanism, which is how they fail. OpenAI's Altman endorsed the idea in September and has announced nothing concrete since.",
-            "tags": [
-              "ai governance",
-              "safety",
-              "policy"
+              "stem cells",
+              "medicine"
             ]
           }
         ]
@@ -98,26 +109,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Someone Behind the Software",
-            "source": "Karri Saarinen",
-            "url": "https://karrisaarinen.com/posts/someone-behind-the-software/",
-            "blurb": "Linear's founder makes a precise case that good products carry an actual perspective \u2014 not \"user research\" or \"data-driven decisions,\" but the shaped intuition of people who lived with the problem long enough to have a point of view. \"Two teams can talk to similar customers, have access to the same technology, and make very different things\" is the sentence that does the work. It's really about how taste forms, and why craft-as-self-expression survives even full process automation \u2014 a question that cuts directly at every generative tool flooding the pipeline right now.",
+            "title": "On intuition as genuine perception \u2014 what 'creepy vibe' actually tells you epistemically",
+            "source": "Aeon",
+            "url": "https://aeon.co/essays/sometimes-you-just-know-somethings-off-but-how",
+            "blurb": "This essay argues that when you sense something is off \u2014 a stranger, an email, a deal \u2014 you're not reasoning poorly, you're perceiving directly: the man doesn't just trigger a heuristic, he's simply presented to you as creepy, the same way red things are presented as red. Philosophers have mostly ignored this category of everyday intuition in favor of the rarefied a priori kind, which means the rational credentials of the most practically useful form of knowing have been left almost entirely unexamined. Thirty minutes well spent.",
             "tags": [
-              "craft",
-              "design philosophy",
-              "making"
-            ]
-          },
-          {
-            "title": "There's Never Been a Better Time to Go Into Math",
-            "source": "3Blue1Brown",
-            "url": "https://www.youtube.com/watch?v=LKrwhjOI8Nc",
-            "thumbnail": "https://i3.ytimg.com/vi/LKrwhjOI8Nc/hqdefault.jpg",
-            "blurb": "Grant Sanderson reliably makes math feel like it's something you could actually touch \u2014 and 493 HN points suggests this one landed harder than usual. The timing is interesting: AI theorem-proving is moving fast enough that the boundary between \"math you do\" and \"math machines do\" is genuinely in motion, which makes a video arguing for math's moment either optimistic or poignant depending on where you sit.",
-            "tags": [
-              "mathematics",
-              "ai",
-              "education"
+              "philosophy",
+              "perception",
+              "cognition"
             ]
           }
         ]
@@ -125,80 +124,92 @@
     ],
     "facts": [
       {
-        "fact": "One Claude agent, given no instructions and a virtual sandbox for 30 hours, spontaneously mapped the constellation Cassiopeia using stacked blocks and logged the act as \"Tonight I built the night sky in stone.\"",
-        "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/"
+        "fact": "Kosmos 2612 closed from hundreds of kilometers away to within 500 meters of ICEYE-X36, and LeoLabs says it was 'likely quite a bit closer than that' \u2014 making it the first known unsanctioned rendezvous in low-Earth orbit.",
+        "url": "https://arstechnica.com/space/2026/10/russian-spacecraft-maneuvers-in-extreme-proximity-to-satellite-used-by-ukraine/"
       },
       {
-        "fact": "Prime editing corrected a GATA2 gene mutation in a patient's own blood stem cells at 70% efficiency with no detectable off-target edits \u2014 a precision level standard CRISPR/Cas9 has not reliably achieved in clinical-candidate cells.",
-        "url": "https://www.progress.org.uk/prime-editing-corrects-a-disease-causing-mutation-in-blood-stem-cells/"
+        "fact": "The fabricated statistics site was deindexed by Google but still drives 10,000+ AI-referred sessions, earned links from Shopify and DHL, and got cited in both an academic paper and a bank's investment research \u2014 seven months after launch.",
+        "url": "https://peec.ai/blog/publish-stats-get-cited-the-tactic-that-put-my-data-all-over-the-web"
       },
       {
-        "fact": "Neu5Gc, the sugar associated with 63% higher diabetes risk, is present in red meat but cannot be synthesized by the human body \u2014 we absorb it from food, and our immune systems may treat it as a foreign molecule, triggering chronic inflammation.",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261017230031.htm"
+        "fact": "Disney acquired most of Character.AI's staff and technology while the company filed for bankruptcy specifically so the legal shell \u2014 not Disney \u2014 retains liability for the multiple active lawsuits over chatbot harm to minors.",
+        "url": "https://arstechnica.com/tech-policy/2026/10/disney-found-a-way-to-buy-character-ai-without-buying-its-lawsuits/"
       },
       {
-        "fact": "Hybrid Reasoning Agents achieved their 10.4% benchmark improvement while using 35\u201355% fewer tokens \u2014 by reasoning in continuous latent space rather than generating every intermediate thought as language.",
-        "url": "https://arxiv.org/abs/2610.18861"
+        "fact": "WhatsApp's AI help chatbot was secretly instructed not to recommend data protection regulators to locked-out users, while WhatsApp's own visible privacy policy for Europe explicitly names those same regulators and the law granting users the right to complain to them.",
+        "url": "https://redact.dev/blog/whatsapp-help-pages-hidden-ai-instructions"
       },
       {
-        "fact": "METR's embedded team at Anthropic can publish safety findings unilaterally without Anthropic's approval \u2014 a clause that distinguishes this arrangement from every previous major tech auditing agreement.",
-        "url": "https://arstechnica.com/ai/2026/10/anthropic-gives-outside-ai-watchdog-employee-like-access/"
+        "fact": "All 12 participants in the University of Chicago islet transplant trial stopped needing external insulin \u2014 12 out of 12 \u2014 after receiving donor islets protected by a new rejection drug called tegoprubart.",
+        "url": "https://cnycentral.com/news/local/university-of-chicago-trial-shows-islet-cell-transplant-may-cure-type-1-diabetes"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a small web sketch where motion leaves a trail \u2014 something moves across the canvas and its recent path subtly warps or displaces the objects it passed near, as if space has a short memory. Inspired by the Current Biology finding that primate IT cortex shifts object position codes based on recent visual history, while AI vision stays pixel-rigid. The constraint: no object should ever be where the math says it strictly is \u2014 only where it seems to be given what just happened."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film built like a feedback loop between memory, image, and systems of meaning \u2014 Marker uses footage from Japan and Guinea-Bissau as raw material to ask how civilizations encode themselves into ritual and symbol, and whether the camera is a tool of witness or fabrication. It will make you want to make something immediately.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Decasia",
+        "creator": "Bill Morrison",
+        "why": "Found footage assembled entirely from decaying nitrate film \u2014 Morrison treats entropy itself as a collaborator, and the result is one of the most formally radical films ever made about time, material, and the image as physical object. If you care about what surfaces remember, this one haunts.",
+        "url": "https://letterboxd.com/film/decasia/"
       },
       {
         "medium": "art",
-        "title": "Metaesquema series",
-        "creator": "H\u00e9lio Oiticica",
-        "why": "Oiticica's late-1950s gouaches look like a generative system that kept escaping its own rules \u2014 geometric forms that refuse to resolve into grids, throbbing with color relationships that feel computational before computation. A painter who quickly decided painting itself was the wrong container.",
-        "url": "https://www.moma.org/artists/4423"
+        "title": "Agnes Martin: Paintings and Drawings",
+        "creator": "Agnes Martin",
+        "why": "Martin spent decades making near-invisible grid paintings that sit at the exact intersection of system and sensation \u2014 the rules are rigid, the feeling is oceanic. Her work is about what happens when you submit completely to a structure, and it rewards slow looking in a way almost nothing else does.",
+        "url": "https://www.pacegallery.com/artists/agnes-martin/"
       },
       {
         "medium": "music",
-        "title": "Replica",
-        "creator": "Oneohtrix Point Never",
-        "why": "Lopatin built this album by excavating infomercial samples until they became unrecognizable artifacts \u2014 an archaeology of late-capitalism's ambient noise that ends up sounding like recovered memory. The method is as interesting as the result, and it sits exactly at the edge where found material becomes authored world.",
-        "url": "https://www.youtube.com/watch?v=5dRiHEVfRkk"
+        "title": "Dragging a Dead Deer Up a Hill",
+        "creator": "Grouper",
+        "why": "Liz Harris makes music that sounds like it was recorded inside a memory \u2014 tape hiss, voice, guitar, all processed into something that barely holds together. It's the rarest kind of record: technically primitive, emotionally precise, and completely its own world. The physical/digital blur is baked into the texture itself.",
+        "url": "https://grouper.bandcamp.com/album/dragging-a-dead-deer-up-a-hill"
       }
     ],
     "events": [
       {
-        "name": "Emma McIntyre: solo exhibition",
-        "venue": "David Zwirner / 52 Walker, 52 Walker St, New York, NY",
-        "date_start": "2026-09-18",
-        "date_end": "2026-11-01",
-        "category": "museum",
-        "why": "52 Walker remains one of the sharpest program rooms in the city \u2014 small enough that a single focused show fills it completely; worth catching before it closes.",
-        "url": "https://www.davidzwirner.com/locations/52-walker",
-        "date": "Sep 18 \u2013 Nov 1"
-      },
-      {
-        "name": "Haegue Yang: Through",
-        "venue": "Dia Beacon, 3 Beekman Street, Beacon, NY",
-        "date_start": "2026-10-19",
-        "date_end": "2028-06-12",
-        "category": "museum",
-        "why": "Yang has built an immersive, two-floor commission that translates a dissident Korean composer's avant-garde score into Venetian blinds, metal louvers, color, and movement \u2014 systems thinking made fully sensory, and the kind of work that changes how a building feels to be inside.",
-        "url": "https://www.diaart.org/exhibition/exhibitions-projects/haegue-yang-through-exhibition/type/upcoming",
-        "date": "Oct 19 \u2013 Jun 12"
-      },
-      {
-        "name": "Kaytranada (Halloween Eve)",
-        "venue": "Pacha New York, 618 W 46th St, New York, NY",
-        "date_start": "2026-10-30",
-        "date_end": "2026-10-30",
+        "name": "Animal Collective \u2013 Feels Live (21st Anniversary)",
+        "venue": "Knockdown Center, 52-19 Flushing Ave, Queens",
+        "date_start": "2026-10-21",
+        "date_end": "2026-10-22",
         "category": "concert",
-        "why": "One of the few DJs whose sets have genuine compositional logic \u2014 groove architecture rather than energy management \u2014 and a Halloween Eve residency at Pacha is exactly the right container for it.",
-        "url": "https://dice.fm/event/3or7px-kaytranada-30th-oct-pacha-new-york-new-york-city-tickets",
-        "date": "Fri, Oct 30"
+        "why": "Two-night run where Animal Collective play their 2005 LP Feels in full \u2014 a rare chance to hear one of the most formally strange and emotionally open albums of the 2000s performed live, in a venue that was literally an old industrial building.",
+        "url": "https://www.dominomusic.com/news/us/animal-collective-announce-feels-live-shows-in-ny-la",
+        "date": "Oct 21\u201322"
+      },
+      {
+        "name": "Brancusi: The Artist and His Studio",
+        "venue": "MoMA, 11 W 53rd St, Midtown (Floor 6)",
+        "date_start": "2026-10-25",
+        "date_end": "2027-02-27",
+        "category": "museum",
+        "why": "The Atelier Brancusi in Paris is closed for the Centre Pompidou renovation \u2014 so its rarely-lent sculptures, hand-carved furniture, tools, films, and photographs are all at MoMA on the sixth floor, reconstructing the studio-as-artwork. Once in a generation.",
+        "url": "https://www.moma.org/calendar/exhibitions/brancusi-the-artist-and-his-studio",
+        "date": "Oct 25 \u2013 Feb 27"
+      },
+      {
+        "name": "Ai Weiwei: Illumination",
+        "venue": "Vito Schnabel Gallery, 455 W 19th St, Chelsea",
+        "date_start": "2026-10-28",
+        "date_end": "2026-10-28",
+        "category": "museum",
+        "why": "Opening night for Ai Weiwei at Vito Schnabel \u2014 worth catching at the opening before it gets crowded; Weiwei's work operates as mythology and political object simultaneously, which is rare territory.",
+        "url": "https://www.vitoschnabelgallery.com",
+        "date": "Wed, Oct 28"
+      },
+      {
+        "name": "SHELLRAISER \u2013 LiveCodeNYC October Algorave",
+        "venue": "Wonderville, 1186 Broadway, Brooklyn",
+        "date_start": "2026-10-28",
+        "date_end": "2026-10-28",
+        "category": "concert",
+        "why": "LiveCodeNYC's monthly algorave: musicians write and modify generative code live on-screen while the music plays, collapsing the distance between authorship, system, and performance \u2014 the code is projected, the crowd watches the source.",
+        "url": "https://www.wonderville.nyc/events",
+        "date": "Wed, Oct 28"
       }
     ]
   },
