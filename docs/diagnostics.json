@@ -1,10 +1,10 @@
 {
-  "feeds": 82,
-  "mined": 39,
+  "feeds": 84,
+  "mined": 48,
   "videos": 7,
   "video_titles": [
     "When you lose weight where does it go?",
-    "The Absurd Engineering Behind the Internet",
+    "The Insane Engineering of Fiber Optics",
     "What is edge dislocation?",
     "Matisse: The Red Studio: Great Art Explained",
     "This Resin 3D Printer Changed My Mind!",
@@ -12,18 +12,17 @@
     "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 8,
   "final_sources": [
     "10 Things Global News",
-    "Aeon",
     "Ars Technica",
-    "CNY Central",
-    "GitHub / DeepSeek",
-    "MIT Technology Review",
-    "Open Chronicle",
-    "Peec.ai",
-    "Redact"
+    "Hirundo",
+    "Nautilus",
+    "Practical Engineering",
+    "ScienceDaily / University of Bonn",
+    "Scott Helme",
+    "Techdirt"
   ],
   "had_video": false,
-  "run_at": "2026-10-20T15:49:10.114828+00:00"
+  "run_at": "2026-10-21T16:06:56.226648+00:00"
 }
