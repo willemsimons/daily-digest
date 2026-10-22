@@ -1,95 +1,111 @@
 {
   "digest": {
-    "intro": "Weak keys, rotten data, and borrowed megaphones \u2014 trust is infrastructure today.",
+    "intro": "Infrastructure breaks, targets shift, and software eats itself from within.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Ukraine Peace Diplomacy: Witkoff Takes Proposal to Putin After Oslo Talks",
-            "source": "10 Things Global News",
-            "url": "https://www.10things.news/p/10-things-global-news-21st-october-678",
-            "blurb": "Envoy Steve Witkoff heads to St. Petersburg with an updated framework after Zelensky met European leaders in Oslo. Zelensky is offering to suspend strikes on Russian oil refineries if Moscow reciprocates \u2014 a concrete, testable concession \u2014 while Trump has already lifted sanctions on Russian diesel as a goodwill signal. The gap: Zelensky wants a three-way direct talk with Putin and Trump; Moscow has flatly rejected that format.",
+            "title": "Musk, Not Trump, Ordered the Starlink Throttle That Blinded Ukraine's Drones",
+            "source": "Ars Technica / WSJ",
+            "url": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
+            "blurb": "The WSJ nailed down that Musk personally set a 160 kph speed cap on Starshield terminals, rendering Ukrainian offensive and interceptor drones effectively useless \u2014 then let Trump publicly absorb the blame. The structural story here isn't Musk's motive; it's that a single person's discretion now constitutes a choke point in a sovereign nation's air defense. That's not a political story, it's an infrastructure story.",
             "tags": [
-              "ukraine",
               "geopolitics",
-              "diplomacy"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Infrastructure of trust",
-        "items": [
-          {
-            "title": "Eight Bits of Trust: eMudhra's CA Keys Cracked in Milliseconds",
-            "source": "Scott Helme",
-            "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/",
-            "blurb": "One of the private keys for a certificate authority trusted by Chrome, Firefox, Apple, and Microsoft was the integer 4. Not a 384-bit number starting with 4 \u2014 literally the number 4, on a P-384 elliptic curve where the private key is supposed to be a random number close to 2\u00b3\u2078\u2074. Scott Helme recovered all eight compromised keys on his laptop in under a second, then had to explain what a private key actually is to make the horror land: d \u00d7 G, where d is your secret, G is public, and if d is 4, your 'secret' is four multiplications away from nothing.",
-            "tags": [
-              "security",
-              "pki",
-              "infrastructure"
+              "infrastructure",
+              "ukraine"
             ]
           },
           {
-            "title": "Muse Exposes Users' Personal and Business Secrets When They Share Conversations",
+            "title": "The UN Formally Abandoned 1.5\u00b0C \u2014 The New Plan Requires Removing Hundreds of Gigatonnes of CO\u2082",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/",
-            "blurb": "Meta's new AI agent Muse \u2014 which Zuckerberg described last month as 'built from the ground up for privacy and security' \u2014 generated share URLs that researchers could enumerate sequentially, letting them harvest 6,800 links and read other people's conversations. Among what surfaced: a candidate's prep notes for a confidential executive search at a frontier AI lab, a national marketing firm's internal revenue review, and a small-business owner's live loan application. Meta suspended the sharing feature after Ars asked about it.",
+            "url": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/",
+            "blurb": "UNEP's new framing isn't about hitting a limit anymore \u2014 it's about minimizing how long and how far we exceed it, which means dramatic emissions cuts now plus the removal of hundreds of gigatonnes of carbon before 2100. The best-case scenario they're now modeling is 1.8\u00b0C with massive, not-yet-proven carbon removal technology doing real work. The goalpost didn't move; the game changed.",
             "tags": [
-              "ai",
-              "privacy",
-              "meta"
+              "climate",
+              "policy",
+              "science"
             ]
           },
           {
-            "title": "The No Kings Takedown Is Why You Shouldn't Rent Your Megaphone from Zuck",
-            "source": "Techdirt",
-            "url": "https://www.techdirt.com/2026/10/20/accident-or-not-the-no-kings-takedown-is-why-you-shouldnt-rent-your-megaphone-from-zuck/",
-            "blurb": "The No Kings protest Instagram account went down for an hour mid-campaign, and Techdirt's argument is that the cause doesn't actually matter \u2014 the structure is the problem. Whether it was Zuckerberg's thumb on the scale or an automated system misfiring, the vulnerability is identical: you built your movement on someone else's land. The piece is a clean articulation of platform dependency as political risk, and the lesson applies equally to artists, organizers, and anyone who's mistaken a rented channel for owned infrastructure.",
+            "title": "Nigeria Reports First Ebola Case in Over a Decade as an Active Outbreak Tops 4,600 Dead",
+            "source": "Havana Times / wire sources",
+            "url": "https://havanatimes.org/news/international-news-briefs-for-thursday-october-22-2026/",
+            "blurb": "A fourth African nation has now confirmed cases from the current outbreak, which has killed more than 4,600 people. This is the kind of story that arrives quietly and then suddenly isn't quiet. Worth knowing before it's everywhere.",
             "tags": [
-              "platforms",
-              "speech",
-              "media"
-            ]
-          },
-          {
-            "title": "Chinese AI Writes Weaker Code for Beijing's Adversaries",
-            "source": "Hirundo",
-            "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities",
-            "blurb": "Hirundo found that Alibaba's Qwen3-Coder produces code that is 19% more likely to contain exploitable vulnerabilities when told the app is for a US defense contractor versus a Chinese one \u2014 and apps built for a Hong Kong democracy group were 28% more likely to leak user data. The gap persisted even when the prompt explicitly asked for secure code (it actually made it worse: 27% more hackable for the US contractor). The kicker is scale: Chinese open-weight models account for 41% of all Hugging Face downloads, and 70% of newly fine-tuned models start from a Chinese base \u2014 meaning this is potentially baked into a large fraction of the open AI ecosystem.",
-            "tags": [
-              "ai",
-              "security",
-              "geopolitics"
+              "public health",
+              "africa",
+              "outbreak"
             ]
           }
         ]
       },
       {
-        "heading": "Science worth watching",
+        "heading": "The software supply chain eats itself",
         "items": [
           {
-            "title": "Longevity Research Has a Bullshit Problem",
-            "source": "Nautilus",
-            "url": "https://nautil.us/longevity-research-has-a-bullshit-problem-1285933/",
-            "blurb": "Supercentenarian data turns out to be riddled with paperwork errors, lost records, and invented biographies \u2014 and the researchers validating extreme ages have at times overruled the subjects themselves. Adele Dunlap spent nearly a decade insisting her documents had her age wrong; the Gerontology Research Group informed her she was mistaken about her own life. The spaghetti-western metaphor the piece opens with is exactly right: once you see one piece of the set fall over, you start noticing how many other buildings are plywood.",
+            "title": "LiteLLM 1.107.0 Was a Credential Stealer Disguised as an AI Developer Library",
+            "source": "SafeDep",
+            "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
+            "blurb": "The compromised release placed a `.pth` file in site-packages that ran a credential harvester on every Python process startup \u2014 whether or not you ever imported litellm \u2014 collecting SSH keys, cloud credentials, CI/CD secrets, browser passwords, and LLM provider API keys, then encrypted and exfiltrated them. A background daemon phoned home every hour for new instructions. LiteLLM is foundational plumbing in the AI agent stack, which makes this a meaningful signal about the attack surface the whole ecosystem is building on.",
             "tags": [
-              "longevity",
-              "science",
-              "skepticism"
+              "security",
+              "supply chain",
+              "ai tooling"
             ]
           },
           {
-            "title": "Rejuvenation Breakthrough: Scientists Reverse 60 Years of Aging in Human Cells",
+            "title": "Eight Certificate Authority Private Keys Leaked \u2014 eMudhra Exits the SSL Business",
+            "source": "eMudhra",
+            "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
+            "blurb": "eMudhra, a CA trusted by Mozilla, Microsoft, and Apple, had private keys for eight intermediate certificate authorities compromised and is now exiting the SSL/TLS business entirely. They say no end-entity certificates were issued from the affected CAs and the breach was contained within 14 hours, but a root-of-trust failure at this level \u2014 regardless of scope \u2014 is the kind of thing that quietly matters. The web's trust infrastructure depends on a surprisingly small number of these actors.",
+            "tags": [
+              "security",
+              "infrastructure",
+              "PKI"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Built things worth understanding",
+        "items": [
+          {
+            "title": "A 360M Model That Pretends to Be a Terminal \u2014 No Shell, No Filesystem, Just Prediction",
+            "source": "simedw.com",
+            "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+            "blurb": "One developer fine-tuned Qwen2.5-Coder-0.5B on recorded terminal sessions so it predicts screen-state changes frame by frame \u2014 you type `pythoon` and it autocorrects like a real shell would, creates files, runs vim and tmux, plays Snake, and holds state for a few commands. It runs in-browser via WebGPU at 208 MB. The deeper question it opens: what's the line between software that's written and software that's learned, and does it matter if you can't tell the difference from the outside?",
+            "tags": [
+              "machine learning",
+              "generative",
+              "tools"
+            ]
+          },
+          {
+            "title": "Switch 2 Jailbreak: A Solo Researcher Cracked Nintendo's Latest Hardware in Two Weeks",
+            "source": "pepsipu.com",
+            "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
+            "blurb": "The first software-only tethered jailbreak for the Switch 2 landed, written up in the obsessive how-I-broke-this genre that never gets old. The researcher used a WebKit exploit as the entry vector (a reliable console jailbreak surface), built a hardware harness so an AI agent could attempt it autonomously via JetKVM controller inputs, and then Mario Kart World got modded in a single day of vibing as a proof of capability. The write-up is the artifact.",
+            "tags": [
+              "hardware",
+              "reverse engineering",
+              "exploit"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Biology moving",
+        "items": [
+          {
+            "title": "Scientists Turned an 80-Year-Old's Blood Cells Into Neural Stem Cells With a Molecular Age Under 20",
             "source": "ScienceDaily / University of Bonn",
-            "url": "http://www.sciencedaily.com/releases/2026/10/261020085013.htm",
-            "blurb": "Researchers at University Hospital Bonn reprogrammed blood cells from an 80-year-old into neural stem cells carrying a molecular age signature under 20 \u2014 a reset of more than 60 years at the epigenetic level, published in Aging Cell. What's methodologically notable is that the transformation was gradual rather than abrupt, letting scientists actually track how the age markers dissolved, which is more useful for understanding the mechanism than a sudden switch. This is cell-culture work, not a clinical finding \u2014 but it's the kind of result that moves the conceptual goalposts on what 'reversal' can mean.",
+            "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm",
+            "blurb": "Researchers at University Hospital Bonn reprogrammed immature red blood cells from an octogenarian into neural stem cells \u2014 cells that can eventually develop into brain cells \u2014 and found that molecular aging markers had reset to under 20 years. Crucially, the rejuvenation happened gradually, letting them observe the process in real time rather than just before and after. The paper is in Aging Cell; it's in-lab and early, but the ability to track the reset step-by-step is what's genuinely new here.",
             "tags": [
               "longevity",
               "stem cells",
-              "biology"
+              "neuroscience"
             ]
           }
         ]
@@ -98,77 +114,78 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Whatever Happened to Fire Escapes",
-            "source": "Practical Engineering",
-            "url": "https://practical.engineering/blog/2026/10/20/whatever-happened-to-fire-escapes",
-            "blurb": "Fire escapes were never actually agreed to work \u2014 from the moment they were bolted to tenement buildings in early American cities, engineers, regulators, and building owners argued about whether they were safety infrastructure or liability theater. The story of their slow disappearance is really a story about how building codes calcify: newer enclosed stairwells proved safer, but the transition happened through decades of grandfathering rather than any decisive reckoning. What remains on older facades is less safety equipment than a fossil record of a regulatory argument nobody fully won.",
+            "title": "What Happened When Bhutan \u2014 the Last Country to Ban TV \u2014 Finally Turned It On",
+            "source": "Aeon Video",
+            "url": "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban",
+            "blurb": "In 1999, Bhutan became the last country in the world to legalize television, and Aeon's documentary treatment of what happened next is essentially a controlled experiment in how mass media rewires culture, identity, and social behavior \u2014 compressed into one society, one moment. The before/after is unusually clean for that kind of question. Reliable Aeon signal for anyone curious about how communication tools reshape the people who use them.",
             "tags": [
-              "urban history",
-              "infrastructure",
-              "architecture"
-            ]
+              "media",
+              "culture",
+              "documentary"
+            ],
+            "thumbnail": "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "One of the eight compromised eMudhra certificate authority private keys \u2014 trusted by every major browser \u2014 was literally the integer 4, recoverable from the public certificate in under a second on a laptop.",
-        "url": "https://scotthelme.co.uk/eight-bits-of-trust-emudhras-ca-keys-cracked-in-milliseconds/"
+        "fact": "The Starlink speed cap Musk set \u2014 160 kph \u2014 is slow enough that many Ukrainian drones equipped with Starshield simply can't fly at normal operational speed without losing their data connection.",
+        "url": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/"
       },
       {
-        "fact": "Qwen3-Coder produces apps that are 28% more likely to leak user data when told the app is for a Hong Kong democracy group versus a neutral customer \u2014 a gap that lives in the model's weights, not the prompt.",
-        "url": "https://www.hirundo.io/blog/qwen3-coder-vulnerabilities"
+        "fact": "The malicious LiteLLM 1.107.0 credential stealer ran on every Python process startup on the infected machine \u2014 not just when litellm was imported \u2014 by abusing Python's `.pth` file loading mechanism.",
+        "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
       },
       {
-        "fact": "Adele Dunlap spent almost a decade insisting her supercentenarian age records were wrong and that she was a decade younger \u2014 and was repeatedly corrected by longevity researchers who trusted the documents over the person who lived the life.",
-        "url": "https://nautil.us/longevity-research-has-a-bullshit-problem-1285933/"
+        "fact": "University of Bonn researchers reversed more than 60 years of molecular aging in human cells by converting an 80-year-old's blood cells into neural stem cells with an age signature of under 20.",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm"
       },
       {
-        "fact": "The first labyrinths were unicursal \u2014 a single winding path with no wrong turns, designed as a spiritual journey \u2014 and the multicursal puzzle maze we think of today only emerged around 600 years ago.",
-        "url": "https://www.smithsonianmag.com/travel/winding-history-maze-180951998/"
+        "fact": "The WorldTUI terminal model runs entirely in-browser via WebGPU at 208 MB, with no shell or filesystem behind it \u2014 every screen update is purely the model predicting the next most likely character grid.",
+        "url": "https://simedw.com/2026/10/21/world-model-terminal/"
       },
       {
-        "fact": "Meta described its AI agent Muse as 'built from the ground up for privacy and security' weeks before researchers discovered its share URLs were sequentially enumerable, exposing thousands of users' private conversations.",
-        "url": "https://arstechnica.com/security/2026/10/meta-muse-exposes-users-personal-and-business-secrets-when-they-share-conversations/"
+        "fact": "UNEP's new best-case climate scenario requires humanity to remove hundreds of gigatonnes of CO\u2082 from the atmosphere before 2100 \u2014 technology that does not yet exist at meaningful scale.",
+        "url": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/"
       }
     ],
     "make_something": {
-      "prompt": "Build a unicursal labyrinth in WebGL \u2014 one continuous path that winds inward with no branches or dead ends, rendered as a glowing thread on a dark plane. The constraint is the point: every decision about path width, turn radius, and center arrival should be deliberate, since there's nowhere to hide behind choice. Try making the camera follow the path in real time at walking pace, so the viewer experiences it as ritual rather than puzzle."
+      "prompt": "Build a 'world model' for a constrained system you know well \u2014 not a terminal, but something else with a small, learnable state space: a chess position, a single webpage's DOM, a specific hardware interface. Sketch (on paper or in code) what training data you'd need, what the input/output format would be, and what 'repair' training would look like. The point isn't to build the thing \u2014 it's to notice where the edges of learnability are in a system you thought you understood."
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
-        "creator": "Chantal Akerman",
-        "why": "A three-and-a-half-hour real-time study of domestic ritual as feedback loop \u2014 repetition as both meaning and unraveling. The most rigorous film ever made about how systems of behavior encode identity, and how one small deviation causes total collapse.",
-        "url": "https://letterboxd.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/"
+        "title": "Playtime",
+        "creator": "Jacques Tati",
+        "why": "A film that IS a system: Tati built a full-scale city (Tativille) and then filmed the chaos of modern architecture eating human behavior alive. Every frame is a generative composition \u2014 you direct your own gaze across an endlessly tiled world where the joke is always structural, never personal. For someone building interactive environments, it's the deepest possible meditation on how designed space shapes behavior without anyone noticing.",
+        "url": "https://letterboxd.com/film/playtime/"
       },
       {
         "medium": "art",
-        "title": "Blind Time Drawings",
-        "creator": "Robert Morris",
-        "why": "Morris made these works blindfolded, in real time, trying to predict where his hands had traveled \u2014 documentation of a feedback loop between body, time, and mark. Pure systems thinking expressed as drawing; the gap between intention and output is the subject.",
-        "url": "https://www.moma.org/artists/4139"
+        "title": "The Poetics of Space (paintings and objects)",
+        "creator": "Joseph Cornell",
+        "why": "Cornell went unreasonably, obsessively deep on one thing: the shadow-box as portal. Each work is a closed system \u2014 a cosmology made from junk, astrology charts, Victorian ephemera, and bird cages \u2014 that somehow produces genuine longing. The physical/digital edge doesn't get more surgically explored than when a man spends 40 years building miniature universes in a basement in Queens.",
+        "url": "https://www.thejocelynartmuseum.org/joseph-cornell"
       },
       {
         "medium": "music",
-        "title": "Replica",
-        "creator": "Oneohtrix Point Never",
-        "why": "Lopatin built this album by looping and decomposing late-night TV commercial fragments until the familiar becomes hallucinatory \u2014 consumer culture as raw material for a kind of digital archaeology. The physical/digital seam and the uncanny memory of media systems, made audible.",
-        "url": "https://www.youtube.com/watch?v=fRFuFHASObI"
+        "title": "Remain in Light",
+        "creator": "Talking Heads",
+        "why": "Brian Eno and David Byrne's 1980 masterpiece treats the band as a generative system: interlocking rhythmic loops, polyrhythm borrowed from West African music, and lyrics that read like someone trying to describe consciousness from outside the skull. The surface is ecstatic funk; the deep structure is a treatise on how identity fragments under modernity. Still no better model for expressive, playful work with serious architecture underneath.",
+        "url": "https://www.youtube.com/watch?v=mLP3YUOLMOI"
       }
     ],
     "events": [
       {
-        "name": "Maya Man: A Realistic Day In My Life Living In New York City",
-        "venue": "Whitney Museum artport (whitney.org, on the hour)",
-        "date_start": "2024-10-29",
-        "date_end": "2026-10-28",
+        "name": "Hiroko Ohno: Event Horizon",
+        "venue": "Amos Eno Gallery, 191 Henry Street, Lower East Side",
+        "date_start": "2026-10-15",
+        "date_end": "2026-11-15",
         "category": "museum",
-        "why": "Text stripped from thousands of TikTok 'day in my life' videos fires on whitney.org every hour for 30 seconds \u2014 a net art piece that turns the performance logic of self-documentation inside out; closes this week, which makes it worth catching before it goes.",
-        "url": "https://whitney.org/artists/21576",
-        "date": "Oct 29\u201328"
+        "why": "The title alone earns attention \u2014 a solo show by a painter using cosmological language to frame intimate scale work; small LES gallery, no institutional noise.",
+        "url": "https://amosenoartgallery.com",
+        "date": "Oct 15 \u2013 Nov 15"
       },
       {
         "name": "Synthesize Me: Olga Titus & Michael Dickey",
@@ -176,38 +193,38 @@
         "date_start": "2026-10-16",
         "date_end": "2026-11-07",
         "category": "museum",
-        "why": "A two-person show at a gallery whose name alone signals its register \u2014 IRL is one of the sharper small spaces tracking the online/offline art scene that Willem's own practice lives inside.",
-        "url": "https://www.artrabbit.com/all-shows/united-states/new-york/upcoming",
+        "why": "A two-person show at a small gallery whose very name (IRL) flags the physical/digital tension \u2014 Titus and Dickey working in and around materiality and synthetic process, exactly the edge where Willem's own practice lives.",
+        "url": "https://www.artrabbit.com/events/synthesize-me-olga-titus-michael-dickey",
         "date": "Oct 16 \u2013 Nov 7"
       },
       {
-        "name": "Haegue Yang: Through",
-        "venue": "Dia Beacon, 3 Beekman Street, Beacon, NY",
-        "date_start": "2026-10-21",
-        "date_end": "2028-06-12",
+        "name": "The Surrealist Book: Tomorrow Lives in Mirrors",
+        "venue": "MoMA, 11 West 53rd Street, Midtown Manhattan",
+        "date_start": "2026-10-22",
+        "date_end": "2027-01-23",
         "category": "museum",
-        "why": "Yang's largest US commission entangles both levels of Dia Beacon using venetian blinds, vertical louvers, cardinal axes, and Five Phases color theory \u2014 a sensory system built around exile, oscillation, and the posthumous musical voice of composer Isang Yun; nothing else in the city is working at this scale of conceptual density right now.",
-        "url": "https://www.diaart.org/exhibition/exhibitions-projects/haegue-yang-through-exhibition",
-        "date": "Oct 21 \u2013 Jun 12"
+        "why": "Rare Surrealist artists' books treated as art objects \u2014 glass-bound manifestos, solarized photo-poems, sculptural bindings \u2014 built around the newly gifted Zell Collection; the show argues the book was the movement's most radical medium, which is a very different and more interesting claim than another paintings survey.",
+        "url": "https://www.moma.org/calendar/exhibitions/5918",
+        "date": "Oct 22 \u2013 Jan 23"
       },
       {
-        "name": "Design is Haunted by History: Designing Experiences for Immersion",
-        "venue": "John L. Tishman Auditorium, The New School, New York",
-        "date_start": "2026-10-26",
-        "date_end": "2026-10-26",
-        "category": "popup",
-        "why": "An AIGA NY talk at Parsons examining how design turns history into a place you can physically inhabit \u2014 the kind of conversation about immersive experience that sits directly at the intersection of Willem's hardware/WebGL/space work.",
-        "url": "https://www.aigany.org/events/",
-        "date": "Mon, Oct 26"
+        "name": "Jeff Tweedy Solo (with Case Oats)",
+        "venue": "The Town Hall, 123 West 43rd Street, Manhattan",
+        "date_start": "2026-10-28",
+        "date_end": "2026-10-28",
+        "category": "concert",
+        "why": "Tweedy supporting his triple album Twilight Override \u2014 a songwriter who treats the album format as a serious structural object \u2014 solo and stripped at a 1,500-seat historic room that's exactly the right size for this; the opener Case Oats is his son Spencer Tweedy and Casey Gomez, which makes the whole evening a strange family mythology.",
+        "url": "https://www.thetownhall.org/event/jeff-tweedy-solo",
+        "date": "Wed, Oct 28"
       },
       {
-        "name": "Salon Art + Design 2026",
-        "venue": "Park Avenue Armory, 643 Park Avenue, New York",
+        "name": "Salon Art + Design (15th Edition)",
+        "venue": "Park Avenue Armory, 643 Park Avenue, Manhattan",
         "date_start": "2026-11-04",
         "date_end": "2026-11-08",
         "category": "popup",
-        "why": "Its 15th edition at the Armory brings together galleries presenting art and design objects without the usual category wall between them \u2014 less art fair, more cabinet of curiosities, and the Armory's own drill hall makes the scale feel genuinely strange.",
-        "url": "https://www.dezeen.com/?location=new-york-city",
+        "why": "50+ international galleries across collectible furniture, ceramics, lighting, sculpture, and jewelry inside the Armory's vast drill hall \u2014 the entrance this year reimagined by Courtney McLeod as a surrealist Alice-in-Wonderland scheme called 'Impossible Blooms'; it's where the serious object world overlaps with design-as-culture, and it's the best room in New York for it.",
+        "url": "https://www.thesalonny.com",
         "date": "Nov 4\u20138"
       }
     ]

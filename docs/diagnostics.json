@@ -1,28 +1,29 @@
 {
-  "feeds": 84,
-  "mined": 48,
+  "feeds": 89,
+  "mined": 49,
   "videos": 7,
   "video_titles": [
+    "Is there something faster than light?",
     "When you lose weight where does it go?",
     "The Insane Engineering of Fiber Optics",
-    "What is edge dislocation?",
     "Matisse: The Red Studio: Great Art Explained",
     "This Resin 3D Printer Changed My Mind!",
     "I Snuck a 3D Printer on Vacation!  #3dprinting #positron",
     "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
-    "10 Things Global News",
+    "Aeon Video",
     "Ars Technica",
-    "Hirundo",
-    "Nautilus",
-    "Practical Engineering",
+    "Ars Technica / WSJ",
+    "Havana Times / wire sources",
+    "SafeDep",
     "ScienceDaily / University of Bonn",
-    "Scott Helme",
-    "Techdirt"
+    "eMudhra",
+    "pepsipu.com",
+    "simedw.com"
   ],
-  "had_video": false,
-  "run_at": "2026-10-21T16:06:56.226648+00:00"
+  "had_video": true,
+  "run_at": "2026-10-22T16:01:33.800890+00:00"
 }
