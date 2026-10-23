@@ -1,111 +1,118 @@
 {
   "digest": {
-    "intro": "Infrastructure breaks, targets shift, and software eats itself from within.",
+    "intro": "Orbits weaponized, cells de-aged, and friction turns out to be civilization itself.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Musk, Not Trump, Ordered the Starlink Throttle That Blinded Ukraine's Drones",
-            "source": "Ars Technica / WSJ",
-            "url": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/",
-            "blurb": "The WSJ nailed down that Musk personally set a 160 kph speed cap on Starshield terminals, rendering Ukrainian offensive and interceptor drones effectively useless \u2014 then let Trump publicly absorb the blame. The structural story here isn't Musk's motive; it's that a single person's discretion now constitutes a choke point in a sovereign nation's air defense. That's not a political story, it's an infrastructure story.",
+            "title": "The US War on Iran Could Last Another Year \u2014 and Troops Are Already Moving",
+            "source": "Geopolitical Futures / Democracy Now",
+            "url": "https://geopoliticalfutures.com/daily-memo-changes-in-us-troop-presence-in-the-middle-east/",
+            "blurb": "US Ambassador Mike Waltz told the Financial Times the war with Iran could run another year, and the troop picture on the ground is already shifting: reductions at bases in Jordan, Qatar, and Kuwait mirror the exact drawdown pattern that preceded US strikes on Iran in February. Meanwhile Netanyahu has ordered West Bank lockdown preparations \u2014 including full closure of Hebron \u2014 ahead of Tuesday's Israeli elections, with settler violence escalating and 80+ rabbis and activists detained in two days while accompanying Palestinian olive farmers.",
             "tags": [
               "geopolitics",
-              "infrastructure",
-              "ukraine"
+              "iran",
+              "middle east"
             ]
           },
           {
-            "title": "The UN Formally Abandoned 1.5\u00b0C \u2014 The New Plan Requires Removing Hundreds of Gigatonnes of CO\u2082",
+            "title": "Russia's 'Stalker Satellite' Pulled Within Striking Distance of a Commercial Spacecraft",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/",
-            "blurb": "UNEP's new framing isn't about hitting a limit anymore \u2014 it's about minimizing how long and how far we exceed it, which means dramatic emissions cuts now plus the removal of hundreds of gigatonnes of carbon before 2100. The best-case scenario they're now modeling is 1.8\u00b0C with massive, not-yet-proven carbon removal technology doing real work. The goalpost didn't move; the game changed.",
+            "url": "https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/",
+            "blurb": "Kosmos 2612, a Russian military satellite, maneuvered dangerously close to a US-registered commercial satellite at 550km altitude last weekend \u2014 behavior a US State Department official called \"consistent with an on-orbit weapons operation.\" The same Russian diplomat who four years ago painted a target on commercial satellites supporting Ukraine in the UN just assured the room there's nothing to worry about. The gap between those two statements is where the next arms control crisis lives.",
             "tags": [
-              "climate",
-              "policy",
-              "science"
+              "space",
+              "geopolitics",
+              "weapons"
             ]
           },
           {
-            "title": "Nigeria Reports First Ebola Case in Over a Decade as an Active Outbreak Tops 4,600 Dead",
-            "source": "Havana Times / wire sources",
-            "url": "https://havanatimes.org/news/international-news-briefs-for-thursday-october-22-2026/",
-            "blurb": "A fourth African nation has now confirmed cases from the current outbreak, which has killed more than 4,600 people. This is the kind of story that arrives quietly and then suddenly isn't quiet. Worth knowing before it's everywhere.",
+            "title": "Ukraine Learns to Fight Around Musk",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
+            "blurb": "Starlink's combination of cost, coverage, and portability has no real competitor \u2014 it's how Ukraine controls drones, coordinates defense, and maintains communications \u2014 which makes Musk's politically motivated service disruptions a genuine national security crisis, not just an inconvenience. What's unfolding is the first case study in how a military redesigns battlefield doctrine around deliberate denial by a private infrastructure actor, a problem no military doctrine was written to handle.",
             "tags": [
-              "public health",
-              "africa",
-              "outbreak"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "The software supply chain eats itself",
-        "items": [
-          {
-            "title": "LiteLLM 1.107.0 Was a Credential Stealer Disguised as an AI Developer Library",
-            "source": "SafeDep",
-            "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/",
-            "blurb": "The compromised release placed a `.pth` file in site-packages that ran a credential harvester on every Python process startup \u2014 whether or not you ever imported litellm \u2014 collecting SSH keys, cloud credentials, CI/CD secrets, browser passwords, and LLM provider API keys, then encrypted and exfiltrated them. A background daemon phoned home every hour for new instructions. LiteLLM is foundational plumbing in the AI agent stack, which makes this a meaningful signal about the attack surface the whole ecosystem is building on.",
-            "tags": [
-              "security",
-              "supply chain",
-              "ai tooling"
-            ]
-          },
-          {
-            "title": "Eight Certificate Authority Private Keys Leaked \u2014 eMudhra Exits the SSL Business",
-            "source": "eMudhra",
-            "url": "https://emudhra.com/en/press-release/emudhra-to-exit-global-ssl-tls-certificate-business",
-            "blurb": "eMudhra, a CA trusted by Mozilla, Microsoft, and Apple, had private keys for eight intermediate certificate authorities compromised and is now exiting the SSL/TLS business entirely. They say no end-entity certificates were issued from the affected CAs and the breach was contained within 14 hours, but a root-of-trust failure at this level \u2014 regardless of scope \u2014 is the kind of thing that quietly matters. The web's trust infrastructure depends on a surprisingly small number of these actors.",
-            "tags": [
-              "security",
+              "ukraine",
               "infrastructure",
-              "PKI"
+              "geopolitics"
             ]
           }
         ]
       },
       {
-        "heading": "Built things worth understanding",
+        "heading": "Biology moving fast",
         "items": [
           {
-            "title": "A 360M Model That Pretends to Be a Terminal \u2014 No Shell, No Filesystem, Just Prediction",
-            "source": "simedw.com",
-            "url": "https://simedw.com/2026/10/21/world-model-terminal/",
-            "blurb": "One developer fine-tuned Qwen2.5-Coder-0.5B on recorded terminal sessions so it predicts screen-state changes frame by frame \u2014 you type `pythoon` and it autocorrects like a real shell would, creates files, runs vim and tmux, plays Snake, and holds state for a few commands. It runs in-browser via WebGPU at 208 MB. The deeper question it opens: what's the line between software that's written and software that's learned, and does it matter if you can't tell the difference from the outside?",
+            "title": "Phase 3 mRNA Cancer Vaccine Cuts Melanoma Death and Recurrence by 42%",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
+            "blurb": "Moderna and Merck's personalized mRNA melanoma vaccine \u2014 tuned to each patient's specific tumor mutations \u2014 reduced death or recurrence by 42% versus standard treatment in a 1,100-person Phase 3 trial, results now accepted at the New England Journal of Medicine. The data was due for conference presentation in Madrid but leaked early, forcing the companies' hand. This is the landmark number that makes mRNA oncology real, not hypothetical.",
             "tags": [
-              "machine learning",
-              "generative",
-              "tools"
+              "oncology",
+              "mrna",
+              "clinical trials"
             ]
           },
           {
-            "title": "Switch 2 Jailbreak: A Solo Researcher Cracked Nintendo's Latest Hardware in Two Weeks",
-            "source": "pepsipu.com",
-            "url": "https://pepsipu.com/blog/2026-10-switch2-jailbreak-ns2jb/",
-            "blurb": "The first software-only tethered jailbreak for the Switch 2 landed, written up in the obsessive how-I-broke-this genre that never gets old. The researcher used a WebKit exploit as the entry vector (a reliable console jailbreak surface), built a hardware harness so an AI agent could attempt it autonomously via JetKVM controller inputs, and then Mario Kart World got modded in a single day of vibing as a proof of capability. The write-up is the artifact.",
+            "title": "Blood Cells from an 80-Year-Old Reprogrammed to Neural Stem Cells with a Molecular Age Under 20",
+            "source": "University of Bonn / Aging Cell",
+            "url": "https://resources.govsci.com/scientists-reverse-60-years-cellular-aging/",
+            "blurb": "Researchers at University Hospital Bonn transformed blood cells from an 80-year-old into neural stem cells whose molecular age markers resemble those of someone under 20 \u2014 a 60-year measured reversal. The more significant finding is the new experimental model they built to watch rejuvenation unfold over weeks in real time, which gives scientists a window into the mechanics of aging that didn't exist before. Published in Aging Cell October 3; no treatment exists from this, but the observation platform is genuinely new.",
             "tags": [
-              "hardware",
-              "reverse engineering",
-              "exploit"
+              "aging",
+              "stem cells",
+              "longevity"
+            ]
+          },
+          {
+            "title": "All 12 Islet Transplant Recipients Are Off Insulin \u2014 Trial Now Opens to Kidney Disease Patients",
+            "source": "BioSpace / Breakthrough T1D",
+            "url": "https://www.biospace.com/press-releases/breakthrough-t1d-funded-clinical-trial-testing-islet-cell-transplantation-with-eledons-tegoprubart-expands-to-include-people-with-type-1-diabetes-and-kidney-disease",
+            "blurb": "Every one of the 12 participants in the islet cell transplant trial using Eledon's tegoprubart immunosuppressant is now off external insulin, with fewer side effects than standard regimens \u2014 and the trial just expanded to include people with chronic kidney disease for the first time, a population previously excluded because conventional immunosuppressants risked destroying their kidneys. One in three T1D patients eventually develops CKD, so this expansion matters enormously for the size of the population this approach could eventually reach.",
+            "tags": [
+              "diabetes",
+              "cell therapy",
+              "immunology"
             ]
           }
         ]
       },
       {
-        "heading": "Biology moving",
+        "heading": "Made things",
         "items": [
           {
-            "title": "Scientists Turned an 80-Year-Old's Blood Cells Into Neural Stem Cells With a Molecular Age Under 20",
-            "source": "ScienceDaily / University of Bonn",
-            "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm",
-            "blurb": "Researchers at University Hospital Bonn reprogrammed immature red blood cells from an octogenarian into neural stem cells \u2014 cells that can eventually develop into brain cells \u2014 and found that molecular aging markers had reset to under 20 years. Crucially, the rejuvenation happened gradually, letting them observe the process in real time rather than just before and after. The paper is in Aging Cell; it's in-lab and early, but the ability to track the reset step-by-step is what's genuinely new here.",
+            "title": "Ink Droplets Mid-Air Win Nikon Small World 2026",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
+            "blurb": "Ole Bielfeldt, 25, won by photographing ink drops from an inkjet printer suspended mid-air \u2014 but since the drops move faster than any camera shutter, he rebuilt the printer so the paper moves under a stationary printhead, then shot in total darkness using a flash as the effective shutter. No AI, no expensive equipment: a salvaged microscope from his parents' attic, a wooden adapter he fabricated himself, and a flash. The image turns a tool everyone owns into abstract fluid sculpture.",
             "tags": [
-              "longevity",
-              "stem cells",
-              "neuroscience"
+              "photography",
+              "fabrication",
+              "microscopy"
+            ]
+          },
+          {
+            "title": "Berkeley Releases a $1,600 Open-Source Volumetric 3D Printer That Forms Whole Parts in 90 Seconds",
+            "source": "3D Printing Industry",
+            "url": "https://3dprintingindustry.com/",
+            "blurb": "OpenCAL is Berkeley's open-source computed axial lithography printer \u2014 the entire part solidifies at once from a rotating resin volume hit by projected light, rather than building layer by layer. Ninety seconds for a complete part, under $2K, and the design is open. Layer-by-layer FDM has dominated accessible fabrication for a decade; this is a different physical premise entirely, and open-sourcing it at this price point is the moment it stops being a lab curiosity.",
+            "tags": [
+              "fabrication",
+              "3d printing",
+              "open source"
+            ]
+          },
+          {
+            "title": "CNC Kitchen Takes the Positron Portable Printer on Vacation",
+            "source": "CNC Kitchen \u2014 YouTube",
+            "url": "https://www.youtube.com/shorts/w0t_XR9DODQ",
+            "thumbnail": "https://i4.ytimg.com/vi/w0t_XR9DODQ/hqdefault.jpg",
+            "blurb": "Stefan from CNC Kitchen is one of the few people doing genuinely rigorous 3D printing analysis rather than unboxing theater \u2014 and the Positron is a legitimately clever compact printer worth understanding. Using a vacation as a real-world constraint stress test is a better evaluation framework than any lab benchmark.",
+            "tags": [
+              "fabrication",
+              "3d printing",
+              "hardware"
             ]
           }
         ]
@@ -114,78 +121,77 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "What Happened When Bhutan \u2014 the Last Country to Ban TV \u2014 Finally Turned It On",
-            "source": "Aeon Video",
-            "url": "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban",
-            "blurb": "In 1999, Bhutan became the last country in the world to legalize television, and Aeon's documentary treatment of what happened next is essentially a controlled experiment in how mass media rewires culture, identity, and social behavior \u2014 compressed into one society, one moment. The before/after is unusually clean for that kind of question. Reliable Aeon signal for anyone curious about how communication tools reshape the people who use them.",
+            "title": "Dijkstra in 1978 on Why Natural Language Programming Is a Bad Idea",
+            "source": "EWD667 \u2014 Dijkstra Archives",
+            "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
+            "blurb": "Dijkstra's 1978 note is three pages and withering: the desire to program in natural language, he argues, comes from people who find precision annoying and mistakes preferable to error messages \u2014 and making the machine accommodate that is not progress, it's capitulation dressed as convenience. Read it now, against the current moment of LLM coding tools and vibe-coding, and you'll feel the force of the argument even if you don't fully agree. The Housman quote alone \u2014 \"a moment is a long time, and thought is a painful process\" \u2014 is worth the trip.",
             "tags": [
-              "media",
-              "culture",
-              "documentary"
-            ],
-            "thumbnail": "https://aeon.co/videos/what-happened-when-the-only-country-to-ban-tv-lifted-the-ban"
+              "computing",
+              "history",
+              "AI"
+            ]
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "The Starlink speed cap Musk set \u2014 160 kph \u2014 is slow enough that many Ukrainian drones equipped with Starshield simply can't fly at normal operational speed without losing their data connection.",
-        "url": "https://arstechnica.com/tech-policy/2026/10/report-says-musk-not-trump-ordered-starlink-throttling-that-blindsided-ukraine/"
+        "fact": "The US troop drawdown pattern currently happening in Jordan, Qatar, and Kuwait is identical to what occurred immediately before the US began military operations against Iran in February 2026.",
+        "url": "https://geopoliticalfutures.com/daily-memo-changes-in-us-troop-presence-in-the-middle-east/"
       },
       {
-        "fact": "The malicious LiteLLM 1.107.0 credential stealer ran on every Python process startup on the infected machine \u2014 not just when litellm was imported \u2014 by abusing Python's `.pth` file loading mechanism.",
-        "url": "https://safedep.io/litellm-pypi-compromise-credential-stealer-backdoor/"
+        "fact": "Ole Bielfeldt's Nikon Small World-winning photograph required him to disassemble an inkjet printer and shoot in total darkness using a camera flash as the shutter, because ink droplets move faster than any mechanical shutter speed.",
+        "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/"
       },
       {
-        "fact": "University of Bonn researchers reversed more than 60 years of molecular aging in human cells by converting an 80-year-old's blood cells into neural stem cells with an age signature of under 20.",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261020085013.htm"
+        "fact": "The Russian diplomat who just told the UN that Kosmos 2612's maneuvers near a commercial satellite are 'unfounded' concerns is the same official who publicly named commercial satellite networks as legitimate military targets four years ago.",
+        "url": "https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/"
       },
       {
-        "fact": "The WorldTUI terminal model runs entirely in-browser via WebGPU at 208 MB, with no shell or filesystem behind it \u2014 every screen update is purely the model predicting the next most likely character grid.",
-        "url": "https://simedw.com/2026/10/21/world-model-terminal/"
+        "fact": "Berkeley's OpenCAL volumetric printer solidifies an entire 3D object simultaneously in roughly 90 seconds rather than building it layer by layer, and the full design is open-source at under $1,600.",
+        "url": "https://3dprintingindustry.com/"
       },
       {
-        "fact": "UNEP's new best-case climate scenario requires humanity to remove hundreds of gigatonnes of CO\u2082 from the atmosphere before 2100 \u2014 technology that does not yet exist at meaningful scale.",
-        "url": "https://arstechnica.com/science/2026/10/un-accepts-the-obvious-were-not-going-to-avoid-a-1-5o-c-warming/"
+        "fact": "NASA's Roman Space Telescope achieved nearly 30% better image quality than its design specification by repositioning a mirror by just one-sixteenth the width of a human hair.",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm"
       }
     ],
     "make_something": {
-      "prompt": "Build a 'world model' for a constrained system you know well \u2014 not a terminal, but something else with a small, learnable state space: a chess position, a single webpage's DOM, a specific hardware interface. Sketch (on paper or in code) what training data you'd need, what the input/output format would be, and what 'repair' training would look like. The point isn't to build the thing \u2014 it's to notice where the edges of learnability are in a system you thought you understood."
+      "prompt": "Build a DIY high-speed macro flash rig to freeze a process you've never seen clearly \u2014 ink hitting paper, water hitting a surface, powder dispersing. You need a dark room, a flash with a short duration (most speedlights fire in under 1/10,000s \u2014 faster than any shutter), and a single stationary camera. The constraint Bielfeldt solved is the real design problem: how do you isolate and control the one variable you want to freeze? Document the physics of what you're capturing, not just the image."
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Playtime",
-        "creator": "Jacques Tati",
-        "why": "A film that IS a system: Tati built a full-scale city (Tativille) and then filmed the chaos of modern architecture eating human behavior alive. Every frame is a generative composition \u2014 you direct your own gaze across an endlessly tiled world where the joke is always structural, never personal. For someone building interactive environments, it's the deepest possible meditation on how designed space shapes behavior without anyone noticing.",
-        "url": "https://letterboxd.com/film/playtime/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "An essay film that works like a living feedback loop \u2014 memory, ritual, video game culture, African ceremony, and Japanese pop observed through a camera that knows it's building a mythology. The form itself is the argument: images as thought, not illustration.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "The Poetics of Space (paintings and objects)",
-        "creator": "Joseph Cornell",
-        "why": "Cornell went unreasonably, obsessively deep on one thing: the shadow-box as portal. Each work is a closed system \u2014 a cosmology made from junk, astrology charts, Victorian ephemera, and bird cages \u2014 that somehow produces genuine longing. The physical/digital edge doesn't get more surgically explored than when a man spends 40 years building miniature universes in a basement in Queens.",
-        "url": "https://www.thejocelynartmuseum.org/joseph-cornell"
+        "title": "Haegue Yang",
+        "creator": "Haegue Yang",
+        "why": "Yang builds sculpture from venetian blinds, bells, and smell \u2014 systems of material logic that encode cultural transmission and sensory politics without explaining themselves. The obsessive craft is matched by the conceptual load underneath.",
+        "url": "https://www.hauserwirth.com/artists/2838-haegue-yang/"
       },
       {
         "medium": "music",
-        "title": "Remain in Light",
-        "creator": "Talking Heads",
-        "why": "Brian Eno and David Byrne's 1980 masterpiece treats the band as a generative system: interlocking rhythmic loops, polyrhythm borrowed from West African music, and lyrics that read like someone trying to describe consciousness from outside the skull. The surface is ecstatic funk; the deep structure is a treatise on how identity fragments under modernity. Still no better model for expressive, playful work with serious architecture underneath.",
-        "url": "https://www.youtube.com/watch?v=mLP3YUOLMOI"
+        "title": "The Rose Has Teeth in the Mouth of a Beast",
+        "creator": "Matmos",
+        "why": "An album made entirely from sounds harvested from the bodies and belongings of queer theorists and artists \u2014 each track is a portrait-as-system. Sound design as biography as community ritual; unreasonably deep on a narrow thing.",
+        "url": "https://www.matmos.net"
       }
     ],
     "events": [
       {
-        "name": "Hiroko Ohno: Event Horizon",
-        "venue": "Amos Eno Gallery, 191 Henry Street, Lower East Side",
-        "date_start": "2026-10-15",
-        "date_end": "2026-11-15",
+        "name": "Volker H\u00fcller: Angelus Novus",
+        "venue": "GRIMM Gallery, 54 White St, Manhattan (Tribeca)",
+        "date_start": "2026-09-09",
+        "date_end": "2026-10-31",
         "category": "museum",
-        "why": "The title alone earns attention \u2014 a solo show by a painter using cosmological language to frame intimate scale work; small LES gallery, no institutional noise.",
-        "url": "https://amosenoartgallery.com",
-        "date": "Oct 15 \u2013 Nov 15"
+        "why": "Named after the Paul Klee painting that Benjamin made famous \u2014 H\u00fcller's first show focused purely on figuration, and the Klee/Benjamin lineage means the work is carrying serious conceptual freight inside what looks like straight painting.",
+        "url": "https://grimmgallery.com/exhibitions/",
+        "date": "Sep 9 \u2013 Oct 31"
       },
       {
         "name": "Synthesize Me: Olga Titus & Michael Dickey",
@@ -193,37 +199,37 @@
         "date_start": "2026-10-16",
         "date_end": "2026-11-07",
         "category": "museum",
-        "why": "A two-person show at a small gallery whose very name (IRL) flags the physical/digital tension \u2014 Titus and Dickey working in and around materiality and synthetic process, exactly the edge where Willem's own practice lives.",
-        "url": "https://www.artrabbit.com/events/synthesize-me-olga-titus-michael-dickey",
+        "why": "A two-person show at one of the more serious smaller galleries pairing artists working at the intersection of material science and body \u2014 the kind of niche, under-the-radar show that rewards actually showing up.",
+        "url": "https://www.irlgallery.com",
         "date": "Oct 16 \u2013 Nov 7"
       },
       {
-        "name": "The Surrealist Book: Tomorrow Lives in Mirrors",
-        "venue": "MoMA, 11 West 53rd Street, Midtown Manhattan",
-        "date_start": "2026-10-22",
-        "date_end": "2027-01-23",
+        "name": "Pierre Huyghe: UUmwelt",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
+        "date_start": "2026-10-23",
+        "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Rare Surrealist artists' books treated as art objects \u2014 glass-bound manifestos, solarized photo-poems, sculptural bindings \u2014 built around the newly gifted Zell Collection; the show argues the book was the movement's most radical medium, which is a very different and more interesting claim than another paintings survey.",
-        "url": "https://www.moma.org/calendar/exhibitions/5918",
-        "date": "Oct 22 \u2013 Jan 23"
+        "why": "An fMRI scanner, a neural network, and Huyghe's camera produce hallucinatory images of someone else's imagination in real time \u2014 the Sculpture Garden becomes a live thinking system that literally changes as you walk through it, driven by visitor gaze and cancer-cell mutation data.",
+        "url": "https://www.moma.org/calendar/exhibitions/pierre-huyghe-uumwelt",
+        "date": "Oct 23 \u2013 Nov 29"
       },
       {
-        "name": "Jeff Tweedy Solo (with Case Oats)",
-        "venue": "The Town Hall, 123 West 43rd Street, Manhattan",
-        "date_start": "2026-10-28",
-        "date_end": "2026-10-28",
-        "category": "concert",
-        "why": "Tweedy supporting his triple album Twilight Override \u2014 a songwriter who treats the album format as a serious structural object \u2014 solo and stripped at a 1,500-seat historic room that's exactly the right size for this; the opener Case Oats is his son Spencer Tweedy and Casey Gomez, which makes the whole evening a strange family mythology.",
-        "url": "https://www.thetownhall.org/event/jeff-tweedy-solo",
-        "date": "Wed, Oct 28"
+        "name": "Oliver Bak",
+        "venue": "Spr\u00fcth Magers, 22 E 80th St, Manhattan",
+        "date_start": "2026-11-01",
+        "date_end": "2026-12-01",
+        "category": "museum",
+        "why": "Bak's hyper-detailed figurative paintings operate at the edge between obsessive craft and psychological unease \u2014 a painter who goes unreasonably deep on surface as concealment.",
+        "url": "https://spruethmagers.com/exhibitions/",
+        "date": "Nov 1 \u2013 Dec 1"
       },
       {
         "name": "Salon Art + Design (15th Edition)",
-        "venue": "Park Avenue Armory, 643 Park Avenue, Manhattan",
+        "venue": "Park Avenue Armory, 643 Park Ave, Manhattan",
         "date_start": "2026-11-04",
         "date_end": "2026-11-08",
         "category": "popup",
-        "why": "50+ international galleries across collectible furniture, ceramics, lighting, sculpture, and jewelry inside the Armory's vast drill hall \u2014 the entrance this year reimagined by Courtney McLeod as a surrealist Alice-in-Wonderland scheme called 'Impossible Blooms'; it's where the serious object world overlaps with design-as-culture, and it's the best room in New York for it.",
+        "why": "50+ international galleries bring collectible furniture, ceramics, lighting, and jewelry into the Armory's drill hall \u2014 the category-blurring is the point; public hours start Nov 6, with Salon Conversations bringing museum curators on how institutions collect design.",
         "url": "https://www.thesalonny.com",
         "date": "Nov 4\u20138"
       }
