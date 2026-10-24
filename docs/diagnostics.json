@@ -1,27 +1,26 @@
 {
-  "feeds": 86,
-  "mined": 55,
+  "feeds": 78,
+  "mined": 51,
   "videos": 7,
   "video_titles": [
+    "No device could prove our theory of gravity wrong... until now",
     "Is there something faster than light?",
     "When you lose weight where does it go?",
-    "The Insane Engineering of Fiber Optics",
     "Matisse: The Red Studio: Great Art Explained",
     "This Resin 3D Printer Changed My Mind!",
     "I Snuck a 3D Printer on Vacation!  #3dprinting #positron",
     "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 6,
   "final_sources": [
-    "3D Printing Industry",
-    "Ars Technica",
-    "BioSpace / Breakthrough T1D",
-    "CNC Kitchen \u2014 YouTube",
-    "EWD667 \u2014 Dijkstra Archives",
-    "Geopolitical Futures / Democracy Now",
-    "University of Bonn / Aging Cell"
+    "Geopolitical Futures",
+    "Hackaday",
+    "Nautilus",
+    "Nautilus / Scientific Reports",
+    "Steve Blank",
+    "Veritasium"
   ],
   "had_video": true,
-  "run_at": "2026-10-23T15:54:05.023429+00:00"
+  "run_at": "2026-10-24T14:48:40.445640+00:00"
 }

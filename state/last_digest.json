@@ -1,118 +1,46 @@
 {
   "digest": {
-    "intro": "Orbits weaponized, cells de-aged, and friction turns out to be civilization itself.",
+    "intro": "Sovereignty fractures everywhere \u2014 in cells, satellites, and state-level infrastructure.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The US War on Iran Could Last Another Year \u2014 and Troops Are Already Moving",
-            "source": "Geopolitical Futures / Democracy Now",
-            "url": "https://geopoliticalfutures.com/daily-memo-changes-in-us-troop-presence-in-the-middle-east/",
-            "blurb": "US Ambassador Mike Waltz told the Financial Times the war with Iran could run another year, and the troop picture on the ground is already shifting: reductions at bases in Jordan, Qatar, and Kuwait mirror the exact drawdown pattern that preceded US strikes on Iran in February. Meanwhile Netanyahu has ordered West Bank lockdown preparations \u2014 including full closure of Hebron \u2014 ahead of Tuesday's Israeli elections, with settler violence escalating and 80+ rabbis and activists detained in two days while accompanying Palestinian olive farmers.",
+            "title": "The Kill Switch That Already Happened",
+            "source": "Steve Blank",
+            "url": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
+            "blurb": "Steve Blank, in London for a month, reports that the moment Elon Musk personally ordered Starshield throttled over Ukraine \u2014 not as U.S. policy, but apparently as a private decision \u2014 European policymakers stopped treating infrastructure dependency as a paranoid fantasy. The actual shift: conversations have moved from 'could this happen' to 'what do we build instead,' with urgency that hasn't existed in decades. One CEO, one decision, tilting a war \u2014 that's the new threat model.",
             "tags": [
               "geopolitics",
-              "iran",
-              "middle east"
+              "tech sovereignty",
+              "europe"
             ]
           },
           {
-            "title": "Russia's 'Stalker Satellite' Pulled Within Striking Distance of a Commercial Spacecraft",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/",
-            "blurb": "Kosmos 2612, a Russian military satellite, maneuvered dangerously close to a US-registered commercial satellite at 550km altitude last weekend \u2014 behavior a US State Department official called \"consistent with an on-orbit weapons operation.\" The same Russian diplomat who four years ago painted a target on commercial satellites supporting Ukraine in the UN just assured the room there's nothing to worry about. The gap between those two statements is where the next arms control crisis lives.",
+            "title": "Europe Eyes a Naval Operation in the Black Sea",
+            "source": "Geopolitical Futures",
+            "url": "https://geopoliticalfutures.com/daily-memo-escalation-in-the-black-sea-talks-on-ukraine/",
+            "blurb": "The European Parliament passed a resolution calling for an EU naval operation in the Black Sea after Russian strikes on commercial vessels off Bulgaria and Romania \u2014 NATO members. This isn't rhetoric; it's the EU considering direct military presence in an active war zone's adjacent waters. The structural question is whether European institutions can move fast enough to matter before the posture hardens.",
             "tags": [
-              "space",
               "geopolitics",
-              "weapons"
-            ]
-          },
-          {
-            "title": "Ukraine Learns to Fight Around Musk",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/10/ukraine-learns-to-fight-without-starlink-as-musk-plays-politics-with-satellites/",
-            "blurb": "Starlink's combination of cost, coverage, and portability has no real competitor \u2014 it's how Ukraine controls drones, coordinates defense, and maintains communications \u2014 which makes Musk's politically motivated service disruptions a genuine national security crisis, not just an inconvenience. What's unfolding is the first case study in how a military redesigns battlefield doctrine around deliberate denial by a private infrastructure actor, a problem no military doctrine was written to handle.",
-            "tags": [
               "ukraine",
-              "infrastructure",
-              "geopolitics"
+              "europe"
             ]
           }
         ]
       },
       {
-        "heading": "Biology moving fast",
+        "heading": "Craft and materials",
         "items": [
           {
-            "title": "Phase 3 mRNA Cancer Vaccine Cuts Melanoma Death and Recurrence by 42%",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/health/2026/10/personalized-mrna-cancer-vaccine-cut-melanoma-death-recurrence-by-42/",
-            "blurb": "Moderna and Merck's personalized mRNA melanoma vaccine \u2014 tuned to each patient's specific tumor mutations \u2014 reduced death or recurrence by 42% versus standard treatment in a 1,100-person Phase 3 trial, results now accepted at the New England Journal of Medicine. The data was due for conference presentation in Madrid but leaked early, forcing the companies' hand. This is the landmark number that makes mRNA oncology real, not hypothetical.",
-            "tags": [
-              "oncology",
-              "mrna",
-              "clinical trials"
-            ]
-          },
-          {
-            "title": "Blood Cells from an 80-Year-Old Reprogrammed to Neural Stem Cells with a Molecular Age Under 20",
-            "source": "University of Bonn / Aging Cell",
-            "url": "https://resources.govsci.com/scientists-reverse-60-years-cellular-aging/",
-            "blurb": "Researchers at University Hospital Bonn transformed blood cells from an 80-year-old into neural stem cells whose molecular age markers resemble those of someone under 20 \u2014 a 60-year measured reversal. The more significant finding is the new experimental model they built to watch rejuvenation unfold over weeks in real time, which gives scientists a window into the mechanics of aging that didn't exist before. Published in Aging Cell October 3; no treatment exists from this, but the observation platform is genuinely new.",
-            "tags": [
-              "aging",
-              "stem cells",
-              "longevity"
-            ]
-          },
-          {
-            "title": "All 12 Islet Transplant Recipients Are Off Insulin \u2014 Trial Now Opens to Kidney Disease Patients",
-            "source": "BioSpace / Breakthrough T1D",
-            "url": "https://www.biospace.com/press-releases/breakthrough-t1d-funded-clinical-trial-testing-islet-cell-transplantation-with-eledons-tegoprubart-expands-to-include-people-with-type-1-diabetes-and-kidney-disease",
-            "blurb": "Every one of the 12 participants in the islet cell transplant trial using Eledon's tegoprubart immunosuppressant is now off external insulin, with fewer side effects than standard regimens \u2014 and the trial just expanded to include people with chronic kidney disease for the first time, a population previously excluded because conventional immunosuppressants risked destroying their kidneys. One in three T1D patients eventually develops CKD, so this expansion matters enormously for the size of the population this approach could eventually reach.",
-            "tags": [
-              "diabetes",
-              "cell therapy",
-              "immunology"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Made things",
-        "items": [
-          {
-            "title": "Ink Droplets Mid-Air Win Nikon Small World 2026",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/",
-            "blurb": "Ole Bielfeldt, 25, won by photographing ink drops from an inkjet printer suspended mid-air \u2014 but since the drops move faster than any camera shutter, he rebuilt the printer so the paper moves under a stationary printhead, then shot in total darkness using a flash as the effective shutter. No AI, no expensive equipment: a salvaged microscope from his parents' attic, a wooden adapter he fabricated himself, and a flash. The image turns a tool everyone owns into abstract fluid sculpture.",
-            "tags": [
-              "photography",
-              "fabrication",
-              "microscopy"
-            ]
-          },
-          {
-            "title": "Berkeley Releases a $1,600 Open-Source Volumetric 3D Printer That Forms Whole Parts in 90 Seconds",
-            "source": "3D Printing Industry",
-            "url": "https://3dprintingindustry.com/",
-            "blurb": "OpenCAL is Berkeley's open-source computed axial lithography printer \u2014 the entire part solidifies at once from a rotating resin volume hit by projected light, rather than building layer by layer. Ninety seconds for a complete part, under $2K, and the design is open. Layer-by-layer FDM has dominated accessible fabrication for a decade; this is a different physical premise entirely, and open-sourcing it at this price point is the moment it stops being a lab curiosity.",
+            "title": "Open-Source 3D Printing at 9-Micron Resolution via Fiber Optics",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/10/23/reprapmicron-uses-fibre-optics-to-print-tiny-benchy-in-resin/",
+            "blurb": "The RepRapMicron project ran a UV LED through a trimmed single-mode fiber patch cord to cure SLA resin at roughly 9 \u00b5m resolution \u2014 small enough that a sneeze can lose the print forever. It's the RepRap philosophy (open, scavenged, iterative) applied to the microscopic: off-the-shelf optics doing work that normally requires a dedicated two-photon lithography rig. Overhangs are still a problem; everything else is genuinely impressive.",
             "tags": [
               "fabrication",
-              "3d printing",
-              "open source"
-            ]
-          },
-          {
-            "title": "CNC Kitchen Takes the Positron Portable Printer on Vacation",
-            "source": "CNC Kitchen \u2014 YouTube",
-            "url": "https://www.youtube.com/shorts/w0t_XR9DODQ",
-            "thumbnail": "https://i4.ytimg.com/vi/w0t_XR9DODQ/hqdefault.jpg",
-            "blurb": "Stefan from CNC Kitchen is one of the few people doing genuinely rigorous 3D printing analysis rather than unboxing theater \u2014 and the Positron is a legitimately clever compact printer worth understanding. Using a vacation as a real-world constraint stress test is a better evaluation framework than any lab benchmark.",
-            "tags": [
-              "fabrication",
-              "3d printing",
-              "hardware"
+              "open source",
+              "micro-scale"
             ]
           }
         ]
@@ -121,117 +49,132 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Dijkstra in 1978 on Why Natural Language Programming Is a Bad Idea",
-            "source": "EWD667 \u2014 Dijkstra Archives",
-            "url": "https://www.cs.utexas.edu/~EWD/transcriptions/EWD06xx/EWD667.html",
-            "blurb": "Dijkstra's 1978 note is three pages and withering: the desire to program in natural language, he argues, comes from people who find precision annoying and mistakes preferable to error messages \u2014 and making the machine accommodate that is not progress, it's capitulation dressed as convenience. Read it now, against the current moment of LLM coding tools and vibe-coding, and you'll feel the force of the argument even if you don't fully agree. The Housman quote alone \u2014 \"a moment is a long time, and thought is a painful process\" \u2014 is worth the trip.",
+            "title": "Was June 19, 1889 the Exact Night Van Gogh Painted The Starry Night?",
+            "source": "Nautilus / Scientific Reports",
+            "url": "https://nautil.us/was-this-the-exact-date-of-van-goghs-starry-night-1286057/",
+            "blurb": "Astronomers cross-referenced Venus's position in the painting against planetarium reconstructions of the sky visible from Saint-R\u00e9my-de-Provence, then layered in historical weather records and \u2014 improbably \u2014 cicada activity as a temperature proxy to narrow the date. The Venus orb above the cypress tree has been confirmed as a real celestial observation; the new study tightens the previously agreed June 19 date with observational geometry nobody thought to apply before. It's the kind of problem where the discipline doing the work (astronomy) has no business solving it, which is exactly why they could.",
             "tags": [
-              "computing",
-              "history",
-              "AI"
+              "art history",
+              "astronomy",
+              "obsessive research"
             ]
+          },
+          {
+            "title": "LSD Speeds Up Brain Rhythms and Makes Them Fractal",
+            "source": "Nautilus",
+            "url": "https://nautil.us/lsd-may-speed-up-brain-activity-and-make-it-fractal-1286030/",
+            "blurb": "A new small study challenges the prevailing 'default mode network suppression' model of how LSD works, finding instead that the drug accelerates certain brain rhythms and induces self-similar fractal patterns across timescales \u2014 the same mathematical structure that generates the kaleidoscopic visuals users report. It reframes psychedelics less as a 'turning off' of control systems and more as a reorganization of the brain's background hum into a different geometric regime. For anyone thinking about generative or recursive visual systems, this is a surprisingly literal connection.",
+            "tags": [
+              "neuroscience",
+              "psychedelics",
+              "fractals"
+            ]
+          },
+          {
+            "title": "Atomic Clocks Testing Einstein \u2014 And Finally Big Enough to Matter",
+            "source": "Veritasium",
+            "url": "https://www.youtube.com/watch?v=eyZEqSPeMwg",
+            "blurb": "Veritasium's best mode: explain why a precision instrument everyone assumes is settled actually sits at the live edge of physics. Modern atomic clocks are now sensitive enough to test whether gravity curves time the way general relativity predicts \u2014 and a device exists that could, for the first time, give the equivalence principle a real empirical run for its money. This channel has earned trust on exactly this kind of content.",
+            "tags": [
+              "physics",
+              "precision instruments",
+              "general relativity"
+            ],
+            "thumbnail": "https://i2.ytimg.com/vi/eyZEqSPeMwg/hqdefault.jpg"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "The US troop drawdown pattern currently happening in Jordan, Qatar, and Kuwait is identical to what occurred immediately before the US began military operations against Iran in February 2026.",
-        "url": "https://geopoliticalfutures.com/daily-memo-changes-in-us-troop-presence-in-the-middle-east/"
+        "fact": "A single-mode fiber patch cord trimmed with a hacksaw is all it takes to achieve 9-micron 3D print resolution in open-source RepRapMicron \u2014 the resulting prints are small enough to be destroyed by a breath.",
+        "url": "https://hackaday.com/2026/10/23/reprapmicron-uses-fibre-optics-to-print-tiny-benchy-in-resin/"
       },
       {
-        "fact": "Ole Bielfeldt's Nikon Small World-winning photograph required him to disassemble an inkjet printer and shoot in total darkness using a camera flash as the shutter, because ink droplets move faster than any mechanical shutter speed.",
-        "url": "https://arstechnica.com/science/2026/10/meet-the-2026-winner-of-nikons-small-world-photomicrography-contest/"
+        "fact": "Astronomers used historical cicada activity records as a temperature proxy to help pin the exact night Van Gogh painted The Starry Night.",
+        "url": "https://nautil.us/was-this-the-exact-date-of-van-goghs-starry-night-1286057/"
       },
       {
-        "fact": "The Russian diplomat who just told the UN that Kosmos 2612's maneuvers near a commercial satellite are 'unfounded' concerns is the same official who publicly named commercial satellite networks as legitimate military targets four years ago.",
-        "url": "https://arstechnica.com/space/2026/10/russia-claims-its-stalker-satellite-is-purely-peaceful-in-character/"
-      },
-      {
-        "fact": "Berkeley's OpenCAL volumetric printer solidifies an entire 3D object simultaneously in roughly 90 seconds rather than building it layer by layer, and the full design is open-source at under $1,600.",
-        "url": "https://3dprintingindustry.com/"
-      },
-      {
-        "fact": "NASA's Roman Space Telescope achieved nearly 30% better image quality than its design specification by repositioning a mirror by just one-sixteenth the width of a human hair.",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261016070630.htm"
+        "fact": "LSD may induce fractal brain dynamics \u2014 self-similar patterns repeating across different timescales \u2014 rather than simply suppressing the default mode network as previously believed.",
+        "url": "https://nautil.us/lsd-may-speed-up-brain-activity-and-make-it-fractal-1286030/"
       }
     ],
     "make_something": {
-      "prompt": "Build a DIY high-speed macro flash rig to freeze a process you've never seen clearly \u2014 ink hitting paper, water hitting a surface, powder dispersing. You need a dark room, a flash with a short duration (most speedlights fire in under 1/10,000s \u2014 faster than any shutter), and a single stationary camera. The constraint Bielfeldt solved is the real design problem: how do you isolate and control the one variable you want to freeze? Document the physics of what you're capturing, not just the image."
+      "prompt": "Build a generative piece that renders a night sky as Van Gogh might have painted it on June 19, 1889 \u2014 but drive the swirl parameters from real LSD-brain fractal data: self-similar turbulence patterns that repeat across spatial scales. Use the actual Venus position from planetarium records as a fixed anchor, and let the rest of the sky breathe with recursive noise at 2-3 octaves. The constraint: the cypress tree must be present, and the horizon must show light \u2014 Van Gogh painted it just before dawn."
     },
     "art_picks": [
       {
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "An essay film that works like a living feedback loop \u2014 memory, ritual, video game culture, African ceremony, and Japanese pop observed through a camera that knows it's building a mythology. The form itself is the argument: images as thought, not illustration.",
+        "why": "A film structured entirely around the gap between memory, image, and systems of meaning \u2014 Marker weaves footage from Japan, Guinea-Bissau, and Iceland into an essay on how cultures encode time and ritual. It's the kind of thing that rewires how you look at everything for weeks after.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Haegue Yang",
-        "creator": "Haegue Yang",
-        "why": "Yang builds sculpture from venetian blinds, bells, and smell \u2014 systems of material logic that encode cultural transmission and sensory politics without explaining themselves. The obsessive craft is matched by the conceptual load underneath.",
-        "url": "https://www.hauserwirth.com/artists/2838-haegue-yang/"
+        "title": "UUmwelt",
+        "creator": "Pierre Huyghe",
+        "why": "Freestanding screens across MoMA's Sculpture Garden display hallucinatory images generated by a neural network trained on fMRI brain-scan data \u2014 the machine's attempt to reconstruct a human thought. The installation responds in real time to visitor gaze via sensors, and to data from simulated cancer-cell mutations: three living systems in quiet dialogue. Closes November 29 \u2014 go before it's gone.",
+        "url": "https://www.moma.org/calendar/exhibitions/5807"
       },
       {
         "medium": "music",
-        "title": "The Rose Has Teeth in the Mouth of a Beast",
-        "creator": "Matmos",
-        "why": "An album made entirely from sounds harvested from the bodies and belongings of queer theorists and artists \u2014 each track is a portrait-as-system. Sound design as biography as community ritual; unreasonably deep on a narrow thing.",
-        "url": "https://www.matmos.net"
+        "title": "Yanqui U.X.O.",
+        "creator": "Godspeed You! Black Emperor",
+        "why": "An album built like architecture \u2014 locked feedback loops, slow-moving systems of tension and release, field recordings braided into orchestral swells. The liner notes reveal the album's own structure as a diagram, which tells you everything about how obsessively these people work. For long studio sessions or deep listening.",
+        "url": "https://godspeedyoublackemperor.bandcamp.com/album/yanqui-u-x-o"
       }
     ],
     "events": [
       {
-        "name": "Volker H\u00fcller: Angelus Novus",
-        "venue": "GRIMM Gallery, 54 White St, Manhattan (Tribeca)",
-        "date_start": "2026-09-09",
-        "date_end": "2026-10-31",
+        "name": "Frisson Gallery: 2 x Self \u2014 Noah Pica & Paul Negron",
+        "venue": "Frisson Gallery, 141 Attorney St, Lower East Side, Manhattan",
+        "date_start": "2026-10-02",
+        "date_end": "2026-11-07",
         "category": "museum",
-        "why": "Named after the Paul Klee painting that Benjamin made famous \u2014 H\u00fcller's first show focused purely on figuration, and the Klee/Benjamin lineage means the work is carrying serious conceptual freight inside what looks like straight painting.",
-        "url": "https://grimmgallery.com/exhibitions/",
-        "date": "Sep 9 \u2013 Oct 31"
+        "why": "A two-person show on self-representation at a small LES gallery that consistently programs work with formal rigor \u2014 the kind of spot worth knowing.",
+        "url": "https://www.frissonnyc.com",
+        "date": "Oct 2 \u2013 Nov 7"
       },
       {
         "name": "Synthesize Me: Olga Titus & Michael Dickey",
-        "venue": "IRL Gallery, New York",
+        "venue": "IRL Gallery, 86 Walker St #2, Tribeca, Manhattan",
         "date_start": "2026-10-16",
         "date_end": "2026-11-07",
         "category": "museum",
-        "why": "A two-person show at one of the more serious smaller galleries pairing artists working at the intersection of material science and body \u2014 the kind of niche, under-the-radar show that rewards actually showing up.",
-        "url": "https://www.irlgallery.com",
+        "why": "A two-person show at one of the more interesting small Tribeca spaces \u2014 the title alone suggests a dialogue between artists working across synthesis, material, and identity that's worth an afternoon detour.",
+        "url": "https://www.irl-nyc.com",
         "date": "Oct 16 \u2013 Nov 7"
       },
       {
         "name": "Pierre Huyghe: UUmwelt",
         "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-10-23",
-        "date_end": "2026-11-29",
+        "date_start": "2026-10-24",
+        "date_end": "2026-11-07",
         "category": "museum",
-        "why": "An fMRI scanner, a neural network, and Huyghe's camera produce hallucinatory images of someone else's imagination in real time \u2014 the Sculpture Garden becomes a live thinking system that literally changes as you walk through it, driven by visitor gaze and cancer-cell mutation data.",
-        "url": "https://www.moma.org/calendar/exhibitions/pierre-huyghe-uumwelt",
-        "date": "Oct 23 \u2013 Nov 29"
+        "why": "Machine learning meets brain-imaging data in an outdoor installation that responds to your gaze in real time \u2014 the rare show where the viewer is genuinely part of the system, not just a spectator.",
+        "url": "https://www.moma.org/calendar/exhibitions/5807",
+        "date": "Oct 24 \u2013 Nov 7"
       },
       {
-        "name": "Oliver Bak",
-        "venue": "Spr\u00fcth Magers, 22 E 80th St, Manhattan",
-        "date_start": "2026-11-01",
-        "date_end": "2026-12-01",
+        "name": "Krasner\u2013Pollock: Past Continuous",
+        "venue": "The Metropolitan Museum of Art, 1000 Fifth Ave, Gallery 899, Manhattan",
+        "date_start": "2026-10-25",
+        "date_end": "2027-01-31",
         "category": "museum",
-        "why": "Bak's hyper-detailed figurative paintings operate at the edge between obsessive craft and psychological unease \u2014 a painter who goes unreasonably deep on surface as concealment.",
-        "url": "https://spruethmagers.com/exhibitions/",
-        "date": "Nov 1 \u2013 Dec 1"
+        "why": "Not the predictable Pollock retrospective \u2014 framed as a dual study of two artists sharing a life and a practice, it's really about how proximity, ego, influence, and domestic labor shape a body of work; opens this weekend.",
+        "url": "https://www.metmuseum.org",
+        "date": "Oct 25 \u2013 Jan 31"
       },
       {
-        "name": "Salon Art + Design (15th Edition)",
+        "name": "Salon Art + Design \u2014 15th Edition",
         "venue": "Park Avenue Armory, 643 Park Ave, Manhattan",
-        "date_start": "2026-11-04",
+        "date_start": "2026-11-06",
         "date_end": "2026-11-08",
         "category": "popup",
-        "why": "50+ international galleries bring collectible furniture, ceramics, lighting, and jewelry into the Armory's drill hall \u2014 the category-blurring is the point; public hours start Nov 6, with Salon Conversations bringing museum curators on how institutions collect design.",
+        "why": "The best version of a design fair in New York \u2014 collectible furniture, ceramics, antiquities, and 20th-century art in the same room; less art-world theater than Frieze, more actual objects worth thinking about.",
         "url": "https://www.thesalonny.com",
-        "date": "Nov 4\u20138"
+        "date": "Nov 6\u20138"
       }
     ]
   },
