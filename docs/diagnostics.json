@@ -1,9 +1,9 @@
 {
-  "feeds": 78,
-  "mined": 51,
+  "feeds": 61,
+  "mined": 50,
   "videos": 7,
   "video_titles": [
-    "No device could prove our theory of gravity wrong... until now",
+    "No device could prove Einstein wrong... until now",
     "Is there something faster than light?",
     "When you lose weight where does it go?",
     "Matisse: The Red Studio: Great Art Explained",
@@ -12,15 +12,14 @@
     "I've Got a Smell Problem! #3dprinting  #diy"
   ],
   "supplemental": false,
-  "final_items": 6,
+  "final_items": 5,
   "final_sources": [
-    "Geopolitical Futures",
-    "Hackaday",
-    "Nautilus",
-    "Nautilus / Scientific Reports",
-    "Steve Blank",
-    "Veritasium"
+    "Apricitas Economics",
+    "MIT News / CSAIL",
+    "SDF Public Access UNIX",
+    "Scientific American / Physical Review Letters",
+    "loeffelholz-codex.org"
   ],
-  "had_video": true,
-  "run_at": "2026-10-24T14:48:40.445640+00:00"
+  "had_video": false,
+  "run_at": "2026-10-25T15:04:19.299459+00:00"
 }

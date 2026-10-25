@@ -1,46 +1,57 @@
 {
   "digest": {
-    "intro": "Sovereignty fractures everywhere \u2014 in cells, satellites, and state-level infrastructure.",
+    "intro": "Dead networks, trapped antimatter, and 200,000 missing creative jobs.",
     "sections": [
       {
-        "heading": "World",
+        "heading": "The creative class and the labor question",
         "items": [
           {
-            "title": "The Kill Switch That Already Happened",
-            "source": "Steve Blank",
-            "url": "https://steveblank.com/2026/10/24/europe-gets-a-wake-up-call/",
-            "blurb": "Steve Blank, in London for a month, reports that the moment Elon Musk personally ordered Starshield throttled over Ukraine \u2014 not as U.S. policy, but apparently as a private decision \u2014 European policymakers stopped treating infrastructure dependency as a paranoid fantasy. The actual shift: conversations have moved from 'could this happen' to 'what do we build instead,' with urgency that hasn't existed in decades. One CEO, one decision, tilting a war \u2014 that's the new threat model.",
+            "title": "AI and the Fall of the Creative Class",
+            "source": "Apricitas Economics",
+            "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+            "blurb": "200,000 creative jobs gone in four years, 50,000 in the last year alone \u2014 a pace of loss that historically only appeared during full recessions, except there's no recession. The sharpest signal that AI is the driver rather than consolidation alone: every subsector of digital creative work is contracting simultaneously, while in-person entertainment (concerts, live events) is still growing. Film and TV have shed roughly a third of their workforce; publishing 70,000 jobs. The piece is careful about what it can and can't prove, which makes the parts it does assert land harder.",
             "tags": [
-              "geopolitics",
-              "tech sovereignty",
-              "europe"
-            ]
-          },
-          {
-            "title": "Europe Eyes a Naval Operation in the Black Sea",
-            "source": "Geopolitical Futures",
-            "url": "https://geopoliticalfutures.com/daily-memo-escalation-in-the-black-sea-talks-on-ukraine/",
-            "blurb": "The European Parliament passed a resolution calling for an EU naval operation in the Black Sea after Russian strikes on commercial vessels off Bulgaria and Romania \u2014 NATO members. This isn't rhetoric; it's the EU considering direct military presence in an active war zone's adjacent waters. The structural question is whether European institutions can move fast enough to matter before the posture hardens.",
-            "tags": [
-              "geopolitics",
-              "ukraine",
-              "europe"
+              "ai",
+              "creative labor",
+              "economics"
             ]
           }
         ]
       },
       {
-        "heading": "Craft and materials",
+        "heading": "Making and knowing things",
         "items": [
           {
-            "title": "Open-Source 3D Printing at 9-Micron Resolution via Fiber Optics",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/10/23/reprapmicron-uses-fibre-optics-to-print-tiny-benchy-in-resin/",
-            "blurb": "The RepRapMicron project ran a UV LED through a trimmed single-mode fiber patch cord to cure SLA resin at roughly 9 \u00b5m resolution \u2014 small enough that a sneeze can lose the print forever. It's the RepRap philosophy (open, scavenged, iterative) applied to the microscopic: off-the-shelf optics doing work that normally requires a dedicated two-photon lithography rig. Overhangs are still a problem; everything else is genuinely impressive.",
+            "title": "MIT X-Hinges: Sensors Baked Into the Print, Not Bolted On",
+            "source": "MIT News / CSAIL",
+            "url": "https://news.mit.edu/topic/3-d-printing",
+            "blurb": "X-Hinges is design software that embeds contact sensors directly into 3D printed objects during fabrication \u2014 lamps, gloves, hinges \u2014 so the object itself perceives and responds to touch without any added electronics. The sensor geometry is generated as part of the print path, not as an afterthought. This is the physical/digital seam moving inward: the thing knows you're touching it because sensing is structural, not attached.",
             "tags": [
-              "fabrication",
-              "open source",
-              "micro-scale"
+              "3d printing",
+              "interactive",
+              "fabrication"
+            ]
+          },
+          {
+            "title": "The L\u00f6ffelholz Codex: A 1505 Maker's Manual Nobody Has Ever Fully Read",
+            "source": "loeffelholz-codex.org",
+            "url": "https://loeffelholz-codex.org/en/",
+            "blurb": "In 1505, a Nuremberg knight began sketching everything that occupied his mind: drills with interchangeable blades, a workbench vise, a swivel chair on casters, a crossbow disassembled into all its parts, a cradle whose rockers are filled with mercury. The book has 154 pages, is fully digitized, is in the public domain \u2014 and in 500 years no one has ever produced a complete transcription or translation. A team is going through it page by page now, with engineering annotations, and it's browsable as they work.",
+            "tags": [
+              "history",
+              "making",
+              "archives"
+            ]
+          },
+          {
+            "title": "Why Gopher in 2026?",
+            "source": "SDF Public Access UNIX",
+            "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
+            "blurb": "Someone is writing a phlog \u2014 a blog on Gopher, the pre-web protocol from 1991, still running, still attracting people who want a network with no tracking, no ads, no algorithmic surface, no corporate interest \u2014 and the opening question is genuinely worth sitting with: what does it mean that teenagers with ADHD are gravitating toward flip phones and dead protocols to escape the noise? The author notices that constraint is the point, not the limitation. The HN thread around it gets into the cultural logic more cleanly than most essays about digital minimalism ever do.",
+            "tags": [
+              "internet culture",
+              "constraint",
+              "media archaeology"
             ]
           }
         ]
@@ -49,134 +60,125 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Was June 19, 1889 the Exact Night Van Gogh Painted The Starry Night?",
-            "source": "Nautilus / Scientific Reports",
-            "url": "https://nautil.us/was-this-the-exact-date-of-van-goghs-starry-night-1286057/",
-            "blurb": "Astronomers cross-referenced Venus's position in the painting against planetarium reconstructions of the sky visible from Saint-R\u00e9my-de-Provence, then layered in historical weather records and \u2014 improbably \u2014 cicada activity as a temperature proxy to narrow the date. The Venus orb above the cypress tree has been confirmed as a real celestial observation; the new study tightens the previously agreed June 19 date with observational geometry nobody thought to apply before. It's the kind of problem where the discipline doing the work (astronomy) has no business solving it, which is exactly why they could.",
-            "tags": [
-              "art history",
-              "astronomy",
-              "obsessive research"
-            ]
-          },
-          {
-            "title": "LSD Speeds Up Brain Rhythms and Makes Them Fractal",
-            "source": "Nautilus",
-            "url": "https://nautil.us/lsd-may-speed-up-brain-activity-and-make-it-fractal-1286030/",
-            "blurb": "A new small study challenges the prevailing 'default mode network suppression' model of how LSD works, finding instead that the drug accelerates certain brain rhythms and induces self-similar fractal patterns across timescales \u2014 the same mathematical structure that generates the kaleidoscopic visuals users report. It reframes psychedelics less as a 'turning off' of control systems and more as a reorganization of the brain's background hum into a different geometric regime. For anyone thinking about generative or recursive visual systems, this is a surprisingly literal connection.",
-            "tags": [
-              "neuroscience",
-              "psychedelics",
-              "fractals"
-            ]
-          },
-          {
-            "title": "Atomic Clocks Testing Einstein \u2014 And Finally Big Enough to Matter",
-            "source": "Veritasium",
-            "url": "https://www.youtube.com/watch?v=eyZEqSPeMwg",
-            "blurb": "Veritasium's best mode: explain why a precision instrument everyone assumes is settled actually sits at the live edge of physics. Modern atomic clocks are now sensitive enough to test whether gravity curves time the way general relativity predicts \u2014 and a device exists that could, for the first time, give the equivalence principle a real empirical run for its money. This channel has earned trust on exactly this kind of content.",
+            "title": "Physicists Trapped a Single Antimatter Particle for a Month",
+            "source": "Scientific American / Physical Review Letters",
+            "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
+            "blurb": "The team starts with sodium-22, a radioactive isotope that emits a positron when it decays, then slows that positron down by sending it through the crystal lattice of cold tungsten \u2014 essentially pinballing it until it loses enough energy to catch. Holding a single antihydrogen atom in a magnetic trap for 30 days is a precision measurement achievement that opens the question of whether antimatter and matter obey identical physical laws. If they don't, that asymmetry is likely why the universe is made of matter at all and not an equal mix of both that annihilated itself at the start.",
             "tags": [
               "physics",
-              "precision instruments",
-              "general relativity"
-            ],
-            "thumbnail": "https://i2.ytimg.com/vi/eyZEqSPeMwg/hqdefault.jpg"
+              "antimatter",
+              "experiment"
+            ]
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "A single-mode fiber patch cord trimmed with a hacksaw is all it takes to achieve 9-micron 3D print resolution in open-source RepRapMicron \u2014 the resulting prints are small enough to be destroyed by a breath.",
-        "url": "https://hackaday.com/2026/10/23/reprapmicron-uses-fibre-optics-to-print-tiny-benchy-in-resin/"
+        "fact": "The L\u00f6ffelholz Codex \u2014 a 154-page illustrated tool book from 1505 featuring a mercury-filled rocking cradle and a swivel chair on casters \u2014 has never been fully transcribed or translated in over 500 years.",
+        "url": "https://loeffelholz-codex.org/en/"
       },
       {
-        "fact": "Astronomers used historical cicada activity records as a temperature proxy to help pin the exact night Van Gogh painted The Starry Night.",
-        "url": "https://nautil.us/was-this-the-exact-date-of-van-goghs-starry-night-1286057/"
+        "fact": "Samsung TVs are silently running AlexNet (a TensorFlow Lite model named 'alex.tflite') on 960\u00d7540 camera captures every few seconds to identify what game you're playing \u2014 before any consent screen appears.",
+        "url": "https://twitter.com/mike64_t/status/2114150399406202896"
       },
       {
-        "fact": "LSD may induce fractal brain dynamics \u2014 self-similar patterns repeating across different timescales \u2014 rather than simply suppressing the default mode network as previously believed.",
-        "url": "https://nautil.us/lsd-may-speed-up-brain-activity-and-make-it-fractal-1286030/"
+        "fact": "Physicists slow antimatter positrons by sending them through the crystal lattice of cold tungsten, where they lose energy by colliding with atoms \u2014 a technique that made month-long magnetic trapping of a single antihydrogen atom possible.",
+        "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/"
       }
     ],
-    "make_something": {
-      "prompt": "Build a generative piece that renders a night sky as Van Gogh might have painted it on June 19, 1889 \u2014 but drive the swirl parameters from real LSD-brain fractal data: self-similar turbulence patterns that repeat across spatial scales. Use the actual Venus position from planetarium records as a fixed anchor, and let the rest of the sky breathe with recursive noise at 2-3 octaves. The constraint: the cypress tree must be present, and the horizon must show light \u2014 Van Gogh painted it just before dawn."
-    },
+    "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film structured entirely around the gap between memory, image, and systems of meaning \u2014 Marker weaves footage from Japan, Guinea-Bissau, and Iceland into an essay on how cultures encode time and ritual. It's the kind of thing that rewires how you look at everything for weeks after.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Daughters of the Dust",
+        "creator": "Julie Dash",
+        "why": "The first feature film by a Black woman theatrically distributed in the US \u2014 shot in Gullah communities of the Sea Islands in 1991, it's less a narrative than a system: a feedback loop of memory, myth, and matrilineal continuity told through image and rhythm rather than plot. The way Dash builds meaning from fabric, light, and gesture \u2014 pure visual semiotics \u2014 will make a maker want to go make something immediately.",
+        "url": "https://letterboxd.com/film/daughters-of-the-dust/"
       },
       {
         "medium": "art",
-        "title": "UUmwelt",
-        "creator": "Pierre Huyghe",
-        "why": "Freestanding screens across MoMA's Sculpture Garden display hallucinatory images generated by a neural network trained on fMRI brain-scan data \u2014 the machine's attempt to reconstruct a human thought. The installation responds in real time to visitor gaze via sensors, and to data from simulated cancer-cell mutations: three living systems in quiet dialogue. Closes November 29 \u2014 go before it's gone.",
-        "url": "https://www.moma.org/calendar/exhibitions/5807"
+        "title": "Krasner and Pollock: Past Continuous",
+        "creator": "Lee Krasner & Jackson Pollock",
+        "why": "The Met's current exhibition reframes the most mythologized relationship in American abstraction as a genuine dialogue rather than a footnote \u2014 surfacing the feedback loops between two practices that shaped each other in ways art history has systematically erased. Krasner's own work, seen in full, is a completely different and more interesting story than the one that got told.",
+        "url": "https://www.metmuseum.org/exhibitions/krasner-and-pollock-past-continuous"
       },
       {
         "medium": "music",
-        "title": "Yanqui U.X.O.",
-        "creator": "Godspeed You! Black Emperor",
-        "why": "An album built like architecture \u2014 locked feedback loops, slow-moving systems of tension and release, field recordings braided into orchestral swells. The liner notes reveal the album's own structure as a diagram, which tells you everything about how obsessively these people work. For long studio sessions or deep listening.",
-        "url": "https://godspeedyoublackemperor.bandcamp.com/album/yanqui-u-x-o"
+        "title": "Quanta Qualia",
+        "creator": "Oren Ambarchi",
+        "why": "Ambarchi builds music the way a generative artist builds a system: one repeated guitar tone, layered with imperceptible precision until rhythm and texture become indistinguishable. It's obsessive, structural, and deeply physical \u2014 the kind of work that makes you rethink what a single instrument is even for. Especially relevant given his Blank Forms residency this week.",
+        "url": "https://orenambarchi.bandcamp.com"
       }
     ],
     "events": [
       {
-        "name": "Frisson Gallery: 2 x Self \u2014 Noah Pica & Paul Negron",
-        "venue": "Frisson Gallery, 141 Attorney St, Lower East Side, Manhattan",
-        "date_start": "2026-10-02",
-        "date_end": "2026-11-07",
-        "category": "museum",
-        "why": "A two-person show on self-representation at a small LES gallery that consistently programs work with formal rigor \u2014 the kind of spot worth knowing.",
-        "url": "https://www.frissonnyc.com",
-        "date": "Oct 2 \u2013 Nov 7"
-      },
-      {
-        "name": "Synthesize Me: Olga Titus & Michael Dickey",
-        "venue": "IRL Gallery, 86 Walker St #2, Tribeca, Manhattan",
-        "date_start": "2026-10-16",
-        "date_end": "2026-11-07",
-        "category": "museum",
-        "why": "A two-person show at one of the more interesting small Tribeca spaces \u2014 the title alone suggests a dialogue between artists working across synthesis, material, and identity that's worth an afternoon detour.",
-        "url": "https://www.irl-nyc.com",
-        "date": "Oct 16 \u2013 Nov 7"
-      },
-      {
-        "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-10-24",
-        "date_end": "2026-11-07",
-        "category": "museum",
-        "why": "Machine learning meets brain-imaging data in an outdoor installation that responds to your gaze in real time \u2014 the rare show where the viewer is genuinely part of the system, not just a spectator.",
-        "url": "https://www.moma.org/calendar/exhibitions/5807",
-        "date": "Oct 24 \u2013 Nov 7"
-      },
-      {
-        "name": "Krasner\u2013Pollock: Past Continuous",
-        "venue": "The Metropolitan Museum of Art, 1000 Fifth Ave, Gallery 899, Manhattan",
+        "name": "Arthur Jafa: I Am Tony",
+        "venue": "New Museum, 235 Bowery, Manhattan",
         "date_start": "2026-10-25",
-        "date_end": "2027-01-31",
+        "date_end": "2027-01-03",
         "category": "museum",
-        "why": "Not the predictable Pollock retrospective \u2014 framed as a dual study of two artists sharing a life and a practice, it's really about how proximity, ego, influence, and domestic labor shape a body of work; opens this weekend.",
-        "url": "https://www.metmuseum.org",
-        "date": "Oct 25 \u2013 Jan 31"
+        "why": "The largest survey of Jafa's work to date \u2014 four decades of film, video collage, sculpture, and photography assembled like a jazz drummer's edit: rhythm and juxtaposition as method, Black popular culture as structural framework, and the invisible systems of race and media as subject matter; exactly the kind of show that makes physical and digital, archive and gut-feeling, indistinguishable.",
+        "url": "https://www.newmuseum.org/exhibitions/arthur-jafa-i-am-tony",
+        "date": "Oct 25 \u2013 Jan 3"
       },
       {
-        "name": "Salon Art + Design \u2014 15th Edition",
-        "venue": "Park Avenue Armory, 643 Park Ave, Manhattan",
-        "date_start": "2026-11-06",
-        "date_end": "2026-11-08",
-        "category": "popup",
-        "why": "The best version of a design fair in New York \u2014 collectible furniture, ceramics, antiquities, and 20th-century art in the same room; less art-world theater than Frieze, more actual objects worth thinking about.",
-        "url": "https://www.thesalonny.com",
-        "date": "Nov 6\u20138"
+        "name": "Tang Shuo: Borrowed History",
+        "venue": "Plato, 202 Bowery, Manhattan",
+        "date_start": "2026-10-25",
+        "date_end": "2026-11-07",
+        "category": "museum",
+        "why": "A small-gallery solo at a sharp LES space \u2014 the title alone signals the kind of work Willem would want to see: art that treats history as raw material to be sampled and recontextualized, not preserved.",
+        "url": "https://artinnewyorkcity.com/2026/10/06/new-lower-east-side-gallery-openings-your-guide-to-manhattans-october-2026-contemporary-art-exhibitions/",
+        "date": "Oct 25 \u2013 Nov 7"
+      },
+      {
+        "name": "Cici Wu: Auld Lang Syne (Prelude)",
+        "venue": "47 Canal, 529 W 20th St, Manhattan",
+        "date_start": "2026-10-25",
+        "date_end": "2026-11-07",
+        "category": "museum",
+        "why": "47 Canal consistently programs work at the intersection of language, systems, and material \u2014 Wu's practice deals in displacement, memory, and infrastructure as form, the kind of conceptually dense but sensory work that rewards a slow look.",
+        "url": "https://www.47canal.us",
+        "date": "Oct 25 \u2013 Nov 7"
+      },
+      {
+        "name": "Oren Ambarchi / Andrew Cyrille / Cyro Baptista \u2014 Night Two",
+        "venue": "Blank Forms, 151 Lafayette St, 6th Floor, Manhattan",
+        "date_start": "2026-11-01",
+        "date_end": "2026-11-01",
+        "category": "concert",
+        "why": "A first-ever trio encounter between Ambarchi's deep-drone guitar minimalism, Andrew Cyrille's free-jazz percussion mastery, and Cyro Baptista's Brazilian rhythmic invention \u2014 three distinct sound-worlds in one room, at one of NYC's most curatorially serious small venues; the kind of unrepeatable collision that only happens when someone books with real taste.",
+        "url": "https://www.viewcy.com/event/night_two__oren_amba",
+        "date": "Sun, Nov 1"
+      },
+      {
+        "name": "\u00d3lafur Arnalds",
+        "venue": "Town Hall Theater, 123 W 43rd St, Manhattan",
+        "date_start": "2026-11-04",
+        "date_end": "2026-11-05",
+        "category": "concert",
+        "why": "Arnalds builds neo-classical systems from generative software and acoustic instruments simultaneously \u2014 live, his shows are less concerts than demonstrations of a feedback loop between composed and emergent, which lands differently when you're a builder who works at that same edge.",
+        "url": "https://www.songkick.com/artists/606395-olafur-arnalds",
+        "date": "Nov 4\u20135"
       }
     ]
   },
-  "trial_sources": []
+  "trial_sources": [
+    {
+      "name": "Global Inequality and More 3.0 \u2014 Branko Milanovic",
+      "feed_url": "https://branko2f7.substack.com/feed",
+      "why": "A world-class economist writing sharp, short-form posts that cut across geopolitics, economic history, cultural capital, and global status hierarchies \u2014 exactly the kind of individual human with taste who sees the world's fault lines before institutions do."
+    },
+    {
+      "name": "The Niche \u2014 Paul Knoepfler",
+      "feed_url": "https://ipscell.com/feed/",
+      "why": "A UC Davis stem cell biologist who writes credible, independent expert commentary on regenerative medicine, iPSCs, peptides, and longevity research \u2014 the rare scientist-blogger who translates frontier research without hype."
+    },
+    {
+      "name": "Make Anything \u2014 Devin Montes",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVc6AHfGw9b2zOE_ZGfmsnw",
+      "why": "A designer-maker channel focused on the intersection of high-level 3D modeling, artistic fabrication, and the aesthetics of what additive manufacturing can produce \u2014 craft-minded and visually sophisticated, not just a gear-review channel."
+    }
+  ]
 }
