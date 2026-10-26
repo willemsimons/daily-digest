@@ -1,57 +1,46 @@
 {
   "digest": {
-    "intro": "Dead networks, trapped antimatter, and 200,000 missing creative jobs.",
+    "intro": "Energy infrastructure wars, AI's invisible workforce, and hardware that plays Doom.",
     "sections": [
       {
-        "heading": "The creative class and the labor question",
+        "heading": "AI's actual texture",
         "items": [
           {
-            "title": "AI and the Fall of the Creative Class",
-            "source": "Apricitas Economics",
-            "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
-            "blurb": "200,000 creative jobs gone in four years, 50,000 in the last year alone \u2014 a pace of loss that historically only appeared during full recessions, except there's no recession. The sharpest signal that AI is the driver rather than consolidation alone: every subsector of digital creative work is contracting simultaneously, while in-person entertainment (concerts, live events) is still growing. Film and TV have shed roughly a third of their workforce; publishing 70,000 jobs. The piece is careful about what it can and can't prove, which makes the parts it does assert land harder.",
+            "title": "Mapping AI Colonialism, Block by Block",
+            "source": "Brown University",
+            "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+            "blurb": "Brown senior Cunyan Ma built an interactive map connecting tech companies \u2014 through their intermediaries \u2014 to the data workers in the Global South whose annotation labor makes AI function. Most of what's known about this workforce comes from scattered journalism; this is the first attempt to aggregate databases, original collection, and news reports into a single visible geography. Ma frames it explicitly as 'AI colonialism made spatial' \u2014 and the map is freely available online.",
             "tags": [
               "ai",
-              "creative labor",
-              "economics"
+              "labor",
+              "political economy"
+            ]
+          },
+          {
+            "title": "The Safety Discourse Is Optimizing for the Wrong Disaster",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
+            "blurb": "The piece makes a clean structural argument: industry-backed AI safety legislation targets catastrophic edge cases \u2014 the Hollywood scenarios \u2014 while the slow diffuse damage (dependency, cognitive atrophy, engineered envy) accrues unreported. A teenager with an unhealthy AI companion never appears in a lawsuit. A student who outsources all thinking to a chatbot doesn't make headlines. The bar 'doesn't encourage suicide' is technically clearable while a product still corrodes how an entire generation thinks.",
+            "tags": [
+              "ai",
+              "policy",
+              "culture"
             ]
           }
         ]
       },
       {
-        "heading": "Making and knowing things",
+        "heading": "Biology on the edge",
         "items": [
           {
-            "title": "MIT X-Hinges: Sensors Baked Into the Print, Not Bolted On",
-            "source": "MIT News / CSAIL",
-            "url": "https://news.mit.edu/topic/3-d-printing",
-            "blurb": "X-Hinges is design software that embeds contact sensors directly into 3D printed objects during fabrication \u2014 lamps, gloves, hinges \u2014 so the object itself perceives and responds to touch without any added electronics. The sensor geometry is generated as part of the print path, not as an afterthought. This is the physical/digital seam moving inward: the thing knows you're touching it because sensing is structural, not attached.",
+            "title": "60 Years of Cellular Aging, Reversed in One Conversion",
+            "source": "The Debrief / Aging Cell",
+            "url": "https://thedebrief.org/a-new-breakthrough-in-cellular-reprogramming-reverses-60-years-of-molecular-aging/",
+            "blurb": "University of Bonn researchers converted blood cells from an 80-year-old directly into neural stem cells \u2014 and the resulting cells showed molecular age markers under 20. The key detail: they bypassed induced pluripotency entirely, going cell-type to cell-type, which appears to carry the de-aging effect through the transition. Published in peer-reviewed Aging Cell; early-stage, not a therapy, but the mechanistic finding about what reprogramming does to the aging clock is genuinely novel.",
             "tags": [
-              "3d printing",
-              "interactive",
-              "fabrication"
-            ]
-          },
-          {
-            "title": "The L\u00f6ffelholz Codex: A 1505 Maker's Manual Nobody Has Ever Fully Read",
-            "source": "loeffelholz-codex.org",
-            "url": "https://loeffelholz-codex.org/en/",
-            "blurb": "In 1505, a Nuremberg knight began sketching everything that occupied his mind: drills with interchangeable blades, a workbench vise, a swivel chair on casters, a crossbow disassembled into all its parts, a cradle whose rockers are filled with mercury. The book has 154 pages, is fully digitized, is in the public domain \u2014 and in 500 years no one has ever produced a complete transcription or translation. A team is going through it page by page now, with engineering annotations, and it's browsable as they work.",
-            "tags": [
-              "history",
-              "making",
-              "archives"
-            ]
-          },
-          {
-            "title": "Why Gopher in 2026?",
-            "source": "SDF Public Access UNIX",
-            "url": "https://gopher.muffinlabs.com/sdf.org/users/nervtoji/phlog/001.txt",
-            "blurb": "Someone is writing a phlog \u2014 a blog on Gopher, the pre-web protocol from 1991, still running, still attracting people who want a network with no tracking, no ads, no algorithmic surface, no corporate interest \u2014 and the opening question is genuinely worth sitting with: what does it mean that teenagers with ADHD are gravitating toward flip phones and dead protocols to escape the noise? The author notices that constraint is the point, not the limitation. The HN thread around it gets into the cultural logic more cleanly than most essays about digital minimalism ever do.",
-            "tags": [
-              "internet culture",
-              "constraint",
-              "media archaeology"
+              "longevity",
+              "cellular biology",
+              "reprogramming"
             ]
           }
         ]
@@ -60,14 +49,25 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Physicists Trapped a Single Antimatter Particle for a Month",
-            "source": "Scientific American / Physical Review Letters",
-            "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/",
-            "blurb": "The team starts with sodium-22, a radioactive isotope that emits a positron when it decays, then slows that positron down by sending it through the crystal lattice of cold tungsten \u2014 essentially pinballing it until it loses enough energy to catch. Holding a single antihydrogen atom in a magnetic trap for 30 days is a precision measurement achievement that opens the question of whether antimatter and matter obey identical physical laws. If they don't, that asymmetry is likely why the universe is made of matter at all and not an equal mix of both that annihilated itself at the start.",
+            "title": "Switzerland at 1:1 Scale, One Block Per Meter",
+            "source": "manifold3d",
+            "url": "https://blocks.manifold3d.ch/",
+            "blurb": "Someone rendered the entire country of Switzerland in Minecraft-style voxels at true 1:1 scale from SwissTopo open geodata \u2014 every block is one meter, the Matterhorn is exactly as tall and steep as the real one, and glaciers, lakes, forests, and dam walls are all present. A slider overlays the actual Swiss aerial photograph. The Jungfrau-Aletsch UNESCO region (2,400 km\u00b2) is free; the full country costs 15 CHF. It's territory-as-medium: the most literal possible collapse of cartography and fabrication logic into a single navigable object.",
             "tags": [
-              "physics",
-              "antimatter",
-              "experiment"
+              "cartography",
+              "voxel",
+              "fabrication"
+            ]
+          },
+          {
+            "title": "The $40 Synth That Became a Community Firmware Playground",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/",
+            "blurb": "The M-Vave FM-1 launched as a cheap pocket FM synthesizer; by July, Reddit's r/synthdiy had reverse-engineered its firmware; by September, custom builds were shipping; by October, M-Vave responded not with a cease-and-desist but by open-sourcing the whole thing under GPLv3 and releasing an SDK with a browser-based workbench. There are now more community firmware projects than anyone can track \u2014 and yes, it plays Doom. It's a rare case of a hardware company leaning into the hack instead of killing it.",
+            "tags": [
+              "hardware",
+              "open source",
+              "synth"
             ]
           }
         ]
@@ -75,110 +75,98 @@
     ],
     "facts": [
       {
-        "fact": "The L\u00f6ffelholz Codex \u2014 a 154-page illustrated tool book from 1505 featuring a mercury-filled rocking cradle and a swivel chair on casters \u2014 has never been fully transcribed or translated in over 500 years.",
-        "url": "https://loeffelholz-codex.org/en/"
+        "fact": "Blood cells from an 80-year-old were converted into neural stem cells with biological age markers resembling those of a person under 20 \u2014 without passing through a pluripotent intermediate state.",
+        "url": "https://thedebrief.org/a-new-breakthrough-in-cellular-reprogramming-reverses-60-years-of-molecular-aging/"
       },
       {
-        "fact": "Samsung TVs are silently running AlexNet (a TensorFlow Lite model named 'alex.tflite') on 960\u00d7540 camera captures every few seconds to identify what game you're playing \u2014 before any consent screen appears.",
-        "url": "https://twitter.com/mike64_t/status/2114150399406202896"
+        "fact": "The entire country of Switzerland has been rendered in Minecraft voxels at true 1:1 scale from open government geodata \u2014 every block is exactly one meter, including glacier geometry and dam walls.",
+        "url": "https://blocks.manifold3d.ch/"
       },
       {
-        "fact": "Physicists slow antimatter positrons by sending them through the crystal lattice of cold tungsten, where they lose energy by colliding with atoms \u2014 a technique that made month-long magnetic trapping of a single antihydrogen atom possible.",
-        "url": "https://www.scientificamerican.com/article/physicists-trap-a-single-antimatter-particle-for-a-month/"
+        "fact": "M-Vave responded to community reverse-engineering of the FM-1 synth not with a patch to block it, but by releasing the full application source code under GPLv3 and publishing an official SDK.",
+        "url": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/"
+      },
+      {
+        "fact": "A Brown University undergraduate built the first geographic map linking AI companies through intermediaries to their Global South data workers \u2014 most prior knowledge of this workforce came only from individual journalism pieces.",
+        "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Daughters of the Dust",
-        "creator": "Julie Dash",
-        "why": "The first feature film by a Black woman theatrically distributed in the US \u2014 shot in Gullah communities of the Sea Islands in 1991, it's less a narrative than a system: a feedback loop of memory, myth, and matrilineal continuity told through image and rhythm rather than plot. The way Dash builds meaning from fabric, light, and gesture \u2014 pure visual semiotics \u2014 will make a maker want to go make something immediately.",
-        "url": "https://letterboxd.com/film/daughters-of-the-dust/"
+        "title": "Mauvais Sang",
+        "creator": "Leos Carax",
+        "why": "Carax builds a film that runs entirely on surface-as-system \u2014 color, gesture, music, and bodies in space as a kind of generative language. Denis Lavant's long sprint through a Paris night to David Bowie is one of cinema's great moments of pure expressive force; the rest of the film earns it.",
+        "url": "https://letterboxd.com/film/mauvais-sang/"
       },
       {
         "medium": "art",
-        "title": "Krasner and Pollock: Past Continuous",
-        "creator": "Lee Krasner & Jackson Pollock",
-        "why": "The Met's current exhibition reframes the most mythologized relationship in American abstraction as a genuine dialogue rather than a footnote \u2014 surfacing the feedback loops between two practices that shaped each other in ways art history has systematically erased. Krasner's own work, seen in full, is a completely different and more interesting story than the one that got told.",
-        "url": "https://www.metmuseum.org/exhibitions/krasner-and-pollock-past-continuous"
+        "title": "UUmwelt",
+        "creator": "Pierre Huyghe",
+        "why": "Huyghe partnered with neuroscientists in Kyoto, had a subject imagine images while an fMRI scanned their brain activity, then let a neural network generate thousands of visual reconstructions from that data \u2014 hallucinatory, unstable mental images installed across MoMA's Sculpture Garden. It's the feedback loop between cognition, biology, and machine vision made physically inhabitable.",
+        "url": "https://www.moma.org/calendar/exhibitions/5908"
       },
       {
         "medium": "music",
-        "title": "Quanta Qualia",
-        "creator": "Oren Ambarchi",
-        "why": "Ambarchi builds music the way a generative artist builds a system: one repeated guitar tone, layered with imperceptible precision until rhythm and texture become indistinguishable. It's obsessive, structural, and deeply physical \u2014 the kind of work that makes you rethink what a single instrument is even for. Especially relevant given his Blank Forms residency this week.",
-        "url": "https://orenambarchi.bandcamp.com"
+        "title": "re:member",
+        "creator": "\u00d3lafur Arnalds",
+        "why": "Arnalds built a custom software system that triggers two self-playing pianos in response to what he plays live \u2014 a feedback loop where the room, the machines, and the human become one instrument. The album documents that system; hearing it live at Town Hall this week is the real thing.",
+        "url": "https://olafurarnalds.com"
       }
     ],
     "events": [
       {
-        "name": "Arthur Jafa: I Am Tony",
-        "venue": "New Museum, 235 Bowery, Manhattan",
-        "date_start": "2026-10-25",
-        "date_end": "2027-01-03",
+        "name": "Pierre Huyghe: UUmwelt",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd Street, Manhattan",
+        "date_start": "2026-10-26",
+        "date_end": "2026-11-29",
         "category": "museum",
-        "why": "The largest survey of Jafa's work to date \u2014 four decades of film, video collage, sculpture, and photography assembled like a jazz drummer's edit: rhythm and juxtaposition as method, Black popular culture as structural framework, and the invisible systems of race and media as subject matter; exactly the kind of show that makes physical and digital, archive and gut-feeling, indistinguishable.",
-        "url": "https://www.newmuseum.org/exhibitions/arthur-jafa-i-am-tony",
-        "date": "Oct 25 \u2013 Jan 3"
+        "why": "Freestanding screens throughout MoMA's outdoor sculpture garden generate hallucinatory, shifting images in real time from fMRI brain-scan data and machine learning \u2014 the installation responds to visitor presence via sensors, making the space itself a living cognitive system before it closes November 29.",
+        "url": "https://www.moma.org/calendar/exhibitions/5908",
+        "date": "Oct 26 \u2013 Nov 29"
       },
       {
-        "name": "Tang Shuo: Borrowed History",
-        "venue": "Plato, 202 Bowery, Manhattan",
-        "date_start": "2026-10-25",
+        "name": "Synthesize Me: Olga Titus & Michael Dickey",
+        "venue": "IRL Gallery, New York",
+        "date_start": "2026-10-26",
         "date_end": "2026-11-07",
         "category": "museum",
-        "why": "A small-gallery solo at a sharp LES space \u2014 the title alone signals the kind of work Willem would want to see: art that treats history as raw material to be sampled and recontextualized, not preserved.",
-        "url": "https://artinnewyorkcity.com/2026/10/06/new-lower-east-side-gallery-openings-your-guide-to-manhattans-october-2026-contemporary-art-exhibitions/",
-        "date": "Oct 25 \u2013 Nov 7"
+        "why": "A two-person show pairing artists whose work sits exactly at the edge where material and process collapse into each other \u2014 the kind of tightly focused gallery exhibition that rewards close looking over spectacle.",
+        "url": "https://irlgallery.com",
+        "date": "Oct 26 \u2013 Nov 7"
       },
       {
-        "name": "Cici Wu: Auld Lang Syne (Prelude)",
-        "venue": "47 Canal, 529 W 20th St, Manhattan",
-        "date_start": "2026-10-25",
-        "date_end": "2026-11-07",
+        "name": "EJ Hauser: Sun Water Sky",
+        "venue": "Derek Eller Gallery, New York",
+        "date_start": "2026-10-26",
+        "date_end": "2026-11-14",
         "category": "museum",
-        "why": "47 Canal consistently programs work at the intersection of language, systems, and material \u2014 Wu's practice deals in displacement, memory, and infrastructure as form, the kind of conceptually dense but sensory work that rewards a slow look.",
-        "url": "https://www.47canal.us",
-        "date": "Oct 25 \u2013 Nov 7"
+        "why": "Hauser's paintings feel like systems that almost resolve \u2014 color and form pressing against legibility without ever quite becoming landscape or abstraction; the kind of quiet obsessive studio work that makes you want to go back to whatever you're building.",
+        "url": "https://www.derekeller.com",
+        "date": "Oct 26 \u2013 Nov 14"
       },
       {
-        "name": "Oren Ambarchi / Andrew Cyrille / Cyro Baptista \u2014 Night Two",
-        "venue": "Blank Forms, 151 Lafayette St, 6th Floor, Manhattan",
-        "date_start": "2026-11-01",
-        "date_end": "2026-11-01",
-        "category": "concert",
-        "why": "A first-ever trio encounter between Ambarchi's deep-drone guitar minimalism, Andrew Cyrille's free-jazz percussion mastery, and Cyro Baptista's Brazilian rhythmic invention \u2014 three distinct sound-worlds in one room, at one of NYC's most curatorially serious small venues; the kind of unrepeatable collision that only happens when someone books with real taste.",
-        "url": "https://www.viewcy.com/event/night_two__oren_amba",
-        "date": "Sun, Nov 1"
-      },
-      {
-        "name": "\u00d3lafur Arnalds",
-        "venue": "Town Hall Theater, 123 W 43rd St, Manhattan",
+        "name": "\u00d3lafur Arnalds \u2014 Two Nights at The Town Hall",
+        "venue": "The Town Hall, 123 West 43rd Street, Manhattan",
         "date_start": "2026-11-04",
         "date_end": "2026-11-05",
         "category": "concert",
-        "why": "Arnalds builds neo-classical systems from generative software and acoustic instruments simultaneously \u2014 live, his shows are less concerts than demonstrations of a feedback loop between composed and emergent, which lands differently when you're a builder who works at that same edge.",
-        "url": "https://www.songkick.com/artists/606395-olafur-arnalds",
+        "why": "Two intimate nights (1,500-seat historic venue) from the Icelandic composer whose live show is built around generative software and self-playing pianos \u2014 a rare case where the system IS the performance.",
+        "url": "https://www.thetownhall.org",
         "date": "Nov 4\u20135"
+      },
+      {
+        "name": "Salon Art + Design \u2014 15th Edition",
+        "venue": "Park Avenue Armory, 643 Park Avenue, Manhattan",
+        "date_start": "2026-11-06",
+        "date_end": "2026-11-08",
+        "category": "popup",
+        "why": "50+ international galleries filling the Armory's 55,000-sq-ft Drill Hall with collectible design, furniture, ceramics, lighting, and 20th-century art \u2014 the rare fair where a 1970s Italian chair and a postwar painting share a booth and neither feels out of place.",
+        "url": "https://www.thesalonny.com",
+        "date": "Nov 6\u20138"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Global Inequality and More 3.0 \u2014 Branko Milanovic",
-      "feed_url": "https://branko2f7.substack.com/feed",
-      "why": "A world-class economist writing sharp, short-form posts that cut across geopolitics, economic history, cultural capital, and global status hierarchies \u2014 exactly the kind of individual human with taste who sees the world's fault lines before institutions do."
-    },
-    {
-      "name": "The Niche \u2014 Paul Knoepfler",
-      "feed_url": "https://ipscell.com/feed/",
-      "why": "A UC Davis stem cell biologist who writes credible, independent expert commentary on regenerative medicine, iPSCs, peptides, and longevity research \u2014 the rare scientist-blogger who translates frontier research without hype."
-    },
-    {
-      "name": "Make Anything \u2014 Devin Montes",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVc6AHfGw9b2zOE_ZGfmsnw",
-      "why": "A designer-maker channel focused on the intersection of high-level 3D modeling, artistic fabrication, and the aesthetics of what additive manufacturing can produce \u2014 craft-minded and visually sophisticated, not just a gear-review channel."
-    }
-  ]
+  "trial_sources": []
 }

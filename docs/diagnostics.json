@@ -1,25 +1,24 @@
 {
-  "feeds": 61,
-  "mined": 50,
-  "videos": 7,
+  "feeds": 52,
+  "mined": 52,
+  "videos": 6,
   "video_titles": [
     "No device could prove Einstein wrong... until now",
     "Is there something faster than light?",
     "When you lose weight where does it go?",
     "Matisse: The Red Studio: Great Art Explained",
     "This Resin 3D Printer Changed My Mind!",
-    "I Snuck a 3D Printer on Vacation!  #3dprinting #positron",
-    "I've Got a Smell Problem! #3dprinting  #diy"
+    "I Snuck a 3D Printer on Vacation!  #3dprinting #positron"
   ],
   "supplemental": false,
   "final_items": 5,
   "final_sources": [
-    "Apricitas Economics",
-    "MIT News / CSAIL",
-    "SDF Public Access UNIX",
-    "Scientific American / Physical Review Letters",
-    "loeffelholz-codex.org"
+    "Ars Technica",
+    "Brown University",
+    "MIT Technology Review",
+    "The Debrief / Aging Cell",
+    "manifold3d"
   ],
   "had_video": false,
-  "run_at": "2026-10-25T15:04:19.299459+00:00"
+  "run_at": "2026-10-26T17:35:31.752791+00:00"
 }
