@@ -1,73 +1,106 @@
 {
   "digest": {
-    "intro": "Energy infrastructure wars, AI's invisible workforce, and hardware that plays Doom.",
+    "intro": "AI cracks 27-year-old math, robots go to the border, Rome made nanoglass.",
     "sections": [
       {
-        "heading": "AI's actual texture",
+        "heading": "World",
         "items": [
           {
-            "title": "Mapping AI Colonialism, Block by Block",
-            "source": "Brown University",
-            "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
-            "blurb": "Brown senior Cunyan Ma built an interactive map connecting tech companies \u2014 through their intermediaries \u2014 to the data workers in the Global South whose annotation labor makes AI function. Most of what's known about this workforce comes from scattered journalism; this is the first attempt to aggregate databases, original collection, and news reports into a single visible geography. Ma frames it explicitly as 'AI colonialism made spatial' \u2014 and the map is freely available online.",
+            "title": "Israel votes \u2014 first election since October 7",
+            "source": "Atalayar / de Ar\u00edstegui",
+            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-27-october/20261027123521230104.html",
+            "blurb": "Israelis are at the polls today for the first time in nearly four years, with 22,000 police deployed and no bloc currently holding a majority \u2014 Netanyahu vs. Eisenkot, both right, with entirely different theories of the post-war order. Meanwhile the whole regional architecture is in motion: Qatar is brokering a five-day Hormuz-for-naval-blockade trade, Pezeshkian is in Moscow meeting Putin, and the Houthis just branded Egypt's Saudi deployment a declaration of war.",
             "tags": [
-              "ai",
-              "labor",
-              "political economy"
+              "geopolitics",
+              "middle east",
+              "elections"
             ]
           },
           {
-            "title": "The Safety Discourse Is Optimizing for the Wrong Disaster",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/10/26/1147645/the-focus-on-ai-safety-disasters-ignores-everyday-harms",
-            "blurb": "The piece makes a clean structural argument: industry-backed AI safety legislation targets catastrophic edge cases \u2014 the Hollywood scenarios \u2014 while the slow diffuse damage (dependency, cognitive atrophy, engineered envy) accrues unreported. A teenager with an unhealthy AI companion never appears in a lawsuit. A student who outsources all thinking to a chatbot doesn't make headlines. The bar 'doesn't encourage suicide' is technically clearable while a product still corrodes how an entire generation thinks.",
-            "tags": [
-              "ai",
-              "policy",
-              "culture"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Biology on the edge",
-        "items": [
-          {
-            "title": "60 Years of Cellular Aging, Reversed in One Conversion",
-            "source": "The Debrief / Aging Cell",
-            "url": "https://thedebrief.org/a-new-breakthrough-in-cellular-reprogramming-reverses-60-years-of-molecular-aging/",
-            "blurb": "University of Bonn researchers converted blood cells from an 80-year-old directly into neural stem cells \u2014 and the resulting cells showed molecular age markers under 20. The key detail: they bypassed induced pluripotency entirely, going cell-type to cell-type, which appears to carry the de-aging effect through the transition. Published in peer-reviewed Aging Cell; early-stage, not a therapy, but the mechanistic finding about what reprogramming does to the aging clock is genuinely novel.",
-            "tags": [
-              "longevity",
-              "cellular biology",
-              "reprogramming"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Off the map",
-        "items": [
-          {
-            "title": "Switzerland at 1:1 Scale, One Block Per Meter",
-            "source": "manifold3d",
-            "url": "https://blocks.manifold3d.ch/",
-            "blurb": "Someone rendered the entire country of Switzerland in Minecraft-style voxels at true 1:1 scale from SwissTopo open geodata \u2014 every block is one meter, the Matterhorn is exactly as tall and steep as the real one, and glaciers, lakes, forests, and dam walls are all present. A slider overlays the actual Swiss aerial photograph. The Jungfrau-Aletsch UNESCO region (2,400 km\u00b2) is free; the full country costs 15 CHF. It's territory-as-medium: the most literal possible collapse of cartography and fabrication logic into a single navigable object.",
-            "tags": [
-              "cartography",
-              "voxel",
-              "fabrication"
-            ]
-          },
-          {
-            "title": "The $40 Synth That Became a Community Firmware Playground",
+            "title": "Section 702 renewal push \u2014 while a damaging FISA court ruling stays buried",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/",
-            "blurb": "The M-Vave FM-1 launched as a cheap pocket FM synthesizer; by July, Reddit's r/synthdiy had reverse-engineered its firmware; by September, custom builds were shipping; by October, M-Vave responded not with a cease-and-desist but by open-sourcing the whole thing under GPLv3 and releasing an SDK with a browser-based workbench. There are now more community firmware projects than anyone can track \u2014 and yes, it plays Doom. It's a rare case of a hardware company leaning into the hack instead of killing it.",
+            "url": "https://arstechnica.com/tech-policy/2026/10/us-officials-want-section-702-renewed-before-damaging-court-ruling-goes-public/",
+            "blurb": "Seven months ago the Foreign Intelligence Surveillance Court found that intelligence analysts were pulling Americans' messages without the approvals, written justifications, or records the law requires \u2014 and approved another year of surveillance anyway. That ruling was supposed to be publicly released by September 13; it still hasn't been, and the administration is now pressing Congress to reauthorize Section 702 before the ruling surfaces. Senators Wyden and Schiff are calling it illegal withholding; the program itself lapsed in June but collection continues under the court's March approval.",
             "tags": [
-              "hardware",
-              "open source",
-              "synth"
+              "surveillance",
+              "civil liberties",
+              "law"
+            ]
+          },
+          {
+            "title": "Boston Dynamics employees petition to block robot dog sale to ICE \u2014 executives say no",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
+            "blurb": "More than 300 Boston Dynamics employees signed a petition \u2014 half anonymous \u2014 asking executives to cancel a $1.3M DHS contract sending modified Spot robots to ICE, after friends and family started asking them 'how can you live with yourselves.' Executives declined, promising the robots won't be weaponized, which is a promise with no enforcement mechanism. This is the dual-use dilemma made visceral: the people who built the thing can't stop what it becomes.",
+            "tags": [
+              "robotics",
+              "immigration",
+              "labor"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "The AI science claims",
+        "items": [
+          {
+            "title": "OpenAI says AI disproved the Exponential Time Hypothesis \u2014 here's what was actually proven",
+            "source": "MindStudio",
+            "url": "https://www.mindstudio.ai/blog/openai-ai-discoveries-math-physics-cs",
+            "blurb": "Three simultaneous claims: AI-generated proofs that (1) disprove the 27-year-old ETH \u2014 meaning the belief that scheduling, routing, and chip-layout problems have no fundamental shortcut around brute-force search may be wrong; (2) prove the local smoothing conjecture in all dimensions at once, where humans had only cracked it dimension-by-dimension, with the 3D case as recently as this year; and (3) partially advance the Yang-Mills existence proof underlying the strong nuclear force. All three are Lean-verified and sent to external experts including Nobel laureate David Gross. This explainer is the right place to start before hitting the preprint.",
+            "tags": [
+              "mathematics",
+              "ai",
+              "physics"
+            ]
+          },
+          {
+            "title": "Will the real Anthropic please stand up",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
+            "blurb": "Anthropic filed its IPO prospectus the same week a federal judge ruled it trained Claude on illegally obtained books \u2014 a $1.5B settlement covering nearly 500,000 works \u2014 and the 335-page filing simultaneously warns that its technology could 'pose catastrophic or existential risks to humanity' while asking investors to see their purchase as 'an opportunity to be part of something greater.' MIT Tech Review reads this as a decade of masterful narrative capture meeting its first stress test. The structural contradiction between safety-lab identity and public-market logic is now legally documented.",
+            "tags": [
+              "ai",
+              "copyright",
+              "business"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making and material",
+        "items": [
+          {
+            "title": "Genie 4: DeepMind's world-model generates interactive 3D environments in real time",
+            "source": "Google DeepMind",
+            "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+            "blurb": "Text or image prompt in, fully interactive navigable 3D world out \u2014 with simultaneous audio, ambient sound, and dialogue generated in real time using keyboard controls. Genie 4 builds on Gemini Omni for visual grounding and separate Gemini models for coherence and continuity, designed as much for robot training environments as for interactive experiences. For someone working in WebGL and generative 3D, this is the substrate question getting very loud very fast.",
+            "tags": [
+              "generative 3d",
+              "world models",
+              "interactive"
+            ]
+          },
+          {
+            "title": "Roman nanotechnology, rebuilt: The Lycurgus Cup's recipe cracked and cast as new sculpture",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/",
+            "blurb": "The Lycurgus Cup \u2014 made around 400 CE \u2014 glows green in reflected light and blood-red in transmitted light because Roman artisans accidentally suspended gold-silver nanoparticles in the glass when they added salt during melting, causing the electrons to vibrate differently depending on the observer's vantage point. University of Sheffield scientists finally cracked the exact recipe and rebuilt it as a contemporary sculpture with the same dichroic effect. It's the same phenomenon as daguerreotype color shifts and photonic crystal iridescence \u2014 ancient and modern nanotechnology arriving at the same optical trick from opposite directions.",
+            "tags": [
+              "materials",
+              "ancient technology",
+              "sculpture"
+            ]
+          },
+          {
+            "title": "Izumi Kato: Totemic figures at Perrotin New York \u2014 opens today",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/10/izumi-kato-paintings-sculptures/",
+            "blurb": "Kato's hitogata figures \u2014 part infant, part ancient, eyes swirling like pools \u2014 open today at Perrotin in a show where flat canvas and cast aluminum stones suspended from the ceiling play the same perceptual game as the Lycurgus Cup: meaning shifts with how you look. His wooden sculptures are painted with exactly the same approach as his canvases, collapsing the distinction between flat and volumetric. Worth the walk.",
+            "tags": [
+              "art",
+              "new york",
+              "sculpture"
             ]
           }
         ]
@@ -75,96 +108,100 @@
     ],
     "facts": [
       {
-        "fact": "Blood cells from an 80-year-old were converted into neural stem cells with biological age markers resembling those of a person under 20 \u2014 without passing through a pluripotent intermediate state.",
-        "url": "https://thedebrief.org/a-new-breakthrough-in-cellular-reprogramming-reverses-60-years-of-molecular-aging/"
+        "fact": "The FISA court ruling finding illegal warrantless searches of Americans' communications was supposed to be publicly released by September 13, 2026 \u2014 it still hasn't been, past the administration's own statutory deadline.",
+        "url": "https://arstechnica.com/tech-policy/2026/10/us-officials-want-section-702-renewed-before-damaging-court-ruling-goes-public/"
       },
       {
-        "fact": "The entire country of Switzerland has been rendered in Minecraft voxels at true 1:1 scale from open government geodata \u2014 every block is exactly one meter, including glacier geometry and dam walls.",
-        "url": "https://blocks.manifold3d.ch/"
+        "fact": "The Anthropic copyright settlement \u2014 $1.5 billion covering nearly 500,000 registered works \u2014 is described by the Authors Alliance as the largest copyright settlement involving an AI company.",
+        "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/"
       },
       {
-        "fact": "M-Vave responded to community reverse-engineering of the FM-1 synth not with a patch to block it, but by releasing the full application source code under GPLv3 and publishing an official SDK.",
-        "url": "https://arstechnica.com/gadgets/2026/10/from-impulse-purchase-to-pocket-studio-the-m-vave-fm-1/"
+        "fact": "Roman glassmakers in 400 CE accidentally created gold-silver nanoparticles in the Lycurgus Cup by adding salt during melting \u2014 the same physics behind daguerreotype color shifts and photonic crystal iridescence in butterfly wings.",
+        "url": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/"
       },
       {
-        "fact": "A Brown University undergraduate built the first geographic map linking AI companies through intermediaries to their Global South data workers \u2014 most prior knowledge of this workforce came only from individual journalism pieces.",
-        "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers"
+        "fact": "Since June 2026, organized thieves using GPS spoofing and hijacked freight-broker accounts have stolen more than $100 million in data-center-bound cargo \u2014 servers, fiber-optic cables, memory chips, and bitcoin mining machines \u2014 from US highways.",
+        "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/"
+      },
+      {
+        "fact": "OpenAI's AI proved the local smoothing conjecture in all dimensions simultaneously \u2014 a result humans had only achieved dimension-by-dimension, with the 3D case cracked as recently as 2025.",
+        "url": "https://www.mindstudio.ai/blog/openai-ai-discoveries-math-physics-cs"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Mauvais Sang",
-        "creator": "Leos Carax",
-        "why": "Carax builds a film that runs entirely on surface-as-system \u2014 color, gesture, music, and bodies in space as a kind of generative language. Denis Lavant's long sprint through a Paris night to David Bowie is one of cinema's great moments of pure expressive force; the rest of the film earns it.",
-        "url": "https://letterboxd.com/film/mauvais-sang/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film that works like a system \u2014 memory, image, time, and technology interlocked into something that feels less like a documentary and more like a piece of generative software for the brain. If you love the edge where technology reshapes how humans construct reality, this is the source text.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "UUmwelt",
-        "creator": "Pierre Huyghe",
-        "why": "Huyghe partnered with neuroscientists in Kyoto, had a subject imagine images while an fMRI scanned their brain activity, then let a neural network generate thousands of visual reconstructions from that data \u2014 hallucinatory, unstable mental images installed across MoMA's Sculpture Garden. It's the feedback loop between cognition, biology, and machine vision made physically inhabitable.",
-        "url": "https://www.moma.org/calendar/exhibitions/5908"
+        "title": "Blind Time Drawings",
+        "creator": "Robert Morris",
+        "why": "Morris made these with his eyes shut, recording duration and pressure rather than mark \u2014 the body as input device, the drawing as a readout of a process you can't see. It's the conceptual ancestor of everything from generative WebGL to biometric art, and it still hits harder than most of its descendants.",
+        "url": "https://www.moma.org/artists/4058"
       },
       {
         "medium": "music",
-        "title": "re:member",
-        "creator": "\u00d3lafur Arnalds",
-        "why": "Arnalds built a custom software system that triggers two self-playing pianos in response to what he plays live \u2014 a feedback loop where the room, the machines, and the human become one instrument. The album documents that system; hearing it live at Town Hall this week is the real thing.",
-        "url": "https://olafurarnalds.com"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "Fifty-four pieces built almost entirely from texture and environmental drift \u2014 it functions less as music you listen to and more as a system you inhabit. The album's total lack of titles (originally) and refusal of narrative structure makes it feel like a generative environment rather than a composition.",
+        "url": "https://www.youtube.com/watch?v=YnJ4lv5KCVY"
       }
     ],
     "events": [
       {
         "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd Street, Manhattan",
-        "date_start": "2026-10-26",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, Manhattan",
+        "date_start": "2026-10-27",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Freestanding screens throughout MoMA's outdoor sculpture garden generate hallucinatory, shifting images in real time from fMRI brain-scan data and machine learning \u2014 the installation responds to visitor presence via sensors, making the space itself a living cognitive system before it closes November 29.",
-        "url": "https://www.moma.org/calendar/exhibitions/5908",
-        "date": "Oct 26 \u2013 Nov 29"
+        "why": "Freestanding screens across MoMA's outdoor sculpture garden show hallucinatory images generated by a neural network trained on fMRI brain scans \u2014 your gaze and movement, detected by sensors, influence which images appear and in what sequence, making you a live variable in a system that tries to reconstruct thought.",
+        "url": "https://www.moma.org/calendar/exhibitions/5765",
+        "date": "Oct 27 \u2013 Nov 29"
       },
       {
-        "name": "Synthesize Me: Olga Titus & Michael Dickey",
-        "venue": "IRL Gallery, New York",
-        "date_start": "2026-10-26",
-        "date_end": "2026-11-07",
+        "name": "Haegue Yang: Through",
+        "venue": "Dia Beacon, Beacon, NY",
+        "date_start": "2026-10-27",
+        "date_end": "2026-11-10",
         "category": "museum",
-        "why": "A two-person show pairing artists whose work sits exactly at the edge where material and process collapse into each other \u2014 the kind of tightly focused gallery exhibition that rewards close looking over spectacle.",
-        "url": "https://irlgallery.com",
-        "date": "Oct 26 \u2013 Nov 7"
+        "why": "Yang's largest US commission fills both levels of Dia Beacon with a new body of work structured by Five Phases cosmology and a decade-long posthumous collaboration with exiled Korean composer Isang Yun \u2014 it's a translation system, turning music, philosophy, and political history into spatial and chromatic form across an industrial minimalist building.",
+        "url": "https://www.diaart.org/exhibition/exhibitions-projects/haegue-yang-through-exhibition",
+        "date": "Oct 27 \u2013 Nov 10"
       },
       {
-        "name": "EJ Hauser: Sun Water Sky",
-        "venue": "Derek Eller Gallery, New York",
-        "date_start": "2026-10-26",
-        "date_end": "2026-11-14",
+        "name": "Oliver Bak \u2014 Solo Exhibition",
+        "venue": "Spr\u00fcth Magers New York, Manhattan",
+        "date_start": "2026-11-01",
+        "date_end": "2026-11-10",
         "category": "museum",
-        "why": "Hauser's paintings feel like systems that almost resolve \u2014 color and form pressing against legibility without ever quite becoming landscape or abstraction; the kind of quiet obsessive studio work that makes you want to go back to whatever you're building.",
-        "url": "https://www.derekeller.com",
-        "date": "Oct 26 \u2013 Nov 14"
+        "why": "The young Danish painter's New York debut at Spr\u00fcth Magers: figures and flora submerged in translucent veils, art-historically loaded but temporally unmoored \u2014 Bak's paintings feel like they're emerging from and dissolving back into their own surfaces simultaneously, the kind of craft obsession that makes you want to go make something.",
+        "url": "https://spruethmagers.com/exhibitions/upcoming/",
+        "date": "Nov 1\u201310"
       },
       {
-        "name": "\u00d3lafur Arnalds \u2014 Two Nights at The Town Hall",
-        "venue": "The Town Hall, 123 West 43rd Street, Manhattan",
-        "date_start": "2026-11-04",
-        "date_end": "2026-11-05",
-        "category": "concert",
-        "why": "Two intimate nights (1,500-seat historic venue) from the Icelandic composer whose live show is built around generative software and self-playing pianos \u2014 a rare case where the system IS the performance.",
-        "url": "https://www.thetownhall.org",
-        "date": "Nov 4\u20135"
-      },
-      {
-        "name": "Salon Art + Design \u2014 15th Edition",
-        "venue": "Park Avenue Armory, 643 Park Avenue, Manhattan",
+        "name": "Playback: The Brooklyn Watch Party",
+        "venue": "Brooklyn Academy of Music (BAM), Brooklyn",
         "date_start": "2026-11-06",
-        "date_end": "2026-11-08",
+        "date_end": "2026-11-07",
+        "category": "concert",
+        "why": "Spike Lee, BAM, and NY Liberty owner Clara Wu Tsai co-produced a two-day festival of repertory film, live performances, and a free street fair \u2014 it's a deliberate attempt to build communal ritual around film and Brooklyn cultural identity, which is worth watching as an experiment in what happens when institutions try to re-create a scene.",
+        "url": "https://www.bam.org",
+        "date": "Nov 6\u20137"
+      },
+      {
+        "name": "Boutique Design New York (BDNY) 2026",
+        "venue": "Jacob K. Javits Center, Manhattan",
+        "date_start": "2026-11-08",
+        "date_end": "2026-11-09",
         "category": "popup",
-        "why": "50+ international galleries filling the Armory's 55,000-sq-ft Drill Hall with collectible design, furniture, ceramics, lighting, and 20th-century art \u2014 the rare fair where a 1970s Italian chair and a postwar painting share a booth and neither feels out of place.",
-        "url": "https://www.thesalonny.com",
-        "date": "Nov 6\u20138"
+        "why": "A hospitality and spatial design fair with 700+ brands including 100 first-timers, organized around immersive installations and material environments \u2014 less trade show, more a compressed survey of where sensory design is heading, useful if you're watching how physical space gets designed as an experience system.",
+        "url": "https://bdny.com",
+        "date": "Nov 8\u20139"
       }
     ]
   },
