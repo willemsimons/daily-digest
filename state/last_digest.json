@@ -1,106 +1,123 @@
 {
   "digest": {
-    "intro": "AI cracks 27-year-old math, robots go to the border, Rome made nanoglass.",
+    "intro": "War economics, cellular time travel, and the machines that are quietly eating everything.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Israel votes \u2014 first election since October 7",
-            "source": "Atalayar / de Ar\u00edstegui",
-            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-27-october/20261027123521230104.html",
-            "blurb": "Israelis are at the polls today for the first time in nearly four years, with 22,000 police deployed and no bloc currently holding a majority \u2014 Netanyahu vs. Eisenkot, both right, with entirely different theories of the post-war order. Meanwhile the whole regional architecture is in motion: Qatar is brokering a five-day Hormuz-for-naval-blockade trade, Pezeshkian is in Moscow meeting Putin, and the Houthis just branded Egypt's Saudi deployment a declaration of war.",
+            "title": "US Warns Gulf States of a 'Short and Intense' Iran Strike After November 3",
+            "source": "Atalayar / WSJ",
+            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-28-october/20261028123724230125.html",
+            "blurb": "Washington has privately warned Gulf Arab states to prepare for a post-midterm military campaign against Iran's infrastructure and nuclear facilities \u2014 a Patriot battery is already en route to Israel, a second carrier strike group arrives next month, and Brent is back above $115 after Houthi missiles targeted the Ras Tanura refinery in Saudi Arabia. Trump hasn't formally decided, but his public language ('maybe we'll do another little Epic Fury') and the Pentagon's release of a $47.1B war cost estimate suggest the decision architecture is being built. The signals are coherent enough that the Gulf states are taking them seriously.",
             "tags": [
+              "iran",
               "geopolitics",
-              "middle east",
-              "elections"
+              "middle east"
             ]
           },
           {
-            "title": "Section 702 renewal push \u2014 while a damaging FISA court ruling stays buried",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/10/us-officials-want-section-702-renewed-before-damaging-court-ruling-goes-public/",
-            "blurb": "Seven months ago the Foreign Intelligence Surveillance Court found that intelligence analysts were pulling Americans' messages without the approvals, written justifications, or records the law requires \u2014 and approved another year of surveillance anyway. That ruling was supposed to be publicly released by September 13; it still hasn't been, and the administration is now pressing Congress to reauthorize Section 702 before the ruling surfaces. Senators Wyden and Schiff are calling it illegal withholding; the program itself lapsed in June but collection continues under the court's March approval.",
+            "title": "Israel's Election: No Majority, Highest Turnout Since 1999",
+            "source": "Atalayar / Reuters",
+            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-28-october/20261028123724230125.html",
+            "blurb": "Israel's first election since October 7 ended with 77.7% turnout \u2014 the highest since 1999 \u2014 and no one close to a governing majority: Netanyahu's bloc sits around 54 seats, Eisenkot's at 49, with Palestinian parties winning 17 seats in their strongest performance ever. Both leading candidates have ruled out governing with those Palestinian parties, meaning neither can reach 61. The result lands at the worst possible moment for anyone trying to coordinate a coherent regional posture ahead of a possible Iran operation.",
             "tags": [
-              "surveillance",
-              "civil liberties",
-              "law"
-            ]
-          },
-          {
-            "title": "Boston Dynamics employees petition to block robot dog sale to ICE \u2014 executives say no",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/10/boston-dynamics-employees-want-to-block-sale-of-robot-dogs-to-ice/",
-            "blurb": "More than 300 Boston Dynamics employees signed a petition \u2014 half anonymous \u2014 asking executives to cancel a $1.3M DHS contract sending modified Spot robots to ICE, after friends and family started asking them 'how can you live with yourselves.' Executives declined, promising the robots won't be weaponized, which is a promise with no enforcement mechanism. This is the dual-use dilemma made visceral: the people who built the thing can't stop what it becomes.",
-            "tags": [
-              "robotics",
-              "immigration",
-              "labor"
+              "israel",
+              "elections",
+              "geopolitics"
             ]
           }
         ]
       },
       {
-        "heading": "The AI science claims",
+        "heading": "Making and Fabrication",
         "items": [
           {
-            "title": "OpenAI says AI disproved the Exponential Time Hypothesis \u2014 here's what was actually proven",
-            "source": "MindStudio",
-            "url": "https://www.mindstudio.ai/blog/openai-ai-discoveries-math-physics-cs",
-            "blurb": "Three simultaneous claims: AI-generated proofs that (1) disprove the 27-year-old ETH \u2014 meaning the belief that scheduling, routing, and chip-layout problems have no fundamental shortcut around brute-force search may be wrong; (2) prove the local smoothing conjecture in all dimensions at once, where humans had only cracked it dimension-by-dimension, with the 3D case as recently as this year; and (3) partially advance the Yang-Mills existence proof underlying the strong nuclear force. All three are Lean-verified and sent to external experts including Nobel laureate David Gross. This explainer is the right place to start before hitting the preprint.",
+            "title": "The Grid: A Factory-Scale Robot That Builds PCBs On Demand in Massachusetts",
+            "source": "CircuitHub",
+            "url": "https://www.circuithub.com/post/unveiling-the-grid",
+            "blurb": "CircuitHub's Grid uses magnetically levitating movers to carry each board on its own unique route through solder paste printing, component placement, reflow, and inspection \u2014 no changeovers, no per-design setup, no minimum order. They've been running it quietly for five years and are now making it public; the pitch is that it handles high-mix, low-volume work (ten of this, a hundred of that, new revision next week) faster than Shenzhen at competitive cost. The physical-digital fabrication loop closing in hardware, at small-batch scale, in the US.",
             "tags": [
-              "mathematics",
-              "ai",
-              "physics"
+              "fabrication",
+              "hardware",
+              "manufacturing"
             ]
           },
           {
-            "title": "Will the real Anthropic please stand up",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
-            "blurb": "Anthropic filed its IPO prospectus the same week a federal judge ruled it trained Claude on illegally obtained books \u2014 a $1.5B settlement covering nearly 500,000 works \u2014 and the 335-page filing simultaneously warns that its technology could 'pose catastrophic or existential risks to humanity' while asking investors to see their purchase as 'an opportunity to be part of something greater.' MIT Tech Review reads this as a decade of masterful narrative capture meeting its first stress test. The structural contradiction between safety-lab identity and public-market logic is now legally documented.",
+            "title": "CNC Stone Carving \u2014 Carmelite Gothic",
+            "source": "Carmelite Gothic / Hacker News",
+            "url": "https://carmelitegothic.com/cnc-stone-carving/",
+            "blurb": "Someone is using CNC machining to reproduce Gothic cathedral stonework with the obsessive precision that medieval masons applied by hand over decades. It's the rare case where digital fabrication isn't flattening a craft but restoring access to one that was effectively lost \u2014 the kind of unreasonably deep commitment to a material and a tradition that makes everything else feel approximate.",
             "tags": [
-              "ai",
-              "copyright",
-              "business"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Making and material",
-        "items": [
-          {
-            "title": "Genie 4: DeepMind's world-model generates interactive 3D environments in real time",
-            "source": "Google DeepMind",
-            "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-            "blurb": "Text or image prompt in, fully interactive navigable 3D world out \u2014 with simultaneous audio, ambient sound, and dialogue generated in real time using keyboard controls. Genie 4 builds on Gemini Omni for visual grounding and separate Gemini models for coherence and continuity, designed as much for robot training environments as for interactive experiences. For someone working in WebGL and generative 3D, this is the substrate question getting very loud very fast.",
-            "tags": [
-              "generative 3d",
-              "world models",
-              "interactive"
+              "cnc",
+              "craft",
+              "fabrication"
             ]
           },
           {
-            "title": "Roman nanotechnology, rebuilt: The Lycurgus Cup's recipe cracked and cast as new sculpture",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/",
-            "blurb": "The Lycurgus Cup \u2014 made around 400 CE \u2014 glows green in reflected light and blood-red in transmitted light because Roman artisans accidentally suspended gold-silver nanoparticles in the glass when they added salt during melting, causing the electrons to vibrate differently depending on the observer's vantage point. University of Sheffield scientists finally cracked the exact recipe and rebuilt it as a contemporary sculpture with the same dichroic effect. It's the same phenomenon as daguerreotype color shifts and photonic crystal iridescence \u2014 ancient and modern nanotechnology arriving at the same optical trick from opposite directions.",
-            "tags": [
-              "materials",
-              "ancient technology",
-              "sculpture"
-            ]
-          },
-          {
-            "title": "Izumi Kato: Totemic figures at Perrotin New York \u2014 opens today",
+            "title": "Tom Hegen's 'The Mineral Age': Aerial Photography of the Green Transition's Extraction Cost",
             "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/10/izumi-kato-paintings-sculptures/",
-            "blurb": "Kato's hitogata figures \u2014 part infant, part ancient, eyes swirling like pools \u2014 open today at Perrotin in a show where flat canvas and cast aluminum stones suspended from the ceiling play the same perceptual game as the Lycurgus Cup: meaning shifts with how you look. His wooden sculptures are painted with exactly the same approach as his canvases, collapsing the distinction between flat and volumetric. Worth the walk.",
+            "url": "https://www.thisiscolossal.com/2026/10/tom-hegen-the-mineral-age-photo-book/",
+            "blurb": "German photographer Tom Hegen spent six years flying over the sites that will supply the 6.5 billion tons of cobalt, copper, lithium, and nickel the world needs to mine before 2050 \u2014 and the resulting 247-image book makes the systemic violence legible as pure color and geometry: candy-pink lithium evaporation ponds in the Atacama, ochre nickel pits butting against Indonesian rainforest. Systems made visible from altitude is a particular kind of argument, and Hegen makes it without editorializing.",
             "tags": [
-              "art",
-              "new york",
-              "sculpture"
+              "photography",
+              "climate",
+              "systems"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "AI at the edges",
+        "items": [
+          {
+            "title": "The October Inflection Point for Vibe Game Development",
+            "source": "Simon Willison",
+            "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+            "blurb": "Willison's claim is specific: Claude Opus 5.5 crossed a threshold this month where telling it to 'make it a LOT more fun' actually worked \u2014 not aesthetically but structurally, producing genuine gameplay loops with proper challenge curves. He built four games he actually enjoyed playing, and reports that multiple people at Foo Camp last weekend had independently hit the same realization. The new bottleneck, he says, isn't execution \u2014 it's concept.",
+            "tags": [
+              "ai",
+              "generative",
+              "game design"
+            ]
+          },
+          {
+            "title": "Delaware Proposes Letting AI Agents Run Entire Companies \u2014 With Owners Off the Hook",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
+            "blurb": "Delaware's draft 'Artificial Intelligence Company' bill would create a new corporate entity class operated entirely by AI agents, with human owners shielded from liability for the AI's decisions \u2014 any lawful purpose except banking. House Oversight chair James Comer is now demanding documents and signaling a federal law to cap state AI regulatory authority, framing it as a liability-laundering vehicle. The structure being proposed here is genuinely novel: not AI as tool inside a company, but AI as the legally operative entity of the company.",
+            "tags": [
+              "ai",
+              "law",
+              "institutions"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Off the map",
+        "items": [
+          {
+            "title": "The 1607 Bristol Channel Flood and the Meaning-Making Machine of Early Print",
+            "source": "The Public Domain Review",
+            "url": "https://publicdomainreview.org/essay/wonderful-weather",
+            "blurb": "When a storm surge killed 2,000 people and inundated 518 square kilometers around the Bristol Channel in January 1607, London's presses immediately converted the disaster into divine judgment \u2014 pamphleteer William Jones had God's interpretation in print before the floodwaters receded. Erik Crnkovich's essay tracks how the Little Ice Age's chronic weather extremes and the booming early-modern news industry co-evolved to manufacture a genre: the providential disaster narrative, which framed every earthquake, flood, and apparition as a moral weathervane. It's a portrait of a society doing in broadsheets exactly what we do in social media \u2014 collapsing the incomprehensible into shared meaning at speed.",
+            "tags": [
+              "history",
+              "media",
+              "meaning-making"
+            ]
+          },
+          {
+            "title": "The Amarna Letters: Bronze Age Rulers' Petty Disputes and Pleas for Gold",
+            "source": "Aeon Video",
+            "url": "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed",
+            "thumbnail": "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed",
+            "blurb": "The Amarna Letters are 3,400-year-old clay tablets \u2014 diplomatic correspondence between Egyptian pharaohs and the rulers of Babylon, Assyria, and the Hittites \u2014 and they read like a group chat of thin-skinned leaders haggling over gold shipments and complaining about protocol slights. Aeon Video tends to be tightly produced and genuinely educational; this one earns its place on a day when you're watching two nuclear-adjacent powers eye each other across the Persian Gulf.",
+            "tags": [
+              "history",
+              "diplomacy",
+              "video"
             ]
           }
         ]
@@ -108,24 +125,20 @@
     ],
     "facts": [
       {
-        "fact": "The FISA court ruling finding illegal warrantless searches of Americans' communications was supposed to be publicly released by September 13, 2026 \u2014 it still hasn't been, past the administration's own statutory deadline.",
-        "url": "https://arstechnica.com/tech-policy/2026/10/us-officials-want-section-702-renewed-before-damaging-court-ruling-goes-public/"
+        "fact": "The 1607 Bristol Channel flood killed 2,000 people and inundated 518 square kilometers \u2014 and London pamphleteers had theological explanations in print almost immediately, treating the disaster as divine judgment.",
+        "url": "https://publicdomainreview.org/essay/wonderful-weather"
       },
       {
-        "fact": "The Anthropic copyright settlement \u2014 $1.5 billion covering nearly 500,000 registered works \u2014 is described by the Authors Alliance as the largest copyright settlement involving an AI company.",
-        "url": "https://stanforddaily.com/2026/10/27/professors-books-pirated-to-train-claude/"
+        "fact": "Israel's October 2026 election saw 77.7% voter turnout \u2014 the highest since 1999 \u2014 yet Palestinian parties, despite winning their strongest-ever 17 Knesset seats, were ruled out as coalition partners by both leading candidates.",
+        "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-28-october/20261028123724230125.html"
       },
       {
-        "fact": "Roman glassmakers in 400 CE accidentally created gold-silver nanoparticles in the Lycurgus Cup by adding salt during melting \u2014 the same physics behind daguerreotype color shifts and photonic crystal iridescence in butterfly wings.",
-        "url": "https://arstechnica.com/science/2026/10/scientists-recreate-the-1600-year-old-recipe-of-lycurgus-cup/"
+        "fact": "Delaware's proposed 'Artificial Intelligence Company' bill would allow AI agents to legally operate entire businesses in any industry except banking, with human owners shielded from liability for the AI's decisions.",
+        "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
       },
       {
-        "fact": "Since June 2026, organized thieves using GPS spoofing and hijacked freight-broker accounts have stolen more than $100 million in data-center-bound cargo \u2014 servers, fiber-optic cables, memory chips, and bitcoin mining machines \u2014 from US highways.",
-        "url": "https://arstechnica.com/tech-policy/2026/10/highway-thieves-are-spoofing-gps-to-steal-millions-in-data-center-bound-cargo/"
-      },
-      {
-        "fact": "OpenAI's AI proved the local smoothing conjecture in all dimensions simultaneously \u2014 a result humans had only achieved dimension-by-dimension, with the 3D case cracked as recently as 2025.",
-        "url": "https://www.mindstudio.ai/blog/openai-ai-discoveries-math-physics-cs"
+        "fact": "The global green transition is projected to require mining 6.5 billion tons of cobalt, copper, lithium, nickel, and other materials before 2050 \u2014 most of it concentrated in a handful of countries already most exposed to climate impacts.",
+        "url": "https://www.thisiscolossal.com/2026/10/tom-hegen-the-mineral-age-photo-book/"
       }
     ],
     "make_something": null,
@@ -134,74 +147,74 @@
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film that works like a system \u2014 memory, image, time, and technology interlocked into something that feels less like a documentary and more like a piece of generative software for the brain. If you love the edge where technology reshapes how humans construct reality, this is the source text.",
+        "why": "A first-person essay-film structured as letters from a wandering cameraman \u2014 it's less a documentary than a meditation on how memory, image, and ritual encode culture, traveling from Tokyo's vending-machine shrines to Guinea-Bissau's post-revolutionary ceremonies. Obsessive systems-thinking disguised as travelogue; the invisible forces you love are its entire subject.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
-        "medium": "art",
-        "title": "Blind Time Drawings",
-        "creator": "Robert Morris",
-        "why": "Morris made these with his eyes shut, recording duration and pressure rather than mark \u2014 the body as input device, the drawing as a readout of a process you can't see. It's the conceptual ancestor of everything from generative WebGL to biometric art, and it still hits harder than most of its descendants.",
-        "url": "https://www.moma.org/artists/4058"
+        "medium": "music",
+        "title": "Hubris",
+        "creator": "Oren Ambarchi",
+        "why": "A single 39-minute piece built entirely from guitar, bass, and drums locked into interlocking rhythmic systems that gradually drift and compound \u2014 it's generative logic disguised as rock music, the kind of obsessive narrow-focus craft that reveals depth the longer you stay inside it.",
+        "url": "https://orenambarchi.bandcamp.com/album/hubris"
       },
       {
-        "medium": "music",
-        "title": "Selected Ambient Works Volume II",
-        "creator": "Aphex Twin",
-        "why": "Fifty-four pieces built almost entirely from texture and environmental drift \u2014 it functions less as music you listen to and more as a system you inhabit. The album's total lack of titles (originally) and refusal of narrative structure makes it feel like a generative environment rather than a composition.",
-        "url": "https://www.youtube.com/watch?v=YnJ4lv5KCVY"
+        "medium": "art",
+        "title": "Haegue Yang: Through",
+        "creator": "Haegue Yang",
+        "why": "Yang's kinetic, material sculptures \u2014 Venetian blind slats, bells, sensor-driven light \u2014 function as physical systems that encode cultural memory and ritual through industrial materials. The DIA Beacon space turns her work into environment; the physical-digital edge you build in lives inside the formal logic she's worked out over decades.",
+        "url": "https://www.diaart.org/exhibition/exhibitions-projects/haegue-yang-through"
       }
     ],
     "events": [
       {
         "name": "Pierre Huyghe: UUmwelt",
         "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, Manhattan",
-        "date_start": "2026-10-27",
+        "date_start": "2026-10-28",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Freestanding screens across MoMA's outdoor sculpture garden show hallucinatory images generated by a neural network trained on fMRI brain scans \u2014 your gaze and movement, detected by sensors, influence which images appear and in what sequence, making you a live variable in a system that tries to reconstruct thought.",
-        "url": "https://www.moma.org/calendar/exhibitions/5765",
-        "date": "Oct 27 \u2013 Nov 29"
+        "why": "fMRI brain scans fed to a neural net that generates hallucinatory visual reconstructions, spread across freestanding screens in MoMA's garden and activated in real time by visitor gaze and cancer-cell mutation data \u2014 it's literally a system that thinks alongside you, and it closes in a month.",
+        "url": "https://www.moma.org/calendar/exhibitions/5757",
+        "date": "Oct 28 \u2013 Nov 29"
       },
       {
-        "name": "Haegue Yang: Through",
-        "venue": "Dia Beacon, Beacon, NY",
-        "date_start": "2026-10-27",
-        "date_end": "2026-11-10",
+        "name": "EJ Hauser: Sun Water Sky",
+        "venue": "Derek Eller Gallery, 38 Walker Street, Manhattan",
+        "date_start": "2026-10-28",
+        "date_end": "2026-11-14",
         "category": "museum",
-        "why": "Yang's largest US commission fills both levels of Dia Beacon with a new body of work structured by Five Phases cosmology and a decade-long posthumous collaboration with exiled Korean composer Isang Yun \u2014 it's a translation system, turning music, philosophy, and political history into spatial and chromatic form across an industrial minimalist building.",
-        "url": "https://www.diaart.org/exhibition/exhibitions-projects/haegue-yang-through-exhibition",
-        "date": "Oct 27 \u2013 Nov 10"
+        "why": "Hauser's paintings sit at the edge of landscape and pure mark-making \u2014 intuitive systems of color that read simultaneously as atmosphere and abstraction, the kind of expressive surface with deep structural logic underneath that tends to make painters want to go back to the studio.",
+        "url": "https://www.derekeller.com",
+        "date": "Oct 28 \u2013 Nov 14"
+      },
+      {
+        "name": "Oren Ambarchi Solo \u2014 Kou Records at Blank Forms",
+        "venue": "Blank Forms, 151 Lafayette Street, 6th floor, Manhattan",
+        "date_start": "2026-10-31",
+        "date_end": "2026-10-31",
+        "category": "concert",
+        "why": "Ambarchi flying in from Berlin for a rare solo set at one of the city's best small listening spaces \u2014 extended guitar with a new record just out, and the room holds the obsessive craft without diluting it.",
+        "url": "https://www.blankforms.org/events/kou-records-at-blank-forms-fall-2026-season",
+        "date": "Sat, Oct 31"
+      },
+      {
+        "name": "Oren Ambarchi / Andrew Cyrille / Cyro Baptista \u2014 First-Ever Trio",
+        "venue": "Blank Forms, 151 Lafayette Street, 6th floor, Manhattan",
+        "date_start": "2026-11-01",
+        "date_end": "2026-11-01",
+        "category": "concert",
+        "why": "Night two of Ambarchi's residency pairs him with jazz percussion legend Andrew Cyrille and Brazilian percussionist/vocalist Cyro Baptista for a completely improvised trio that has never played together before \u2014 three distinct musical systems colliding live.",
+        "url": "https://www.viewcy.com/event/night_two__oren_amba",
+        "date": "Sun, Nov 1"
       },
       {
         "name": "Oliver Bak \u2014 Solo Exhibition",
-        "venue": "Spr\u00fcth Magers New York, Manhattan",
+        "venue": "Spr\u00fcth Magers New York, 22 East 80th Street",
         "date_start": "2026-11-01",
-        "date_end": "2026-11-10",
+        "date_end": "2026-11-30",
         "category": "museum",
-        "why": "The young Danish painter's New York debut at Spr\u00fcth Magers: figures and flora submerged in translucent veils, art-historically loaded but temporally unmoored \u2014 Bak's paintings feel like they're emerging from and dissolving back into their own surfaces simultaneously, the kind of craft obsession that makes you want to go make something.",
+        "why": "The young Danish painter's New York debut at Spr\u00fcth Magers \u2014 his oil-and-wax figures emerge from and dissolve back into their backgrounds, monochromatic veils over bodies and blossoms that blur the boundary between presence and environment; a rare gallery show with real pictorial ambition.",
         "url": "https://spruethmagers.com/exhibitions/upcoming/",
-        "date": "Nov 1\u201310"
-      },
-      {
-        "name": "Playback: The Brooklyn Watch Party",
-        "venue": "Brooklyn Academy of Music (BAM), Brooklyn",
-        "date_start": "2026-11-06",
-        "date_end": "2026-11-07",
-        "category": "concert",
-        "why": "Spike Lee, BAM, and NY Liberty owner Clara Wu Tsai co-produced a two-day festival of repertory film, live performances, and a free street fair \u2014 it's a deliberate attempt to build communal ritual around film and Brooklyn cultural identity, which is worth watching as an experiment in what happens when institutions try to re-create a scene.",
-        "url": "https://www.bam.org",
-        "date": "Nov 6\u20137"
-      },
-      {
-        "name": "Boutique Design New York (BDNY) 2026",
-        "venue": "Jacob K. Javits Center, Manhattan",
-        "date_start": "2026-11-08",
-        "date_end": "2026-11-09",
-        "category": "popup",
-        "why": "A hospitality and spatial design fair with 700+ brands including 100 first-timers, organized around immersive installations and material environments \u2014 less trade show, more a compressed survey of where sensory design is heading, useful if you're watching how physical space gets designed as an experience system.",
-        "url": "https://bdny.com",
-        "date": "Nov 8\u20139"
+        "date": "Nov 1\u201330"
       }
     ]
   },

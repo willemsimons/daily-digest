@@ -1,24 +1,28 @@
 {
-  "feeds": 82,
-  "mined": 51,
-  "videos": 5,
+  "feeds": 86,
+  "mined": 45,
+  "videos": 6,
   "video_titles": [
     "Why doesn't your heart get tired like other muscles do?",
     "No device could prove Einstein wrong... until now",
     "Is there something faster than light?",
+    "What is the point of art Fairs?",
     "Matisse: The Red Studio: Great Art Explained",
     "This Resin 3D Printer Changed My Mind!"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
+    "Aeon Video",
     "Ars Technica",
-    "Atalayar / de Ar\u00edstegui",
+    "Atalayar / Reuters",
+    "Atalayar / WSJ",
+    "Carmelite Gothic / Hacker News",
+    "CircuitHub",
     "Colossal",
-    "Google DeepMind",
-    "MIT Technology Review",
-    "MindStudio"
+    "Simon Willison",
+    "The Public Domain Review"
   ],
-  "had_video": false,
-  "run_at": "2026-10-27T16:51:33.892116+00:00"
+  "had_video": true,
+  "run_at": "2026-10-28T17:19:40.419174+00:00"
 }
