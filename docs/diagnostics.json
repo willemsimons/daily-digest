@@ -1,11 +1,12 @@
 {
-  "feeds": 86,
-  "mined": 45,
-  "videos": 6,
+  "feeds": 88,
+  "mined": 43,
+  "videos": 7,
   "video_titles": [
     "Why doesn't your heart get tired like other muscles do?",
     "No device could prove Einstein wrong... until now",
     "Is there something faster than light?",
+    "3D-printed, alcohol-powered, Einstein-Szilard absorption refrigerator",
     "What is the point of art Fairs?",
     "Matisse: The Red Studio: Great Art Explained",
     "This Resin 3D Printer Changed My Mind!"
@@ -13,16 +14,15 @@
   "supplemental": false,
   "final_items": 9,
   "final_sources": [
-    "Aeon Video",
+    "Applied Science (YouTube)",
     "Ars Technica",
-    "Atalayar / Reuters",
-    "Atalayar / WSJ",
-    "Carmelite Gothic / Hacker News",
-    "CircuitHub",
     "Colossal",
-    "Simon Willison",
-    "The Public Domain Review"
+    "Democracy Now",
+    "Divyansh Agrawal",
+    "Simon Willison / Jacob Sansbury",
+    "The Cipher Brief / Atalayar",
+    "nullpt.rs"
   ],
   "had_video": true,
-  "run_at": "2026-10-28T17:19:40.419174+00:00"
+  "run_at": "2026-10-29T17:34:27.369264+00:00"
 }

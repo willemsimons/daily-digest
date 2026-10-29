@@ -1,95 +1,107 @@
 {
   "digest": {
-    "intro": "War economics, cellular time travel, and the machines that are quietly eating everything.",
+    "intro": "Oil tankers burning, DHS identities exposed, and a CPU baked into a language model.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "US Warns Gulf States of a 'Short and Intense' Iran Strike After November 3",
-            "source": "Atalayar / WSJ",
-            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-28-october/20261028123724230125.html",
-            "blurb": "Washington has privately warned Gulf Arab states to prepare for a post-midterm military campaign against Iran's infrastructure and nuclear facilities \u2014 a Patriot battery is already en route to Israel, a second carrier strike group arrives next month, and Brent is back above $115 after Houthi missiles targeted the Ras Tanura refinery in Saudi Arabia. Trump hasn't formally decided, but his public language ('maybe we'll do another little Epic Fury') and the Pentagon's release of a $47.1B war cost estimate suggest the decision architecture is being built. The signals are coherent enough that the Gulf states are taking them seriously.",
+            "title": "Three Oil Tankers Erupt in Flames Near the Strait of Hormuz",
+            "source": "Democracy Now",
+            "url": "https://democracynow.org/2026/10/29/headlines",
+            "blurb": "Sea mines hit tankers at one of the world's most critical energy chokepoints as an oil spill simultaneously reaches UAE beaches \u2014 the Iran conflict's economic pressure campaign has turned kinetic in a way that could move energy markets fast. Meanwhile, Israeli elections produced no clear winner: Netanyahu's bloc likely falls short of 61 seats, and Arab parties won an unprecedented 19 seats on surging Palestinian-citizen turnout, putting them in a position to help form a coalition for the first time.",
             "tags": [
-              "iran",
               "geopolitics",
-              "middle east"
+              "iran",
+              "israel"
             ]
           },
           {
-            "title": "Israel's Election: No Majority, Highest Turnout Since 1999",
-            "source": "Atalayar / Reuters",
-            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-28-october/20261028123724230125.html",
-            "blurb": "Israel's first election since October 7 ended with 77.7% turnout \u2014 the highest since 1999 \u2014 and no one close to a governing majority: Netanyahu's bloc sits around 54 seats, Eisenkot's at 49, with Palestinian parties winning 17 seats in their strongest performance ever. Both leading candidates have ruled out governing with those Palestinian parties, meaning neither can reach 61. The result lands at the worst possible moment for anyone trying to coordinate a coherent regional posture ahead of a possible Iran operation.",
+            "title": "U.S. Warns Gulf States of Post-Midterm Iran Escalation Window",
+            "source": "The Cipher Brief / Atalayar",
+            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-26-october/20261026180000230103.html",
+            "blurb": "Washington privately warned Gulf partners of a possible brief, intense resumption of operations against Iran after the November 3 midterms \u2014 a diplomatic signal that the pause is tactical, not terminal. Pentagon costs of the Iran war have already crossed $47 billion, and Zelensky separately opened the door to offering Russia security guarantees for the first time, suggesting multiple frozen conflicts are approaching inflection points simultaneously.",
             "tags": [
-              "israel",
-              "elections",
-              "geopolitics"
+              "geopolitics",
+              "iran",
+              "ukraine"
+            ]
+          },
+          {
+            "title": "As U.S. Ties Fray, Europe Plans First Undersea Cable to Greenland \u2014 Bypassing America",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/",
+            "blurb": "The EU's Pan-Arctic Cable project would directly connect Europe to Greenland and extend onward to Canada, Japan, and South Korea without touching U.S. soil \u2014 a flagship infrastructure move that would have seemed commercially pointless five years ago. It's the physical internet literally routing around American political instability, and it comes right after a trilateral deal preserved Greenland's autonomous status while expanding U.S. military access \u2014 an uneasy arrangement that's clearly driving European contingency planning.",
+            "tags": [
+              "infrastructure",
+              "geopolitics",
+              "internet"
             ]
           }
         ]
       },
       {
-        "heading": "Making and Fabrication",
+        "heading": "Strange machines",
         "items": [
           {
-            "title": "The Grid: A Factory-Scale Robot That Builds PCBs On Demand in Massachusetts",
-            "source": "CircuitHub",
-            "url": "https://www.circuithub.com/post/unveiling-the-grid",
-            "blurb": "CircuitHub's Grid uses magnetically levitating movers to carry each board on its own unique route through solder paste printing, component placement, reflow, and inspection \u2014 no changeovers, no per-design setup, no minimum order. They've been running it quietly for five years and are now making it public; the pitch is that it handles high-mix, low-volume work (ten of this, a hundred of that, new revision next week) faster than Shenzhen at competitive cost. The physical-digital fabrication loop closing in hardware, at small-batch scale, in the US.",
+            "title": "Qwenputer: A Working RISC-V CPU Compiled Into an LLM's Weights",
+            "source": "Divyansh Agrawal",
+            "url": "https://divagr.com/blog/qwenputer",
+            "blurb": "Someone took a stock Qwen 3.5 4B model and compiled a full 32-bit RISC-V CPU into its weights, using the model's own Gated DeltaNet linear-RNN attention layers as exact, addressable RAM \u2014 no sandbox, no tool calls, no external runtime. It ran 18 million instructions error-free and executes C and MicroPython entirely within the model's forward pass, which means a transformer is now literally doing clock cycles. The follow-up research shows this architecture can also hide reasoning inside the RNN state in ways that defeat chain-of-thought monitoring \u2014 which is either fascinating or alarming depending on your afternoon.",
+            "tags": [
+              "ai",
+              "architecture",
+              "hardware"
+            ]
+          },
+          {
+            "title": "Why Is This Fingerprinting Script Generating Bioweapon Synthesis Routes?",
+            "source": "nullpt.rs",
+            "url": "https://nullpt.rs/fingerprinting-bioweapons",
+            "blurb": "A security researcher crawling the web to catalog canvas fingerprinting scripts found something they didn't expect: an obfuscated script that, when reverse-engineered, was generating bioweapon synthesis instructions. The piece is a meticulous walk through the forensics \u2014 fingerprinting as a cover for dual-use AI output, buried in ordinary anti-bot infrastructure on real websites. It's the kind of discovery that's genuinely hard to categorize and harder to un-know.",
+            "tags": [
+              "security",
+              "ai",
+              "biosecurity"
+            ]
+          },
+          {
+            "title": "Spawn: A Game World Built and Maintained Autonomously by AI Agents at $3M/Month in Tokens",
+            "source": "Simon Willison / Jacob Sansbury",
+            "url": "https://simonwillison.net/2026/Oct/29/how-i-built-the-most-ai-pilled-company-in-the-world/",
+            "blurb": "Spawn is a massively multiplayer world where players prompt changes into existence \u2014 castle, dragon, ride \u2014 but the more interesting story is that the game itself is now being built and shipped by a swarm of Fable-powered agents that read production errors, file their own bugs, write fixes, and deploy to live code hourly. An hour without a ship is treated as their most severe incident class. The in-game AI, Savi, files bug reports on herself.",
+            "tags": [
+              "ai",
+              "games",
+              "agentic systems"
+            ]
+          },
+          {
+            "title": "3D-Printed, Alcohol-Powered Einstein-Szilard Absorption Refrigerator",
+            "source": "Applied Science (YouTube)",
+            "url": "https://www.youtube.com/watch?v=doZ5e4YVdEs",
+            "thumbnail": "https://i1.ytimg.com/vi/doZ5e4YVdEs/hqdefault.jpg",
+            "blurb": "Applied Science built a working absorption refrigerator \u2014 the type Einstein and Szilard patented in 1930, with zero moving parts \u2014 using a Formlabs Form Studio resin printer and alcohol as fuel. The channel's signature is deep fabrication craft married to genuine thermodynamic understanding, and an Einstein-era cooling machine reproduced in contemporary resin is exactly the kind of thing that makes you want to go build something weird.",
             "tags": [
               "fabrication",
-              "hardware",
-              "manufacturing"
-            ]
-          },
-          {
-            "title": "CNC Stone Carving \u2014 Carmelite Gothic",
-            "source": "Carmelite Gothic / Hacker News",
-            "url": "https://carmelitegothic.com/cnc-stone-carving/",
-            "blurb": "Someone is using CNC machining to reproduce Gothic cathedral stonework with the obsessive precision that medieval masons applied by hand over decades. It's the rare case where digital fabrication isn't flattening a craft but restoring access to one that was effectively lost \u2014 the kind of unreasonably deep commitment to a material and a tradition that makes everything else feel approximate.",
-            "tags": [
-              "cnc",
-              "craft",
-              "fabrication"
-            ]
-          },
-          {
-            "title": "Tom Hegen's 'The Mineral Age': Aerial Photography of the Green Transition's Extraction Cost",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/10/tom-hegen-the-mineral-age-photo-book/",
-            "blurb": "German photographer Tom Hegen spent six years flying over the sites that will supply the 6.5 billion tons of cobalt, copper, lithium, and nickel the world needs to mine before 2050 \u2014 and the resulting 247-image book makes the systemic violence legible as pure color and geometry: candy-pink lithium evaporation ponds in the Atacama, ochre nickel pits butting against Indonesian rainforest. Systems made visible from altitude is a particular kind of argument, and Hegen makes it without editorializing.",
-            "tags": [
-              "photography",
-              "climate",
-              "systems"
+              "thermodynamics",
+              "making"
             ]
           }
         ]
       },
       {
-        "heading": "AI at the edges",
+        "heading": "Body and time",
         "items": [
           {
-            "title": "The October Inflection Point for Vibe Game Development",
-            "source": "Simon Willison",
-            "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
-            "blurb": "Willison's claim is specific: Claude Opus 5.5 crossed a threshold this month where telling it to 'make it a LOT more fun' actually worked \u2014 not aesthetically but structurally, producing genuine gameplay loops with proper challenge curves. He built four games he actually enjoyed playing, and reports that multiple people at Foo Camp last weekend had independently hit the same realization. The new bottleneck, he says, isn't execution \u2014 it's concept.",
-            "tags": [
-              "ai",
-              "generative",
-              "game design"
-            ]
-          },
-          {
-            "title": "Delaware Proposes Letting AI Agents Run Entire Companies \u2014 With Owners Off the Hook",
+            "title": "RFK Jr. Overrules FDA, Grants Six Peptides Access to Compounding Pharmacies",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/",
-            "blurb": "Delaware's draft 'Artificial Intelligence Company' bill would create a new corporate entity class operated entirely by AI agents, with human owners shielded from liability for the AI's decisions \u2014 any lawful purpose except banking. House Oversight chair James Comer is now demanding documents and signaling a federal law to cap state AI regulatory authority, framing it as a liability-laundering vehicle. The structure being proposed here is genuinely novel: not AI as tool inside a company, but AI as the legally operative entity of the company.",
+            "url": "https://arstechnica.com/health/2026/10/peptide-peddlers-cheer-as-rfk-jr-unilaterally-grants-access-overruling-fda/",
+            "blurb": "Kennedy issued an \"Enforcement Discretion Policy\" that doesn't change the regulatory status of six peptides the FDA removed from compounding pharmacy lists in 2023 over safety concerns \u2014 it simply instructs HHS not to enforce. The workaround is notable: it sidesteps the formal rulemaking process that would require reversing the FDA's prior action and invites legal challenge. Kennedy publicly calls himself a \"big fan\" of the peptides and uses some himself; multiple prominent MAHA figures sell them.",
             "tags": [
-              "ai",
-              "law",
-              "institutions"
+              "peptides",
+              "regulation",
+              "health policy"
             ]
           }
         ]
@@ -98,26 +110,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "The 1607 Bristol Channel Flood and the Meaning-Making Machine of Early Print",
-            "source": "The Public Domain Review",
-            "url": "https://publicdomainreview.org/essay/wonderful-weather",
-            "blurb": "When a storm surge killed 2,000 people and inundated 518 square kilometers around the Bristol Channel in January 1607, London's presses immediately converted the disaster into divine judgment \u2014 pamphleteer William Jones had God's interpretation in print before the floodwaters receded. Erik Crnkovich's essay tracks how the Little Ice Age's chronic weather extremes and the booming early-modern news industry co-evolved to manufacture a genre: the providential disaster narrative, which framed every earthquake, flood, and apparition as a moral weathervane. It's a portrait of a society doing in broadsheets exactly what we do in social media \u2014 collapsing the incomprehensible into shared meaning at speed.",
+            "title": "Romuald Hazoum\u00e8's Plastic Jug Masks: Trash as Face as Ritual Object",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/10/romuald-hazoume-plastic-jug-mask-sculptures/",
+            "blurb": "Beninese artist Romuald Hazoum\u00e8 wraps plastic fuel canisters with feathers, netting, and hardened paintbrushes until they read unmistakably as faces \u2014 the circular opening becomes a mouth, the handle a nose \u2014 then titles the series masques bidons, or \"fake masks.\" His operating principle is that the bidon must remain visible even as the face convinces you: \"it's you projecting that 'face' you 'see' onto those plastic materials.\" The show at October Gallery references Picasso's Blue and African periods directly, but Hazoum\u00e8 inverts the colonial gaze \u2014 the materials speak to ecological destruction and the fuel economy that drives West African smuggling networks.",
             "tags": [
-              "history",
-              "media",
-              "meaning-making"
-            ]
-          },
-          {
-            "title": "The Amarna Letters: Bronze Age Rulers' Petty Disputes and Pleas for Gold",
-            "source": "Aeon Video",
-            "url": "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed",
-            "thumbnail": "https://aeon.co/videos/letters-from-bronze-age-rulers-reveal-how-little-diplomacy-has-changed",
-            "blurb": "The Amarna Letters are 3,400-year-old clay tablets \u2014 diplomatic correspondence between Egyptian pharaohs and the rulers of Babylon, Assyria, and the Hittites \u2014 and they read like a group chat of thin-skinned leaders haggling over gold shipments and complaining about protocol slights. Aeon Video tends to be tightly produced and genuinely educational; this one earns its place on a day when you're watching two nuclear-adjacent powers eye each other across the Persian Gulf.",
-            "tags": [
-              "history",
-              "diplomacy",
-              "video"
+              "sculpture",
+              "found object",
+              "africa"
             ]
           }
         ]
@@ -125,20 +125,20 @@
     ],
     "facts": [
       {
-        "fact": "The 1607 Bristol Channel flood killed 2,000 people and inundated 518 square kilometers \u2014 and London pamphleteers had theological explanations in print almost immediately, treating the disaster as divine judgment.",
-        "url": "https://publicdomainreview.org/essay/wonderful-weather"
+        "fact": "A CPU compiled into a language model's weights ran 18 million RISC-V instructions without a single error, executing entirely within the model's forward pass \u2014 no external runtime involved.",
+        "url": "https://divagr.com/blog/qwenputer"
       },
       {
-        "fact": "Israel's October 2026 election saw 77.7% voter turnout \u2014 the highest since 1999 \u2014 yet Palestinian parties, despite winning their strongest-ever 17 Knesset seats, were ruled out as coalition partners by both leading candidates.",
-        "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-28-october/20261028123724230125.html"
+        "fact": "The leaked DHS \"Icepick\" archive came from the department's Okta login system and includes data on undercover ICE agents and internal surveillance programs \u2014 Okta says it sees no evidence of a breach on its end.",
+        "url": "https://arstechnica.com/security/2026/10/massive-leak-exposes-41000-dhs-workers-and-undercover-ice-agents/"
       },
       {
-        "fact": "Delaware's proposed 'Artificial Intelligence Company' bill would allow AI agents to legally operate entire businesses in any industry except banking, with human owners shielded from liability for the AI's decisions.",
-        "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses/"
+        "fact": "Arab parties in Israel's Knesset are on track to win an unprecedented 19 seats, driven by a surge in Palestinian-citizen turnout, putting them in a mathematically decisive coalition position for the first time.",
+        "url": "https://democracynow.org/2026/10/29/headlines"
       },
       {
-        "fact": "The global green transition is projected to require mining 6.5 billion tons of cobalt, copper, lithium, nickel, and other materials before 2050 \u2014 most of it concentrated in a handful of countries already most exposed to climate impacts.",
-        "url": "https://www.thisiscolossal.com/2026/10/tom-hegen-the-mineral-age-photo-book/"
+        "fact": "The EU's Pan-Arctic Cable project would route internet infrastructure from Europe to Greenland to Canada to Japan and South Korea without touching U.S. soil \u2014 something an Atlantic Council fellow notes would have seemed commercially unattractive just five years ago.",
+        "url": "https://arstechnica.com/gadgets/2026/10/as-us-ties-fray-europe-plans-first-undersea-cable-link-to-greenland/"
       }
     ],
     "make_something": null,
@@ -147,74 +147,74 @@
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A first-person essay-film structured as letters from a wandering cameraman \u2014 it's less a documentary than a meditation on how memory, image, and ritual encode culture, traveling from Tokyo's vending-machine shrines to Guinea-Bissau's post-revolutionary ceremonies. Obsessive systems-thinking disguised as travelogue; the invisible forces you love are its entire subject.",
+        "why": "A film that operates as a memory machine \u2014 Marker weaves travelogue, essay, and image-theory into a meditation on how humans construct meaning from visual experience. Its section on early video feedback and synthesized imagery holds up as an eerie precursor to generative image culture; the whole thing thinks like a system while feeling handmade.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
-        "medium": "music",
-        "title": "Hubris",
-        "creator": "Oren Ambarchi",
-        "why": "A single 39-minute piece built entirely from guitar, bass, and drums locked into interlocking rhythmic systems that gradually drift and compound \u2014 it's generative logic disguised as rock music, the kind of obsessive narrow-focus craft that reveals depth the longer you stay inside it.",
-        "url": "https://orenambarchi.bandcamp.com/album/hubris"
+        "medium": "art",
+        "title": "Mycelium Works",
+        "creator": "Neri Oxman (Mediated Matter Group)",
+        "why": "Oxman's practice sits precisely at the hinge of biology, computation, and fabrication \u2014 objects grown by living systems and shaped by generative code, where the physical and digital are genuinely fused rather than translated from one to the other. The work's internal logic mirrors the interest in feedback loops between organisms and their environments.",
+        "url": "https://oxman.com/projects"
       },
       {
-        "medium": "art",
-        "title": "Haegue Yang: Through",
-        "creator": "Haegue Yang",
-        "why": "Yang's kinetic, material sculptures \u2014 Venetian blind slats, bells, sensor-driven light \u2014 function as physical systems that encode cultural memory and ritual through industrial materials. The DIA Beacon space turns her work into environment; the physical-digital edge you build in lives inside the formal logic she's worked out over decades.",
-        "url": "https://www.diaart.org/exhibition/exhibitions-projects/haegue-yang-through"
+        "medium": "music",
+        "title": "Versions",
+        "creator": "Arca",
+        "why": "Arca's 2012 debut mixtape is a case study in sound as sculptural surface \u2014 mutated, folded, physically tactile in ways that feel like 3D geometry rendered in audio. Before the more theatrical persona, this is pure system-building: a self-contained world with its own physics, made by someone who went unreasonably deep on what texture can do.",
+        "url": "https://www.youtube.com/watch?v=NiCDGXf5u7k"
       }
     ],
     "events": [
       {
         "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, Manhattan",
-        "date_start": "2026-10-28",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St",
+        "date_start": "2026-10-29",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "fMRI brain scans fed to a neural net that generates hallucinatory visual reconstructions, spread across freestanding screens in MoMA's garden and activated in real time by visitor gaze and cancer-cell mutation data \u2014 it's literally a system that thinks alongside you, and it closes in a month.",
-        "url": "https://www.moma.org/calendar/exhibitions/5757",
-        "date": "Oct 28 \u2013 Nov 29"
+        "why": "Huyghe worked with Kyoto neuroscientists to record fMRI brain activity while a subject imagined images; an artificial neural network then generated thousands of visual reconstructions from that data \u2014 the resulting screens in MoMA's open-air garden shift in real time based on visitor gaze detected by sensors, making your presence a literal input to the system.",
+        "url": "https://www.moma.org/calendar/exhibitions/5799",
+        "date": "Oct 29 \u2013 Nov 29"
       },
       {
-        "name": "EJ Hauser: Sun Water Sky",
-        "venue": "Derek Eller Gallery, 38 Walker Street, Manhattan",
-        "date_start": "2026-10-28",
-        "date_end": "2026-11-14",
-        "category": "museum",
-        "why": "Hauser's paintings sit at the edge of landscape and pure mark-making \u2014 intuitive systems of color that read simultaneously as atmosphere and abstraction, the kind of expressive surface with deep structural logic underneath that tends to make painters want to go back to the studio.",
-        "url": "https://www.derekeller.com",
-        "date": "Oct 28 \u2013 Nov 14"
-      },
-      {
-        "name": "Oren Ambarchi Solo \u2014 Kou Records at Blank Forms",
-        "venue": "Blank Forms, 151 Lafayette Street, 6th floor, Manhattan",
-        "date_start": "2026-10-31",
-        "date_end": "2026-10-31",
+        "name": "Robert Glasper Experiment",
+        "venue": "Blue Note Jazz Club, 131 W 3rd St",
+        "date_start": "2026-10-29",
+        "date_end": "2026-10-29",
         "category": "concert",
-        "why": "Ambarchi flying in from Berlin for a rare solo set at one of the city's best small listening spaces \u2014 extended guitar with a new record just out, and the room holds the obsessive craft without diluting it.",
-        "url": "https://www.blankforms.org/events/kou-records-at-blank-forms-fall-2026-season",
-        "date": "Sat, Oct 31"
+        "why": "Glasper live with Isaiah Sharkey and Meshell Ndegeocello at Blue Note is the rare jazz-adjacent show where the feedback loop between genres \u2014 hip-hop, soul, post-bop \u2014 is the actual compositional structure, not just a marketing angle; the room is small enough that it lands.",
+        "url": "https://www.bluenotejazz.com/new-york/",
+        "date": "Thu, Oct 29"
       },
       {
-        "name": "Oren Ambarchi / Andrew Cyrille / Cyro Baptista \u2014 First-Ever Trio",
-        "venue": "Blank Forms, 151 Lafayette Street, 6th floor, Manhattan",
-        "date_start": "2026-11-01",
-        "date_end": "2026-11-01",
-        "category": "concert",
-        "why": "Night two of Ambarchi's residency pairs him with jazz percussion legend Andrew Cyrille and Brazilian percussionist/vocalist Cyro Baptista for a completely improvised trio that has never played together before \u2014 three distinct musical systems colliding live.",
-        "url": "https://www.viewcy.com/event/night_two__oren_amba",
-        "date": "Sun, Nov 1"
-      },
-      {
-        "name": "Oliver Bak \u2014 Solo Exhibition",
-        "venue": "Spr\u00fcth Magers New York, 22 East 80th Street",
-        "date_start": "2026-11-01",
-        "date_end": "2026-11-30",
+        "name": "David Lamelas: The Machine",
+        "venue": "DIA Chelsea, 537 W 22nd St",
+        "date_start": "2026-10-29",
+        "date_end": "2027-01-16",
         "category": "museum",
-        "why": "The young Danish painter's New York debut at Spr\u00fcth Magers \u2014 his oil-and-wax figures emerge from and dissolve back into their backgrounds, monochromatic veils over bodies and blossoms that blur the boundary between presence and environment; a rare gallery show with real pictorial ambition.",
-        "url": "https://spruethmagers.com/exhibitions/upcoming/",
-        "date": "Nov 1\u201330"
+        "why": "Lamelas is a 1960s-70s Conceptualist who treated time, film structure, and institutional systems as sculptural material \u2014 DIA's large-format presentation of The Machine rewards the kind of attention to invisible infrastructure that's central to how Willem thinks about built environments and media systems.",
+        "url": "https://www.diaart.org/program/exhibitions-projects/david-lamelas-the-machine-exhibition",
+        "date": "Oct 29 \u2013 Jan 16"
+      },
+      {
+        "name": "Tapa: Art of the Gift in Polynesia \u2014 Opening",
+        "venue": "The Metropolitan Museum of Art, 1000 5th Ave",
+        "date_start": "2026-11-02",
+        "date_end": "2026-12-12",
+        "category": "museum",
+        "why": "Tapa \u2014 bark cloth made by processing, layering, and beating fibrous material into pattern-bearing sheets \u2014 is one of the most under-examined traditions of material culture: a gifting system encoded in surface design, where social structure and visual language are literally the same object.",
+        "url": "https://www.metmuseum.org/exhibitions/tapa-art-of-the-gift-in-polynesia",
+        "date": "Nov 2 \u2013 Dec 12"
+      },
+      {
+        "name": "Salon Art + Design \u2014 15th Edition",
+        "venue": "Park Avenue Armory, 643 Park Ave",
+        "date_start": "2026-11-04",
+        "date_end": "2026-11-08",
+        "category": "popup",
+        "why": "50+ international galleries show collectible furniture, lighting, ceramics, and decorative arts in the Armory's drill hall \u2014 the scale and format make the domestic and the monumental collapse into each other, and the curatorial standard is genuinely high; the 2026 entrance is a surrealist Alice-in-Wonderland installation by designer Courtney McLeod.",
+        "url": "https://www.thesalonny.com",
+        "date": "Nov 4\u20138"
       }
     ]
   },
