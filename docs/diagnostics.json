@@ -1,28 +1,26 @@
 {
-  "feeds": 88,
-  "mined": 43,
-  "videos": 7,
+  "feeds": 86,
+  "mined": 46,
+  "videos": 6,
   "video_titles": [
+    "What happens if I lower this weight into the water?",
     "Why doesn't your heart get tired like other muscles do?",
     "No device could prove Einstein wrong... until now",
-    "Is there something faster than light?",
     "3D-printed, alcohol-powered, Einstein-Szilard absorption refrigerator",
     "What is the point of art Fairs?",
-    "Matisse: The Red Studio: Great Art Explained",
-    "This Resin 3D Printer Changed My Mind!"
+    "Matisse: The Red Studio: Great Art Explained"
   ],
   "supplemental": false,
   "final_items": 9,
   "final_sources": [
-    "Applied Science (YouTube)",
+    "10 Things Global News",
     "Ars Technica",
-    "Colossal",
-    "Democracy Now",
-    "Divyansh Agrawal",
-    "Simon Willison / Jacob Sansbury",
-    "The Cipher Brief / Atalayar",
-    "nullpt.rs"
+    "Internet Archive Europe",
+    "Phorion",
+    "ScienceDaily / The Lancet Regional Health Americas",
+    "Wired",
+    "YouTube"
   ],
   "had_video": true,
-  "run_at": "2026-10-29T17:34:27.369264+00:00"
+  "run_at": "2026-10-30T17:09:13.839524+00:00"
 }
