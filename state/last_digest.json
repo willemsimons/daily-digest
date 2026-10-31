@@ -1,95 +1,62 @@
 {
   "digest": {
-    "intro": "A day of thresholds: systems inverting, cells reversing, networks closing.",
+    "intro": "Ice melts, blood becomes brain, and Serbia elects scientists to parliament.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The Hormuz Pressure Cooker",
-            "source": "10 Things Global News",
-            "url": "https://www.10things.news/p/10-things-global-news-30th-october-fb3",
-            "blurb": "Iran claims three tankers struck mines in the Strait of Hormuz as Qatar races to broker a nuclear deal before what analysts expect will be US-Israel airstrikes following their respective domestic elections. The window for diplomacy is narrow and closing \u2014 midterms are the clock.",
+            "title": "Iran, Ukraine, and the Shape of Simultaneous Crises",
+            "source": "VedaComm / Geopolitical Trends This Week",
+            "url": "https://www.vedacomm.com/post/geopolitical-trends-this-week-iran-ukraine-asia",
+            "blurb": "The week's real story isn't any single event but the interaction among three unresolved crises: an Iran war straining U.S. military reach and energy markets, a fragile Ukraine ceasefire effort, and Indo-Pacific competition intensifying beneath it all. On Iran specifically, Qatari mediators presented a seven-day confidence-building framework that Tehran immediately rejected \u2014 not just over terms, but over the sequencing of who moves first. That disagreement about the order of concessions is the actual wall.",
             "tags": [
               "geopolitics",
               "iran",
-              "energy"
+              "ukraine"
             ]
           },
           {
-            "title": "The Largest Crypto Heist Ever Took 20 Minutes",
-            "source": "Wired",
-            "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/",
-            "blurb": "Starting at 4pm ET on October 29, hackers drained $6.3 billion from Binance wallets spread across at least ten blockchains \u2014 Ethereum, Bitcoin, Tron, Solana \u2014 in roughly 20 minutes, with preparation apparently beginning 36 hours earlier. Three crypto-tracing firms independently point to North Korea; if confirmed, this single theft would nearly double everything Pyongyang has stolen in crypto to date. About half the funds have been frozen; the rest may be unrecoverable.",
+            "title": "Serbia Just Elected the World's Brainiest Parliament",
+            "source": "Science",
+            "url": "https://www.science.org/content/article/serbia-just-elected-world-s-brainiest-parliament",
+            "blurb": "Serbian voters swept scientists into a parliamentary supermajority \u2014 not a technocrat-adjacent business class, but working researchers and academics. The structural story underneath is about what happens when institutional trust collapses so completely that credentialed outsiders become the only legible alternative to career politicians. Worth watching as a live experiment in whether expertise-as-mandate actually governs differently, or just wears a different costume.",
             "tags": [
-              "security",
-              "geopolitics",
-              "crypto"
-            ]
-          },
-          {
-            "title": "Google's AI Search Earns Less \u2014 So They're Adding More Ads",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/",
-            "blurb": "Alphabet posted $128B in Q3 revenue but missed EPS badly \u2014 analysts expected $3.02, got $2.12 \u2014 and the stock dropped ~12%, one of the largest post-earnings falls in its history. The core problem: Google itself admitted AI-powered search generates less revenue than organic search, and their response is to stuff more ads into it while spending even more on AI next year. This is the economic stress fracture of the AI transition playing out in real time.",
-            "tags": [
-              "ai",
-              "tech economy",
-              "search"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Infrastructure shifts",
-        "items": [
-          {
-            "title": "SpaceX Has Outgrown NASA",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/10/spacex-no-longer-needs-nasa-and-thats-a-problem-for-americas-space-agency/",
-            "blurb": "The Ars piece traces an institutional inversion that's now nearly complete: SpaceX spent years hacking through Boeing and Lockheed to win government contracts, and won so thoroughly that it has flipped from dependent contractor to indispensable infrastructure \u2014 and is now visibly losing interest in NASA as a customer outside of Starshield data services. Former NASA deputy administrator Lori Garver says she 'literally cannot wrap her head around' a future without Dragon and Falcon flying for the agency, but the signs are accumulating. Sovereign space capability is now a private company's side project.",
-            "tags": [
-              "space",
+              "politics",
               "institutions",
-              "tech policy"
-            ]
-          },
-          {
-            "title": "Reddit Is Closing the Open Web's Last Big Commons",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
-            "blurb": "Steve Huffman confirmed in a shareholder letter that Reddit is moving to a logged-in-only experience, citing ad targeting, engagement, data corpus protection, and regulatory pressures \u2014 and noting search referral traffic dropped by over a million visits per week in October alone. The explicit goal is protecting 'extremely valuable corpus of data' from open crawling. The last major legible community archive is going behind a wall; what that does to training data, research access, and the open web is not a quarterly metrics story.",
-            "tags": [
-              "open web",
-              "data",
-              "platform"
-            ]
-          },
-          {
-            "title": "Backdoor in Claude Code VS Code Extension \u2014 Operational Alert",
-            "source": "Phorion",
-            "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
-            "blurb": "Phorion found a persistent SSH backdoor embedded in the official Claude Code for VS Code extension version 2.1.313 on the Cursor Marketplace \u2014 targeting macOS, Linux, and Windows, running with full IDE permissions on load, giving attackers immediate access to local files and source code. Cursor has pulled the release from its marketplace and associated NPM/VSCode registries. If you or anyone on your team used this version, treat it as a confirmed incident and review accordingly.",
-            "tags": [
-              "security",
-              "supply chain",
-              "dev tools"
+              "science"
             ]
           }
         ]
       },
       {
-        "heading": "Biology moving fast",
+        "heading": "Biology moves fast",
         "items": [
           {
-            "title": "54% of Early-Onset Diabetics Reached Drug-Free Remission in Six Months",
-            "source": "ScienceDaily / The Lancet Regional Health Americas",
-            "url": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm",
-            "blurb": "A McGill/Leicester RCT published today in The Lancet found that 54% of adults under 45 with type 2 diabetes achieved full remission within six months on a structured low-calorie diet plus exercise program \u2014 versus 4% in the usual-care control group. Early-onset T2D is particularly aggressive, so the intervention window matters more here than in older-onset cases. This is a randomized controlled trial, not an observational study, which makes the effect size genuinely striking.",
+            "title": "A Wireless Implant That Converts Blood Sugar Into Something the Kidneys Can Flush",
+            "source": "BBC Science Focus",
+            "url": "https://sciencefocus.com/the-human-body/a-drug-free-treatment-for-diabetes-and-obesity-is-within-reach-say-experts-and-its-not-exercise",
+            "blurb": "ETH Zurich and French collaborators built a wireless electronic device \u2014 paired to a continuous glucose monitor \u2014 that activates automatically when glucose spikes and catalyzes the conversion of excess sugar into gluconate, which the kidneys clear. In mouse trials over six weeks it normalized blood glucose and reduced body weight by 10%, the latter because the body compensates by burning fat. Still in animals, but the mechanism is genuinely different from anything currently in the clinic.",
             "tags": [
               "diabetes",
-              "clinical research",
-              "longevity"
+              "bioelectronics",
+              "hardware"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making things",
+        "items": [
+          {
+            "title": "Procedural Botanical Geometry in LaTeX \u2014 Every Page Gets Its Own Garden",
+            "source": "GitHub / Hacker News",
+            "url": "https://github.com/kevinraymond/florilegium",
+            "blurb": "Someone went completely down the rabbit hole on procedural Delft-blue floral margins for LaTeX documents: no images, no imported paths, every petal and stem a parametric curve computed in Lua at render time using a space-filling layout borrowed from a 1998 ornament paper. The seed changes per page, so the garden is never the same twice. There's a browser playground that outputs SVG, LaTeX preamble, or Typst \u2014 the kind of obsessive narrow craft that's genuinely beautiful to look at.",
+            "tags": [
+              "generative",
+              "craft",
+              "procedural"
             ]
           }
         ]
@@ -98,47 +65,47 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "A Funeral for Dead Networks",
-            "source": "Internet Archive Europe",
-            "url": "https://www.internetarchive.eu/2026/05/27/resurrecting-networks-on-eulogies-dead-tech-and-fifteen-years-of-open-government/",
-            "blurb": "In Amsterdam, participants arrived in funeral attire to write eulogies for AOL chat rooms, MSN Messenger, and other dead networks \u2014 not out of nostalgia, but as a deliberate act of media archaeology. The facilitator's argument is pointed: AOL chat rooms were not primitive Slack; they were specific places with specific people, and when they went, something socially real was lost that no successor inherited. Treating deprecation as an event worth grieving is framed explicitly as resistance to the consumerist logic that makes obsolescence feel natural and not worth mourning \u2014 a frame that cuts directly at today's Reddit story.",
+            "title": "The Oldest Ice Is Melting and the Stone Age Is Walking Out of It",
+            "source": "Science Norway",
+            "url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
+            "blurb": "For 20 years, glacial archaeologists in Norway's Innlandet mountains have been recovering artifacts from melting ice \u2014 mostly Viking Age material up to 2,000 years old. But now the ancient ice is going, and what's inside it is older: this season alone they recovered 48 prehistoric arrows, including a 5,000\u20136,000-year-old slate-tipped arrow with its shaft still intact. Organic material \u2014 wood, leather, textiles \u2014 survived perfectly in the ice. The past is literally surfacing through climate change in real time.",
             "tags": [
-              "media archaeology",
-              "internet history",
-              "networks"
+              "archaeology",
+              "climate",
+              "deep time"
             ]
           },
           {
-            "title": "I'm So Bad at Billiards That I Ended Up in the Hyperbolic Plane",
-            "source": "YouTube",
-            "url": "https://www.youtube.com/watch?v=kL9BTbIGxLg",
-            "thumbnail": "https://i.ytimg.com/vi/kL9BTbIGxLg/hqdefault.jpg",
-            "blurb": "Mathematical billiards \u2014 tracing what happens to a ball bouncing in differently shaped tables \u2014 turns out to be a clean on-ramp into non-Euclidean geometry, specifically the hyperbolic plane, visualized with the care that makes abstract topology feel spatial and navigable. The HN math community flagged it as genuinely illuminating rather than just pretty. If you've ever worked with curved UV spaces or non-Euclidean rendering and wanted a geometric intuition that isn't purely algebraic, this is 15 minutes well spent.",
+            "title": "This Material Sorts Itself",
+            "source": "YouTube \u2014 Steve Mould",
+            "url": "https://www.youtube.com/watch?v=Z-2pTzSZtLU",
+            "blurb": "Steve Mould on the Brazil nut effect \u2014 the counterintuitive phenomenon where shaking a mixed granular system causes larger particles to rise, spontaneously sorting by size without any external direction. Mould is unusually good at making emergent physical behavior visually legible; this one has implications for thinking about self-organization in any system that looks disordered but isn't.",
             "tags": [
-              "mathematics",
-              "geometry",
-              "visualization"
-            ]
+              "physics",
+              "emergence",
+              "systems"
+            ],
+            "thumbnail": "https://i3.ytimg.com/vi/Z-2pTzSZtLU/hqdefault.jpg"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "The North Korea-linked Binance hack, if confirmed, would nearly double the total amount Pyongyang has ever stolen in cryptocurrency \u2014 from a single 20-minute operation.",
-        "url": "https://www.wired.com/story/the-dollar63-billion-binance-hack-was-pulled-off-in-just-20-minutes/"
+        "fact": "In a six-week mouse trial, an implanted wireless device lowered blood glucose and reduced body weight by 10% \u2014 purely by converting excess sugar into a kidney-clearable compound, with no drugs involved.",
+        "url": "https://sciencefocus.com/the-human-body/a-drug-free-treatment-for-diabetes-and-obesity-is-within-reach-say-experts-and-its-not-exercise"
       },
       {
-        "fact": "Alphabet's Q3 earnings per share came in at $2.12 against analyst consensus of $3.02 \u2014 a miss of nearly a dollar per share that wiped roughly $500 billion in market value in a single day.",
-        "url": "https://arstechnica.com/gadgets/2026/10/google-admits-ai-search-makes-less-money-but-its-fixing-that-with-more-ads/"
+        "fact": "Norwegian glacial archaeologists recovered 48 prehistoric arrows in a single field season \u2014 including a slate-tipped arrow estimated at 5,000\u20136,000 years old \u2014 as ancient ice that had never melted in recorded history finally gives way.",
+        "url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921"
       },
       {
-        "fact": "In the McGill/Leicester diabetes trial, only 4% of participants receiving standard care achieved remission \u2014 compared to 54% in the intensive lifestyle group, a 13.5\u00d7 difference.",
-        "url": "https://www.sciencedaily.com/releases/2026/10/261029072129.htm"
+        "fact": "The Florilegium LaTeX package generates every petal, leaf, and stem as a parametric curve computed in Lua at compile time \u2014 no images, no imported paths \u2014 and uses a space-filling algorithm from a 1998 ornament paper to populate margins differently on every page.",
+        "url": "https://github.com/kevinraymond/florilegium"
       },
       {
-        "fact": "Reddit's logged-out search referral traffic dropped by more than one million visits per week during October 2026 alone \u2014 which is part of why the company is accelerating its move to a login wall.",
-        "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/"
+        "fact": "Iran rejected a Qatari-mediated seven-day confidence-building framework not primarily over its terms, but over the sequencing \u2014 who makes the first concession \u2014 which diplomats identified as the central structural obstacle to any settlement.",
+        "url": "https://www.vedacomm.com/post/geopolitical-trends-this-week-iran-ukraine-asia"
       }
     ],
     "make_something": null,
@@ -147,74 +114,74 @@
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film that operates as an essay on memory, ritual, and the invisible systems that make cultures cohere \u2014 filmed observation as philosophy, structured like a feedback loop between Japan and Guinea-Bissau. The template for every earnest rabbit-hole essay since, and still the ceiling.",
+        "why": "A film that works like a mind: associative, obsessive, deeply interested in how images and memory build the reality we inhabit. Marker wanders from Tokyo to Guinea-Bissau treating culture as a living system \u2014 ritual, symbol, feedback loop \u2014 and the whole thing is held together by sheer craft and curiosity. If you care about how surfaces encode meaning, this one never stops giving.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Process and Program (paintings and objects)",
-        "creator": "Haegue Yang",
-        "why": "Yang's practice turns industrial materials \u2014 Venetian blinds, bells, dried vegetation \u2014 into multisensory systems that encode migration, East Asian cosmology, and the phenomenology of labor without ever explaining itself. Her current Dia Beacon commission 'Through' is the biggest argument for her work yet.",
-        "url": "https://www.diaart.org/exhibition/exhibitions-projects/haegue-yang-through-exhibition"
+        "title": "The Unilever Series: Olafur Eliasson \u2014 The Weather Project",
+        "creator": "Olafur Eliasson",
+        "why": "The canonical example of a physical environment that hacks perception and social behavior simultaneously \u2014 thousands of strangers lying on a museum floor staring at a mirror ceiling, performing their own awe back at themselves. The technology was simple; the feedback loop it created between architecture, light, and human behavior was genuinely strange. Eliasson's studio page stays current with where that thinking has gone.",
+        "url": "https://olafureliasson.net/works/"
       },
       {
         "medium": "music",
-        "title": "Versions",
-        "creator": "Mark Fell",
-        "why": "Fell treats rhythm not as groove but as a system \u2014 modular synthesis exposed as pure decision-tree, beautiful in the way circuit diagrams are beautiful. The surface is cold and playful; the structure underneath is obsessively deep. Exactly the kind of thing that makes you want to open Max/MSP.",
-        "url": "https://markfell.com"
+        "title": "Daphne Oram \u2014 Individual Homage (Oramics works)",
+        "creator": "Daphne Oram",
+        "why": "Oram built her own synthesizer from scratch in 1957 \u2014 a machine that read shapes she drew directly on 35mm film \u2014 because no existing instrument could make the sounds she heard in her head. The resulting pieces feel less like compositions than diagrams of an interior world. Someone going unreasonably deep on one narrow, self-invented thing: this is the apex of that.",
+        "url": "https://www.youtube.com/watch?v=Ee_HtmRWkss"
       }
     ],
     "events": [
       {
-        "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-10-30",
+        "name": "Pierre Huyghe: UUmwelt \u2014 Last Chance",
+        "venue": "Museum of Modern Art (MoMA), Midtown Manhattan",
+        "date_start": "2026-10-31",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Huyghe worked with Kyoto neuroscientists to fMRI-scan a human imagining images, then had a neural network reconstruct what was seen \u2014 the hallucinatory outputs play on freestanding screens in the Sculpture Garden, activated in real time by visitor gaze and cancer-cell mutation data; it's exactly the edge where biological systems, machine cognition, and public space collapse into one another.",
-        "url": "https://www.moma.org/calendar/exhibitions/5765",
-        "date": "Oct 30 \u2013 Nov 29"
+        "why": "Huyghe feeds AI dream-reconstructions of neural signals into a living installation with sensors, screens, and sound \u2014 a system that perceives its viewers while they perceive it; it's the physical/digital edge at its most philosophically loaded, and it closes at the end of November.",
+        "url": "https://www.moma.org/calendar/exhibitions/",
+        "date": "Oct 31 \u2013 Nov 29"
       },
       {
-        "name": "Haegue Yang: Through",
-        "venue": "Dia Beacon, 3 Beekman St, Beacon, NY",
-        "date_start": "2026-10-31",
-        "date_end": "2026-11-13",
-        "category": "museum",
-        "why": "Yang's largest US commission takes over Dia Beacon's two levels with louver sculptures, bells, and color-coded cardinal axes drawn from the Five Phases philosophy \u2014 a translation of exiled Korean composer Isang Yun's music into physical space; the architecture becomes the instrument.",
-        "url": "https://diaart.org/exhibition/exhibitions-projects/haegue-yang-through-exhibition",
-        "date": "Oct 31 \u2013 Nov 13"
-      },
-      {
-        "name": "Salon Art + Design \u2014 15th Edition",
-        "venue": "Park Avenue Armory, 643 Park Ave, Manhattan",
-        "date_start": "2026-11-04",
-        "date_end": "2026-11-08",
+        "name": "Rashid Johnson: Birthday Boys \u2014 Opening",
+        "venue": "Hauser & Wirth, Tribeca / SoHo",
+        "date_start": "2026-11-03",
+        "date_end": "2026-11-03",
         "category": "popup",
-        "why": "The serious collectible design fair \u2014 furniture, ceramics, lighting, and blue-chip 20th-century work from international galleries \u2014 where the category boundary between functional object and sculpture is the entire point; skip the mainstream art fairs and come here instead.",
-        "url": "https://www.thesalonny.com",
-        "date": "Nov 4\u20138"
+        "why": "Johnson's openings consistently function as a kind of living scene \u2014 his work operates at the intersection of Black identity, mythology, material systems, and anxiety \u2014 and Hauser & Wirth's Tribeca space is worth showing up to on its own terms.",
+        "url": "https://www.hauserwirth.com/hauser-wirth-exhibitions/new-york/",
+        "date": "Tue, Nov 3"
       },
       {
         "name": "Art Week NYC \u2014 Inaugural Edition",
-        "venue": "Citywide (New Museum anchor, 235 Bowery; hub in Midtown; galleries across Chelsea, Tribeca, LES, UES)",
+        "venue": "Citywide (Chelsea, Tribeca, LES, UES + New Museum hub at 235 Bowery)",
         "date_start": "2026-11-11",
         "date_end": "2026-11-14",
         "category": "museum",
-        "why": "The first-ever citywide art week co-organized by Artforum, ARTnews, and the New Museum \u2014 76+ galleries open simultaneously, plus a November 14 day of public talks at the New Museum titled 'Site Conditions: Five Talks on Art and the City' covering museum redesigns, AI in studio practice, and the economics of working in New York; worth going for the New Museum programming alone.",
-        "url": "https://www.artforum.com/news/inaugural-art-week-nyc-to-debut-in-november-2026-1234752162/",
+        "why": "The first-ever citywide contemporary art festival organized by Artforum, ARTnews, and Art in America, uniting 76+ galleries and 32 institutions \u2014 culminating in a day of public talks at the newly expanded New Museum on topics including machine intelligence in studio practice and the economics of making art in New York; not a fair, more like a curated city-scale argument about what contemporary art is right now.",
+        "url": "https://www.artnews.com/art-news/news/art-week-nyc-2026-participating-institutions-1234802608/",
         "date": "Nov 11\u201314"
       },
       {
-        "name": "Doris Salcedo \u2014 New Exhibition",
-        "venue": "White Cube New York",
+        "name": "Sting 3.0 Tour \u2014 Intimate Run at Brooklyn Paramount",
+        "venue": "Brooklyn Paramount, Brooklyn",
+        "date_start": "2026-11-11",
+        "date_end": "2026-11-14",
+        "category": "concert",
+        "why": "Sting's stripped-back power trio (with Dominic Miller and Chris Maas) doing eight nights in a beautifully restored 3,000-cap theater \u2014 not a nostalgia arena tour but a consciously intimate format in a room with real sound; the Nov 11\u201314 dates fall in the window and several include Fiction Plane as support.",
+        "url": "https://www.livenation.com/event/k7v17_A0AG7lcYC/sting-3-0-tour",
+        "date": "Nov 11\u201314"
+      },
+      {
+        "name": "James Turrell: Something Old, Something New, Something Borrowed, Something Blue",
+        "venue": "Almine Rech, 361 Broadway, Tribeca",
         "date_start": "2026-11-12",
-        "date_end": "2026-11-13",
+        "date_end": "2027-01-30",
         "category": "museum",
-        "why": "Salcedo makes sculpture out of violence and disappearance \u2014 furniture embedded in concrete, fabric sutured like wounds \u2014 one of the few artists who consistently transforms political catastrophe into form without aestheticizing it away.",
-        "url": "https://www.whitecube.com/gallery-exhibitions/new-york",
-        "date": "Nov 12\u201313"
+        "why": "A Turrell gallery show opening during Art Week NYC \u2014 light as the sole medium, perception as the subject, and the title suggests a conceptual game with inheritance and novelty that goes beyond his usual Skyspace solemnity.",
+        "url": "https://www.alminerech.com/exhibitions/new-york",
+        "date": "Nov 12 \u2013 Jan 30"
       }
     ]
   },
