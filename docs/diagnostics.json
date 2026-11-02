@@ -1,31 +1,29 @@
 {
-  "feeds": 60,
+  "feeds": 65,
   "mined": 45,
-  "videos": 8,
+  "videos": 9,
   "video_titles": [
+    "These ponds help support half the people on Earth",
     "What happens if I lower this weight into the water?",
     "Why doesn't your heart get tired like other muscles do?",
-    "No device could prove Einstein wrong... until now",
     "My dog won't stay out of mud so I made this...",
     "This Material Sorts Itself",
     "3D-printed, alcohol-powered, Einstein-Szilard absorption refrigerator",
+    "THE MOST INFLUENTIAL ARTIST NOBODY KNOWS #history #arthistory #painting #artist #art",
     "What is the point of art Fairs?",
     "My FREE Tool Turns 3D Scans into CAD feat. Elegoo M1 Ultra"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 7,
   "final_sources": [
-    "Ars Technica",
-    "Atlasum",
-    "Euronews / Supermacro Briefing",
-    "Geopolitical Briefings",
-    "Jetstream Security",
-    "Make Tech Easier / National Academies",
-    "Simon Willison's Weblog",
-    "Smithsonian Magazine",
-    "Tom's Hardware / Olam Labs",
-    "arXiv"
+    "Euronews",
+    "Geopolitical Futures",
+    "Modern Diplomacy Weekly Briefing",
+    "NameDaisy",
+    "Terence Tao's blog",
+    "arXiv",
+    "rikiyat.github.io"
   ],
   "had_video": false,
-  "run_at": "2026-11-01T17:16:55.720377+00:00"
+  "run_at": "2026-11-02T20:55:31.239609+00:00"
 }
