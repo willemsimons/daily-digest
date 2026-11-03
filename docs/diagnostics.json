@@ -1,7 +1,7 @@
 {
-  "feeds": 65,
-  "mined": 45,
-  "videos": 9,
+  "feeds": 84,
+  "mined": 44,
+  "videos": 10,
   "video_titles": [
     "These ponds help support half the people on Earth",
     "What happens if I lower this weight into the water?",
@@ -11,19 +11,23 @@
     "3D-printed, alcohol-powered, Einstein-Szilard absorption refrigerator",
     "THE MOST INFLUENTIAL ARTIST NOBODY KNOWS #history #arthistory #painting #artist #art",
     "What is the point of art Fairs?",
-    "My FREE Tool Turns 3D Scans into CAD feat. Elegoo M1 Ultra"
+    "Bambu Lab Finally Built the Toolchanger We Wanted!",
+    "3D Scanning Will Never Be the Same Again! (feat. Elegoo M1 Ultra)"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 10,
   "final_sources": [
-    "Euronews",
-    "Geopolitical Futures",
-    "Modern Diplomacy Weekly Briefing",
-    "NameDaisy",
-    "Terence Tao's blog",
-    "arXiv",
-    "rikiyat.github.io"
+    "Aeon Video / Jo Marchant",
+    "Atalayar / Aristegui",
+    "Colossal / Jessica Silverman Gallery",
+    "GitHub / Postman Issues",
+    "MIT Technology Review",
+    "Nicholas Carlini",
+    "ScienceDaily / ETH Zurich (Science)",
+    "Simon Willison / Colsto OSINT",
+    "blog.nns.ee",
+    "honnibal.dev / Matthew Honnibal"
   ],
-  "had_video": false,
-  "run_at": "2026-11-02T20:55:31.239609+00:00"
+  "had_video": true,
+  "run_at": "2026-11-03T18:38:05.909401+00:00"
 }

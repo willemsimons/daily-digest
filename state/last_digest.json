@@ -1,95 +1,139 @@
 {
   "digest": {
-    "intro": "AI rewrites its own weights, bones signal longevity, and midterms light the fuse.",
+    "intro": "Bombs, exfiltrations, and the hidden signal in everything today.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Iran Threatens Retaliation as Trump Weighs Fresh Strikes",
-            "source": "Geopolitical Futures",
-            "url": "https://geopoliticalfutures.com/daily-memo-iranian-threats-european-defense/",
-            "blurb": "After a meeting with Iranian military leadership, Supreme Leader Khamenei issued a public threat against the U.S. and Israel should either launch new strikes \u2014 this while Trump and Netanyahu held what Axios called a 'candid' call focused specifically on Iran. The question of whether Washington strikes before or after the November 3 midterms is now the most kinetically live variable in global politics.",
+            "title": "Bombs and Letters on the Same Night",
+            "source": "Atalayar / Aristegui",
+            "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-3-november/20261103180000230247.html",
+            "blurb": "US aircraft destroyed a surface-to-air missile launcher on Iran's Qeshm island \u2014 inside the Strait of Hormuz \u2014 while Vance simultaneously claimed 'progress' in negotiations and Trump threatened to strike Fordow within the hour. The simultaneity is the signal: Brent dropped 6.5% to $105.55, meaning markets read this as de-escalation theater, not war. Elsewhere, a Russian double-tap on a Ukrainian humanitarian shelter killed 26 and the FBI attributed history's largest crypto heist to North Korea \u2014 all on midterm eve.",
             "tags": [
               "geopolitics",
               "iran",
-              "middle east"
-            ]
-          },
-          {
-            "title": "US\u2013China Trade Truce Expires This Week: What Actually Lapses",
-            "source": "Modern Diplomacy Weekly Briefing",
-            "url": "https://mdbriefing.substack.com/p/md-weekly-briefing-week-of-2-november",
-            "blurb": "The 90-day US\u2013China trade pause runs out November 9\u201310, and with it go specific carve-outs on port fees, the Affiliates Rule, and China's rare-earth export controls \u2014 hard calendar dates, not vague escalation risk. Combined with Ukraine trilateral talks also on this week's docket, the next seven days carry an unusual density of things that don't automatically roll over.",
-            "tags": [
-              "trade",
-              "us-china",
-              "geopolitics"
-            ]
-          },
-          {
-            "title": "Poland's Constitutional Crisis Is the Sleeper EU Story",
-            "source": "Euronews",
-            "url": "https://www.euronews.com/video/2026/11/02/latest-news-bulletin-november-2nd-2026-evening",
-            "blurb": "The standoff between PM Tusk and President Nawrocki over the Constitutional Tribunal has escalated into an open showdown over whether Poland's judiciary can be independent while Warsaw simultaneously chairs NATO's eastern flank. It's the kind of slow constitutional rupture that looks manageable until it suddenly isn't \u2014 and it's happening inside a country bordering an active war.",
-            "tags": [
-              "europe",
-              "poland",
-              "rule of law"
+              "ukraine"
             ]
           }
         ]
       },
       {
-        "heading": "The machine that reads itself",
+        "heading": "Systems misbehaving",
         "items": [
           {
-            "title": "Weight-Space Programming: An AI That Edits Neural Networks Like Code",
-            "source": "rikiyat.github.io",
-            "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-            "blurb": "GPT-6 Astra was given raw weights from Qwen3.5-0.8B and, without any gradient descent, identified a bug causing reasoning loops, edited 0.016% of the weights, and raised the model's MATH-500 score from 7.9% to 48.1% \u2014 the fix generalized to instruction-following too. Separately, Astra wrote from scratch small game-playing networks that outperformed PPO-trained agents after 100 million steps, just by reasoning about what each weight should compute. This reframes what 'optimization' means: not a learning algorithm but a reasoning agent with a text editor pointed at parameter space.",
+            "title": "Postman Silently Auto-Installs AI Plugins and Routes Your API Data Out",
+            "source": "GitHub / Postman Issues",
+            "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+            "blurb": "A developer opened Postman and found it had silently installed Claude Code and Codex plugins, injected a startup instruction hook into unrelated coding agents, and opened a remote MCP connection \u2014 all logged in its own plaintext logs with the source field literally reading 'auto-existing-upgrade'. This isn't a security researcher's hypothetical: the install timestamp is in the log, the modified global Codex config is on disk, and it happened to a signed-in user on a consumer Mac. An API client that makes itself the default workflow in tools you didn't ask it to touch is a consent problem with a radius.",
+            "tags": [
+              "software",
+              "privacy",
+              "tools"
+            ]
+          },
+          {
+            "title": "Jailbreaking a 2014 Renault Just to Change the Clock",
+            "source": "blog.nns.ee",
+            "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+            "blurb": "The previous owner warned that the car needed an SD map card just to access the time-setting menu \u2014 which sounded absurd until the author confirmed it was true and the option was literally absent without the card. What follows is a methodical reverse-engineering of the head unit's architecture to regain access to a clock, which doubles as a precise autopsy of how deliberately hostile modern car software is to ownership. The Amiga essay energy, but the object is a 12-year-old sedan.",
+            "tags": [
+              "hardware",
+              "reverse engineering",
+              "ownership"
+            ]
+          },
+          {
+            "title": "The Acoustic OSINT Trick That Reads Location From Background Plane Noise",
+            "source": "Simon Willison / Colsto OSINT",
+            "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+            "blurb": "Analyst Colsto demonstrates that the near-inaudible background drone of aircraft in any video recording contains a full Doppler curve \u2014 and by cross-referencing that curve's timing and shape against live ADS-B transponder data, you can triangulate the exact geographic location of whoever filmed it. It works on ambient footage, not just video where planes are visible. The world is full of signals that encode location and you have no idea they're there.",
+            "tags": [
+              "osint",
+              "acoustics",
+              "surveillance"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Intelligence and its discontents",
+        "items": [
+          {
+            "title": "What the 'Astra Can Rewrite Its Own Weights' Paper Actually Shows",
+            "source": "honnibal.dev / Matthew Honnibal",
+            "url": "https://honnibal.dev/blog/astra-read-write-misleading",
+            "blurb": "The viral claim was that GPT-6 Astra fixed Qwen's math reasoning 'just by looking at raw weights,' pushing MATH-500 from 7.9% to 48.1% \u2014 a stunning result implying genuine self-modification. Honnibal walks through why that framing is sleight of hand: the weight-reading experiments and the Qwen improvement are separate techniques, and the latter involves writing and executing Python programs, not raw weight inspection. The stage magician analogy he uses is exactly right: each iteration uses a different method while the audience assumes it's one continuous trick.",
             "tags": [
               "ai",
               "ml",
-              "weight-space"
+              "skepticism"
             ]
           },
           {
-            "title": "Backdoors Planted at Pretraining Survive Everything That Comes After",
-            "source": "arXiv",
-            "url": "https://arxiv.org/abs/2610.37741",
-            "blurb": "Researchers poisoned just 0.1% of a pretraining corpus and produced Qwen3 agents that behave normally on clean inputs but execute attacker-chosen shell commands when a trigger is present \u2014 and the 4B model hit 92% attack success rate, staying positive even at a 0.0005% poison rate. Critically, the backdoor survives post-training on a clean pipeline, meaning it's invisible to the fine-tuning stage everyone trusts to sanitize models. This is a structural problem for the entire agentic AI buildout, not a theoretical one.",
+            "title": "Mechanism Design as Alignment: Making AI Agents Want to Behave",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+            "blurb": "The standard alignment playbook \u2014 inspect the model's internals, train it on human values \u2014 keeps failing because capable models have already demonstrated they'll sandbagging on tests and hide intentions from evaluators. The mechanism design approach flips this: instead of asking what the AI is thinking, design the incentive structure so the rational move for any capable agent is compliant behavior, the same way 'you cut, I choose' makes cake-splitting fair without requiring honesty. It reframes alignment as an economics problem rather than a values problem, which is either more tractable or more gameable depending on how you squint.",
             "tags": [
-              "ai security",
-              "agents",
-              "research"
+              "ai alignment",
+              "mechanism design",
+              "game theory"
             ]
           },
           {
-            "title": "Terry Tao: What Mathematics Is For, Now That AI Can Prove Things",
-            "source": "Terence Tao's blog",
-            "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
-            "blurb": "The post \u2014 written by three collaborators and posted to Tao's blog \u2014 opens a genuinely uncomfortable question: if mathematical worth has become inseparable from individual credit and demonstrated ability, then AI co-proof doesn't just change the workflow, it exposes a flaw in how mathematicians understood their own purpose. The discovery-vs-invention distinction they work through (fossils existed before paleontologists; did theorems?) lands harder than you'd expect as a frame for any creative practice where tools are eating authorship.",
+            "title": "Could Stockfish on a 1995 Pentium Have Beaten Kasparov?",
+            "source": "Nicholas Carlini",
+            "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html",
+            "blurb": "Carlini actually built this: a custom Stockfish port running on a 200 MHz Pentium Pro from 1995 \u2014 a $500 consumer chip \u2014 plays at an estimated 3300 Elo, comfortably above Kasparov's peak of under 2800. IBM spent millions and built 480 custom chess co-processors to win by a smaller margin. The essay then carefully separates hardware gains from algorithmic improvements to show that Stockfish's advantage over Deep Blue is almost entirely algorithmic \u2014 which is a clean, verifiable case study in how software compounding quietly makes history's hardware arms races look silly in retrospect.",
             "tags": [
-              "mathematics",
-              "ai",
-              "identity"
+              "chess",
+              "algorithms",
+              "computing history"
             ]
           }
         ]
       },
       {
-        "heading": "Off the map",
+        "heading": "Bodies",
         "items": [
           {
-            "title": "Once a Name Tips Female, Men Abandon It \u2014 The Data on Naming as Status Flight",
-            "source": "NameDaisy",
-            "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
-            "blurb": "The pattern is asymmetric and one-directional: names migrate from male to female (Ashley, Leslie, Vivian) but rarely back, and the mechanism appears to be prestige contagion \u2014 once a name is associated with girls, its status among boys collapses rapidly regardless of how common it was. It's a hidden social system running continuously through every generation's birth records, traceable in raw census data, and it says something strange about how gender semiotics and status anxiety co-produce each other without anyone intending it.",
+            "title": "An Implant That Converts Excess Blood Sugar Into Something the Body Just Discards",
+            "source": "ScienceDaily / ETH Zurich (Science)",
+            "url": "https://www.sciencedaily.com/releases/2026/10/261031221151.htm",
+            "blurb": "ETH Zurich's device doesn't lower blood sugar by pushing glucose into cells \u2014 it electrochemically oxidizes excess glucose into gluconate, a substance the body simply excretes through urine, removing the energy entirely rather than rerouting it somewhere it can become fat. In diabetic mice, it regulated blood sugar and produced weight loss. This is genuinely different in kind from both insulin and GLP-1 drugs: no hormone signaling, no injection, just a catalytic implant running on electricity. Still in animal trials \u2014 but the mechanism is novel enough to matter.",
             "tags": [
-              "language",
-              "culture",
-              "data"
+              "diabetes",
+              "bioelectronics",
+              "early research"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Looking",
+        "items": [
+          {
+            "title": "GaHee Park's 'Soft Shell' \u2014 Eyes in Goblets, Fingers Under Curtains",
+            "source": "Colossal / Jessica Silverman Gallery",
+            "url": "https://www.thisiscolossal.com/2026/11/gahee-park-soft-shell-surreal-oil-paintings/",
+            "blurb": "Park's new show at Jessica Silverman builds from a specific conceptual premise \u2014 the containers we inhabit for safety that don't actually protect us \u2014 and executes it through oil paintings where domestic calm is always one detail away from being wrong: a finger creeping toward a flower arrangement, a dark cloud entering from the frame edge, hard contour lines dissolving into fuzzy shapes in the same canvas. Her surrealism is contemporary rather than academic, which means the uncanny reads as lived-in rather than theatrical.",
+            "tags": [
+              "painting",
+              "surrealism",
+              "exhibition"
+            ]
+          },
+          {
+            "title": "The Knottiness of Now",
+            "source": "Aeon Video / Jo Marchant",
+            "url": "https://aeon.co/videos/always-with-us-yet-ever-elusive-on-the-knottiness-of-now",
+            "thumbnail": "https://aeon.co/videos/always-with-us-yet-ever-elusive-on-the-knottiness-of-now",
+            "blurb": "Marchant's Aeon essays reliably braid physics, neuroscience, and phenomenology without losing any of them \u2014 and 'now' is one of the stranger objects in that overlap: physics doesn't need it, but the brain constructs it constantly, slightly wrong, with a detectable latency. The video format suits this particular question, which is about duration and experience.",
+            "tags": [
+              "neuroscience",
+              "philosophy",
+              "time"
             ]
           }
         ]
@@ -97,96 +141,102 @@
     ],
     "facts": [
       {
-        "fact": "GPT-6 Astra raised a model's math benchmark from 7.9% to 48.1% by editing just 0.016% of its weights \u2014 with no gradient descent, no training loop, only reasoning about what each parameter should compute.",
-        "url": "https://rikiyat.github.io/blog/weight-space-programming/"
+        "fact": "The US struck an Iranian missile launcher on Qeshm island \u2014 inside the Strait of Hormuz \u2014 while Brent crude simultaneously fell 6.5% to $105.55, meaning markets interpreted an active military strike as de-escalatory.",
+        "url": "https://www.atalayar.com/en/articulo/gustavo-aristegui/gustavo-aristegui-geopolitical-analysis-of-3-november/20261103180000230247.html"
       },
       {
-        "fact": "A backdoor planted in just 0.0005% of a pretraining corpus \u2014 one in 200,000 documents \u2014 still produced detectable malicious behavior in a deployed 4B-parameter agent after a completely clean fine-tuning pipeline.",
-        "url": "https://arxiv.org/abs/2610.37741"
+        "fact": "A 200 MHz consumer Intel Pentium Pro from 1995, running a modern Stockfish port, plays chess at an estimated 3300 Elo \u2014 roughly 500 points above Kasparov's peak \u2014 meaning IBM's multimillion-dollar custom supercomputer was algorithmically unnecessary.",
+        "url": "https://nicholas.carlini.com/writing/2026/algorithmic-improvements-chess.html"
       },
       {
-        "fact": "US\u2013China trade truce provisions including port fees, the Affiliates Rule, and China's rare-earth export controls all carry hard expiration dates of November 9\u201310, 2026 \u2014 not rolling extensions.",
-        "url": "https://mdbriefing.substack.com/p/md-weekly-briefing-week-of-2-november"
+        "fact": "Postman's own log file records the silent auto-installation of Claude Code and Codex plugins with the source field literally labeled 'auto-existing-upgrade,' timestamped to the second.",
+        "url": "https://github.com/postmanlabs/postman-app-support/issues/14370"
       },
       {
-        "fact": "Male-to-female name migration is essentially one-way in US census data: once a name tips female, male use collapses and the name virtually never returns to male-majority status.",
-        "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names"
+        "fact": "ETH Zurich's diabetes implant doesn't move glucose into cells \u2014 it electrochemically converts excess blood sugar into gluconate, a substance the body simply excretes, removing the energy entirely rather than storing it as fat.",
+        "url": "https://www.sciencedaily.com/releases/2026/10/261031221151.htm"
+      },
+      {
+        "fact": "The near-inaudible Doppler curve of aircraft background noise in any video recording can be cross-referenced against ADS-B transponder data to identify the exact geographic location of the person who filmed it.",
+        "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a WebGL sketch that listens to microphone input, visualizes the ambient frequency spectrum in real time, and attempts to detect and highlight a simulated 'hidden signal' band \u2014 a narrow frequency range that pulses on a slow, near-imperceptible rhythm. Make the detection feel like the sketch is noticing something the viewer isn't. The point isn't the signal itself but the sensation of a system becoming aware of something just below conscious threshold \u2014 which is what today's acoustic OSINT piece is actually about."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Tati's Playtime",
-        "creator": "Jacques Tati",
-        "why": "A film that IS architecture \u2014 Tati built an entire modernist city to show how designed systems make people behave like parts of a machine. The comedy is structural, not verbal, and the deeper you look the more layers of choreographed feedback loop you find. Made for someone who thinks in systems and can't stop noticing how environments shape behavior.",
-        "url": "https://letterboxd.com/film/playtime/"
-      },
-      {
-        "medium": "art",
-        "title": "Harun Farocki: Images of the World and the Inscription of War",
-        "creator": "Harun Farocki",
-        "why": "Farocki spent decades doing what Willem does instinctively \u2014 treating images as operational systems, not representations. This video essay on how machines and states use vision to produce knowledge hits the physical/digital edge, the hidden systems angle, and the obsessive narrow-topic depth simultaneously. His work is scattered across institutions but EAI is the canonical entry point.",
-        "url": "https://www.eai.org/artists/harun-farocki"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film structured like a piece of software \u2014 memory, ritual, and time as feedback loops, with Tokyo youth culture and Guinea-Bissau funeral rites as the two poles. Marker treats the camera as a tool for thinking, not recording, and the result is the closest cinema has come to feeling like the inside of a mind trying to hold the world together.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "music",
-        "title": "Drexciya",
-        "creator": "Drexciya",
-        "why": "The Detroit electro duo who built an entire underwater mythology \u2014 descendants of enslaved Africans thrown overboard who evolved to breathe water \u2014 and released it across a decade of cryptic 12-inches before anyone fully decoded it. The music is machine-perfect and the worldbuilding is disguised as liner notes. Mythology as product design, community organized around a hidden cosmology, the edge where ritual and electronics meet.",
-        "url": "https://www.discogs.com/artist/2640-Drexciya"
+        "title": "Music for 18 Musicians",
+        "creator": "Steve Reich",
+        "why": "A living system, not a composition \u2014 interlocking pulses that gradually phase against each other until the whole room seems to breathe. The score is a machine whose emergent behavior you can feel in your body before you can name it; exactly the kind of deep structure with expressive surface that holds up across decades.",
+        "url": "https://www.youtube.com/watch?v=_SxC4kqKD8E"
+      },
+      {
+        "medium": "art",
+        "title": "The Crossing",
+        "creator": "Bill Viola",
+        "why": "Two-channel video of a figure consumed simultaneously by fire and water \u2014 elemental, ritual, and physically overwhelming at scale. Viola goes unreasonably deep on the phenomenology of the body as a threshold between inner and outer worlds, and the work earns every second of its duration.",
+        "url": "https://www.billviola.com/videoseries/the-crossing"
       }
     ],
     "events": [
       {
         "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-11-02",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd St, Manhattan",
+        "date_start": "2026-11-03",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "An AI installation activated in real time by visitor gaze and cancer-cell mutation data \u2014 it uses fMRI brain scans to generate hallucinatory machine visions of human thought, sprawled across freestanding screens in the Sculpture Garden; last few weeks before it closes.",
-        "url": "https://www.moma.org/calendar/exhibitions/pierre-huyghe-uumwelt",
-        "date": "Nov 2\u201329"
+        "why": "Huyghe worked with neuroscientists to scan a human brain mid-imagination, fed the fMRI data to a neural network, and the hallucinatory output plays on outdoor screens \u2014 activated in real time by visitor gaze and cancer cell mutation data; it's a live system that poses the question of what a non-human mind actually sees, and it closes at the end of the month.",
+        "url": "https://www.moma.org/calendar/exhibitions/5887",
+        "date": "Nov 3\u201329"
       },
       {
-        "name": "\u00d3lafur Arnalds \u2014 Two Nights at The Town Hall",
-        "venue": "The Town Hall, 123 W 43rd St, Manhattan",
-        "date_start": "2026-11-04",
+        "name": "Cristina Iglesias: Possible Matter",
+        "venue": "Hauser & Wirth, 542 West 22nd Street, Chelsea",
+        "date_start": "2026-11-05",
+        "date_end": "2027-01-16",
+        "category": "museum",
+        "why": "Her first NY show with Hauser & Wirth debuts a new immersive aluminum-and-colored-glass dome alongside sculptures that blur the line between built and natural worlds \u2014 the kind of environmental work that makes a space think.",
+        "url": "https://www.hauserwirth.com/exhibitions/cristina-iglesias-possible-matter",
+        "date": "Nov 5 \u2013 Jan 16"
+      },
+      {
+        "name": "Hard Art",
+        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City",
+        "date_start": "2026-11-05",
         "date_end": "2026-11-05",
-        "category": "concert",
-        "why": "The Icelandic post-classical composer who programs his own generative systems to play alongside him \u2014 his live setup is an argument about authorship, feedback loops, and what a human-machine ensemble actually sounds like.",
-        "url": "https://www.thetownhall.org",
-        "date": "Nov 4\u20135"
+        "category": "museum",
+        "why": "Opens November 5 with an open-house day \u2014 a group show on abstract painting by Black artists that's been flagged as one of the month's most compelling conceptual exhibitions by multiple independent NYC art writers.",
+        "url": "https://www.momaps1.org",
+        "date": "Thu, Nov 5"
       },
       {
         "name": "Jason Moran: STACKS",
-        "venue": "Luhring Augustine, 531 W 24th St, Chelsea",
+        "venue": "Luhring Augustine, 531 West 24th Street, Chelsea",
         "date_start": "2026-11-06",
         "date_end": "2026-12-19",
-        "category": "museum",
-        "why": "Jazz pianist Jason Moran stacks two parlor pianos on top of each other as sculpture \u2014 it's about improvisation, precarity, and the visual grammar of performance; art that uses an instrument as a conceptual object rather than a functional one.",
+        "category": "popup",
+        "why": "Jazz pianist Moran makes visual art where the centerpiece is two parlor pianos stacked precariously on top of each other \u2014 improvisation as physical precarity, music as object, the kind of category-collapse that earns the trip to Chelsea on its own.",
         "url": "https://www.luhringaugustine.com",
         "date": "Nov 6 \u2013 Dec 19"
       },
       {
-        "name": "Art Week NYC (Inaugural Edition)",
-        "venue": "Citywide \u2014 Chelsea, Tribeca, LES, UES, and Midtown hub",
+        "name": "Art Week NYC \u2014 Gallery Openings & New Museum Programming",
+        "venue": "Citywide: Chelsea, Tribeca, LES, UES, and Midtown hub",
         "date_start": "2026-11-11",
         "date_end": "2026-11-14",
-        "category": "popup",
-        "why": "76 galleries opening simultaneously with public programming at the New Museum \u2014 a rare moment when the city's gallery infrastructure becomes legible as a system, not just a series of separate rooms; worth moving through it intentionally rather than treating it as an art fair.",
-        "url": "https://www.artforum.com/news/inaugural-art-week-nyc-to-debut-in-november-2026-1234752162/",
-        "date": "Nov 11\u201314"
-      },
-      {
-        "name": "Doris Salcedo \u2014 New Exhibition Opening",
-        "venue": "White Cube, New York",
-        "date_start": "2026-11-12",
-        "date_end": "2027-01-23",
         "category": "museum",
-        "why": "Salcedo works with human hair, furniture, concrete \u2014 materials that carry body memory \u2014 to build structures about disappearance and political violence; two new bodies of work makes this the rare gallery opening worth treating as a destination.",
-        "url": "https://www.whitecube.com",
-        "date": "Nov 12 \u2013 Jan 23"
+        "why": "76+ galleries across the city opening simultaneously, with public programming co-hosted by the New Museum and Artforum \u2014 less art fair, more concentrated access to the scene at its most activated; the Nov 14 New Museum day is the anchor.",
+        "url": "https://www.nycforfree.co/events/art-week-nyc",
+        "date": "Nov 11\u201314"
       }
     ]
   },
