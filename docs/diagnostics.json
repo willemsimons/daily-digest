@@ -1,11 +1,11 @@
 {
-  "feeds": 84,
-  "mined": 44,
+  "feeds": 85,
+  "mined": 46,
   "videos": 10,
   "video_titles": [
+    "Something Strange Happens When You Keep Cooling Down",
     "These ponds help support half the people on Earth",
     "What happens if I lower this weight into the water?",
-    "Why doesn't your heart get tired like other muscles do?",
     "My dog won't stay out of mud so I made this...",
     "This Material Sorts Itself",
     "3D-printed, alcohol-powered, Einstein-Szilard absorption refrigerator",
@@ -15,19 +15,15 @@
     "3D Scanning Will Never Be the Same Again! (feat. Elegoo M1 Ultra)"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 6,
   "final_sources": [
-    "Aeon Video / Jo Marchant",
-    "Atalayar / Aristegui",
-    "Colossal / Jessica Silverman Gallery",
-    "GitHub / Postman Issues",
-    "MIT Technology Review",
-    "Nicholas Carlini",
-    "ScienceDaily / ETH Zurich (Science)",
-    "Simon Willison / Colsto OSINT",
-    "blog.nns.ee",
-    "honnibal.dev / Matthew Honnibal"
+    "American Heart Association",
+    "Ars Technica",
+    "CNC Kitchen (YouTube)",
+    "Neufangled / Hacker News",
+    "Public Domain Review",
+    "The Register"
   ],
   "had_video": true,
-  "run_at": "2026-11-03T18:38:05.909401+00:00"
+  "run_at": "2026-11-04T18:48:58.196876+00:00"
 }
