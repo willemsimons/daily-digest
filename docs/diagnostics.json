@@ -1,13 +1,14 @@
 {
   "feeds": 85,
-  "mined": 46,
-  "videos": 10,
+  "mined": 40,
+  "videos": 11,
   "video_titles": [
-    "Something Strange Happens When You Keep Cooling Down",
+    "I finally saw quantum physics with my own eyes...",
     "These ponds help support half the people on Earth",
     "What happens if I lower this weight into the water?",
     "My dog won't stay out of mud so I made this...",
     "This Material Sorts Itself",
+    "Two-photon fluorescence playing pong in rhodamine 6G",
     "3D-printed, alcohol-powered, Einstein-Szilard absorption refrigerator",
     "THE MOST INFLUENTIAL ARTIST NOBODY KNOWS #history #arthistory #painting #artist #art",
     "What is the point of art Fairs?",
@@ -15,15 +16,17 @@
     "3D Scanning Will Never Be the Same Again! (feat. Elegoo M1 Ultra)"
   ],
   "supplemental": false,
-  "final_items": 6,
+  "final_items": 9,
   "final_sources": [
-    "American Heart Association",
+    "Applied Science (YouTube)",
     "Ars Technica",
-    "CNC Kitchen (YouTube)",
-    "Neufangled / Hacker News",
-    "Public Domain Review",
-    "The Register"
+    "Colossal",
+    "Geopolitical Futures",
+    "Hackaday",
+    "MIT Technology Review",
+    "OpenAI Alignment",
+    "The Verge"
   ],
   "had_video": true,
-  "run_at": "2026-11-04T18:48:58.196876+00:00"
+  "run_at": "2026-11-05T18:57:59.290137+00:00"
 }
