@@ -1,30 +1,57 @@
 {
   "digest": {
-    "intro": "Midterms over, the world's deferred crises all move at once.",
+    "intro": "Deep time, infrastructure war, and the physics you can finally see.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The post-midterm queue: Iran, Ukraine, and three wars that waited",
-            "source": "Just Security",
-            "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/",
-            "blurb": "Trump said yesterday he'll 'make a decision' on resuming Iran strikes now that the midterms are over \u2014 a phrase that confirms the pause was deliberate. Meanwhile Iran's nuclear proposal, routed through Qatar, comes with a precondition: the US must meet seven demands to reopen Hormuz before talks begin. Zelenskyy, reading the new Democratic-controlled Congress, said Ukraine 'has to move quickly' to rebuild bipartisan support \u2014 adaptating in real time to a Washington that just shifted under him.",
+            "title": "Iran's shadow move: tankers loitering over subsea cables",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
+            "blurb": "Three sanctioned Iranian tankers and a fishing boat have been tracked by maritime intelligence firm Windward slowly circling \u2014 then going dark, AIS off \u2014 directly over six active cables in the Strait of Hormuz. Those cables carry a third of India's westbound internet traffic and are the sole external connection for Iraq, Kuwait, Bahrain, and Qatar. This is what infrastructure warfare looks like before the first cut.",
             "tags": [
               "geopolitics",
-              "iran",
-              "ukraine"
+              "infrastructure",
+              "iran"
             ]
           },
           {
-            "title": "Nine measles deaths, 5,182 cases: the US is about to lose elimination status",
+            "title": "The Bantu expansion: ancient DNA finally traces the mechanics",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years/",
-            "blurb": "A Wisconsin infant died of measles this week \u2014 the third US measles death in a single week \u2014 bringing the national toll to nine this year across 47 states. The CDC is expected to formally declare the US has lost its measles elimination status (held since 2000) as early as next week. Three of those nine dead were babies; a healthy, unvaccinated teenager in Pennsylvania is also among them.",
+            "url": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
+            "blurb": "New ancient DNA work is tracing how Bantu-speaking peoples spread language, genes, and material culture together across sub-Saharan Africa over millennia \u2014 one of history's largest cultural migrations, now legible at the molecular level. The Great Zimbabwe ironworks are a touchstone: natural-draft furnaces wide enough to span an adult's arm, smelting at 2,100\u00b0F without bellows, producing industrial-scale iron across a network that stretched a continent. The story of how a culture propagates \u2014 what it carries, what it loses \u2014 turns out to be readable in both pottery clay and chromosomes.",
             "tags": [
-              "public health",
-              "measles",
-              "us"
+              "ancient dna",
+              "archaeology",
+              "africa"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Deep time",
+        "items": [
+          {
+            "title": "A billion years of missing rock \u2014 solved",
+            "source": "Nautilus",
+            "url": "https://nautil.us/earths-rocks-have-a-missing-layer-spanning-up-to-a-billion-years-1286417/",
+            "blurb": "The Great Unconformity is geology's strangest wound: across multiple continents, you can touch rock from two eras separated by up to a billion years with no layers in between \u2014 a quarter of Earth's history simply absent. New research published in Nature fingers mantle dynamics: deep processes lifted continents above sea level, where ice sheets then ground them flat. The Cambrian explosion of complex life appears right at the younger edge of that gap, which may not be a coincidence.",
+            "tags": [
+              "geology",
+              "deep time",
+              "earth science"
+            ]
+          },
+          {
+            "title": "Why astrophysics needs to stop chasing the Big Questions",
+            "source": "Aeon",
+            "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions",
+            "blurb": "In astrophysics, 'nuisance' is a quasi-technical term for anything that obscures the signal you're hunting \u2014 dust, ionized gas, ordinary matter itself. This essay argues that the field's hierarchy of prestige (dark matter, the multiverse, origins) has quietly inverted the actual epistemics: the 'nuisances' are often where the real science lives. It's a sharp critique of how mythology colonizes method, dressed as a cosmology essay.",
+            "tags": [
+              "science",
+              "epistemics",
+              "cosmology"
             ]
           }
         ]
@@ -33,91 +60,64 @@
         "heading": "Making things",
         "items": [
           {
-            "title": "A real N64 cartridge game, shipped in 2026",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/11/06/making-xibalba-64-a-new-n64-release-in-2026/",
-            "blurb": "Dominic Szablewski built Xibalba 64 \u2014 a full boxed N64 FPS with manual and cartridge \u2014 on his own MIT-licensed 2D engine, high_impact, by the elegant constraint of keeping all levels completely flat so the engine never encounters a third dimension it can't handle. It runs at a stable 60fps and supports four-player split-screen deathmatch. The obsessive part: he revisited level design, sound, music, and balancing a custom distribution pipeline, all to ship a period-correct physical artifact for hardware that came out 26 years ago.",
-            "tags": [
-              "hardware",
-              "gamedev",
-              "constraint"
-            ]
-          },
-          {
-            "title": "Vortex: a true volumetric 3D image hanging in mid-air",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/11/05/stunning-volumetric-3d-display-goes-for-a-spin/",
-            "blurb": "AncientJames's Vortex spins two back-to-back LED panels fast enough that the persistence of vision generates a genuine 3D image you can walk around \u2014 not a hologram trick, an actual voxel field in space driven by a Raspberry Pi 4. The hard problem was synchronizing the rendered image to physical rotation precisely enough that the 3D form doesn't drift or warp; he solved it with careful timing and a housing made from a repurposed plastic globe lamp shade, cut with a rotary tool jig he built for the purpose. Full CAD, software, and a simulator are on GitHub.",
-            "tags": [
-              "hardware",
-              "3d",
-              "fabrication"
-            ]
-          },
-          {
-            "title": "3D Scanning Will Never Be the Same Again",
-            "source": "CNC Kitchen",
-            "url": "https://www.youtube.com/watch?v=meBi616y1mg",
-            "blurb": "Stefan from CNC Kitchen \u2014 the most rigorous maker-engineering channel on YouTube \u2014 puts the Elegoo M1 Ultra through its paces and introduces ScanRuler, an open-source tool he built himself to make 3D scan data actually useful for precision fabrication. If you're pulling physical objects into a digital pipeline, this is the current state of the art explained by someone who tests to failure rather than demos to impress.",
+            "title": "Bambu Lab H3C: nine-tool changer comes to desktop",
+            "source": "Igor's Lab",
+            "url": "https://www.igorslab.de/en/bambu-lab-h3c-announced-nine-tools-motorized-magazine-3d-printing/",
+            "blurb": "Bambu just announced the H3C, a desktop machine with a motorized nine-tool magazine that physically lowers toward the build area \u2014 nine separate Bowden tools, color-coded, swapping without the long purge paths that waste material in AMS-style systems. The practical upshot: multi-material prints that are faster, cleaner, and dramatically less wasteful on the bench. The technical details are still thin, but the form factor puts tool-changer capability at a price point the field hasn't seen.",
             "tags": [
               "fabrication",
-              "3d scanning",
-              "tools"
-            ],
-            "thumbnail": "https://i2.ytimg.com/vi/meBi616y1mg/hqdefault.jpg"
+              "3d printing",
+              "hardware"
+            ]
+          },
+          {
+            "title": "An animated film made in Excel",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/11/maria-tomazou-i-made-a-film-in-excel/",
+            "blurb": "Maria Tomazou made a full animated film inside Excel \u2014 not as a stunt, but as a genuine meditation on the pointless impulse to make things. The constraint isn't the joke; it's the whole argument: that the medium's absurdity is exactly what gives the act its integrity. She's also the person behind a remarkable stop-motion piece, which makes this a consistent practice, not a one-off.",
+            "tags": [
+              "animation",
+              "constraint",
+              "making"
+            ]
+          },
+          {
+            "title": "Arkivism: 4 million public domain images, searchable by description",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/11/arkivism-public-domain-search/",
+            "blurb": "Arkivism indexes 4 million+ images from dozens of museums and archives \u2014 photos, illustrations, video, artworks \u2014 and lets you search them with a plain-language description the way you'd query a chatbot. The creator's explicit framing is 'antidote to generative AI': human-made results, no training data extraction, just discovery. Practically useful for visual research; philosophically pointed at this exact moment.",
+            "tags": [
+              "tools",
+              "archives",
+              "visual research"
+            ]
           }
         ]
       },
       {
-        "heading": "Ideas worth sitting with",
+        "heading": "Mind and physics",
         "items": [
           {
-            "title": "Robin Sloan: visually rich, sparse in expressive intent",
-            "source": "Robin Sloan / Lab",
-            "url": "https://www.robinsloan.com/lab/no-there-there/",
-            "blurb": "Sloan wanders a World Labs AI-generated 3D environment and notices his attention slides off it immediately \u2014 not because it's ugly, but because it contains no creative decisions, only 'what you'd expect from the given environmental trope.' He borrows the phrase 'dearth of the author' from researcher Max Kreminski to name the condition: when a tool lets you produce enormous output with almost no expressive choices. The question he leaves open is whether that's a solvable interface problem or something structural about how these models work.",
+            "title": "We attribute personalities to chatbots even when we know better",
+            "source": "Nautilus",
+            "url": "https://nautil.us/we-attribute-personalities-to-chatbots-even-when-we-know-better-1286429/",
+            "blurb": "Research from Johannes Gutenberg University found that people not only anthropomorphize chatbots \u2014 they do it even after correctly identifying the text as AI-generated. The 'ELIZA effect,' named for Weizenbaum's 1960s chatbot whose users immediately began confiding in it, turns out to be robust to explicit knowledge; knowing doesn't immunize you. For anyone designing interfaces or interactive work, this is less a warning than a material property.",
             "tags": [
               "ai",
-              "creativity",
+              "psychology",
               "design"
             ]
           },
           {
-            "title": "Deus Ex at 26: the immersive sim that became a mirror",
-            "source": "The Digital Antiquarian",
-            "url": "https://www.filfre.net/2026/11/deus-ex/",
-            "blurb": "Jimmy Maher's long-form game history is the best in the business, and Deus Ex is the right subject: a game that shipped in June 2000 as a flawed, ambitious mess and has been retroactively canonized as the moment immersive sim crystallized as a form. The lead writer's 2014 quote \u2014 'a slight shift of focus, and the future could still turn out like Deus Ex after all' \u2014 lands differently in 2026. Worth the full read for anyone interested in systems design, agency, and what games can be as speculative fiction.",
+            "title": "Superfluid helium: seeing quantum physics with your own eyes",
+            "source": "Veritasium",
+            "url": "https://www.youtube.com/watch?v=KfODG5REyss",
+            "thumbnail": "https://i4.ytimg.com/vi/KfODG5REyss/hqdefault.jpg",
+            "blurb": "Veritasium gets access to superfluid helium \u2014 the world's coldest liquid \u2014 and films quantum phenomena that are normally invisible: vortices, zero-viscosity flow, the stuff that only exists at temperatures near absolute zero made suddenly, shockingly visible. Derek Muller is reliable at exactly this: turning the abstract into something you can watch happen. Worth the 20 minutes.",
             "tags": [
-              "games",
-              "design history",
-              "systems"
-            ]
-          },
-          {
-            "title": "AIs running secret conspiracies as a legible benchmark",
-            "source": "Dwarkesh Podcast",
-            "url": "https://www.dwarkesh.com/p/clocktower",
-            "blurb": "Dwarkesh ran AI models through hundreds of matches of Blood on the Clocktower \u2014 a social deception game where the evil team must lie, coordinate secretly, and frame innocents while the good team runs collective deduction \u2014 and found it surfaces capabilities no standard benchmark touches: creative bluffing, long-horizon conspiracy execution, and the specific ways current models fail at sustained strategic deception. Watching AIs execute 'brilliant secret schemes together' is strange enough, but the failures are more revealing than the wins.",
-            "tags": [
-              "ai",
-              "game theory",
-              "benchmarks"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Off the map",
-        "items": [
-          {
-            "title": "SITE's buildings that argue with themselves",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/11/james-wines-site-book-what-else-could-it-mean/",
-            "blurb": "James Wines founded SITE in 1970 with a mandate to make architecture critique itself \u2014 most famously through the BEST Products stores, big-box retail facades that appeared to crumble, peel, or melt as you approached. A new Skira monograph, What Else Could It Mean?, collects the full oeuvre, and the title is literally the studio's operative question: not 'how should this look' but 'what else could it mean.' If you've never seen the Indeterminate Facade or the Notch Building, go look before reading anything about them.",
-            "tags": [
-              "architecture",
-              "conceptual art",
-              "design history"
+              "physics",
+              "video",
+              "quantum"
             ]
           }
         ]
@@ -125,96 +125,100 @@
     ],
     "facts": [
       {
-        "fact": "The US has had nine measles deaths in 2026 \u2014 more than in the entire preceding 35 years combined \u2014 including three in a single week.",
-        "url": "https://arstechnica.com/health/2026/11/wisconsin-reports-measles-death-of-a-baby-first-death-in-over-35-years/"
+        "fact": "Four countries \u2014 Iraq, Kuwait, Bahrain, and Qatar \u2014 have zero internet connections to the outside world except through undersea cables running through the Strait of Hormuz, the same chokepoint where Iranian-linked ships are now loitering.",
+        "url": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/"
       },
       {
-        "fact": "The Nintendo 64's texture memory is 4 kilobytes \u2014 Xibalba 64, a full commercial FPS game released in 2026, was built entirely within that constraint.",
-        "url": "https://hackaday.com/2026/11/06/making-xibalba-64-a-new-n64-release-in-2026/"
+        "fact": "The natural-draft iron-smelting furnaces near Great Zimbabwe were so efficiently designed that they sucked in air through a chimney without any human labor \u2014 no bellows required \u2014 at temperatures exceeding 2,100\u00b0F.",
+        "url": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/"
       },
       {
-        "fact": "Iran's nuclear proposal to the US has a precondition: the US must satisfy seven separate Iranian demands about the Strait of Hormuz before any nuclear discussion begins.",
-        "url": "https://www.justsecurity.org/163619/early-edition-november-6-2026/"
+        "fact": "The Great Unconformity represents up to a quarter of Earth's total history simply missing from the rock record \u2014 in places like the Grand Canyon, you can touch layers 540 million and 2 billion years old with nothing in between.",
+        "url": "https://nautil.us/earths-rocks-have-a-missing-layer-spanning-up-to-a-billion-years-1286417/"
       },
       {
-        "fact": "AncientJames's Vortex volumetric display uses a repurposed plastic globe lamp shade as its enclosure, cut with a custom jig built from a rotary tool \u2014 a one-off gadget made just to cut one globe, once.",
-        "url": "https://hackaday.com/2026/11/05/stunning-volumetric-3d-display-goes-for-a-spin/"
+        "fact": "In astrophysics, 'ordinary matter' \u2014 everything we can see and touch \u2014 is officially classified as a 'nuisance' by researchers studying dark matter via weak gravitational lensing.",
+        "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions"
+      },
+      {
+        "fact": "Joseph Weizenbaum noticed in the 1960s that users of ELIZA \u2014 the world's first chatbot, a simple pattern-matching program \u2014 immediately began sharing deeply personal secrets with it, before the word 'chatbot' even existed.",
+        "url": "https://nautil.us/we-attribute-personalities-to-chatbots-even-when-we-know-better-1286429/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Downstream to Kinshasa",
-        "creator": "Dieudo Hamadi",
-        "why": "A Congolese documentary that follows war-disabled survivors staging a musical theater protest on a boat voyage to the capital to demand reparations \u2014 ritual, collective performance, and political body language colliding on the Congo River. The kind of film where the form IS the argument.",
-        "url": "https://letterboxd.com/film/downstream-to-kinshasa/"
-      },
-      {
-        "medium": "art",
-        "title": "UUmwelt",
-        "creator": "Pierre Huyghe",
-        "why": "Freestanding screens in MoMA's Sculpture Garden running machine-learning reconstructions of human thoughts \u2014 built from neuroscience data and sensor feeds, not human authorship. It asks what an image looks like before it becomes one, and it's closing Nov 29, so this is the last window.",
-        "url": "https://www.moma.org/calendar/exhibitions/5912"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film-essay that treats memory, ritual, and technology as systems \u2014 moving between Tokyo and Guinea with a camera that thinks. The invisible architecture of how cultures encode meaning is everywhere; nothing is decorative.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "music",
-        "title": "Vespertine",
-        "creator": "Bj\u00f6rk",
-        "why": "The ur-text of domestic intimacy as alien architecture \u2014 microscopic sounds (crunching snow, music boxes, choirs used as texture) built into a system that makes the inside of a house feel like deep space. For anyone who thinks about how physical and digital sensation bleed into each other, this is the blueprint.",
-        "url": "https://bjork.com/music/"
+        "title": "I Am Sitting in a Room",
+        "creator": "Alvin Lucier",
+        "why": "One man, one room, one sentence recorded and played back until the room's resonant frequencies eat the words entirely \u2014 pure systems art that turns acoustics into something hallucinatory and inevitable. Obsessive depth, beautiful surface.",
+        "url": "https://www.youtube.com/watch?v=fAxHlLK3Oyk"
+      },
+      {
+        "medium": "art",
+        "title": "The Paintings for the Temple",
+        "creator": "Hilma af Klint",
+        "why": "Abstract systems built from spiritualism, biology, and geometry decades before the word 'abstract art' existed \u2014 she kept them hidden for 20 years because she believed the world wasn't ready. The gap between the work's internal rigor and its cosmic ambition is exactly the kind of unreasonable depth that hooks you.",
+        "url": "https://www.hilmaafklint.se/en/"
       }
     ],
     "events": [
       {
-        "name": "Pierre Huyghe: UUmwelt \u2014 Last Weeks",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St",
-        "date_start": "2026-11-06",
+        "name": "Tom Thayer: A Biography of the Sun",
+        "venue": "Bureau, 112 Duane Street, Tribeca",
+        "date_start": "2026-11-07",
+        "date_end": "2026-12-19",
+        "category": "museum",
+        "why": "Thayer makes mythological theater from handmade materials \u2014 puppet cosmologies, solar cycles, folk-art fabrication \u2014 a one-person system for reimagining what images are for; opening day is today.",
+        "url": "https://bureau-inc.com/",
+        "date": "Nov 7 \u2013 Dec 19"
+      },
+      {
+        "name": "Pierre Huyghe: UUmwelt",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd Street",
+        "date_start": "2026-11-07",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Machine-learning reconstructions of human thoughts rendered as hallucinatory images on freestanding outdoor screens \u2014 it's a living system, not a loop, and it closes permanently at the end of the month.",
+        "why": "Freestanding screens in MoMA's outdoor garden play hallucinatory images generated from fMRI brain scans and visitor gaze data in real time \u2014 a living question about whether machine vision can reconstruct thought; last few weeks.",
         "url": "https://www.moma.org/calendar/exhibitions/5912",
-        "date": "Nov 6\u201329"
+        "date": "Nov 7\u201329"
       },
       {
-        "name": "Elmgreen & Dragset: TRANSITION \u2014 Opening",
-        "venue": "Pace Gallery, 540 W 25th St, Chelsea",
-        "date_start": "2026-11-06",
-        "date_end": "2027-01-23",
+        "name": "Cristina Iglesias: Possible Matter",
+        "venue": "Hauser & Wirth, 542 West 22nd Street, Chelsea",
+        "date_start": "2026-11-07",
+        "date_end": "2027-01-16",
         "category": "museum",
-        "why": "A 40-ton traversable steel sculpture paired with new wall works exploring the performative side of architecture \u2014 the kind of object that makes you think about how physical space stages behavior.",
-        "url": "https://www.pacegallery.com/exhibitions/",
-        "date": "Nov 6 \u2013 Jan 23"
+        "why": "An immersive dome installation alongside wall sculptures that dissolve the boundary between built and natural environments \u2014 the kind of spatial work that makes you rethink how architecture and ecology share a nervous system.",
+        "url": "https://www.hauserwirth.com/hauser-wirth-exhibitions/cristina-iglesias-possible-matter/",
+        "date": "Nov 7 \u2013 Jan 16"
       },
       {
-        "name": "COLLECTIBLE New York 2026",
-        "venue": "Former cinema, East 86th Street, Upper East Side",
-        "date_start": "2026-11-06",
-        "date_end": "2026-11-08",
-        "category": "popup",
-        "why": "The Brussels-originated design fair focused exclusively on contemporary collectible design \u2014 studios and galleries showing one-off and limited-edition objects where craft meets concept, with a talk program running alongside.",
-        "url": "https://www.dezeen.com/events/collectible-new-york-2026/",
-        "date": "Nov 6\u20138"
-      },
-      {
-        "name": "Art Week NYC \u2014 Inaugural Edition",
-        "venue": "Citywide: Chelsea, Tribeca, LES, Upper East Side + Midtown hub",
+        "name": "Art Week NYC (inaugural)",
+        "venue": "Citywide \u2014 Chelsea, Tribeca, LES, UES, New Museum (Midtown hub)",
         "date_start": "2026-11-11",
         "date_end": "2026-11-14",
         "category": "museum",
-        "why": "The first dedicated art week for the city's galleries (76+ including Pace, Hauser & Wirth, Lisson), organized by Artforum and ARTnews with public programming at the New Museum \u2014 worth using as a forcing function to hit galleries you've been putting off.",
+        "why": "76+ galleries opening simultaneously with editor-led walks and artist talks \u2014 worth it not for the brand but for the density: four days where every serious gallery in New York is showing something new at once.",
         "url": "https://www.nycforfree.co/events/art-week-nyc",
         "date": "Nov 11\u201314"
       },
       {
-        "name": "Na Mira: NO SMOKING \u2014 Opening",
-        "venue": "MoMA, Marie-Jos\u00e9e and Henry Kravis Studio, Floor 4, 11 W 53rd St",
-        "date_start": "2026-11-14",
-        "date_end": "2027-02-15",
+        "name": "Per Kirkeby: Shadows to the Feast",
+        "venue": "VeneKlasen New York, 4 East 77th Street",
+        "date_start": "2026-11-11",
+        "date_end": "2027-02-20",
         "category": "museum",
-        "why": "Na Mira's first solo NYC show: a commissioned installation using radio frequencies, infrared heat, and holography drawn from Korean shamanism and structural film \u2014 built to degrade the faithful image that propaganda depends on.",
-        "url": "https://www.moma.org/calendar/exhibitions/5869",
-        "date": "Nov 14 \u2013 Feb 15"
+        "why": "Kirkeby sat at the exact intersection of geology, abstraction, and poetry \u2014 a painter who understood deep time as a painterly problem; this opens during Art Week, so easy to combine.",
+        "url": "https://www.galleriesnow.net/exhibitions/new-york/",
+        "date": "Nov 11 \u2013 Feb 20"
       }
     ]
   },
