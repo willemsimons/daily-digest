@@ -1,123 +1,89 @@
 {
   "digest": {
-    "intro": "Deep time, infrastructure war, and the physics you can finally see.",
+    "intro": "Blood in ancient bone, gold moving through shadow networks, and machines learning who you love.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Iran's shadow move: tankers loitering over subsea cables",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/",
-            "blurb": "Three sanctioned Iranian tankers and a fishing boat have been tracked by maritime intelligence firm Windward slowly circling \u2014 then going dark, AIS off \u2014 directly over six active cables in the Strait of Hormuz. Those cables carry a third of India's westbound internet traffic and are the sole external connection for Iraq, Kuwait, Bahrain, and Qatar. This is what infrastructure warfare looks like before the first cut.",
+            "title": "Iran's nuclear proposal, Ukraine's pivot, and what the midterms just unlocked",
+            "source": "Just Security",
+            "url": "https://justsecurity.org/163619/early-edition-november-6-2026",
+            "blurb": "Trump said he'll decide on resuming Iran strikes now that the midterms are over \u2014 and Iran has simultaneously sent a nuclear proposal via Qatar, contingent on the US meeting seven demands to reopen the Strait of Hormuz. Meanwhile Zelenskyy is openly recalibrating toward bipartisan US support rather than waiting on European consensus, which Peskov pointedly noted Europe can't yet articulate anyway.",
             "tags": [
               "geopolitics",
-              "infrastructure",
-              "iran"
+              "iran",
+              "ukraine"
             ]
           },
           {
-            "title": "The Bantu expansion: ancient DNA finally traces the mechanics",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/",
-            "blurb": "New ancient DNA work is tracing how Bantu-speaking peoples spread language, genes, and material culture together across sub-Saharan Africa over millennia \u2014 one of history's largest cultural migrations, now legible at the molecular level. The Great Zimbabwe ironworks are a touchstone: natural-draft furnaces wide enough to span an adult's arm, smelting at 2,100\u00b0F without bellows, producing industrial-scale iron across a network that stretched a continent. The story of how a culture propagates \u2014 what it carries, what it loses \u2014 turns out to be readable in both pottery clay and chromosomes.",
+            "title": "West Africa's refinery wave: capacity built for gold that isn't theirs",
+            "source": "Geopolitical Monitor",
+            "url": "https://www.geopoliticalmonitor.com/refining-sovereignty-russia-and-west-africas-gold-refinery-wave/",
+            "blurb": "Guinea, Burkina Faso, and Mali are building gold refineries with a combined claimed capacity of over 1,000 tonnes \u2014 against collective national output of fewer than 250 tonnes. The math only works if they're pulling in artisanal and smuggled gold from neighboring states, redirecting flows that currently exit through Dubai; Russia's Yadran Group holds a 38% stake in Mali's refinery, and Guinea has already banned raw gold exports and shipped its first refined bars in October.",
             "tags": [
-              "ancient dna",
-              "archaeology",
-              "africa"
+              "geopolitics",
+              "africa",
+              "russia"
             ]
           }
         ]
       },
       {
-        "heading": "Deep time",
+        "heading": "Making and machines",
         "items": [
           {
-            "title": "A billion years of missing rock \u2014 solved",
-            "source": "Nautilus",
-            "url": "https://nautil.us/earths-rocks-have-a-missing-layer-spanning-up-to-a-billion-years-1286417/",
-            "blurb": "The Great Unconformity is geology's strangest wound: across multiple continents, you can touch rock from two eras separated by up to a billion years with no layers in between \u2014 a quarter of Earth's history simply absent. New research published in Nature fingers mantle dynamics: deep processes lifted continents above sea level, where ice sheets then ground them flat. The Cambrian explosion of complex life appears right at the younger edge of that gap, which may not be a coincidence.",
-            "tags": [
-              "geology",
-              "deep time",
-              "earth science"
-            ]
-          },
-          {
-            "title": "Why astrophysics needs to stop chasing the Big Questions",
-            "source": "Aeon",
-            "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions",
-            "blurb": "In astrophysics, 'nuisance' is a quasi-technical term for anything that obscures the signal you're hunting \u2014 dust, ionized gas, ordinary matter itself. This essay argues that the field's hierarchy of prestige (dark matter, the multiverse, origins) has quietly inverted the actual epistemics: the 'nuisances' are often where the real science lives. It's a sharp critique of how mythology colonizes method, dressed as a cosmology essay.",
-            "tags": [
-              "science",
-              "epistemics",
-              "cosmology"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Making things",
-        "items": [
-          {
-            "title": "Bambu Lab H3C: nine-tool changer comes to desktop",
-            "source": "Igor's Lab",
-            "url": "https://www.igorslab.de/en/bambu-lab-h3c-announced-nine-tools-motorized-magazine-3d-printing/",
-            "blurb": "Bambu just announced the H3C, a desktop machine with a motorized nine-tool magazine that physically lowers toward the build area \u2014 nine separate Bowden tools, color-coded, swapping without the long purge paths that waste material in AMS-style systems. The practical upshot: multi-material prints that are faster, cleaner, and dramatically less wasteful on the bench. The technical details are still thin, but the form factor puts tool-changer capability at a price point the field hasn't seen.",
+            "title": "Bambu H3C: nine tools, six seconds, the multi-material ceiling just moved",
+            "source": "Bambu Lab",
+            "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/tool-changer-game-changer-bambu-lab-presents-h3c-the-defining-new-generation-of-3d-printers/2460837",
+            "blurb": "The H3C keeps nine independently pre-heated print tools permanently loaded and swaps between them in under six seconds \u2014 not a purge-and-reload, an actual tool change \u2014 in a footprint no bigger than a single-spool printer. It prints 75A TPU reliably, which has historically been the material that breaks every multi-material workflow. For anyone making physical things with more than one material, this is the most consequential desktop hardware announcement in years.",
             "tags": [
               "fabrication",
-              "3d printing",
-              "hardware"
+              "hardware",
+              "3d printing"
             ]
           },
           {
-            "title": "An animated film made in Excel",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/11/maria-tomazou-i-made-a-film-in-excel/",
-            "blurb": "Maria Tomazou made a full animated film inside Excel \u2014 not as a stunt, but as a genuine meditation on the pointless impulse to make things. The constraint isn't the joke; it's the whole argument: that the medium's absurdity is exactly what gives the act its integrity. She's also the person behind a remarkable stop-motion piece, which makes this a consistent practice, not a one-off.",
+            "title": "Apple quietly ships a family classifier in every Mac",
+            "source": "8rank.ai",
+            "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
+            "blurb": "Since macOS 13, every Mac has shipped two background daemons whose sole job is building a queryable knowledge graph of who you are, who you know, how you're related, where you go, and with whom \u2014 cross-referencing Contacts, Calendar, Photos, Messages, Mail, location, and Screen Time. This graph is what Apple Intelligence's LLMs retrieve from, and it includes a relationship classifier that infers family structure from behavioral signals. It's on-device, but it was never disclosed, and you can now query your own.",
             "tags": [
-              "animation",
-              "constraint",
-              "making"
-            ]
-          },
-          {
-            "title": "Arkivism: 4 million public domain images, searchable by description",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/11/arkivism-public-domain-search/",
-            "blurb": "Arkivism indexes 4 million+ images from dozens of museums and archives \u2014 photos, illustrations, video, artworks \u2014 and lets you search them with a plain-language description the way you'd query a chatbot. The creator's explicit framing is 'antidote to generative AI': human-made results, no training data extraction, just discovery. Practically useful for visual research; philosophically pointed at this exact moment.",
-            "tags": [
-              "tools",
-              "archives",
-              "visual research"
+              "privacy",
+              "apple",
+              "ambient surveillance"
             ]
           }
         ]
       },
       {
-        "heading": "Mind and physics",
+        "heading": "Biology at the edge",
         "items": [
           {
-            "title": "We attribute personalities to chatbots even when we know better",
+            "title": "115-million-year-old dinosaur blood, confirmed by heme",
             "source": "Nautilus",
-            "url": "https://nautil.us/we-attribute-personalities-to-chatbots-even-when-we-know-better-1286429/",
-            "blurb": "Research from Johannes Gutenberg University found that people not only anthropomorphize chatbots \u2014 they do it even after correctly identifying the text as AI-generated. The 'ELIZA effect,' named for Weizenbaum's 1960s chatbot whose users immediately began confiding in it, turns out to be robust to explicit knowledge; knowing doesn't immunize you. For anyone designing interfaces or interactive work, this is less a warning than a material property.",
+            "url": "https://nautil.us/astonishing-find-fossilized-dinosaur-blood-in-a-115-million-year-old-specimen-1286412/",
+            "blurb": "Paleontologists found round blobs in the vascular channels of a juvenile Brazilian theropod's leg bone \u2014 and confirmed they're blood cells by detecting intact heme, the iron-bearing molecule in hemoglobin, inside the fossil but nowhere in the surrounding sediment. Heme surviving 115 million years extends the fossil soft-tissue record and opens a direct molecular window into dinosaur physiology that previously only existed in Crichton novels.",
             "tags": [
-              "ai",
-              "psychology",
-              "design"
+              "paleontology",
+              "deep time",
+              "biology"
             ]
-          },
+          }
+        ]
+      },
+      {
+        "heading": "Off the map",
+        "items": [
           {
-            "title": "Superfluid helium: seeing quantum physics with your own eyes",
-            "source": "Veritasium",
-            "url": "https://www.youtube.com/watch?v=KfODG5REyss",
-            "thumbnail": "https://i4.ytimg.com/vi/KfODG5REyss/hqdefault.jpg",
-            "blurb": "Veritasium gets access to superfluid helium \u2014 the world's coldest liquid \u2014 and films quantum phenomena that are normally invisible: vortices, zero-viscosity flow, the stuff that only exists at temperatures near absolute zero made suddenly, shockingly visible. Derek Muller is reliable at exactly this: turning the abstract into something you can watch happen. Worth the 20 minutes.",
+            "title": "Person of Interest, 2026",
+            "source": "krthr.co",
+            "url": "https://krthr.co/person-of-interest/",
+            "blurb": "Someone rewatched Person of Interest and wrote a quiet, bilingual essay about how a show that felt like science fiction in 2011 now feels like documentation \u2014 SOPA, Megaupload, the Machine, all of it landing differently when the surveillance infrastructure it imagined is simply ambient reality. The HN thread drew 154 comments not because it's technical but because it touched something; it's the kind of piece that makes you want to go rewatch the first season.",
             "tags": [
-              "physics",
-              "video",
-              "quantum"
+              "surveillance",
+              "nostalgia",
+              "internet history"
             ]
           }
         ]
@@ -125,102 +91,110 @@
     ],
     "facts": [
       {
-        "fact": "Four countries \u2014 Iraq, Kuwait, Bahrain, and Qatar \u2014 have zero internet connections to the outside world except through undersea cables running through the Strait of Hormuz, the same chokepoint where Iranian-linked ships are now loitering.",
-        "url": "https://arstechnica.com/gadgets/2026/11/ships-loiter-near-subsea-cables-amid-irans-warnings-to-trump/"
+        "fact": "Burkina Faso opened a gold refinery with 164 tonnes of annual capacity \u2014 nearly double the country's entire national gold output of 94 tonnes.",
+        "url": "https://www.geopoliticalmonitor.com/refining-sovereignty-russia-and-west-africas-gold-refinery-wave/"
       },
       {
-        "fact": "The natural-draft iron-smelting furnaces near Great Zimbabwe were so efficiently designed that they sucked in air through a chimney without any human labor \u2014 no bellows required \u2014 at temperatures exceeding 2,100\u00b0F.",
-        "url": "https://arstechnica.com/science/2026/11/the-migration-that-transformed-africas-languages-genes-and-cultures/"
+        "fact": "Heme \u2014 the iron-bearing molecule inside hemoglobin \u2014 has been detected intact inside a 115-million-year-old dinosaur fossil, while the surrounding sediment contained none.",
+        "url": "https://nautil.us/astonishing-find-fossilized-dinosaur-blood-in-a-115-million-year-old-specimen-1286412/"
       },
       {
-        "fact": "The Great Unconformity represents up to a quarter of Earth's total history simply missing from the rock record \u2014 in places like the Grand Canyon, you can touch layers 540 million and 2 billion years old with nothing in between.",
-        "url": "https://nautil.us/earths-rocks-have-a-missing-layer-spanning-up-to-a-billion-years-1286417/"
-      },
-      {
-        "fact": "In astrophysics, 'ordinary matter' \u2014 everything we can see and touch \u2014 is officially classified as a 'nuisance' by researchers studying dark matter via weak gravitational lensing.",
-        "url": "https://aeon.co/essays/why-astrophysics-needs-to-abandon-the-big-questions"
-      },
-      {
-        "fact": "Joseph Weizenbaum noticed in the 1960s that users of ELIZA \u2014 the world's first chatbot, a simple pattern-matching program \u2014 immediately began sharing deeply personal secrets with it, before the word 'chatbot' even existed.",
-        "url": "https://nautil.us/we-attribute-personalities-to-chatbots-even-when-we-know-better-1286429/"
+        "fact": "Apple's on-device personal knowledge graph daemons cross-reference Contacts, Calendar, Photos, Messages, Mail, location, and Screen Time to infer family relationships \u2014 and have shipped on every Mac since macOS 13 without public disclosure.",
+        "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film-essay that treats memory, ritual, and technology as systems \u2014 moving between Tokyo and Guinea with a camera that thinks. The invisible architecture of how cultures encode meaning is everywhere; nothing is decorative.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
-      },
-      {
-        "medium": "music",
-        "title": "I Am Sitting in a Room",
-        "creator": "Alvin Lucier",
-        "why": "One man, one room, one sentence recorded and played back until the room's resonant frequencies eat the words entirely \u2014 pure systems art that turns acoustics into something hallucinatory and inevitable. Obsessive depth, beautiful surface.",
-        "url": "https://www.youtube.com/watch?v=fAxHlLK3Oyk"
+        "title": "M\u00e9lodie en sous-sol (Any Number Can Win)",
+        "creator": "Henri Verneuil, 1963",
+        "why": "A heist film where the real subject is ritual and system: two men execute an elaborate scheme against a casino \u2014 a machine built to grind them down \u2014 with the whole thing held together by pure compulsive craft. The ending is one of cinema's great feedback-loop images. Pure signal for someone who loves invisible systems made suddenly, catastrophically visible.",
+        "url": "https://letterboxd.com/film/melodie-en-sous-sol/"
       },
       {
         "medium": "art",
-        "title": "The Paintings for the Temple",
-        "creator": "Hilma af Klint",
-        "why": "Abstract systems built from spiritualism, biology, and geometry decades before the word 'abstract art' existed \u2014 she kept them hidden for 20 years because she believed the world wasn't ready. The gap between the work's internal rigor and its cosmic ambition is exactly the kind of unreasonable depth that hooks you.",
-        "url": "https://www.hilmaafklint.se/en/"
+        "title": "Myron Stout: Works on Paper",
+        "creator": "Myron Stout",
+        "why": "Stout spent years on a single painting, iterating obsessively on the tension between a form and its ground until it locked. His drawings are studies in how identity emerges from constraint \u2014 the kind of unreasonably narrow commitment that tends to hook you hard. No digital equivalent; purely physical.",
+        "url": "https://www.pacegallery.com/artists/myron-stout/"
+      },
+      {
+        "medium": "music",
+        "title": "Selected Works",
+        "creator": "Visible Cloaks",
+        "why": "Generative electronic music that feels structurally akin to WebGL \u2014 shimmering feedback systems that never quite repeat, built from Japanese ambient tradition and a designer's attention to texture. The music sounds like a living render, which is either a great hook or a dealbreaker, and you'll know in 90 seconds.",
+        "url": "https://visiblecloaks.bandcamp.com/"
       }
     ],
     "events": [
       {
-        "name": "Tom Thayer: A Biography of the Sun",
-        "venue": "Bureau, 112 Duane Street, Tribeca",
-        "date_start": "2026-11-07",
-        "date_end": "2026-12-19",
-        "category": "museum",
-        "why": "Thayer makes mythological theater from handmade materials \u2014 puppet cosmologies, solar cycles, folk-art fabrication \u2014 a one-person system for reimagining what images are for; opening day is today.",
-        "url": "https://bureau-inc.com/",
-        "date": "Nov 7 \u2013 Dec 19"
-      },
-      {
-        "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 West 53rd Street",
-        "date_start": "2026-11-07",
+        "name": "Pierre Huyghe: UUmwelt \u2014 Last Chance",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
+        "date_start": "2026-11-08",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Freestanding screens in MoMA's outdoor garden play hallucinatory images generated from fMRI brain scans and visitor gaze data in real time \u2014 a living question about whether machine vision can reconstruct thought; last few weeks.",
+        "why": "Huyghe worked with Kyoto neuroscientists to have an fMRI scanner record a person imagining images; a neural network then generated thousands of visual interpretations of those brain scans, displayed on freestanding screens in MoMA's outdoor garden \u2014 sensors detect visitors looking at the work, pulling it into a live feedback loop between human perception, biological data, and machine cognition. Last three weeks.",
         "url": "https://www.moma.org/calendar/exhibitions/5912",
-        "date": "Nov 7\u201329"
+        "date": "Nov 8\u201329"
       },
       {
-        "name": "Cristina Iglesias: Possible Matter",
-        "venue": "Hauser & Wirth, 542 West 22nd Street, Chelsea",
-        "date_start": "2026-11-07",
-        "date_end": "2027-01-16",
-        "category": "museum",
-        "why": "An immersive dome installation alongside wall sculptures that dissolve the boundary between built and natural environments \u2014 the kind of spatial work that makes you rethink how architecture and ecology share a nervous system.",
-        "url": "https://www.hauserwirth.com/hauser-wirth-exhibitions/cristina-iglesias-possible-matter/",
-        "date": "Nov 7 \u2013 Jan 16"
-      },
-      {
-        "name": "Art Week NYC (inaugural)",
-        "venue": "Citywide \u2014 Chelsea, Tribeca, LES, UES, New Museum (Midtown hub)",
+        "name": "Art Week NYC \u2014 Inaugural Edition",
+        "venue": "Citywide (Chelsea, Tribeca, LES, Upper East Side + 80+ galleries)",
         "date_start": "2026-11-11",
         "date_end": "2026-11-14",
         "category": "museum",
-        "why": "76+ galleries opening simultaneously with editor-led walks and artist talks \u2014 worth it not for the brand but for the density: four days where every serious gallery in New York is showing something new at once.",
-        "url": "https://www.nycforfree.co/events/art-week-nyc",
+        "why": "The first-ever citywide art week launched by Artforum, ARTnews, and Art in America \u2014 not a fair, but a coordinated crawl across 80+ galleries and 32 institutions including the Met, Guggenheim, Whitney, and Studio Museum in Harlem, all running openings and programming simultaneously; built to surface the gallery scene rather than a convention-center spectacle.",
+        "url": "https://art-week.com",
         "date": "Nov 11\u201314"
       },
       {
-        "name": "Per Kirkeby: Shadows to the Feast",
-        "venue": "VeneKlasen New York, 4 East 77th Street",
-        "date_start": "2026-11-11",
-        "date_end": "2027-02-20",
+        "name": "ADAA Fair 2026",
+        "venue": "Park Avenue Armory, 643 Park Ave, Manhattan",
+        "date_start": "2026-11-13",
+        "date_end": "2026-11-16",
+        "category": "popup",
+        "why": "The rebranded successor to the long-running Art Show, this iteration puts 63 peer-selected galleries into the drill hall with an emphasis on solo presentations and curated depth over booth-fair chaos \u2014 the architecture of the Armory alone earns it, and this edition is the first under the new ADAA Fair banner, so the energy is genuinely different.",
+        "url": "https://www.adaafair.org",
+        "date": "Nov 13\u201316"
+      },
+      {
+        "name": "Site Conditions: Five Talks on Art and the City (Art Week NYC \u00d7 New Museum \u00d7 Artforum)",
+        "venue": "New Museum Theater, 235 Bowery, Manhattan",
+        "date_start": "2026-11-14",
+        "date_end": "2026-11-14",
         "category": "museum",
-        "why": "Kirkeby sat at the exact intersection of geology, abstraction, and poetry \u2014 a painter who understood deep time as a painterly problem; this opens during Art Week, so easy to combine.",
-        "url": "https://www.galleriesnow.net/exhibitions/new-york/",
-        "date": "Nov 11 \u2013 Feb 20"
+        "why": "Five back-to-back public conversations on Nov 14 covering AI and studio practice, the economics of making work in New York, artists moving into film, and how architecture shapes perception \u2014 with Ian Cheng, Aria Dean, Elizabeth Diller, Annabelle Selldorf, and Shohei Shigematsu among the speakers; dense and specific, the opposite of a panel.",
+        "url": "https://www.newmuseum.org/event/11-14-2026/",
+        "date": "Sat, Nov 14"
+      },
+      {
+        "name": "The Superfair NYC",
+        "venue": "Brooklyn, NY (thesuperfair.com for exact venue)",
+        "date_start": "2026-11-20",
+        "date_end": "2026-11-22",
+        "category": "popup",
+        "why": "Emerging-artist-forward Brooklyn fair that bills itself as a corrective to the institutional art world \u2014 hundreds of cutting-edge works by emerging artists direct to a new generation of collectors; counterpoint energy to the ADAA week uptown, and worth checking if you want to see what's moving outside the established gallery system.",
+        "url": "https://www.thesuperfair.com",
+        "date": "Nov 20\u201322"
       }
     ]
   },
-  "trial_sources": []
+  "trial_sources": [
+    {
+      "name": "Chartbook by Adam Tooze",
+      "feed_url": "https://adamtooze.substack.com/feed",
+      "why": "Columbia historian Adam Tooze writes several times a week at the precise intersection of geopolitics, economic history, and current events this reader craves \u2014 more freewheeling than his FT columns, more rigorous than anyone else operating at this frequency."
+    },
+    {
+      "name": "The Niche \u2013 Paul Knoepfler (ipscell.com)",
+      "feed_url": "https://ipscell.com/feed",
+      "why": "UC Davis stem cell biologist Paul Knoepfler runs the web's most authoritative independent blog on regenerative medicine, covering stem cells, peptides, and longevity research with the credibility of an active researcher and the skepticism of a watchdog."
+    },
+    {
+      "name": "CNC Kitchen (Stefan Hermann)",
+      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgM4lR7bLGM0P5mBdaajKKA",
+      "why": "Stefan Hermann brings genuine materials-science rigor to 3D printing \u2014 systematic tensile tests, filament comparisons, and print-parameter experiments that treat digital fabrication as engineering rather than hobbyism, making it the thinking-person's maker channel."
+    }
+  ]
 }

@@ -1,10 +1,10 @@
 {
-  "feeds": 76,
-  "mined": 57,
+  "feeds": 63,
+  "mined": 52,
   "videos": 11,
   "video_titles": [
     "Why do deserts get cold at night?",
-    "I finally saw quantum physics with my own eyes...",
+    "I finally saw quantum mechanics with my own eyes... (It's spookier than I expected)",
     "These ponds help support half the people on Earth",
     "My dog won't stay out of mud so I made this...",
     "This Material Sorts Itself",
@@ -16,15 +16,15 @@
     "3D Scanning Will Never Be the Same Again! (feat. Elegoo M1 Ultra)"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 6,
   "final_sources": [
-    "Aeon",
-    "Ars Technica",
-    "Colossal",
-    "Igor's Lab",
+    "8rank.ai",
+    "Bambu Lab",
+    "Geopolitical Monitor",
+    "Just Security",
     "Nautilus",
-    "Veritasium"
+    "krthr.co"
   ],
-  "had_video": true,
-  "run_at": "2026-11-07T17:00:21.466570+00:00"
+  "had_video": false,
+  "run_at": "2026-11-08T17:16:01.034989+00:00"
 }
