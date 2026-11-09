@@ -1,72 +1,83 @@
 {
   "digest": {
-    "intro": "Blood in ancient bone, gold moving through shadow networks, and machines learning who you love.",
+    "intro": "AI cold war goes personal, consciousness flickers, and noise becomes signal.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Iran's nuclear proposal, Ukraine's pivot, and what the midterms just unlocked",
-            "source": "Just Security",
-            "url": "https://justsecurity.org/163619/early-edition-november-6-2026",
-            "blurb": "Trump said he'll decide on resuming Iran strikes now that the midterms are over \u2014 and Iran has simultaneously sent a nuclear proposal via Qatar, contingent on the US meeting seven demands to reopen the Strait of Hormuz. Meanwhile Zelenskyy is openly recalibrating toward bipartisan US support rather than waiting on European consensus, which Peskov pointedly noted Europe can't yet articulate anyway.",
+            "title": "Jensen Huang's Affair Is Now a National Security File",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
+            "blurb": "Huang has admitted the affair in an internal memo after the FT reported that US intelligence believes his partner \u2014 an executive at Singapore-based Megaspeed, an Nvidia customer \u2014 was recruited by China's Ministry of State Security. Nvidia's board has opened an independent investigation, making this simultaneously a corporate governance crisis, an AI supply-chain security story, and a textbook MSS honeytrap operation at the exact chokepoint of the global chip stack.",
             "tags": [
               "geopolitics",
-              "iran",
-              "ukraine"
+              "ai",
+              "espionage"
             ]
           },
           {
-            "title": "West Africa's refinery wave: capacity built for gold that isn't theirs",
-            "source": "Geopolitical Monitor",
-            "url": "https://www.geopoliticalmonitor.com/refining-sovereignty-russia-and-west-africas-gold-refinery-wave/",
-            "blurb": "Guinea, Burkina Faso, and Mali are building gold refineries with a combined claimed capacity of over 1,000 tonnes \u2014 against collective national output of fewer than 250 tonnes. The math only works if they're pulling in artisanal and smuggled gold from neighboring states, redirecting flows that currently exit through Dubai; Russia's Yadran Group holds a 38% stake in Mali's refinery, and Guinea has already banned raw gold exports and shipped its first refined bars in October.",
+            "title": "The Pentagon Wants Satellites Around the Moon",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
+            "blurb": "Space Force has issued a Request for Information on a 'proliferated cislunar constellation' \u2014 an unspecified number of satellites doing undisclosed things near the Moon, following a Trump executive order extending US warfighting doctrine to cislunar space. The Space Force's acquisitions chief is now publicly calling the Moon's orbital vicinity a warfighting domain, which means the geopolitics of orbit have extended roughly 240,000 miles further than last decade.",
             "tags": [
               "geopolitics",
-              "africa",
-              "russia"
+              "space",
+              "defense"
+            ]
+          },
+          {
+            "title": "Democrats Win the Midterms \u2014 Golden Dome Loses Its Shine",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
+            "blurb": "Two of Golden Dome's key congressional champions are among the Republicans leaving in the Democratic takeover, and the program \u2014 which Trump announced one week into his second term and which has faced essentially zero serious budget scrutiny since \u2014 is now heading into hostile appropriations territory. The military had already been quietly backpedaling from the boost-phase intercept capability Trump specifically requested, so the new Congress is walking into a program that was already quietly shrinking.",
+            "tags": [
+              "defense",
+              "politics",
+              "space"
             ]
           }
         ]
       },
       {
-        "heading": "Making and machines",
+        "heading": "How perception actually works",
         "items": [
           {
-            "title": "Bambu H3C: nine tools, six seconds, the multi-material ceiling just moved",
-            "source": "Bambu Lab",
-            "url": "https://www.manilatimes.net/2026/11/03/tmt-newswire/pr-newswire/tool-changer-game-changer-bambu-lab-presents-h3c-the-defining-new-generation-of-3d-printers/2460837",
-            "blurb": "The H3C keeps nine independently pre-heated print tools permanently loaded and swaps between them in under six seconds \u2014 not a purge-and-reload, an actual tool change \u2014 in a footprint no bigger than a single-spool printer. It prints 75A TPU reliably, which has historically been the material that breaks every multi-material workflow. For anyone making physical things with more than one material, this is the most consequential desktop hardware announcement in years.",
+            "title": "Your Brain Flickers Between Two Realities 15 Times a Second",
+            "source": "ZME Science / UC Berkeley & Princeton",
+            "url": "https://www.zmescience.com/medicine/mind-and-brain/your-brain-flickers-between-two-realities-15-times-a-second/",
+            "blurb": "Using Neuropixels probes during binocular rivalry \u2014 where each eye sees a different image \u2014 Janis Hesse and Doris Tsao found that neurons alternate roughly 15 times per second between representing what you consciously see and what your brain is actively suppressing from awareness. The implication is that consciousness isn't a place in the brain but a timing phenomenon: awareness is what happens when neural firing crosses a temporal threshold, not when it reaches a particular region.",
             "tags": [
-              "fabrication",
-              "hardware",
-              "3d printing"
+              "neuroscience",
+              "perception",
+              "consciousness"
             ]
           },
           {
-            "title": "Apple quietly ships a family classifier in every Mac",
-            "source": "8rank.ai",
-            "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-            "blurb": "Since macOS 13, every Mac has shipped two background daemons whose sole job is building a queryable knowledge graph of who you are, who you know, how you're related, where you go, and with whom \u2014 cross-referencing Contacts, Calendar, Photos, Messages, Mail, location, and Screen Time. This graph is what Apple Intelligence's LLMs retrieve from, and it includes a relationship classifier that infers family structure from behavioral signals. It's on-device, but it was never disclosed, and you can now query your own.",
+            "title": "A Visual Illusion Shows What AI Vision Still Can't Do",
+            "source": "York University / Current Biology",
+            "url": "https://www.yorku.ca/news/2026/10/02/visual-illusion-reveals-what-todays-ai-vision-is-missing-york-university-study/",
+            "blurb": "The motion aftereffect \u2014 stare at a moving thing, then a stationary object appears to drift the opposite direction \u2014 turns out to reveal a history-dependent computation in primate IT cortex where objects are encoded in perceptually-shifted coordinates, not just retinal ones. Current AI vision networks simply don't do this: they process each frame statelessly, which is why they're simultaneously superhuman at recognition tasks and blind to exactly the kind of context-dependent, temporally-integrated perception that biological vision runs on.",
             "tags": [
-              "privacy",
-              "apple",
-              "ambient surveillance"
+              "neuroai",
+              "perception",
+              "vision"
             ]
           }
         ]
       },
       {
-        "heading": "Biology at the edge",
+        "heading": "Body and mechanism",
         "items": [
           {
-            "title": "115-million-year-old dinosaur blood, confirmed by heme",
-            "source": "Nautilus",
-            "url": "https://nautil.us/astonishing-find-fossilized-dinosaur-blood-in-a-115-million-year-old-specimen-1286412/",
-            "blurb": "Paleontologists found round blobs in the vascular channels of a juvenile Brazilian theropod's leg bone \u2014 and confirmed they're blood cells by detecting intact heme, the iron-bearing molecule in hemoglobin, inside the fossil but nowhere in the surrounding sediment. Heme surviving 115 million years extends the fossil soft-tissue record and opens a direct molecular window into dinosaur physiology that previously only existed in Crichton novels.",
+            "title": "A Mitochondrial Protein Nobody Was Watching May Drive Insulin Resistance",
+            "source": "ScienceDaily / Pennington Biomedical Research Center",
+            "url": "https://www.sciencedaily.com/releases/2026/11/261106174543.htm",
+            "blurb": "Miro1, a GTPase sitting on the outer mitochondrial membrane, accumulates in skeletal muscle in people with Type 2 diabetes \u2014 and in preclinical models, removing it restored insulin sensitivity. The kicker: exercise was found to lower Miro1 levels in humans with diabetes, which offers a molecular mechanism for why physical activity improves blood sugar control that's entirely separate from the GLP-1 pathway.",
             "tags": [
-              "paleontology",
-              "deep time",
+              "diabetes",
+              "metabolism",
               "biology"
             ]
           }
@@ -76,125 +87,129 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Person of Interest, 2026",
-            "source": "krthr.co",
-            "url": "https://krthr.co/person-of-interest/",
-            "blurb": "Someone rewatched Person of Interest and wrote a quiet, bilingual essay about how a show that felt like science fiction in 2011 now feels like documentation \u2014 SOPA, Megaupload, the Machine, all of it landing differently when the surveillance infrastructure it imagined is simply ambient reality. The HN thread drew 154 comments not because it's technical but because it touched something; it's the kind of piece that makes you want to go rewatch the first season.",
+            "title": "Physicists Listened to Electrical Noise to Solve a 40-Year Superconductor Mystery",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+            "blurb": "In cuprate superconductors \u2014 the materials that superconduct at liquid-nitrogen temperatures and have baffled physicists since the late '80s \u2014 a strange state called the pseudogap causes electrons to apparently vanish. Milan Allan's team resolved a decades-long debate about why by measuring Johnson noise, the faint thermal crackle of current, and found that the missing electrons are forming Cooper pairs above the superconducting transition temperature, linking the pseudogap directly to superconductivity rather than treating them as separate phenomena. The elegance is that the 'garbage' signal \u2014 noise \u2014 was the instrument.",
             "tags": [
-              "surveillance",
-              "nostalgia",
-              "internet history"
+              "physics",
+              "materials",
+              "superconductivity"
             ]
+          },
+          {
+            "title": "Stuff Made Here: Engineering a Dog-Mud Solution That Became a Full Mechanical Project",
+            "source": "YouTube \u2014 Stuff Made Here",
+            "url": "https://www.youtube.com/watch?v=BuRyQYf03xA",
+            "blurb": "Shane of Stuff Made Here takes a domestic annoyance \u2014 dog comes in covered in mud \u2014 and treats it as a legitimate engineering problem, which is the whole bit and it never gets old. The channel reliably turns absurd constraints into beautifully over-engineered physical solutions, shot and explained in a way that makes you want to go build something impossible.",
+            "tags": [
+              "making",
+              "engineering",
+              "video"
+            ],
+            "thumbnail": "https://i3.ytimg.com/vi/BuRyQYf03xA/hqdefault.jpg"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "Burkina Faso opened a gold refinery with 164 tonnes of annual capacity \u2014 nearly double the country's entire national gold output of 94 tonnes.",
-        "url": "https://www.geopoliticalmonitor.com/refining-sovereignty-russia-and-west-africas-gold-refinery-wave/"
+        "fact": "The woman US intelligence believes was recruited to spy on Jensen Huang was an executive at Megaspeed, a Singapore-based company that was actually a customer of Nvidia \u2014 meaning the alleged operation ran through the commercial relationship itself.",
+        "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
       },
       {
-        "fact": "Heme \u2014 the iron-bearing molecule inside hemoglobin \u2014 has been detected intact inside a 115-million-year-old dinosaur fossil, while the surrounding sediment contained none.",
-        "url": "https://nautil.us/astonishing-find-fossilized-dinosaur-blood-in-a-115-million-year-old-specimen-1286412/"
+        "fact": "Space Force's most distant satellites today are only in geostationary orbit at 22,000 miles \u2014 the new cislunar proposal would extend military presence to roughly 240,000 miles, nearly eleven times further.",
+        "url": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/"
       },
       {
-        "fact": "Apple's on-device personal knowledge graph daemons cross-reference Contacts, Calendar, Photos, Messages, Mail, location, and Screen Time to infer family relationships \u2014 and have shipped on every Mac since macOS 13 without public disclosure.",
-        "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph"
+        "fact": "Neurons in primate visual cortex switch between representing what you consciously see and what your brain is suppressing approximately 15 times per second \u2014 roughly the same frame rate as early silent film.",
+        "url": "https://www.zmescience.com/medicine/mind-and-brain/your-brain-flickers-between-two-realities-15-times-a-second/"
+      },
+      {
+        "fact": "Exercise lowers levels of the protein Miro1 in the skeletal muscles of people with Type 2 diabetes \u2014 offering a specific molecular mechanism for a benefit that medicine has observed clinically for decades without fully explaining.",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261106174543.htm"
+      },
+      {
+        "fact": "Trump's Golden Dome missile defense program went from announcement to full Pentagon budget commitment with essentially zero serious congressional scrutiny \u2014 a fact that is only now becoming a liability as the new Democratic majority takes over appropriations.",
+        "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "M\u00e9lodie en sous-sol (Any Number Can Win)",
-        "creator": "Henri Verneuil, 1963",
-        "why": "A heist film where the real subject is ritual and system: two men execute an elaborate scheme against a casino \u2014 a machine built to grind them down \u2014 with the whole thing held together by pure compulsive craft. The ending is one of cinema's great feedback-loop images. Pure signal for someone who loves invisible systems made suddenly, catastrophically visible.",
-        "url": "https://letterboxd.com/film/melodie-en-sous-sol/"
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A film-essay that moves like a consciousness \u2014 Tokyo ritual, Guinea-Bissau revolution, Hitchcock, memory, and time, all held together by a system Marker invented from scratch. The form IS the argument. If you haven't seen it, it'll reorganize how you think about images and what they carry.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Myron Stout: Works on Paper",
-        "creator": "Myron Stout",
-        "why": "Stout spent years on a single painting, iterating obsessively on the tension between a form and its ground until it locked. His drawings are studies in how identity emerges from constraint \u2014 the kind of unreasonably narrow commitment that tends to hook you hard. No digital equivalent; purely physical.",
-        "url": "https://www.pacegallery.com/artists/myron-stout/"
+        "title": "Lucas Samaras: Boxes and Reconstructions",
+        "creator": "Lucas Samaras",
+        "why": "Samaras spent decades building obsessive, jewel-encrusted boxes \u2014 objects that are simultaneously self-portraits, traps, and altars \u2014 and his 1979 Reconstructions fabric paintings, never widely seen, collapse high craft into something hallucinatory. The work sits exactly at the edge of object and body, system and mania.",
+        "url": "https://www.pacegallery.com/artists/lucas-samaras/"
       },
       {
         "medium": "music",
-        "title": "Selected Works",
-        "creator": "Visible Cloaks",
-        "why": "Generative electronic music that feels structurally akin to WebGL \u2014 shimmering feedback systems that never quite repeat, built from Japanese ambient tradition and a designer's attention to texture. The music sounds like a living render, which is either a great hook or a dealbreaker, and you'll know in 90 seconds.",
-        "url": "https://visiblecloaks.bandcamp.com/"
+        "title": "Disintegration Loops",
+        "creator": "William Basinski",
+        "why": "Magnetic tape decaying in real time, the signal eating itself \u2014 it's a system that runs to its own conclusion and takes beauty with it. Made accidentally during 9/11, the work is about entropy as composition. For someone who thinks in feedback loops and deep time, it hits differently than almost anything.",
+        "url": "https://www.youtube.com/watch?v=mjnAE5go9dI"
       }
     ],
     "events": [
       {
-        "name": "Pierre Huyghe: UUmwelt \u2014 Last Chance",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-11-08",
-        "date_end": "2026-11-29",
-        "category": "museum",
-        "why": "Huyghe worked with Kyoto neuroscientists to have an fMRI scanner record a person imagining images; a neural network then generated thousands of visual interpretations of those brain scans, displayed on freestanding screens in MoMA's outdoor garden \u2014 sensors detect visitors looking at the work, pulling it into a live feedback loop between human perception, biological data, and machine cognition. Last three weeks.",
-        "url": "https://www.moma.org/calendar/exhibitions/5912",
-        "date": "Nov 8\u201329"
-      },
-      {
-        "name": "Art Week NYC \u2014 Inaugural Edition",
-        "venue": "Citywide (Chelsea, Tribeca, LES, Upper East Side + 80+ galleries)",
+        "name": "Art Week NYC",
+        "venue": "Chelsea, Tribeca, LES, UES \u2014 citywide",
         "date_start": "2026-11-11",
         "date_end": "2026-11-14",
         "category": "museum",
-        "why": "The first-ever citywide art week launched by Artforum, ARTnews, and Art in America \u2014 not a fair, but a coordinated crawl across 80+ galleries and 32 institutions including the Met, Guggenheim, Whitney, and Studio Museum in Harlem, all running openings and programming simultaneously; built to surface the gallery scene rather than a convention-center spectacle.",
-        "url": "https://art-week.com",
+        "why": "New York's first dedicated Art Week pulls over 76 galleries into a coordinated run of openings, artist talks, and walks across the city's major gallery districts \u2014 the rare moment the whole scene surfaces at once and the signal-to-noise is actually high.",
+        "url": "https://urbnartheaux.substack.com/p/november-2026-black-art-on-view-nyc-exhibition-guide",
         "date": "Nov 11\u201314"
       },
       {
-        "name": "ADAA Fair 2026",
-        "venue": "Park Avenue Armory, 643 Park Ave, Manhattan",
-        "date_start": "2026-11-13",
-        "date_end": "2026-11-16",
-        "category": "popup",
-        "why": "The rebranded successor to the long-running Art Show, this iteration puts 63 peer-selected galleries into the drill hall with an emphasis on solo presentations and curated depth over booth-fair chaos \u2014 the architecture of the Armory alone earns it, and this edition is the first under the new ADAA Fair banner, so the energy is genuinely different.",
-        "url": "https://www.adaafair.org",
-        "date": "Nov 13\u201316"
-      },
-      {
-        "name": "Site Conditions: Five Talks on Art and the City (Art Week NYC \u00d7 New Museum \u00d7 Artforum)",
-        "venue": "New Museum Theater, 235 Bowery, Manhattan",
-        "date_start": "2026-11-14",
-        "date_end": "2026-11-14",
+        "name": "Harmony Korine: UX LAM",
+        "venue": "Hauser & Wirth, 443 W 18th St, Chelsea",
+        "date_start": "2026-11-12",
+        "date_end": "2027-01-16",
         "category": "museum",
-        "why": "Five back-to-back public conversations on Nov 14 covering AI and studio practice, the economics of making work in New York, artists moving into film, and how architecture shapes perception \u2014 with Ian Cheng, Aria Dean, Elizabeth Diller, Annabelle Selldorf, and Shohei Shigematsu among the speakers; dense and specific, the opposite of a panel.",
-        "url": "https://www.newmuseum.org/event/11-14-2026/",
-        "date": "Sat, Nov 14"
+        "why": "Korine's debut with the gallery in New York \u2014 his painting practice sits in the same uneasy zone as his films: surface that feels like a glitch, images that shouldn't cohere but do.",
+        "url": "https://www.hauserwirth.com/artists/2843-harmony-korine/",
+        "date": "Nov 12 \u2013 Jan 16"
       },
       {
-        "name": "The Superfair NYC",
-        "venue": "Brooklyn, NY (thesuperfair.com for exact venue)",
-        "date_start": "2026-11-20",
-        "date_end": "2026-11-22",
-        "category": "popup",
-        "why": "Emerging-artist-forward Brooklyn fair that bills itself as a corrective to the institutional art world \u2014 hundreds of cutting-edge works by emerging artists direct to a new generation of collectors; counterpoint energy to the ADAA week uptown, and worth checking if you want to see what's moving outside the established gallery system.",
-        "url": "https://www.thesuperfair.com",
-        "date": "Nov 20\u201322"
+        "name": "Na Mira: NO SMOKING",
+        "venue": "Museum of Modern Art (MoMA), Midtown",
+        "date_start": "2026-11-14",
+        "date_end": "2027-02-15",
+        "category": "museum",
+        "why": "A MoMA opening from an artist working at the intersection of contemporary ritual, image, and system \u2014 worth catching in the opening week before the crowds harden.",
+        "url": "https://www.moma.org/calendar/exhibitions",
+        "date": "Nov 14 \u2013 Feb 15"
+      },
+      {
+        "name": "John Scofield: Electrospective",
+        "venue": "The Town Hall, 123 W 43rd St, Midtown",
+        "date_start": "2026-11-17",
+        "date_end": "2026-11-17",
+        "category": "concert",
+        "why": "Scofield in a 1,500-seat Midtown theater presenting a career-spanning electric set \u2014 jazz guitar that has always been about texture and controlled chaos as much as melody; for someone whose work lives at the edge of digital and physical, there's a formal resonance here.",
+        "url": "https://www.the-townhall.org/",
+        "date": "Tue, Nov 17"
+      },
+      {
+        "name": "artport: A History of Internet Art",
+        "venue": "Whitney Museum of American Art, Meatpacking District",
+        "date_start": "2026-11-21",
+        "date_end": "2027-03-28",
+        "category": "museum",
+        "why": "25 years of the Whitney's net-art commissioning platform in one show \u2014 over 100 works including rebuilt code pieces by Golan Levin and Casey Reas, early-web gate pages treated as the art itself, and a live world premiere of Operator's generative choreography work on Nov 19 & 21-22; the floor plan mimics floating browser windows, which is exactly the kind of formal joke that lands.",
+        "url": "https://whitney.org/exhibitions/artport-25",
+        "date": "Nov 21 \u2013 Mar 28"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Chartbook by Adam Tooze",
-      "feed_url": "https://adamtooze.substack.com/feed",
-      "why": "Columbia historian Adam Tooze writes several times a week at the precise intersection of geopolitics, economic history, and current events this reader craves \u2014 more freewheeling than his FT columns, more rigorous than anyone else operating at this frequency."
-    },
-    {
-      "name": "The Niche \u2013 Paul Knoepfler (ipscell.com)",
-      "feed_url": "https://ipscell.com/feed",
-      "why": "UC Davis stem cell biologist Paul Knoepfler runs the web's most authoritative independent blog on regenerative medicine, covering stem cells, peptides, and longevity research with the credibility of an active researcher and the skepticism of a watchdog."
-    },
-    {
-      "name": "CNC Kitchen (Stefan Hermann)",
-      "feed_url": "https://www.youtube.com/feeds/videos.xml?channel_id=UCgM4lR7bLGM0P5mBdaajKKA",
-      "why": "Stefan Hermann brings genuine materials-science rigor to 3D printing \u2014 systematic tensile tests, filament comparisons, and print-parameter experiments that treat digital fabrication as engineering rather than hobbyism, making it the thinking-person's maker channel."
-    }
-  ]
+  "trial_sources": []
 }
