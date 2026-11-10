@@ -1,6 +1,6 @@
 {
-  "feeds": 65,
-  "mined": 46,
+  "feeds": 90,
+  "mined": 50,
   "videos": 11,
   "video_titles": [
     "Why do deserts get cold at night?",
@@ -16,14 +16,19 @@
     "3D Scanning Will Never Be the Same Again! (feat. Elegoo M1 Ultra)"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 10,
   "final_sources": [
     "Ars Technica",
-    "ScienceDaily / Pennington Biomedical Research Center",
-    "York University / Current Biology",
-    "YouTube \u2014 Stuff Made Here",
-    "ZME Science / UC Berkeley & Princeton"
+    "Blender Foundation",
+    "Colossal",
+    "Colossal / MASS MoCA \u00d7 Pioneer Works",
+    "DeepMind",
+    "Geopolitical Futures",
+    "Just Security",
+    "Northwestern University",
+    "One Useful Thing",
+    "Research project"
   ],
   "had_video": true,
-  "run_at": "2026-11-09T21:37:33.334657+00:00"
+  "run_at": "2026-11-10T18:48:50.143825+00:00"
 }

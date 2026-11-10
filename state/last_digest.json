@@ -1,84 +1,106 @@
 {
   "digest": {
-    "intro": "AI cold war goes personal, consciousness flickers, and noise becomes signal.",
+    "intro": "Triangles make a comeback, AI proves cryptography, and the world negotiates.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Jensen Huang's Affair Is Now a National Security File",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/",
-            "blurb": "Huang has admitted the affair in an internal memo after the FT reported that US intelligence believes his partner \u2014 an executive at Singapore-based Megaspeed, an Nvidia customer \u2014 was recruited by China's Ministry of State Security. Nvidia's board has opened an independent investigation, making this simultaneously a corporate governance crisis, an AI supply-chain security story, and a textbook MSS honeytrap operation at the exact chokepoint of the global chip stack.",
+            "title": "US-Iran: Military Campaign 'Quite Unlikely,' Qatari Talks 'Positive'",
+            "source": "Just Security",
+            "url": "https://www.justsecurity.org/163937/early-edition-november-10-2026/",
+            "blurb": "Trump said publicly a renewed strike on Iran 'doesn't seem to be necessary,' while Qatar's PM described talks with Trump and Vance as 'positive' \u2014 and will make an unscheduled stop at the G7 foreign ministers meeting in Paris. Meanwhile France accused Iran's IRGC of a refrigeration-infrastructure cyberattack it called 'unprecedented in both scale and aggression,' which suggests the conflict is migrating into civilian infrastructure even as the kinetic phase cools.",
             "tags": [
               "geopolitics",
+              "iran",
+              "diplomacy"
+            ]
+          },
+          {
+            "title": "Task Force Iron Gate: The Iran Blockade Moves Inland",
+            "source": "Geopolitical Futures",
+            "url": "https://geopoliticalfutures.com/the-next-phase-of-the-us-iran-war/",
+            "blurb": "CENTCOM quietly stood up Task Force Iron Gate on November 7th \u2014 only ~20 people, but the mandate is a structural shift: from maritime blockade to disrupting Iran's land-based supply networks for advanced weapons and dual-use technology. Small units with broad inter-agency coordination authority tend to punch far above their headcount; this is the quiet architecture of a long-duration pressure campaign, not an escalation toward strikes.",
+            "tags": [
+              "geopolitics",
+              "iran",
+              "military"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Machine intelligence",
+        "items": [
+          {
+            "title": "AlphaProof Code: AI Formally Verifies Signal's Cryptography at the Binary Level",
+            "source": "DeepMind",
+            "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+            "blurb": "DeepMind's AlphaProof Code wrote 6.5 million lines of Lean proof to mathematically verify that Signal's cryptographic protocol is correct \u2014 not at the spec level, but at the actual compiled AArch64 binary that runs on your phone. This is the first time any method, AI or human, has formally verified a widely deployed protocol's real implementation; artifacts are open-sourced. The implications for security-critical infrastructure are hard to overstate: 'it works in testing' just got a much more serious competitor.",
+            "tags": [
+              "formal verification",
+              "cryptography",
+              "ai"
+            ]
+          },
+          {
+            "title": "Claude Fable 5.2: Jagged AGI and Where the Gaps Still Are",
+            "source": "One Useful Thing",
+            "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+            "blurb": "Mollick got pre-release access to Fable 5.2 \u2014 the same model Anthropic says designed three working electronic devices from scratch, made progress on black-hole physics problems, and formalized Fermat's Last Theorem in 30 hours. His honest read: 'Jagged AGI' \u2014 genuinely capable of most expert intellectual tasks you can do at a computer, but with remaining gaps that are harder to characterize than simple hallucinations, which makes them more dangerous to miss. Worth reading before the hype layer fully solidifies.",
+            "tags": [
               "ai",
-              "espionage"
+              "llm",
+              "capability"
             ]
           },
           {
-            "title": "The Pentagon Wants Satellites Around the Moon",
+            "title": "Claude Code Is Silently Committing Your Secrets to GitHub",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/",
-            "blurb": "Space Force has issued a Request for Information on a 'proliferated cislunar constellation' \u2014 an unspecified number of satellites doing undisclosed things near the Moon, following a Trump executive order extending US warfighting doctrine to cislunar space. The Space Force's acquisitions chief is now publicly calling the Moon's orbital vicinity a warfighting domain, which means the geopolitics of orbit have extended roughly 240,000 miles further than last decade.",
+            "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/",
+            "blurb": "When you click 'Yes, and don't ask again' in Claude Code, your approval gets written to `.claude/settings.local.json` \u2014 sometimes including the full shell command you approved, passwords, API keys, and all. Anthropic adds this file to your global `.gitignore`, but not the repo-level one, so it leaks whenever a folder becomes a repo later or Claude Code commits changes on its own. Apiiro found over 100,000 exposed instances on GitHub. If you use Claude Code, check your repos now.",
             "tags": [
-              "geopolitics",
-              "space",
-              "defense"
-            ]
-          },
-          {
-            "title": "Democrats Win the Midterms \u2014 Golden Dome Loses Its Shine",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/",
-            "blurb": "Two of Golden Dome's key congressional champions are among the Republicans leaving in the Democratic takeover, and the program \u2014 which Trump announced one week into his second term and which has faced essentially zero serious budget scrutiny since \u2014 is now heading into hostile appropriations territory. The military had already been quietly backpedaling from the boost-phase intercept capability Trump specifically requested, so the new Congress is walking into a program that was already quietly shrinking.",
-            "tags": [
-              "defense",
-              "politics",
-              "space"
+              "security",
+              "ai tooling",
+              "ops"
             ]
           }
         ]
       },
       {
-        "heading": "How perception actually works",
+        "heading": "Making things",
         "items": [
           {
-            "title": "Your Brain Flickers Between Two Realities 15 Times a Second",
-            "source": "ZME Science / UC Berkeley & Princeton",
-            "url": "https://www.zmescience.com/medicine/mind-and-brain/your-brain-flickers-between-two-realities-15-times-a-second/",
-            "blurb": "Using Neuropixels probes during binocular rivalry \u2014 where each eye sees a different image \u2014 Janis Hesse and Doris Tsao found that neurons alternate roughly 15 times per second between representing what you consciously see and what your brain is actively suppressing from awareness. The implication is that consciousness isn't a place in the brain but a timing phenomenon: awareness is what happens when neural firing crosses a temporal threshold, not when it reaches a particular region.",
+            "title": "Blender 5.3: Native Gaussian Splat Support Arrives",
+            "source": "Blender Foundation",
+            "url": "https://www.blender.org/download/releases/5-3/",
+            "blurb": "Blender 5.3 ships native Gaussian Splat import and editing, NVIDIA DLSS denoising in the viewport (eliminating the flicker that made lighting dev painful), and panoramic camera support in EEVEE covering equirectangular, cubemap, fisheye, and mirror ball projections. The compositor also gets stackable Effects \u2014 Bloom, Chromatic Aberration, Film Grain, Vignette \u2014 applied like modifiers, plus 17 Geometry Nodes now usable directly in the compositor. For anyone moving between photogrammetry captures and real-time WebGL pipelines, the Splat integration alone is a genuine workflow unlock.",
             "tags": [
-              "neuroscience",
-              "perception",
-              "consciousness"
+              "3d",
+              "blender",
+              "rendering"
             ]
           },
           {
-            "title": "A Visual Illusion Shows What AI Vision Still Can't Do",
-            "source": "York University / Current Biology",
-            "url": "https://www.yorku.ca/news/2026/10/02/visual-illusion-reveals-what-todays-ai-vision-is-missing-york-university-study/",
-            "blurb": "The motion aftereffect \u2014 stare at a moving thing, then a stationary object appears to drift the opposite direction \u2014 turns out to reveal a history-dependent computation in primate IT cortex where objects are encoded in perceptually-shifted coordinates, not just retinal ones. Current AI vision networks simply don't do this: they process each frame statelessly, which is why they're simultaneously superhuman at recognition tasks and blind to exactly the kind of context-dependent, temporally-integrated perception that biological vision runs on.",
+            "title": "Triangle Splatting: Triangles Are Back as the Better Splat Primitive",
+            "source": "Research project",
+            "url": "https://trianglesplatting.github.io/",
+            "blurb": "A research group argues \u2014 convincingly \u2014 that the softness of Gaussian primitives is causing the blurring and loss of fine detail that everyone working with 3DGS has noticed, particularly at edges and occlusion boundaries. Triangle Splatting replaces Gaussians with differentiably rendered triangles, achieving 2,400+ FPS at 1280\u00d7720 on the Garden scene using a standard mesh renderer, while outperforming Zip-NeRF on indoor scenes for perceptual quality. Because triangles are native to the graphics stack, the path from capture to WebGL is suddenly a lot shorter.",
             "tags": [
-              "neuroai",
-              "perception",
-              "vision"
+              "3d",
+              "rendering",
+              "research"
             ]
-          }
-        ]
-      },
-      {
-        "heading": "Body and mechanism",
-        "items": [
+          },
           {
-            "title": "A Mitochondrial Protein Nobody Was Watching May Drive Insulin Resistance",
-            "source": "ScienceDaily / Pennington Biomedical Research Center",
-            "url": "https://www.sciencedaily.com/releases/2026/11/261106174543.htm",
-            "blurb": "Miro1, a GTPase sitting on the outer mitochondrial membrane, accumulates in skeletal muscle in people with Type 2 diabetes \u2014 and in preclinical models, removing it restored insulin sensitivity. The kicker: exercise was found to lower Miro1 levels in humans with diabetes, which offers a molecular mechanism for why physical activity improves blood sugar control that's entirely separate from the GLP-1 pathway.",
+            "title": "DIAL: The 3D Printing Method That Finally Combines Speed, Precision, and Material Range",
+            "source": "Northwestern University",
+            "url": "https://news.northwestern.edu/stories/2026/11/new-method-dials-up-new-capabilities-for-3d-printing",
+            "blurb": "Direct Ink Additive Lithography spreads thick, paste-like inks into thin sheets then uses patterned light to selectively cure them \u2014 combining light-based precision with extrusion-compatible material range, including particle-filled inks that scatter light and have historically defeated photopolymer printers. Crucially, it eliminates support structures for overhanging features, which is the practical bottleneck for complex geometries. Published in Science Advances this week; the material compatibility angle opens fabrication territory that neither SLA nor FDM could reach.",
             "tags": [
-              "diabetes",
-              "metabolism",
-              "biology"
+              "fabrication",
+              "3d printing",
+              "materials"
             ]
           }
         ]
@@ -87,127 +109,125 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Physicists Listened to Electrical Noise to Solve a 40-Year Superconductor Mystery",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
-            "blurb": "In cuprate superconductors \u2014 the materials that superconduct at liquid-nitrogen temperatures and have baffled physicists since the late '80s \u2014 a strange state called the pseudogap causes electrons to apparently vanish. Milan Allan's team resolved a decades-long debate about why by measuring Johnson noise, the faint thermal crackle of current, and found that the missing electrons are forming Cooper pairs above the superconducting transition temperature, linking the pseudogap directly to superconductivity rather than treating them as separate phenomena. The elegance is that the 'garbage' signal \u2014 noise \u2014 was the instrument.",
+            "title": "Kelly Sinnapah Mary: Bodies as Ecology, Ancestry as Living Foliage",
+            "source": "Colossal",
+            "url": "https://www.thisiscolossal.com/2026/11/kelly-sinnapah-mary-foliage-portraits/",
+            "blurb": "Mary's recurring figure Sanbras \u2014 reclaimed from a 19th-century colonial children's book \u2014 appears tattooed with verdant foliage, neither fully human nor fully plant, emerging from and subsumed by Caribbean flora. The work is autobiographically entangled: Mary grew up identifying as Afro-Caribbean, then discovered she descends from Tamil Nadu indentured workers brought to Guadeloupe after abolition, which bent her entire framework for understanding place, body, and belonging. The images hit like surrealism that earned its strangeness.",
             "tags": [
-              "physics",
-              "materials",
-              "superconductivity"
+              "art",
+              "surrealism",
+              "identity"
             ]
           },
           {
-            "title": "Stuff Made Here: Engineering a Dog-Mud Solution That Became a Full Mechanical Project",
-            "source": "YouTube \u2014 Stuff Made Here",
-            "url": "https://www.youtube.com/watch?v=BuRyQYf03xA",
-            "blurb": "Shane of Stuff Made Here takes a domestic annoyance \u2014 dog comes in covered in mud \u2014 and treats it as a legitimate engineering problem, which is the whole bit and it never gets old. The channel reliably turns absurd constraints into beautifully over-engineered physical solutions, shot and explained in a way that makes you want to go build something impossible.",
+            "title": "Son Lux \u2014 'Out Into Us'",
+            "source": "Colossal / MASS MoCA \u00d7 Pioneer Works",
+            "url": "https://www.thisiscolossal.com/2026/11/son-lux-alex-cook-out-into-us-music-video/",
+            "blurb": "Joint commission from MASS MoCA and Pioneer Works \u2014 two institutions that treat music video as a serious medium \u2014 directed by Alex Cook for Son Lux, who have spent a decade making records about grief, temporality, and the gap between what's felt and what can be said. Pioneer Works commissions don't get made carelessly. Worth the runtime.",
             "tags": [
-              "making",
-              "engineering",
-              "video"
+              "music",
+              "video",
+              "commissioned art"
             ],
-            "thumbnail": "https://i3.ytimg.com/vi/BuRyQYf03xA/hqdefault.jpg"
+            "thumbnail": "https://www.thisiscolossal.com/wp-content/uploads/2026/11/son-lux.jpg"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "The woman US intelligence believes was recruited to spy on Jensen Huang was an executive at Megaspeed, a Singapore-based company that was actually a customer of Nvidia \u2014 meaning the alleged operation ran through the commercial relationship itself.",
-        "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage/"
+        "fact": "France's IRGC-attributed cyberattack targeted supermarket refrigeration systems nationwide \u2014 the first known case of a nation-state hacking cold-chain infrastructure at scale.",
+        "url": "https://www.justsecurity.org/163937/early-edition-november-10-2026/"
       },
       {
-        "fact": "Space Force's most distant satellites today are only in geostationary orbit at 22,000 miles \u2014 the new cislunar proposal would extend military presence to roughly 240,000 miles, nearly eleven times further.",
-        "url": "https://arstechnica.com/space/2026/11/us-military-notionally-interested-in-satellite-constellation-around-moon/"
+        "fact": "AlphaProof Code produced 6.5 million lines of Lean proof to verify Signal's cryptography at the compiled AArch64 binary level \u2014 the first formal verification of any widely deployed protocol's actual implementation, by any method.",
+        "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
       },
       {
-        "fact": "Neurons in primate visual cortex switch between representing what you consciously see and what your brain is suppressing approximately 15 times per second \u2014 roughly the same frame rate as early silent film.",
-        "url": "https://www.zmescience.com/medicine/mind-and-brain/your-brain-flickers-between-two-realities-15-times-a-second/"
+        "fact": "Triangle Splatting renders the Garden scene at over 2,400 FPS at 1280\u00d7720 using a standard off-the-shelf mesh renderer \u2014 roughly the speed of a game engine, with photogrammetry-quality reconstruction.",
+        "url": "https://trianglesplatting.github.io/"
       },
       {
-        "fact": "Exercise lowers levels of the protein Miro1 in the skeletal muscles of people with Type 2 diabetes \u2014 offering a specific molecular mechanism for a benefit that medicine has observed clinically for decades without fully explaining.",
-        "url": "https://www.sciencedaily.com/releases/2026/11/261106174543.htm"
-      },
-      {
-        "fact": "Trump's Golden Dome missile defense program went from announcement to full Pentagon budget commitment with essentially zero serious congressional scrutiny \u2014 a fact that is only now becoming a liability as the new Democratic majority takes over appropriations.",
-        "url": "https://arstechnica.com/space/2026/11/new-democratic-congress-will-likely-strip-the-gilding-from-trumps-golden-dome/"
+        "fact": "Claude Code's 'Yes, and don't ask again' approval sometimes writes the full shell command \u2014 including embedded passwords and API keys \u2014 directly into a settings file that isn't blocked at the repo level, leading to over 100,000 exposed instances on public GitHub.",
+        "url": "https://arstechnica.com/ai/2026/11/claude-code-settings-files-expose-thousands-of-secrets-on-github/"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Triangle Splatting renders photogrammetry captures using native GPU triangle primitives, hitting 2,400 FPS on hardware you already own. Take a single object \u2014 something with a complicated edge or fine surface detail that Gaussian splats tend to blur \u2014 scan it with your phone, run it through the Triangle Splatting pipeline (code is released), and pipe the resulting mesh into a WebGL viewer. See where the triangle representation holds detail that 3DGS loses, and where it fails. The goal isn't a finished piece \u2014 it's calibrating your eye to what the primitive actually does."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film-essay that moves like a consciousness \u2014 Tokyo ritual, Guinea-Bissau revolution, Hitchcock, memory, and time, all held together by a system Marker invented from scratch. The form IS the argument. If you haven't seen it, it'll reorganize how you think about images and what they carry.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Leviathan",
+        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel (Sensory Ethnography Lab)",
+        "why": "A fully non-narrative documentary shot entirely on small cameras attached to fishing nets, cables, and the bodies of fishermen \u2014 it dissolves the boundary between observer and system, turning industrial labor into something genuinely hallucinatory. The kind of film that rewires how you look at any physical process.",
+        "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "art",
-        "title": "Lucas Samaras: Boxes and Reconstructions",
-        "creator": "Lucas Samaras",
-        "why": "Samaras spent decades building obsessive, jewel-encrusted boxes \u2014 objects that are simultaneously self-portraits, traps, and altars \u2014 and his 1979 Reconstructions fabric paintings, never widely seen, collapse high craft into something hallucinatory. The work sits exactly at the edge of object and body, system and mania.",
-        "url": "https://www.pacegallery.com/artists/lucas-samaras/"
+        "title": "Early Computer Art / Plotter Drawings (Frieder Nake, Vera Moln\u00e1r, Georg Nees)",
+        "creator": "Various \u2014 curated entry point via the DAM Collection",
+        "why": "The founding generation of generative art, working in the 1960s when writing code to draw was genuinely absurd \u2014 Moln\u00e1r's obsessive hand-plotted grids map straight onto Willem's interest in systems as self-expression, and the aesthetic is still more interesting than most contemporary generative work.",
+        "url": "https://dam.org/museum/"
       },
       {
         "medium": "music",
-        "title": "Disintegration Loops",
-        "creator": "William Basinski",
-        "why": "Magnetic tape decaying in real time, the signal eating itself \u2014 it's a system that runs to its own conclusion and takes beauty with it. Made accidentally during 9/11, the work is about entropy as composition. For someone who thinks in feedback loops and deep time, it hits differently than almost anything.",
-        "url": "https://www.youtube.com/watch?v=mjnAE5go9dI"
+        "title": "Vespertine",
+        "creator": "Bj\u00f6rk",
+        "why": "A album built entirely from micro-sounds \u2014 ice cracking, music boxes, beats made from shuffled cards \u2014 that behaves more like an ecosystem than a pop record. The production logic is inseparable from the emotional world it creates; it's a system that generates feeling.",
+        "url": "https://bjork.com/music/"
       }
     ],
     "events": [
       {
-        "name": "Art Week NYC",
-        "venue": "Chelsea, Tribeca, LES, UES \u2014 citywide",
+        "name": "Art Week NYC \u2014 Inaugural Edition",
+        "venue": "Citywide (Chelsea, Tribeca, LES, UES + New Museum hub, 235 Bowery)",
         "date_start": "2026-11-11",
         "date_end": "2026-11-14",
         "category": "museum",
-        "why": "New York's first dedicated Art Week pulls over 76 galleries into a coordinated run of openings, artist talks, and walks across the city's major gallery districts \u2014 the rare moment the whole scene surfaces at once and the signal-to-noise is actually high.",
-        "url": "https://urbnartheaux.substack.com/p/november-2026-black-art-on-view-nyc-exhibition-guide",
+        "why": "The first citywide contemporary art festival organized by Artforum, ARTnews, and the New Museum \u2014 76+ galleries doing simultaneous openings across four neighborhoods, culminating in a full day of public talks at the New Museum on 'Art and the City' with artists, architects, filmmakers, and critics; not a fair, but a live scene made briefly legible.",
+        "url": "https://art-week.com",
         "date": "Nov 11\u201314"
       },
       {
-        "name": "Harmony Korine: UX LAM",
-        "venue": "Hauser & Wirth, 443 W 18th St, Chelsea",
-        "date_start": "2026-11-12",
+        "name": "Per Kirkeby: Shadows to the Feast",
+        "venue": "VeneKlasen/Werner, New York",
+        "date_start": "2026-11-11",
+        "date_end": "2026-11-11",
+        "category": "popup",
+        "why": "Opening during Art Week NYC \u2014 Kirkeby is the rare painter who thought seriously about geology and deep time, whose surfaces read as landscape and also as systems; worth catching at opening when the room is still readable.",
+        "url": "https://www.veneklarsen-werner.com",
+        "date": "Wed, Nov 11"
+      },
+      {
+        "name": "Doris Salcedo \u2014 'House' (Opening)",
+        "venue": "White Cube New York, 1002 Madison Avenue",
+        "date_start": "2026-11-13",
         "date_end": "2027-01-16",
         "category": "museum",
-        "why": "Korine's debut with the gallery in New York \u2014 his painting practice sits in the same uneasy zone as his films: surface that feels like a glitch, images that shouldn't cohere but do.",
-        "url": "https://www.hauserwirth.com/artists/2843-harmony-korine/",
-        "date": "Nov 12 \u2013 Jan 16"
+        "why": "A nearly 30-foot full-scale house woven entirely from human hair, made over three years with 20 Colombian women who survived conflict \u2014 Salcedo's first major New York installation in over a decade, and the kind of object that makes you feel the weight of a political fact rather than just understand it.",
+        "url": "https://www.whitecube.com/exhibitions/new-york",
+        "date": "Nov 13 \u2013 Jan 16"
       },
       {
-        "name": "Na Mira: NO SMOKING",
-        "venue": "Museum of Modern Art (MoMA), Midtown",
-        "date_start": "2026-11-14",
-        "date_end": "2027-02-15",
-        "category": "museum",
-        "why": "A MoMA opening from an artist working at the intersection of contemporary ritual, image, and system \u2014 worth catching in the opening week before the crowds harden.",
-        "url": "https://www.moma.org/calendar/exhibitions",
-        "date": "Nov 14 \u2013 Feb 15"
-      },
-      {
-        "name": "John Scofield: Electrospective",
-        "venue": "The Town Hall, 123 W 43rd St, Midtown",
-        "date_start": "2026-11-17",
-        "date_end": "2026-11-17",
+        "name": "Danny Brown",
+        "venue": "Irving Plaza, 17 Irving Place, Manhattan",
+        "date_start": "2026-11-19",
+        "date_end": "2026-11-19",
         "category": "concert",
-        "why": "Scofield in a 1,500-seat Midtown theater presenting a career-spanning electric set \u2014 jazz guitar that has always been about texture and controlled chaos as much as melody; for someone whose work lives at the edge of digital and physical, there's a formal resonance here.",
-        "url": "https://www.the-townhall.org/",
-        "date": "Tue, Nov 17"
+        "why": "One of the most formally interesting rappers working \u2014 his records collapse genre and mood in ways that feel closer to sound design than hip-hop convention, and 1,000-cap Irving Plaza is the right size to feel that in the room.",
+        "url": "https://www.irvingplaza.com",
+        "date": "Thu, Nov 19"
       },
       {
-        "name": "artport: A History of Internet Art",
-        "venue": "Whitney Museum of American Art, Meatpacking District",
-        "date_start": "2026-11-21",
-        "date_end": "2027-03-28",
+        "name": "MCNY: 'New York Now: After Dark' (Opening)",
+        "venue": "Museum of the City of New York, 1220 Fifth Avenue",
+        "date_start": "2026-11-20",
+        "date_end": "2026-11-24",
         "category": "museum",
-        "why": "25 years of the Whitney's net-art commissioning platform in one show \u2014 over 100 works including rebuilt code pieces by Golan Levin and Casey Reas, early-web gate pages treated as the art itself, and a live world premiere of Operator's generative choreography work on Nov 19 & 21-22; the floor plan mimics floating browser windows, which is exactly the kind of formal joke that lands.",
-        "url": "https://whitney.org/exhibitions/artport-25",
-        "date": "Nov 21 \u2013 Mar 28"
+        "why": "MCNY's triennial of contemporary photography, this edition focused entirely on the city after dark \u2014 the overlap of work, leisure, ambition, and escape in the nighttime landscape that makes New York's social systems most visible.",
+        "url": "https://www.mcny.org/exhibitions",
+        "date": "Nov 20\u201324"
       }
     ]
   },
