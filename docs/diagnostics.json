@@ -1,34 +1,30 @@
 {
-  "feeds": 90,
-  "mined": 50,
-  "videos": 11,
+  "feeds": 92,
+  "mined": 43,
+  "videos": 10,
   "video_titles": [
+    "Why you can't trust a test that's 99% accurate",
     "Why do deserts get cold at night?",
     "I finally saw quantum mechanics with my own eyes... (It's spookier than I expected)",
-    "These ponds help support half the people on Earth",
     "My dog won't stay out of mud so I made this...",
     "This Material Sorts Itself",
     "Two-photon fluorescence playing pong in rhodamine 6G",
     "3D-printed, alcohol-powered, Einstein-Szilard absorption refrigerator",
     "THE MOST INFLUENTIAL ARTIST NOBODY KNOWS #history #arthistory #painting #artist #art",
-    "What is the point of art Fairs?",
     "Bambu Lab Finally Built the Toolchanger We Wanted!",
     "3D Scanning Will Never Be the Same Again! (feat. Elegoo M1 Ultra)"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 8,
   "final_sources": [
     "Ars Technica",
-    "Blender Foundation",
-    "Colossal",
-    "Colossal / MASS MoCA \u00d7 Pioneer Works",
-    "DeepMind",
-    "Geopolitical Futures",
-    "Just Security",
-    "Northwestern University",
-    "One Useful Thing",
-    "Research project"
+    "Discovery Alert / Muflih Hidayat",
+    "Hackaday",
+    "Hacker News",
+    "Pietro Miotti",
+    "Python Discourse",
+    "The Public Domain Review"
   ],
-  "had_video": true,
-  "run_at": "2026-11-10T18:48:50.143825+00:00"
+  "had_video": false,
+  "run_at": "2026-11-11T18:53:25.441543+00:00"
 }
