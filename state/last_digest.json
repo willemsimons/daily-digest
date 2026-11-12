@@ -1,111 +1,111 @@
 {
   "digest": {
-    "intro": "AI finds ruins, proves encryption, and leaks secrets \u2014 all in one Tuesday.",
+    "intro": "AI power shifts, a dormant stem cell reserve, and a machined boiler.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The Quiet Numbers Under Calm Brent: Freight and the Hormuz Bet",
-            "source": "Discovery Alert / Muflih Hidayat",
-            "url": "https://discoveryalert.com/analysis/oil-markets-geopolitics-brent-hormuz-november-2026/",
-            "blurb": "Brent at ~$91 looks stable. Underneath it: Oman's premium to Dubai crude collapsed from $34/bbl in September to under $2/bbl now, while freight costs sit near $30/bbl \u2014 six times their pre-war level. That means the cost of moving oil is now carrying most of the geopolitical stress that Brent is masking. APEC in Shenzhen on November 18\u201319 is the next binary catalyst; a Hormuz deal moves crude prices, a frozen Ukraine mostly eases refined fuels.",
+            "title": "Jensen Huang Out at Nvidia",
+            "source": "AP News",
+            "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
+            "blurb": "Nvidia's co-founder and 30-year CEO forced out after an affair with an executive at Megaspeed, a Singapore firm suspected of routing sanctioned chips to China \u2014 espionage, sex scandal, and AI supply-chain politics knotted together. CFO Colette Kress takes the interim role. Singapore separately says the US was uncooperative in its own probe, which is its own geopolitical tell.",
             "tags": [
-              "energy",
+              "nvidia",
               "geopolitics",
-              "markets"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "What agents can do now",
-        "items": [
-          {
-            "title": "48 AI Agents Scanned NASA LiDAR and Found an Unmapped Maya Pyramid in 72 Hours",
-            "source": "Pietro Miotti",
-            "url": "https://pietromiotti.com/latest/maya-site/?maya",
-            "blurb": "A non-archaeologist traveling in Peru spun up a multi-agent pipeline \u2014 Gemini, Claude, GPT, Grok working in concert \u2014 to scan NASA aerial LiDAR data for Mesoamerican ruins. Under 72 hours from idle thought to an official reply from the Mexican government. The coda is perfect: the site turned out to have been mapped in a 2025 academic paper the agents missed during literature review, meaning they rediscovered it rather than discovered it. The method still stands \u2014 this is multi-agent spatial reasoning operating at archaeological scale for the first time.",
-            "tags": [
-              "ai agents",
-              "archaeology",
-              "lidar"
-            ]
-          },
-          {
-            "title": "DeepMind Formally Verified Signal's Encryption in Four Weeks",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
-            "blurb": "Google DeepMind's AlphaProof Code mathematically proved key cryptographic guarantees of the Signal protocol \u2014 the kind of formal verification that previously required years of specialist labor. Four weeks, as a proof-of-concept. The scope was limited (not the full mobile app), but the implication is real: software correctness verification, long considered a holy grail too expensive to actually use, may be crossing the threshold from academic discipline to production tool.",
-            "tags": [
-              "cryptography",
-              "formal verification",
               "ai"
             ]
           },
           {
-            "title": "Grok Build Left 35,000 Apps Wide Open \u2014 Including SpaceXSI's Own Internal Docs",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-            "blurb": "Grok Build randomized its sharing URLs to obscure projects \u2014 but a design flaw allowed anyone to enumerate thousands of live apps anyway. Security firm Claroc found medical records, employee ID numbers, cruise line checklists, and, most ironically, 24 internal SpaceXSI apps including a confidential sales onboarding plan and a territory map of 594 accounts. The company whose product leaked the data was itself a victim of its own product.",
+            "title": "Witkoff and Kushner in Moscow; Ukraine Prisoner Swap Agreed",
+            "source": "Open Chronicle",
+            "url": "https://openchronicle.org/2026/11/12/global-news-brief-key-developments-around-the-world-november-12-2026/",
+            "blurb": "US envoys met Putin in Moscow today while a Ukraine-Russia prisoner exchange was agreed in Abu Dhabi \u2014 the diplomacy track is moving faster than most expected. Europe is loudly insisting it cannot be cut out of any security settlement, and the schism between Brussels and Washington is sharpening into something structural rather than rhetorical.",
             "tags": [
-              "security",
-              "ai agents",
-              "xai"
+              "ukraine",
+              "diplomacy",
+              "geopolitics"
+            ]
+          },
+          {
+            "title": "Hormuz Down to 30 Ships a Day",
+            "source": "Au79 Macro Research",
+            "url": "https://martyau79.substack.com/p/12nov2026-geopolitical-intelligence",
+            "blurb": "The Strait of Hormuz is running at roughly 22% of its normal throughput \u2014 30 escorted transits a day against a 138-vessel baseline \u2014 after a Saudi tanker was attacked November 11. Qatar is reportedly negotiating a narrow two-week window to forestall US strikes on Iran, with APEC on November 18-19 as the hard deadline everyone is quietly watching.",
+            "tags": [
+              "hormuz",
+              "iran",
+              "energy"
             ]
           }
         ]
       },
       {
-        "heading": "Making things",
+        "heading": "The AI moment, annotated",
         "items": [
           {
-            "title": "Hyper-Realistic Sand Simulation in WebGL2",
-            "source": "Hacker News",
-            "url": "https://av.github.io/safe-sand/",
-            "blurb": "Cellular-automata sand physics running in-browser, in real time, in WebGL2 \u2014 tilt on mobile to make grains slide, shake to scatter them. The kind of single-obsession demo that makes you immediately want to open a code editor. No writeup, no philosophy, just the thing itself doing exactly what it says.",
+            "title": "Anthropic's IPO Numbers, Actually Read",
+            "source": "Simon Willison's Weblog",
+            "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+            "blurb": "Willison transcribed the roadshow video and the most interesting detail is operational: Anthropic now trains and serves Claude across AWS Trainium, Google TPUs, Nvidia GPUs, and AMD GPUs \u2014 a multi-chip bet most people thought wasn't worth the engineering cost. The payoff: when they onboarded AMD this year, Claude itself ported nearly 100% of the kernels in three days with almost no human intervention, a task that previously took dozens of engineers months.",
             "tags": [
-              "webgl",
-              "simulation",
-              "interactive"
+              "anthropic",
+              "ipo",
+              "ai infrastructure"
             ]
           },
           {
-            "title": "Print & Place: Embedding Electronics Mid-Print Without Modifying the Printer",
+            "title": "Gemini 4 Hydrogen: Google's Execution Engine",
+            "source": "Google Blog",
+            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+            "blurb": "Google's new Hydrogen model is explicitly designed as the fast, cheap half of a two-model stack \u2014 Carbon and Argon for hard reasoning, Hydrogen for rapid execution in agentic loops. At $1.50/$7.50 per million tokens flat across a 1M-token context window, the pricing is a direct signal that Google is subsidizing market share in the agentic workflow layer, timed precisely to land during Anthropic's roadshow week.",
+            "tags": [
+              "google",
+              "gemini",
+              "ai"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "How things get made",
+        "items": [
+          {
+            "title": "Technology as a Search Problem",
+            "source": "Construction Physics",
+            "url": "https://www.construction-physics.com/p/technology-as-a-search-problem",
+            "blurb": "Brian Potter frames invention not as inspiration but as navigation through an incomprehensibly vast design space \u2014 every conceivable arrangement of parts, materials, and phenomena \u2014 where the core problem is that you can't see most of the space from where you stand. He traces why some domains advance fast (dense, legible feedback; well-mapped adjacencies) and others stall for generations, which reframes why Bell Labs worked and why most R&D doesn't.",
+            "tags": [
+              "technology",
+              "invention",
+              "essays"
+            ]
+          },
+          {
+            "title": "Machining a Whole Boiler Because Why Not",
             "source": "Hackaday",
-            "url": "https://hackaday.com/2026/11/10/print-place-add-embedded-electronics-while-fdm-printing/",
-            "blurb": "Oliver Child's Print & Place workflow uses the FDM print head itself as a pick-and-place arm: components sit in a parametrically generated tray on the build plate; the head extrudes a dab of plastic to pick them up and deposit them into the print, which then resumes over them. No hardware modifications, no separate assembly step \u2014 PCBs, conductive wire, even rivets demonstrated. The error rate is real and documented, but the workflow closes the gap between structure and circuit in a way worth watching.",
+            "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
+            "blurb": "Hans Gaensbauer set out to repair a Gaggia Classic Pro and ended up milling an entirely new boiler and group head from stainless steel stock \u2014 which meant reverse-engineering a cast part never intended for machining, including the portafilter locking contours and the perforated distribution plate. The piece is a clean reminder that the gap between 'repair' and 'remake from scratch' is mostly a question of how far down the rabbit hole you're willing to go.",
             "tags": [
-              "fabrication",
-              "electronics",
-              "3d printing"
+              "craft",
+              "machining",
+              "hardware"
             ]
           }
         ]
       },
       {
-        "heading": "Off the map",
+        "heading": "Biology",
         "items": [
           {
-            "title": "Urs Graf: The Mercenary Who Drew Every Atrocity He Survived",
-            "source": "The Public Domain Review",
-            "url": "https://publicdomainreview.org/essay/soldiers-of-misfortune",
-            "blurb": "Urs Graf (c.1485\u20131528) was a Swiss mercenary, goldsmith, and one of the greatest draftsmen of the Renaissance \u2014 a man who fought in the Italian Wars and then drew exactly what he saw with a graphic punch that reads as modern. A few quick slashes become a clump of grass radiating the carnal energy of the figure beside it; some soft scribbles become an owl full of menace and cynicism. Miya Tokumitsu's essay frames him as a centuries-early explorer of the Freudian territory where sex and death fuse \u2014 and the drawings, all available, back every word of that claim.",
+            "title": "A Hidden Reserve of Blood Stem Cells",
+            "source": "Phys.org / Cell Stem Cell",
+            "url": "https://phys.org/news/2026-11-stem-cells-deep-secret-reserve.html",
+            "blurb": "German Cancer Research Center identified a population of deeply dormant hematopoietic stem cells in mice that respond far more cautiously to inflammatory signals than the conventional HSC pool \u2014 suggesting the body keeps a guarded reserve that conventional stem cell counts miss entirely. Mouse-only and early, but structurally interesting: if the same population exists in humans, it reframes how we think about lifetime blood system resilience and what depletes first under stress or aging.",
             "tags": [
-              "art history",
-              "renaissance",
-              "drawing"
-            ]
-          },
-          {
-            "title": "Tim Peters, 1952\u20132026",
-            "source": "Python Discourse",
-            "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028",
-            "blurb": "Tim Peters wrote Timsort \u2014 the hybrid sorting algorithm now inside every CPython, every JVM, and every Android device \u2014 and authored the Zen of Python, which still ships with every Python install. He wrote compilers for Cray supercomputers, then speech-to-text software at Dragon Systems at a time when that was considered impossible, then became something like Python's second-ever real user after Guido himself. The community remembrance on Python Discourse is worth reading less as obituary and more as a portrait of what it looks like when one person quietly holds the design sensibility of a language together.",
-            "tags": [
-              "computing",
-              "open source",
-              "obituary"
+              "stem cells",
+              "longevity",
+              "hematopoiesis"
             ]
           }
         ]
@@ -113,100 +113,21 @@
     ],
     "facts": [
       {
-        "fact": "Oman crude's premium to Dubai \u2014 a measure of Gulf oil scarcity \u2014 collapsed from $34 per barrel in mid-September 2026 to under $2 by November, while freight costs alone now sit near $30/bbl, six times their pre-war level.",
-        "url": "https://discoveryalert.com/analysis/oil-markets-geopolitics-brent-hormuz-november-2026/"
+        "fact": "Anthropic's Claude ported nearly 100% of AMD GPU kernels itself in three days \u2014 a task that previously required dozens of engineers working for months.",
+        "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
       },
       {
-        "fact": "The AI agents that 'discovered' the Maya pyramid missed a 2025 peer-reviewed paper documenting the same site during their literature review \u2014 meaning they rediscovered rather than discovered it.",
-        "url": "https://pietromiotti.com/latest/maya-site/?maya"
+        "fact": "The Strait of Hormuz is currently processing only about 30 escorted ships per day, down from a baseline of 138 vessels \u2014 roughly 22% of normal throughput.",
+        "url": "https://martyau79.substack.com/p/12nov2026-geopolitical-intelligence"
       },
       {
-        "fact": "Grok Build's data exposure affected SpaceXSI itself: security researchers found 24 of its own internal apps publicly enumerable, including a confidential enterprise sales onboarding plan and a territory map of 594 accounts.",
-        "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/"
-      },
-      {
-        "fact": "Tim Peters wrote Timsort \u2014 the sorting algorithm used in CPython, Java, and Android \u2014 and is also the sole author of the Zen of Python, which still ships with every Python installation via 'import this'.",
-        "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"
+        "fact": "Nineteen of the fifty-plus IGF jury members signed a statement refusing to vote for any game that used generative AI in any capacity \u2014 before the eventual controversy publicly named House House's Big Walk as a central case.",
+        "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/"
       }
     ],
-    "make_something": {
-      "prompt": "Build a minimal WebGL2 cellular automaton \u2014 not sand, pick one rule that surprises you. Start with a grid where each cell checks only its four neighbors, then find the simplest ruleset that produces structure you didn't predict. The constraint: it has to run at 60fps on a phone, so push the compute into a fragment shader and keep state in a ping-pong texture pair. Ship it to a URL and let it run for a week."
-    },
-    "art_picks": [
-      {
-        "medium": "film",
-        "title": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
-        "creator": "Chantal Akerman",
-        "why": "A three-and-a-half-hour real-time portrait of a woman's domestic routines that works as a feedback-loop horror film \u2014 the system reveals itself through repetition until one deviation breaks everything. The invisible architecture of daily ritual made terrifyingly visible.",
-        "url": "https://letterboxd.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/"
-      },
-      {
-        "medium": "art",
-        "title": "Simon Denny \u2014 various works",
-        "creator": "Simon Denny",
-        "why": "Denny treats corporate mythology, platform capitalism, and product design as raw sculptural material \u2014 turning org charts, patent filings, and startup decks into objects that reveal the invisible belief systems quietly organizing modern life. Category-blurring at a systems level.",
-        "url": "https://www.simondenny.net/"
-      },
-      {
-        "medium": "music",
-        "title": "Disintegration Loops",
-        "creator": "William Basinski",
-        "url": "https://www.youtube.com/watch?v=mjnAE5go9dI",
-        "why": "Magnetic tape decaying in real time as it plays \u2014 the medium eating itself, the signal dissolving into noise. A meditation on entropy that also happens to be one of the most affecting pieces of ambient music ever made, with an origin story (recorded September 11, 2001) that layers meaning impossibly deep."
-      }
-    ],
-    "events": [
-      {
-        "name": "Pierre Huyghe: UUmwelt (Last Weeks)",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St",
-        "date_start": "2026-11-11",
-        "date_end": "2026-11-29",
-        "category": "museum",
-        "why": "Huyghe collaborated with Kyoto neuroscientists to run fMRI brain scans through a neural network that reconstructs thought as image \u2014 the resulting screens in MoMA's outdoor garden shift in response to visitors' gaze and embedded biological sensors, turning perception itself into the subject; this is its final two weeks.",
-        "url": "https://www.moma.org/calendar/exhibitions/5912",
-        "date": "Nov 11\u201329"
-      },
-      {
-        "name": "Art Week NYC \u2014 Inaugural Edition",
-        "venue": "Citywide (Chelsea, Tribeca, LES, UES, Midtown hub at New Museum)",
-        "date_start": "2026-11-11",
-        "date_end": "2026-11-14",
-        "category": "museum",
-        "why": "The first-ever citywide art week organized by ARTnews, Art in America, and Artforum \u2014 76+ galleries and 32 institutions doing coordinated openings, neighborhood walks, and artist talks, with Artforum running a full day of public conversations at the New Museum on the 14th; a rare moment when the city's gallery ecosystem is all on at once.",
-        "url": "https://www.artnews.com/art-news/news/art-week-nyc-kicks-off-metropolitan-museum-art-1234805478/",
-        "date": "Nov 11\u201314"
-      },
-      {
-        "name": "William Basinski: DURATIONS (with Chantal Michelle)",
-        "venue": "Public Records Sound Room, 233 Butler St, Brooklyn",
-        "date_start": "2026-11-11",
-        "date_end": "2026-11-11",
-        "category": "concert",
-        "why": "Basinski performing live \u2014 the man who made the Disintegration Loops \u2014 in one of Brooklyn's best listening rooms; a rare chance to sit inside music that treats decay, time, and system failure as compositional material.",
-        "url": "https://www.songkick.com/metro-areas/7644-us-new-york-nyc/genre/electronic",
-        "date": "Wed, Nov 11"
-      },
-      {
-        "name": "Mike Kelley: Jerry Meandering",
-        "venue": "Hauser & Wirth, 134 Wooster St",
-        "date_start": "2026-11-11",
-        "date_end": "2027-01-16",
-        "category": "museum",
-        "why": "Kelley is the artist who went most unreasonably deep into American subcultural ritual \u2014 repressed memory, folk psychology, suburban mythology \u2014 and made it into maximalist, formally precise art; this show at H&W is a reason to spend an afternoon in SoHo during Art Week.",
-        "url": "https://www.hauserwirth.com/hauser-wirth-exhibitions/",
-        "date": "Nov 11 \u2013 Jan 16"
-      },
-      {
-        "name": "ADAA Fair",
-        "venue": "Park Avenue Armory, 643 Park Ave",
-        "date_start": "2026-11-13",
-        "date_end": "2026-11-16",
-        "category": "popup",
-        "why": "The relaunched ADAA Fair (the old Art Show, reborn) puts 200+ member galleries into the Armory's drill hall with curated solo and thematic exhibitions spanning 19th century to now \u2014 the Armory itself is half the reason to go, a Gilded Age space that makes the scale of the market legible.",
-        "url": "https://www.adaafair.org/",
-        "date": "Nov 13\u201316"
-      }
-    ]
+    "make_something": null,
+    "art_picks": [],
+    "events": []
   },
   "trial_sources": []
 }
