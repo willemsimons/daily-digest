@@ -1,133 +1,185 @@
 {
   "digest": {
-    "intro": "AI power shifts, a dormant stem cell reserve, and a machined boiler.",
+    "intro": "A thin day with one genuinely strange story, one infrastructure shock, and a few things worth making or thinking about.",
     "sections": [
       {
-        "heading": "World",
+        "heading": "The big story",
         "items": [
           {
-            "title": "Jensen Huang Out at Nvidia",
-            "source": "AP News",
-            "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f",
-            "blurb": "Nvidia's co-founder and 30-year CEO forced out after an affair with an executive at Megaspeed, a Singapore firm suspected of routing sanctioned chips to China \u2014 espionage, sex scandal, and AI supply-chain politics knotted together. CFO Colette Kress takes the interim role. Singapore separately says the US was uncooperative in its own probe, which is its own geopolitical tell.",
+            "title": "Jensen Huang resigns amid board probe into employee relationships and suspected China ties",
+            "source": "Reuters / Fortune / HN thread",
+            "url": "https://fortune.com/2026/11/09/nvidia-board-probe-jensen-huang-affair-suspected-china-spy-statements/",
+            "blurb": "The HN thread surfaces the deeper story: a second relationship, a board investigation, and whispers about a Megaspeed connection \u2014 with Apple's Johny Srouji reportedly being eyed as successor. The end of an era for the most consequential chip company of the last decade.",
             "tags": [
-              "nvidia",
               "geopolitics",
-              "ai"
+              "tech",
+              "power"
             ]
           },
           {
-            "title": "Witkoff and Kushner in Moscow; Ukraine Prisoner Swap Agreed",
-            "source": "Open Chronicle",
-            "url": "https://openchronicle.org/2026/11/12/global-news-brief-key-developments-around-the-world-november-12-2026/",
-            "blurb": "US envoys met Putin in Moscow today while a Ukraine-Russia prisoner exchange was agreed in Abu Dhabi \u2014 the diplomacy track is moving faster than most expected. Europe is loudly insisting it cannot be cut out of any security settlement, and the schism between Brussels and Washington is sharpening into something structural rather than rhetorical.",
+            "title": "Microsoft's global outage may be worse than CrowdStrike's",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
+            "blurb": "Governments, hospitals, and courts scrambled as Microsoft blamed failed server health checks. The scale is reportedly larger than the CrowdStrike incident \u2014 a reminder of how much critical infrastructure runs on a single vendor.",
             "tags": [
-              "ukraine",
-              "diplomacy",
-              "geopolitics"
-            ]
-          },
-          {
-            "title": "Hormuz Down to 30 Ships a Day",
-            "source": "Au79 Macro Research",
-            "url": "https://martyau79.substack.com/p/12nov2026-geopolitical-intelligence",
-            "blurb": "The Strait of Hormuz is running at roughly 22% of its normal throughput \u2014 30 escorted transits a day against a 138-vessel baseline \u2014 after a Saudi tanker was attacked November 11. Qatar is reportedly negotiating a narrow two-week window to forestall US strikes on Iran, with APEC on November 18-19 as the hard deadline everyone is quietly watching.",
-            "tags": [
-              "hormuz",
-              "iran",
-              "energy"
+              "infrastructure",
+              "current events"
             ]
           }
         ]
       },
       {
-        "heading": "The AI moment, annotated",
+        "heading": "Science & mind",
         "items": [
           {
-            "title": "Anthropic's IPO Numbers, Actually Read",
-            "source": "Simon Willison's Weblog",
-            "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
-            "blurb": "Willison transcribed the roadshow video and the most interesting detail is operational: Anthropic now trains and serves Claude across AWS Trainium, Google TPUs, Nvidia GPUs, and AMD GPUs \u2014 a multi-chip bet most people thought wasn't worth the engineering cost. The payoff: when they onboarded AMD this year, Claude itself ported nearly 100% of the kernels in three days with almost no human intervention, a task that previously took dozens of engineers months.",
+            "title": "AI unlocks G\u00f6del's notebooks, said to contain hundreds of proved theorems",
+            "source": "The Guardian",
+            "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+            "blurb": "G\u00f6del worked in a private shorthand that defeated scholars for decades. AI transcription and reasoning apparently cracked it \u2014 and what's inside may reopen questions he never published. The kind of story that makes you think about what else is sitting in dead men's drawers.",
             "tags": [
-              "anthropic",
-              "ipo",
-              "ai infrastructure"
+              "science",
+              "AI",
+              "history",
+              "mathematics"
             ]
           },
           {
-            "title": "Gemini 4 Hydrogen: Google's Execution Engine",
-            "source": "Google Blog",
-            "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
-            "blurb": "Google's new Hydrogen model is explicitly designed as the fast, cheap half of a two-model stack \u2014 Carbon and Argon for hard reasoning, Hydrogen for rapid execution in agentic loops. At $1.50/$7.50 per million tokens flat across a 1M-token context window, the pricing is a direct signal that Google is subsidizing market share in the agentic workflow layer, timed precisely to land during Anthropic's roadshow week.",
+            "title": "The four forces that shape collective memory",
+            "source": "Nautilus",
+            "url": "https://nautil.us/the-four-forces-that-shape-collective-memory-1286569/",
+            "blurb": "Why we all remember Napoleon's name and forget almost everyone else who shaped his era. A framework for how memory propagates through culture \u2014 relevant if you think about mythmaking and lore.",
             "tags": [
-              "google",
-              "gemini",
-              "ai"
+              "psychology",
+              "cultural transmission",
+              "mythmaking"
             ]
           }
         ]
       },
       {
-        "heading": "How things get made",
+        "heading": "Making things",
         "items": [
           {
-            "title": "Technology as a Search Problem",
-            "source": "Construction Physics",
-            "url": "https://www.construction-physics.com/p/technology-as-a-search-problem",
-            "blurb": "Brian Potter frames invention not as inspiration but as navigation through an incomprehensibly vast design space \u2014 every conceivable arrangement of parts, materials, and phenomena \u2014 where the core problem is that you can't see most of the space from where you stand. He traces why some domains advance fast (dense, legible feedback; well-mapped adjacencies) and others stall for generations, which reframes why Bell Labs worked and why most R&D doesn't.",
+            "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+            "source": "GitHub / HN",
+            "url": "https://github.com/simpsoka/zigzag",
+            "blurb": "Classic maker rebellion: locked hardware, so someone built the whole software stack from scratch. The HN thread surfaces a small ecosystem of open embroidery tools worth knowing about if you ever want to stitch physical work.",
             "tags": [
-              "technology",
-              "invention",
-              "essays"
-            ]
-          },
-          {
-            "title": "Machining a Whole Boiler Because Why Not",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/11/12/espresso-meet-custom-machined-stainless-steel-boiler/",
-            "blurb": "Hans Gaensbauer set out to repair a Gaggia Classic Pro and ended up milling an entirely new boiler and group head from stainless steel stock \u2014 which meant reverse-engineering a cast part never intended for machining, including the portafilter locking contours and the perforated distribution plate. The piece is a clean reminder that the gap between 'repair' and 'remake from scratch' is mostly a question of how far down the rabbit hole you're willing to go.",
-            "tags": [
-              "craft",
-              "machining",
+              "fabrication",
+              "making",
+              "open source",
               "hardware"
             ]
+          },
+          {
+            "title": "Isometric SF: a pixel-art map built from Google's Photorealistic 3D Tiles",
+            "source": "HN / justinchavez.com",
+            "url": "https://www.justinchavez.com/blog/isometric-sf-how/",
+            "blurb": "1,300 square miles of the Bay Area converted into an isometric pixel-art rendering. The technical write-up is the real thing \u2014 a smart pipeline from 3D tiles to a view that feels handcrafted.",
+            "tags": [
+              "3D",
+              "generative",
+              "WebGL",
+              "making"
+            ]
           }
         ]
       },
       {
-        "heading": "Biology",
+        "heading": "Worth a look",
         "items": [
           {
-            "title": "A Hidden Reserve of Blood Stem Cells",
-            "source": "Phys.org / Cell Stem Cell",
-            "url": "https://phys.org/news/2026-11-stem-cells-deep-secret-reserve.html",
-            "blurb": "German Cancer Research Center identified a population of deeply dormant hematopoietic stem cells in mice that respond far more cautiously to inflammatory signals than the conventional HSC pool \u2014 suggesting the body keeps a guarded reserve that conventional stem cell counts miss entirely. Mouse-only and early, but structurally interesting: if the same population exists in humans, it reframes how we think about lifetime blood system resilience and what depletes first under stress or aging.",
+            "title": "Brain implant trial volunteers want more autonomy and fewer NDAs",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
+            "blurb": "The people whose bodies host experimental neural hardware are pushing back on how research is structured \u2014 asking for agency over their own data and participation. A quiet but important shift in how we think about consent at the frontier of neuroscience.",
             "tags": [
-              "stem cells",
               "longevity",
-              "hematopoiesis"
+              "neuroscience",
+              "health",
+              "ethics"
             ]
           }
         ]
       }
     ],
-    "facts": [
+    "facts": [],
+    "make_something": null,
+    "art_picks": [
       {
-        "fact": "Anthropic's Claude ported nearly 100% of AMD GPU kernels itself in three days \u2014 a task that previously required dozens of engineers working for months.",
-        "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+        "medium": "film",
+        "title": "Sans Soleil",
+        "creator": "Chris Marker",
+        "why": "A meditation on memory, ritual, and the hidden systems by which cultures encode meaning into images \u2014 Marker treats documentary footage like a generative system, finding the deep structure under the surface of everyday life. Made in 1983, still the sharpest film about how images construct reality.",
+        "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
-        "fact": "The Strait of Hormuz is currently processing only about 30 escorted ships per day, down from a baseline of 138 vessels \u2014 roughly 22% of normal throughput.",
-        "url": "https://martyau79.substack.com/p/12nov2026-geopolitical-intelligence"
+        "medium": "music",
+        "title": "Reassemblage",
+        "creator": "Visible Cloaks",
+        "why": "Spencer Doran and Ryan Carlile build music that sits exactly at the edge where physical and digital meet \u2014 acoustic instruments processed into something that feels like watching light refract through glass, beautiful on the surface with a rigorous generative architecture underneath.",
+        "url": "https://visiblecloaks.bandcamp.com/album/reassemblage"
       },
       {
-        "fact": "Nineteen of the fifty-plus IGF jury members signed a statement refusing to vote for any game that used generative AI in any capacity \u2014 before the eventual controversy publicly named House House's Big Walk as a central case.",
-        "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/"
+        "medium": "art",
+        "title": "The Paintings for the Temple",
+        "creator": "Hilma af Klint",
+        "why": "A hidden system of symbols, sacred geometry, and cosmological feedback loops that af Klint worked on in obsessive secrecy for years \u2014 art that is literally a diagram of invisible forces, and one of the great examples of someone going unreasonably deep on one narrow thing.",
+        "url": "https://www.hilmaafklint.se/en/"
       }
     ],
-    "make_something": null,
-    "art_picks": [],
-    "events": []
+    "events": [
+      {
+        "name": "Elmgreen & Dragset: TRANSITION",
+        "venue": "Pace Gallery, 508 & 510 West 25th Street, Chelsea",
+        "date_start": "2026-11-06",
+        "date_end": "2027-01-16",
+        "category": "museum",
+        "why": "A 40-ton traversable corten-steel Oval Office you can walk through \u2014 architecture as power critique, physical environment as psychological experience; exactly the kind of obsessive, category-blurring installation that uses built space to make a system visible.",
+        "url": "https://www.pacegallery.com/exhibitions/elmgreen-dragset-transition/",
+        "date": "Nov 6 \u2013 Jan 16"
+      },
+      {
+        "name": "Gottlieb/Rothko: The Surrealist Years",
+        "venue": "Pace Gallery, 540 West 25th Street, Chelsea",
+        "date_start": "2026-11-13",
+        "date_end": "2027-01-09",
+        "category": "museum",
+        "why": "A focused look at the moment two painters were actively constructing a new symbolic language \u2014 before Abstract Expressionism hardened into an institution, when the system was still being invented and the symbols still raw.",
+        "url": "https://www.pacegallery.com/exhibitions/",
+        "date": "Nov 13 \u2013 Jan 9"
+      },
+      {
+        "name": "Nia Archives",
+        "venue": "Webster Hall, 125 East 11th Street, Manhattan",
+        "date_start": "2026-11-13",
+        "date_end": "2026-11-13",
+        "category": "concert",
+        "why": "Nia Archives is doing something genuinely interesting \u2014 using jungle and drum & bass (UK rave subculture, heavily coded with community and identity) as a vehicle for personal storytelling; a small-room show before she outgrows rooms like this.",
+        "url": "https://www.websterhall.com/",
+        "date": "Fri, Nov 13"
+      },
+      {
+        "name": "Surprise Chef",
+        "venue": "National Sawdust, 80 North 6th Street, Brooklyn",
+        "date_start": "2026-11-13",
+        "date_end": "2026-11-13",
+        "category": "concert",
+        "why": "Australian instrumental group treating vintage soul and library music as systems to be decomposed and rebuilt \u2014 deeply craft-focused, zero hype, and National Sawdust is one of the best-designed listening rooms in New York.",
+        "url": "https://nationalsawdust.org/",
+        "date": "Fri, Nov 13"
+      },
+      {
+        "name": "artport: A History of Internet Art",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort Street",
+        "date_start": "2026-11-21",
+        "date_end": "2027-03-28",
+        "category": "museum",
+        "why": "25 years of the Whitney's net art platform in one room \u2014 100+ commissioned works from Golan Levin and Casey Reas to Morehshin Allahyari, with the gallery floor laid out like floating browser windows; this is the institutional history of the early internet as an artistic medium, made physical.",
+        "url": "https://whitney.org/exhibitions/artport-25",
+        "date": "Nov 21 \u2013 Mar 28"
+      }
+    ]
   },
   "trial_sources": []
 }

@@ -1,11 +1,11 @@
 {
-  "feeds": 85,
-  "mined": 43,
+  "feeds": 83,
+  "mined": 50,
   "videos": 9,
   "video_titles": [
+    "Making Gunpowder From Scratch",
     "Why you can't trust a test that's 99% accurate",
     "Why do deserts get cold at night?",
-    "I finally saw quantum mechanics with my own eyes... (It's spookier than I expected)",
     "My dog won't stay out of mud so I made this...",
     "This Material Sorts Itself",
     "Two-photon fluorescence playing pong in rhodamine 6G",
@@ -14,17 +14,16 @@
     "3D Scanning Will Never Be the Same Again! (feat. Elegoo M1 Ultra)"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 7,
   "final_sources": [
-    "AP News",
-    "Au79 Macro Research",
-    "Construction Physics",
-    "Google Blog",
-    "Hackaday",
-    "Open Chronicle",
-    "Phys.org / Cell Stem Cell",
-    "Simon Willison's Weblog"
+    "Ars Technica",
+    "GitHub / HN",
+    "HN / justinchavez.com",
+    "MIT Technology Review",
+    "Nautilus",
+    "Reuters / Fortune / HN thread",
+    "The Guardian"
   ],
   "had_video": false,
-  "run_at": "2026-11-12T19:05:54.838762+00:00"
+  "run_at": "2026-11-13T18:43:57.502471+00:00"
 }
