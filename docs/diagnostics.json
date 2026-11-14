@@ -1,29 +1,28 @@
 {
-  "feeds": 83,
-  "mined": 50,
-  "videos": 9,
+  "feeds": 78,
+  "mined": 41,
+  "videos": 7,
   "video_titles": [
     "Making Gunpowder From Scratch",
     "Why you can't trust a test that's 99% accurate",
     "Why do deserts get cold at night?",
     "My dog won't stay out of mud so I made this...",
-    "This Material Sorts Itself",
     "Two-photon fluorescence playing pong in rhodamine 6G",
     "THE MOST INFLUENTIAL ARTIST NOBODY KNOWS #history #arthistory #painting #artist #art",
-    "Bambu Lab Finally Built the Toolchanger We Wanted!",
-    "3D Scanning Will Never Be the Same Again! (feat. Elegoo M1 Ultra)"
+    "Bambu Lab Finally Built the Toolchanger We Wanted!"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 8,
   "final_sources": [
     "Ars Technica",
-    "GitHub / HN",
-    "HN / justinchavez.com",
+    "Independent",
+    "MIT News / Nature",
     "MIT Technology Review",
-    "Nautilus",
-    "Reuters / Fortune / HN thread",
-    "The Guardian"
+    "Morning News Update",
+    "Robin Sloan",
+    "TechPowerUp",
+    "YouTube"
   ],
-  "had_video": false,
-  "run_at": "2026-11-13T18:43:57.502471+00:00"
+  "had_video": true,
+  "run_at": "2026-11-14T17:18:52.147989+00:00"
 }

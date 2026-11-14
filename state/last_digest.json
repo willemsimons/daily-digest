@@ -1,183 +1,205 @@
 {
   "digest": {
-    "intro": "A thin day with one genuinely strange story, one infrastructure shock, and a few things worth making or thinking about.",
+    "intro": "Infrastructure cracks, geopolitical pivots, and materials that disorder on purpose.",
     "sections": [
       {
-        "heading": "The big story",
+        "heading": "World",
         "items": [
           {
-            "title": "Jensen Huang resigns amid board probe into employee relationships and suspected China ties",
-            "source": "Reuters / Fortune / HN thread",
-            "url": "https://fortune.com/2026/11/09/nvidia-board-probe-jensen-huang-affair-suspected-china-spy-statements/",
-            "blurb": "The HN thread surfaces the deeper story: a second relationship, a board investigation, and whispers about a Megaspeed connection \u2014 with Apple's Johny Srouji reportedly being eyed as successor. The end of an era for the most consequential chip company of the last decade.",
+            "title": "Trump-Xi-Putin trilateral set for APEC sidelines in Shenzhen",
+            "source": "Morning News Update",
+            "url": "https://ru4people.substack.com/p/morning-news-update-november-14-2026",
+            "blurb": "A three-way summit on nuclear nonproliferation between the U.S., China, and Russia would be the first of its kind since the Cold War ended \u2014 not a photo op but a structural signal about who the great powers think they are dealing with. The choice of Shenzhen as venue is itself a message.",
             "tags": [
               "geopolitics",
-              "tech",
-              "power"
+              "diplomacy",
+              "nuclear"
             ]
           },
           {
-            "title": "Microsoft's global outage may be worse than CrowdStrike's",
+            "title": "Silicon Valley lashed itself to Trump before the midterms. Now what?",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
+            "blurb": "Altman, Musk, Zuckerberg \u2014 the people whose entire brand is seeing around corners \u2014 gathered at the White House five weeks before a midterm wave went against them and signed on to a 'Super Intelligence' agenda. The Tech Review piece treats it correctly: not as a politics story but as a prestige and judgment story about a class that monetizes future-prediction and just catastrophically misfired on the most legible near-term event available.",
+            "tags": [
+              "tech industry",
+              "politics",
+              "credibility"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Systems failing, systems expanding",
+        "items": [
+          {
+            "title": "FAA deployed AI system-wide, then the analog infrastructure collapsed",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
-            "blurb": "Governments, hospitals, and courts scrambled as Microsoft blamed failed server health checks. The scale is reportedly larger than the CrowdStrike incident \u2014 a reminder of how much critical infrastructure runs on a single vendor.",
+            "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+            "blurb": "Only the third nationwide ground stop in FAA history \u2014 4.5 hours, over a million travelers affected, Air Canada cancelling all U.S. flights \u2014 triggered by decades-old analog telecom equipment, days after the agency expanded its $875M AI routing system to all 22 national airspace centers. The union representing air traffic controllers wasn't involved in designing or testing that AI system, which is the detail that should follow you: AI recommendations layered on top of infrastructure the Secretary of Transportation himself says cannot compete with 21st-century demands.",
             "tags": [
               "infrastructure",
-              "current events"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Science & mind",
-        "items": [
-          {
-            "title": "AI unlocks G\u00f6del's notebooks, said to contain hundreds of proved theorems",
-            "source": "The Guardian",
-            "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
-            "blurb": "G\u00f6del worked in a private shorthand that defeated scholars for decades. AI transcription and reasoning apparently cracked it \u2014 and what's inside may reopen questions he never published. The kind of story that makes you think about what else is sitting in dead men's drawers.",
-            "tags": [
-              "science",
-              "AI",
-              "history",
-              "mathematics"
+              "ai",
+              "aviation"
             ]
           },
           {
-            "title": "The four forces that shape collective memory",
-            "source": "Nautilus",
-            "url": "https://nautil.us/the-four-forces-that-shape-collective-memory-1286569/",
-            "blurb": "Why we all remember Napoleon's name and forget almost everyone else who shaped his era. A framework for how memory propagates through culture \u2014 relevant if you think about mythmaking and lore.",
+            "title": "Nvidia allegedly funded AI startups to buy its own GPUs and inflate demand",
+            "source": "TechPowerUp",
+            "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+            "blurb": "The allegation, earning 930 points on HN, is structurally Enron: Nvidia investing in startups whose primary activity was purchasing Nvidia GPUs, thereby manufacturing the demand signal that justified the valuation. If the mechanism holds up, it's the cleanest demand-fabrication scheme in modern tech \u2014 and it explains a lot about why the GPU shortage felt engineered.",
             "tags": [
-              "psychology",
-              "cultural transmission",
-              "mythmaking"
+              "nvidia",
+              "ai",
+              "market manipulation"
             ]
           }
         ]
       },
       {
-        "heading": "Making things",
+        "heading": "Materials and making",
         "items": [
           {
-            "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
-            "source": "GitHub / HN",
-            "url": "https://github.com/simpsoka/zigzag",
-            "blurb": "Classic maker rebellion: locked hardware, so someone built the whole software stack from scratch. The HN thread surfaces a small ecosystem of open embroidery tools worth knowing about if you ever want to stitch physical work.",
+            "title": "Disorder is a feature: MIT's scale-rich metamaterials built from network topology",
+            "source": "MIT News / Nature",
+            "url": "https://news.mit.edu/2026/engineers-design-stronger-resilient-nature-inspired-metamaterials-1111",
+            "blurb": "Published in Nature this week: instead of repeating unit cells, MIT and Northeastern built metamaterials from support beams of varying sizes arranged like a leaf's vasculature or a dragonfly's wing venation \u2014 deliberately disordered, like a real network. The resulting materials outperform conventional ordered metamaterials on sudden-impact absorption and can function as acoustic lenses, with stiffness tunable across a wide range. The core idea \u2014 that controlled disorder beats perfect periodicity \u2014 is the kind of principle that migrates into generative design fast.",
             "tags": [
+              "metamaterials",
               "fabrication",
-              "making",
-              "open source",
-              "hardware"
-            ]
-          },
-          {
-            "title": "Isometric SF: a pixel-art map built from Google's Photorealistic 3D Tiles",
-            "source": "HN / justinchavez.com",
-            "url": "https://www.justinchavez.com/blog/isometric-sf-how/",
-            "blurb": "1,300 square miles of the Bay Area converted into an isometric pixel-art rendering. The technical write-up is the real thing \u2014 a smart pipeline from 3D tiles to a view that feels handcrafted.",
-            "tags": [
-              "3D",
-              "generative",
-              "WebGL",
-              "making"
+              "nature-inspired"
             ]
           }
         ]
       },
       {
-        "heading": "Worth a look",
+        "heading": "Off the map",
         "items": [
           {
-            "title": "Brain implant trial volunteers want more autonomy and fewer NDAs",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/11/13/1148474/more-autonomy-fewer-ndas-volunteers-have-new-requests-for-brain-implant-trials/",
-            "blurb": "The people whose bodies host experimental neural hardware are pushing back on how research is structured \u2014 asking for agency over their own data and participation. A quiet but important shift in how we think about consent at the frontier of neuroscience.",
+            "title": "All 13 versions of Monkey Island, side by side",
+            "source": "Independent",
+            "url": "https://monkeyisland.pages.dev/",
+            "blurb": "Someone built a WebGL-rendered interactive archive of the same 12 moments from Monkey Island across every version ever released \u2014 EGA, CGA, Mac, FM Towns, Atari ST mono, all aspect-corrected to 4:3 with period-accurate CRT shader presets ported from DOSBox. The concept is exactly right: fix the moment, change the machine. It's visual archaeology and interface history and a meditation on how rendering technology shapes emotional register, all in one draggable window.",
             "tags": [
-              "longevity",
-              "neuroscience",
-              "health",
-              "ethics"
+              "interactive",
+              "game history",
+              "rendering"
             ]
+          },
+          {
+            "title": "Robin Sloan: software is now distributed as essays that execute",
+            "source": "Robin Sloan",
+            "url": "https://www.robinsloan.com/lab/new-distribution/",
+            "blurb": "Sloan points at the gap between the PyTorch configurator grid (old distribution: select your options, copy a command) and the new pattern where you copy a prompt, tune it with a little matrix of toggles, and paste it into an AI thread that installs and configures the software for you. His frame: the .dmg and .msi have been superseded by the postcard. The piece is short and the observation is genuinely weird in the right way.",
+            "tags": [
+              "software",
+              "ai",
+              "culture"
+            ]
+          },
+          {
+            "title": "Jonathan Blow \u2014 If AI solved coding, why is my software still the same?",
+            "source": "YouTube",
+            "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+            "blurb": "Blow is one of the few people treating software quality as a craft and civilization problem rather than a velocity metric. This talk asks the precise question you'd want asked right now: if AI is transforming programming, where is the evidence in the actual software we use? 432 HN points suggests it lands.",
+            "tags": [
+              "software",
+              "ai",
+              "craft"
+            ],
+            "thumbnail": "https://i.ytimg.com/vi/IRK8h67ol7Q/hqdefault.jpg"
           }
         ]
       }
     ],
-    "facts": [],
+    "facts": [
+      {
+        "fact": "The FAA's AI routing system \u2014 SMART \u2014 rerouted 180 flights and saved an average of 80 gallons of fuel per flight in its Washington D.C. pilot, then went live across all 22 national airspace centers days before the analog backbone caused only the third nationwide ground stop in FAA history.",
+        "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+      },
+      {
+        "fact": "MIT's new scale-rich metamaterials are designed not from repeating unit cells but from networks of beams with varying sizes inspired by leaf vasculature and dragonfly wing venation \u2014 the disorder itself is what gives them superior impact absorption.",
+        "url": "https://news.mit.edu/2026/engineers-design-stronger-resilient-nature-inspired-metamaterials-1111"
+      },
+      {
+        "fact": "The Monkey Island side-by-side archive captures every screen in ScummVM with 4:3 aspect correction and CRT shader presets ported from DOSBox Staging, rendering each version on the monitor type closest to its original hardware \u2014 including a Hercules mono version using only the middle 640 of its 720 columns.",
+        "url": "https://monkeyisland.pages.dev/"
+      }
+    ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A meditation on memory, ritual, and the hidden systems by which cultures encode meaning into images \u2014 Marker treats documentary footage like a generative system, finding the deep structure under the surface of everyday life. Made in 1983, still the sharpest film about how images construct reality.",
+        "why": "A meditation on memory, travel, ritual, and how images shape (and fail to capture) culture \u2014 Marker treats the camera as an instrument for excavating invisible social systems across Japan and Guinea-Bissau. The form IS the argument: an essay film that refuses to separate the aesthetic from the anthropological. If you haven't seen it, it'll reorganize how you think about documentation and time.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "music",
-        "title": "Reassemblage",
-        "creator": "Visible Cloaks",
-        "why": "Spencer Doran and Ryan Carlile build music that sits exactly at the edge where physical and digital meet \u2014 acoustic instruments processed into something that feels like watching light refract through glass, beautiful on the surface with a rigorous generative architecture underneath.",
-        "url": "https://visiblecloaks.bandcamp.com/album/reassemblage"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "Not background music \u2014 a system for inducing specific interior states through pure texture and interval. Aphex built a sensory architecture out of near-silence; the craft is in what's withheld. Pairs absurdly well with generative work sessions where you want to lower the threshold between thinking and making.",
+        "url": "https://www.youtube.com/watch?v=Xw5AiRVqfqk"
       },
       {
         "medium": "art",
-        "title": "The Paintings for the Temple",
-        "creator": "Hilma af Klint",
-        "why": "A hidden system of symbols, sacred geometry, and cosmological feedback loops that af Klint worked on in obsessive secrecy for years \u2014 art that is literally a diagram of invisible forces, and one of the great examples of someone going unreasonably deep on one narrow thing.",
-        "url": "https://www.hilmaafklint.se/en/"
+        "title": "Mycelium Networks (ongoing research & installation practice)",
+        "creator": "Neri Oxman",
+        "why": "Oxman's work sits exactly at the edge you care about: biological process as formal language, nature as design system, the body of the object as computation. Her 'Material Ecology' framework treats software, fabrication, and organism as one continuous medium \u2014 genuinely new aesthetic territory, not just bio-inspired d\u00e9cor.",
+        "url": "https://oxman.com/"
       }
     ],
     "events": [
+      {
+        "name": "Hard Art \u2014 MoMA PS1",
+        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City, Queens",
+        "date_start": "2026-11-05",
+        "date_end": "2027-04-01",
+        "category": "museum",
+        "why": "A major survey of abstract painting by Black artists from 1969 to now, across three generations \u2014 the kind of show that reframes an entire lineage while it's happening; worth the trip to LIC while it's still fresh.",
+        "url": "https://www.moma.org/ps1",
+        "date": "Nov 5 \u2013 Apr 1"
+      },
       {
         "name": "Elmgreen & Dragset: TRANSITION",
         "venue": "Pace Gallery, 508 & 510 West 25th Street, Chelsea",
         "date_start": "2026-11-06",
         "date_end": "2027-01-16",
         "category": "museum",
-        "why": "A 40-ton traversable corten-steel Oval Office you can walk through \u2014 architecture as power critique, physical environment as psychological experience; exactly the kind of obsessive, category-blurring installation that uses built space to make a system visible.",
+        "why": "A 40-ton traversable corten steel sculpture \u2014 an almost full-scale Oval Office \u2014 that you walk through: architecture as power critique, physical space as psychological event; the kind of obsessive, unreasonably literal concept that lands as pure experience.",
         "url": "https://www.pacegallery.com/exhibitions/elmgreen-dragset-transition/",
         "date": "Nov 6 \u2013 Jan 16"
       },
       {
-        "name": "Gottlieb/Rothko: The Surrealist Years",
-        "venue": "Pace Gallery, 540 West 25th Street, Chelsea",
+        "name": "Gottlieb / Rothko: The Surrealist Years",
+        "venue": "Pace Gallery, 395 Broadway, Tribeca",
         "date_start": "2026-11-13",
         "date_end": "2027-01-09",
         "category": "museum",
-        "why": "A focused look at the moment two painters were actively constructing a new symbolic language \u2014 before Abstract Expressionism hardened into an institution, when the system was still being invented and the symbols still raw.",
+        "why": "Two New York School titans examined in the specific window before their Abstract Expressionist identities hardened \u2014 when they were still fluent in myth, symbols, and automatic image-making; rare chance to see the systems behind the myths.",
         "url": "https://www.pacegallery.com/exhibitions/",
         "date": "Nov 13 \u2013 Jan 9"
       },
       {
-        "name": "Nia Archives",
-        "venue": "Webster Hall, 125 East 11th Street, Manhattan",
-        "date_start": "2026-11-13",
-        "date_end": "2026-11-13",
-        "category": "concert",
-        "why": "Nia Archives is doing something genuinely interesting \u2014 using jungle and drum & bass (UK rave subculture, heavily coded with community and identity) as a vehicle for personal storytelling; a small-room show before she outgrows rooms like this.",
-        "url": "https://www.websterhall.com/",
-        "date": "Fri, Nov 13"
-      },
-      {
-        "name": "Surprise Chef",
-        "venue": "National Sawdust, 80 North 6th Street, Brooklyn",
-        "date_start": "2026-11-13",
-        "date_end": "2026-11-13",
-        "category": "concert",
-        "why": "Australian instrumental group treating vintage soul and library music as systems to be decomposed and rebuilt \u2014 deeply craft-focused, zero hype, and National Sawdust is one of the best-designed listening rooms in New York.",
-        "url": "https://nationalsawdust.org/",
-        "date": "Fri, Nov 13"
-      },
-      {
-        "name": "artport: A History of Internet Art",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort Street",
-        "date_start": "2026-11-21",
-        "date_end": "2027-03-28",
+        "name": "Na Mira: NO SMOKING \u2014 Opening",
+        "venue": "MoMA, Kravis Studio, Floor 4, 11 W 53rd St, Manhattan",
+        "date_start": "2026-11-14",
+        "date_end": "2027-02-15",
         "category": "museum",
-        "why": "25 years of the Whitney's net art platform in one room \u2014 100+ commissioned works from Golan Levin and Casey Reas to Morehshin Allahyari, with the gallery floor laid out like floating browser windows; this is the institutional history of the early internet as an artistic medium, made physical.",
-        "url": "https://whitney.org/exhibitions/artport-25",
-        "date": "Nov 21 \u2013 Mar 28"
+        "why": "Na Mira's first solo museum show in New York: a commissioned media installation using radio frequencies, infrared heat, and holography drawn from Korean shamanism and structural filmmaking \u2014 it's about how imaging technologies were militarized and how images propagandize at the edge of perception, right in your wheelhouse of hidden systems shaping reality.",
+        "url": "https://www.moma.org/calendar/exhibitions/5869",
+        "date": "Nov 14 \u2013 Feb 15"
+      },
+      {
+        "name": "Leonora Carrington & Cecilia Vicu\u00f1a \u2014 Opening",
+        "venue": "Lehmann Maupin, 501 West 24th Street, Chelsea",
+        "date_start": "2026-11-19",
+        "date_end": "2026-12-19",
+        "category": "museum",
+        "why": "Historical Surrealist mythmaking (Carrington) in direct dialogue with Vicu\u00f1a's fiber/language/ecological shamanism \u2014 two artists who dissolved boundaries between the human, natural, and imagined, placed in conversation for the first time; mythology as formal method.",
+        "url": "https://www.lehmannmaupin.com/exhibitions/cecilia-vicuna-leonora-carrington",
+        "date": "Nov 19 \u2013 Dec 19"
       }
     ]
   },
