@@ -1,28 +1,26 @@
 {
-  "feeds": 78,
-  "mined": 41,
+  "feeds": 63,
+  "mined": 44,
   "videos": 7,
   "video_titles": [
     "Making Gunpowder From Scratch",
     "Why you can't trust a test that's 99% accurate",
     "Why do deserts get cold at night?",
-    "My dog won't stay out of mud so I made this...",
     "Two-photon fluorescence playing pong in rhodamine 6G",
     "THE MOST INFLUENTIAL ARTIST NOBODY KNOWS #history #arthistory #painting #artist #art",
+    "The Prusa INDX Is a Mess\u2026 But I Love It!",
     "Bambu Lab Finally Built the Toolchanger We Wanted!"
   ],
   "supplemental": false,
   "final_items": 8,
   "final_sources": [
-    "Ars Technica",
-    "Independent",
-    "MIT News / Nature",
-    "MIT Technology Review",
-    "Morning News Update",
-    "Robin Sloan",
-    "TechPowerUp",
-    "YouTube"
+    "Anadolu Agency",
+    "CNC Kitchen",
+    "Common Dreams",
+    "Hackaday",
+    "Nautilus",
+    "New York Times"
   ],
   "had_video": true,
-  "run_at": "2026-11-14T17:18:52.147989+00:00"
+  "run_at": "2026-11-15T17:59:20.488008+00:00"
 }

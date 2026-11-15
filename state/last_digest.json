@@ -1,73 +1,96 @@
 {
   "digest": {
-    "intro": "Infrastructure cracks, geopolitical pivots, and materials that disorder on purpose.",
+    "intro": "Infrastructure cracks, chip rules bend, and dead stars pulse wrong.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Trump-Xi-Putin trilateral set for APEC sidelines in Shenzhen",
-            "source": "Morning News Update",
-            "url": "https://ru4people.substack.com/p/morning-news-update-november-14-2026",
-            "blurb": "A three-way summit on nuclear nonproliferation between the U.S., China, and Russia would be the first of its kind since the Cold War ended \u2014 not a photo op but a structural signal about who the great powers think they are dealing with. The choice of Shenzhen as venue is itself a message.",
+            "title": "Lutnick Is Writing Chip Rules That Benefit His Sons' Clients",
+            "source": "New York Times",
+            "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html",
+            "blurb": "A Malaysian data center called A201 \u2014 client of Cantor Fitzgerald, now run by Howard Lutnick's sons \u2014 is about to open packed with Nvidia's most advanced AI servers, supplying compute to a Chinese tech giant through a legal loophole. Lutnick, as Commerce Secretary, has been the internal force slowing rules that would close that loophole. Treasury's Bessent confronted him directly; Senate testimony is now being called for.",
             "tags": [
               "geopolitics",
-              "diplomacy",
-              "nuclear"
+              "ai chips",
+              "corruption"
             ]
           },
           {
-            "title": "Silicon Valley lashed itself to Trump before the midterms. Now what?",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/11/13/1148498/silicon-valley-claims-to-know-the-future-so-why-did-it-get-the-midterms-so-wrong/",
-            "blurb": "Altman, Musk, Zuckerberg \u2014 the people whose entire brand is seeing around corners \u2014 gathered at the White House five weeks before a midterm wave went against them and signed on to a 'Super Intelligence' agenda. The Tech Review piece treats it correctly: not as a politics story but as a prestige and judgment story about a class that monetizes future-prediction and just catastrophically misfired on the most legible near-term event available.",
+            "title": "Trump-Xi-Putin Trilateral, Tankers Mined at Hormuz, Bahrain Strike",
+            "source": "Anadolu Agency",
+            "url": "https://www.aa.com.tr/en/world/morning-briefing-nov-15-2026/4125489",
+            "blurb": "Three interlocking events landed simultaneously: Iran's IRGC says two oil tankers struck naval mines south of the Strait of Hormuz and caught fire (commercial transits reportedly down 80% from baseline), IRGC struck a US airbase in Bahrain, and the Kremlin announced a surprise Putin-Xi-Trump trilateral in Shenzhen on November 19. That last one alone reshapes expectations about every active conflict on the board.",
             "tags": [
-              "tech industry",
-              "politics",
-              "credibility"
+              "geopolitics",
+              "iran",
+              "diplomacy"
             ]
-          }
-        ]
-      },
-      {
-        "heading": "Systems failing, systems expanding",
-        "items": [
+          },
           {
-            "title": "FAA deployed AI system-wide, then the analog infrastructure collapsed",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
-            "blurb": "Only the third nationwide ground stop in FAA history \u2014 4.5 hours, over a million travelers affected, Air Canada cancelling all U.S. flights \u2014 triggered by decades-old analog telecom equipment, days after the agency expanded its $875M AI routing system to all 22 national airspace centers. The union representing air traffic controllers wasn't involved in designing or testing that AI system, which is the detail that should follow you: AI recommendations layered on top of infrastructure the Secretary of Transportation himself says cannot compete with 21st-century demands.",
+            "title": "FAA Ground Stop: Controllers Reject the Official Story",
+            "source": "Common Dreams",
+            "url": "https://www.commondreams.org/news/duffy-ground-stop-explanation",
+            "blurb": "Friday's nationwide flight ground stop \u2014 only the third in US history, affecting an estimated 1.5 million travelers \u2014 now has controllers on record contradicting Transportation Secretary Duffy's explanation that overloaded switches caused inconsistent radar data. A reporter says she spoke with 60 controllers and none believed the official account. The gap between what institutions say after infrastructure failure and what the people inside them saw is widening.",
             "tags": [
               "infrastructure",
-              "ai",
-              "aviation"
-            ]
-          },
-          {
-            "title": "Nvidia allegedly funded AI startups to buy its own GPUs and inflate demand",
-            "source": "TechPowerUp",
-            "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
-            "blurb": "The allegation, earning 930 points on HN, is structurally Enron: Nvidia investing in startups whose primary activity was purchasing Nvidia GPUs, thereby manufacturing the demand signal that justified the valuation. If the mechanism holds up, it's the cleanest demand-fabrication scheme in modern tech \u2014 and it explains a lot about why the GPU shortage felt engineered.",
-            "tags": [
-              "nvidia",
-              "ai",
-              "market manipulation"
+              "aviation",
+              "government"
             ]
           }
         ]
       },
       {
-        "heading": "Materials and making",
+        "heading": "Making things",
         "items": [
           {
-            "title": "Disorder is a feature: MIT's scale-rich metamaterials built from network topology",
-            "source": "MIT News / Nature",
-            "url": "https://news.mit.edu/2026/engineers-design-stronger-resilient-nature-inspired-metamaterials-1111",
-            "blurb": "Published in Nature this week: instead of repeating unit cells, MIT and Northeastern built metamaterials from support beams of varying sizes arranged like a leaf's vasculature or a dragonfly's wing venation \u2014 deliberately disordered, like a real network. The resulting materials outperform conventional ordered metamaterials on sudden-impact absorption and can function as acoustic lenses, with stiffness tunable across a wide range. The core idea \u2014 that controlled disorder beats perfect periodicity \u2014 is the kind of principle that migrates into generative design fast.",
+            "title": "PancakeSlicer: Non-Planar Slicing That Actually Ships",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/11/15/printing-smooth-upper-surfaces-with-a-non-planar-slicer/",
+            "blurb": "Non-planar FDM has been theoretically promising for years; Zimeng Xiong's PancakeSlicer is a working implementation for standard 3-axis printers \u2014 tested on a Bambu A1 Mini \u2014 that eliminates top-surface stair-stepping by tracing rays through the part to find printable surfaces and continuously morphing layer thickness. The cooling shroud swap for a remote static system is a clever enabler. This is the finish-quality gap that has kept FDM out of professional output closing in real time.",
             "tags": [
-              "metamaterials",
               "fabrication",
-              "nature-inspired"
+              "3d printing",
+              "tools"
+            ]
+          },
+          {
+            "title": "Prusa INDX After 40,000 Tool Changes",
+            "source": "CNC Kitchen",
+            "url": "https://www.youtube.com/watch?v=uBuj87HsWt0",
+            "thumbnail": "https://i2.ytimg.com/vi/uBuj87HsWt0/hqdefault.jpg",
+            "blurb": "CNC Kitchen is the most rigorous stress-tester in desktop fabrication \u2014 the channel that actually runs the numbers and breaks the machines. His verdict after 40,000 tool changes on the INDX is 'a mess, but I love it': that specific tension between mechanical ambition and real-world reliability is exactly what you want to hear before deciding whether a category-defining machine belongs in your shop.",
+            "tags": [
+              "fabrication",
+              "hardware",
+              "review"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Deep time and deep space",
+        "items": [
+          {
+            "title": "Burial Archaeology and the Moment Inequality Became Hereditary",
+            "source": "Nautilus",
+            "url": "https://nautil.us/how-wealth-inequality-emerged-in-this-prehistoric-culture-1286642/",
+            "blurb": "Researchers used a tool called QuantWealth to score nearly 300 Corded Ware graves from ancient Bohemia (2900\u20132300 BCE) on factors like manufacturing time, scarcity, and distance of origin \u2014 and watched, in the grave goods, the precise historical moment when accumulated advantage started compounding across generations. The genetics of the deceased were also sequenced, tracking how steppe migration intersected with the emerging inequality gradient. Burial archaeology as the original ledger of status.",
+            "tags": [
+              "archaeology",
+              "history",
+              "inequality"
+            ]
+          },
+          {
+            "title": "A Dead Star Pulsing Every 8 Minutes \u2014 With a Sun-Like Companion",
+            "source": "Nautilus",
+            "url": "https://nautil.us/a-dead-star-is-flashing-radio-waves-every-8-minutes-1286645/",
+            "blurb": "Long-period radio transients \u2014 objects that flash bright radio pulses every few minutes to hours \u2014 were already strange; the assumed pattern was white dwarf paired with a small, cool red dwarf. This new one, found with the Murchison Widefield Array in Australia, has a companion that looks like our own Sun, breaking the emerging model before it was even fully established. An 8-minute clock on a dead star with no good physical explanation for how it keeps time.",
+            "tags": [
+              "astronomy",
+              "physics",
+              "anomaly"
             ]
           }
         ]
@@ -76,132 +99,129 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "All 13 versions of Monkey Island, side by side",
-            "source": "Independent",
-            "url": "https://monkeyisland.pages.dev/",
-            "blurb": "Someone built a WebGL-rendered interactive archive of the same 12 moments from Monkey Island across every version ever released \u2014 EGA, CGA, Mac, FM Towns, Atari ST mono, all aspect-corrected to 4:3 with period-accurate CRT shader presets ported from DOSBox. The concept is exactly right: fix the moment, change the machine. It's visual archaeology and interface history and a meditation on how rendering technology shapes emotional register, all in one draggable window.",
+            "title": "An MP3 Player Built Entirely Inside Factorio",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/11/15/an-mp3-player-implemented-as-a-factorio-blueprint/",
+            "blurb": "Nablanaut built a fully functional MP3 player inside Factorio using only the game's in-game speaker elements \u2014 no mods, just factory logic. The core problem is that Factorio's synth voices aren't discrete tones, so playing arbitrary audio required something like Fourier decomposition under severe constraints; the blueprint (generated procedurally by script) contains both the audio samples and playback logic. Watch the video for the moment the output goes from obviously wrong to genuinely recognizable \u2014 it's a demonstration that computation is substrate-independent, made unreasonably compelling.",
             "tags": [
-              "interactive",
-              "game history",
-              "rendering"
+              "computation",
+              "craft",
+              "games"
             ]
-          },
-          {
-            "title": "Robin Sloan: software is now distributed as essays that execute",
-            "source": "Robin Sloan",
-            "url": "https://www.robinsloan.com/lab/new-distribution/",
-            "blurb": "Sloan points at the gap between the PyTorch configurator grid (old distribution: select your options, copy a command) and the new pattern where you copy a prompt, tune it with a little matrix of toggles, and paste it into an AI thread that installs and configures the software for you. His frame: the .dmg and .msi have been superseded by the postcard. The piece is short and the observation is genuinely weird in the right way.",
-            "tags": [
-              "software",
-              "ai",
-              "culture"
-            ]
-          },
-          {
-            "title": "Jonathan Blow \u2014 If AI solved coding, why is my software still the same?",
-            "source": "YouTube",
-            "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
-            "blurb": "Blow is one of the few people treating software quality as a craft and civilization problem rather than a velocity metric. This talk asks the precise question you'd want asked right now: if AI is transforming programming, where is the evidence in the actual software we use? 432 HN points suggests it lands.",
-            "tags": [
-              "software",
-              "ai",
-              "craft"
-            ],
-            "thumbnail": "https://i.ytimg.com/vi/IRK8h67ol7Q/hqdefault.jpg"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "The FAA's AI routing system \u2014 SMART \u2014 rerouted 180 flights and saved an average of 80 gallons of fuel per flight in its Washington D.C. pilot, then went live across all 22 national airspace centers days before the analog backbone caused only the third nationwide ground stop in FAA history.",
-        "url": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/"
+        "fact": "The WHO's first-ever clinical guidelines for adult Type 1 diabetes were issued in November 2026 \u2014 more than 100 years after insulin's discovery, with roughly 9.5 million people currently living with the condition globally.",
+        "url": "https://www.who.int/news/item/14-11-2026-who-issues-first-guidelines-on-type-1-diabetes-for-adults"
       },
       {
-        "fact": "MIT's new scale-rich metamaterials are designed not from repeating unit cells but from networks of beams with varying sizes inspired by leaf vasculature and dragonfly wing venation \u2014 the disorder itself is what gives them superior impact absorption.",
-        "url": "https://news.mit.edu/2026/engineers-design-stronger-resilient-nature-inspired-metamaterials-1111"
+        "fact": "A Malaysian data center called A201 is legally supplying Nvidia AI compute to a Chinese tech giant by sitting outside China's borders \u2014 a loophole the Commerce Secretary, whose sons' firm counts A201's operator as a client, has reportedly been slowing efforts to close.",
+        "url": "https://www.nytimes.com/2026/11/15/us/politics/lutnick-pushed-to-weaken-chip-rules-that-overlap-with-his-family-business.html"
       },
       {
-        "fact": "The Monkey Island side-by-side archive captures every screen in ScummVM with 4:3 aspect correction and CRT shader presets ported from DOSBox Staging, rendering each version on the monitor type closest to its original hardware \u2014 including a Hercules mono version using only the middle 640 of its 720 columns.",
-        "url": "https://monkeyisland.pages.dev/"
+        "fact": "Columbia biomedical engineers built the first 3D stem cell models of early human placenta formation by briefly resetting pluripotent stem cells to a 'naive' state and suppressing the Hippo signaling pathway \u2014 the cells then self-organized over three weeks into chorionic tissue with fluid-filled lacunae mimicking early implantation.",
+        "url": "https://neurosciencenews.com/stem-cells-human-placentas-32401/"
+      },
+      {
+        "fact": "Friday's FAA ground stop was only the third nationwide ground stop in US history, disrupting an estimated 1.5 million travelers and forcing airlines to cancel between 4,000 and 5,000 of approximately 41,000 scheduled flights.",
+        "url": "https://www.commondreams.org/news/duffy-ground-stop-explanation"
       }
     ],
     "make_something": null,
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A meditation on memory, travel, ritual, and how images shape (and fail to capture) culture \u2014 Marker treats the camera as an instrument for excavating invisible social systems across Japan and Guinea-Bissau. The form IS the argument: an essay film that refuses to separate the aesthetic from the anthropological. If you haven't seen it, it'll reorganize how you think about documentation and time.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
-      },
-      {
-        "medium": "music",
-        "title": "Selected Ambient Works Volume II",
-        "creator": "Aphex Twin",
-        "why": "Not background music \u2014 a system for inducing specific interior states through pure texture and interval. Aphex built a sensory architecture out of near-silence; the craft is in what's withheld. Pairs absurdly well with generative work sessions where you want to lower the threshold between thinking and making.",
-        "url": "https://www.youtube.com/watch?v=Xw5AiRVqfqk"
+        "title": "Upstream Color",
+        "creator": "Shane Carruth",
+        "why": "A film built entirely from systems \u2014 biological, psychological, economic \u2014 that the viewer has to assemble themselves; it treats the feedback loop between organisms and capital as something you feel before you understand, which is exactly the kind of deep structure under expressive surface that hooks you.",
+        "url": "https://letterboxd.com/film/upstream-color/"
       },
       {
         "medium": "art",
-        "title": "Mycelium Networks (ongoing research & installation practice)",
-        "creator": "Neri Oxman",
-        "why": "Oxman's work sits exactly at the edge you care about: biological process as formal language, nature as design system, the body of the object as computation. Her 'Material Ecology' framework treats software, fabrication, and organism as one continuous medium \u2014 genuinely new aesthetic territory, not just bio-inspired d\u00e9cor.",
-        "url": "https://oxman.com/"
+        "title": "Mycelium Studies / Spore Prints",
+        "creator": "Neri Oxman (MIT Media Lab Archive)",
+        "why": "Oxman's work is the rare case where biological systems, fabrication, and aesthetic obsession fuse into something genuinely category-less \u2014 not 'design inspired by nature' but actual structural computation borrowed from living organisms; the archive at the MIT Media Lab site documents the full process thinking, not just the objects.",
+        "url": "https://www.media.mit.edu/groups/mediated-matter/overview/"
+      },
+      {
+        "medium": "music",
+        "title": "Vespertine",
+        "creator": "Bj\u00f6rk",
+        "why": "One of the purest examples of a feedback loop as compositional architecture \u2014 microbeats, music boxes, and voice nested inside each other like Russian dolls; it functions as both intimate mythology and a sonic system, the kind of album that makes you want to design something.",
+        "url": "https://www.bjork.com/music/"
       }
     ],
     "events": [
       {
-        "name": "Hard Art \u2014 MoMA PS1",
-        "venue": "MoMA PS1, 22-25 Jackson Ave, Long Island City, Queens",
-        "date_start": "2026-11-05",
-        "date_end": "2027-04-01",
+        "name": "Pierre Huyghe: UUmwelt \u2014 Last Chance",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St",
+        "date_start": "2026-11-15",
+        "date_end": "2026-11-29",
         "category": "museum",
-        "why": "A major survey of abstract painting by Black artists from 1969 to now, across three generations \u2014 the kind of show that reframes an entire lineage while it's happening; worth the trip to LIC while it's still fresh.",
-        "url": "https://www.moma.org/ps1",
-        "date": "Nov 5 \u2013 Apr 1"
+        "why": "Freestanding screens in MoMA's outdoor garden showing AI-reconstructed images derived from fMRI brain scans, mutated in real time by visitors' gazes and simulated cancer-cell data \u2014 it's literally a nonhuman perceptual system made visible, and it closes the 29th.",
+        "url": "https://www.moma.org/calendar/exhibitions/5912",
+        "date": "Nov 15\u201329"
       },
       {
-        "name": "Elmgreen & Dragset: TRANSITION",
-        "venue": "Pace Gallery, 508 & 510 West 25th Street, Chelsea",
-        "date_start": "2026-11-06",
-        "date_end": "2027-01-16",
+        "name": "James Turrell: Something Old, Something New, Something Borrowed, Something Blue",
+        "venue": "Almine Rech, 39 E 78th St",
+        "date_start": "2026-11-15",
+        "date_end": "2026-11-29",
         "category": "museum",
-        "why": "A 40-ton traversable corten steel sculpture \u2014 an almost full-scale Oval Office \u2014 that you walk through: architecture as power critique, physical space as psychological event; the kind of obsessive, unreasonably literal concept that lands as pure experience.",
-        "url": "https://www.pacegallery.com/exhibitions/elmgreen-dragset-transition/",
-        "date": "Nov 6 \u2013 Jan 16"
+        "why": "New Shallow Space and Glassworks pieces from Turrell \u2014 the person who went more unreasonably deep on a single perceptual question (what is light as architecture?) than almost anyone alive; small gallery, intimate scale.",
+        "url": "https://www.alminerech.com/exhibitions/newyork",
+        "date": "Nov 15\u201329"
       },
       {
-        "name": "Gottlieb / Rothko: The Surrealist Years",
-        "venue": "Pace Gallery, 395 Broadway, Tribeca",
-        "date_start": "2026-11-13",
-        "date_end": "2027-01-09",
+        "name": "Nairy Baghramian: nameless",
+        "venue": "Marian Goodman Gallery, 24 W 57th St",
+        "date_start": "2026-11-15",
+        "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Two New York School titans examined in the specific window before their Abstract Expressionist identities hardened \u2014 when they were still fluent in myth, symbols, and automatic image-making; rare chance to see the systems behind the myths.",
-        "url": "https://www.pacegallery.com/exhibitions/",
-        "date": "Nov 13 \u2013 Jan 9"
+        "why": "Baghramian makes sculpture that is preoccupied with the edge between body and architecture, support and load \u2014 formal, strange, and genuinely hard to categorize; this is her first major New York showing in years.",
+        "url": "https://www.mariangoodman.com/exhibitions",
+        "date": "Nov 15\u201329"
       },
       {
-        "name": "Na Mira: NO SMOKING \u2014 Opening",
-        "venue": "MoMA, Kravis Studio, Floor 4, 11 W 53rd St, Manhattan",
-        "date_start": "2026-11-14",
-        "date_end": "2027-02-15",
+        "name": "artport: A History of Internet Art \u2014 Opening",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St",
+        "date_start": "2026-11-21",
+        "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Na Mira's first solo museum show in New York: a commissioned media installation using radio frequencies, infrared heat, and holography drawn from Korean shamanism and structural filmmaking \u2014 it's about how imaging technologies were militarized and how images propagandize at the edge of perception, right in your wheelhouse of hidden systems shaping reality.",
-        "url": "https://www.moma.org/calendar/exhibitions/5869",
-        "date": "Nov 14 \u2013 Feb 15"
+        "why": "The Whitney's browser-based gallery artport turns 25 and spills into physical galleries \u2014 over 100 net art works from JODI to Holly Herndon/Mat Dryhurst, structured to feel like floating browser windows; a rare institutional retrospective of the early internet as aesthetic frontier before it hardened.",
+        "url": "https://whitney.org/exhibitions/artport",
+        "date": "Nov 21\u201329"
       },
       {
-        "name": "Leonora Carrington & Cecilia Vicu\u00f1a \u2014 Opening",
-        "venue": "Lehmann Maupin, 501 West 24th Street, Chelsea",
-        "date_start": "2026-11-19",
-        "date_end": "2026-12-19",
-        "category": "museum",
-        "why": "Historical Surrealist mythmaking (Carrington) in direct dialogue with Vicu\u00f1a's fiber/language/ecological shamanism \u2014 two artists who dissolved boundaries between the human, natural, and imagined, placed in conversation for the first time; mythology as formal method.",
-        "url": "https://www.lehmannmaupin.com/exhibitions/cecilia-vicuna-leonora-carrington",
-        "date": "Nov 19 \u2013 Dec 19"
+        "name": "Gnarls Barkley: To Whom It Still Concerns Tour",
+        "venue": "Irving Plaza, 17 Irving Place",
+        "date_start": "2026-11-24",
+        "date_end": "2026-11-25",
+        "category": "concert",
+        "why": "First tour in 18 years from one of the genuinely genre-dissolving acts of the 2000s \u2014 soul, hip-hop, indie rock, art-pop collapsed into one project \u2014 in a 1,000-cap room rather than an arena; note: verify ticket status directly on Live Nation before going, as one source flagged a potential cancellation.",
+        "url": "https://www.livenation.com/event/k7vGF_KdgQqIR/gnarls-barkley-to-whom-it-still-concerns-tour",
+        "date": "Nov 24\u201325"
       }
     ]
   },
-  "trial_sources": []
+  "trial_sources": [
+    {
+      "name": "Global Inequality and More 3.0 \u2014 Branko Milanovic",
+      "feed_url": "https://branko2f7.substack.com/feed",
+      "why": "A world-class economist writing with rare range \u2014 geopolitics, empire, inequality, and intellectual history \u2014 at the precise intersection of current events and deep structural forces this reader craves."
+    },
+    {
+      "name": "Scott Carney's Substack",
+      "feed_url": "https://sgcarney.substack.com/feed",
+      "why": "Investigative journalist and author (What Doesn't Kill Us) who surgically separates credible longevity/stem cell/peptide science from charlatanry \u2014 exactly the skeptical, primary-source lens this reader needs on health research."
+    },
+    {
+      "name": "Alex Danco's Substack",
+      "feed_url": "https://alexdanco.substack.com/feed",
+      "why": "Writes with unusual precision on how ideas, tools, and social technologies spread \u2014 covering taste formation, community design, the aesthetics of software, and cultural capital in ways few others attempt."
+    }
+  ]
 }
