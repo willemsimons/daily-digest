@@ -1,25 +1,26 @@
 {
-  "feeds": 74,
-  "mined": 38,
-  "videos": 6,
+  "feeds": 71,
+  "mined": 43,
+  "videos": 5,
   "video_titles": [
+    "This is not a thread...",
     "Making Gunpowder From Scratch",
     "Why you can't trust a test that's 99% accurate",
-    "Why do deserts get cold at night?",
     "Two-photon fluorescence playing pong in rhodamine 6G",
-    "The Prusa INDX Is a Mess\u2026 But I Love It!",
-    "Bambu Lab Finally Built the Toolchanger We Wanted!"
+    "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
-  "final_items": 7,
+  "final_items": 9,
   "final_sources": [
-    "10 Things Global News",
     "Aeon",
     "Ars Technica",
-    "Colossal",
-    "MIT Technology Review",
-    "breck-mckye.com"
+    "Core Matter",
+    "Dwarkesh Podcast",
+    "Just Security",
+    "Nautilus",
+    "Reuters",
+    "Veritasium"
   ],
-  "had_video": false,
-  "run_at": "2026-11-16T21:13:33.435891+00:00"
+  "had_video": true,
+  "run_at": "2026-11-17T20:01:28.218119+00:00"
 }
