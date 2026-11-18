@@ -1,26 +1,27 @@
 {
   "feeds": 71,
-  "mined": 43,
-  "videos": 5,
+  "mined": 41,
+  "videos": 6,
   "video_titles": [
     "This is not a thread...",
     "Making Gunpowder From Scratch",
     "Why you can't trust a test that's 99% accurate",
+    "Which Disc Will Spin for Longer?",
     "Two-photon fluorescence playing pong in rhodamine 6G",
     "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
   "final_items": 9,
   "final_sources": [
-    "Aeon",
     "Ars Technica",
-    "Core Matter",
-    "Dwarkesh Podcast",
+    "Atalayar / Gustavo de Ar\u00edstegui",
+    "CNN Style / Artsy",
+    "Colossal",
+    "Hacker News / Raj Shekhar",
     "Just Security",
     "Nautilus",
-    "Reuters",
-    "Veritasium"
+    "Yahoo News / Rzeczpospolita"
   ],
-  "had_video": true,
-  "run_at": "2026-11-17T20:01:28.218119+00:00"
+  "had_video": false,
+  "run_at": "2026-11-18T19:32:41.091564+00:00"
 }
