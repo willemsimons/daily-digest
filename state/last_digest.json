@@ -1,79 +1,79 @@
 {
   "digest": {
-    "intro": "The Gulf is burning, the uncanny valley is gone, and Voyager hit one light-day.",
+    "intro": "Three nuclear powers meet in Shenzhen; physics, fabrication, and brains all crack open.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Iran Strikes Kuwait and Bahrain; Gulf Conflict Enters New Phase",
-            "source": "Atalayar / Gustavo de Ar\u00edstegui",
-            "url": "https://www.atalayar.com/en/gustavo-aristegui/gustavo-aristegui-analyse-geopolitique-du-18-novembre/20261118180000230564.html",
-            "blurb": "Iran launched drones at Kuwait's Ali Al Salem Air Base (hosting US forces) and triggered two Bahraini air defense alerts inside three hours \u2014 the fourth attack on Bahraini territory in six days \u2014 after US jets destroyed an IRGC missile platform on Qeshm Island. Simultaneously an ADNOC tanker took a hit in the Strait of Hormuz, Houthis struck the Saudi East-West pipeline and fired cruise missiles at Riyadh, and Saudi Arabia responded with strikes on 60 Yemeni targets. At Shenzhen APEC, Xi personally met Trump on the tarmac in a protocol-breaking embrace \u2014 hours after proclaiming Russia ties 'firm as a rock' \u2014 which is the picture that will outlast any communiqu\u00e9 today.",
+            "title": "Xi, Trump, and Putin Sit Down in Shenzhen",
+            "source": "W.E. So'Donnell / Substack",
+            "url": "https://www.wesodonnell.com/p/5-things-to-watch-in-global-security-ec2",
+            "blurb": "China's Foreign Ministry confirmed the trilateral meeting on the sidelines of APEC \u2014 the first time all three leaders have been in the same room. Ukraine may not even be on the formal agenda, which is itself the story: a war-shaping negotiation happening entirely on Xi's terms, in Xi's city. Meanwhile, Zelenskyy says renewed Starshield restrictions are letting Russian drones reach Ukrainian infrastructure unimpeded \u2014 the battlefield and the summit are connected.",
             "tags": [
               "geopolitics",
-              "iran",
-              "gulf"
+              "ukraine",
+              "diplomacy"
             ]
           },
           {
-            "title": "Russia's Gleiwitz Gambit: False Flag Near Kaliningrad Foiled",
-            "source": "Yahoo News / Rzeczpospolita",
-            "url": "https://www.yahoo.com/news/world/articles/russia-reportedly-planned-mass-casualty-090500574.html",
-            "blurb": "Polish intelligence, tipped by partner services, thwarted a GRU-planned operation near the Kaliningrad border designed to produce mass casualties and be pinned on Ukraine \u2014 explicitly compared by Polish sources to the 1939 Gleiwitz incident that Germany used to justify invading Poland. Russian intelligence officers coordinating sabotage crossed to the border's edge before Polish forces moved, and police were repositioned to specific pre-identified sites. If confirmed at scale, this is the most brazen hybrid-warfare provocation against NATO's eastern flank on record.",
-            "tags": [
-              "russia",
-              "nato",
-              "hybrid warfare"
-            ]
-          },
-          {
-            "title": "Putin Won't Negotiate; Ukraine Strikes Kerch; Brussels Proposes \u20ac45B Loan",
-            "source": "Just Security",
-            "url": "https://www.justsecurity.org/165038/early-edition-november-18-2026/",
-            "blurb": "Multiple sources confirm Putin remains uninterested in serious peace talks, even as Ukraine struck the Kerch Bridge and Europe races to lock in support before any US-brokered carve-up. The EU's \u20ac45B loan proposal and Trump's Board of Peace report \u2014 which accused both Israel and Hamas of failing ceasefire commitments \u2014 suggest Washington is simultaneously managing two war files with diminishing credibility on both.",
+            "title": "Ukraine Destroyed the Kerch Bridge Using an Airborne Mesh Radio Network",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
+            "blurb": "On the nights of November 15\u201316, Ukrainian drones overwhelmed Russian air defenses while a flying mesh of relay nodes \u2014 each drone acting as a signal repeater \u2014 let operators 250 km away guide the Flamingo cruise missile into the bridge's weakest structural points, collapsing one of two steel arches. The technique is a direct adaptation of a Russian innovation, turned back on them. The fact that it worked without Starlink is the pointed message.",
             "tags": [
               "ukraine",
-              "russia",
-              "diplomacy"
+              "hardware",
+              "warfare"
+            ]
+          },
+          {
+            "title": "Trump Is Weighing a Strike on Iran",
+            "source": "Just Security",
+            "url": "https://www.justsecurity.org/165250/early-edition-november-19-2026/",
+            "blurb": "U.S. and Israeli officials told the NYT that Trump is actively weighing a strike after intelligence about a potential Iranian dirty bomb, with Israel pushing for speed. A Houthi missile visibly damaged the Public Investment Fund Tower in Riyadh today \u2014 the Iran war is now touching Saudi Arabia's most symbolic financial real estate. Trump's January 1 deadline comment remains unexplained.",
+            "tags": [
+              "iran",
+              "middle east",
+              "geopolitics"
             ]
           }
         ]
       },
       {
-        "heading": "Mind and machine",
+        "heading": "Science breaking",
         "items": [
           {
-            "title": "AI Faces Now Read as More Real Than Real Faces \u2014 and Your Brain Can't Catch It",
-            "source": "Nautilus",
-            "url": "https://nautil.us/what-goes-on-in-our-brains-when-we-see-an-ai-face-1286763/",
-            "blurb": "In an fMRI study, participants rated AI-generated faces as more realistic than actual human faces \u2014 meaning they were performing worse than random chance, actively misled rather than merely uncertain. The key mechanism: AI faces suppress activity in the anterior insula, the region that flags untrustworthy cues, because they're statistically optimized to hit every 'human' feature without the noise of real individuality. The uncanny valley, as a protective instinct, is functionally closed.",
+            "title": "Claude Solved Two Open Problems in Black Hole Physics",
+            "source": "Anthropic Research",
+            "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+            "blurb": "These aren't benchmark wins \u2014 Anthropic is claiming Claude completed a holographic duality calculation that physicists set up 20 years ago and never finished, and separately found the exact limit of a technique used to test quantum gravity candidates. Both results are out as preprints. The significance isn't just the answers; it's that an AI navigated genuine open-ended theoretical physics, not a closed problem with a known solution waiting to be matched.",
             "tags": [
               "ai",
-              "neuroscience",
-              "perception"
+              "physics",
+              "quantum gravity"
             ]
           },
           {
-            "title": "Meta's Muse Is Leaking Strangers' Bank Balances Into Random Conversations",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/",
-            "blurb": "Internal Meta chats obtained by Reuters show staff testing Muse received unprompted outputs including specific Capital One and Charles Schwab balances belonging to unknown users \u2014 and in one case, Muse told a staffer that context it had pulled about a coffee table pickup 'doesn't seem to be yours.' These aren't edge-case hallucinations; they're cross-account context leaks, which is a structurally different and more alarming failure mode than confabulation.",
+            "title": "Fat-Derived Stem Cells Injected Directly Into Alzheimer's Brains \u2014 First Human Trial",
+            "source": "Yahoo News",
+            "url": "https://www.yahoo.com/news/science/articles/stem-cells-injected-brain-alzheimer-162318421.html",
+            "blurb": "In a six-patient Phase 1 trial, Dr. Christopher Duma's team at Hoag drew stem cells from patients' own body fat and injected them into the brain \u2014 not to clear amyloid plaques like existing drugs, but to interrupt multiple destructive processes simultaneously. Five of six showed cognitive improvement and reduced amyloid on scans; spinal fluid markers also improved. The honest caveat: gains weren't sustained over the full year, and six patients proves nothing \u2014 but the safety signal and mechanism are genuinely new.",
             "tags": [
-              "ai",
-              "privacy",
-              "meta"
+              "alzheimer's",
+              "stem cells",
+              "neuroscience"
             ]
           },
           {
-            "title": "Will Wright Wants to Simulate People You Actually Know",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/gaming/2026/11/will-wrights-next-simulation-will-use-ai-to-mine-content-from-your-memories/",
-            "blurb": "MyMems, Wright's first project since Spore, inverts the simulation: instead of generic agents, it ingests your memories to generate plausible behavioral models of your grandmother, your sister, your old coach \u2014 then puts them in puzzle scenarios together. Wright's critique of The Sims was always that 'plausible behavior' was nowhere near capturing why his sister and he fought so much, and this is the attempt to close that gap. Whether it lands as intimacy or extractive novelty is the question the demo will have to answer.",
+            "title": "A Human Liver Kept Alive Outside the Body for Seven Weeks",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+            "blurb": "Carlo Pulitano's team in Sydney connected a donated liver to what he calls an \"artificial body\" \u2014 automated pumps, sensors, nutrient delivery, waste removal \u2014 and kept it at full body temperature (37\u00b0C) for seven weeks. The previous record, set in Switzerland, was two weeks. Most transplant organs currently survive only hours in ice; this threatens to make organ banking, not just transport, a realistic category.",
             "tags": [
-              "simulation",
-              "ai",
-              "games"
+              "biomedical",
+              "organ preservation",
+              "transplant"
             ]
           }
         ]
@@ -82,25 +82,14 @@
         "heading": "Making things",
         "items": [
           {
-            "title": "Vhils and Cidade Wrap a S\u00e3o Paulo Colonial Building in Emergency Blankets",
-            "source": "Colossal",
-            "url": "https://www.thisiscolossal.com/2026/11/vhils-marcelo-cidade-sao-paolo-2878/",
-            "blurb": "At Rua Cardeal Arcoverde 2878 in Pinheiros, the two artists fixed survival-kit thermal blankets to a colonial facade with cornstarch glue \u2014 the material simultaneously preserving and masking the building's condition, mirroring passersby in faint silver, shifting color with daylight. The concept: a structure can disappear before demolition, losing its presence in everyday experience while its address remains. The Christo echo is obvious, but the choice of emergency material \u2014 something you wrap a person in when they might die \u2014 is the sharper decision.",
+            "title": "Fanzines.app: 8-Page Booklets from a Single Sheet, Laid Out in the Browser",
+            "source": "krthr.co",
+            "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
+            "blurb": "The fold is old \u2014 one A4, three folds, one cut, eight pages, no glue \u2014 but the layout problem was always annoying: the top row of panels has to be rotated 180\u00b0 and the page order is non-obvious. This browser tool handles all of that, lets you place photos and text right-side up, and exports a 300 DPI print-ready PDF with nothing uploaded to a server. It's a very small thing that removes the last friction between having something to say and handing it to someone physically.",
             "tags": [
-              "installation",
-              "public art",
-              "material"
-            ]
-          },
-          {
-            "title": "Metabolism: Buildings as Living Organisms, Born From Atomic Anxiety",
-            "source": "CNN Style / Artsy",
-            "url": "https://www.cnn.com/style/article/metabolism-japanese-architecture-artsy",
-            "blurb": "The 1960 Metabolism manifesto \u2014 by Kikutake, Kurokawa, Maki, and critic Kawazoe \u2014 wasn't just formal experimentation: it was a post-atomic identity project, trying to hold Western modernism and pre-war Japanese culture in the same frame by making buildings literally cellular and replaceable. Their conceptual DNA came from the Ise Shrine, which is ritually demolished and rebuilt every 20 years to remain both ancient and new. The movement produced floating cities and capsule towers, but its deepest argument was that cultural resilience requires designed impermanence.",
-            "tags": [
-              "architecture",
-              "japan",
-              "history"
+              "print",
+              "publication",
+              "tools"
             ]
           }
         ]
@@ -109,14 +98,15 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Voyager 1 Is One Light-Day Away. Here It Is, Down to a Single Memory Chip.",
-            "source": "Hacker News / Raj Shekhar",
-            "url": "https://rshekhar.com/voyager/",
-            "blurb": "Raj Shekhar built an interactive exploded-view of both Voyager spacecraft that lets you open the nuclear RTG down to its 24 individual plutonium spheres, then descend into the flight data computer to a single chip \u2014 released on the day Voyager 1 crossed one light-day from Earth. It's the kind of obsessive craft that makes the object feel real again after 49 years of abstraction: a machine launched in 1977, still transmitting, now so far that its signal takes 24 hours to arrive.",
+            "title": "Wunderkammer: How Curiosity Cabinets Became the First Museums",
+            "source": "Aeon Video",
+            "url": "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums",
+            "thumbnail": "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums",
+            "blurb": "The Nerdwriter \u2014 one of the more careful video essayists working \u2014 made this for the National Gallery of Art: the Wunderkammer as a 16th-century response to information overload, when global trade made the world suddenly too large to mentally hold. Nautilus shells, automata, taxidermied exotica, forged unicorn horns \u2014 all crammed together as a way of saying: *the world is bigger than our categories*. The parallel to now is not subtle, and he doesn't force it.",
             "tags": [
-              "space",
-              "interactive",
-              "engineering"
+              "history",
+              "curation",
+              "cultural history"
             ]
           }
         ]
@@ -124,24 +114,24 @@
     ],
     "facts": [
       {
-        "fact": "AI-generated faces were rated as more realistic than actual human faces by study participants, who performed worse than random chance at detection \u2014 actively misled, not merely uncertain.",
-        "url": "https://nautil.us/what-goes-on-in-our-brains-when-we-see-an-ai-face-1286763/"
+        "fact": "Ukrainian operators guided missiles into the Kerch Bridge from over 250 kilometers away using a mesh of relay drones as a makeshift communications network \u2014 no military Starlink required.",
+        "url": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/"
       },
       {
-        "fact": "A Meta staffer testing Muse received an unprompted message stating 'your Capital One balance is $2722.58, your Charles Schwab balance is $5899.57' \u2014 neither account was theirs.",
-        "url": "https://arstechnica.com/tech-policy/2026/11/muse-privacy-invasions-are-freaking-out-meta-staffers-internal-chats-show/"
+        "fact": "The previous record for keeping a human organ alive outside the body was roughly two weeks; Australian surgeons just held a liver at full body temperature for seven weeks.",
+        "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/"
       },
       {
-        "fact": "Poland's foiled Russian false-flag operation was explicitly compared by Polish intelligence sources to the 1939 Gleiwitz incident \u2014 the staged attack Germany used to justify invading Poland.",
-        "url": "https://www.yahoo.com/news/world/articles/russia-reportedly-planned-mass-casualty-090500574.html"
+        "fact": "Claude completed a black hole physics calculation that was set up by physicists more than 20 years ago and had never been solved \u2014 the result is now out as a preprint.",
+        "url": "https://www.anthropic.com/research/claude-black-hole-physics"
       },
       {
-        "fact": "The Ise Shrine in Japan is ritually demolished and entirely rebuilt every 20 years \u2014 a practice the Metabolist architects used as conceptual proof that designed impermanence is compatible with cultural permanence.",
-        "url": "https://www.cnn.com/style/article/metabolism-japanese-architecture-artsy"
+        "fact": "In the Alzheimer's stem cell trial, the cells were drawn from each patient's own body fat \u2014 not a donor \u2014 and injected directly into the brain in a single session.",
+        "url": "https://www.yahoo.com/news/science/articles/stem-cells-injected-brain-alzheimer-162318421.html"
       },
       {
-        "fact": "Energy-Based Reasoners achieve 99.9% accuracy on Sudoku-Extreme puzzles with only 1.8 million parameters, using 345\u00d7 less inference compute than the next-best model \u2014 by framing reasoning as gradient descent on a learned energy landscape rather than token prediction.",
-        "url": "https://energy-based-reasoners.github.io/"
+        "fact": "The Trump\u2013Xi\u2013Putin meeting in Shenzhen is happening on the sidelines of APEC, with Ukraine potentially not even on the formal agenda \u2014 meaning the war's biggest diplomatic moment may produce no official record.",
+        "url": "https://www.wesodonnell.com/p/5-things-to-watch-in-global-security-ec2"
       }
     ],
     "make_something": null,
@@ -150,74 +140,74 @@
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film-essay that moves between Japan, Guinea-Bissau, and Iceland treating memory as a system \u2014 feedback loops of image, ritual, and forgetting. Pure rabbit-hole material: the kind of thing that rewires how you see everything else you make.",
+        "why": "A film that works as pure systems theory disguised as a travel essay \u2014 Marker traces the invisible codes running Japan and Guinea-Bissau through images, memory, and ritual, asking how societies construct meaning from time. It's the kind of movie that rewires how you look at everything afterward.",
         "url": "https://letterboxd.com/film/sans-soleil/"
+      },
+      {
+        "medium": "art",
+        "title": "Mycelium Networks / Process works",
+        "creator": "Semiconductor (Ruth Jarman & Joe Gerhardt)",
+        "why": "Semiconductor makes A/V installations from raw scientific data \u2014 geomagnetic fields, particle physics, seismic activity \u2014 rendering the invisible forces that shape matter into something you feel bodily. The edge between measurement and sensation, nature as software.",
+        "url": "https://semiconductorfilms.com/"
       },
       {
         "medium": "music",
         "title": "Selected Ambient Works Volume II",
         "creator": "Aphex Twin",
-        "why": "One of the few records that genuinely functions as a system rather than a sequence \u2014 each piece a different texture of time, silence used as structure. Obsessive craft in service of something that resists being named.",
-        "url": "https://www.youtube.com/watch?v=sYgQH1KGpkc"
-      },
-      {
-        "medium": "art",
-        "title": "World Receiver / Globus Cassus",
-        "creator": "Christian Waldvogel",
-        "why": "A project proposing the mathematical inversion of Earth into a hollow sphere \u2014 equal parts cosmological thought experiment, architectural drawing, and mythology as systems design. The kind of unreasonably deep single idea that makes you want to go build something.",
-        "url": "https://www.globuscassus.com/"
+        "why": "One of the few records that genuinely operates as architecture \u2014 untitled, mostly beatless, structured entirely around texture and space. It's less listened-to than inhabited, and it rewards the kind of obsessive, pattern-seeking attention Willem applies to systems.",
+        "url": "https://www.youtube.com/watch?v=Xw5AiRVqfqk"
       }
     ],
     "events": [
       {
-        "name": "Sandra Cinto: The Path to Stars",
-        "venue": "Tanya Bonakdar Gallery, 521 West 21st Street, New York",
-        "date_start": "2026-11-05",
-        "date_end": "2026-12-18",
+        "name": "James Turrell: Something Old, Something New, Something Borrowed, Something Blue",
+        "venue": "Almine Rech New York \u2014 39 E 78th St, Upper East Side",
+        "date_start": "2026-11-12",
+        "date_end": "2027-01-30",
         "category": "museum",
-        "why": "Cinto's immersive wall paintings, tondo canvases, and folding screens dissolve the gallery into sky \u2014 drawing used as architecture, the boundary between inside space and celestial system made genuinely permeable.",
-        "url": "https://www.tanyabonakdargallery.com/exhibitions/977-sandra-cinto-the-path-to-stars-tanya-bonakdar-gallery-new-york/",
-        "date": "Nov 5 \u2013 Dec 18"
+        "why": "Fifteen-plus works including a new Shallow Space and new Glassworks \u2014 Turrell remains the definitive artist of perception-as-medium, and a dedicated show of new pieces is rare enough to warrant the uptown trip.",
+        "url": "https://www.alminerech.com/exhibitions/new-york",
+        "date": "Nov 12 \u2013 Jan 30"
       },
       {
-        "name": "NYC Jewelry Week 2026 \u2014 Slow Matter Exhibition",
-        "venue": "Fou Gallery, 89 5th Avenue #701, New York",
-        "date_start": "2026-11-17",
-        "date_end": "2026-11-22",
+        "name": "Na Mira: NO SMOKING",
+        "venue": "MoMA, Kravis Studio, Floor 4 \u2014 11 W 53rd St, Manhattan",
+        "date_start": "2026-11-14",
+        "date_end": "2027-02-15",
+        "category": "museum",
+        "why": "A newly commissioned media installation drawing on Korean shamanism, structural filmmaking, f\u00fbkeiron landscape theory, and footage shot inside a military cinema on a US-Mexico border base \u2014 using radio frequencies, infrared, and holography to degrade the very imaging technologies the piece interrogates.",
+        "url": "https://www.moma.org/calendar/exhibitions/5869",
+        "date": "Nov 14 \u2013 Feb 15"
+      },
+      {
+        "name": "Addie Wagenknecht: Shelf Life",
+        "venue": "Nguyen Wahed \u2014 504 E 12th St, East Village",
+        "date_start": "2026-11-16",
+        "date_end": "2026-11-21",
         "category": "popup",
-        "why": "Eight artists working in lacquer and stone \u2014 materials defined by deep time and repetition \u2014 framed as a conversation about process and patience; the kind of obsessive craft with quiet conceptual depth that rarely gets this kind of platform.",
-        "url": "https://www.eventbrite.com/e/slow-matter-exhibition-opening-reception-at-nyc-jewelry-week-2026-tickets-2001020389852",
-        "date": "Nov 17\u201322"
+        "why": "Wagenknecht blends hacker culture, surveillance systems, and hardware manipulation into work that sits squarely at the physical/digital seam Willem lives in \u2014 and Nguyen Wahed is one of the few NYC galleries with a genuine generative/digital-art program rather than a tokenistic one.",
+        "url": "https://nguyenwahed.com/exhibitions/",
+        "date": "Nov 16\u201321"
       },
       {
-        "name": "Leonora Carrington & Cecilia Vicu\u00f1a: An Exhibition of Affinities",
-        "venue": "Lehmann Maupin, 501 West 24th Street, New York",
+        "name": "Leonora Carrington & Cecilia Vicu\u00f1a",
+        "venue": "Lehmann Maupin \u2014 501 W 24th St, Chelsea",
         "date_start": "2026-11-19",
         "date_end": "2026-12-19",
         "category": "museum",
-        "why": "Two artists whose practices are fundamentally about mythology as lived system \u2014 Carrington's surrealist cosmologies in dialogue with Vicu\u00f1a's new work, a lineage directly handed from one to the other in 1969 and still alive today.",
-        "url": "https://www.lehmannmaupin.com/exhibitions/cecilia-vicuna-leonora-carrington",
+        "why": "Opens today \u2014 a pairing of two artists whose practices fuse mythology, material systems, and self-made cosmologies: Carrington's surrealist-shamanist paintings alongside Vicu\u00f1a's fiber/language works, both using aesthetic surfaces to encode deep structure.",
+        "url": "https://www.lehmannmaupin.com/exhibitions",
         "date": "Nov 19 \u2013 Dec 19"
       },
       {
-        "name": "NYC Jewelry & Antique Object Show (JAOS)",
-        "venue": "Metropolitan Pavilion, 125 W 18th Street, New York",
-        "date_start": "2026-11-19",
-        "date_end": "2026-11-22",
-        "category": "popup",
-        "why": "A tightly curated show of antique and contemporary jewelry, vintage watches, and exceptional objects \u2014 the kind of event where the strange history of ordinary things and the hidden systems of collecting and status are right on the surface.",
-        "url": "https://nycjaos.com/",
-        "date": "Nov 19\u201322"
-      },
-      {
-        "name": "artport: A History of Internet Art",
-        "venue": "Whitney Museum of American Art, 99 Gansevoort Street, New York",
-        "date_start": "2026-11-21",
-        "date_end": "2027-03-28",
-        "category": "museum",
-        "why": "The Whitney's 25-year survey of net art commissions \u2014 presented simultaneously online and in-gallery with an open floor plan designed to evoke floating browser windows \u2014 is a direct hit on the physical/digital edge and the history of software as self-expression.",
-        "url": "https://whitney.org/exhibitions/artport-a-history-of-internet-art",
-        "date": "Nov 21 \u2013 Mar 28"
+        "name": "Time Warp NYC 2026",
+        "venue": "Duggal Greenhouse & Agger Building, Brooklyn Navy Yard",
+        "date_start": "2026-11-20",
+        "date_end": "2026-11-21",
+        "category": "concert",
+        "why": "Two-night, two-warehouse industrial techno takeover with Sven V\u00e4th, DVS1, \u00c2me, Anetha, and a real local contingent (Annie Lew, Kilopatrah Jones, KYRUH) \u2014 serious about production design and sound rather than spectacle, and the Brooklyn Navy Yard setting earns its own atmosphere.",
+        "url": "https://www.time-warp.de/usa/nyc/",
+        "date": "Nov 20\u201321"
       }
     ]
   },

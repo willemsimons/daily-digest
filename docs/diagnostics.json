@@ -1,27 +1,26 @@
 {
-  "feeds": 71,
-  "mined": 41,
-  "videos": 6,
+  "feeds": 73,
+  "mined": 50,
+  "videos": 5,
   "video_titles": [
+    "Most people don\u2019t understand randomness.",
     "This is not a thread...",
     "Making Gunpowder From Scratch",
-    "Why you can't trust a test that's 99% accurate",
     "Which Disc Will Spin for Longer?",
-    "Two-photon fluorescence playing pong in rhodamine 6G",
     "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
-  "final_items": 9,
+  "final_items": 8,
   "final_sources": [
+    "Aeon Video",
+    "Anthropic Research",
     "Ars Technica",
-    "Atalayar / Gustavo de Ar\u00edstegui",
-    "CNN Style / Artsy",
-    "Colossal",
-    "Hacker News / Raj Shekhar",
     "Just Security",
-    "Nautilus",
-    "Yahoo News / Rzeczpospolita"
+    "MIT Technology Review",
+    "W.E. So'Donnell / Substack",
+    "Yahoo News",
+    "krthr.co"
   ],
-  "had_video": false,
-  "run_at": "2026-11-18T19:32:41.091564+00:00"
+  "had_video": true,
+  "run_at": "2026-11-19T19:37:39.359305+00:00"
 }
