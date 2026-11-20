@@ -1,26 +1,28 @@
 {
-  "feeds": 73,
-  "mined": 50,
+  "feeds": 70,
+  "mined": 52,
   "videos": 5,
   "video_titles": [
-    "Most people don\u2019t understand randomness.",
+    "Does adding helium reduce a balloon\u2019s mass?",
+    "Randomness is a lie. Let me explain",
     "This is not a thread...",
-    "Making Gunpowder From Scratch",
     "Which Disc Will Spin for Longer?",
     "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 10,
   "final_sources": [
-    "Aeon Video",
-    "Anthropic Research",
-    "Ars Technica",
-    "Just Security",
-    "MIT Technology Review",
-    "W.E. So'Donnell / Substack",
-    "Yahoo News",
-    "krthr.co"
+    "Aeon",
+    "Architect Labs",
+    "Democracy Now / ZeroFox",
+    "Nautilus",
+    "Robin Sloan's Lab",
+    "Sentiers",
+    "Terry Tao's blog",
+    "YouTube / Veritasium",
+    "ZeroFox Intelligence",
+    "arXiv"
   ],
   "had_video": true,
-  "run_at": "2026-11-19T19:37:39.359305+00:00"
+  "run_at": "2026-11-20T19:17:56.552740+00:00"
 }

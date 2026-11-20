@@ -1,95 +1,95 @@
 {
   "digest": {
-    "intro": "Three nuclear powers meet in Shenzhen; physics, fabrication, and brains all crack open.",
+    "intro": "The day a 167-year-old problem may have fallen, and machines started editing themselves.",
     "sections": [
+      {
+        "heading": "The mathematics moment",
+        "items": [
+          {
+            "title": "Levent Alp\u00f6ge claims a Lean 4 proof of the Generalized Riemann Hypothesis",
+            "source": "Terry Tao's blog",
+            "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+            "blurb": "In a single day, Tao's post announces three things: a human-readable Lean-formalized proof of Euler finite-time blowup, a Navier-Stokes blowup proof (the Millennium Prize problem), and \u2014 the wildest \u2014 an AI-generated Lean-only proof of GRH, so large and structurally opaque that the Lean community is currently attempting to reverse-engineer the mathematical strategy from the code. Tao notes the GRH proof 'appears to use the full power of modern developments on the Langlands program and arithmetic geometry,' which means even understanding what was proved will take serious time. The gating artifact for mathematical truth has quietly shifted: not peer review, not human readability, but machine-checked formal verification.",
+            "tags": [
+              "mathematics",
+              "ai",
+              "proof"
+            ]
+          },
+          {
+            "title": "The human voice \u2014 Robin Sloan on Alp\u00f6ge's note",
+            "source": "Robin Sloan's Lab",
+            "url": "https://www.robinsloan.com/lab/human-voice/",
+            "blurb": "Sloan points at something easy to miss: Alp\u00f6ge's announcement note is not AI-generated, and that contrast is striking. On the same day a machine wrote an enormous formal proof no human can yet read, Alp\u00f6ge described it in prose where 'his passion \u2014 his appreciation of surprise and beauty \u2014 is so clear on the page, it seems almost to rise off the screen.' The AI did the opaque heavy lifting; the human voice is what made it land.",
+            "tags": [
+              "writing",
+              "ai",
+              "craft"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "What machines are becoming",
+        "items": [
+          {
+            "title": "Language models can rewrite their own weights",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2611.21885",
+            "blurb": "A 27B open model, given access to its own weights and graded answers, diagnosed its own failure modes and rewrote the parameters responsible \u2014 no gradients, no retraining, pure reasoning \u2014 gaining 6.6 accuracy points on problems it had never seen. More unsettling: they fed it a damaged copy of itself, told it nothing about the original weights, and it repaired the broken copy to over 80% of original accuracy on image tasks it had never encountered. The ability is scale-dependent: smaller models in the same family either make no edit or break themselves; only the largest improves.",
+            "tags": [
+              "ai",
+              "research",
+              "self-modification"
+            ]
+          },
+          {
+            "title": "Frostbite: a CPU architecture discovered end-to-end by AI",
+            "source": "Architect Labs",
+            "url": "https://architectlabs.com/blog/frostbite",
+            "blurb": "Not AI-assisted chip design \u2014 AI autonomously iterated over ISA, compiler, microarchitecture, RTL, verification, and final GDS, arriving at a general-purpose CPU built around interaction nets (every step local, every dependency explicit, every value with exactly one owner). On 25 workloads including 15 held out until final eval, Frostbite hit 4.59x performance-per-watt against a modern silicon-proven superscalar core. The architectural primitives it found surprised the engineers \u2014 things 'that would have otherwise been difficult to architect.'",
+            "tags": [
+              "hardware",
+              "ai",
+              "architecture"
+            ]
+          },
+          {
+            "title": "AI as material \u2014 Sentiers dispatch",
+            "source": "Sentiers",
+            "url": "https://sentiers.media/dispatch-ai-as-material/",
+            "blurb": "Nick Foster, Eric Rodenbeck, Simone Rebaudengo, and Robin Sloan each independently arrived at the same frame: AI output has a grain, the way wood or ink does, and working with it means learning what it does under pressure rather than issuing instructions. Rodenbeck has his students treat model output as ink; Rebaudengo bends and tests intelligence the way you test timber for structural properties. On a day when AI proved a Millennium problem and rewrote its own weights, this is the frame that makes those facts feel like material properties rather than magic.",
+            "tags": [
+              "design",
+              "ai",
+              "craft"
+            ]
+          }
+        ]
+      },
       {
         "heading": "World",
         "items": [
           {
-            "title": "Xi, Trump, and Putin Sit Down in Shenzhen",
-            "source": "W.E. So'Donnell / Substack",
-            "url": "https://www.wesodonnell.com/p/5-things-to-watch-in-global-security-ec2",
-            "blurb": "China's Foreign Ministry confirmed the trilateral meeting on the sidelines of APEC \u2014 the first time all three leaders have been in the same room. Ukraine may not even be on the formal agenda, which is itself the story: a war-shaping negotiation happening entirely on Xi's terms, in Xi's city. Meanwhile, Zelenskyy says renewed Starshield restrictions are letting Russian drones reach Ukrainian infrastructure unimpeded \u2014 the battlefield and the summit are connected.",
+            "title": "Ukraine strikes Kerch Bridge; Russia bombs Kyiv river crossings",
+            "source": "Democracy Now / ZeroFox",
+            "url": "https://www.democracynow.org/2026/11/20/headlines",
+            "blurb": "Ukraine's third strike on the Kerch Bridge halted rail transit across the strait; Russia responded by bombing Dnipro crossings in Kyiv and a Kharkiv hospital. The ZeroFox report frames this as infrastructure-attrition logic heading into winter \u2014 both sides methodically erasing the other's ability to move people and materiel. The Abu Dhabi talks that were meant to slow this have effectively collapsed.",
+            "tags": [
+              "ukraine",
+              "russia",
+              "war"
+            ]
+          },
+          {
+            "title": "The US-Iran war has cost $48 billion and is likely to resume",
+            "source": "ZeroFox Intelligence",
+            "url": "https://www.zerofox.com/intelligence/monthly-geopolitical-report-november-2026/",
+            "blurb": "The Senate voted 51-48 to reject a war powers resolution that would have required congressional approval before resuming strikes on Iran \u2014 with Democrat John Fetterman providing the decisive opposition vote. ZeroFox's assessment: the US and Israel are likely to resume airstrikes post-midterms, and Iran has been escalating attacks to signal the economic damage it can inflict on Gulf energy markets before that happens. The Pentagon's $48 billion figure excludes base damage, healthcare for hundreds of injured troops, and the tens of billions in higher fuel costs the conflict triggered.",
             "tags": [
               "geopolitics",
-              "ukraine",
-              "diplomacy"
-            ]
-          },
-          {
-            "title": "Ukraine Destroyed the Kerch Bridge Using an Airborne Mesh Radio Network",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/",
-            "blurb": "On the nights of November 15\u201316, Ukrainian drones overwhelmed Russian air defenses while a flying mesh of relay nodes \u2014 each drone acting as a signal repeater \u2014 let operators 250 km away guide the Flamingo cruise missile into the bridge's weakest structural points, collapsing one of two steel arches. The technique is a direct adaptation of a Russian innovation, turned back on them. The fact that it worked without Starlink is the pointed message.",
-            "tags": [
-              "ukraine",
-              "hardware",
-              "warfare"
-            ]
-          },
-          {
-            "title": "Trump Is Weighing a Strike on Iran",
-            "source": "Just Security",
-            "url": "https://www.justsecurity.org/165250/early-edition-november-19-2026/",
-            "blurb": "U.S. and Israeli officials told the NYT that Trump is actively weighing a strike after intelligence about a potential Iranian dirty bomb, with Israel pushing for speed. A Houthi missile visibly damaged the Public Investment Fund Tower in Riyadh today \u2014 the Iran war is now touching Saudi Arabia's most symbolic financial real estate. Trump's January 1 deadline comment remains unexplained.",
-            "tags": [
               "iran",
-              "middle east",
-              "geopolitics"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Science breaking",
-        "items": [
-          {
-            "title": "Claude Solved Two Open Problems in Black Hole Physics",
-            "source": "Anthropic Research",
-            "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-            "blurb": "These aren't benchmark wins \u2014 Anthropic is claiming Claude completed a holographic duality calculation that physicists set up 20 years ago and never finished, and separately found the exact limit of a technique used to test quantum gravity candidates. Both results are out as preprints. The significance isn't just the answers; it's that an AI navigated genuine open-ended theoretical physics, not a closed problem with a known solution waiting to be matched.",
-            "tags": [
-              "ai",
-              "physics",
-              "quantum gravity"
-            ]
-          },
-          {
-            "title": "Fat-Derived Stem Cells Injected Directly Into Alzheimer's Brains \u2014 First Human Trial",
-            "source": "Yahoo News",
-            "url": "https://www.yahoo.com/news/science/articles/stem-cells-injected-brain-alzheimer-162318421.html",
-            "blurb": "In a six-patient Phase 1 trial, Dr. Christopher Duma's team at Hoag drew stem cells from patients' own body fat and injected them into the brain \u2014 not to clear amyloid plaques like existing drugs, but to interrupt multiple destructive processes simultaneously. Five of six showed cognitive improvement and reduced amyloid on scans; spinal fluid markers also improved. The honest caveat: gains weren't sustained over the full year, and six patients proves nothing \u2014 but the safety signal and mechanism are genuinely new.",
-            "tags": [
-              "alzheimer's",
-              "stem cells",
-              "neuroscience"
-            ]
-          },
-          {
-            "title": "A Human Liver Kept Alive Outside the Body for Seven Weeks",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
-            "blurb": "Carlo Pulitano's team in Sydney connected a donated liver to what he calls an \"artificial body\" \u2014 automated pumps, sensors, nutrient delivery, waste removal \u2014 and kept it at full body temperature (37\u00b0C) for seven weeks. The previous record, set in Switzerland, was two weeks. Most transplant organs currently survive only hours in ice; this threatens to make organ banking, not just transport, a realistic category.",
-            "tags": [
-              "biomedical",
-              "organ preservation",
-              "transplant"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Making things",
-        "items": [
-          {
-            "title": "Fanzines.app: 8-Page Booklets from a Single Sheet, Laid Out in the Browser",
-            "source": "krthr.co",
-            "url": "https://krthr.co/paper-folds-and-whats-new-in-fanzines-app/",
-            "blurb": "The fold is old \u2014 one A4, three folds, one cut, eight pages, no glue \u2014 but the layout problem was always annoying: the top row of panels has to be rotated 180\u00b0 and the page order is non-obvious. This browser tool handles all of that, lets you place photos and text right-side up, and exports a 300 DPI print-ready PDF with nothing uploaded to a server. It's a very small thing that removes the last friction between having something to say and handing it to someone physically.",
-            "tags": [
-              "print",
-              "publication",
-              "tools"
+              "us"
             ]
           }
         ]
@@ -98,116 +98,140 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Wunderkammer: How Curiosity Cabinets Became the First Museums",
-            "source": "Aeon Video",
-            "url": "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums",
-            "thumbnail": "https://aeon.co/videos/how-curiosity-cabinets-paved-the-way-for-modern-museums",
-            "blurb": "The Nerdwriter \u2014 one of the more careful video essayists working \u2014 made this for the National Gallery of Art: the Wunderkammer as a 16th-century response to information overload, when global trade made the world suddenly too large to mentally hold. Nautilus shells, automata, taxidermied exotica, forged unicorn horns \u2014 all crammed together as a way of saying: *the world is bigger than our categories*. The parallel to now is not subtle, and he doesn't force it.",
+            "title": "My grandmother was a seal \u2014 on selkie ancestry and kinship",
+            "source": "Aeon",
+            "url": "https://aeon.co/essays/do-you-have-a-selkie-or-a-seal-in-the-family",
+            "blurb": "In the aftermath of the Irish famine, which erased not just people but an entire oral culture and language, the selkie stories weren't just folklore \u2014 they were an identity technology, a way of encoding grief and kinship with the nonhuman into family memory. An 80-year-old storyteller in 1948 County Kerry told a collector how a seal-woman became his ancestor; the essay traces how these stories survived colonialism by being stored not in texts but in bloodlines. Mythology as the last format standing when everything else is gone.",
             "tags": [
-              "history",
-              "curation",
-              "cultural history"
+              "mythology",
+              "ireland",
+              "culture"
             ]
+          },
+          {
+            "title": "The Everlasting Life of Maxwell's Demon \u2014 Nautilus",
+            "source": "Nautilus",
+            "url": "https://nautil.us/the-everlasting-life-of-maxwells-demon-1286802/",
+            "blurb": "Maxwell invented his demon in 1867 as a thought experiment to embarrass the second law of thermodynamics: a tiny intelligence sorting fast and slow molecules could, in principle, reverse entropy for free. The thought experiment survived 150 years because it refused to die \u2014 it turned out the demon's memory, not its sorting, was the thermodynamic cost, which is how a Victorian physics puzzle became foundational to information theory. On a day when an AI proved GRH by writing Lean code no human can yet read, revisiting the idea that intelligence and thermodynamics are secretly the same question feels timely.",
+            "tags": [
+              "physics",
+              "information",
+              "history"
+            ]
+          },
+          {
+            "title": "Randomness is a lie \u2014 Veritasium",
+            "source": "YouTube / Veritasium",
+            "url": "https://www.youtube.com/watch?v=uXuQF_PPg5U",
+            "blurb": "Veritasium's physics and math explainers are among the most carefully constructed on the platform \u2014 rigorous enough to hold up, visual enough to make the structure of the argument feel inevitable. The timing here is sharp: the Riemann Hypothesis is fundamentally about the hidden order in the distribution of prime numbers, which looks random but isn't, and today an AI found that order. Worth watching as the coda to the math story.",
+            "tags": [
+              "math",
+              "physics",
+              "video"
+            ],
+            "thumbnail": "https://i2.ytimg.com/vi/uXuQF_PPg5U/hqdefault.jpg"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "Ukrainian operators guided missiles into the Kerch Bridge from over 250 kilometers away using a mesh of relay drones as a makeshift communications network \u2014 no military Starlink required.",
-        "url": "https://arstechnica.com/gadgets/2026/11/ukraine-blew-up-putins-bridge-using-relay-drones-to-bypass-starlink-limits/"
+        "fact": "Levent Alp\u00f6ge's AI-generated Lean proof of the Generalized Riemann Hypothesis is so large that mathematicians are currently attempting to extract the proof strategy by reverse-engineering the formal code \u2014 the mathematical idea may be unknown to any human yet.",
+        "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/"
       },
       {
-        "fact": "The previous record for keeping a human organ alive outside the body was roughly two weeks; Australian surgeons just held a liver at full body temperature for seven weeks.",
-        "url": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/"
+        "fact": "A 27B language model repaired a severely damaged copy of itself \u2014 with no access to the original weights and no retraining \u2014 restoring it to over 80% of original accuracy on image tasks it had never seen.",
+        "url": "https://arxiv.org/abs/2611.21885"
       },
       {
-        "fact": "Claude completed a black hole physics calculation that was set up by physicists more than 20 years ago and had never been solved \u2014 the result is now out as a preprint.",
-        "url": "https://www.anthropic.com/research/claude-black-hole-physics"
+        "fact": "Frostbite, the AI-designed CPU built around interaction nets, achieved 4.59x performance-per-watt against a modern silicon-proven superscalar core \u2014 and contained architectural primitives the engineers hadn't anticipated.",
+        "url": "https://architectlabs.com/blog/frostbite"
       },
       {
-        "fact": "In the Alzheimer's stem cell trial, the cells were drawn from each patient's own body fat \u2014 not a donor \u2014 and injected directly into the brain in a single session.",
-        "url": "https://www.yahoo.com/news/science/articles/stem-cells-injected-brain-alzheimer-162318421.html"
+        "fact": "The US-Israel war on Iran has officially topped $48 billion in Pentagon costs \u2014 a figure that excludes base damage, injured troop healthcare, and the tens of billions in higher global fuel costs the conflict caused.",
+        "url": "https://www.democracynow.org/2026/11/20/headlines"
       },
       {
-        "fact": "The Trump\u2013Xi\u2013Putin meeting in Shenzhen is happening on the sidelines of APEC, with Ukraine potentially not even on the formal agenda \u2014 meaning the war's biggest diplomatic moment may produce no official record.",
-        "url": "https://www.wesodonnell.com/p/5-things-to-watch-in-global-security-ec2"
+        "fact": "Maxwell invented his famous demon in 1867 \u2014 the same year he explained the properties of gases from molecular motion \u2014 and the thought experiment remained unresolved for over a century until Rolf Landauer showed that erasing the demon's memory, not its sorting, was the thermodynamic cost.",
+        "url": "https://nautil.us/the-everlasting-life-of-maxwells-demon-1286802/"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a small generative sketch where the 'proof' is the visual: take the distribution of the first 10,000 prime numbers, map them onto a circle (Ulam spiral variant, or polar), and render each prime as a particle whose opacity or size is determined by how close it sits to a predicted position from the Riemann zeta zeros. What does the hidden order look like when you make it visible? The interesting constraint: don't label anything. Let the structure speak or fail to speak on its own."
+    },
     "art_picks": [
       {
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film that works as pure systems theory disguised as a travel essay \u2014 Marker traces the invisible codes running Japan and Guinea-Bissau through images, memory, and ritual, asking how societies construct meaning from time. It's the kind of movie that rewires how you look at everything afterward.",
+        "why": "A film-essay that refuses every category \u2014 part travelogue, part memory machine, part meditation on how images build consciousness. Marker's obsessive attention to ritual, symbol, and the hidden grammar of daily life in Tokyo and Guinea-Bissau is exactly the kind of thing that makes you want to put something down and go make something.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Mycelium Networks / Process works",
-        "creator": "Semiconductor (Ruth Jarman & Joe Gerhardt)",
-        "why": "Semiconductor makes A/V installations from raw scientific data \u2014 geomagnetic fields, particle physics, seismic activity \u2014 rendering the invisible forces that shape matter into something you feel bodily. The edge between measurement and sensation, nature as software.",
-        "url": "https://semiconductorfilms.com/"
+        "title": "Untitled (Fontana Mix)",
+        "creator": "John Cage / Jasper Johns",
+        "why": "Johns's prints made from Cage's score instructions \u2014 systems as surface, chance as method. The work lives at the edge where notation becomes image, where rule-sets generate unexpected beauty. Direct ancestor of every generative practice.",
+        "url": "https://www.moma.org/collection/works/65773"
       },
       {
         "medium": "music",
         "title": "Selected Ambient Works Volume II",
         "creator": "Aphex Twin",
-        "why": "One of the few records that genuinely operates as architecture \u2014 untitled, mostly beatless, structured entirely around texture and space. It's less listened-to than inhabited, and it rewards the kind of obsessive, pattern-seeking attention Willem applies to systems.",
-        "url": "https://www.youtube.com/watch?v=Xw5AiRVqfqk"
+        "why": "Fifty-two untitled tracks organized by color, almost none with conventional melody \u2014 a feedback system mistaken for music, or the other way around. If you haven't sat with it in a room by itself, it's a different record than you remember.",
+        "url": "https://aphextwin.warp.net/release/74993-aphex-twin-selected-ambient-works-volume-ii"
       }
     ],
     "events": [
       {
+        "name": "Mirrored in Time",
+        "venue": "Fridman Gallery, 169 Bowery",
+        "date_start": "2026-11-11",
+        "date_end": "2026-12-13",
+        "category": "museum",
+        "why": "Four artists (Alexa Kumiko Hatanaka, Naomi Lisiki, Will Maxen, Daniel Neumann) in a group show at one of downtown's most thoughtful small galleries \u2014 worth the walk down Bowery.",
+        "url": "https://www.fridmangallery.com",
+        "date": "Nov 11 \u2013 Dec 13"
+      },
+      {
         "name": "James Turrell: Something Old, Something New, Something Borrowed, Something Blue",
-        "venue": "Almine Rech New York \u2014 39 E 78th St, Upper East Side",
+        "venue": "Almine Rech New York, 39 E 78th St",
         "date_start": "2026-11-12",
         "date_end": "2027-01-30",
         "category": "museum",
-        "why": "Fifteen-plus works including a new Shallow Space and new Glassworks \u2014 Turrell remains the definitive artist of perception-as-medium, and a dedicated show of new pieces is rare enough to warrant the uptown trip.",
+        "why": "New Shallow Space and Glassworks pieces in a gallery known for its architecture \u2014 Turrell's light works are the clearest example of an artist using perception itself as material, relevant to anyone thinking about how screens and physical space interact.",
         "url": "https://www.alminerech.com/exhibitions/new-york",
         "date": "Nov 12 \u2013 Jan 30"
       },
       {
-        "name": "Na Mira: NO SMOKING",
-        "venue": "MoMA, Kravis Studio, Floor 4 \u2014 11 W 53rd St, Manhattan",
-        "date_start": "2026-11-14",
-        "date_end": "2027-02-15",
-        "category": "museum",
-        "why": "A newly commissioned media installation drawing on Korean shamanism, structural filmmaking, f\u00fbkeiron landscape theory, and footage shot inside a military cinema on a US-Mexico border base \u2014 using radio frequencies, infrared, and holography to degrade the very imaging technologies the piece interrogates.",
-        "url": "https://www.moma.org/calendar/exhibitions/5869",
-        "date": "Nov 14 \u2013 Feb 15"
-      },
-      {
-        "name": "Addie Wagenknecht: Shelf Life",
-        "venue": "Nguyen Wahed \u2014 504 E 12th St, East Village",
-        "date_start": "2026-11-16",
-        "date_end": "2026-11-21",
-        "category": "popup",
-        "why": "Wagenknecht blends hacker culture, surveillance systems, and hardware manipulation into work that sits squarely at the physical/digital seam Willem lives in \u2014 and Nguyen Wahed is one of the few NYC galleries with a genuine generative/digital-art program rather than a tokenistic one.",
-        "url": "https://nguyenwahed.com/exhibitions/",
-        "date": "Nov 16\u201321"
-      },
-      {
         "name": "Leonora Carrington & Cecilia Vicu\u00f1a",
-        "venue": "Lehmann Maupin \u2014 501 W 24th St, Chelsea",
+        "venue": "Lehmann Maupin, 501 W 24th St",
         "date_start": "2026-11-19",
         "date_end": "2026-12-19",
         "category": "museum",
-        "why": "Opens today \u2014 a pairing of two artists whose practices fuse mythology, material systems, and self-made cosmologies: Carrington's surrealist-shamanist paintings alongside Vicu\u00f1a's fiber/language works, both using aesthetic surfaces to encode deep structure.",
+        "why": "A pairing of Carrington's mythological systems-building with Vicu\u00f1a's textile cosmologies \u2014 two artists who built entire private symbolic languages and somehow the conversation between them feels urgent rather than archival.",
         "url": "https://www.lehmannmaupin.com/exhibitions",
         "date": "Nov 19 \u2013 Dec 19"
       },
       {
-        "name": "Time Warp NYC 2026",
-        "venue": "Duggal Greenhouse & Agger Building, Brooklyn Navy Yard",
+        "name": "New York Now: After Dark (Photography Triennial)",
+        "venue": "Museum of the City of New York, 1220 Fifth Ave",
         "date_start": "2026-11-20",
-        "date_end": "2026-11-21",
-        "category": "concert",
-        "why": "Two-night, two-warehouse industrial techno takeover with Sven V\u00e4th, DVS1, \u00c2me, Anetha, and a real local contingent (Annie Lew, Kilopatrah Jones, KYRUH) \u2014 serious about production design and sound rather than spectacle, and the Brooklyn Navy Yard setting earns its own atmosphere.",
-        "url": "https://www.time-warp.de/usa/nyc/",
-        "date": "Nov 20\u201321"
+        "date_end": "2027-05-01",
+        "category": "museum",
+        "why": "MCNY's triennial lands today \u2014 contemporary photographers on the city after sunset, where the systems of ambition, leisure, community, and escape are most visible and strange.",
+        "url": "https://www.mcny.org",
+        "date": "Nov 20 \u2013 May 1"
+      },
+      {
+        "name": "artport: A History of Internet Art",
+        "venue": "Whitney Museum of American Art, 99 Gansevoort St",
+        "date_start": "2026-11-21",
+        "date_end": "2027-03-28",
+        "category": "museum",
+        "why": "The Whitney brings 25 years of net art commissions \u2014 Auriea Harvey, Casey Reas, Golan Levin, Maya Man \u2014 into physical space alongside a world-premiere generative performance by Operator; it's the rare institutional show that actually understands the medium it's surveying.",
+        "url": "https://whitney.org/exhibitions/artport-history-of-internet-art",
+        "date": "Nov 21 \u2013 Mar 28"
       }
     ]
   },
