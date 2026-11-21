@@ -1,28 +1,28 @@
 {
-  "feeds": 70,
-  "mined": 52,
-  "videos": 5,
+  "feeds": 62,
+  "mined": 53,
+  "videos": 6,
   "video_titles": [
     "Does adding helium reduce a balloon\u2019s mass?",
     "Randomness is a lie. Let me explain",
     "This is not a thread...",
+    "The Worst Possible Swing Technique",
     "Which Disc Will Spin for Longer?",
     "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
   "final_items": 10,
   "final_sources": [
-    "Aeon",
-    "Architect Labs",
-    "Democracy Now / ZeroFox",
+    "Anadolu Agency",
+    "Ars Technica",
+    "Lean/Mathlib Community",
+    "Levent Alp\u00f6ge / alpo.ge",
+    "MIT Technology Review",
     "Nautilus",
-    "Robin Sloan's Lab",
-    "Sentiers",
-    "Terry Tao's blog",
-    "YouTube / Veritasium",
-    "ZeroFox Intelligence",
-    "arXiv"
+    "The Guardian",
+    "UF / Journal of Clinical Investigation",
+    "math216.wordpress.com"
   ],
-  "had_video": true,
-  "run_at": "2026-11-20T19:17:56.552740+00:00"
+  "had_video": false,
+  "run_at": "2026-11-21T18:12:21.991331+00:00"
 }
