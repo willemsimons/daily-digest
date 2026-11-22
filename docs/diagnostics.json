@@ -1,6 +1,6 @@
 {
-  "feeds": 62,
-  "mined": 53,
+  "feeds": 47,
+  "mined": 48,
   "videos": 6,
   "video_titles": [
     "Does adding helium reduce a balloon\u2019s mass?",
@@ -11,18 +11,17 @@
     "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
-  "final_items": 10,
+  "final_items": 8,
   "final_sources": [
-    "Anadolu Agency",
     "Ars Technica",
-    "Lean/Mathlib Community",
-    "Levent Alp\u00f6ge / alpo.ge",
-    "MIT Technology Review",
-    "Nautilus",
+    "Better Data Center Project",
+    "EY Geostrategic Business Group",
+    "Geopolitical Futures",
+    "GitHub / HN",
+    "New Atlas / Northwestern University",
     "The Guardian",
-    "UF / Journal of Clinical Investigation",
-    "math216.wordpress.com"
+    "University of Florida / Journal of Clinical Investigation"
   ],
   "had_video": false,
-  "run_at": "2026-11-21T18:12:21.991331+00:00"
+  "run_at": "2026-11-22T18:41:32.319031+00:00"
 }

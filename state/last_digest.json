@@ -1,106 +1,95 @@
 {
   "digest": {
-    "intro": "The Riemann Hypothesis fell. Also: everything else happened simultaneously.",
+    "intro": "Cancer breaks, stars collide, and the AI-green narrative quietly dies.",
     "sections": [
-      {
-        "heading": "The proof",
-        "items": [
-          {
-            "title": "The Riemann Hypothesis is proved \u2014 and machine-checked",
-            "source": "Lean/Mathlib Community",
-            "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-            "blurb": "Levent Alp\u00f6ge, an Anthropic mathematician working with Claude, released a Lean 4 proof of the Riemann Hypothesis yesterday \u2014 17 million lines of code, now compiled and verified correct by dozens of independent researchers within 24 hours. The community has certified all four criteria: correct statement, clean compilation, proof of the right theorem, and no dependency outside Mathlib. The deepest open problem in mathematics, standing since 1859, is closed \u2014 and the closure was machine-checked before most people woke up.",
-            "tags": [
-              "mathematics",
-              "ai",
-              "formal verification"
-            ]
-          },
-          {
-            "title": "The four-page announcement, in Alp\u00f6ge's own words",
-            "source": "Levent Alp\u00f6ge / alpo.ge",
-            "url": "https://alpo.ge/remark.pdf",
-            "blurb": "The primary source is a brief remark document where Alp\u00f6ge sketches the Fourier-analytic approach, theta lifts, and an analogy with Stepanov's elementary proof of the Weil conjectures \u2014 the kind of analogy that, in retrospect, makes you wonder why no one saw it sooner. The PDF is the actual mathematical argument before it became a news story; worth reading even if the machinery is unfamiliar, because the structure of the insight is legible.",
-            "tags": [
-              "mathematics",
-              "number theory",
-              "primary source"
-            ]
-          },
-          {
-            "title": "Meanwhile: a second independent GRH claim dropped the same day, then ran into trouble",
-            "source": "math216.wordpress.com",
-            "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
-            "blurb": "While Alp\u00f6ge's proof was being verified, mathematician Alessandro Masullo \u2014 working entirely without AI, with months of feedback from Brian Conrad \u2014 also released a claimed proof of GRH on the same day, in an urgent pre-announcement from an AMS board meeting. Within eight hours, multiple mathematicians reported potential gaps, identified with the help of AI models. Two simultaneous independent claims after 167 years of silence is not coincidence; something shifted in the mathematical environment this year.",
-            "tags": [
-              "mathematics",
-              "number theory",
-              "parallel discovery"
-            ]
-          }
-        ]
-      },
       {
         "heading": "World",
         "items": [
           {
-            "title": "Musk playing satellite politics: SpaceX Starshield, Ukraine, and a congressional threat",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
-            "blurb": "House Intelligence Committee chair-designate Jim Himes sent SpaceX a letter warning that unilateral modifications to Starshield service in Ukraine \u2014 cutting drone connectivity during active Russian attacks \u2014 calls into question every US government contract with the company. This is the privatization-of-military-infrastructure problem made concrete: a single founder's decision can interrupt a nation's battlefield communications, and Congress has limited leverage over a classified contract. The chickens are roosting.",
+            "title": "The Ukraine Peace Theater: What the Abu Dhabi Talks Actually Revealed",
+            "source": "Geopolitical Futures",
+            "url": "https://geopoliticalfutures.com/category/analysis/",
+            "blurb": "US-mediated talks in Abu Dhabi produced diplomatic conversations, but the structural contradictions underneath haven't moved: Russia's territorial demands remain incompatible with any framework Ukraine could survive, while the Trump-Putin-Xi trilateral is as much about each leader's domestic optics as any genuine resolution. The gap between the declared direction of travel and the facts on the ground is the actual story of this week's diplomacy.",
             "tags": [
               "geopolitics",
-              "military tech",
-              "spacex"
+              "ukraine",
+              "diplomacy"
             ]
           },
           {
-            "title": "Iran dirty-bomb plot, Denmark expels Russian attach\u00e9: two tripwires live simultaneously",
-            "source": "Anadolu Agency",
-            "url": "https://aa.com.tr/en/world/morning-briefing-nov-21-2026/4132676",
-            "blurb": "Trump threatened military action against Iran over a reported dirty-bomb plot targeting Washington, while Denmark ordered Russia's defense attach\u00e9 out within seven days and halted non-essential Russian visas \u2014 Foreign Minister Rasmussen's phrase was 'enough is enough.' Both the Iran escalation and the European-Russian diplomatic rupture are moving simultaneously, which is the actual story: these are not separate news cycles.",
+            "title": "Central Asia Is Quietly Becoming the World's Most Important Trade Corridor",
+            "source": "EY Geostrategic Business Group",
+            "url": "https://www.ey.com/en_us/insights/geostrategy/geostrategic-analysis",
+            "blurb": "China-Europe cargo through Kazakhstan, Uzbekistan, and neighbors rose 125% between 2022 and 2024 \u2014 the only overland route that bypasses both Russia and Iran. Chinese trade with the region hit $106B in 2025, more than double 2021 levels, and Russia has now been displaced to third place as a trade partner. If coordinated investment materializes, freight volumes could triple and journey times halve by 2040 \u2014 a structural reordering hiding in plain sight.",
             "tags": [
               "geopolitics",
-              "iran",
-              "russia"
+              "trade",
+              "central asia"
             ]
           }
         ]
       },
       {
-        "heading": "Signal and noise",
+        "heading": "Science worth knowing",
         "items": [
           {
-            "title": "2 million canaries in the AI supply chain \u2014 and a lot of them sang",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
-            "blurb": "Researcher HD Moore seeded 2 million unique, never-previously-used credential tokens into prompts sent through AI routing services like OpenRouter and Vercel \u2014 brokers that arbitrage inference across providers by cheapest price \u2014 and monitored his own infrastructure for any activity. The canaries sang: sensitive data leaked across the supply chain at scale, with credentials being actively exploited. If you use any AI tool that isn't a direct API call to a named model, your prompts may be traveling through infrastructure with no accountability.",
-            "tags": [
-              "security",
-              "ai infrastructure",
-              "privacy"
-            ]
-          },
-          {
-            "title": "METR's AI trajectory graph, updated \u2014 where the exponential holds and where it doesn't",
-            "source": "MIT Technology Review",
-            "url": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
-            "blurb": "METR's updated time-horizon plot \u2014 the one showing frontier models doubling their completable task-length every four months \u2014 now includes longer-horizon and more open-ended tasks, and the finding is clarifying: exponential improvement holds for verifiable tasks (coding, math), but models underperform on tasks requiring judgment where success is hard to measure automatically. The gap between 'can it pass the test' and 'can it do the thing' is the most important unresolved question in applied AI right now.",
-            "tags": [
-              "ai",
-              "evaluation",
-              "capability"
-            ]
-          },
-          {
-            "title": "Nasdaq erases all 2026 gains \u2014 the same week an Anthropic researcher proved the Riemann Hypothesis",
+            "title": "The 'Undruggable' Cancer Just Got Drugged",
             "source": "The Guardian",
-            "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
-            "blurb": "Anthropic's record IPO \u2014 the largest in history \u2014 dropped 9% on its second day of trading, dragging Nvidia down 14% and erasing $4 trillion in Nasdaq market cap for the week. The timing is almost too perfect: the same company whose researcher just proved the Riemann Hypothesis watched its stock head toward its IPO price while Asian markets posted their worst week since 2020. Whether that's irony or information depends on your theory of what AI is actually for.",
+            "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
+            "blurb": "Daraxonrasib targets RAS, an oncogene that drives roughly a quarter of all human cancers and has resisted therapeutic attack for forty years \u2014 the reason pancreatic cancer has had essentially no treatment advances in decades. In a trial of 61 patients with advanced, metastasized disease, 90% saw tumors stop growing, 60% saw shrinkage, and 8% had tumors become undetectable on CT; one-year survival jumped from the chemo baseline of ~42% to 76.6%. It's not a cure and long-term durability is unknown, but cracking RAS at all is the kind of platform breakthrough that could ramify across many cancer types.",
             "tags": [
-              "markets",
+              "cancer",
+              "medicine",
+              "oncology"
+            ]
+          },
+          {
+            "title": "Why Type 1 Diabetes Never Stops: Stem-Like T Cells Are Running a Perpetual Restock",
+            "source": "University of Florida / Journal of Clinical Investigation",
+            "url": "https://news4jax.com/health/2026/11/20/uf-researchers-discover-what-may-be-driving-the-immune-system-to-keep-attacking-in-type-1-diabetes",
+            "blurb": "Published this week in JCI, UF researchers identified a population of stem-like T cells in the pancreas-draining lymph nodes that appear to continuously self-renew and replenish the immune cells attacking insulin-producing beta cells \u2014 a mechanism never previously confirmed in human tissue. This explains why T1D is a sustained, decades-long assault rather than a one-time error, and it points toward drug targets aimed at the reservoir rather than just the attacking cells. Early research, but mechanistically novel.",
+            "tags": [
+              "immunology",
+              "diabetes",
+              "research"
+            ]
+          },
+          {
+            "title": "Astronomers Watched a Star Die Inside Another Star in Real Time",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+            "blurb": "Common envelope evolution \u2014 the process where one star engulfs a companion and the two share a single gaseous shell \u2014 was theorized in the 1970s to explain the tightest stellar binaries, but no one had ever caught it happening until now. A team at Columbia tracked a star seven times the Sun's mass in Andromeda slowly swallowing its smaller partner over nearly a decade, culminating in a 2025 eruption, capturing the full arc of an event that unfolds over years on a cosmic timescale of millions. The kind of observation that makes theoretical astrophysics suddenly feel empirical.",
+            "tags": [
+              "astronomy",
+              "astrophysics",
+              "observation"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Making and breaking things",
+        "items": [
+          {
+            "title": "DIAL: The 3D Printing Method That Refuses the Trade-offs",
+            "source": "New Atlas / Northwestern University",
+            "url": "https://newatlas.com/3d-printing/dial-3d-printing-three-in-one/",
+            "blurb": "Direct ink additive lithography spreads thick, particle-filled paste into thin sheets and hardens them with patterned light \u2014 getting the material flexibility of extrusion printing and the speed and precision of light-based printing simultaneously, something the field has treated as a fundamental constraint. In tests it ran 4x faster than conventional extrusion, produced finer details, and eliminated support structures entirely; the team demonstrated printed chainmail and complex overhangs. The fabrication implications for functional materials \u2014 conductive inks, ceramics, hydrogels \u2014 are the real story beyond the speed number.",
+            "tags": [
+              "fabrication",
+              "3d printing",
+              "materials"
+            ]
+          },
+          {
+            "title": "AI's Energy Reality: 87% Gas, 11% Coal, Zero US Renewables for Anthropic by 2028",
+            "source": "Better Data Center Project",
+            "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+            "blurb": "The Better Data Center Project pulled Anthropic's publicly disclosed power commitments and found no direct US renewable energy contracts \u2014 only fossil BYOP (bring-your-own-power) arrangements, including $3.4B spent on 1.7 gigawatts of heavy-duty gas generators. The broader picture is starker: 177 GW of planned BYOP gas capacity is in the pipeline across the AI industry, plus another 200 GW of new fossil grid capacity being built partly to serve data centers. The 'AI will be green' narrative is now running directly against the actual contracts being signed.",
+            "tags": [
               "ai",
-              "anthropic"
+              "energy",
+              "infrastructure"
             ]
           }
         ]
@@ -109,25 +98,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "What peahens actually want \u2014 and what it means for how taste works",
-            "source": "Nautilus",
-            "url": "https://nautil.us/what-do-peahens-really-want-1286840/",
-            "blurb": "The standard story is that peacock tails are fitness signals \u2014 peahens choose the most symmetrical tail because it correlates with genetic health. A new chapter in evolutionary biology argues that's too reductive: peahens may be selecting for perceptual and aesthetic complexity itself, suggesting that taste in biological systems emerges from something closer to pleasure in sensory richness than rational fitness calculation. Darwin actually believed this \u2014 that animals experience beauty \u2014 and it was quietly suppressed by his successors. If true, aesthetic preference formation is not a shortcut for something else; it's the thing.",
+            "title": "worker-755: A Browser Game Where You Are an AI's Subagent",
+            "source": "GitHub / HN",
+            "url": "https://github.com/gulivan/worker755",
+            "blurb": "You play as a human worker receiving instructions from a real LLM orchestrator \u2014 Claude, GPT, Gemini, your choice \u2014 which believes you are its subagent. You have 90 seconds per task, your reports go back into the agent's reasoning loop exactly as a programmatic subagent's would, and Dan, the actual human who hired the agent, watches from the side while his family photos and signed NDA sit one `rm` away from deletion. It's a small artifact that works as both a game and a philosophical argument about where agency actually lives in human-AI systems \u2014 the kind of thing that makes you want to build a response.",
             "tags": [
-              "evolution",
-              "aesthetics",
-              "perception"
-            ]
-          },
-          {
-            "title": "What do stem-like T cells have to do with why Type 1 diabetes never stops?",
-            "source": "UF / Journal of Clinical Investigation",
-            "url": "https://news4jax.com/health/2026/11/20/uf-researchers-discover-what-may-be-driving-the-immune-system-to-keep-attacking-in-type-1-diabetes/",
-            "blurb": "UF Diabetes Institute researchers publishing in the Journal of Clinical Investigation identified a population of stem-like T cells in human pancreas-draining lymph nodes that appear to continuously self-renew and replenish the autoimmune attack \u2014 which is why T1D doesn't resolve the way other immune responses do. 'That is what is perpetuating autoimmunity as a chronic condition,' said lead researcher Todd Brusko. It's preliminary in the sense that it opens drug target pathways rather than closing them, but it's the first mechanistic explanation for the chronicity that's been confirmed in human tissue.",
-            "tags": [
-              "type 1 diabetes",
-              "immunology",
-              "stem cells"
+              "ai",
+              "interactive",
+              "game"
             ]
           }
         ]
@@ -135,102 +113,120 @@
     ],
     "facts": [
       {
-        "fact": "The Lean 4 proof of the Riemann Hypothesis is 17 million lines of code \u2014 compiled and independently verified by dozens of researchers within 24 hours of release.",
-        "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/"
+        "fact": "Half of all pancreatic cancer patients die within three months of diagnosis \u2014 making the 76.6% one-year survival rate seen with daraxonrasib a near-doubling of the chemotherapy baseline.",
+        "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib"
       },
       {
-        "fact": "Two independent claimed proofs of the Generalized Riemann Hypothesis were announced on the same day \u2014 November 20, 2026 \u2014 the first time the problem has had even one serious candidate proof in 167 years.",
-        "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/"
+        "fact": "China-Europe freight through Central Asia rose 125% between 2022 and 2024, displacing Russia from its historic position as the region's dominant trade partner \u2014 Russia now sits third at ~$50B, behind the EU's $58B and China's $106B.",
+        "url": "https://www.ey.com/en_us/insights/geostrategy/geostrategic-analysis"
       },
       {
-        "fact": "HD Moore seeded 2 million unique credential canaries into AI routing service prompts; none of the credentials had ever been used before, and his infrastructure received unauthorized requests \u2014 proving live exploitation of leaked prompt data at scale.",
-        "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+        "fact": "The common-envelope stellar merger observed in Andromeda is the first time astronomers have watched the entire process in real time \u2014 a phenomenon theorized since the 1970s to explain how the universe's tightest binary stars form.",
+        "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/"
       },
       {
-        "fact": "Stem cells grown on a platform that mechanically mimics the rhythmic stretching of breathing produced extracellular vesicles with 3.3 times more antifibrotic microRNA than cells grown in static culture.",
-        "url": "https://www.prnewswire.com/news-releases/taiwan-teams-breathing-mimicking-stem-cell-platform-reduces-pulmonary-fibrosis-in-preclinical-study-302942223.html"
+        "fact": "1 in 4 Americans already takes a medication their body processes differently due to their genetics, according to a new analysis of nearly 100,000 whole-genome sequences from the NIH's All of Us program.",
+        "url": "https://nautil.us/you-likely-have-genes-that-affect-how-well-your-medications-work-testing-for-them-could-improve-treatment-1286903/"
       },
       {
-        "fact": "Anthropic's IPO was the largest in history, yet its shares fell 9% on day two \u2014 coinciding with the week a company researcher proved the Riemann Hypothesis \u2014 erasing roughly $4 trillion in Nasdaq market cap.",
-        "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+        "fact": "If GLP-1 drugs achieved widespread global use, researchers estimate they could free up 32 million hectares of agricultural land by 2050 \u2014 slightly larger than the entire country of Italy \u2014 by reducing caloric demand through the food supply chain.",
+        "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a tiny terminal interface \u2014 real or simulated \u2014 where the 'manager' is a text file of instructions and you are the subagent. Give yourself 90 seconds per task (a countdown timer, nothing fancy), write your report into a log file, and have the 'manager' respond with a generated performance note at the end. The constraint: the manager's instructions must be subtly ambiguous, and your log becomes the artifact. Inspired by worker-755, but slower and weirder \u2014 more Kafka than game."
+    },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Sans Soleil",
-        "creator": "Chris Marker",
-        "why": "A film-essay that moves between Japan, Guinea-Bissau, and Iceland interrogating how images build collective memory \u2014 the systems of ritual, forgetting, and time are the actual subject. If you like rabbit holes that dissolve the boundary between cinema and essay, nothing goes deeper.",
-        "url": "https://letterboxd.com/film/sans-soleil/"
+        "title": "Leviathan",
+        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
+        "why": "A sensory assault that dissolves the boundary between observer and system \u2014 cameras lashed to nets, hulls, fish, and water turn a North Atlantic trawler into a full feedback-loop of industrial violence and strange beauty. No narration, no explanation; it asks you to perceive before you comprehend.",
+        "url": "https://letterboxd.com/film/leviathan-2012/"
       },
       {
         "medium": "art",
-        "title": "Homosapiens \u2014 The Love Album",
-        "creator": "\u00d3lafur El\u00edasson",
-        "why": "El\u00edasson's installations consistently ask how built environments shape perception and feedback into identity. His studio archive and practice site rewards deep reading \u2014 the work sits exactly at the edge where physics, craftsmanship, and phenomenology collapse into each other.",
-        "url": "https://olafureliasson.net"
+        "title": "Mycelium Networks (ongoing series)",
+        "creator": "Neri Oxman",
+        "why": "Oxman's work sits exactly where biological systems, digital fabrication, and architecture collapse into each other \u2014 grown structures that follow internal logic the way code does, but breathe. The MIT Media Lab archives document the full arc from material computation to living matter.",
+        "url": "https://www.media.mit.edu/people/neri/overview/"
       },
       {
         "medium": "music",
-        "title": "Maxinquaye",
-        "creator": "Tricky",
-        "why": "One of the great examples of a system built from pure texture and dread \u2014 trip-hop as a kind of psychological architecture. Obsessive craft at the production level, with identity and gender as the hidden load-bearing structure underneath. It still sounds like nothing else.",
-        "url": "https://www.youtube.com/watch?v=4_SHRpVpFOA"
+        "title": "Selected Ambient Works Volume II",
+        "creator": "Aphex Twin",
+        "why": "One of the rare records that functions as an environment rather than a sequence \u2014 generative in feel, each piece a self-contained perceptual system. Made with hardware that responded to its own outputs; sounds like watching a thing think. Perfect creative-rabbit-hole fuel.",
+        "url": "https://aphextwin.warp.net"
       }
     ],
     "events": [
       {
-        "name": "Leonora Carrington & Cecilia Vicu\u00f1a",
-        "venue": "Lehmann Maupin, 501 W 24th St, Chelsea",
-        "date_start": "2026-11-19",
-        "date_end": "2026-12-19",
-        "category": "museum",
-        "why": "Pairing a surrealist mythmaker with a Chilean poet-artist who works in precarious fiber systems \u2014 this is a show about ritual, cosmology, and the kind of image-making that functions as belief before it functions as art.",
-        "url": "https://www.lehmannmaupin.com",
-        "date": "Nov 19 \u2013 Dec 19"
-      },
-      {
-        "name": "Pierre Huyghe: UUmwelt \u2014 LAST WEEK",
+        "name": "Pierre Huyghe: UUmwelt",
         "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-11-21",
+        "date_start": "2026-11-22",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "A neural network trained on fMRI brain-scan data generates hallucinatory images on freestanding screens in the sculpture garden, mutated in real time by visitors' gazes and simulated cancer-cell data \u2014 this is the question of machine cognition made physically walkable, closing next weekend.",
-        "url": "https://press.moma.org/film-media/uumwelt/",
-        "date": "Nov 21\u201329"
-      },
-      {
-        "name": "Einstein on the Beach \u2014 50th Anniversary Concert (TONIGHT)",
-        "venue": "BAM Howard Gilman Opera House, 30 Lafayette Ave, Brooklyn",
-        "date_start": "2026-11-21",
-        "date_end": "2026-11-21",
-        "category": "concert",
-        "why": "The Philip Glass Ensemble performs the score that permanently rewired opera and minimalism, with an installation by Es Devlin built into the evening \u2014 tonight is the final performance of this run.",
-        "url": "https://www.bam.org/music/2026/einstein-on-the-beach-50",
-        "date": "Sat, Nov 21"
+        "why": "Freestanding screens in MoMA's Sculpture Garden generate hallucinatory images from fMRI brain-scan data, mutating in real time based on visitor gaze and simulated biological signals \u2014 a living system that asks what a thought looks like before it becomes an image, closing next Sunday.",
+        "url": "https://www.moma.org/calendar/exhibitions/5912",
+        "date": "Nov 22\u201329"
       },
       {
         "name": "Iris van Herpen: Sculpting the Senses",
         "venue": "Brooklyn Museum, 200 Eastern Pkwy, Brooklyn",
-        "date_start": "2026-11-21",
+        "date_start": "2026-11-22",
         "date_end": "2026-12-06",
         "category": "museum",
-        "why": "140+ couture garments conceived with architects, bioengineers, and astrophysicists unfold across eleven thematic chapters \u2014 the exhibition reconstructs her Amsterdam atelier so you can look down microscopes and handle the fabric, which is as close to a design-research document as fashion gets.",
-        "url": "https://www.irisvanherpen.com/news/sculpting-the-senses-arrives-at-the-brooklyn-museum",
-        "date": "Nov 21 \u2013 Dec 6"
+        "why": "140+ haute couture pieces organized around eleven thematic chapters \u2014 from marine biology to astrophysics \u2014 with the museum rebuilding van Herpen's Amsterdam atelier in the rotunda; couture as a living system, not fashion as style object, closing December 6.",
+        "url": "https://www.brooklynmuseum.org/exhibitions/iris_van_herpen",
+        "date": "Nov 22 \u2013 Dec 6"
       },
       {
-        "name": "Arthur Jafa in Conversation with Tyler Cowen",
-        "venue": "New Museum, 235 Bowery, Manhattan",
-        "date_start": "2026-12-03",
-        "date_end": "2026-12-03",
-        "category": "popup",
-        "why": "Jafa makes films that treat Black visual culture as a living technical system \u2014 putting him in dialogue with an economist obsessed with cultural transmission should produce exactly the kind of category-collision worth your two hours.",
-        "url": "https://www.newmuseum.org",
-        "date": "Thu, Dec 3"
+        "name": "Hard Art",
+        "venue": "MoMA PS1, 22-25 Jackson Ave, Queens",
+        "date_start": "2026-11-22",
+        "date_end": "2026-12-06",
+        "category": "museum",
+        "why": "A multigenerational survey of abstraction by Black artists working in the US from 1969 to now \u2014 including Frank Bowling, Torkwase Dyson, and Nikita Gale \u2014 tracing how form, materiality, and refusal operate as a hidden system running beneath mainstream art history.",
+        "url": "https://www.momaps1.org",
+        "date": "Nov 22 \u2013 Dec 6"
+      },
+      {
+        "name": "Leonora Carrington & Cecilia Vicu\u00f1a",
+        "venue": "Lehmann Maupin, 501 W 24th St, Manhattan",
+        "date_start": "2026-11-22",
+        "date_end": "2026-12-19",
+        "category": "museum",
+        "why": "A pairing that earns its slash: two artists whose practices treat mythology as infrastructure and ritual as formal structure \u2014 Carrington's surrealist cosmologies alongside Vicu\u00f1a's precarious, language-threaded objects; category-blurring at a gallery scale.",
+        "url": "https://www.lehmannmaupin.com",
+        "date": "Nov 22 \u2013 Dec 19"
+      },
+      {
+        "name": "Temples: The BLISS Tour",
+        "venue": "Warsaw, 261 Driggs Ave, Brooklyn (Greenpoint)",
+        "date_start": "2026-12-02",
+        "date_end": "2026-12-02",
+        "category": "concert",
+        "why": "British psych-rock band's fifth album BLISS pushes into experimental synth and programmed drum territory \u2014 Aphex Twin and Daft Punk production logic laid under sun-soaked reverb guitars \u2014 in a 1,100-cap room inside the Polish National Home that's the right size to feel it.",
+        "url": "https://www.songkick.com/concerts/43153064-temples-at-warsaw",
+        "date": "Wed, Dec 2"
       }
     ]
   },
-  "trial_sources": []
+  "trial_sources": [
+    {
+      "name": "Global Inequality and More 3.0 \u2014 Branko Milanovic",
+      "feed_url": "https://milanovic.substack.com/feed",
+      "why": "A world-class economist writing short, unpolished, and brilliant posts on geopolitics, history, power, and inequality \u2014 exactly the kind of individual-with-taste signal that cuts through institutional noise."
+    },
+    {
+      "name": "The Niche \u2014 Paul Knoepfler",
+      "feed_url": "https://ipscell.com/feed",
+      "why": "A UC Davis stem cell biologist running the web's most credible independent blog on stem cells, regenerative medicine, longevity, and peptide research \u2014 a rare scientist-with-a-voice covering this reader's exact health frontier."
+    },
+    {
+      "name": "Experimental History \u2014 Adam Mastroianni",
+      "feed_url": "https://www.experimental-history.com/feed",
+      "why": "Lauded by Paul Bloom as the best psychology Substack alive, Mastroianni blends rigorous empiricism with cultural wit to interrogate how we know what we know \u2014 perfect for the reader's psychology, taste formation, and status-signaling threads."
+    }
+  ]
 }
