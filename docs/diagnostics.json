@@ -1,6 +1,6 @@
 {
-  "feeds": 47,
-  "mined": 48,
+  "feeds": 56,
+  "mined": 49,
   "videos": 6,
   "video_titles": [
     "Does adding helium reduce a balloon\u2019s mass?",
@@ -11,17 +11,18 @@
     "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 9,
   "final_sources": [
+    "Anthropic / GitHub",
     "Ars Technica",
-    "Better Data Center Project",
-    "EY Geostrategic Business Group",
-    "Geopolitical Futures",
     "GitHub / HN",
-    "New Atlas / Northwestern University",
-    "The Guardian",
-    "University of Florida / Journal of Clinical Investigation"
+    "Just Security",
+    "Kyiv Post / WDR, NDR, S\u00fcddeutsche Zeitung",
+    "Ladybird",
+    "MIT Technology Review",
+    "Sabukaru",
+    "YouTube \u2014 Steve Mould"
   ],
-  "had_video": false,
-  "run_at": "2026-11-22T18:41:32.319031+00:00"
+  "had_video": true,
+  "run_at": "2026-11-23T22:55:16.677062+00:00"
 }

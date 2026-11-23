@@ -1,95 +1,107 @@
 {
   "digest": {
-    "intro": "Cancer breaks, stars collide, and the AI-green narrative quietly dies.",
+    "intro": "Nuclear satellites, collapsed climate talks, and a trackpad that speaks.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "The Ukraine Peace Theater: What the Abu Dhabi Talks Actually Revealed",
-            "source": "Geopolitical Futures",
-            "url": "https://geopoliticalfutures.com/category/analysis/",
-            "blurb": "US-mediated talks in Abu Dhabi produced diplomatic conversations, but the structural contradictions underneath haven't moved: Russia's territorial demands remain incompatible with any framework Ukraine could survive, while the Trump-Putin-Xi trilateral is as much about each leader's domestic optics as any genuine resolution. The gap between the declared direction of travel and the facts on the ground is the actual story of this week's diplomacy.",
+            "title": "Russia's Nuclear Anti-Satellite Weapon Could Launch by December",
+            "source": "Kyiv Post / WDR, NDR, S\u00fcddeutsche Zeitung",
+            "url": "https://www.kyivpost.com/post/90920",
+            "blurb": "A joint German intelligence investigation reports that Sputnik-S \u2014 a fully constructed nuclear-armed satellite \u2014 has been stored near Moscow for years and could reach orbit within 60 days, per NATO-circulated warnings from early November. Germany's military space command has briefed Defense Minister Boris Pistorius directly. A single detonation at altitude would fry satellites across multiple orbital shells via EMP \u2014 not a targeted kill but a scorched-sky move against the entire ecosystem.",
             "tags": [
               "geopolitics",
-              "ukraine",
-              "diplomacy"
+              "space",
+              "nuclear"
             ]
           },
           {
-            "title": "Central Asia Is Quietly Becoming the World's Most Important Trade Corridor",
-            "source": "EY Geostrategic Business Group",
-            "url": "https://www.ey.com/en_us/insights/geostrategy/geostrategic-analysis",
-            "blurb": "China-Europe cargo through Kazakhstan, Uzbekistan, and neighbors rose 125% between 2022 and 2024 \u2014 the only overland route that bypasses both Russia and Iran. Chinese trade with the region hit $106B in 2025, more than double 2021 levels, and Russia has now been displaced to third place as a trade partner. If coordinated investment materializes, freight volumes could triple and journey times halve by 2040 \u2014 a structural reordering hiding in plain sight.",
-            "tags": [
-              "geopolitics",
-              "trade",
-              "central asia"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Science worth knowing",
-        "items": [
-          {
-            "title": "The 'Undruggable' Cancer Just Got Drugged",
-            "source": "The Guardian",
-            "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib",
-            "blurb": "Daraxonrasib targets RAS, an oncogene that drives roughly a quarter of all human cancers and has resisted therapeutic attack for forty years \u2014 the reason pancreatic cancer has had essentially no treatment advances in decades. In a trial of 61 patients with advanced, metastasized disease, 90% saw tumors stop growing, 60% saw shrinkage, and 8% had tumors become undetectable on CT; one-year survival jumped from the chemo baseline of ~42% to 76.6%. It's not a cure and long-term durability is unknown, but cracking RAS at all is the kind of platform breakthrough that could ramify across many cancer types.",
-            "tags": [
-              "cancer",
-              "medicine",
-              "oncology"
-            ]
-          },
-          {
-            "title": "Why Type 1 Diabetes Never Stops: Stem-Like T Cells Are Running a Perpetual Restock",
-            "source": "University of Florida / Journal of Clinical Investigation",
-            "url": "https://news4jax.com/health/2026/11/20/uf-researchers-discover-what-may-be-driving-the-immune-system-to-keep-attacking-in-type-1-diabetes",
-            "blurb": "Published this week in JCI, UF researchers identified a population of stem-like T cells in the pancreas-draining lymph nodes that appear to continuously self-renew and replenish the immune cells attacking insulin-producing beta cells \u2014 a mechanism never previously confirmed in human tissue. This explains why T1D is a sustained, decades-long assault rather than a one-time error, and it points toward drug targets aimed at the reservoir rather than just the attacking cells. Early research, but mechanistically novel.",
-            "tags": [
-              "immunology",
-              "diabetes",
-              "research"
-            ]
-          },
-          {
-            "title": "Astronomers Watched a Star Die Inside Another Star in Real Time",
+            "title": "COP31 Ends Without Agreement \u2014 First Failure Since 2009",
             "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
-            "blurb": "Common envelope evolution \u2014 the process where one star engulfs a companion and the two share a single gaseous shell \u2014 was theorized in the 1970s to explain the tightest stellar binaries, but no one had ever caught it happening until now. A team at Columbia tracked a star seven times the Sun's mass in Andromeda slowly swallowing its smaller partner over nearly a decade, culminating in a 2025 eruption, capturing the full arc of an event that unfolds over years on a cosmic timescale of millions. The kind of observation that makes theoretical astrophysics suddenly feel empirical.",
+            "url": "https://arstechnica.com/science/2026/11/cop31-ends-in-failure-as-countries-split-over-fossil-fuels-climate-finance/",
+            "blurb": "For the first time in 17 years, a COP ended without a cover decision \u2014 the consensus statement that signals global solidarity. The final draft contained no mention of coal, oil, or gas; Saudi Arabia and Russia held the line while the EU, Pacific Island states, and Latin American countries refused to sign. The wreckage in Antalya includes a workers' transition fund and an adaptation assessment plan, but nothing on the core emissions question.",
             "tags": [
-              "astronomy",
-              "astrophysics",
-              "observation"
+              "climate",
+              "geopolitics",
+              "policy"
+            ]
+          },
+          {
+            "title": "Strait of Hormuz Attacks Escalate; Ukraine Sinks Russian Warship in Libya",
+            "source": "Just Security",
+            "url": "https://www.justsecurity.org/165610/early-edition-november-23-2026/",
+            "blurb": "Three more ships struck this weekend in the highest pace of Hormuz attacks since the February U.S.-Iran war began; Iran's IRGC launched simultaneous missile and drone assaults on U.S. positions in Bahrain while Tehran vows to use \"all available means\" against the naval blockade. Meanwhile, Ukraine struck a Russian warship operating in Libya \u2014 the war has now physically reached the Mediterranean.",
+            "tags": [
+              "war",
+              "iran",
+              "geopolitics"
             ]
           }
         ]
       },
       {
-        "heading": "Making and breaking things",
+        "heading": "Mind and machine",
         "items": [
           {
-            "title": "DIAL: The 3D Printing Method That Refuses the Trade-offs",
-            "source": "New Atlas / Northwestern University",
-            "url": "https://newatlas.com/3d-printing/dial-3d-printing-three-in-one/",
-            "blurb": "Direct ink additive lithography spreads thick, particle-filled paste into thin sheets and hardens them with patterned light \u2014 getting the material flexibility of extrusion printing and the speed and precision of light-based printing simultaneously, something the field has treated as a fundamental constraint. In tests it ran 4x faster than conventional extrusion, produced finer details, and eliminated support structures entirely; the team demonstrated printed chainmail and complex overhangs. The fabrication implications for functional materials \u2014 conductive inks, ceramics, hydrogels \u2014 are the real story beyond the speed number.",
-            "tags": [
-              "fabrication",
-              "3d printing",
-              "materials"
-            ]
-          },
-          {
-            "title": "AI's Energy Reality: 87% Gas, 11% Coal, Zero US Renewables for Anthropic by 2028",
-            "source": "Better Data Center Project",
-            "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
-            "blurb": "The Better Data Center Project pulled Anthropic's publicly disclosed power commitments and found no direct US renewable energy contracts \u2014 only fossil BYOP (bring-your-own-power) arrangements, including $3.4B spent on 1.7 gigawatts of heavy-duty gas generators. The broader picture is starker: 177 GW of planned BYOP gas capacity is in the pipeline across the AI industry, plus another 200 GW of new fossil grid capacity being built partly to serve data centers. The 'AI will be green' narrative is now running directly against the actual contracts being signed.",
+            "title": "Thomas Nagel Isn't Buying Anthropic's Consciousness Argument",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+            "blurb": "In its IPO filing last week, Anthropic listed AI consciousness as a material risk factor \u2014 arguing that as models grow more capable, their potential moral status might require costly protective restrictions competitors won't share. Thomas Nagel, the philosopher who wrote the foundational \"What is it like to be a bat?\" paper on subjective experience, is unconvinced: the gap between functional sophistication and genuine phenomenal consciousness is exactly what makes the question hard, and Anthropic's framing elides it. The story underneath is capital: the company is simultaneously warning investors about consciousness costs and implying those costs are worth bearing \u2014 a move that is philosophically interesting and financially strange.",
             "tags": [
               "ai",
-              "energy",
+              "philosophy",
+              "consciousness"
+            ]
+          },
+          {
+            "title": "An AI Model Formally Proved VP \u2260 VNP Over Every Field",
+            "source": "Anthropic / GitHub",
+            "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp",
+            "blurb": "Anthropic's internal research Claude model discovered and wrote a proof that VP is a proper subset of VNP over every field \u2014 the algebraic complexity analog of P\u2260NP \u2014 and formalized it in Lean 4, verified by two independent proof kernels. No human mathematician has checked the underlying paper; the repo explicitly states this and invites scrutiny. If it holds, it's a landmark in both algebraic complexity theory and in what AI systems can contribute to pure mathematics.",
+            "tags": [
+              "ai",
+              "mathematics",
+              "complexity theory"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Build and material",
+        "items": [
+          {
+            "title": "Ladybird Browser Is Now in Alpha",
+            "source": "Ladybird",
+            "url": "https://ladybird.org/posts/alpha/",
+            "blurb": "Ladybird ships with its own HTML parser, CSS engine, JavaScript engine, and WebAssembly runtime \u2014 not a fork of anything, built from scratch, no corporate parent. It's crashing and incomplete in the way alphas are, but it supports WebDriver and the Firefox DevTools protocol, which means you can already run automated tests and start poking at how a genuinely new engine interprets your WebGL pages. The team is explicitly inviting security researchers to pwn it, treating early exploitation as part of hardening.",
+            "tags": [
+              "browser",
+              "open source",
               "infrastructure"
+            ]
+          },
+          {
+            "title": "Japanese Metabolism as Bio-City: The Promised Tokyo",
+            "source": "Sabukaru",
+            "url": "https://sabukaru.online/articles/the-promised-tokyo",
+            "blurb": "Sabukaru's essay on the Metabolism movement traces how Kikutake, Kurokawa, Maki, and Kawazoe \u2014 all students of Kenzo Tange \u2014 reimagined the city as a living organism after postwar Japan's mass migration and reconstruction shock. The key insight is linguistic: the Japanese word they chose, shinchintaisha (\u65b0\u9673\u4ee3\u8b1d), carries both a biological meaning (cellular exchange) and a Buddhist one (impermanence, renewal), so the architecture was always also theology. Ocean city proposals, plug-in capsule towers, interchangeable infrastructure \u2014 this is where cyberpunk urbanism and Buddhist impermanence actually met.",
+            "tags": [
+              "architecture",
+              "japan",
+              "culture"
+            ]
+          },
+          {
+            "title": "The Worst Possible Swing Technique",
+            "source": "YouTube \u2014 Steve Mould",
+            "url": "https://www.youtube.com/watch?v=tDrGZPt4qIY",
+            "thumbnail": "https://i1.ytimg.com/vi/tDrGZPt4qIY/hqdefault.jpg",
+            "blurb": "Steve Mould built a robot specifically to pump a playground swing in the least efficient way possible, then used it to demonstrate pumping resonance \u2014 the physics of how energy couples into an oscillating system at the wrong phase. It's a maker project that becomes a physics lecture without announcing itself as one, which is exactly Mould's signature move.",
+            "tags": [
+              "physics",
+              "making",
+              "video"
             ]
           }
         ]
@@ -98,14 +110,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "worker-755: A Browser Game Where You Are an AI's Subagent",
+            "title": "No Speaker \u2014 Your MacBook Trackpad Can Talk",
             "source": "GitHub / HN",
-            "url": "https://github.com/gulivan/worker755",
-            "blurb": "You play as a human worker receiving instructions from a real LLM orchestrator \u2014 Claude, GPT, Gemini, your choice \u2014 which believes you are its subagent. You have 90 seconds per task, your reports go back into the agent's reasoning loop exactly as a programmatic subagent's would, and Dan, the actual human who hired the agent, watches from the side while his family photos and signed NDA sit one `rm` away from deletion. It's a small artifact that works as both a game and a philosophical argument about where agency actually lives in human-AI systems \u2014 the kind of thing that makes you want to build a response.",
+            "url": "https://github.com/os6/nospeaker",
+            "blurb": "The Force Touch trackpad contains a haptic motor designed to simulate a click \u2014 NO SPEAKER drives it at up to 4,000 cycles per second, fast enough to produce audible sound, and uses it to synthesize speech, song, and instrument-like tones. One curl command, no speakers required; the whole trick exploits the fact that the motor is fundamentally a small linear actuator with enough bandwidth to carry audio frequencies. It's a beautiful piece of constraint-led hardware invention that makes you hear your laptop differently.",
             "tags": [
-              "ai",
-              "interactive",
-              "game"
+              "hardware",
+              "audio",
+              "hack"
             ]
           }
         ]
@@ -113,120 +125,104 @@
     ],
     "facts": [
       {
-        "fact": "Half of all pancreatic cancer patients die within three months of diagnosis \u2014 making the 76.6% one-year survival rate seen with daraxonrasib a near-doubling of the chemotherapy baseline.",
-        "url": "https://www.theguardian.com/society/2026/nov/20/pill-pancreatic-cancer-breakthrough-daraxonrasib"
+        "fact": "Russia's Sputnik-S nuclear satellite has reportedly been fully constructed and stored near Moscow for several years \u2014 it was not recently built in response to current tensions.",
+        "url": "https://www.kyivpost.com/post/90920"
       },
       {
-        "fact": "China-Europe freight through Central Asia rose 125% between 2022 and 2024, displacing Russia from its historic position as the region's dominant trade partner \u2014 Russia now sits third at ~$50B, behind the EU's $58B and China's $106B.",
-        "url": "https://www.ey.com/en_us/insights/geostrategy/geostrategic-analysis"
+        "fact": "Anthropic listed AI consciousness as a formal material risk factor in its IPO filing, acknowledging that taking model sentience seriously could impose costs on the company that competitors won't bear.",
+        "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/"
       },
       {
-        "fact": "The common-envelope stellar merger observed in Andromeda is the first time astronomers have watched the entire process in real time \u2014 a phenomenon theorized since the 1970s to explain how the universe's tightest binary stars form.",
-        "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/"
+        "fact": "The MacBook Force Touch trackpad's haptic motor can be driven at 4,000 Hz \u2014 well within the range of human hearing \u2014 turning it into a functional audio transducer without any speaker.",
+        "url": "https://github.com/os6/nospeaker"
       },
       {
-        "fact": "1 in 4 Americans already takes a medication their body processes differently due to their genetics, according to a new analysis of nearly 100,000 whole-genome sequences from the NIH's All of Us program.",
-        "url": "https://nautil.us/you-likely-have-genes-that-affect-how-well-your-medications-work-testing-for-them-could-improve-treatment-1286903/"
+        "fact": "People with Type 2 diabetes develop Alzheimer's at a rate of roughly 4.7 per 1,000 patients per year, and face a 53% higher adjusted relative risk compared to those without diabetes, per a meta-analysis of 40 studies.",
+        "url": "https://www.sciencedaily.com/releases/2026/11/261121221124.htm"
       },
       {
-        "fact": "If GLP-1 drugs achieved widespread global use, researchers estimate they could free up 32 million hectares of agricultural land by 2050 \u2014 slightly larger than the entire country of Italy \u2014 by reducing caloric demand through the food supply chain.",
-        "url": "https://arstechnica.com/health/2026/11/glp-1-drugs-could-have-a-surprisingly-large-environmental-payoff/"
+        "fact": "The Lean 4 formalization of the VP \u2260 VNP proof was written entirely by AI models, and the repository explicitly states that no human mathematician has verified the underlying paper.",
+        "url": "https://github.com/anthropics/formal-math/tree/main/vp-vnp"
       }
     ],
     "make_something": {
-      "prompt": "Build a tiny terminal interface \u2014 real or simulated \u2014 where the 'manager' is a text file of instructions and you are the subagent. Give yourself 90 seconds per task (a countdown timer, nothing fancy), write your report into a log file, and have the 'manager' respond with a generated performance note at the end. The constraint: the manager's instructions must be subtly ambiguous, and your log becomes the artifact. Inspired by worker-755, but slower and weirder \u2014 more Kafka than game."
+      "prompt": "The Metabolist architects treated the city as a living organism with replaceable cellular units \u2014 capsules that plug in and out of permanent infrastructure. Take one fixed object in your space (a shelf, a wall panel, a desk surface) and redesign it as a Metabolist 'exchange unit': what's the permanent spine it plugs into, and what's the temporary cell that gets swapped out? Sketch or prototype the attachment logic \u2014 the joint is the whole idea."
     },
     "art_picks": [
       {
         "medium": "film",
-        "title": "Leviathan",
-        "creator": "Lucien Castaing-Taylor & V\u00e9r\u00e9na Paravel",
-        "why": "A sensory assault that dissolves the boundary between observer and system \u2014 cameras lashed to nets, hulls, fish, and water turn a North Atlantic trawler into a full feedback-loop of industrial violence and strange beauty. No narration, no explanation; it asks you to perceive before you comprehend.",
-        "url": "https://letterboxd.com/film/leviathan-2012/"
+        "title": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+        "creator": "Chantal Akerman",
+        "why": "A three-and-a-half-hour real-time portrait of domestic ritual as feedback loop \u2014 Akerman turns repetition into a system so precise that the tiniest deviation becomes devastating. The film is about invisible structure made visible through obsessive craft, which is exactly what you make.",
+        "url": "https://letterboxd.com/film/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/"
       },
       {
         "medium": "art",
-        "title": "Mycelium Networks (ongoing series)",
-        "creator": "Neri Oxman",
-        "why": "Oxman's work sits exactly where biological systems, digital fabrication, and architecture collapse into each other \u2014 grown structures that follow internal logic the way code does, but breathe. The MIT Media Lab archives document the full arc from material computation to living matter.",
-        "url": "https://www.media.mit.edu/people/neri/overview/"
+        "title": "Mycelium Studies / Drift Series",
+        "creator": "Roxy Paine",
+        "why": "Paine's large-scale stainless-steel dendrite and mycelium sculptures are generative 3D systems made physical \u2014 branching algorithms you can walk under. His obsessive replication of natural growth logic into inert metal is the physical/digital boundary pushed into sculpture.",
+        "url": "https://www.roxypaine.com/"
       },
       {
         "medium": "music",
         "title": "Selected Ambient Works Volume II",
         "creator": "Aphex Twin",
-        "why": "One of the rare records that functions as an environment rather than a sequence \u2014 generative in feel, each piece a self-contained perceptual system. Made with hardware that responded to its own outputs; sounds like watching a thing think. Perfect creative-rabbit-hole fuel.",
-        "url": "https://aphextwin.warp.net"
+        "why": "Eighteen tracks with no titles, only images \u2014 Aphex stripped music to pure system and texture, forcing the listener's brain to construct narrative from almost nothing. It's about how minds build reality from minimal signal, and it still sounds like nothing else made before or since.",
+        "url": "https://www.youtube.com/watch?v=Xw5AiRVqfqk"
       }
     ],
     "events": [
       {
         "name": "Pierre Huyghe: UUmwelt",
         "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-11-22",
+        "date_start": "2026-11-23",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Freestanding screens in MoMA's Sculpture Garden generate hallucinatory images from fMRI brain-scan data, mutating in real time based on visitor gaze and simulated biological signals \u2014 a living system that asks what a thought looks like before it becomes an image, closing next Sunday.",
+        "why": "A neural network trained on fMRI brain scans generates hallucinatory images on freestanding screens, mutated in real time by visitors' gazes and simulated cancer-cell data \u2014 the closing week of the most rigorous AI-perception show NYC has seen, and the exact edge where machine cognition and human presence collide.",
         "url": "https://www.moma.org/calendar/exhibitions/5912",
-        "date": "Nov 22\u201329"
+        "date": "Nov 23\u201329"
       },
       {
         "name": "Iris van Herpen: Sculpting the Senses",
         "venue": "Brooklyn Museum, 200 Eastern Pkwy, Brooklyn",
-        "date_start": "2026-11-22",
+        "date_start": "2026-11-23",
         "date_end": "2026-12-06",
         "category": "museum",
-        "why": "140+ haute couture pieces organized around eleven thematic chapters \u2014 from marine biology to astrophysics \u2014 with the museum rebuilding van Herpen's Amsterdam atelier in the rotunda; couture as a living system, not fashion as style object, closing December 6.",
+        "why": "140 haute couture pieces organized around eleven chapters \u2014 mathematics, neuroscience, marine biology, paleontology \u2014 with fossils from the AMNH beside dresses grown from bioengineering and 3D printing; this is fashion functioning as systems theory, closing in two weeks.",
         "url": "https://www.brooklynmuseum.org/exhibitions/iris_van_herpen",
-        "date": "Nov 22 \u2013 Dec 6"
+        "date": "Nov 23 \u2013 Dec 6"
       },
       {
-        "name": "Hard Art",
-        "venue": "MoMA PS1, 22-25 Jackson Ave, Queens",
-        "date_start": "2026-11-22",
-        "date_end": "2026-12-06",
+        "name": "James Turrell: Something Old, Something New, Something Borrowed, Something Blue",
+        "venue": "Almine Rech New York, 361 Broadway, Manhattan",
+        "date_start": "2026-11-23",
+        "date_end": "2027-01-30",
         "category": "museum",
-        "why": "A multigenerational survey of abstraction by Black artists working in the US from 1969 to now \u2014 including Frank Bowling, Torkwase Dyson, and Nikita Gale \u2014 tracing how form, materiality, and refusal operate as a hidden system running beneath mainstream art history.",
-        "url": "https://www.momaps1.org",
-        "date": "Nov 22 \u2013 Dec 6"
+        "why": "Over fifteen works including a new Shallow Space and new Glassworks \u2014 Turrell's entire project is about how the brain constructs reality from light, which maps directly onto the perceptual and systems questions you're circling in your own work.",
+        "url": "https://www.alminerech.com/exhibitions/newyork",
+        "date": "Nov 23 \u2013 Jan 30"
       },
       {
-        "name": "Leonora Carrington & Cecilia Vicu\u00f1a",
-        "venue": "Lehmann Maupin, 501 W 24th St, Manhattan",
-        "date_start": "2026-11-22",
+        "name": "Kehinde Wiley: What the Light Becomes",
+        "venue": "Sean Kelly Gallery, 475 10th Ave, Manhattan",
+        "date_start": "2026-11-23",
         "date_end": "2026-12-19",
         "category": "museum",
-        "why": "A pairing that earns its slash: two artists whose practices treat mythology as infrastructure and ritual as formal structure \u2014 Carrington's surrealist cosmologies alongside Vicu\u00f1a's precarious, language-threaded objects; category-blurring at a gallery scale.",
-        "url": "https://www.lehmannmaupin.com",
-        "date": "Nov 22 \u2013 Dec 19"
+        "why": "Wiley's return to New York as subject \u2014 conceived as a love letter to the city that launched his practice \u2014 with the work explicitly interrogating how identity, status, and symbol operate through portraiture and public space, which is a live demonstration of his interest in how symbols and power circulate.",
+        "url": "https://www.skny.com/exhibitions/kehinde-wiley2",
+        "date": "Nov 23 \u2013 Dec 19"
       },
       {
-        "name": "Temples: The BLISS Tour",
-        "venue": "Warsaw, 261 Driggs Ave, Brooklyn (Greenpoint)",
-        "date_start": "2026-12-02",
-        "date_end": "2026-12-02",
+        "name": "LCD Soundsystem NYC Residency \u2014 Brooklyn Steel Run (100th Show + Beyond)",
+        "venue": "Brooklyn Steel, 319 Frost St, Brooklyn",
+        "date_start": "2026-11-30",
+        "date_end": "2026-12-03",
         "category": "concert",
-        "why": "British psych-rock band's fifth album BLISS pushes into experimental synth and programmed drum territory \u2014 Aphex Twin and Daft Punk production logic laid under sun-soaked reverb guitars \u2014 in a 1,100-cap room inside the Polish National Home that's the right size to feel it.",
-        "url": "https://www.songkick.com/concerts/43153064-temples-at-warsaw",
-        "date": "Wed, Dec 2"
+        "why": "Four consecutive nights anchored by the band's 100th annual residency show \u2014 James Murphy's project has always been music about music culture, downtown identity, and time passing, performed with a precision that makes the room feel like a feedback loop between crowd and system.",
+        "url": "https://www.axs.com/events/1634214/lcd-soundsystem-tickets",
+        "date": "Nov 30 \u2013 Dec 3"
       }
     ]
   },
-  "trial_sources": [
-    {
-      "name": "Global Inequality and More 3.0 \u2014 Branko Milanovic",
-      "feed_url": "https://milanovic.substack.com/feed",
-      "why": "A world-class economist writing short, unpolished, and brilliant posts on geopolitics, history, power, and inequality \u2014 exactly the kind of individual-with-taste signal that cuts through institutional noise."
-    },
-    {
-      "name": "The Niche \u2014 Paul Knoepfler",
-      "feed_url": "https://ipscell.com/feed",
-      "why": "A UC Davis stem cell biologist running the web's most credible independent blog on stem cells, regenerative medicine, longevity, and peptide research \u2014 a rare scientist-with-a-voice covering this reader's exact health frontier."
-    },
-    {
-      "name": "Experimental History \u2014 Adam Mastroianni",
-      "feed_url": "https://www.experimental-history.com/feed",
-      "why": "Lauded by Paul Bloom as the best psychology Substack alive, Mastroianni blends rigorous empiricism with cultural wit to interrogate how we know what we know \u2014 perfect for the reader's psychology, taste formation, and status-signaling threads."
-    }
-  ]
+  "trial_sources": []
 }
