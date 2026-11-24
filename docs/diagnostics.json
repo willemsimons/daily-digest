@@ -1,28 +1,27 @@
 {
-  "feeds": 56,
-  "mined": 49,
-  "videos": 6,
+  "feeds": 72,
+  "mined": 48,
+  "videos": 8,
   "video_titles": [
     "Does adding helium reduce a balloon\u2019s mass?",
     "Randomness is a lie. Let me explain",
     "This is not a thread...",
+    "The Assassin's Water Bottle is Really Cool",
     "The Worst Possible Swing Technique",
     "Which Disc Will Spin for Longer?",
+    "Bambu Lab P3C Review: Half the Price, Almost as Good!",
     "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
   "final_items": 9,
   "final_sources": [
-    "Anthropic / GitHub",
+    "Aeon",
     "Ars Technica",
-    "GitHub / HN",
+    "Democracy Now",
     "Just Security",
-    "Kyiv Post / WDR, NDR, S\u00fcddeutsche Zeitung",
-    "Ladybird",
-    "MIT Technology Review",
-    "Sabukaru",
-    "YouTube \u2014 Steve Mould"
+    "Martin C. Martin",
+    "Michael Harley"
   ],
-  "had_video": true,
-  "run_at": "2026-11-23T22:55:16.677062+00:00"
+  "had_video": false,
+  "run_at": "2026-11-24T21:30:02.238696+00:00"
 }
