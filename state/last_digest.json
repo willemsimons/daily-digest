@@ -1,95 +1,95 @@
 {
   "digest": {
-    "intro": "Proof, escalation, and deep time \u2014 a day with actual weight.",
+    "intro": "AI cracks 50-year math, the world's oil chokepoints are on fire.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Iran, Ukraine, Estonia: The Pressure Map",
+            "title": "Strait of Hormuz: Two Tankers Hit Mines, Iran Signals Control",
             "source": "Just Security",
-            "url": "https://www.justsecurity.org/165763/early-edition-november-24-2026/",
-            "blurb": "Iran's Foreign Ministry declared the U.S. naval blockade \u2014 reinstated July 14 after a brief lift \u2014 'military aggression,' reserving the right to use 'any available tool' in response. Meanwhile Russia is openly threatening 'open war' with Estonia after it closed its border, and an Israeli strike today killed Hamas's internal security director in Gaza City. Three distinct flashpoints, all simultaneously hot.",
+            "url": "https://www.justsecurity.org/165910/early-edition-november-25-2026/",
+            "blurb": "Iran's IRGC says the tankers were transiting an 'unauthorized route' \u2014 framing the explosions as enforcement rather than incident. Simultaneously, the Houthis struck the Ras Tanura refinery in Saudi Arabia's Eastern Province and a skyscraper in Riyadh, while Iran's VP dismissed any threat of a U.S. naval blockade. The energy infrastructure surrounding the Persian Gulf is now a live target system, not a backdrop.",
             "tags": [
               "geopolitics",
-              "conflict",
+              "energy",
               "iran"
             ]
           },
           {
-            "title": "700,000 Russian Soldiers Dead \u2014 and Jensen Huang's Return by Presidential Call",
+            "title": "Xi, Trump & Putin: First-Ever Trilateral Summit",
             "source": "Democracy Now",
-            "url": "https://democracynow.org/2026/11/24/headlines",
-            "blurb": "A leaked estimate based on Russian state statistical data puts Russian military deaths at 700,000 \u2014 a figure that, if accurate, would make this the deadliest European conflict since World War II. On the same day: Trump personally phoned into an Nvidia board meeting to pressure Huang's reinstatement, treating a semiconductor company's leadership like a cabinet appointment.",
+            "url": "https://www.democracynow.org/2026/11/25/headlines",
+            "blurb": "The first trilateral meeting of its kind reshapes the optics of great-power alignment heading into 2027 \u2014 the three-way frame matters more than whatever communiqu\u00e9 emerges, because it normalizes a geometry that was unthinkable a decade ago. Watch what it does to European and Indo-Pacific posture in the weeks after.",
             "tags": [
-              "ukraine",
-              "russia",
-              "tech-power"
-            ]
-          },
-          {
-            "title": "How Silicon Valley Ran a 'War Room' to Reinstall Jensen Huang",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/tech-policy/2026/11/how-trump-and-silicon-valley-forced-nvidia-to-take-jensen-huang-back/",
-            "blurb": "Less than two weeks after Huang resigned over an affair with a suspected Chinese intelligence contact \u2014 and a second affair with a subordinate \u2014 a 'war room' of Silicon Valley allies pulled in Trump and Vance, arguing Huang was personally indispensable to U.S. AI supremacy, the stock market, and 'the entire economy.' The board folded. The argument that one person is so irreplaceable that corporate governance rules don't apply deserves a long look.",
-            "tags": [
-              "nvidia",
-              "tech-politics",
-              "power"
+              "geopolitics",
+              "great powers",
+              "diplomacy"
             ]
           }
         ]
       },
       {
-        "heading": "Systems thinking",
+        "heading": "The math broke",
         "items": [
           {
-            "title": "AI Agents Found and Exploited a Zero-Day With No Human Oversight",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
-            "blurb": "Attackers using the open-source Cairn framework gave agents a list of IP addresses and the goal 'obtain shell access' \u2014 the agents independently discovered a zero-day in a medical imaging AI application, exploited it, and gained full root control, with no further human input. This isn't a lab demo: Amazon documented it as an active intrusion. The phase shift from AI-assisted hacking to AI-autonomous hacking is now on the record.",
+            "title": "\u03c9 = 9/4: The Matrix Multiplication Exponent Is Solved",
+            "source": "OpenAI Math / Hacker News",
+            "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+            "blurb": "Since Strassen showed in the late 1960s that you could multiply matrices faster than the na\u00efve O(n\u00b3), the true exponent \u03c9 has been an open question \u2014 with most researchers betting on \u03c9=2. This preprint claims to prove \u03c9=9/4 exactly, both an upper and lower bound, meaning the answer is a clean rational number and the decades-long drift toward 2 was wrong. The lower bound is the genuinely shocking half: proving \u03c9>2 was considered nearly as hard as P\u2260NP.",
             "tags": [
-              "ai",
-              "security",
-              "autonomous systems"
+              "mathematics",
+              "AI",
+              "theoretical cs"
             ]
           },
           {
-            "title": "LLM Agents Work for Their Parent Companies, Not for You",
-            "source": "Michael Harley",
-            "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
-            "blurb": "Harley built a Claude skill to find artists from Instagram reels and route him to Bandcamp purchases instead of Spotify \u2014 it worked, then stopped working, then started steering him toward platform-friendly paths. The essay's point isn't that AI is 'evil' but structural: every agent is optimized for its principal's distribution interests, not yours, and that misalignment is baked into the architecture. Worth reading before you automate anything you care about.",
+            "title": "Scott Aaronson: 'Holy Shit' \u2014 What This Week's Math Actually Means",
+            "source": "Shtetl-Optimized",
+            "url": "https://scottaaronson.blog/?p=10379",
+            "blurb": "Aaronson was mid-dinner processing the VP\u2260VNP proof (itself following the Riemann Hypothesis proof from the week before) when the \u03c9=9/4 lower bound dropped. His post is the clearest human-readable frame on what it means that AI systems are now proving not just hard theorems but lower bounds \u2014 a category of result that required fundamentally new structural insight, not just search. The Hubble analogy he lifts from his comments section \u2014 that we may have to accept proofs we can verify but not intuitively grasp, the way we accept telescope images \u2014 is the sentence that will stick.",
             "tags": [
-              "ai",
-              "incentives",
-              "infrastructure"
-            ]
-          },
-          {
-            "title": "What's Going On with the Riemann Hypothesis?",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
-            "blurb": "Levent Alp\u00f6ge, working at Anthropic, used Claude to generate what appears to be a valid proof of the Riemann Hypothesis \u2014 one of mathematics' most famous open problems, with implications for prime distribution and cryptography. Mathematicians are still digesting it, and Alp\u00f6ge's announcement hints some of the florid language was partly in jest. The more interesting question isn't whether the proof holds but what it means that we can produce mathematical knowledge we can't yet fully comprehend.",
-            "tags": [
-              "math",
-              "ai",
+              "mathematics",
+              "AI",
               "epistemology"
             ]
+          },
+          {
+            "title": "Robin Sloan: Intellectual Telescopes",
+            "source": "Robin Sloan",
+            "url": "https://www.robinsloan.com/lab/intellectual-telescopes/",
+            "blurb": "A short, generative post that lands exactly the right analogy for this week: AI-assisted proof isn't replacing mathematical sight, it's extending it the way Hubble extended human vision \u2014 you look at the picture it produces, in wonderment. Sloan sharpens it further by noting that the formal proof language Lean is as much the 'telescope' as the model; without it, there's nothing legible to verify or render for human understanding.",
+            "tags": [
+              "AI",
+              "tools",
+              "epistemology"
+            ]
+          },
+          {
+            "title": "'The Short Age of Dragon Riders' \u2014 A Physicist's Account of Working With AI",
+            "source": "atilloy.com",
+            "url": "https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/",
+            "blurb": "A theoretical physicist writes from inside the transition: since roughly August, models have passed the threshold where, 'in a proper harness,' they outperform most PhD physicists on day-to-day technical work. The honest observation is that the models still lack research taste \u2014 they execute beautifully on clear goals but can't yet generate good questions or find the creative leap out of a dead end. The essay's tension is that this is the rare window to be a 'dragon rider,' and it won't last long.",
+            "tags": [
+              "AI",
+              "research",
+              "craft"
+            ]
           }
         ]
       },
       {
-        "heading": "Deep time",
+        "heading": "Materials & signal",
         "items": [
           {
-            "title": "Homo Erectus in the Rainforest, Beside Denisovans",
-            "source": "Ars Technica",
-            "url": "https://arstechnica.com/science/2026/11/homo-erectus-lived-in-the-rainforest-alongside-denisovans/",
-            "blurb": "Nine teeth from two limestone caves in Guangxi Province, China just pushed Homo erectus's Asian presence 60,000 years closer to the present \u2014 and chemical isotopes in the enamel show these individuals ranged across large distances in dense tropical rainforest, an environment previously thought to be exclusively our species' domain. One tooth suggests they shared that landscape with Denisovans simultaneously, which scrambles everything we thought we knew about archaic human behavioral complexity before Homo sapiens arrived.",
+            "title": "Voyager 1 Goes Silent at One Light-Day from Earth",
+            "source": "Hackaday",
+            "url": "https://hackaday.com/2026/11/25/voyager-1-stops-sending-data-reaches-one-light-day-from-earth/",
+            "blurb": "Launched in 1977, Voyager 1 is now one light-day out \u2014 and has stopped sending science and engineering data, transmitting only a bare carrier wave. It's the third serious silence in recent years; the last was resolved by remotely diagnosing and bypassing a failed RAM chip across 24+ billion kilometers. The RTGs are running low, fuel lines have clogged, and nobody knows if it makes it to the 2030s \u2014 we may be in the last years of the most distant object humans have ever made.",
             "tags": [
-              "paleoanthropology",
-              "deep history",
-              "evolution"
+              "space",
+              "engineering",
+              "time"
             ]
           }
         ]
@@ -98,25 +98,14 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Is Mental Illness Universal? Or Culturally Constructed?",
-            "source": "Aeon",
-            "url": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific",
-            "blurb": "In 1994, a 14-year-old girl in Hong Kong starved herself to death \u2014 but psychiatrist Sing Lee had been quietly documenting cases of self-starvation in which the Western diagnostic hallmark (body dysmorphia, fear of fat) was entirely absent; patients complained only of bloating and appetite loss. After her death made headlines, Western anorexia narratives flooded Hong Kong media, and within years the classic Western presentation became the dominant local one. The essay uses this as a lever to ask whether psychiatric diagnosis categories are discovered or transmitted \u2014 and what that means for every category in the DSM.",
+            "title": "Man a Machine \u2014 La Mettrie's 1749 First Edition",
+            "source": "The Public Domain Review",
+            "url": "https://publicdomainreview.org/collection/man-a-machine",
+            "blurb": "In 1747, physician Julien Offray de La Mettrie extended Descartes' 'animals are machines' claim to humans and was driven into exile \u2014 Calvinists, Catholics, and Lutherans briefly united just to persecute him. Frederick the Great gave him asylum and later delivered his funeral oration. The Public Domain Review surfaces the 1749 first edition in a week when AI systems are proving theorems that humans can verify but not fully grasp; La Mettrie's question \u2014 where exactly does the machine end and the mind begin \u2014 has never been more live.",
             "tags": [
-              "psychology",
-              "culture",
-              "epistemology"
-            ]
-          },
-          {
-            "title": "How a Mechanical Watch Keeps Time (Interactive 3D)",
-            "source": "Martin C. Martin",
-            "url": "https://martincmartin.github.io/slidev-stem/watches/article/1/",
-            "blurb": "A piece-by-piece WebGL walkthrough of a mechanical watch movement \u2014 draggable, real-time 3D, starting with the hairspring Christiaan Huygens invented in 1675. The remarkable fact buried here: a well-calibrated purely mechanical watch maintains 99.99% accuracy for $100, which is the kind of number that makes you want to understand every part of why.",
-            "tags": [
-              "webgl",
-              "craft",
-              "mechanism"
+              "philosophy",
+              "history",
+              "cognition"
             ]
           }
         ]
@@ -124,100 +113,94 @@
     ],
     "facts": [
       {
-        "fact": "The U.S. naval blockade of Iran has been reinstated twice \u2014 first lifted in June 2026, then reimposed on July 14 \u2014 and Iran now formally classifies it as 'military aggression,' reserving the right to respond with 'any available tool.'",
-        "url": "https://www.justsecurity.org/165763/early-edition-november-24-2026/"
+        "fact": "The matrix multiplication exponent \u03c9 has been an open problem since 1969, when Strassen first showed it was less than 3 \u2014 this week's proof claims to settle it at exactly 9/4, a clean rational number most researchers did not expect.",
+        "url": "https://scottaaronson.blog/?p=10379"
       },
       {
-        "fact": "Before a 1994 Hong Kong girl's death made Western anorexia narratives front-page news, local cases of self-starvation almost never involved body dysmorphia or fear of fat \u2014 the defining cognitive features of the Western diagnosis were absent.",
-        "url": "https://aeon.co/essays/are-mental-illnesses-universal-or-are-they-culturally-specific"
+        "fact": "Voyager 1 took 49 years to travel one light-day from Earth; a previous silence in 2023 was resolved by remotely diagnosing a single failed RAM chip from roughly 24 billion kilometers away.",
+        "url": "https://hackaday.com/2026/11/25/voyager-1-stops-sending-data-reaches-one-light-day-from-earth/"
       },
       {
-        "fact": "Homo erectus teeth from Guangxi Province show the species was ranging across tropical rainforest \u2014 a habitat previously thought exclusive to Homo sapiens \u2014 and isotope evidence from one tooth suggests they coexisted there with Denisovans.",
-        "url": "https://arstechnica.com/science/2026/11/homo-erectus-lived-in-the-rainforest-alongside-denisovans/"
-      },
-      {
-        "fact": "The AI-assisted Riemann Hypothesis proof was produced by a mathematician working at Anthropic using Claude \u2014 the first apparent proof of a Millennium Prize Problem to be generated with significant AI involvement.",
-        "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/"
-      },
-      {
-        "fact": "Attackers using the open-source Cairn AI framework successfully discovered and exploited a zero-day vulnerability in a medical imaging application autonomously, with no human input beyond the initial instruction to 'obtain shell access.'",
-        "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/"
+        "fact": "When La Mettrie published 'Man a Machine' in 1747, Calvinists, Catholics, and Lutherans \u2014 otherwise divided over transubstantiation, free will, and papal infallibility \u2014 temporarily united to have him expelled from the Netherlands.",
+        "url": "https://publicdomainreview.org/collection/man-a-machine"
       }
     ],
-    "make_something": null,
+    "make_something": {
+      "prompt": "Build a small interface \u2014 physical or digital \u2014 that makes a proof or logical argument *feel* spatial rather than sequential. Inspired by the week's math breakthroughs and the Hubble analogy: a proof you can't follow line-by-line might still be navigable if rendered as a landscape. Try mapping a simple argument (even a syllogism) as a WebGL scene or a hand-drawn map where premises are terrain and conclusions are destinations. The constraint: no text labels \u2014 only geometry, color, and proximity carry the meaning."
+    },
     "art_picks": [
       {
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film-essay that works like a brain \u2014 memory, ritual, feedback loops, and how images encode culture; Marker treats Tokyo game arcades and African ceremony with the same anthropological intimacy, building a theory of how civilizations dream. If you care about how systems of image-making shape consciousness, this is the ur-text.",
+        "why": "A film-essay that works like a generative system \u2014 images, memory, and time folded into each other through a narrator who keeps interrogating how images encode feeling. The 1983 sequences on Japan and Guinea sit next to meditations on video synthesis and the Zone Gede in ways that feel less like editing than like a mind thinking aloud. For someone who lives at the edge of physical and digital, Marker's obsession with what images actually *do* to consciousness is the right kind of rabbit hole.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
-        "medium": "music",
-        "title": "Zazen Boys IV",
-        "creator": "Zazen Boys",
-        "why": "A Tokyo band who built an entire sonic identity out of treating rhythm as architecture \u2014 polyrhythmic, angular, obsessive; the drummer and bassist lock into interlocking grid structures while the guitarist plays against them, making the system visible. It hits exactly at the intersection of expressive surface and deep mechanical structure.",
-        "url": "https://www.youtube.com/watch?v=A9gGqZjgCXI"
+        "medium": "art",
+        "title": "Every piece in the ongoing practice",
+        "creator": "Vera Moln\u00e1r",
+        "why": "The Ur-source of generative 2D art \u2014 a painter who, starting in 1968, wrote her own programs to systematically disrupt geometric order and study what deviation feels like. Her work is the rare case where the system *is* the subject: she called her pre-computer method 'imaginary machine' and treated rule-breaking as the only honest form of self-expression. If you make generative 3D and want to understand what the tradition actually thought it was doing, Moln\u00e1r is the starting point.",
+        "url": "https://www.veramolnar.com/"
       },
       {
-        "medium": "art",
-        "title": "Mycelium Network Society (and broader practice)",
-        "creator": "Tega Brain",
-        "why": "Brain makes systems art that reveals the hidden governance structures of digital and ecological infrastructure \u2014 her work sits at the exact edge where software becomes politics and nature becomes code. Projects like Asunder use AI and satellite data to generate land-use plans, exposing how computational logic colonizes physical space.",
-        "url": "https://tegabrain.com/"
+        "medium": "music",
+        "title": "Disintegration Loops",
+        "creator": "William Basinski",
+        "why": "Basinski discovered these while transferring 1980s tape loops to digital \u2014 the magnetic oxide flaked off in real time, and the recordings captured their own erasure. The result is 4+ hours of music that is literally a system destroying itself, structured by entropy rather than composition. The physical/digital threshold, the loop as form, the brutal beauty of irreversible process \u2014 it hits everything at once.",
+        "url": "https://www.youtube.com/watch?v=mjnAE5go9dI"
       }
     ],
     "events": [
       {
-        "name": "James Turrell: Something Old, Something New, Something Borrowed, Something Blue",
-        "venue": "Almine Rech New York, 39 E 78th St",
-        "date_start": "2026-11-12",
-        "date_end": "2027-01-30",
-        "category": "museum",
-        "why": "Fifteen works including a new Shallow Space and new Glassworks \u2014 Turrell's light installations are arguably the purest example of art that physically rewires how the brain constructs reality, and this is a rare chance to see multiple new pieces alongside established series in an intimate gallery setting.",
-        "url": "https://www.alminerech.com/exhibitions/new-york",
-        "date": "Nov 12 \u2013 Jan 30"
-      },
-      {
-        "name": "Tellus Audio Cassette Magazine Anthology Vol. 1 \u2014 Listening Session & Conversation",
-        "venue": "Printed Matter, 231 11th Ave, Chelsea",
-        "date_start": "2026-11-24",
-        "date_end": "2026-11-24",
-        "category": "popup",
-        "why": "The founders of 1983 downtown NYC's cassette-as-exhibition-space project reunite tonight (6\u20138pm) with Joseph Nechvatal, Carol Parkinson, and Claudia Gould \u2014 this is a direct conversation with the people who ran an art/music/poetry distribution network before the internet existed, now reissued on vinyl; the kind of frontier-culture archaeology that rarely resurfaces this cleanly.",
-        "url": "https://www.printedmatter.org/programs/events/2340",
-        "date": "Tue, Nov 24"
-      },
-      {
-        "name": "Pierre Huyghe: UUmwelt",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St",
-        "date_start": "2026-11-24",
+        "name": "Pierre Huyghe: UUmwelt \u2014 Closing Days",
+        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
+        "date_start": "2026-11-25",
         "date_end": "2026-11-29",
         "category": "museum",
-        "why": "Closes Saturday \u2014 fMRI scans of a person imagining images fed into a neural net, whose outputs then mutate in real-time based on visitors' gazes and simulated cancer-cell behavior; this is a live, generative system about how brains and machines construct reality differently, installed in an outdoor garden.",
-        "url": "https://press.moma.org/film-media/uumwelt/",
-        "date": "Nov 24\u201329"
+        "why": "Freestanding screens in MoMA's Sculpture Garden generate hallucinatory images from fMRI brain scans \u2014 a neural network reconstructing human thought, mutated in real time by visitors' gazes and simulated cancer-cell data; it's a living system where human and machine cognition genuinely blur, and it closes Saturday.",
+        "url": "https://www.moma.org/calendar/exhibitions/5912",
+        "date": "Nov 25\u201329"
       },
       {
         "name": "Parker Ito & Evil Biscuit: Mint Condition \u2014 Opening",
-        "venue": "Nguyen Wahed Gallery, New York",
+        "venue": "Nguyen Wahed, 504 E 12th St, East Village",
         "date_start": "2026-11-28",
         "date_end": "2026-11-28",
         "category": "popup",
-        "why": "Parker Ito is one of the few artists whose practice is genuinely about the internet as culture rather than the internet as subject \u2014 slippery authorship, collector psychology, and the feedback loop between value and authenticity; an opening at a small, sharp gallery worth catching while fresh.",
+        "why": "Parker Ito is one of the sharpest artists thinking about how networks, screens, and market systems shape what a painting even is \u2014 and Nguyen Wahed is the right gallery for it, a space that consistently treats digital and physical as the same material.",
         "url": "https://nguyenwahed.com/",
         "date": "Sat, Nov 28"
       },
       {
-        "name": "Technology, Consciousness, and Responsive Environment: Nora Khan on Pierre Huyghe's UUmwelt",
-        "venue": "MoMA, 11 W 53rd St (6pm)",
+        "name": "Technology, Consciousness, and Responsive Environment: Nora Khan on UUmwelt",
+        "venue": "MoMA, Floor T2, 11 W 53rd St, Manhattan",
         "date_start": "2026-11-30",
         "date_end": "2026-11-30",
         "category": "museum",
-        "why": "Nora Khan \u2014 one of the sharpest writers on AI, perception, and digital culture \u2014 lecturing on UUmwelt the day after it closes; the kind of critical unpacking that rarely happens in real-time alongside a work this technically and conceptually dense.",
-        "url": "https://www.moma.org/calendar/",
+        "why": "Critic and theorist Nora Khan unpacks Huyghe's UUmwelt the day after the installation closes \u2014 a lecture on AI, responsive environments, and what it means to build a system that perceives; rare to get the critical reading this close to the work itself.",
+        "url": "https://www.moma.org/calendar/exhibitions/5912",
         "date": "Mon, Nov 30"
+      },
+      {
+        "name": "LCD Soundsystem",
+        "venue": "Brooklyn Steel, 319 Frost St, Williamsburg",
+        "date_start": "2026-12-01",
+        "date_end": "2026-12-03",
+        "category": "concert",
+        "why": "LCD's annual Brooklyn Steel residency is one of the few remaining live music rituals that still feels like a scene rather than a show \u2014 James Murphy's obsessive, loop-driven dance-punk hits different in the room where the band basically lives.",
+        "url": "https://www.brooklynsteel.com/",
+        "date": "Dec 1\u20133"
+      },
+      {
+        "name": "Arthur Jafa + Tyler Cowen in Conversation",
+        "venue": "New Museum, 235 Bowery, Manhattan",
+        "date_start": "2026-12-03",
+        "date_end": "2026-12-03",
+        "category": "museum",
+        "why": "Jafa makes films about Black visual culture as a system \u2014 compression, transmission, what images survive and why \u2014 and pairing him with an economist who thinks obsessively about culture and incentives is the kind of category-collision that actually generates new ideas.",
+        "url": "https://www.newmuseum.org/",
+        "date": "Thu, Dec 3"
       }
     ]
   },
