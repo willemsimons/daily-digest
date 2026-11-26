@@ -1,95 +1,84 @@
 {
   "digest": {
-    "intro": "AI cracks 50-year math, the world's oil chokepoints are on fire.",
+    "intro": "Infrastructure, orbits, and voices: the architecture of everything is being renegotiated.",
     "sections": [
       {
         "heading": "World",
         "items": [
           {
-            "title": "Strait of Hormuz: Two Tankers Hit Mines, Iran Signals Control",
-            "source": "Just Security",
-            "url": "https://www.justsecurity.org/165910/early-edition-november-25-2026/",
-            "blurb": "Iran's IRGC says the tankers were transiting an 'unauthorized route' \u2014 framing the explosions as enforcement rather than incident. Simultaneously, the Houthis struck the Ras Tanura refinery in Saudi Arabia's Eastern Province and a skyscraper in Riyadh, while Iran's VP dismissed any threat of a U.S. naval blockade. The energy infrastructure surrounding the Persian Gulf is now a live target system, not a backdrop.",
+            "title": "Russia Locks In Its Largest Military Budget Since the Soviet Era",
+            "source": "10 Things Global News",
+            "url": "https://www.10things.news/p/10-things-global-news-26th-november-56a",
+            "blurb": "Russia has formally approved the budget, while Germany's incoming chancellor Friedrich Merz has gone on record saying Russian ambitions extend well beyond Ukraine \u2014 framing this as a continental threat, not a bilateral conflict. These two data points together are more important than any single battlefield update: one is a resource commitment, the other is a named strategic doctrine.",
             "tags": [
               "geopolitics",
-              "energy",
+              "europe",
+              "conflict"
+            ]
+          },
+          {
+            "title": "Iran Bricked Hundreds of French Supermarket Freezers \u2014 Remotely, at Scale",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
+            "blurb": "In October, the IRGC-linked group CyberAv3ngers cranked temperatures in refrigeration systems across hundreds of French supermarkets, destroying millions of euros of food \u2014 the largest cyberattack on commercial cold-chain infrastructure ever recorded. French intelligence found Farsi and other traces pointing to Shahid Kaveh, a unit previously known for targeting Israeli-made industrial controllers in U.S. water and transport systems. The qualitative shift: state-backed Iranian cyber operations are now deliberately hitting European consumer infrastructure, not just signaling capability.",
+            "tags": [
+              "cyberwar",
+              "infrastructure",
               "iran"
             ]
-          },
-          {
-            "title": "Xi, Trump & Putin: First-Ever Trilateral Summit",
-            "source": "Democracy Now",
-            "url": "https://www.democracynow.org/2026/11/25/headlines",
-            "blurb": "The first trilateral meeting of its kind reshapes the optics of great-power alignment heading into 2027 \u2014 the three-way frame matters more than whatever communiqu\u00e9 emerges, because it normalizes a geometry that was unthinkable a decade ago. Watch what it does to European and Indo-Pacific posture in the weeks after.",
-            "tags": [
-              "geopolitics",
-              "great powers",
-              "diplomacy"
-            ]
           }
         ]
       },
       {
-        "heading": "The math broke",
+        "heading": "The orbital and the physical",
         "items": [
           {
-            "title": "\u03c9 = 9/4: The Matrix Multiplication Exponent Is Solved",
-            "source": "OpenAI Math / Hacker News",
-            "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
-            "blurb": "Since Strassen showed in the late 1960s that you could multiply matrices faster than the na\u00efve O(n\u00b3), the true exponent \u03c9 has been an open question \u2014 with most researchers betting on \u03c9=2. This preprint claims to prove \u03c9=9/4 exactly, both an upper and lower bound, meaning the answer is a clean rational number and the decades-long drift toward 2 was wrong. The lower bound is the genuinely shocking half: proving \u03c9>2 was considered nearly as hard as P\u2260NP.",
-            "tags": [
-              "mathematics",
-              "AI",
-              "theoretical cs"
-            ]
-          },
-          {
-            "title": "Scott Aaronson: 'Holy Shit' \u2014 What This Week's Math Actually Means",
-            "source": "Shtetl-Optimized",
-            "url": "https://scottaaronson.blog/?p=10379",
-            "blurb": "Aaronson was mid-dinner processing the VP\u2260VNP proof (itself following the Riemann Hypothesis proof from the week before) when the \u03c9=9/4 lower bound dropped. His post is the clearest human-readable frame on what it means that AI systems are now proving not just hard theorems but lower bounds \u2014 a category of result that required fundamentally new structural insight, not just search. The Hubble analogy he lifts from his comments section \u2014 that we may have to accept proofs we can verify but not intuitively grasp, the way we accept telescope images \u2014 is the sentence that will stick.",
-            "tags": [
-              "mathematics",
-              "AI",
-              "epistemology"
-            ]
-          },
-          {
-            "title": "Robin Sloan: Intellectual Telescopes",
-            "source": "Robin Sloan",
-            "url": "https://www.robinsloan.com/lab/intellectual-telescopes/",
-            "blurb": "A short, generative post that lands exactly the right analogy for this week: AI-assisted proof isn't replacing mathematical sight, it's extending it the way Hubble extended human vision \u2014 you look at the picture it produces, in wonderment. Sloan sharpens it further by noting that the formal proof language Lean is as much the 'telescope' as the model; without it, there's nothing legible to verify or render for human understanding.",
-            "tags": [
-              "AI",
-              "tools",
-              "epistemology"
-            ]
-          },
-          {
-            "title": "'The Short Age of Dragon Riders' \u2014 A Physicist's Account of Working With AI",
-            "source": "atilloy.com",
-            "url": "https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/",
-            "blurb": "A theoretical physicist writes from inside the transition: since roughly August, models have passed the threshold where, 'in a proper harness,' they outperform most PhD physicists on day-to-day technical work. The honest observation is that the models still lack research taste \u2014 they execute beautifully on clear goals but can't yet generate good questions or find the creative leap out of a dead end. The essay's tension is that this is the rare window to be a 'dragon rider,' and it won't last long.",
-            "tags": [
-              "AI",
-              "research",
-              "craft"
-            ]
-          }
-        ]
-      },
-      {
-        "heading": "Materials & signal",
-        "items": [
-          {
-            "title": "Voyager 1 Goes Silent at One Light-Day from Earth",
-            "source": "Hackaday",
-            "url": "https://hackaday.com/2026/11/25/voyager-1-stops-sending-data-reaches-one-light-day-from-earth/",
-            "blurb": "Launched in 1977, Voyager 1 is now one light-day out \u2014 and has stopped sending science and engineering data, transmitting only a bare carrier wave. It's the third serious silence in recent years; the last was resolved by remotely diagnosing and bypassing a failed RAM chip across 24+ billion kilometers. The RTGs are running low, fuel lines have clogged, and nobody knows if it makes it to the 2030s \u2014 we may be in the last years of the most distant object humans have ever made.",
+            "title": "FCC Authorizes SpaceX to Deploy One Million Orbital Data Centers",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+            "blurb": "The FCC just handed SpaceX a 14-year regulatory runway to deploy up to one million Starmind satellites \u2014 orbital data centers, not just comms relays \u2014 which would increase total objects in Earth orbit by roughly 50-fold. SpaceX needs only one operational satellite by 2033, 100,000 by 2035, and the full million by 2040; the authorization is designed to give maximum latitude while technical and economic viability remain unproven. This is less a space story than a property-rights story: who owns the orbital commons, and what does Kessler risk look like when a single private company controls half a million active objects.",
             "tags": [
               "space",
-              "engineering",
-              "time"
+              "infrastructure",
+              "policy"
+            ]
+          },
+          {
+            "title": "A Bionic Hand That Can Feel \u2014 First Home User",
+            "source": "MIT Technology Review",
+            "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/",
+            "blurb": "Avi Davidson is the ninth person implanted with the LUKE arm's nerve-interface system, and the first to take it home and use it independently \u2014 wired directly to peripheral nerves in his forearm, he can now feel the difference in pressure between holding a grape and holding his wife's hand. The clinical trial isn't testing the arm itself (FDA-approved since 2014) but the new neural connection method, and researchers are specifically watching for effects on brain plasticity and long-term wellbeing, not just task performance. The question of what 'touch' means as a bidirectional signal \u2014 not just motor output but sensory feedback closing the loop \u2014 is the genuinely new territory here.",
+            "tags": [
+              "haptics",
+              "neuroscience",
+              "embodiment"
+            ]
+          }
+        ]
+      },
+      {
+        "heading": "Mind and signal",
+        "items": [
+          {
+            "title": "AI Can Solve 60% of Unpublished Physics Problems \u2014 Now What?",
+            "source": "Ars Technica",
+            "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/",
+            "blurb": "Suvrat Raju at ICTS Bengaluru ran a clean benchmark: he collected private, never-published solutions from working physicists \u2014 problems that take an expert about a day to solve \u2014 specifically to avoid training-data contamination. Leading models scored around 60%, good enough to fundamentally change what a junior physicist does with their time. The discipline-level question that follows is the same one artists, writers, and engineers are all sitting with: when the hard part gets automated, what is the work?",
+            "tags": [
+              "ai",
+              "physics",
+              "labor"
+            ]
+          },
+          {
+            "title": "The Great De-Individualization",
+            "source": "Simon Willison's Weblog",
+            "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+            "blurb": "Jack Despain Zhou's line \u2014 'I open a YouTube video, and I hear Claude' \u2014 is one sentence that names what's happening to voice at a cultural level: not that AI is used, but that it's converging on a single aesthetic register across ostensibly different people and institutions. Simon Willison quotes it without much commentary, which is the right move; the observation is sharp enough to stand alone and uncomfortable enough that it probably deserves more direct confrontation than it's getting.",
+            "tags": [
+              "ai",
+              "culture",
+              "voice"
             ]
           }
         ]
@@ -98,108 +87,124 @@
         "heading": "Off the map",
         "items": [
           {
-            "title": "Man a Machine \u2014 La Mettrie's 1749 First Edition",
-            "source": "The Public Domain Review",
-            "url": "https://publicdomainreview.org/collection/man-a-machine",
-            "blurb": "In 1747, physician Julien Offray de La Mettrie extended Descartes' 'animals are machines' claim to humans and was driven into exile \u2014 Calvinists, Catholics, and Lutherans briefly united just to persecute him. Frederick the Great gave him asylum and later delivered his funeral oration. The Public Domain Review surfaces the 1749 first edition in a week when AI systems are proving theorems that humans can verify but not fully grasp; La Mettrie's question \u2014 where exactly does the machine end and the mind begin \u2014 has never been more live.",
+            "title": "79 UI Style Guides, From Amiga to Android \u2014 All in One Archive",
+            "source": "Ares Luna",
+            "url": "https://aresluna.org/ui-style-guides/",
+            "blurb": "Marcin Wichary has assembled 79 platform interface guidelines \u2014 the internal documents where Windows, BlackBerry, Amiga, and others encoded their entire philosophy of how humans should touch computers \u2014 some scanned personally, some rescued from disappearing servers. These are the primary sources for understanding how taste gets institutionalized: a style guide is a belief system wearing the clothes of a specification, and reading several in sequence makes the ideology visible in a way a single document never does. If you've ever wondered how a generation of users came to share intuitions about where menus live and what a button should feel like, this is the archaeology.",
             "tags": [
-              "philosophy",
-              "history",
-              "cognition"
+              "design history",
+              "interface",
+              "archives"
             ]
+          },
+          {
+            "title": "Rogue Waves Were Dismissed as Sailor Myth for Decades",
+            "source": "Veritasium",
+            "url": "https://www.youtube.com/watch?v=WbM7GP7QoEM",
+            "blurb": "Veritasium's long-form documentary treatment of rogue waves \u2014 the ones that reach 30 meters and appear from calm seas without warning \u2014 covers the history of scientists systematically dismissing seafarer accounts until a single sensor measurement in 1995 made denial untenable. It's also a story about nonlinear systems and constructive interference, where normal-looking inputs suddenly produce catastrophic outputs, which is a pattern worth having a physical intuition for well beyond oceanography.",
+            "tags": [
+              "physics",
+              "ocean",
+              "nonlinear systems"
+            ],
+            "thumbnail": "https://i4.ytimg.com/vi/WbM7GP7QoEM/hqdefault.jpg"
           }
         ]
       }
     ],
     "facts": [
       {
-        "fact": "The matrix multiplication exponent \u03c9 has been an open problem since 1969, when Strassen first showed it was less than 3 \u2014 this week's proof claims to settle it at exactly 9/4, a clean rational number most researchers did not expect.",
-        "url": "https://scottaaronson.blog/?p=10379"
+        "fact": "SpaceX's new FCC authorization would increase the total number of satellites in Earth orbit by roughly 50-fold if fully deployed \u2014 from today's roughly 20,000 to one million Starmind orbital data centers.",
+        "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/"
       },
       {
-        "fact": "Voyager 1 took 49 years to travel one light-day from Earth; a previous silence in 2023 was resolved by remotely diagnosing a single failed RAM chip from roughly 24 billion kilometers away.",
-        "url": "https://hackaday.com/2026/11/25/voyager-1-stops-sending-data-reaches-one-light-day-from-earth/"
+        "fact": "The Iranian hacking unit CyberAv3ngers remotely raised temperatures across hundreds of French supermarket refrigeration systems in a single night in October \u2014 the largest cyberattack on cold-chain commercial infrastructure ever recorded.",
+        "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/"
       },
       {
-        "fact": "When La Mettrie published 'Man a Machine' in 1747, Calvinists, Catholics, and Lutherans \u2014 otherwise divided over transubstantiation, free will, and papal infallibility \u2014 temporarily united to have him expelled from the Netherlands.",
-        "url": "https://publicdomainreview.org/collection/man-a-machine"
+        "fact": "To build a clean AI physics benchmark, researchers had to collect never-published solutions from working physicists \u2014 problems that take human experts roughly one day each \u2014 because any published problem risks being in a model's training data.",
+        "url": "https://arstechnica.com/ai/2026/11/ai-can-do-the-calculations-physicists-are-figuring-out-what-comes-next/"
+      },
+      {
+        "fact": "Avi Davidson is only the ninth person ever implanted with the LUKE bionic arm's nerve-interface system, and the first allowed to take it home \u2014 meaning the entire at-home evidence base for touch-feedback prosthetics currently consists of one person.",
+        "url": "https://www.technologyreview.com/2026/11/26/1149923/the-next-generation-of-bionic-hands-is-here-and-they-can-feel/"
       }
     ],
     "make_something": {
-      "prompt": "Build a small interface \u2014 physical or digital \u2014 that makes a proof or logical argument *feel* spatial rather than sequential. Inspired by the week's math breakthroughs and the Hubble analogy: a proof you can't follow line-by-line might still be navigable if rendered as a landscape. Try mapping a simple argument (even a syllogism) as a WebGL scene or a hand-drawn map where premises are terrain and conclusions are destinations. The constraint: no text labels \u2014 only geometry, color, and proximity carry the meaning."
+      "prompt": "Pick one UI style guide from the Ares Luna archive \u2014 Amiga, BlackBerry, CDE, your choice \u2014 and read its opening philosophy section. Then design a single interface element (a button, a dialog, a scroll behavior) as if that platform's belief system had survived to 2026 and been forced to accommodate one piece of current technology it never anticipated. Sketch it, prototype it in code, or just write the spec as that platform's designers would have written it. The constraint is the point."
     },
     "art_picks": [
       {
         "medium": "film",
         "title": "Sans Soleil",
         "creator": "Chris Marker",
-        "why": "A film-essay that works like a generative system \u2014 images, memory, and time folded into each other through a narrator who keeps interrogating how images encode feeling. The 1983 sequences on Japan and Guinea sit next to meditations on video synthesis and the Zone Gede in ways that feel less like editing than like a mind thinking aloud. For someone who lives at the edge of physical and digital, Marker's obsession with what images actually *do* to consciousness is the right kind of rabbit hole.",
+        "why": "A film-essay that dissolves the boundary between memory, image-making, and the systems that structure perception \u2014 Marker treats the camera as a philosophical instrument and Tokyo as a circuit board for human ritual. If you care about how images accumulate meaning and how cultures encode themselves into objects and ceremonies, this is the one.",
         "url": "https://letterboxd.com/film/sans-soleil/"
       },
       {
         "medium": "art",
-        "title": "Every piece in the ongoing practice",
-        "creator": "Vera Moln\u00e1r",
-        "why": "The Ur-source of generative 2D art \u2014 a painter who, starting in 1968, wrote her own programs to systematically disrupt geometric order and study what deviation feels like. Her work is the rare case where the system *is* the subject: she called her pre-computer method 'imaginary machine' and treated rule-breaking as the only honest form of self-expression. If you make generative 3D and want to understand what the tradition actually thought it was doing, Moln\u00e1r is the starting point.",
-        "url": "https://www.veramolnar.com/"
+        "title": "Homomorphisms (ongoing series)",
+        "creator": "Casey Reas",
+        "why": "Reas treats software not as a tool but as a medium with its own aesthetics \u2014 his generative works sit exactly at the intersection of code-as-expression and visual systems with emergent complexity. His artist page collects the full arc of the practice.",
+        "url": "https://reas.com"
       },
       {
         "medium": "music",
         "title": "Disintegration Loops",
         "creator": "William Basinski",
-        "why": "Basinski discovered these while transferring 1980s tape loops to digital \u2014 the magnetic oxide flaked off in real time, and the recordings captured their own erasure. The result is 4+ hours of music that is literally a system destroying itself, structured by entropy rather than composition. The physical/digital threshold, the loop as form, the brutal beauty of irreversible process \u2014 it hits everything at once.",
-        "url": "https://www.youtube.com/watch?v=mjnAE5go9dI"
+        "why": "Basinski discovered this work by accident \u2014 decades-old tape reels dissolving in real time as he tried to digitize them on September 11, 2001. The result is a document of entropy as beauty, of systems collapsing into themselves. It's the rare piece where the process and the artifact are inseparable, and it hits differently if you work with physical/digital edges.",
+        "url": "https://www.williambasinski.com/disintegration-loops"
       }
     ],
     "events": [
       {
-        "name": "Pierre Huyghe: UUmwelt \u2014 Closing Days",
-        "venue": "MoMA Abby Aldrich Rockefeller Sculpture Garden, 11 W 53rd St, Manhattan",
-        "date_start": "2026-11-25",
-        "date_end": "2026-11-29",
+        "name": "Na Mira: NO SMOKING",
+        "venue": "MoMA, Kravis Studio, Floor 4 \u2014 11 W 53rd St, Manhattan",
+        "date_start": "2026-11-26",
+        "date_end": "2027-02-15",
         "category": "museum",
-        "why": "Freestanding screens in MoMA's Sculpture Garden generate hallucinatory images from fMRI brain scans \u2014 a neural network reconstructing human thought, mutated in real time by visitors' gazes and simulated cancer-cell data; it's a living system where human and machine cognition genuinely blur, and it closes Saturday.",
-        "url": "https://www.moma.org/calendar/exhibitions/5912",
-        "date": "Nov 25\u201329"
+        "why": "Na Mira's first New York solo museum show is a commissioned media installation built from radio frequencies, infrared heat, and holography \u2014 rooted in Korean shamanism and structural filmmaking \u2014 that interrogates how images serve propaganda and soft power; formally unlike anything else currently on view in the city.",
+        "url": "https://www.moma.org/calendar/exhibitions/5869",
+        "date": "Nov 26 \u2013 Feb 15"
       },
       {
-        "name": "Parker Ito & Evil Biscuit: Mint Condition \u2014 Opening",
-        "venue": "Nguyen Wahed, 504 E 12th St, East Village",
-        "date_start": "2026-11-28",
-        "date_end": "2026-11-28",
-        "category": "popup",
-        "why": "Parker Ito is one of the sharpest artists thinking about how networks, screens, and market systems shape what a painting even is \u2014 and Nguyen Wahed is the right gallery for it, a space that consistently treats digital and physical as the same material.",
-        "url": "https://nguyenwahed.com/",
-        "date": "Sat, Nov 28"
-      },
-      {
-        "name": "Technology, Consciousness, and Responsive Environment: Nora Khan on UUmwelt",
-        "venue": "MoMA, Floor T2, 11 W 53rd St, Manhattan",
-        "date_start": "2026-11-30",
-        "date_end": "2026-11-30",
+        "name": "Arthur Jafa: I Am Tony",
+        "venue": "New Museum \u2014 235 Bowery, Lower East Side",
+        "date_start": "2026-11-26",
+        "date_end": "2027-01-03",
         "category": "museum",
-        "why": "Critic and theorist Nora Khan unpacks Huyghe's UUmwelt the day after the installation closes \u2014 a lecture on AI, responsive environments, and what it means to build a system that perceives; rare to get the critical reading this close to the work itself.",
-        "url": "https://www.moma.org/calendar/exhibitions/5912",
-        "date": "Mon, Nov 30"
+        "why": "The largest survey of Jafa's practice to date \u2014 films, artifacts, and new work spanning nearly four decades of searching for visual equivalents to the rhythms and realities of Black life in America; also catch the companion Dec 4 Metrograph screening of Daughters of the Dust, which Jafa shot.",
+        "url": "https://www.newmuseum.org/exhibition/arthur-jafa-i-am-tony/",
+        "date": "Nov 26 \u2013 Jan 3"
       },
       {
-        "name": "LCD Soundsystem",
-        "venue": "Brooklyn Steel, 319 Frost St, Williamsburg",
-        "date_start": "2026-12-01",
-        "date_end": "2026-12-03",
-        "category": "concert",
-        "why": "LCD's annual Brooklyn Steel residency is one of the few remaining live music rituals that still feels like a scene rather than a show \u2014 James Murphy's obsessive, loop-driven dance-punk hits different in the room where the band basically lives.",
-        "url": "https://www.brooklynsteel.com/",
-        "date": "Dec 1\u20133"
+        "name": "Doris Salcedo at White Cube",
+        "venue": "White Cube New York \u2014 1002 Madison Ave, Upper East Side",
+        "date_start": "2026-11-26",
+        "date_end": "2027-01-23",
+        "category": "museum",
+        "why": "Salcedo works in the space where material, violence, and collective memory collide \u2014 her sculptures carry an almost physical weight of historical silence; a sharp counterpoint to the screen-based work elsewhere on this list.",
+        "url": "https://www.whitecube.com/gallery-exhibitions/new-york",
+        "date": "Nov 26 \u2013 Jan 23"
       },
       {
-        "name": "Arthur Jafa + Tyler Cowen in Conversation",
-        "venue": "New Museum, 235 Bowery, Manhattan",
+        "name": "Arthur Jafa and Tyler Cowen in Conversation",
+        "venue": "New Museum Theater \u2014 235 Bowery, Lower East Side",
         "date_start": "2026-12-03",
         "date_end": "2026-12-03",
         "category": "museum",
-        "why": "Jafa makes films about Black visual culture as a system \u2014 compression, transmission, what images survive and why \u2014 and pairing him with an economist who thinks obsessively about culture and incentives is the kind of category-collision that actually generates new ideas.",
-        "url": "https://www.newmuseum.org/",
+        "why": "Jafa in public conversation with an interlocutor known for probing thinkers on culture and incentives \u2014 the rare talk where the artist's ideas about image, power, and Black being get stress-tested by someone from outside the art world entirely; listed as sold out so worth the waitlist hustle.",
+        "url": "https://www.newmuseum.org/event/12-03-2026/",
+        "date": "Thu, Dec 3"
+      },
+      {
+        "name": "Interpretations: Gerry Hemingway, Lina Andonovska & Earl Howard // Kyle Motl",
+        "venue": "Roulette \u2014 509 Atlantic Ave, Brooklyn",
+        "date_start": "2026-12-03",
+        "date_end": "2026-12-03",
+        "category": "concert",
+        "why": "Roulette is the city's sharpest room for creative improvisation and experimental composition \u2014 this triple-bill of free improv and extended technique sits at the edge where listening becomes a physical and systemic act.",
+        "url": "https://roulette.org",
         "date": "Thu, Dec 3"
       }
     ]
