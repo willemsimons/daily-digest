@@ -1,6 +1,6 @@
 {
-  "feeds": 69,
-  "mined": 50,
+  "feeds": 56,
+  "mined": 53,
   "videos": 8,
   "video_titles": [
     "Can a roll of tape really make X-rays?",
@@ -13,15 +13,14 @@
     "The Prusa INDX Is a Mess\u2026 But I Love It!"
   ],
   "supplemental": false,
-  "final_items": 8,
+  "final_items": 7,
   "final_sources": [
-    "10 Things Global News",
-    "Ares Luna",
     "Ars Technica",
-    "MIT Technology Review",
-    "Simon Willison's Weblog",
-    "Veritasium"
+    "EFF",
+    "Hacker News",
+    "Spritefusion / Hacker News",
+    "Works in Progress"
   ],
-  "had_video": true,
-  "run_at": "2026-11-26T20:28:49.392143+00:00"
+  "had_video": false,
+  "run_at": "2026-11-27T20:13:40.945382+00:00"
 }
